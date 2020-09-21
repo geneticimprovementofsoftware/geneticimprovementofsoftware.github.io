@@ -1,10 +1,12 @@
 ---
 layout: default
+active: home
 description: " "
-title: "" 
+title: "Genetic Improvement of Software"
 ---
 
 ## **News**
+
 * We are happy to annnounce that there will be a [GI tutorial at ASE 2020](./gi2020ase.html).
 * Due to ICSE going [virtual](https://conf.researchr.org/home/icse-2020), the [8th GI workshop](./gi2020icse.html) is also going virtual and will be held on July 3rd.
 * We are happy to announce that **Mark Harman (Facebook, University College London)** will give a keynote talk at [the GI workshop at ICSE 2020](./gi2020icse.html).
