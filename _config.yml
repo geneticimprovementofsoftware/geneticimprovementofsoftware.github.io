@@ -1,3 +1,13 @@
 title: Genetic Improvement of Software
 description: The Community Website on Repair and Optimisation of Software using Computational Search
 author:
+baseurl: /geneticimprovementofsoftware
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-seo-tag

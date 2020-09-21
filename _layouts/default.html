@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{% link /css/main.css %}">
   </head>
 
   <body>
     <header>
       <div class="navbar navbar-dark bg-dark navbar-expand-sm">
         <div class="container">
-          <a class="navbar-brand" href="/">GI</a>
+          <a class="navbar-brand" href="{{ "/" | relative_url }}">GI</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,38 +24,38 @@
             <div class="dropdown">
               <a class="nav-link dropdown-toggle{% if page.active == "learn"%} active{% endif %}" href="#" data-toggle="dropdown">Learn</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="/learn/about">About</a>
-                <a class="dropdown-item" href="/learn/success">Success Stories</a>
-                <a class="dropdown-item" href="/learn/review">Living Review</a>
+                <a class="dropdown-item" href="{{ "/learn/about" | relative_url }}">About</a>
+                <a class="dropdown-item" href="{{ "/learn/success" | relative_url }}">Success Stories</a>
+                <a class="dropdown-item" href="{{ "/learn/review" | relative_url }}">Living Review</a>
               </div>
             </div>
             <div class="dropdown">
               <a class="nav-link dropdown-toggle{% if page.active == "use"%} active{% endif %}" href="#" data-toggle="dropdown">Use</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="/use/tutorials">Tutorials</a>
-                <a class="dropdown-item" href="/use/tools">Tools</a>
-                <a class="dropdown-item" href="/use/benchmarks">Benchmarks</a>
+                <a class="dropdown-item" href="{{ "/use/tutorials" | relative_url }}">Tutorials</a>
+                <a class="dropdown-item" href="{{ "/use/tools" | relative_url }}">Tools</a>
+                <a class="dropdown-item" href="{{ "/use/benchmarks" | relative_url }}">Benchmarks</a>
               </div>
             </div>
             <div class="dropdown">
               <span class="nav-link dropdown-toggle{% if page.active == "community"%} active{% endif %}" data-toggle="dropdown">Community</span>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="/community/mailing">Mailing List</a>
-                <a class="dropdown-item" href="/community/members">Members</a>
+                <a class="dropdown-item" href="{{ "/community/mailing" | relative_url }}">Mailing List</a>
+                <a class="dropdown-item" href="{{ "/community/members" | relative_url }}">Members</a>
                 <!-- <div class="dropdown-divider"></div> -->
-                <a class="dropdown-item" href="/community/organisation">Organisation</a>
-                <a class="dropdown-item" href="/community/contribute">Contribute</a>
+                <a class="dropdown-item" href="{{ "/community/organisation" | relative_url }}">Organisation</a>
+                <a class="dropdown-item" href="{{ "/community/contribute" | relative_url }}">Contribute</a>
               </div>
             </div>
             <div class="dropdown">
               <span class="nav-link dropdown-toggle{% if page.active == "events"%} active{% endif %}" data-toggle="dropdown">Events</span>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="/events/calendar">Calendar</a>
-                <a class="dropdown-item" href="/events/gi">GI Events</a>
-                <a class="dropdown-item" href="/events/papers">Workshop Papers</a>
+                <a class="dropdown-item" href="{{ "/events/calendar" | relative_url }}">Calendar</a>
+                <a class="dropdown-item" href="{{ "/events/gi" | relative_url }}">GI Events</a>
+                <a class="dropdown-item" href="{{ "/events/papers" | relative_url }}">Workshop Papers</a>
               </div>
             </div>
-            <a class="nav-link text-warning" href="/events/ase2020">GI@ASE 2020</a>
+            <a class="nav-link text-warning" href="{{ "/events/ase2020" | relative_url }}">GI@ASE 2020</a>
           </nav>
         </div>
       </div>
