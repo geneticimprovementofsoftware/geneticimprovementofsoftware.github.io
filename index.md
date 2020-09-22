@@ -9,7 +9,7 @@ description: The Community Website on Repair and Optimisation of Software using 
 
 {::options parse_block_html="true" /}
 <div class="row">
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-7">
 
 Welcome to the community website on Genetic Improvement.
 
@@ -18,9 +18,8 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 </div>
 
-<div class="col-12 col-md-6">
-<img src="{{ "/workshop_photos/gi2020icse/group_photo_1.png" | relative_url }}" style="width: 13rem;">
-<img src="{{ "/workshop_photos/gi2020icse/group_photo_2.png" | relative_url }}" style="width: 13rem;">
+<div class="col-12 col-md-5">
+<img src="{{ "/workshop_photos/gi2020icse/group_photo_1.png" | relative_url }}" style="width: 100%;">
 <br/>
 <span style="">_GI@ICSE 2020 (virtual event)_</span>
 </div>
