@@ -13,10 +13,6 @@
 
   <body>
     <header>
-      {% if page.title %}<div class="container">
-        <h1>{{ page.title }}</h1>
-        {% if page.description %}<h2>{{ page.description }}</h2>{% endif %}
-      </div>{% endif %}
       <div class="navbar navbar-dark navbar-expand-sm">
         <div class="container">
           <!-- <a class="navbar-brand" href="{{ "/" | relative_url }}">GI</a> -->
@@ -24,7 +20,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <nav class="navbar-nav nav collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="nav-link{% if page.active == "news"%} active{% endif %}" href="{{ "/" | relative_url }}">News</a>
+            <a class="nav-link{% if page.active == "home"%} active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
             <div class="dropdown">
               <a class="nav-link dropdown-toggle{% if page.active == "learn"%} active{% endif %}" href="#" data-toggle="dropdown">Learn</a>
               <div class="dropdown-menu">
@@ -63,6 +59,10 @@
           </nav>
         </div>
       </div>
+      <!-- {% if page.title %}<div class="container"> -->
+      <!--   <h1>{{ page.title }}</h1> -->
+      <!--   <h2>{{ page.description }}</h2> -->
+      <!-- </div>{% endif %} -->
     </header>
 
     <main class="container">

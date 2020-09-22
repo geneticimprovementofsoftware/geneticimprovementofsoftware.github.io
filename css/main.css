@@ -5,13 +5,14 @@ header {
 }
 
 header h1 {
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
     margin-bottom: 0;
 }
 
 header h2 {
     color: rgba(255,255,255,.5);;
-    margin-bottom: 0;
+    padding-bottom: 1rem;
+    /* margin-bottom: 0; */
     font-size: 1.25rem;
 }
 
@@ -25,6 +26,10 @@ main {
 
 .container {
     max-width: 960px;
+}
+
+h1, h2 {
+    font-weight: bolder;
 }
 
 footer {
