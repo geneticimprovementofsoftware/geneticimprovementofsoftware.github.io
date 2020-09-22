@@ -13,14 +13,18 @@
 
   <body>
     <header>
-      <div class="navbar navbar-dark bg-dark navbar-expand-sm">
+      {% if page.title %}<div class="container">
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}<h2>{{ page.description }}</h2>{% endif %}
+      </div>{% endif %}
+      <div class="navbar navbar-dark navbar-expand-sm">
         <div class="container">
-          <a class="navbar-brand" href="{{ "/" | relative_url }}">GI</a>
+          <!-- <a class="navbar-brand" href="{{ "/" | relative_url }}">GI</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
           </button>
           <nav class="navbar-nav nav collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="nav-link{% if page.active == "home"%} active{% endif %}" href="/">Home</a>
+            <a class="nav-link{% if page.active == "news"%} active{% endif %}" href="{{ "/" | relative_url }}">News</a>
             <div class="dropdown">
               <a class="nav-link dropdown-toggle{% if page.active == "learn"%} active{% endif %}" href="#" data-toggle="dropdown">Learn</a>
               <div class="dropdown-menu">
@@ -66,41 +70,37 @@
         {{ content }}
     </main>
 
-    <footer class="navbar-fluid sticky-bottom navbar-dark bg-dark">
-      <div class="container row align-items-start">
-        <div class="col-md-3 col-sm-6">
-          <h1>Learn</h1>
-          <ul>
-            <li><a href="/learn/about">About</a></li>
-            <li><a href="/learn/success">Success Stories</a></li>
-            <li><a href="/learn/review">Living Review</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h1>Use</h1>
-          <ul>
-            <li><a href="/use/tutorials">Tutorials</a></li>
-            <li><a href="/use/tools">List of Tools</a></li>
-            <li><a href="/use/benchmarks">List of Benchmarks</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h1>Community</h1>
-          <ul>
-            <li><a href="/community/mailing">Mailing List</a></li>
-            <li><a href="/community/members">Members</a></li>
-            <li><a href="/community/website">Website</a></li>
-            <li><a href="/community/contribute">Contribute</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <h1>Events</h1>
-          <ul>
-            <li><a class="text-warning" href="/events/">GI@ASE2020</a></li>
-            <li><a href="/events/calendar">Calendar</a></li>
-            <li><a href="/events/gi">GI Events</a></li>
-            <li><a href="/events/papers">Workshop Papers</a></li>
-          </ul>
+    <footer>
+      <div class="navbar-fluid sticky-bottom navbar-dark">
+        <div class="container">
+          <nav class="navbar-nav row align-items-start">
+            <div class="col-md-3 col-sm-6">
+              <h1>Learn</h1>
+              <a class="nav-link" href="/learn/about">About</a>
+              <a class="nav-link" href="/learn/success">Success Stories</a>
+              <a class="nav-link" href="/learn/review">Living Review</a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h1>Use</h1>
+              <a class="nav-link" href="/use/tutorials">Tutorials</a>
+              <a class="nav-link" href="/use/tools">List of Tools</a>
+              <a class="nav-link" href="/use/benchmarks">List of Benchmarks</a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h1>Community</h1>
+              <a class="nav-link" href="/community/mailing">Mailing List</a>
+              <a class="nav-link" href="/community/members">Members</a>
+              <a class="nav-link" href="/community/website">Website</a>
+              <a class="nav-link" href="/community/contribute">Contribute</a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h1>Events</h1>
+              <a class="nav-link text-warning" href="/events/">GI@ASE2020</a>
+              <a class="nav-link" href="/events/calendar">Calendar</a>
+              <a class="nav-link" href="/events/gi">GI Events</a>
+              <a class="nav-link" href="/events/papers">Workshop Papers</a>
+            </div>
+          </nav>
         </div>
       </div>
     </footer>

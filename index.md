@@ -1,8 +1,8 @@
 ---
 layout: default
-active: home
-description: " "
-title: "Genetic Improvement of Software"
+active: news
+title: Genetic Improvement of Software
+description: The Community Website on Repair and Optimisation of Software using Computational Search
 ---
 
 ## **News**
