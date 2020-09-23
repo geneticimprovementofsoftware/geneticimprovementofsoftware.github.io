@@ -13,7 +13,7 @@ banner:
 <div class="row">
 <div class="col-12 col-sm-6 col-md-8">
 
-GI focuses on the repair and optimisation of software using computational search and evolutionary processes <small>_([read more]({{ "/learn/about" | relative_url }}))_</small>, often [outperforming]({{ "/learn/success" | relative_url }}) human developers at these tasks.  
+GI focuses on the repair and optimisation of software using computational search and evolutionary processes, often [outperforming]({{ "/learn/success" | relative_url }}) human developers at these tasks.  <small>_([read more]({{ "/learn/about" | relative_url }}))_</small>  
 We as a community run a workshop and frequent [events]({{ "/events/gi" | relative_url }}) year-round, feel free to meet [us]({{ "/community/members" | relative_url }}) to discuss the future of software engineering!
 
 </div>
