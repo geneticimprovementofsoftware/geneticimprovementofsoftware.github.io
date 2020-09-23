@@ -1,7 +1,5 @@
 ---
-layout: default
 active: learn
-title: "FAQ"
 ---
 
 ## What is Genetic Improvement?

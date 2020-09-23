@@ -1,0 +1,18 @@
+---
+layout: default
+banner: false
+disable_alerts: true
+---
+
+{% if page.banner %}
+<div class="banner">
+  <div class="container">
+    <h1>{{ page.banner.title }}</h1>
+    <h2>{{ page.banner.description }}</h2>
+  </div>
+</div>{% endif %}
+
+<main class="container">
+  {% if page.disable_alerts %}{% else %}{% include alerts.html %}{% endif %}
+  {{ content }}
+</main>
