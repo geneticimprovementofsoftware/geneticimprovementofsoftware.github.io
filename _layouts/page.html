@@ -12,7 +12,7 @@ disable_alerts: true
   </div>
 </div>{% endif %}
 
-<main class="container">
+<main id="content" class="container">
   {% if page.disable_alerts %}{% else %}{% include alerts.html %}{% endif %}
   {{ content }}
 </main>

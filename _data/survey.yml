@@ -1,0 +1,48 @@
+- title: Refining Fitness Functions in Test-Based Program Repair
+  authors:
+    - Justyna Petke
+    - Aymeric Blot
+  venue: "APR@ICSE"
+  year: 2020
+  type: Workshop
+  doi: https://doi.org/10.1145/3387940.3392180
+
+- title: Comparing Genetic Programming Approaches for Non-Functional Genetic Improvement
+  subtitle: "Case Study: Improvement of MiniSAT’s Running Time"
+  authors:
+    - Aymeric Blot
+    - Justyna Petke
+  venue: "EuroGP"
+  year: 2020
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-030-44094-7_5
+  bib: https://dblp.uni-trier.de/rec/conf/eurogp/BlotP20.html?view=bibtex
+
+- title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
+  authors:
+    - Gabin An
+    - Aymeric Blot
+    - Justyna Petke
+    - Shin Yoo
+  venue: "ESEC/FSE"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1145/3338906.3341184
+  bib: https://dblp.uni-trier.de/rec/conf/sigsoft/AnBPY19.html?view=bibtex
+  url: https://github.com/coinse/pyggi
+
+- title: "Genetic Improvement of Software: A Comprehensive Survey"
+  authors:
+    - Justyna Petke
+    - Saemundur O. Haraldsson
+    - Mark Harman
+    - William B. Langdon
+    - David Robert White
+    - John R. Woodward
+  venue: "IEEE TEVC"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.1109/TEVC.2017.2693219
+  tags:
+    - survey
+

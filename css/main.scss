@@ -1,6 +1,19 @@
 ---
 ---
 
+.skiplink {
+    position: absolute;
+    top: 7px;
+    z-index: -1;
+    margin-left: 7px;
+    padding: 7px 7px 7px 7px;
+    background-color: #fff;
+}
+
+.skiplink:focus {
+    z-index: 1;
+}
+
 header {
     color: #FFFFFF;
 }
@@ -49,7 +62,7 @@ footer {
         flex-direction: row;
     }
 
-    .container {
+    nav div {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
