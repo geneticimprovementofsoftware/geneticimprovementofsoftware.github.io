@@ -3,7 +3,7 @@ active: learn
 ---
 
 <div class="alert alert-danger" role="alert">
-  <b>TODO:</b> Rewrite
+  <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
 </div>
 
 ## What is Genetic Improvement?

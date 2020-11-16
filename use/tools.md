@@ -3,7 +3,7 @@ active: use
 ---
 
 <div class="alert alert-danger" role="alert">
-  <b>TODO:</b> Rewrite, give details
+  <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
 </div>
 
 ## What are some examples of GI Frameworks?

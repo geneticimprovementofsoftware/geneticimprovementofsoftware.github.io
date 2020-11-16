@@ -1,22 +1,381 @@
-- title: Refining Fitness Functions in Test-Based Program Repair
+- title: "Fast Generation of Big Random Binary Trees"
+  authors:
+    - William B. Langdon
+  venue: ""
+  year: 2020
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Refining Fitness Functions in Test-Based Program Repair"
   authors:
     - Justyna Petke
     - Aymeric Blot
   venue: "APR@ICSE"
   year: 2020
   type: Workshop
-  doi: https://doi.org/10.1145/3387940.3392180
+  tags:
+    - APR
+    - GP
 
-- title: Comparing Genetic Programming Approaches for Non-Functional Genetic Improvement
-  subtitle: "Case Study: Improvement of MiniSAT’s Running Time"
+- title: "Empirical Analysis of 1-edit Degree Patches in Syntax-Based Automatic Program Repair"
+  authors:
+    - Piotr Dziurzanski
+    - Simos Gerasimou
+    - Dimitris Kolovos
+    - Nicholas Matragkas
+  venue: "CEC"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Genetic Programming"
+  authors:
+    - William B. Langdon
+  venue: "CEC"
+  year: 2020
+  type: Session
+  tags:
+    - GP
+
+- title: "Injecting Shortcuts for Faster Running Java Code"
+  authors:
+    - Alexander E. I. Brownlee
+    - Justyna Petke
+    - Anna F. Rasburn
+  venue: "CEC"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Biases and Differences in Code Review using Medical Imaging and Eye-Tracking: Genders, Humans, and Machines"
+  authors:
+    - Yu Huang
+    - Kevin Leach
+    - Zohreh Sharafi
+    - Nicholas McKay
+    - Tyler Santander
+    - Westley Weimer
+  venue: "ESEC/FSE"
+  year: 2020
+  type: Conference
+  tags:
+    - APR
+    - GP
+
+- title: "Evolutionary Improvement of Assertion Oracles"
+  authors:
+    - Valerio Terragni
+    - Gunel Jahangirova
+    - Paolo Tonella
+    - Mauro Pezze
+  venue: "ESEC/FSE"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Automatically Evolving Lookup Tables for Function Approximation"
+  authors:
+    - Oliver Krauss
+    - William B. Langdon
+  venue: "EuroGP"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Comparing Genetic Programming Approaches for Non-Functional Genetic Improvement Case Study: Improvement of MiniSAT's Running Time"
   authors:
     - Aymeric Blot
     - Justyna Petke
   venue: "EuroGP"
   year: 2020
   type: Conference
-  doi: https://doi.org/10.1007/978-3-030-44094-7_5
-  bib: https://dblp.uni-trier.de/rec/conf/eurogp/BlotP20.html?view=bibtex
+  tags:
+    - GP
+    - PyGGI
+
+- title: "Exploiting Fault Localisation for Efficient Program Repair"
+  authors:
+    - Vesna Nowack
+    - David Bowes
+    - Steve Counsell
+    - Tracy Hall
+    - Saemundur Haraldsson
+    - Emily Winter
+    - John Woodward
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - APR
+    - GP
+
+- title: "GEVO-ML: A Proposal for Optimizing ML Code with Evolutionary Computation"
+  authors:
+    - Jhe-Yu Liou
+    - Xiaodong Wang
+    - Stephanie Forrest
+    - Carole-Jean Wu
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetic Improvement: Taking Real-World Source Code and Improving It Using Genetic Programming"
+  authors:
+    - Samundur O. Haraldsson
+    - John R. Woodward
+    - Markus Wagner
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetic Programming: A Tutorial Introduction"
+  authors:
+    - Una-May O'Reilly
+    - Erik Hemberg
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Hyper-Heuristics Tutorial"
+  authors:
+    - Daniel R. Tauritz
+    - John Woodward
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Novelty Search for Automatic Bug Repair"
+  authors:
+    - Omar M. Villanueva
+    - Leonardo Trujillo
+    - Daniel E Hernandez
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Towards Rigorous Validation of Energy Optimisation Experiments"
+  authors:
+    - Mahmoud A. Bokhari
+    - Brad Alexander
+    - Markus Wagner
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
+  authors:
+    - Daniel Dorfmeister
+    - Oliver Krauss
+  venue: "GECCO 2020 Workshop on Evolutionary Computation Software Systems"
+  year: 2020
+  tags:
+    - GP
+
+- title: "An Annotated Dataset of Stack Overflow Post Edits"
+  authors:
+    - Sebastian Baltes
+    - Markus Wagner
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Checkers: Multi-modal Darwinian API Optimisation"
+  authors:
+    - Santanu Kumar Dash
+    - Fan Wu
+    - Michail Basios
+    - Lingbo Li
+    - Leslie Kanthan
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Evolving sqrt into 1/x via Software Data Maintenance"
+  authors:
+    - William B. Langdon
+    - Oliver Krauss
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
+  authors:
+    - Mahmoud A. Bokhari
+    - Markus Wagner
+    - Brad Alexander
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
+  authors:
+    - Emily Winter
+    - David Bowes
+    - Steve Counsell
+    - Tracy Hall
+    - Saemundur Haraldsson
+    - Vesna Nowack
+    - John Woodward
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+    - survey
+
+- title: "Optimising the Fit of Stack Overflow Code Snippets into Existing Code"
+  authors:
+    - Brittany Reid
+    - Christoph Treude
+    - Markus Wagner
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Stack-Based Genetic Improvement"
+  authors:
+    - Aymeric Blot
+    - Justyna Petke
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - APR
+    - GP
+
+- title: "Synthetic Benchmarks for Genetic Improvement"
+  authors:
+    - Aymeric Blot
+    - Justyna Petke
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Towards Knowledge Guided Genetic Improvement"
+  authors:
+    - Oliver Krauss
+    - Hanspeter Moessenboeck
+    - Michael Affenzeller
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
+  authors:
+    - Mohsen Mosayebi
+    - Manbir Sodhi
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+
+- title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
+  authors:
+    - John Ahlgren
+    - Maria Eugenia Berezin
+    - Kinga Bojarczuk
+    - Elena Dulskyte
+    - Inna Dvortsova
+    - Johann George
+    - Natalija Gucevska
+    - Mark Harman
+    - Ralf Laemmel
+    - Erik Meijer
+    - Silvia Sapora
+    - Justin Spahr-Summers
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  tags:
+    - GP
+    - testing
+
+- title: "Genetic Improvement @ ICSE 2020"
+  authors:
+    - William B. Langdon
+    - Westley Weimer
+    - Justyna Petke
+    - Erik Fredericks
+    - Seongmin Lee
+    - Emily Winter
+    - Michail Basios
+    - Myra B. Cohen
+    - Aymeric Blot
+    - Markus Wagner
+    - Bobby R. Bruce
+    - Shin Yoo
+    - Simos Gerasimou
+    - Oliver Krauss
+    - Yu Huang
+    - Michael Gerten
+  venue: "SEN"
+  year: 2020
+  type: Journal
+  tags:
+    - GP
+
+- title: "Impact of Test Suite Coverage on Overfitting in Genetic Improvement of Software"
+  authors:
+    - Mingyi Lim
+    - Giovani Guizzo
+    - Justyna Petke
+  venue: "SSBSE"
+  year: 2020
+  type: Conference
+  tags:
+    - GP
+
+- title: "The State and Future of Genetic Improvement"
+  authors:
+    - William B. Langdon
+    - Westley Weimer
+    - Christopher Timperley
+    - Oliver Krauss
+    - Zhen Yu Ding
+    - Yiwei Lyu
+    - Nicolas Chausseau
+    - Eric Schulte
+    - Shin Hwei Tan
+    - Kevin Leach
+    - Yu Huang
+    - Gabin An
+  venue: ""
+  year: 2019
+  type: TechReport
+  tags:
+    - GP
 
 - title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
   authors:
@@ -27,22 +386,2144 @@
   venue: "ESEC/FSE"
   year: 2019
   type: Conference
-  doi: https://doi.org/10.1145/3338906.3341184
-  bib: https://dblp.uni-trier.de/rec/conf/sigsoft/AnBPY19.html?view=bibtex
-  url: https://github.com/coinse/pyggi
+  tags:
+    - GP
+    - PyGGI
 
-- title: "Genetic Improvement of Software: A Comprehensive Survey"
+- title: "Evolving AVX512 Parallel C Code using GP"
+  authors:
+    - William B. Langdon
+    - Ronny Lorenz
+  venue: "EuroGP"
+  year: 2019
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
+  authors:
+    - William B. Langdon
+    - Justyna Petke
+  venue: "GECCO"
+  year: 2019
+  type: Conference
+  tags:
+    - GP
+
+- title: "Gin: genetic improvement research made easy"
+  authors:
+    - Alexander E. I. Brownlee
+    - Justyna Petke
+    - Brad Alexander
+    - Earl T. Barr
+    - Markus Wagner
+    - David R. White
+  venue: "GECCO"
+  year: 2019
+  type: Conference
+  tags:
+    - GP
+
+- title: "Teaching GP to program like a human software developer: using perplexity pressure to guide program synthesis approaches"
+  authors:
+    - Dominik Sobania
+    - Franz Rothlauf
+  venue: "GECCO"
+  year: 2019
+  type: Conference
+  tags:
+    - GP
+
+- title: "A Survey of Genetic Improvement Search Spaces"
+  authors:
+    - Justyna Petke
+    - Brad Alexander
+    - Earl T. Barr
+    - Alexander E. I. Brownlee
+    - Markus Wagner
+    - David R. White
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - APR
+    - GP
+    - survey
+
+- title: "Better Code Search and Reuse for Better Program Repair"
+  authors:
+    - Qi Xin
+    - Steven Reiss
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - APR
+    - GP
+
+- title: "Evolutionary Computation for Improving Malware Analysis"
+  authors:
+    - Kevin Leach
+    - Ryan Dougherty
+    - Chad Spensky
+    - Stephanie Forrest
+    - Westley Weimer
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Fuzzy Edit Sequences in Genetic Improvement"
+  authors:
+    - Aymeric Blot
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Algorithms for Affine Transformations to Existential t-Restrictions"
+  authors:
+    - Ryan E. Dougherty
+    - Erin Lanus
+    - Charles J. Colbourn
+    - Stephanie Forrest
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+    - testing
+
+- title: "Genetic Improvement of Data gives double precision invsqrt"
+  authors:
+    - William B. Langdon
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement of GPU Code"
+  authors:
+    - Jhe-Yu Liou
+    - Stephanie Forrest
+    - Carole-Jean Wu
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Industrial experience of Genetic Improvement in Facebook"
+  authors:
+    - Nadia Alshahwan
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair"
+  authors:
+    - Zhen Yu Ding
+    - Yiwei Lyu
+    - Christopher Timperley
+    - Claire Le Goues
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Mining Patterns from Genetic Improvement Experiments"
+  authors:
+    - Oliver Krauss
+    - Hanspeter Moessenboeck
+    - Michael Affenzeller
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "On Adaptive Specialisation in Genetic Improvement"
+  authors:
+    - Aymeric Blot
+    - Justyna Petke
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "The Quest for Non-Functional Property Optimisation in Heterogeneous and Fragmented Ecosystems: a Distributed Approach"
+  authors:
+    - Mahmoud A. Bokhari
+    - Markus Wagner
+    - Brad Alexander
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Toward Human-Like Summaries Generated from Heterogeneous Software Artefacts"
+  authors:
+    - Mahfouth Alghamdi
+    - Christoph Treude
+    - Markus Wagner
+  venue: "GI@GECCO"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+
+- title: "A Journey Among Java Neutral Program Variants"
+  authors:
+    - Nicolas Harrand
+    - Simon Allier
+    - Marcelino Rodriguez-Cancio
+    - Martin Monperrus
+    - Benoit Baudry
+  venue: "GPEM"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+
+- title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
+  authors:
+    - Bobby R. Bruce
+    - Justyna Petke
+    - Mark Harman
+    - Earl T. Barr
+  venue: "IEEE TSE"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+
+- title: "The State and Future of Genetic Improvement"
+  authors:
+    - William B. Langdon
+    - Westley Weimer
+    - Christopher Timperley
+    - Oliver Krauss
+    - Zhen Yu Ding
+    - Yiwei Lyu
+    - Nicolas Chausseau
+    - Eric Schulte
+    - Shin Hwei Tan
+    - Kevin Leach
+    - Yu Huang
+    - Gabin An
+  venue: "SEN"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+
+- title: "Big Data Driven Genetic Improvement for Maintenance of Legacy Software Systems"
+  authors:
+    - William B. Langdon
+  venue: "SIGEVOlution"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+
+- title: "Mark Harman wins both IEEE and ACM Awards in 2019"
+  authors:
+    - Bill Langdon
+  venue: "SIGEVOlution"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+    - testing
+
+- title: "Search-Based Software Engineering Events in 2019"
+  authors:
+    - Giovani Guizzo
+  venue: "SIGEVOlution"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+
+- title: "Software Improvement with Gin: a Case Study"
+  authors:
+    - Justyna Petke
+    - Alexander E. I. Brownlee
+  venue: "SSBSE"
+  year: 2019
+  type: Conference
+  tags:
+    - GP
+
+- title: "Applying Genetic Improvement to a Genetic Programming library in C++"
+  authors:
+    - Victor R. Lopez-Lopez
+    - Leonardo Trujillo
+    - Pierrick Legrand
+  venue: "Soft Computing"
+  year: 2019
+  type: Journal
+  tags:
+    - GP
+
+- title: "Evolving Square Root into Binary Logarithm"
+  authors:
+    - William B. Langdon
+  venue: ""
+  year: 2018
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Genetic Improvement GISMOE Blue Software Tool Demo"
+  authors:
+    - William B. Langdon
+  venue: ""
+  year: 2018
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Otimizacao para Reduzir o Tamanho de Codigo-Fonte Javascript"
+  authors:
+    - Fabio de Almeida Farzat
+  venue: ""
+  year: 2018
+  tags:
+    - GP
+
+- title: "The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement"
+  authors:
+    - Bobby R. Bruce
+  venue: ""
+  year: 2018
+  tags:
+    - GP
+
+- title: "Towards automatic generation and insertion of OpenACC directives"
+  authors:
+    - Bobby R. Bruce
+    - Justyna Petke
+  venue: ""
+  year: 2018
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
+  authors:
+    - Oliver Krauss
+  venue: "15th International Conference on Managed Languages and Runtimes (ManLang'18)"
+  year: 2018
+  tags:
+    - GP
+
+- title: "Investigating the Evolvability of Page Load Time"
+  authors:
+    - Brendan Cody-Kenny
+    - Umberto Manganiello
+    - John Farrelly
+    - Adrian Ronayne
+    - Eoghan Considine
+    - Thomas McGuire
+    - Michael O'Neill
+  venue: "21st International Conference on the Applications of Evolutionary Computation, EvoSET 2018"
+  year: 2018
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
+  authors:
+    - Justyna Petke
+    - Claire Le Goues
+    - Stephanie Forrest
+    - William B. Langdon
+  venue: "Dagstuhl Reports"
+  year: 2018
+  tags:
+    - APR
+    - GP
+
+- title: "Darwinian Data Structure Selection"
+  authors:
+    - Michail Basios
+    - Lingbo Li
+    - Fan Wu
+    - Leslie Kanthan
+    - Earl T. Barr
+  venue: "ESEC/FSE"
+  year: 2018
+  type: Conference
+  tags:
+    - GP
+
+- title: "Evolving better RNAfold structure prediction"
+  authors:
+    - William B. Langdon
+    - Justyna Petke
+    - Ronny Lorenz
+  venue: "EuroGP"
+  year: 2018
+  type: Conference
+  tags:
+    - GP
+
+- title: "A Turing Test for Genetic Improvement"
+  authors:
+    - Afsoon Afzal
+    - Jeremy Lacomis
+    - Claire Le Goues
+    - Christopher Steven Timperley
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "A spoonful of DevOps helps the GI Go Down"
+  authors:
+    - Benoit Baudry
+    - Nicolas Harrand
+    - Eric Schulte
+    - Christopher Timperley
+    - Shin Hwei Tan
+    - Marija Selakovic
+    - Emamurho Ugherughe
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
+  authors:
+    - David Nader-Palacio
+    - Daniel Rodriguez-Cardenas
+    - Jonatan Gomez
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Comparing Line and AST Granularity Level for Program Repair using PyGGI"
+  authors:
+    - Gabin An
+    - Jinhan Kim
+    - Shin Yoo
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+    - PyGGI
+
+- title: "Dynamic Fitness Functions for Genetic Improvement in Compilers and Interpreters"
+  authors:
+    - Oliver Krauss
+    - Hanspeter Moessenboeck
+    - Michael Affenzeller
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+    - testing
+
+- title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
+  authors:
+    - Jason Landsborough
+    - Stephen Harding
+    - Bryan Beabout
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Evolving Software Quality"
+  authors:
+    - Claire Le Goues
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+    - survey
+
+- title: "Experiments in Genetic Divergence for Emergent Systems"
+  authors:
+    - Christopher McGowan
+    - Alexander Wild
+    - Barry Porter
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems"
+  authors:
+    - Jifeng Xuan
+    - Yongfeng Gu
+    - Zhilei Ren
+    - Xiangyang Jia
+    - Qingna Fan
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Learning to Synthesize"
+  authors:
+    - Yingfei Xiong
+    - Bo Wang
+    - Guirong Fu
+    - Linfei Zang
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Neutrality and Epistasis in Program Space"
+  authors:
+    - Joseph Renzullo
+    - Westley Weimer
+    - Melanie Moses
+    - Stephanie Forrest
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+    - testing
+
+- title: "Novelty Search for software improvement of a SLAM system"
+  authors:
+    - Victor R. Lopez-Lopez
+    - Leonardo Trujillo
+    - Pierrick Legrand
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Performance Localisation"
+  authors:
+    - Brendan Cody-Kenny
+    - Michael O'Neill
+    - Stephen Barrett
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Synthesizing Customized Network Protocols using Genetic Programming"
+  authors:
+    - Mohammad Roohitavaf
+    - Ling Zhu
+    - Sandeep Kulkarni
+    - Subir Biswas
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Towards Modular Large-Scale Darwinian Software Improvement"
+  authors:
+    - Michael Orlov
+  venue: "GI@GECCO"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
+  authors:
+    - Nadarajen Veerapen
+    - Gabriela Ochoa
+  venue: "GPEM"
+  year: 2018
+  type: Journal
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Software: a Comprehensive Survey"
   authors:
     - Justyna Petke
     - Saemundur O. Haraldsson
     - Mark Harman
     - William B. Langdon
-    - David Robert White
+    - David R. White
     - John R. Woodward
   venue: "IEEE TEVC"
   year: 2018
   type: Journal
-  doi: https://doi.org/10.1109/TEVC.2017.2693219
   tags:
+    - GP
     - survey
+
+- title: "Specialising Software for Different Downstream Applications Using Genetic Improvement and Code Transplantation"
+  authors:
+    - Justyna Petke
+    - Mark Harman
+    - William B. Langdon
+    - Westley Weimer
+  venue: "IEEE TSE"
+  year: 2018
+  type: Journal
+  tags:
+    - GP
+
+- title: "Genetic Programming + Proof Search = Automatic Improvement"
+  authors:
+    - Zoltan A. Kocsis
+    - Jerry Swan
+  venue: "Journal of Automated Reasoning"
+  year: 2018
+  tags:
+    - GP
+
+- title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
+  authors:
+    - Fabio de Almeida Farzat
+    - Marcio de Oliveira Barros
+    - Guilherme Horta Travassos
+  venue: "Journal of Software Engineering Research and Development"
+  year: 2018
+  tags:
+    - GP
+
+- title: "Guiding Software Evolution with Binary Diversity"
+  authors:
+    - Jeremiah Greer
+    - Samuel Toth
+    - Rashmi Jha
+    - Anca Ralescu
+    - Nan Niu
+    - Mitchell Hirschfeld
+    - David Kapp
+  venue: "NAECON 2018 - IEEE National Aerospace and Electronics Conference"
+  year: 2018
+  tags:
+    - GP
+
+- title: "Dagstuhl: Seminar on Genetic Improvement of Software"
+  authors:
+    - Benjamin Danglot
+  venue: "SIGEVOlution"
+  year: 2018
+  type: Journal
+  tags:
+    - GP
+
+- title: "Genetic Improvement Workshop at ICSE 2018"
+  authors:
+    - Gabin An
+  venue: "SIGEVOlution"
+  year: 2018
+  type: Journal
+  tags:
+    - GP
+
+- title: "Deploying Search Based Software Engineering with Sapienz at Facebook"
+  authors:
+    - Nadia Alshahwan
+    - Xinbo Gao
+    - Mark Harman
+    - Yue Jia
+    - Ke Mao
+    - Alexander Mols
+    - Taijin Tei
+    - Ilya Zorin
+  venue: "SSBSE"
+  year: 2018
+  type: Conference
+  tags:
+    - GP
+
+- title: "EvoIsolator: Evolving Program Slices for Hardware Isolation Based Security"
+  authors:
+    - Mengmei Ye
+    - Myra B. Cohen
+    - Witawas Srisa-an
+    - Sheng Wei
+  venue: "SSBSE"
+  year: 2018
+  type: Conference
+  tags:
+    - GP
+
+- title: "Evolving Better Software Parameters"
+  authors:
+    - William B. Langdon
+    - Justyna Petke
+  venue: "SSBSE"
+  year: 2018
+  type: Conference
+  tags:
+    - GP
+
+- title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
+  authors:
+    - Bobby R. Bruce
+    - Justyna Petke
+    - Mark Harman
+    - Earl T. Barr
+  venue: ""
+  year: 2017
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Automated Improvement of Software Design by Search-Based Refactoring"
+  authors:
+    - Rodrigo Morales Alvarado
+  venue: ""
+  year: 2017
+  tags:
+    - GP
+    - testing
+
+- title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV : A Correction"
+  authors:
+    - Bobby R. Bruce
+  venue: ""
+  year: 2017
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Design of repair operators for automated program repair"
+  authors:
+    - Shin Hwei Tan
+  venue: ""
+  year: 2017
+  tags:
+    - GP
+
+- title: "Evolving better RNAfold C source code"
+  authors:
+    - William B. Langdon
+  venue: ""
+  year: 2017
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Software: From Program Landscapes to the Automatic Improvement of a Live System"
+  authors:
+    - Saemundur Oskar Haraldsson
+  venue: ""
+  year: 2017
+  tags:
+    - GP
+
+- title: "Mutation-Based Genetic Improvement of Software"
+  authors:
+    - Fan Wu
+  venue: ""
+  year: 2017
+  tags:
+    - GP
+    - testing
+
+- title: "Optimizing Tradeoffs of Non-Functional Properties in Software"
+  authors:
+    - Jonathan Dorn
+  venue: ""
+  year: 2017
+
+- title: "Genetically Improved BarraCUDA"
+  authors:
+    - William B. Langdon
+    - Brian Yee Hong Lam
+  venue: "BioData Mining"
+  year: 2017
+  tags:
+    - GP
+
+- title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
+  authors:
+    - Xuan-Bach D. Le
+    - Duc-Hiep Chu
+    - David Lo
+    - Claire Le Goues
+    - Willem Visser
+  venue: "ESEC/FSE"
+  year: 2017
+  type: Conference
+  tags:
+    - APR
+    - GP
+
+- title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
+  authors:
+    - Saemundur O. Haraldsson
+    - John R. Woodward
+    - Alexander E. I. Brownlee
+    - David Cairns
+  venue: "EuroGP"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+
+- title: "Visualising the Search Landscape of the Triangle Program"
+  authors:
+    - William B. Langdon
+    - Nadarajen Veerapen
+    - Gabriela Ochoa
+  venue: "EuroGP"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+    - testing
+
+- title: "Deep Parameter Tuning of Concurrent Divide and Conquer Algorithms in Akka"
+  authors:
+    - David R. White
+    - Leonid Joffe
+    - Edward Bowles
+    - Jerry Swan
+  venue: "EvoAPPS"
+  year: 2017
+  type: Conference
+
+- title: "Polytypic Genetic Programming"
+  authors:
+    - Jerry Swan
+    - Krzysztof Krawiec
+    - Neil Ghani
+  venue: "EvoAPPS"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Computational Biology Software"
+  authors:
+    - William B. Langdon
+    - Karina Zile
+  venue: "Evolutionary Computation in Computational Biology"
+  year: 2017
+  tags:
+    - GP
+
+- title: "A Search for Improved Performance in Regular Expressions"
+  authors:
+    - Brendan Cody-Kenny
+    - Michael Fenton
+    - Adrian Ronayne
+    - Eoghan Considine
+    - Thomas McGuire
+    - Michael O'Neill
+  venue: "GECCO"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+
+- title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
+  authors:
+    - Mahmoud A. Bokhari
+    - Bobby R. Bruce
+    - Brad Alexander
+    - Markus Wagner
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Embedding Genetic Improvement into Programming Languages"
+  authors:
+    - Shin Yoo
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Evolving Software Building Blocks with FINCH"
+  authors:
+    - Michael Orlov
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Fixing Bugs in Your Sleep: How Genetic Improvement Became an Overnight Success"
+  authors:
+    - Saemundur O. Haraldsson
+    - John R. Woodward
+    - Alexander E. I. Brownlee
+    - Kristin Siggeirsdottir
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+    - testing
+
+- title: "From Problem Landscapes to Language Landscapes: Questions in Genetic Improvement"
+  authors:
+    - Brendan Cody-Kenny
+    - Michael Fenton
+    - Michael O'Neill
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "GI in No Time"
+  authors:
+    - David R. White
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Gaining Insights into Traffic Data through Genetic Improvement"
+  authors:
+    - Aniko Ekart
+    - Alina Patelli
+    - Victoria Lush
+    - Elisabeth Ilie-Zudor
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Runtime in a Bioinformatics Application"
+  authors:
+    - Saemundur O. Haraldsson
+    - John R. Woodward
+    - Alexander E. I. Brownlee
+    - Albert V. Smith
+    - Vilmundur Gudnason
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Improving SSE Parallel Code with Grow and Graft Genetic Programming"
+  authors:
+    - William B. Langdon
+    - Ronny Lorenz
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Learning from Super-Mutants"
+  authors:
+    - Jason Landsborough
+    - Stephen Harding
+    - Sunny Fugate
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Modelling Genetic Improvement Landscapes with Local Optima Networks"
+  authors:
+    - Nadarajen Veerapen
+    - Fabio Daolio
+    - Gabriela Ochoa
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "New Operators for Non-functional Genetic Improvement"
+  authors:
+    - Justyna Petke
+  venue: "GI@GECCO"
+  year: 2017
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement of GPU Software"
+  authors:
+    - William B. Langdon
+    - Brian Yee Hong Lam
+    - Marc Modat
+    - Justyna Petke
+    - Mark Harman
+  venue: "GPEM"
+  year: 2017
+  type: Journal
+  tags:
+    - GP
+    - survey
+
+- title: "Online Genetic Improvement on the java virtual machine with ECSELR"
+  authors:
+    - Kwaku Yeboah-Antwi
+    - Benoit Baudry
+  venue: "GPEM"
+  year: 2017
+  type: Journal
+  tags:
+    - GP
+
+- title: "Preface to the Special Issue on Genetic Improvement"
+  authors:
+    - Justyna Petke
+  venue: "GPEM"
+  year: 2017
+  type: Journal
+  tags:
+    - GP
+
+- title: "Trading between quality and non-functional properties of median filter in embedded systems"
+  authors:
+    - Zdenek Vasicek
+    - Vojtech Mrazek
+  venue: "GPEM"
+  year: 2017
+  type: Journal
+  tags:
+    - GP
+
+- title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
+  authors:
+    - Alexander Edward Ian Brownlee
+    - Nathan Burles
+    - Jerry Swan
+  venue: "IEEE TETCI"
+  year: 2017
+  type: Journal
+  tags:
+    - GP
+
+- title: "Some Remarks on Code Evolution with Genetic Programming"
+  authors:
+    - Wolfgang Banzhaf
+  venue: "Inspired by Nature: Essays Presented to Julian F. Miller on the Occasion of his 60th Birthday"
+  year: 2017
+  tags:
+    - GP
+
+- title: "PyGGI: Python General framework for Genetic Improvement"
+  authors:
+    - Gabin An
+    - Jinhan Kim
+    - Seongmin Lee
+    - Shin Yoo
+  venue: "KSC"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+    - PyGGI
+
+- title: "Genetic Improvement in Code Interpreters and Compilers"
+  authors:
+    - Oliver Krauss
+  venue: "Proceedings Companion of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
+  year: 2017
+  tags:
+    - GP
+
+- title: "Inferring Automatic Test Oracles"
+  authors:
+    - William B. Langdon
+    - Shin Yoo
+    - Mark Harman
+  venue: "SBST"
+  year: 2017
+  type: Conference
+  tags:
+    - testing
+
+- title: "The Use of Automatic Test Data Generation for Genetic Improvement in a Live System"
+  authors:
+    - Saemundur Oskar Haraldsson
+    - John R. Woodward
+    - Alexander E. I. Brownlee
+  venue: "SBST"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+    - testing
+
+- title: "Genetic Improvement Workshop at GECCO 2017"
+  authors:
+    - Brendan Cody-Kenny
+  venue: "SIGEVOlution"
+  year: 2017
+  type: Journal
+  tags:
+    - GP
+
+- title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
+  authors:
+    - Christopher Steven Timperley
+    - Susan Stepney
+    - Claire Le Goues
+  venue: "SSBSE"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+
+- title: "MuSynth: Program Synthesis via Code Reuse and Code Manipulation"
+  authors:
+    - Vineeth Kashyap
+    - Rebecca Swords
+    - Eric Schulte
+    - David Melski
+  venue: "SSBSE"
+  year: 2017
+  type: Conference
+  tags:
+    - GP
+
+- title: "Optimising Darwinian Data Structures on Google Guava"
+  authors:
+    - Michail Basios
+    - Lingbo Li
+    - Fan Wu
+    - Leslie Kanthan
+    - Earl T. Barr
+  venue: "SSBSE"
+  year: 2017
+  type: Conference
+
+- title: "Computers will soon be able to fix themselves - are IT departments for the chop?"
+  authors:
+    - Saemundur Haraldsson
+    - Alexander E. I. Brownlee
+    - John R. Woodward
+  venue: "The Conversation"
+  year: 2017
+  tags:
+    - GP
+
+- title: "Benchmarking BarraCUDA on Epigenetic DNA and nVidia Pascal GPUs"
+  authors:
+    - William B. Langdon
+  venue: ""
+  year: 2016
+  type: TechReport
+
+- title: "Multi-Dimensional Analysis of Software Power Consumptions in Multi-Core Architectures"
+  authors:
+    - Maxime Colmant
+  venue: ""
+  year: 2016
+
+- title: "The Genetic Improvement Fitness Landscape"
+  authors:
+    - William B. Langdon
+  venue: ""
+  year: 2016
+  type: TechReport
+  tags:
+    - GP
+
+- title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
+  authors:
+    - Kate Highnam
+    - Kevin Angstadt
+    - Kevin Leach
+    - Westley Weimer
+    - Aaron Paulos
+    - Patrick Hurley
+  venue: "2016 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshop (DSN-W)"
+  year: 2016
+  tags:
+    - GP
+
+- title: "Genetic Improvement for Approximate Computing"
+  authors:
+    - Lukas Sekanina
+    - Zdenek Vasicek
+  venue: "2nd Workshop On Approximate Computing (WAPCO 2016)"
+  year: 2016
+  tags:
+    - GP
+
+- title: "Automatically scheduling halide image processing pipelines"
+  authors:
+    - Ravi Teja Mullapudi
+    - Andrew Adams
+    - Dillon Sharlet
+    - Jonathan Ragan-Kelley
+    - Kayvon Fatahalian
+  venue: "ACM Transactions on Graphics"
+  year: 2016
+
+- title: "Connecting Automatic Parameter Tuning, Genetic Programming as a Hyper-heuristic, and Genetic Improvement Programming"
+  authors:
+    - John R. Woodward
+    - Colin G. Johnson
+    - Alexander E. I. Brownlee
+  venue: "GECCO"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "Visualisation and Analysis of Genetic Records Produced by Cartesian Genetic Programming"
+  authors:
+    - Lukas Sekanina
+    - Vlastimil Kapusta
+  venue: "GECCO"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "Automatic Improvement of Apache Spark Queries using Semantics-preserving Program Reduction"
+  authors:
+    - Zoltan A. Kocsis
+    - John H. Drake
+    - Douglas Carson
+    - Jerry Swan
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Benchmarking Genetically Improved BarraCUDA on Epigenetic Methylation NGS datasets and nVidia GPUs"
+  authors:
+    - William B. Langdon
+    - Albert Vilella
+    - Brian Yee Hong Lam
+    - Justyna Petke
+    - Mark Harman
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Evals is not enough: why we should report wall-clock time"
+  authors:
+    - John Woodward
+    - Alexander E. I. Brownlee
+    - Colin Johnson
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Evolutionary optimization of compiler flag selection by learning and exploiting flags interactions"
+  authors:
+    - Unai Garciarena
+    - Roberto Santana
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "GP vs GI: if you can't beat them, join them"
+  authors:
+    - John Woodward
+    - Colin Johnson
+    - Alexander E. I. Brownlee
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement 2016 Chairs' Welcome and Organization"
+  authors:
+    - Westley Weimer
+    - Justyna Petke
+    - David R. White
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement for Code Obfuscation"
+  authors:
+    - Justyna Petke
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Programming: From design to improved implementation"
+  authors:
+    - Victor R. Lopez-Lopez
+    - Leonardo Trujillo
+    - Pierrick Legrand
+    - Gustavo Olague
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Guiding Unconstrained Genetic Improvement"
+  authors:
+    - David White
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Optimising Energy Consumption Heuristically on Android Mobile Phones"
+  authors:
+    - Mahmoud Bokhari
+    - Markus Wagner
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Speeding up the proof strategy in formal software verification"
+  authors:
+    - Markus Wagner
+  venue: "GI@GECCO"
+  year: 2016
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
+  authors:
+    - William B. Langdon
+    - Gabriela Ochoa
+  venue: "Key Challenges and Future Directions of Evolutionary Computation"
+  year: 2016
+  tags:
+    - GP
+
+- title: "A General-Purpose Framework for Genetic Improvement"
+  authors:
+    - Francesco Marino
+    - Giovanni Squillero
+    - Alberto Tonda
+  venue: "PPSN"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "Optimising Quantisation Noise in Energy Measurement"
+  authors:
+    - William B. Langdon
+    - Justyna Petke
+    - Bobby R. Bruce
+  venue: "PPSN"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "Fitness Landscape of the Triangle Program"
+  authors:
+    - William B. Langdon
+    - Mark Harman
+  venue: "PPSN-2016 Workshop on Landscape-Aware Heuristic Search"
+  year: 2016
+  tags:
+    - GP
+    - testing
+
+- title: "A Report on the Genetic Improvement Workshop@GECCO 2016"
+  authors:
+    - Bobby R. Bruce
+  venue: "SIGEVOlution"
+  year: 2016
+  type: Journal
+  tags:
+    - GP
+
+- title: "API-Constrained Genetic Improvement"
+  authors:
+    - William B. Langdon
+    - David R. White
+    - Mark Harman
+    - Yue Jia
+    - Justyna Petke
+  venue: "SSBSE"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "Amortised Deep Parameter Optimisation of GPGPU Work Group Size for OpenCV"
+  authors:
+    - Jeongju Sohn
+    - Seongmin Lee
+    - Shin Yoo
+  venue: "SSBSE"
+  year: 2016
+  type: Conference
+
+- title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV"
+  authors:
+    - Bobby R. Bruce
+    - Jonathan M. Aitken
+    - Justyna Petke
+  venue: "SSBSE"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "HOMI: Searching Higher Order Mutants For Software Improvement"
+  authors:
+    - Fan Wu
+    - Mark Harman
+    - Yue Jia
+    - Jens Krinke
+  venue: "SSBSE"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+
+- title: "Improved crossover operators for genetic programming for program repair"
+  authors:
+    - Vinicius Paulo L. Oliveira
+    - Eduardo F. D. Souza
+    - Claire Le Goues
+    - Celso G. Camilo-Junior
+  venue: "SSBSE"
+  year: 2016
+  type: Conference
+  tags:
+    - APR
+    - GP
+
+- title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
+  authors:
+    - Weilin Xu
+    - Yanjun Qi
+    - David Evans
+  venue: "The Network and Distributed System Security Symposium 2016"
+  year: 2016
+  tags:
+    - GP
+
+- title: "Genetic Programming Bias with Software Performance Analysis"
+  authors:
+    - Brendan Cody-Kenny
+  venue: ""
+  year: 2015
+  tags:
+    - GP
+
+- title: "Genetically Improved BarraCUDA"
+  authors:
+    - William B. Langdon
+    - Brian Yee Hong Lam
+  venue: ""
+  year: 2015
+  type: TechReport
+
+- title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
+  authors:
+    - Nam Ho
+    - Abdullah Fathi Ahmed
+    - Paul Kaufmann
+    - Marco Platzner
+  venue: "2015 NASA/ESA Conference on Adaptive Hardware and Systems (AHS)"
+  year: 2015
+  tags:
+    - GP
+
+- title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
+  authors:
+    - Mark Harman
+    - Yue Jia
+    - Yuanyuan Zhang
+  venue: "8th IEEE International Conference on Software Testing, Verification and Validation, ICST 2015"
+  year: 2015
+  tags:
+    - GP
+    - testing
+
+- title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
+  authors:
+    - Ravi Teja Mullapudi
+    - Vinay Vasista
+    - Uday Bondhugula
+  venue: "ACM SIGPLAN Notices"
+  year: 2015
+
+- title: "Performance of Genetic Programming Optimised Bowtie2 on Genome Comparison and Analytic Testing (GCAT) Benchmarks"
+  authors:
+    - William B. Langdon
+  venue: "BioData Mining"
+  year: 2015
+  tags:
+    - GP
+    - testing
+
+- title: "Software is Not Fragile"
+  authors:
+    - William B. Langdon
+    - Justyna Petke
+  venue: "Complex Systems Digital Campus E-conference, CS-DC'15"
+  year: 2015
+  tags:
+    - GP
+
+- title: "Deep Parameter Optimisation"
+  authors:
+    - Fan Wu
+    - Westley Weimer
+    - Mark Harman
+    - Yue Jia
+    - Jens Krinke
+  venue: "GECCO"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Improving CUDA DNA Analysis Software with Genetic Programming"
+  authors:
+    - William B. Langdon
+    - Brian Yee Hong Lam
+    - Justyna Petke
+    - Mark Harman
+  venue: "GECCO"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+    - testing
+
+- title: "Reducing Energy Consumption Using Genetic Improvement"
+  authors:
+    - Bobby R. Bruce
+    - Justyna Petke
+    - Mark Harman
+  venue: "GECCO"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Embedded Dynamic Improvement"
+  authors:
+    - Nathan Burles
+    - Jerry Swan
+    - Edward Bowles
+    - Alexander E. I. Brownlee
+    - Zoltan A. Kocsis
+    - Nadarajen Veerapen
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Embedding Adaptivity in Software Systems using the ECSELR framework"
+  authors:
+    - Kwaku Yeboah-Antwi
+    - Benoit Baudry
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Energy Optimisation via Genetic Improvement A SBSE technique for a new era in Software Development"
+  authors:
+    - Bobby R. Bruce
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Evolutionary Approximation of Software for Embedded Systems: Median Function"
+  authors:
+    - Vojtech Mrazek
+    - Zdenek Vasicek
+    - Lukas Sekanina
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Fitness as Task-relevant Information Accumulation"
+  authors:
+    - Colin G. Johnson
+    - John R. Woodward
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "GI4GI: Improving Genetic Improvement Fitness Functions"
+  authors:
+    - Mark Harman
+    - Justyna Petke
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement 2015 Chairs' Welcome"
+  authors:
+    - William B. Langdon
+    - Justyna Petke
+    - David R. White
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement for Software Product Lines: An Overview and a Roadmap"
+  authors:
+    - Roberto E. Lopez-Herrejon
+    - Lukas Linsbauer
+    - Wesley K. G. Assuncao
+    - Stefan Fischer
+    - Silvia R. Vergilio
+    - Alexander Egyed
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Energy Usage is only as Reliable as the Measurements are Accurate"
+  authors:
+    - Saemundur O. Haraldsson
+    - John R. Woodward
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetic Improvement using Higher Order Mutation"
+  authors:
+    - Yue Jia
+    - Fan Wu
+    - Mark Harman
+    - Jens Krinke
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Grow and Graft a better CUDA pknotsRG for RNA pseudoknot free energy calculation"
+  authors:
+    - William B. Langdon
+    - Mark Harman
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Removing the Kitchen Sink from Software"
+  authors:
+    - Jason Landsborough
+    - Stephen Harding
+    - Sunny Fugate
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Repairing COTS Router Firmware without Access to Source Code or Test Suites: A Case Study in Evolutionary Software Repair"
+  authors:
+    - Eric Schulte
+    - Westley Weimer
+    - Stephanie Forrest
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Rethinking Genetic Improvement Programming"
+  authors:
+    - David R. White
+    - Jeremy Singer
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
+  authors:
+    - Brendan Cody-Kenny
+    - Edgar Galvan Lopez
+    - Stephen Barrett
+  venue: "GI@GECCO"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Genetically Improved Software"
+  authors:
+    - William B. Langdon
+  venue: "Handbook of Genetic Programming Applications"
+  year: 2015
+  tags:
+    - GP
+
+- title: "Optimising Existing Software with Genetic Programming"
+  authors:
+    - William B. Langdon
+    - Mark Harman
+  venue: "IEEE TEVC"
+  year: 2015
+  type: Journal
+  tags:
+    - GP
+
+- title: "Automated Software Transplantation"
+  authors:
+    - Earl T. Barr
+    - Mark Harman
+    - Yue Jia
+    - Alexandru Marginean
+    - Justyna Petke
+  venue: "International Symposium on Software Testing and Analysis, ISSTA 2015"
+  year: 2015
+  tags:
+    - GP
+
+- title: "Amortised Optimisation of Non-functional Properties in Production Environments"
+  authors:
+    - Shin Yoo
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Automated Transplantation of Call Graph and Layout Features into Kate"
+  authors:
+    - Alexandru Marginean
+    - Earl T. Barr
+    - Mark Harman
+    - Yue Jia
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Software for Multiple Objectives"
+  authors:
+    - William B. Langdon
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Grow and Serve: Growing Django Citation Services Using SBSE"
+  authors:
+    - Yue Jia
+    - Mark Harman
+    - William B. Langdon
+    - Alexandru Marginean
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
+  authors:
+    - Nathan Burles
+    - Edward Bowles
+    - Alexander E. I. Brownlee
+    - Zoltan A. Kocsis
+    - Jerry Swan
+    - Nadarajen Veerapen
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "Specialising Guava's Cache to Reduce Energy Consumption"
+  authors:
+    - Nathan Burles
+    - Edward Bowles
+    - Bobby R. Bruce
+    - Komsan Srivisut
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  tags:
+    - GP
+
+- title: "How computers are learning to make human software work more efficiently"
+  authors:
+    - John R. Woodward
+    - Justyna Petke
+    - William Langdon
+  venue: "The Conversation"
+  year: 2015
+  tags:
+    - GP
+
+- title: "App Store Mining and Analysis"
+  authors:
+    - Afnan Al-Subaihin
+    - Anthony Finkelstein
+    - Mark Harman
+    - Yue Jia
+    - William Martin
+    - Federica Sarro
+    - Yuanyuan Zhang
+  venue: "Third International Workshop on Software Development Lifecycle for Mobile, DeMobile 2015"
+  year: 2015
+  tags:
+    - GP
+
+- title: "Gen-O-Fix: An embeddable framework for Dynamic Adaptive Genetic Improvement Programming"
+  authors:
+    - Jerry Swan
+    - Michael G. Epitropakis
+    - John R. Woodward
+  venue: ""
+  year: 2014
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Programs"
+  authors:
+    - William B. Langdon
+  venue: "16th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC 2014)"
+  year: 2014
+  tags:
+    - GP
+
+- title: "Search based software engineering for software product line engineering: a survey and directions for future work"
+  authors:
+    - Mark Harman
+    - Yue Jia
+    - Jens Krinke
+    - William B. Langdon
+    - Justyna Petke
+    - Yuanyuan Zhang
+  venue: "18th International Software Product Line, SPLC 2014"
+  year: 2014
+  tags:
+    - GP
+    - survey
+
+- title: "Quality Assurance for Self-Adaptive, Self-Organising Systems (Message from the Workshop Organisers)"
+  authors:
+    - Benedikt Eberhardinger
+    - Wolfgang Reif
+    - Franz Wotawa
+    - Tom Holvoet
+  venue: "2014 IEEE Eighth International Conference on Self-Adaptive and Self-Organizing Systems Workshops"
+  year: 2014
+  tags:
+    - GP
+
+- title: "Genetic Improvement for Adaptive Software Engineering"
+  authors:
+    - Mark Harman
+    - Yue Jia
+    - William B. Langdon
+    - Justyna Petke
+    - Iman Hemati Moghadam
+    - Shin Yoo
+    - Fan Wu
+  venue: "9th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS'14)"
+  year: 2014
+  tags:
+    - GP
+
+- title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
+  authors:
+    - Saemundur O. Haraldsson
+    - John R. Woodward
+  venue: "ECADA@GECCO"
+  year: 2014
+  type: Workshop
+  tags:
+    - GP
+
+- title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
+  authors:
+    - Justyna Petke
+    - Mark Harman
+    - William B. Langdon
+    - Westley Weimer
+  venue: "EuroGP"
+  year: 2014
+  type: Conference
+  tags:
+    - GP
+
+- title: "Improving 3D Medical Image Registration CUDA Software with Genetic Programming"
+  authors:
+    - William B. Langdon
+    - Marc Modat
+    - Justyna Petke
+    - Mark Harman
+  venue: "GECCO"
+  year: 2014
+  type: Conference
+  tags:
+    - GP
+
+- title: "Post-compiler Software Optimization for Reducing Energy"
+  authors:
+    - Eric Schulte
+    - Jonathan Dorn
+    - Stephen Harding
+    - Stephanie Forrest
+    - Westley Weimer
+  venue: "Proceedings of the 19th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS'14"
+  year: 2014
+  tags:
+    - GP
+
+- title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
+  authors:
+    - Benoit Baudry
+    - Simon Allier
+    - Martin Monperrus
+  venue: "Proceedings of the 2014 International Symposium on Software Testing and Analysis, ISSTA 2014"
+  year: 2014
+  tags:
+    - GP
+
+- title: "Babel Pidgin: SBSE Can Grow and Graft Entirely New Functionality into a Real World System"
+  authors:
+    - Mark Harman
+    - Yue Jia
+    - William B. Langdon
+  venue: "SSBSE"
+  year: 2014
+  type: Conference
+  tags:
+    - GP
+
+- title: "Repairing and Optimizing Hadoop hashCode Implementations"
+  authors:
+    - Zoltan A. Kocsis
+    - Geoff Neumann
+    - Jerry Swan
+    - Michael G. Epitropakis
+    - Alexander E. I. Brownlee
+    - Saemundur O. Haraldsson
+    - Edward Bowles
+  venue: "SSBSE"
+  year: 2014
+  type: Conference
+  tags:
+    - GP
+
+- title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
+  authors:
+    - Zoltan A. Kocsis
+    - Jerry Swan
+  venue: "Semantic Methods in Genetic Programming"
+  year: 2014
+  tags:
+    - GP
+
+- title: "Genetic Programming for Reverse Engineering"
+  authors:
+    - Mark Harman
+    - William B. Langdon
+    - Westley Weimer
+  venue: "20th Working Conference on Reverse Engineering (WCRE 2013)"
+  year: 2013
+  tags:
+    - GP
+
+- title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
+  authors:
+    - Yuhua Qi
+    - Xiaoguang Mao
+    - Yan Lei
+  venue: "29th IEEE International Conference on Software Maintenance, ICSM 2013"
+  year: 2013
+  tags:
+    - APR
+    - GP
+    - testing
+
+- title: "Input-aware Auto-tuning for Directive-based GPU Programming"
+  authors:
+    - Alberto Magni
+    - Dominik Grewe
+    - Nick Johnson
+  venue: "GI@GPGPU"
+  year: 2013
+
+- title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
+  authors:
+    - Jonathan Ragan-Kelley
+    - Connelly Barnes
+    - Andrew Adams
+    - Sylvain Paris
+    - Fredo Durand
+    - Saman Amarasinghe
+  venue: "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+  year: 2013
+  tags:
+    - GP
+
+- title: "Applying Genetic Improvement to MiniSAT"
+  authors:
+    - Justyna Petke
+    - William B. Langdon
+    - Mark Harman
+  venue: "SSBSE"
+  year: 2013
+  type: Conference
+  tags:
+    - GP
+
+- title: "Genetically Improving 50000 Lines of C++"
+  authors:
+    - William B. Langdon
+    - Mark Harman
+  venue: ""
+  year: 2012
+  type: TechReport
+  tags:
+    - GP
+
+- title: "Genetic Improvement of Programs"
+  authors:
+    - William B. Langdon
+  venue: "18th International Conference on Soft Computing, MENDEL 2012"
+  year: 2012
+  tags:
+    - GP
+
+- title: "Evolutionary Improvement of Programs"
+  authors:
+    - David R. White
+    - Andrea Arcuri
+    - John A. Clark
+  venue: "IEEE TEVC"
+  year: 2011
+  type: Journal
+  tags:
+    - GP
+
+- title: "EvoCaches: Application-specific Adaptation of Cache Mappings"
+  authors:
+    - Paul Kaufmann
+    - Christian Plessl
+    - Marco Platzner
+  venue: "2009 NASA/ESA Conference on Adaptive Hardware and Systems"
+  year: 2009
+  tags:
+    - GP
+
+- title: "Evolutionary Software Improvement for Instruction Set Meta-evolution"
+  authors:
+    - Michael Orlov
+    - Moshe Sipper
+  venue: "WSSEC 2008 Workshop and Summer School on Evolutionary Computing"
+  year: 2008
+  tags:
+    - GP
+
+- title: "Genetic Programming as an Explorative Tool in Early Software Development Phases"
+  authors:
+    - Robert Feldt
+  venue: "Proceedings of the 1st International Workshop on Soft Computing Applied to Software Engineering"
+  year: 1999
+  tags:
+    - GP
+
+- title: "Evolutionary Algorithms for Automatic Parallelization"
+  authors:
+    - Kenneth Peter Williams
+  venue: ""
+  year: 1998
+  tags:
+    - GP
+
+- title: "Genetic compilers: A new technique for automatic parallelisation"
+  authors:
+    - Kenneth P. Williams
+    - Shirley A. Williams
+  venue: "2nd European School of Parallel Programming Environments (ESPPE'96)"
+  year: 1996
+
+- title: "Automatic conversion of programs from serial to parallel using Genetic Programming - The Paragen System"
+  authors:
+    - Paul Walsh
+    - Conor Ryan
+  venue: "Proceedings of ParCo'95"
+  year: 1995
+  tags:
+    - GP
+
+- title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
+  authors:
+    - Yuan Yuan2
+    - Wolfgang Banzhaf
+  venue: "IEEE TSE"
+  year: 
+  type: Journal
+  tags:
+    - GP
+
+- title: "Evolving JavaScript code to reduce load time"
+  authors:
+    - Fabio de A. Farzat
+    - Marcio de O. Barros
+    - Guilherme H. Travassos
+  venue: "IEEE TSE"
+  year: 
+  type: Journal
+  tags:
+    - GP
 

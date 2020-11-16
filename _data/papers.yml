@@ -1,0 +1,661 @@
+- name: 9th International Workshop
+  abbrv: GI@GECCO 2020
+  anchor: gecco2020
+  papers:
+    - title: An Annotated Dataset of Stack Overflow Post Edits
+      authors:
+        - name: Sebastian Baltes
+        - name: Markus Wagner
+
+    - title: Optimising the Fit of Stack Overflow Code Snippets into Existing Code
+      authors:
+        - name: Brittany Reid
+        - name: Christoph Treude
+        - name: Markus Wagner
+
+    - title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
+      authors:
+        - name: Mamoud Bokhari
+        - name: Markus Wagner
+        - name: Brad Alexander
+
+    - title: Evolving sqrt into 1/x via software data maintenance
+      authors:
+        - name: Wiliam Langdon
+        - name: Oliver Krauss
+
+    - title: Tuning Genetic Algorithm Parameters using Design of Experiments
+      authors:
+        - name: Mohsen Mosayebi
+        - name: Manbir Sodhi
+
+
+- name: 8th International Workshop
+  abbrv: GI@ICSE 2020
+  anchor: icse2020
+  papers:
+
+    - title: Human Factors in the Study of Automatic Software Repair
+      authors:
+        - name: Emily Winter
+        - name: David Bowes Steve Counsell
+        - name: Tracy Hall
+        - name: Saemundur Haraldsson
+        - name: Vesna Nowack
+        - name: John Woodward
+      pdf: /paper_pdfs/gi2020icse/human_factors_in_the_study_of_automatic_software_repair.pdf
+      slides: /slides/gi2020icse/human_factors_slides.pdf
+      abstract: "Automatic software repair represents a significant development in software engineering, promising considerable potential change to the working procedures and practices of software engineers, developers, and testers. Technical advances within this domain have been the focus of many recent publications. However, despite the simultaneous rising prominence of studies that consider the role of ‘human factors' within software engineering, there has not been an equivalent growth of studies of human factors within the domain of automatic software repair. This short position paper presents the case for increased research in this area and suggests three key focuses and approaches for a future research agenda. These are: considerations that go beyond the current focus on the usability
+of automatic software repair tools; longitudinal studies; and the use of a wide range of appropriate social research methods, not just surveys. All three of these position industry-based software engineers not just as providers of feedback on automatic software repair tools but as valuable participants in the shaping of these technologies, allowing for the development of tools that meet
+developer and industry needs, as well as allaying any concerns."
+
+    - title: Synthetic Benchmarks for Genetic Improvement
+      authors:
+        - name: Aymeric Blot
+        - name: Justyna Petke
+      pdf: /paper_pdfs/gi2020icse/synthetic_benchmarks_for_genetic_improvement.pdf
+      slides: /slides/gi2020icse/synthetic_benchmarks_slides.pdf
+      abstract: "Genetic improvement (GI) uses automated search to find improved versions of existing software.
+If over the years the potential of many GI approaches have been demonstrated, the intrinsic cost of evaluating real-world software makes comparing these approaches in large-scale meta-analyses very  expensive.
+We propose and describe a method to construct synthetic GI benchmarks, to circumvent this bottleneck and enable much faster quality assessment of GI approaches."
+
+    - title: Stack-Based Genetic Improvement
+      authors:
+        - name: Aymeric Blot
+        - name: Justyna Petke
+      pdf: /paper_pdfs/gi2020icse/stack_based_genetic_improvement.pdf
+      slides: /slides/gi2020icse/stack_based_slides.pdf
+      abstract: "Genetic improvement (GI) uses automated search to find improved versions of existing software.
+If originally GI directly evolved populations of software, most GI work nowadays use a solution representation based on a list of mutations.
+This representation however has some limitations, notably in how genetic material can be recombined.
+We introduce a novel stack-based representation and discuss its possible benefits."
+
+    - title: "Checkers: Multi-modal Darwinian API Optimisation"
+      authors:
+        - name: Santanu Kumar Dash
+        - name: Fan Wu
+        - name: Michail Basios
+        - name: Lingbo Li
+        - name: Leslie Kanthan
+      pdf: /paper_pdfs/gi2020icse/checkers.pdf
+      slides: /slides/gi2020icse/checkers_slides.pdf
+      abstract: "Advent of microservices has increased the popularity of the API-first design principles. Developers have been focusing on concretising the API to a system before building the system. An API-first approach assumes that the API will be correctly used. Inevitably, most developers, even experienced ones, end-up writing sub-optimal software because of using APIs incorrectly. In this paper, we discuss an automated approach for exploring API equivalence and a framework to synthesise semantically equivalent programs. Unlike existing approaches to API transplantation, we propose an amorphous or formless approach to software translation in which a single API could potentially be replaced by a synthesised sequence of APIs which ensures type progress. Our search is guided by the non-functional goals for the software, a type-theoretic notion of progress and an automatic multi-modal embedding of the API from its documentation and code analysis."
+
+    - title: Towards Knowledge Guided Genetic Improvement
+      authors:
+        - name: Oliver Krauss
+        - name: Hanspeter Mössenböck
+        - name: Michael Affenzeller
+      pdf: /paper_pdfs/gi2020icse/towards_knowledge_guided_genetic_improvement.pdf
+      slides: /slides/gi2020icse/towards_knowledge_guided_slides.pdf
+      abstract: "We outline a combination of Grammar Guided Genetic Programming with Tree Genetic Programming. Instead of utilizing a grammar directly, an operator graph based on that grammar is created, that is responsible for producing abstract syntax trees. Each operator contains knowledge about the grammar symbol it represents and returns only trees valid according to user-defined restrictions such as depth, complexity and approximated run-time performance. Initial Results show that the approach reduces invalid individuals in an evolutionary run, while supporting the extension towards further non-functional features."
+
+
+- name: 7th International Workshop
+  abbrv: GI@GECCO 2019
+  anchor: gecco2019
+  papers:
+
+    - title: Toward human-like summaries generated from heterogeneous software artefacts
+      authors:
+        - name: Mahfouth Alghamdi
+        - name: Christoph Treude
+        - name: Markus Wagner
+
+    - title: On adaptive specialisation in genetic improvement
+      authors:
+        - name: Aymeric Blot
+        - name: Justyna Petke
+
+    - title: "The quest for non-functional property optimisation in heterogeneous and fragmented ecosystems: a distributed approach"
+      authors:
+        - name: Mahmoud A. Bokhari
+        - name: Markus Wagner
+        - name: Brad Alexander
+
+    - title: Genetic algorithms for affine transformations to existential t-restrictions
+      authors:
+        - name: Ryan E. Dougherty
+        - name: Erin Lanus
+        - name: Charles J. Colbourn
+        - name: Stephanie Forrest
+
+    - title: Genetic improvement of data gives double precision invsqrt
+      authors:
+        - name: William B. Langdon
+
+    - title: A survey of genetic improvement search spaces
+      authors:
+        - name: Justyna Petke
+        - name: Brad Alexander
+        - name: Earl T. Barr
+        - name: Alexander E. I. Brownlee
+        - name: Markus Wagner
+        - name: David Robert White
+
+
+- name: 6th International Workshop
+  abbrv: GI@ICSE 2019
+  anchor: icse2019
+  papers:
+
+    - title: Fuzzy Edit Sequences in Genetic Improvement
+      authors:
+        - name: Aymeric Blot
+          url: http://www0.cs.ucl.ac.uk/staff/a.blot/
+      pdf: /paper_pdfs/blot2019gi.pdf
+      abstract: "Genetic improvement uses automated search to find improved versions of existing software. Edit sequences have been proposed as a very convenient way to represent code modifications, focusing on the changes themselves rather than duplicating the entire program. However, edits are usually defined in terms of practical operations rather than in terms of semantic changes; indeed, crossover and other edit sequence mutations usually never guarantee semantic preservation. We propose several changes to usual edit sequences, specifically augmenting edits with content data and using fuzzy matching, in an attempt to improve semantic preservation."
+
+    - title: Mining Patterns from Genetic Improvement Experiments
+      authors:
+        - name: Oliver Krauss
+          url: https://research.fh-ooe.at/en/staff/25755
+        - name: Hanspeter Mössenböck
+          url: http://fh-ooe.academia.edu/MichaelAffenzeller
+        - name: Michael Affenzeller
+          url: http://www.ssw.uni-linz.ac.at/General/Staff/HM/
+      pdf: /paper_pdfs/krauss2019mining.pdf
+      slides: /slides/krauss2019mining_slides.pdf
+      abstract: "When conducting genetic improvement experiments, a large amount of individuals (~ population size * generations) is created and evaluated. The corresponding experiments contain valuable data concerning the fitness of individuals for the defined criteria, such as run-time performance, memory use or robustness. This publication presents an approach to utilize this information in order to identify recurring context independent patterns in abstract syntax trees (ASTs). These patterns can be applied for restricting the search space (in the form of anti-patterns) or for grafting operators in the population. Future work includes an evaluation of this approach, as well as extending it with wildcards and class hierarchies for larger and more generalized patterns."
+
+    - title: Evolutionary Computation from Improving Malware Analysis
+      authors:
+        - name: Kevin Leach
+          url: http://kjleach.eecs.umich.edu
+        - name: Ryan Dougherty
+          url: https://isearch.asu.edu/profile/1639008
+        - name: Chad Spensky
+          url: http://cspensky.info
+        - name: Stephanie Forrest
+          url: https://forrest.biodesign.asu.edu
+        - name: Westley Weimer
+          url: http://web.eecs.umich.edu/~weimerw
+      pdf: /paper_pdfs/leach2019evolutionary.pdf
+      slides: /slides/leach2019evolutionary_slides.pdf
+      abstract: "Research in genetic improvement (GI) conventionally focuses on the improvement of software, including the automated repair of bugs and vulnerabilities as well as the refinement of software to increase performance. Eliminating or reducing vulnerabilities using GI has improved the security of benign software, but the growing volume and complexity of malicious software necessitates better analysis techniques that may benefit from a GI-based approach. Rather than focus on the use of GI to improve individual software artifacts, we believe GI can be applied to the tools used to analyze malicious code for its behavior. First, malware analysis is critical to understanding the damage caused by an attacker, which GI-based bug repair does not currently address. Second, modern malware samples leverage complex vectors for infection that cannot currently be addressed by GI.  In this paper, we discuss an application of genetic improvement to the realm of automated malware analysis through the use of variable-strength covering arrays."
+
+    - title: Better Code Search and Reuse for Better Program Repair
+      authors:
+        - name: Qi Xin
+          url: https://www.scs.gatech.edu/people/qi-xin
+        - name: Steven Reiss
+          url: https://cs.brown.edu/~spr
+      pdf: /paper_pdfs/xin2019better.pdf
+      slides: /slides/xin2019better_slides.pdf
+      abstract: "A branch of automated program repair (APR) techniques look at finding and reusing
+existing code for bug repair. ssFix is one of such techniques that is syntactic
+search-based: it searches a code database for code fragments that are
+syntactically similar to the bug context and reuses such code fragments
+to produce patches. The keys to its success lie in the approaches it uses for code
+search and code reuse. We investigated the effectiveness of ssFix using the Defects4J
+bug dataset and found that its code search and code reuse approaches are not truly
+effective and can be significantly improved. Motivated by the investigation, we
+developed a new repair technique sharpFix
+that follows ssFix's basic idea but differs significantly in the approaches used for
+code search and code reuse. We compared sharpFix and ssFix on the Defects4J dataset and confirmed
+through experiments that (1) sharpFix's code search and code reuse approaches are better
+than ssFix's approaches and (2) sharpFix can do better repair. sharpFix successfully
+repaired a total of 36 Defects4J bugs and outperformed many existing repair techniques
+in repairing more bugs. We also compared sharpFix, ssFix, and four other techniques on
+another dataset Bugs.jar-ELIXIR. Our results show that sharpFix did better than others
+and repaired the largest number of bugs."
+
+    - title: Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair
+      authors:
+        - name: Zhen Yu Ding
+          url: https://www.linkedin.com/in/zhen-yu-ding-23a389155
+        - name: Yiwei Lyu
+          url: https://www.linkedin.com/in/yiwei-lyu-209176151
+        - name: Christopher Timperley
+          url: https://www.isri.cmu.edu/people/core-faculty/timperley-christopher.html
+        - name: Claire Le Goues
+          url: https://clairelegoues.com
+      pdf: /paper_pdfs/ding2019leveraging.pdf
+      slides: /slides/ding2019leveraging_slides.pdf
+      abstract: "Search-based automatic program repair has shown promise in reducing the cost of defects in real-world software.However, to date, such techniques have typically been most successful when constructing short or single-edit repairs. This is true even when techniques make use of heuristic searchstrategies, like genetic programming, that in principle support the construction of patches of arbitrary length. One key reason is that the fitness function traditionally depends entirely  on testcases, which are poor at identifying partially correct solutions and leadto a fitness landscape with many plateaus. We propose a novel fitness function that optimizes for both functionality and semantic diversity, characterized using learned invariant sover intermediate behavior. Our early results show that this newapproach improves semantic diversity and fitness granularity, but does not statistically significantly improve repair performance."
+
+    - title: Genetic Improvement of GPU Code
+      authors:
+        - name: Jhe-Yu Liou
+          url: https://be.linkedin.com/in/jhe-yu-liou-1122759b
+        - name: Stephanie Forrest
+          url: https://forrest.biodesign.asu.edu
+        - name: Carole-Jean Wu
+          url: http://faculty.engineering.asu.edu/carolewu
+      pdf: /paper_pdfs/liou2019genetic.pdf
+      slides: /slides/liou2019genetic_slides.pdf
+      abstract: "As the programming stack and tool support for GPU have matured, GPUs have become accessible to programmers who often lack domain-specific knowledge of the underlying architecture and fail to fully leverage the GPU's computation power. This paper presents GEVO (Gpu EVOlution), a tool for automatically tuning the performance of GPU kernels in the LLVM representation to meet desired criteria. GEVO uses population-based search to find edits to programs compiled to LLVM-IR that improve performance on desired criteria and retain required functionality. GEVO extends earlier GI work by operating directly on the LLVM-IR without custom representations or other manual interventions. We demonstrate that GEVO improves runtime on NVIDIA Tesla P100 for many programs in the Rodinia benchmark suite and a supervised machine learning code, ThunderSVM. For the Rodinia benchmark, GEVO improves GPU kernel runtime performance by an average of 13.87% and as much as 43% over the fully compiler-optimized baseline. If the kernel output accuracy is relaxed to tolerate 1% error, GEVO can find kernel variants that outperform the baseline version by an average of 15.47%. For ThunderSVM, GEVO reduces entire model training time by 50% and 24.8%, for MNIST handwriting recognition dataset and a9a income prediction, where the accuracy of trained model are improved by 0.17% and 0.04% respectively."
+
+
+- name: 5th International Workshop
+  abbrv: GI@GECCO 2018
+  anchor: gecco2018
+  papers:
+
+    - title: Synthesizing customized network protocols using genetic programming
+      authors:
+        - name: Mohammad Roohitavaf
+        - name: Ling Zhu
+        - name: Sandeep Kulkarni
+        - name: Subir Biswas
+      doi: https://doi.org/10.1145/3205651.3208272
+      abstract: "Given the advances in areas such as home automation, agricultural networks, smart cities, designers often need to design protocols that utilize the features of that network while dealing with its limitations. Utilizing standardized protocols for such networks may not be appropriate as they may not address limitations of the network such as heterogeneous nodes or limited capability of some nodes. While designing a customized protocol for that network would be desirable, it is extremely time-consuming unless we can automate the development of the required protocol. In this paper, we present NetSynth, a GP based mechanism to develop customized routing protocol for the given network. NetSynth lets us conveniently describe a network using an XML file, and it synthesizes a routing protocol that suits the input network by considering the characteristics specific to the given network. We show how NetSynth creates protocols that perform comparably to best-known protocols for the case where we want to broadcast a set of messages to all nodes in a grid. We also show how NetSynth helps us design protocols that provide a tradeoff between throughput and energy."
+
+    - title: Towards Modular Large-Scale Darwinian Software Improvement
+      authors:
+        - name: Michael Orlov
+      doi: https://doi.org/10.1145/3205651.3208311
+      abstract: "This paper proposes to explore a software engineer-assisted method for evolutionarily improving large-scale software systems. A framework is outlined for selecting and evolving specific components of such systems, while avoiding treating the complete software as a single independent individual in the population, thereby forgoing the high costs of that approach."
+
+    - title: Novelty Search for software improvement of a SLAM system
+      authors:
+        - name: Víctor R. López-López
+        - name: Leonardo Trujillo
+        - name: Pierrick Legrand
+      doi: https://doi.org/10.1145/3205651.3208237
+      abstract: "Genetic Improvement (GI) performs a search at the level of source code to find the best variant of a baseline system that improves non-functional properties while maintaining functionality, with noticeable results in several domains. There a many aspects of this general approach that are currently being explored. In particular, this work deals to the way in which the search is guided to efficiently explore the search space of possible software versions in which GI operates. The proposal is to integrate Novelty Search (NS) within the GISMOE GI framework to improve KinectFusion, which is a vision-based Simultaneous Localization and Mapping (SLAM) system that is used for augmented reality, autonomous vehicle navigation, and many other real-world applications. This is one of a small set of works that have successfully combined NS with a GP system, and the first time that it has been used for software improvement. To achieve this, we propose a new behaviour descriptor for SLAM algorithms, based on state-of-the-art benchmarking and present results that show that NS can produce significant improvement gains in a GI setting, when considering execution time and trajectory estimation as the main performance criteria."
+
+    - title: "Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems"
+      authors:
+        - name: Jifeng Xuan
+        - name: Yongfeng Gu
+        - name: Zhilei Ren
+        - name: Xiangyang Jia
+        - name: Qingna Fan
+      doi: https://doi.org/10.1145/3205651.3208267
+      abstract: "A highly-configurable system provides many configuration options to diversify application scenarios. The combination of these configuration options results in a large search space of configurations. This makes the detection of configuration-related faults extremely hard. Since it is infeasible to exhaust every configuration, several methods are proposed to sample a subset of all configurations to detect hidden faults. Configuration sampling can be viewed as a process of repeating a pre-defined sampling action to the whole search space, such as the one-enabled or pair-wise strategy. In this paper, we propose genetic configuration sampling, a new method of learning a sampling strategy for configuration-related faults. Genetic configuration sampling encodes a sequence of sampling actions as a chromosome in the genetic algorithm. Given a set of known configuration-related faults, genetic configuration sampling evolves the sequence of sampling actions and applies the learnt sequence to new configuration data. A pilot study on three highly-configurable systems shows that genetic configuration sampling performs well among nine sampling strategies in comparison."
+
+    - title: Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection
+      authors:
+        - name: David Nader-Palacio
+        - name: Daniel Rodríguez-Cárdenas
+        - name: Jonatane Gomez
+      doi: https://doi.org/10.1145/3205651.3208294
+      abstract: "The automatic detection of refactoring recommendations has been tackled in prior optimization studies involving bad code smells, semantic coherence and importance of classes; however, such studies informally addressed formalisms to standardize and replicate refactoring models. We propose to assess the refactoring detection by means of performance convergence and time complexity. Since the reported approaches are diicult to reproduce, we employ an Artiicial Refactoring Generation (ARGen) as a formal and naive computational solution for the Refactoring Detection Problem. ARGen is able to detect massive refactoring's sets in feasible areas of the search space. We used a refactoring formalization to adapt search techniques (Hill Climbing, Simulated Annealing and Hybrid Adaptive Evolutionary Algorithm) that assess the performance and complexity on three open software systems. Combinatorial techniques are limited in solving the Refactoring Detection Problem due to the relevance of developers' criteria (human factor) when designing reconstructions. Without performance convergence and time complexity analysis, a software empirical analysis that utilizes search techniques is incomplete."
+
+    - title: Dynamic Fitness Functions for Genetic Improvement in Compilers and Interprets
+      authors:
+        - name: Oliver Krauss
+        - name: Hanspeter Mössenböck
+        - name: Michael Affenzeller
+      doi: https://doi.org/10.1145/3205651.3208308
+      abstract: "When attempting to improve the non-functional requirements of software, specifically run-time performance of code, an important requirement is to preserve the correctness of the optimized code. Additionally when attempting to integrate Genetic Improvement into a compiler or interpreter, the large search spaces resulting from the amount of operators and operands a language provides needs to be dealt with. This publication explores dynamic fitness functions as a foundation for a use in Genetic Improvement to optimize programs. An approach of using a test suite to verify code correctness in the Truffle Framework [19, 20] and Graal Compiler [11] is presented. Two types of fitness functions are explored, which split the test suite according to their complexity and attempt to generate correct solutions with a growing set of increasingly complex tests. One of them increases the amount of tests sequentially over several iterations. The parallel fitness function attempts to split a test suite and to re-combine the results with increasingly large suites. The results show that these functions only marginally improve the fitness landscape on their own, but show that more partially correct solutions can be found with dynamic fitness functions. In the future, our approach may be improved by implementing specific crossover and mutator operations to accompany the dynamic fitness functions."
+
+
+- name: 4th International Workshop
+  abbrv: GI@ICSE 2018
+  anchor: icse2018
+  papers:
+
+    - title: Neutrality and Epistasis in Program Space
+      authors:
+        - name: Joseph Renzullo
+        - name: Westley Weimer
+        - name: Melanie Moses
+        - name: Stephanie Forrest
+      doi: https://doi.org/10.1145/3194810.3194812
+      abstract: "Genetic Improvement of software can succeed only when the program is mutated using operators that are well-matched to the search problem at hand, whether it is repairing bugs or improving a nonfunctional property of the program. In the case of bug repair, it is critical to maintain most of the program's existing logic, while searching for mutations that address the faulty parts of the program. This delicate balance depends on the neutral space of the program, that is, the topology of the connected network of programs that are equivalent under the fitness metric, which in our case is test-suite equivalence. We characterize the topology of the neutral space located around C programs, each of which has its own test suite. We also study interactions between independent single-edits mutations to a set of C programs, known as epistasis. The results we present are relevant to the GI community because they can inform design choices, e.g., choice of operators and search strategies. They are relevant to the Software Engineering community, because they point to fundamental characteristics of software that can suggest improvements to various SE tools."
+
+    - title: Experiments in Genetic Divergence for Emergent Systems
+      authors:
+        - name: Christopher McGowan
+        - name: Alexander Wild
+        - name: Barry Porter
+      doi: https://doi.org/10.1145/3194810.3194813
+      abstract: "Emergent software systems take a step towards tackling the ever- increasing complexity of modern software, by having systems self- assemble from a library of building blocks, and then continually re-assemble themselves from alternative building blocks to learn which compositions of behaviour work best in each deployment environment. One of the key challenges in emergent systems is populating the library of building blocks, and particularly a set of alternative implementations of particular building blocks, which form the runtime search space of optimal behaviour. We present initial work in using a fusion of genetic improvement and genetic synthesis to automatically populate a divergent set of implementations of the same functionality, allowing emergent systems to explore new behavioural alternatives without human input. Our early results indicate this approach is able to successfully yield useful divergent implementations of building blocks which are more suited than any existing alternative for particular operating conditions."
+
+    - title: A Turing Test for Genetic Improvement
+      authors:
+        - name: Afsoon Afzal
+        - name: Jeremy Lacomis
+        - name: Claire Le Goues
+        - name: Christopher S. Timperley
+      doi: https://doi.org/10.1145/3194810.3194817
+      abstract: "Genetic improvement is a research field that aims to develop search-based techniques for improving existing code. GI has been used to automatically repair bugs, reduce energy consumption, and to improve run-time performance. In this paper, we reflect on the often-overlooked relationship between GI and developers within the context of continually evolving software systems. We introduce a distinction between transparent and opaque patches based on intended lifespan and developer interaction. Finally, we outline a Turing test for assessing the ability of a GI system to produce opaque patches that are acceptable to humans. This motivates research into the role GI systems will play in transparent development contexts."
+
+    - title: Comparing Line and AST Granularity Level for Program Repair using PyGGI
+      authors:
+        - name: Gabin An
+        - name: Jinhan Kim
+        - name: Shin Yoo
+      doi: https://doi.org/10.1145/3194810.3194814
+      abstract: "PyGGI is a lightweight Python framework that can be used to implement generic Genetic Improvement algorithms at the API level. The original version of PyGGI only provided lexical modifications, i.e., modifications of the source code at the physical line granularity level. This paper introduces new extensions to PyGGI that enables syntactic modifications for Python code, i.e., modifications that operates at the AST granularity level. Taking advantage of the new extensions, we also present a case study that compares the lexical and syntactic search granularity level for automated program repair, using ten seeded faults in a real world open source Python project. The results show that search landscapes at the AST granularity level are more productive due to the smaller sizes of ingredient spaces, but may require longer time for search because the larger number of syntactically intact candidates leads to more test executions."
+
+    - title: Performance Localisation
+      authors:
+        - name: Brendan Cody-Kenny
+        - name: Michael O'Neill
+        - name: Stephen Barrett
+      doi: https://doi.org/10.1145/3194810.3194815
+      abstract: "Profiling techniques highlight where performance issues manifest and provide a starting point for tracing cause back through a program. While people diagnose and understand the cause of performance to guide formulation of a performance improvement, we seek automated techniques for highlighting performance improvement opportunities to guide search algorithms. We investigate mutation-based approaches for highlighting where a performance improvement is likely to exist. For all modification locations in a program, we make all possible modifications and analyse how often modifications reduce execution count. We compare the resulting code location rankings against rankings derived using a profiler and find that mutation analysis provides the higher accuracy in highlighting performance improvement locations in a set of benchmark problems, though at a much higher execution cost. We see both approaches as complimentary and consider how they may be used to further guide Genetic Programming in finding performance improvements."
+
+    - title: A spoonful of DevOps helps the GI go down
+      authors:
+        - name: Benoit Baudry
+        - name: Nicolas Harrand
+        - name: Eric Schulte
+        - name: Chris Timperley
+        - name: Shin Hwei Tan
+        - name: Marija Selakovic
+        - name: Emamurho Ugherughe
+      doi: https://doi.org/10.1145/3194810.3194818
+      abstract: "DevOps emphasizes a high degree of automation at all phases of the software development lifecyle. Meanwhile, Genetic Improvement GI focuses on the automatic improvement of software artifacts. In this paper, we discuss why we believe that DevOps offers an excellent technical context for easing the adoption of GI techniques by software developers.
+We also discuss A/B testing as a prominent and clear example of GI taking place in the wild today, albeit one with human-supervised fitness and mutation operators."
+
+    - title: Learning to Synthesize
+      authors:
+        - name: Yingfei Xiong
+        - name: Bo Wang
+        - name: Guirong Fu
+        - name: Linfei Zang
+      doi: https://doi.org/10.1145/3194810.3194816
+      abstract: "In many scenarios we need to find the most likely program under a local context, where the local context can be an incomplete program, a partial specification, natural language description, etc. We call such problem program estimation. In this paper we propose an abstract framework, learning to synthesis, or L2S in short, to address this problem. L2S combines four tools to achieve this: syntax is used to define the search space and search steps, constraints are used to prune off invalid candidates at each search step, machine-learned models are used to estimate conditional probabilities for the candidates at each search step, and search algorithms are used to find the best possible solution. The main goal of L2S is to lay out the design space to motivate the research on program estimation. We have performed a preliminary evaluation by instantiatingthis framework for synthesizing conditions of an automated program repair APR system. The training data are from the project itself and related JDK packages. Compared to ACS, a state-of-the-art condition synthesis system for program repair, our approach could deal with a larger search space such that we fixed 4 additional bugs outside the search space of ACS, and relies only the source code of the current projects."
+
+    - title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
+      authors:
+        - name: Jason Landsborough
+        - name: Stephen Harding
+        - name: Bryan Beabout
+      doi: http://dx.doi.org/10.1145/3194810.3194819
+      abstract: "As fuzz testing strategies have become more and more sophisticated, we see a natural application of fuzz testing to Genetic Improvement techniques. In particular, the ability to generate high quality and high coverage tests with advanced fuzzers can greatly enhance the effectiveness of Genetic Improvement algorithms—especially when the algorithm is applied to bug fixing or other similar kinds of software improvement to improve qualities such as security."
+
+
+- name: 3rd International Workshop
+  abbrv: GI@GECCO 2017
+  anchor: gecco2017
+  papers:
+
+    - title: "Fixing Bugs in Your Sleep: How Genetic Improvement Became an Overnight Success"
+      authors:
+        - name: Saemundur Oskar Haraldsson
+        - name: John R. Woodward
+        - name: Alexander E.I. Brownlee
+        - name: Kristin Siggeirsdottir
+      doi: https://doi.org/10.1145/3067695.3082517
+      abstract: "We present a bespoke live system in commercial use with self-improving capability. During daytime business hours it provides an overview and control for many specialists to simultaneously schedule and observe the rehabilitation process for multiple clients. However in the evening, after the last user logs out, it starts a self-analysis based on the day's recorded interactions. It generates test data from the recorded interactions for Genetic Improvement to fix any recorded bugs that have raised exceptions. The system has already been under test for over 6 months and has in that time identified, located, and fixed 22 bugs. No other bugs have been identified by other methods during that time. It demonstrates the effectiveness of simple test data generation and the ability of GI for improving live code."
+
+    - title: Embedding Genetic Improvement into Programming Languages
+      authors:
+        - name: Shin Yoo
+      doi: https://doi.org/10.1145/3067695.3082516
+      abstract: "We present a vision of genetic improvement firmly embedded in, and supported by, programming languages. Genetic improvement has already been envisioned as the next compiler, which would take human written programs as input and return versions optimised with respect to various objectives. As an intermediate stage, or perhaps to complement the fully automated vision, we imagine genetic improvement processes that are hinted at and directed by humans but understood and undertaken by programming languages and their runtimes, via interactions through the source code. We examine existing similar ideas and examine the benefits of embedding them within programming languages."
+
+    - title: Learning from Super-Mutants
+      authors:
+        - name: Jason Landsborough
+        - name: Stephen Harding
+        - name: Sunny Fugate
+      doi: https://doi.org/10.1145/3067695.3082525
+      abstract: "In light of recent advances in genetic-algorithm-driven automated program modification, our team has been actively exploring the art, engineering, and discovery of novel semantics-preserving transforms. While modern compilers represent some of the best ideas we have for automated program modification, current approaches represent only a small subset of the types of transforms which can be achieved. In the wilderness of post-apocalyptic software ecosystems of genetically-modified and mutant programs, there exist a broad array of potentially useful software mutations, including semantics-preserving transforms that may play an important role in future software design, development, and most importantly, evolution."
+
+    - title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation: A Tale of Woe and a Proof-of-Concept"
+      authors:
+        - name: Mahmoud A. Bokhari
+        - name: Bobby R. Bruce
+        - name: Brad Alexander
+        - name: Markus Wagner
+      doi: https://doi.org/10.1145/3067695.3082519
+      abstract: "With power demands of mobile devices rising, it is becoming increasingly important to make mobile software applications more energy efficient. Unfortunately, mobile platforms are diverse and very complex which makes energy behaviours difficult to model. is complexity presents challenges to the effectiveness of online optimisation of mobile applications. In this paper, we demonstrate that it is possible to automatically optimise an application for energy on a mobile device by evaluating energy consumption in-vivo. In contrast to previous work, we use only the device's own internal meter. Our approach involves many technical challenges but represents a realistic path toward learning hardware specific energy models for program code features."
+
+    - title: Evolving Software Building Blocks with FINCH
+      authors:
+        - name: Michael Orlov
+      doi: https://doi.org/10.1145/3067695.3082521
+      abstract: "This paper proposes to explore the following question: can software evolution systems like FINCH, that evolve linear representations originating from a higher-level structural language, take advantage of building blocks inherent to that original language?"
+
+    - title: GI in No Time
+      authors:
+        - name: David R. White
+      doi: https://doi.org/10.1145/3067695.3082515
+      abstract: "We describe a small, simple, and lightweight microframework for the Genetic Improvement of Java code. We call the framework \"GI in no time\", or \"Gin\". Gin is designed to be a straightforward, hackable, GI tool for Java. It currently lacks large features found in comparable program repair tools, but nonetheless it is capable of performing optimisation of a Java class via local search. We hope that providing this contribution will encourage researchers to collaborate on GI tool development, whilst lowering the barrier to entry for those interested in experimenting with GI. It is intended to serve both as a toolkit to be extended, and also an example of how GI can be implemented. We discuss some of the design principles behind Gin, and outline observations made during its development."
+
+    - title: Gaining Insights into Traffic Data through Genetic Improvement
+      authors:
+        - name: Aniko Ekart
+        - name: Alina Patell
+        - name: Victoria Lush
+        - name: Elisabeth Ilie-Zudor
+      doi: https://doi.org/10.1145/3067695.3082523
+      abstract: "We argue that Genetic Improvement can be successfully used for enhancing road traffic data mining. Thiis would support the relevant decision makers with extending the existing network of devices that sense and control city traffic, with the end goal of improving vehicle flow and reducing the frequency of road accidents. Our position results from a set of preliminary observations emerging from the analysis of open access road traffic data collected in real time by the Birmingham City Council."
+
+    - title: New Operators for Non-functional Genetic Improvement
+      authors:
+        - name: Justyna Petke
+      doi: https://doi.org/10.1145/3067695.3082520
+      abstract: "Genetic improvement uses automated search to find improved versions of existing software. Typically software is modified using either delete, copy or replace operations at the level of source code, its abstract syntax tree, binary or assembly representation. Impressive improvements have been achieved through this approach, yet research in the use of other search operators is largely unexplored. We propose several ways for devising new search operators for improvement of non-functional properties using a genetic improvement approach."
+
+    - title: Modelling Genetic Improvement Landscapes with Local Optima Networks
+      authors:
+        - name: Nadarajen Veerapen
+        - name: Fabio Daolio
+        - name: Gabriela Ochoa
+      doi: https://doi.org/10.1145/3067695.3082518
+      abstract: "Local optima networks are a compact representation of the global structure of a search space. They can be used for analysis and visualisation. This paper provides one of the first analyses of program search spaces using local optima networks. These are generated by sampling the search space by recording the progress of an Iterated Local Search algorithm. Source code mutations in comparison and Boolean operators are considered. The search spaces of two small benchmark programs, the triangle and TCAS programs, are analysed and visualised. Results show a high level of neutrality, i.e. connected test-equivalent mutants. It is also generally relatively easy to find a path from a random mutant to a mutant that passes all test cases."
+
+    - title: Genetic Improvement of Runtime and its fitness landscape in a Bioinformatics Application
+      authors:
+        - name: Saemundur Oskar Haraldsson
+        - name: John R. Woodward
+        - name: Alexander E.I. Brownlee
+        - name: Albert V. Smith
+        - name: Vilmundur Gudnason
+      doi: https://doi.org/10.1145/3067695.3082526
+      abstract: "We present a Genetic Improvement GI experiment on ProbAbel, a piece of bioinformatics software for Genome Wide Association GWA studies. The GI framework used here has previously been successfully used on Python programs and can, with minimal adaptation, be used on source code written in other languages. We achieve improvements in execution time without the loss of accuracy in output while also exploring the vast fitness landscape that the GI framework has to search. The runtime improvements achieved on smaller data set scale up for larger data sets. Our findings are that for ProbAbel, the GI's execution time landscape is noisy but flat. We also confirm that human written code is robust with respect to small edits to the source code."
+
+    - title: Improving SSE Parallel Code with Grow and Graft Genetic Programming
+      authors:
+        - name: William B. Langdon
+        - name: Ronny Lorenz
+      doi: https://doi.org/10.1145/3067695.3082524
+      abstract: "RNAfold predicts the secondary structure of RNA molecules from their base sequence. We apply a mixture of manual and automated genetic improvements to its C source. GI gives a 1.6% improvement to parallel SSE4.1 code. The automatic programming evolutionary system has access to Intel library code and previous revisions. On 4666 curated structures from RNA STRAND, GGGP gives a combined speed up of 31.9%, with no loss of accuracy GI code run 1.4e11 times."
+
+    - title: "From Problem Landscapes to Language Landscapes: Questions in Genetic Improvement"
+      authors:
+        - name: Brendan Cody-Kenny
+        - name: Michael Fenton
+        - name: "Michael O'Neill"
+      doi: https://doi.org/10.1145/3067695.3082522
+      abstract: "Managing and curating software is a time consuming process particularly as programming languages, libraries, and execution environments change. To support the engineering of software, we propose applying a GP-based continuous learning system to all \"useful\" software. We take the position that search-based itemization and analysis of all commonly used software is feasible, in large part, because the requirements that people place on software can be used to bound the search space to software which is of high practical use. By repeatedly reusing the information generated during the search process we hope to attain a higher-level, but also more rigorous, understanding of our engineering material - source code."
+
+
+- name: 2nd International Workshop
+  abbrv: GI@GECCO 2016
+  anchor: gecco2016
+  papers:
+
+    - title: Optimising Energy Consumption Heuristically on Android Mobile Phones
+      authors:
+        - name: Mahmoud Bokhari
+        - name: Markus Wagner
+      doi: https://doi.org/10.1145/2908961.2931691
+      abstract: "In this paper we outline our proposed framework for optimising energy consumption on Android mobile phones. To model the power usage, we use an event-based modelling technique. The internal battery fuel gauge chip is used to measure the amount of energy being consumed and accordingly the model is built on. We use the model to estimate components' energy usages. In addition, we propose the use of evolutionary computations to prolong the battery life. This can be achieved by using the power consumption model as a fitness function, re-configuring the smartphone's default settings and modifying existing code of applications."
+
+    - title: Evolutionary optimization of compiler flag selection by learning and exploiting flags interactions
+      authors:
+        - name: Unai Garciarena
+        - name: Roberto Santana
+      doi: https://doi.org/10.1145/2908961.2931696
+      abstract: "Compiler flag selection can be an effective way to increase the quality of executable code according to different code quality criteria. Evolutionary algorithms have been successfully applied to this optimization problem. However, previous approaches have only partially addressed the question of capturing and exploiting the interactions between compilation options to improve the search. In this paper we deal with this question comparing estimation of distribution algorithms EDAs and a traditional genetic algorithm approach. We show that EDAs that learn bivariate interactions can improve the results of GAs for some of the programs considered. We also show that the probabilistic models generated as a result of the search for optimal flag combinations can be used to unveil the problem-dependent interactions between the flags, allowing the user a more informed choice of compilation options."
+
+    - title: Automatic Improvement of Apache Spark Queries using Semantics-preserving Program Reduction
+      authors:
+        - name: Zoltan A. Kocsis
+        - name: John H. Drak
+        - name: Douglas Carson
+        - name: Jerry Swan
+      doi: https://doi.org/10.1145/2908961.2931692
+      abstract: "Apache Spark is a popular framework for large-scale data analytics. Unfortunately, Spark's performance can be difficult to optimise, since queries freely expressed in source code are not amenable to traditional optimisation techniques. This article describes Hylas, a tool for automatically optimising Spark queries embedded in source code via the application of semantics-preserving transformations. The transformation method is inspired by functional programming techniques of \"deforestation\", which eliminate intermediate data structures from a computation. This contrasts with approaches defined entirely within structured query formats such as Spark SQL. Hylas can identify certain computationally expensive operations and ensure that performing them creates no superfluous data structures. This optimisation leads to significant improvements in execution time, with over 10,000 times improvement observed in some cases."
+
+    - title: Benchmarking Genetically Improved BarraCUDA on Epigenetic Methylation NGS datasets and nVidia GPUs
+      authors:
+        - name: William B. Langdon
+        - name: Albert Vilella
+        - name: Brian Lam
+        - name: Justyna Petke
+        - name: Mark Harman
+      doi: https://doi.org/10.1145/2908961.2931687
+      abstract: "BarraCUDA uses CUDA graphics cards to map DNA reads to the human genome. Previously its software source code was genetically improved for short paired end next generation sequences. On longer noisy epigenetics strings using nVidia Titan and twin Tesla K40 the same GI-ed code is more than 3 times faster than bwa-meth on an 8 core CPU."
+
+    - title: "Genetic Programming: From design to improved implementation"
+      authors:
+        - name: Victor Lopez
+        - name: Leonardo Trujillo
+        - name: Pierrick Legrand
+        - name: Gustavo Olague
+      doi: https://doi.org/10.1145/2908961.2931693
+      abstract: "Genetic programming (GP) is an evolutionary-based search paradigm that is well suited to automatically solve difficult design problems. The general principles of GP have been used to evolve mathematical functions, models, image operators, programs, and even antennas and lenses. Since GP evolves the syntax and structure of a solution, the evolutionary process can be carried out in one environment and the solution can then be ported to another. However, given the nature of GP it is common that the evolved designs are unorthodox compared to traditional approaches used in the problem domain. Therefore, efficiently porting, improving or optimizing an evolved design might not be a trivial task. In this work we argue that the same GP principles used to evolve the solution can then be used to optimize a particular new implementation of the design, following the Genetic Improvement approach. In particular, this paper presents a case study where evolved image operators are ported from Matlab to OpenCV, and then the source code is optimized an improved using Genetic Improvement of Software for Multiple Objectives GISMOE. In the example we show that functional behavior is maintained output image while improving non-functional properties computation time. Despite the fact that this first example is a simple case, it clearly illustrates the possibilities of using GP principles in two distinct stages of the software development process, from design to improved implementation."
+
+    - title: Genetic Improvement for Code Obfuscation
+      authors:
+        - name: Justyna Petke
+      doi: https://doi.org/10.1145/2908961.2931689
+      abstract: "Genetic improvement (GI) is a relatively new area of software engineering and thus the extent of its applicability is yet to be explored. Although a growing interest in GI in recent years started with the work on automatic bug fixing, the area flourished when results on optimisation of nonfunctional software properties, such as efficiency and energy consumption, were published. Further success of GI in transplanting functionality from one program to another leads to a question: what other software engineering areas can benefit from the use of genetic improvement techniques? We propose to utilise GI for code obfuscation."
+
+    - title: Speeding up the proof strategy in formal software verification
+      authors:
+        - name: Markus Wagner
+      doi: https://doi.org/10.1145/2908961.2931690
+      abstract: "The functional correctness of safety- and security-critical software is of utmost importance. Nowadays, this can be achieved through computer assisted verification. While formal verification itself typically poses a steep learning-curve for anyone who wants to apply it, its applicability is further hindered by its typically low runtime performance. With the increasing popularity of algorithm parameter tuning and genetic improvement, we see a great opportunity for assisting verification engineers in their daily tasks."
+
+    - title: Guiding Unconstrained Genetic Improvement
+      authors:
+        - name: David White
+      doi: https://doi.org/10.1145/2908961.2931688
+      abstract: "This paper argues that the potential for arbitrary transformation is what differentiates GI from other program transformation work. With great expressive power comes great responsibility, and GI has had mixed success finding effective program repairs and optimisations. The search must be better guided in order to improve solution quality."
+
+    - title: "GP vs GI: if you can't beat them, join them"
+      authors:
+        - name: John Woodward
+        - name: Colin Johnson
+        - name: Alexander Brownlee
+      doi: https://doi.org/10.1145/2908961.2931694
+      abstract: "Genetic Programming GP has been criticized for targeting irrelevant problems, and is also true of the wider machine learning community. which has become detached from the source of the data it is using to drive the field forward. However, recently GI provides a fresh perspective on automated programming. In contrast to GP, GI begins with existing software, and therefore immediately has the aim of tackling real software. As evolution is the main approach to GI to manipulating programs, this connection with real software should persuade the GP community to confront the issues around what it originally set out to tackle i.e. evolving real software."
+
+    - title: "Evals is not enough: why we should report wall-clock time"
+      authors:
+        - name: John Woodward
+        - name: Alexander Brownlee
+        - name: Colin Johnson
+      doi: https://doi.org/10.1145/2908961.2931695
+      abstract: "Have you ever noticed that your car never achieves the fuel economy claimed by the manufacturer? Does this seem unfair? Unscientific? Would you like the same situation to occur in Genetic Improvement? Comparison will always be difficult, however, guidelines have been discussed. With two GP approaches, comparing the number of evaluations of the fitness function is reasonably fair. This means you are comparing the GP systems, and not how well they are implemented, how fast the language is. However, the situation with GI is unique. With GI we will typically compare systems which are applied to the same application written in the same language i.e. a GI systems targeted at Java, may not even be applied to C. Thus, wall-clock time becomes more relevant. Thus, this paper asks if reporting number of evaluations is enough, or if wall-clock time is also important, particularly in the context of GI. It argues that reporting time is even more important when doing GI when compared to traditional GP."
+
+
+- name: 1st International Workshop
+  abbrv: GI@GECCO 2015
+  anchor: gecco2015
+  papers:
+
+    - title: "Evolutionary Approximation of Software for Embedded Systems: Median Function"
+      authors:
+        - name: Vojtech Mrazek
+        - name: Zdenek Vasicek
+        - name: Lukas Sekanina
+      doi: https://doi.org/10.1145/2739482.2768416
+      abstract: "This paper deals with genetic programming-based improvement of non-functional properties of programs intended for low-cost microcontrollers. As the objective is to significantly reduce power consumption and execution time, the approximate computing scenario is considered in which occasional errors in results are acceptable. The method is based on Cartesian genetic programming and evaluated in the task of approximation of 9-input and 25-input median function. Resulting approximations show a significant improvement in the execution time and power consumption with respect to the accurate median function while the observed errors are moderate."
+
+    - title: Grow and Graft a better CUDA pknotsRG for RNA pseudoknot free energy calculation
+      authors:
+        - name: William B. Langdon
+        - name: Mark Harman
+      doi: https://doi.org/10.1145/2739482.2768418
+      abstract: "Grow and graft genetic programming greatly improves GPGPU dynamic programming software for predicting the minimum binding energy for folding of RNA molecules. The parallel code inserted into the existing CUDA version of pknots was \"grown\" using a BNF grammar. On an nVidia Tesla K40 GPU GGGP gives a speed up of up to 10 000 times."
+
+    - title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
+      authors:
+        - name: Brendan Cody-Kenny
+        - name: Edgar Galvan Lopez
+        - name: Stephen Barrett
+      doi: https://doi.org/10.1145/2739482.2768419
+      abstract: "We present locoGP, a Genetic Programming GP system written in Java for evolving Java source code. locoGP was designed to improve the performance of programs as measured in the number of operations executed. Variable test cases are used to maintain functional correctness during evolution. The operation of locoGP is demonstrated on a number of typically constructed \"off-the-shelf\" hand-written implementations of sort and prefix-code programs. locoGP was able to find improvement opportunities in all test problems."
+
+    - title: "Genetic Improvement for Software Product Lines: An Overview and a Roadmap"
+      authors:
+        - name: Roberto E. Lopez-Herrejon
+        - name: Lukas Linsbauer
+        - name: Wesley K. G. Assuncao
+        - name: Stefan Fischer
+        - name: Silvia R. Vergilio
+        - name: Alexander Egyed
+      doi: https://doi.org/10.1145/2739482.2768422
+      abstract: "Software Product Lines SPLs are families of related software systems that provide different combinations of features. Extensive research and application attest to the significant economical and technological benefits of employing SPL practices. However, there are still several challenges that remain open. Salient among them is reverse engineering SPLs from existing variants of software systems and their subsequent evolution. In this paper, we aim at sketching connections between research on these open SPL challenges and ongoing work on Genetic Improvement. Our hope is that by drawing such connections we can spark the interest of both research communities on the exciting synergies at the intersection of these subject areas."
+
+    - title: Removing the Kitchen Sink from Software
+      authors:
+        - name: Jason Landsborough
+        - name: Stephen Harding
+        - name: Sunny Fugate
+      doi: https://doi.org/10.1145/2739482.2768424
+      abstract: "We would all benefit if software were slimmer, thinner, and generally only did what we needed and nothing more. To this end, our research team has been exploring methods for removing unused and undesirable features from compiled programs. Our primary goal is to improve software security by removing rarely used features in order to decrease a program's attack surface. This paper describes two different approaches for \"thinning\" binary programs. The first approach removes specific program features using dynamic tracing as a guide. This approach is relatively safe, but is only capable of removing code which is reachable in a trace when an undesirable feature is enabled. The second approach uses a genetic algorithm GA to mutate a program until a suitable variant is found. Our GA-based approach can potentially remove any code that is not strictly required for proper execution, but may break program semantics in unpredictable ways. We show results of these approaches on a toy program and real-world software and explore some of the implications for software security."
+
+    - title: Embedding Adaptivity in Software Systems using the ECSELR framework
+      authors:
+        - name: Kwaku Yeboah-Antwi
+        - name: Benoit Baudry
+      doi: https://doi.org/10.1145/2739482.2768425
+      abstract: "ECSELR is an ecologically-inspired approach to software evolution that enables environmentally driven evolution at runtime in extant software systems without relying on any offline components or management. ECSELR embeds adaptation and evolution inside the target software system enabling the system to transform itself via darwinian evolutionary mechanisms and adapt in a self contained manner. This allows the software system to benefit autonomously from the useful emergent byproducts of evolution like adaptivity and bio-diversity, avoiding the problems involved in engineering and maintaining such properties. ECSELR enables software systems to address changing environments at runtime, ensuring benefits like mitigation of attacks and memory-optimization among others while avoiding time consuming and costly maintenance and downtime. ECSELR differs from existing work in that,  1) adaptation is embedded in the target system,  2) evolution and adaptation happens online (i.e. in-situ at runtime) and 3) ECSELR is able to embed adaptation inside systems that have already been started and are in the midst of execution. We demonstrate the use of ECSELR and present results on using the ECSELR framework to slim a software system."
+
+    - title: "Repairing COTS Router Firmware without Access to Source Code or Test Suites: A Case Study in Evolutionary Software Repair"
+      authors:
+        - name: Eric Schulte
+        - name: Westley Weimer
+        - name: Stephanie Forrest
+      doi: https://doi.org/10.1145/2739482.2768427
+      abstract: "The speed with which newly discovered software vulnerabilities are patched is a critical factor in mitigating the harm caused by subsequent exploits.  Unfortunately, software vendors are often slow or unwilling to patch vulnerabilities, especially in embedded systems which frequently have no mechanism for updating factory-installed firmware.  The situation is particularly dire for commercial off the shelf COTS software users, who lack source code and are wholly dependent on patches released by the vendor.
+We propose a solution in which the vulnerabilities drive an automated evolutionary computation repair process capable of directly patching embedded systems firmware.  Our approach does not require access to source code, regression tests, or any participation from the software vendor.  Instead, we present an interactive evolutionary algorithm that searches for patches that resolve target vulnerabilities while relying heavily on post-evolution difference minimization to remove most regressions.  Extensions to prior work in evolutionary program repair include: repairing vulnerabilities in COTS router firmware; handling stripped MIPS executable; operating without fault localization information; operating without a regression test suite; and incorporating user interaction into the evolutionary repair process.
+We demonstrate this method by repairing two well-known vulnerabilities in version 4 of NETGEAR's WNDR3700 wireless router before NETGEAR released patches publicly for the vulnerabilities.  Without fault localization we are able to find repair edits that are not located on execution traces.  Without the advantage of regression tests to guide the search, we find that 80% of repairs of the example vulnerabilities retain program functionality after minimization.  With minimal user interaction to demonstrate required functionality, 100% of the proposed repairs were able to address the vulnerabilities while retaining required functionality."
+
+    - title: "GI4GI: Improving Genetic Improvement Fitness Functions"
+      authors:
+        - name: Mark Harman
+        - name: Justyna Petke
+      doi: https://doi.org/10.1145/2739482.2768415
+      abstract: "Genetic improvement GI has been successfully used to optimise non-functional properties of software, such as execution time, by automatically manipulating program’s source code. Measurement of non-functional properties, however, is a non-trivial task; energy consumption, for instance, is highly dependant on the hardware used. Therefore, we propose the GI4GI framework and two illustrative applications. GI4GI first applies GI to improve the fitness function for the particular environment within which software is subsequently optimised using traditional GI."
+
+    - title: Genetic Improvement using Higher Order Mutation
+      authors:
+        - name: Yue Jia
+        - name: Fan Wu
+        - name: Mark Harman
+        - name: Jens Krinke
+      doi: https://doi.org/10.1145/2739482.2768417
+      abstract: "This paper presents a brief outline of a higher-order mutation based framework for Genetic Improvement GI. We argue that search-based higher-order mutation testing can be used to implement a form of genetic programming GP to increase the search granularity and testability of GI."
+
+    - title: Energy Optimisation via Genetic Improvement
+      authors:
+        - name: Bobby R. Bruce
+      doi: https://doi.org/10.1145/2739482.2768420
+      abstract: "The discipline of Software Engineering has arisen during a time in which developers rarely concerned themselves with the energy efficiency of their software. Due to the growth in both mobile devices and large server clusters this period is undoubtedly coming to an end and, as such, new tools for creating energy-efficient software are required. This paper takes the position that Genetic Improvement, a Search-Based Software Engineering technique, has the potential to aid developers in refactoring their software to a more energy-efficient state; allowing focus to remain on functional requirements while leaving concerns over energy consumption to an automated process."
+
+    - title: Genetic Improvement of Energy Usage is only as Reliable as the Measurements are Accurate
+      authors:
+        - name: Saemundur O. Haraldsson
+        - name: John R. Woodward
+      doi: https://doi.org/10.1145/2739482.2768421
+      abstract: "Energy has recently become an objective for Genetic Improvement. Measuring software energy use is complicated which might tempt us to use simpler measurements. However if we base the GI on inaccurate measurements we can not assure any improvements. This paper seeks to highlight important issues when evaluating energy use of programs."
+
+    - title: Embedded Dynamic Improvement
+      authors:
+        - name: Nathan Burles
+        - name: Edward Bowles
+        - name: Alexander E. I. Brownlee
+        - name: Zoltan A. Kocsis
+        - name: Nadarajen Veerapen
+      doi: https://doi.org/10.1145/2739482.2768423
+      abstract: "We discuss the useful role that can be played by a subtype of improvement programming, which we term 'Embedded Dynamic Improvement'. In this approach, developer-specified variation points define the scope of improvement. A search framework is embedded at these variation points, facilitating the creation of adaptive software that can respond online to changes in its execution environment."
+
+    - title: Rethinking Genetic Improvement Programming
+      authors:
+        - name: David R. White
+        - name: Jeremy Singer
+      doi: https://doi.org/10.1145/2739482.2768426
+      abstract: "We re-examine the central motivation behind Genetic Improvement Programming GIP, and argue that the most important insight is the concept of applying Genetic Programming _to existing software_. This viewpoint allows us to make several observations about potential directions for GIP research."
+
+    - title: Fitness as Task-relevant Information Accumulation
+      authors:
+        - name: Colin G. Johnson
+        - name: John R. Woodward
+      doi: https://doi.org/10.1145/2739482.2768428
+      abstract: "\"If you cannot measure it, you cannot improve it.\"—Lord Kelvin<br/>
+
+Fitness in GP/GI is usually a short-sighted greedy fitness function counting the number of satisfied test cases or some other score based on error. If GP/GI is to be extended to successfully tackle “full software systems”, which is the stated domain of Genetic Improvement, with loops, conditional statements and function calls, then this kind of fitness will fail to scale. One alternative approach is to measure the fitness gain in terms of the accumulated information at each executed step of the program. This paper discusses methods for measuring the way in which programs accumulate information relevant to their task as they run, by building measures of this information gain based on information theory and model complexity."
+
