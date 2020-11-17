@@ -1,0 +1,11 @@
+<!-- HTML meta refresh URL redirection -->
+<html>
+<head>
+   <meta http-equiv="refresh"
+   content="0; url={{ page.redirect | relative_url }}">
+</head>
+<body>
+   <p>The page has moved to:
+   <a href="{{ page.redirect | relative_url }}">{{ page.redirect }}</a></p>
+</body>
+</html>
