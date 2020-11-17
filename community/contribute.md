@@ -2,15 +2,11 @@
 active: community
 ---
 
-<div class="alert alert-danger" role="alert">
-  <b>Page in construction.</b>
-</div>
-
 ## Contributing
 
 This is a _community_ website on Genetic Improvement.  
 In practice this means two things:
-first, that no single person is really responsible for maintaining it, especially regarding pages that are by nature incomplete (e.g., the [list of GI tools]({{ "/use/tools" | relative_url }} or the [living survey]({{ "/learn/survey" | relative_url }})) or potentially subjective (e.g., the [GI success stories]({{ "/learn/success" | relative_url }})).
+first, that no single person is really responsible for maintaining it, especially regarding pages that are by nature incomplete (e.g., the [list of GI tools]({{ "/use/tools" | relative_url }}) or the [living survey]({{ "/learn/survey" | relative_url }})) or potentially subjective (e.g., the [GI success stories]({{ "/learn/success" | relative_url }})).
 And second, that anyone, from student to professor, from researcher to practitioner, is _very_ welcome to contribute improving it.
 
 

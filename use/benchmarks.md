@@ -2,10 +2,6 @@
 active: use
 ---
 
-<div class="alert alert-danger" role="alert">
-  <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
-</div>
-
 ## Can you suggest good GI Benchmarks?
 
 GI-improved test subjects with test cases:
@@ -23,3 +19,8 @@ Automated program repair, bug repositories:
 Benchmarks identified at the [Dagstuhl Seminar on Genetic Improvement of Software](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052):
 - Parsec: [http://parsec.cs.princeton.edu/](http://parsec.cs.princeton.edu/)
 - SPEC INT: [https://www.spec.org/benchmarks.html](https://www.spec.org/benchmarks.html)
+
+
+<div class="alert alert-info" role="alert">
+  <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expending it</a>)
+</div>

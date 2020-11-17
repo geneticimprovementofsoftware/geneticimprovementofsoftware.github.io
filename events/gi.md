@@ -2,10 +2,6 @@
 active: events
 ---
 
-<div class="alert alert-danger" role="alert">
-  <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
-</div>
-
 - **[Jul 2021]** 10th International Workshop on Genetic Improvement (ICSE 2021) [[link]]({{"/events/icse2021" | relative_url }})
 - **[Sep 2020]** Tutorial on Genetic improvement (ASE 2020) [[link]]({{"/events/ase2020" | relative_url }})
 - **[Sep 2020]** Tutorial on Genetic improvement (PPSN 2020) [[link]](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) [[slides]]({{"/slides/PPSN2020_GItutorial.pdf" | relative_url}})

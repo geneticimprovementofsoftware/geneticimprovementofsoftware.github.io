@@ -20,6 +20,10 @@ Magic queries include <a href="#" onclick="force('venue=&quot;IEEE TEVC&quot;')"
   </div>
 </div>
 
+<div>
+  Showing <span id="counter">{{ site.data.survey.size }}</span> entries.
+</div>
+
 <table id="survey" class="table table-responsive">
   <thead>
     <tr>
@@ -44,6 +48,13 @@ Magic queries include <a href="#" onclick="force('venue=&quot;IEEE TEVC&quot;')"
 </table>
 
 
+## Other resources
+
+- The GP bibliography: [http://gpbib.cs.ucl.ac.uk](http://gpbib.cs.ucl.ac.uk)
+- The program-repair.org bibliography page: [https://program-repair.org/bibliography.html](https://program-repair.org/bibliography.html)
+- Martin Monperrus living review on Automated Program Repair: [https://www.monperrus.net/martin/repair-living-review.pdf](https://www.monperrus.net/martin/repair-living-review.pdf)
+
+
 <script>
 function search() {
   var chunks = $("input#search").val().toUpperCase().match(/(?:[^\s"]+|"[^"]*")+/g)
@@ -51,6 +62,7 @@ function search() {
     chunks = chunks.map(c => c.replace(/\"/g, ""));
   }
 
+  var counter = 0
   $("tbody tr").each(function() {
     var s = $(this).data("search");
     var show = true;
@@ -59,18 +71,18 @@ function search() {
         if (s.toUpperCase().indexOf(c) == -1) {
           show = false;
         }
-        console.log(c)
-        console.log(s.toUpperCase())
-        console.log(s.toUpperCase().indexOf(c))
       }
       if (show) {
         $(this).show();
+        counter += 1;
       } else {
         $(this).hide();
       }
     } else {
       $(this).show();
+      counter += 1;
     }
+    $("span#counter").text(counter);
   });
 }
 

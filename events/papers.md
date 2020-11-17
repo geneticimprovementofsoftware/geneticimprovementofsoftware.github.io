@@ -2,10 +2,6 @@
 active: events
 ---
 
-<div class="alert alert-danger" role="alert">
-  <b>This page lacks data.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
-</div>
-
 Jump to papers from:{% for event in site.data.papers %}
 - [{{ event.abbrv }}](#{{ event.anchor }}){% endfor %}
 

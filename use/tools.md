@@ -2,10 +2,6 @@
 active: use
 ---
 
-<div class="alert alert-danger" role="alert">
-  <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
-</div>
-
 ## What are some examples of GI Frameworks?
 
 <a href="https://github.com/gintool/gin">Gin</a>: GI in No Time - a Simple Microframework for Genetic Improvement
@@ -36,3 +32,8 @@ Other frameworks and libraries identified at the <a href="https://www.dagstuhl.d
 - <a href="https://github.com/yyxhdy/arja">ARJA: multi-objective automated program repair</a>
 - <a href="https://github.com/Spirals-Team/librepair/tree/master/repairnator">Repairnator</a>
 - <a href="https://github.com/kayquesousa/astor4android">Astor4Android: program repair for Android Apps</a>
+
+
+<div class="alert alert-info" role="alert">
+  <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expending it</a>)
+</div>

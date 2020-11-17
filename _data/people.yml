@@ -1,0 +1,141 @@
+- name: Brad Alexander
+  affil: University of Adelaide, Australia
+  url: https://researchers.adelaide.edu.au/profile/bradley.alexander
+  img: /profile_images/brad_alexander.jpg
+  tags:
+    - Gin
+
+- name: Nadia Alshahwan
+  affil: Facebook London, United Kingdom
+  url: https://www.linkedin.com/in/nadiaalshahwan
+  img: /profile_images/nadia_alshawan.jpg
+
+- name: Gabin An
+  affil: KAIST, Korea
+  url: https://coinse.kaist.ac.kr/members/gabin/
+  img: /profile_images/gabin_an.jpg
+  tags:
+    - PyGGI
+
+- name: Marcio Barros
+  affil: UNIRIO University, Brazil
+  url: https://www.uniriotec.br/~marcio.barros/
+  img: /profile_images/marcio_barros.jpg
+
+- name: Aymeric Blot
+  affil: UCL, United Kingdom
+  url: http://www0.cs.ucl.ac.uk/staff/a.blot/
+  tags:
+    - PyGGI
+
+- name: Sandy Brownlee
+  affil: University of Stirling, United Kingdom
+  url: http://www.cs.stir.ac.uk/~sbr/
+  img: /profile_images/sandy_brownlee.jpg
+
+- name: Bobby Bruce
+  affil: UC Davis, USA
+  url: https://www.bobbybruce.net/
+  img: /profile_images/bobby_bruce.jpg
+
+- name: Lea Kristin Gerling
+  affil: University of Hildesheim, Germany
+  url: https://sse.uni-hildesheim.de/mitglieder/lea-kristin-gerling/
+  img: /profile_images/lea_kristin_gerling_.jpg
+
+- name: Tracy Hall
+  affil: Lancaster University, United Kingdom
+  url: https://www.lancaster.ac.uk/scc/about-us/people/tracy-hall
+  img: /profile_images/tracy_hall.jpg
+
+- name: Saemundur Haraldsson
+  affil: University of Stirling, United Kingdom
+  url: http://www.cs.stir.ac.uk/~soh/
+  img: /profile_images/saemundur_haraldsson.jpg
+
+- name: Yu Huang
+  affil: University of Michigan, USA
+  url: http://www-personal.umich.edu/~yhhy/
+  img: /profile_images/yu_huang.jpg
+
+- name: Colin Johnson
+  affil: University of Nottingham, United Kingdom
+  url: http://www.cs.kent.ac.uk/people/staff/cgj
+  img: /profile_images/colin_johnson.jpg
+
+- name: Bill Langdon
+  affil: UCL, United Kingdom
+  url: http://www0.cs.ucl.ac.uk/staff/W.Langdon/
+  img: /profile_images/bill_langdon.jpg
+
+- name: Bach Le
+  affil: University of Melbourne, Australia
+  url: https://cis.unimelb.edu.au/people/bach-le
+  img: /profile_images/bach_le.jpg
+
+- name: ThanhVu Nguyen
+  affil: University of Nebraska-Lincoln, USA
+  url: https://nguyenthanhvuh.github.io/
+  img: /profile_images/thanhvu_nguyen.jpg
+
+- name: Justyna Petke
+  affil: UCL, United Kingdom
+  url: http://www0.cs.ucl.ac.uk/staff/J.Petke/
+  img: /profile_images/justyna_petke.jpg
+  tags:
+    - PyGGI
+    - Gin
+
+- name: Eric Schulte
+  affil: GrammaTech, USA
+  url: https://www.cs.unm.edu/~eschulte/
+  img: /profile_images/eric_schulte.jpg
+
+- name: Marija Selakovic
+  affil: Huawei Research Center, Germany
+  url: http://marija.skyresource.com/
+  img: /profile_images/marija_selakovic.jpg
+
+- name: Christopher Timperley
+  affil: Carnegie Mellon University, USA
+  url: http://www.christimperley.co.uk/
+  img: /profile_images/christopher_timperley.jpg
+
+- name: Leonardo Trujillo
+  affil: Instituto Tecnológico de Tijuana, Mexico
+  url: https://sites.google.com/site/leonardotrujillogp/
+  img: /profile_images/leonardo_trujillo.jpg
+
+- name: Markus Wagner
+  affil: University of Adelaide, Australia
+  url: https://cs.adelaide.edu.au/users/markus/
+  img: /profile_images/markus_wagner.jpg
+  tags:
+    - Gin
+
+- name: Westley Weimer
+  affil: University of Michigan, USA
+  url: https://web.eecs.umich.edu/~weimerw/
+  img: /profile_images/westley_weimer.jpg
+
+- name: John Woodward
+  affil: QMUL, United Kingdom
+  url: http://www.eecs.qmul.ac.uk/~jwoodward/
+  img: /profile_images/john_woodward.jpg
+
+- name: Jifeng Xuan
+  affil: Wuhan University, China
+  url: http://jifeng-xuan.com/
+  img: /profile_images/jifeng_xuan.jpg
+
+- name: Shin Yoo
+  affil: KAIST, Korea
+  url: https://coinse.kaist.ac.kr/members/shin.yoo/
+  img: /profile_images/shin_yoo.jpg
+  tags:
+    - PyGGI
+
+- name: Yuan Yuan
+  affil: Michigan State University, USA
+  url: https://yyxhdy.github.io/
+  img: /profile_images/yuan_yuan.jpg

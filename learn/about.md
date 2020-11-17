@@ -2,9 +2,9 @@
 active: learn
 ---
 
-<div class="alert alert-danger" role="alert">
+{% comment %}<div class="alert alert-danger" role="alert">
   <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
-</div>
+</div> {% endcomment %}
 
 ## What is Genetic Improvement?
 
