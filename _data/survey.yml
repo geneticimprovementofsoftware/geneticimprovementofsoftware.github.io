@@ -104,9 +104,9 @@
     - David Bowes
     - Steve Counsell
     - Tracy Hall
-    - Saemundur Haraldsson
+    - Saemundur O. Haraldsson
     - Emily Winter
-    - John Woodward
+    - John R. Woodward
   venue: "GECCO"
   year: 2020
   type: Conference
@@ -128,7 +128,7 @@
 
 - title: "Genetic Improvement: Taking Real-World Source Code and Improving It Using Genetic Programming"
   authors:
-    - Samundur O. Haraldsson
+    - Saemundur O. Haraldsson
     - John R. Woodward
     - Markus Wagner
   venue: "GECCO"
@@ -150,7 +150,7 @@
 - title: "Hyper-Heuristics Tutorial"
   authors:
     - Daniel R. Tauritz
-    - John Woodward
+    - John R. Woodward
   venue: "GECCO"
   year: 2020
   type: Conference
@@ -238,9 +238,9 @@
     - David Bowes
     - Steve Counsell
     - Tracy Hall
-    - Saemundur Haraldsson
+    - Saemundur O. Haraldsson
     - Vesna Nowack
-    - John Woodward
+    - John R. Woodward
   venue: "GI@GECCO"
   year: 2020
   type: Workshop
@@ -781,7 +781,7 @@
     - Afsoon Afzal
     - Jeremy Lacomis
     - Claire Le Goues
-    - Christopher Steven Timperley
+    - Christopher Timperley
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
@@ -1126,7 +1126,7 @@
 
 - title: "Genetic Improvement of Software: From Program Landscapes to the Automatic Improvement of a Live System"
   authors:
-    - Saemundur Oskar Haraldsson
+    - Saemundur O. Haraldsson
   venue: ""
   year: 2017
   tags:
@@ -1463,7 +1463,7 @@
 
 - title: "The Use of Automatic Test Data Generation for Genetic Improvement in a Live System"
   authors:
-    - Saemundur Oskar Haraldsson
+    - Saemundur O. Haraldsson
     - John R. Woodward
     - Alexander E. I. Brownlee
   venue: "SBST"
@@ -1484,7 +1484,7 @@
 
 - title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
   authors:
-    - Christopher Steven Timperley
+    - Christopher Timperley
     - Susan Stepney
     - Claire Le Goues
   venue: "SSBSE"
@@ -1518,7 +1518,7 @@
 
 - title: "Computers will soon be able to fix themselves - are IT departments for the chop?"
   authors:
-    - Saemundur Haraldsson
+    - Saemundur O. Haraldsson
     - Alexander E. I. Brownlee
     - John R. Woodward
   venue: "The Conversation"
@@ -1628,7 +1628,7 @@
 
 - title: "Evals is not enough: why we should report wall-clock time"
   authors:
-    - John Woodward
+    - John R. Woodward
     - Alexander E. I. Brownlee
     - Colin Johnson
   venue: "GI@GECCO"
@@ -1649,7 +1649,7 @@
 
 - title: "GP vs GI: if you can't beat them, join them"
   authors:
-    - John Woodward
+    - John R. Woodward
     - Colin Johnson
     - Alexander E. I. Brownlee
   venue: "GI@GECCO"
@@ -2484,7 +2484,7 @@
 
 - title: "Evolutionary Algorithms for Automatic Parallelization"
   authors:
-    - Kenneth Peter Williams
+    - Kenneth P. Williams
   venue: ""
   year: 1998
   tags:
@@ -2508,7 +2508,7 @@
 
 - title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
-    - Yuan Yuan2
+    - Yuan Yuan
     - Wolfgang Banzhaf
   venue: "IEEE TSE"
   year: 
