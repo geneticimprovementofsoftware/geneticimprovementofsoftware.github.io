@@ -840,7 +840,7 @@
 
 - title: "Mark Harman wins both IEEE and ACM Awards in 2019"
   authors:
-    - Bill Langdon
+    - William B. Langdon
   venue: "SIGEVOlution"
   year: 2019
   type: Journal
@@ -869,7 +869,7 @@
   authors:
     - Justyna Petke
     - Alexander E. I. Brownlee
-  venue: "SSBSE"
+  venue: "SSBSE 2019"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-27455-9_14
@@ -958,38 +958,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_04.pdf
 
-- title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
-  authors:
-    - Oliver Krauss
-  venue: "15th International Conference on Managed Languages and Runtimes (ManLang'18)"
-  year: 2018
-  type: Conference
-  tags:
-    - GP
-  urls:
-    - http://ssw.jku.at/manlang18/index.php/manlang/program
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Krauss_2018_ManLang.pdf
-
-- title: "Investigating the Evolvability of Page Load Time"
-  authors:
-    - Brendan Cody-Kenny
-    - Umberto Manganiello
-    - John Farrelly
-    - Adrian Ronayne
-    - Eoghan Considine
-    - Thomas McGuire
-    - Michael O'Neill
-  venue: "21st International Conference on the Applications of Evolutionary Computation, EvoSET 2018"
-  year: 2018
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-319-77538-8_51
-  tags:
-    - GP
-    - SBSE
-  urls:
-    - https://arxiv.org/pdf/1803.01683
-
 - title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
     - Justyna Petke
@@ -1041,6 +1009,25 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2018_EuroGP.pdf
+
+- title: "Investigating the Evolvability of Page Load Time"
+  authors:
+    - Brendan Cody-Kenny
+    - Umberto Manganiello
+    - John Farrelly
+    - Adrian Ronayne
+    - Eoghan Considine
+    - Thomas McGuire
+    - Michael O'Neill
+  venue: "EvoSET"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-77538-8_51
+  tags:
+    - GP
+    - SBSE
+  urls:
+    - https://arxiv.org/pdf/1803.01683
 
 - title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
   authors:
@@ -1344,6 +1331,19 @@
     - GP
     - SBSE
 
+- title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
+  authors:
+    - Oliver Krauss
+  venue: "ManLang"
+  year: 2018
+  type: Conference
+  tags:
+    - GP
+  urls:
+    - http://ssw.jku.at/manlang18/index.php/manlang/program
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Krauss_2018_ManLang.pdf
+
 - title: "Guiding Software Evolution with Binary Diversity"
   authors:
     - Jeremiah Greer
@@ -1353,7 +1353,7 @@
     - Nan Niu
     - Mitchell Hirschfeld
     - David Kapp
-  venue: "NAECON 2018 - IEEE National Aerospace and Electronics Conference"
+  venue: "NAECON"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1109/NAECON.2018.8556645
@@ -1394,7 +1394,7 @@
     - Alexander Mols
     - Taijin Tei
     - Ilya Zorin
-  venue: "SSBSE"
+  venue: "SSBSE 2018"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_1
@@ -1408,7 +1408,7 @@
     - Myra B. Cohen
     - Witawas Srisa-an
     - Sheng Wei
-  venue: "SSBSE"
+  venue: "SSBSE 2018"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_24
@@ -1420,7 +1420,7 @@
   authors:
     - William B. Langdon
     - Justyna Petke
-  venue: "SSBSE"
+  venue: "SSBSE 2018 Hot off the Press Track"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_22
@@ -1545,25 +1545,6 @@
   doi: https://doi.org/10.1186/s13040-017-0149-1
   tags:
     - GP
-
-- title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
-  authors:
-    - Xuan-Bach D. Le
-    - Duc-Hiep Chu
-    - David Lo
-    - Claire Le Goues
-    - Willem Visser
-  venue: "ESEC/FSE"
-  year: 2017
-  type: Conference
-  doi: https://doi.org/10.1145/3106237.3106309
-  tags:
-    - APR
-    - GP
-  urls:
-    - http://doi.acm.org/10.1145/3106237.3106309
-  pdfs:
-    - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
 
 - title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
   authors:
@@ -1961,6 +1942,25 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/SPLASH_SRC_Krauss_Oliver.pdf
 
+- title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
+  authors:
+    - Xuan-Bach D. Le
+    - Duc-Hiep Chu
+    - David Lo
+    - Claire Le Goues
+    - Willem Visser
+  venue: "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, ESEC/FSE 2017"
+  year: 2017
+  type: Conference
+  doi: https://doi.org/10.1145/3106237.3106309
+  tags:
+    - APR
+    - GP
+  urls:
+    - http://doi.acm.org/10.1145/3106237.3106309
+  pdfs:
+    - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
+
 - title: "Inferring Automatic Test Oracles"
   authors:
     - William B. Langdon
@@ -2121,18 +2121,6 @@
     - GP
   pdfs:
     - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
-
-- title: "Genetic Improvement for Approximate Computing"
-  authors:
-    - Lukas Sekanina
-    - Zdenek Vasicek
-  venue: "2nd Workshop On Approximate Computing (WAPCO 2016)"
-  year: 2016
-  type: Conference
-  tags:
-    - GP
-  pdfs:
-    - http://wapco.inf.uth.gr/papers/SESSION2/wapco2016_2_5.pdf
 
 - title: "Automatically scheduling halide image processing pipelines"
   authors:
@@ -2351,6 +2339,22 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_cec.pdf
 
+- title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
+  authors:
+    - Weilin Xu
+    - Yanjun Qi
+    - David Evans
+  venue: "NDSS"
+  year: 2016
+  type: Conference
+  tags:
+    - GP
+  urls:
+    - http://evademl.org/
+    - https://www.internetsociety.org/events/ndss-symposium-2016/ndss-2016-programme#session11
+  pdfs:
+    - https://www.internetsociety.org/sites/default/files/blogs-media/automatically-evading-classifiers.pdf
+
 - title: "A General-Purpose Framework for Genetic Improvement"
   authors:
     - Francesco Marino
@@ -2483,21 +2487,17 @@
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/legoues-ssbse16.pdf
 
-- title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
+- title: "Genetic Improvement for Approximate Computing"
   authors:
-    - Weilin Xu
-    - Yanjun Qi
-    - David Evans
-  venue: "The Network and Distributed System Security Symposium 2016"
+    - Lukas Sekanina
+    - Zdenek Vasicek
+  venue: "WAPCO"
   year: 2016
-  type: Conference
+  type: Workshop
   tags:
     - GP
-  urls:
-    - http://evademl.org/
-    - https://www.internetsociety.org/events/ndss-symposium-2016/ndss-2016-programme#session11
   pdfs:
-    - https://www.internetsociety.org/sites/default/files/blogs-media/automatically-evading-classifiers.pdf
+    - http://wapco.inf.uth.gr/papers/SESSION2/wapco2016_2_5.pdf
 
 - title: "Genetic Programming Bias with Software Performance Analysis"
   authors:
@@ -2537,22 +2537,6 @@
   doi: https://doi.org/10.1109/AHS.2015.7231178
   tags:
     - GP
-
-- title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
-  authors:
-    - Mark Harman
-    - Yue Jia
-    - Yuanyuan Zhang
-  venue: "8th IEEE International Conference on Software Testing, Verification and Validation, ICST 2015"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1109/ICST.2015.7102580
-  tags:
-    - GP
-    - SBSE
-    - testing
-  pdfs:
-    - http://www0.cs.ucl.ac.uk/staff/m.harman/icst15.pdf
 
 - title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
   authors:
@@ -2595,6 +2579,23 @@
     - http://cs-dc-15.org/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_csdc.pdf
+
+- title: "App Store Mining and Analysis"
+  authors:
+    - Afnan Al-Subaihin
+    - Anthony Finkelstein
+    - Mark Harman
+    - Yue Jia
+    - William Martin
+    - Federica Sarro
+    - Yuanyuan Zhang
+  venue: "DeMobile"
+  year: 2015
+  type: Workshop
+  tags:
+    - GP
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/mharman/final-demobile15-keynote.pdf
 
 - title: "Deep Parameter Optimisation"
   authors:
@@ -2904,6 +2905,22 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_hbgpa.pdf
 
+- title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
+  authors:
+    - Mark Harman
+    - Yue Jia
+    - Yuanyuan Zhang
+  venue: "ICST"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ICST.2015.7102580
+  tags:
+    - GP
+    - SBSE
+    - testing
+  pdfs:
+    - http://www0.cs.ucl.ac.uk/staff/m.harman/icst15.pdf
+
 - title: "Optimising Existing Software with Genetic Programming"
   authors:
     - William B. Langdon
@@ -2928,7 +2945,7 @@
     - Yue Jia
     - Alexandru Marginean
     - Justyna Petke
-  venue: "International Symposium on Software Testing and Analysis, ISSTA 2015"
+  venue: "ISSTA"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1145/2771783.2771796
@@ -2983,22 +3000,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_SSBSE.pdf
 
-- title: "Grow and Serve: Growing Django Citation Services Using SBSE"
-  authors:
-    - Yue Jia
-    - Mark Harman
-    - William B. Langdon
-    - Alexandru Marginean
-  venue: "SSBSE"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-319-22183-0_22
-  tags:
-    - GP
-    - SBSE
-  pdfs:
-    - http://alexandrumarginean.com/grow_and_serve.pdf
-
 - title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
   authors:
     - Nathan Burles
@@ -3035,6 +3036,22 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/R.Bruce/Burles2015Specialising.pdf
 
+- title: "Grow and Serve: Growing Django Citation Services Using SBSE"
+  authors:
+    - Yue Jia
+    - Mark Harman
+    - William B. Langdon
+    - Alexandru Marginean
+  venue: "SSBSE 2015 Challenge Track"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-22183-0_22
+  tags:
+    - GP
+    - SBSE
+  pdfs:
+    - http://alexandrumarginean.com/grow_and_serve.pdf
+
 - title: "How computers are learning to make human software work more efficiently"
   authors:
     - John R. Woodward
@@ -3047,23 +3064,6 @@
     - GP
   urls:
     - http://theconversation.com/how-computers-are-learning-to-make-human-software-work-more-efficiently-43798
-
-- title: "App Store Mining and Analysis"
-  authors:
-    - Afnan Al-Subaihin
-    - Anthony Finkelstein
-    - Mark Harman
-    - Yue Jia
-    - William Martin
-    - Federica Sarro
-    - Yuanyuan Zhang
-  venue: "Third International Workshop on Software Development Lifecycle for Mobile, DeMobile 2015"
-  year: 2015
-  type: Conference
-  tags:
-    - GP
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/mharman/final-demobile15-keynote.pdf
 
 - title: "Gen-O-Fix: An embeddable framework for Dynamic Adaptive Genetic Improvement Programming"
   authors:
@@ -3081,41 +3081,6 @@
     - http://www.cs.stir.ac.uk/~kjt/techreps/pdf/TR195.pdf
     - http://www.epitropakis.co.uk/sites/default/files/pubs/genofix-TR.pdf
 
-- title: "Genetic Improvement of Programs"
-  authors:
-    - William B. Langdon
-  venue: "16th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC 2014)"
-  year: 2014
-  type: Conference
-  doi: https://doi.org/10.1109/SYNASC.2014.10
-  tags:
-    - GP
-    - SBSE
-  urls:
-    - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7034660
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc.pdf
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc_abstract.pdf
-
-- title: "Search based software engineering for software product line engineering: a survey and directions for future work"
-  authors:
-    - Mark Harman
-    - Yue Jia
-    - Jens Krinke
-    - William B. Langdon
-    - Justyna Petke
-    - Yuanyuan Zhang
-  venue: "18th International Software Product Line, SPLC 2014"
-  year: 2014
-  type: Conference
-  doi: https://doi.org/10.1145/2648511.2648513
-  tags:
-    - GP
-    - SBSE
-    - survey
-  pdfs:
-    - http://www0.cs.ucl.ac.uk/staff/m.harman/splc14.pdf
-
 - title: "Quality Assurance for Self-Adaptive, Self-Organising Systems (Message from the Workshop Organisers)"
   authors:
     - Benedikt Eberhardinger
@@ -3128,27 +3093,6 @@
   doi: https://doi.org/10.1109/SASOW.2014.30
   tags:
     - GP
-
-- title: "Genetic Improvement for Adaptive Software Engineering"
-  authors:
-    - Mark Harman
-    - Yue Jia
-    - William B. Langdon
-    - Justyna Petke
-    - Iman Hemati Moghadam
-    - Shin Yoo
-    - Fan Wu
-  venue: "9th International Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS'14)"
-  year: 2014
-  type: Conference
-  doi: https://doi.org/10.1145/2593929.2600116
-  tags:
-    - AI
-    - GP
-    - ML
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/seams14main-id100-p-22852-aede8e5-20619-submitted.pdf
 
 - title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
   authors:
@@ -3199,6 +3143,22 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_GECCO.pdf
 
+- title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
+  authors:
+    - Benoit Baudry
+    - Simon Allier
+    - Martin Monperrus
+  venue: "ISSTA"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2610384.2610415
+  tags:
+    - GP
+    - SBSE
+  urls:
+    - https://hal.archives-ouvertes.fr/hal-00938855/document
+    - http://doi.acm.org/10.1145/2610384.2610415
+
 - title: "Post-compiler Software Optimization for Reducing Energy"
   authors:
     - Eric Schulte
@@ -3217,21 +3177,45 @@
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/schulte-asplos2014.pdf
 
-- title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
+- title: "Genetic Improvement for Adaptive Software Engineering"
   authors:
-    - Benoit Baudry
-    - Simon Allier
-    - Martin Monperrus
-  venue: "Proceedings of the 2014 International Symposium on Software Testing and Analysis, ISSTA 2014"
+    - Mark Harman
+    - Yue Jia
+    - William B. Langdon
+    - Justyna Petke
+    - Iman Hemati Moghadam
+    - Shin Yoo
+    - Fan Wu
+  venue: "SEAMS"
   year: 2014
   type: Conference
-  doi: https://doi.org/10.1145/2610384.2610415
+  doi: https://doi.org/10.1145/2593929.2600116
+  tags:
+    - AI
+    - GP
+    - ML
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/seams14main-id100-p-22852-aede8e5-20619-submitted.pdf
+
+- title: "Search based software engineering for software product line engineering: a survey and directions for future work"
+  authors:
+    - Mark Harman
+    - Yue Jia
+    - Jens Krinke
+    - William B. Langdon
+    - Justyna Petke
+    - Yuanyuan Zhang
+  venue: "SPLC"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2648511.2648513
   tags:
     - GP
     - SBSE
-  urls:
-    - https://hal.archives-ouvertes.fr/hal-00938855/document
-    - http://doi.acm.org/10.1145/2610384.2610415
+    - survey
+  pdfs:
+    - http://www0.cs.ucl.ac.uk/staff/m.harman/splc14.pdf
 
 - title: "Babel Pidgin: SBSE Can Grow and Graft Entirely New Functionality into a Real World System"
   authors:
@@ -3269,6 +3253,22 @@
   urls:
     - http://www.springer.com/computer/swe/book/978-3-319-09939-2
 
+- title: "Genetic Improvement of Programs"
+  authors:
+    - William B. Langdon
+  venue: "SYNASC"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1109/SYNASC.2014.10
+  tags:
+    - GP
+    - SBSE
+  urls:
+    - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7034660
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc_abstract.pdf
+
 - title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
   authors:
     - Zoltan A. Kocsis
@@ -3298,22 +3298,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2013_WCRE.pdf
 
-- title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
-  authors:
-    - Yuhua Qi
-    - Xiaoguang Mao
-    - Yan Lei
-  venue: "29th IEEE International Conference on Software Maintenance, ICSM 2013"
-  year: 2013
-  type: Conference
-  doi: https://doi.org/10.1109/ICSM.2013.29
-  tags:
-    - APR
-    - GP
-    - testing
-  pdfs:
-    - https://icsm2013.tue.nl/ICSM2013.pdf
-
 - title: "Input-aware Auto-tuning for Directive-based GPU Programming"
   authors:
     - Alberto Magni
@@ -3325,6 +3309,22 @@
   doi: https://doi.org/10.1145/2458523.2458530
   urls:
     - http://doi.acm.org/10.1145/2458523.2458530
+
+- title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
+  authors:
+    - Yuhua Qi
+    - Xiaoguang Mao
+    - Yan Lei
+  venue: "ICSM"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ICSM.2013.29
+  tags:
+    - APR
+    - GP
+    - testing
+  pdfs:
+    - https://icsm2013.tue.nl/ICSM2013.pdf
 
 - title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
   authors:
@@ -3374,7 +3374,7 @@
 - title: "Genetic Improvement of Programs"
   authors:
     - William B. Langdon
-  venue: "18th International Conference on Soft Computing, MENDEL 2012"
+  venue: "MENDEL"
   year: 2012
   type: Conference
   tags:
