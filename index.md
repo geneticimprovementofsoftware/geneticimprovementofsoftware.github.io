@@ -2,17 +2,16 @@
 active: home
 title: Genetic Improvement of Software
 description: The Community Website on Repair and Optimisation of Software using Computational Search
-banner:
-        title: "Genetic Improvement of Software <small><em>.com</em></small>"
-        description: Welcome to the community website on Genetic Improvement.
 ---
 
-## What is GI?
+# Genetic Improvement of Software <small><em>.com</em></small>
 
 
 {::options parse_block_html="true" /}
 <div class="row">
 <div class="col-12 col-sm-6 col-md-8">
+
+Welcome to the community website on Genetic Improvement (GI).
 
 GI focuses on the repair and optimisation of software using computational search and evolutionary processes, often [outperforming]({{ "/learn/success" | relative_url }}) human developers at these tasks.  <small>_([read more]({{ "/learn/about" | relative_url }}))_</small>  
 We as a community run a workshop and frequent [events]({{ "/events/gi" | relative_url }}) year-round, feel free to meet [us]({{ "/community/members" | relative_url }}) to discuss the future of software engineering!
@@ -24,7 +23,6 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
   <figcaption class="figure-caption text-right">GI@ICSE 2020 (virtual event)</figcaption>
 </figure>
 </div>
-
 
 
 ## News
