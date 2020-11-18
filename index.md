@@ -29,7 +29,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 ## News
 
-* We are happy to announce that the 10th edition of the International Workshop on Genetic Improvement will take place at [ICSE 2021](https://conf.researchr.org/home/icse-2021).
+* <span class="badge badge-primary">New</span> We are happy to announce that the 10th edition of the International Workshop on Genetic Improvement will take place at [ICSE 2021](https://conf.researchr.org/home/icse-2021).
 * There was a [GI tutorial at ASE 2020](./gi2020ase.html).
 * There was a [tutorial on Genetic Improvement](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) at PPSN 2020. [Slides can be obtained here](./slides/PPSN2020_GItutorial.pdf).
 * Due to ICSE going [virtual](https://conf.researchr.org/home/icse-2020), the [8th GI workshop](./gi2020icse.html) also went virtual and was held on July 3rd 2020.
