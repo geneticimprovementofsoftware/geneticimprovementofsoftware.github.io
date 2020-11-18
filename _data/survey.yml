@@ -137,6 +137,20 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_eurogp_2020.pdf
 
+- title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
+  authors:
+    - Daniel Dorfmeister
+    - Oliver Krauss
+  venue: "EvoSoft@GECCO"
+  year: 2020
+  type: Workshop
+  doi: https://doi.org/10.1145/3377929.3398103
+  tags:
+    - GP
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp139s2-file1.pdf
+
 - title: "Exploiting Fault Localisation for Efficient Program Repair"
   authors:
     - Vesna Nowack
@@ -225,20 +239,6 @@
   doi: https://doi.org/10.1145/3377930.3390245
   tags:
     - GP
-
-- title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
-  authors:
-    - Daniel Dorfmeister
-    - Oliver Krauss
-  venue: "GECCO 2020 Workshop on Evolutionary Computation Software Systems"
-  year: 2020
-  type: Conference
-  doi: https://doi.org/10.1145/3377929.3398103
-  tags:
-    - GP
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp139s2-file1.pdf
 
 - title: "An Annotated Dataset of Stack Overflow Post Edits"
   authors:
@@ -1302,6 +1302,19 @@
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2017_TSE.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2017_ieeeTSE.pdf
 
+- title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
+  authors:
+    - Fabio de Almeida Farzat
+    - Marcio de Oliveira Barros
+    - Guilherme Horta Travassos
+  venue: "JSERD"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.1186/s40411-018-0056-2
+  tags:
+    - GP
+    - SBSE
+
 - title: "Genetic Programming + Proof Search = Automatic Improvement"
   authors:
     - Zoltan A. Kocsis
@@ -1317,19 +1330,6 @@
     - http://eprints.whiterose.ac.uk/117917/
   pdfs:
     - http://eprints.whiterose.ac.uk/117917/1/art_10.1007_s10817_017_9409_5.pdf
-
-- title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
-  authors:
-    - Fabio de Almeida Farzat
-    - Marcio de Oliveira Barros
-    - Guilherme Horta Travassos
-  venue: "Journal of Software Engineering Research and Development"
-  year: 2018
-  type: Journal
-  doi: https://doi.org/10.1186/s40411-018-0056-2
-  tags:
-    - GP
-    - SBSE
 
 - title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
   authors:
@@ -1545,6 +1545,25 @@
   doi: https://doi.org/10.1186/s13040-017-0149-1
   tags:
     - GP
+
+- title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
+  authors:
+    - Xuan-Bach D. Le
+    - Duc-Hiep Chu
+    - David Lo
+    - Claire Le Goues
+    - Willem Visser
+  venue: "ESEC/FSE"
+  year: 2017
+  type: Conference
+  doi: https://doi.org/10.1145/3106237.3106309
+  tags:
+    - APR
+    - GP
+  urls:
+    - http://doi.acm.org/10.1145/3106237.3106309
+  pdfs:
+    - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
 
 - title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
   authors:
@@ -1928,39 +1947,6 @@
   pdfs:
     - https://coinse.kaist.ac.kr/publications/pdfs/An2017aa.pdf
 
-- title: "Genetic Improvement in Code Interpreters and Compilers"
-  authors:
-    - Oliver Krauss
-  venue: "Proceedings Companion of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
-  year: 2017
-  type: Conference
-  doi: https://doi.org/10.1145/3135932.3135934
-  tags:
-    - GP
-  urls:
-    - https://2017.splashcon.org/event/splash-2017-doctoral-symposium-genetic-improvement-in-code-interpreters-and-compilers
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/SPLASH_SRC_Krauss_Oliver.pdf
-
-- title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
-  authors:
-    - Xuan-Bach D. Le
-    - Duc-Hiep Chu
-    - David Lo
-    - Claire Le Goues
-    - Willem Visser
-  venue: "Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, ESEC/FSE 2017"
-  year: 2017
-  type: Conference
-  doi: https://doi.org/10.1145/3106237.3106309
-  tags:
-    - APR
-    - GP
-  urls:
-    - http://doi.acm.org/10.1145/3106237.3106309
-  pdfs:
-    - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
-
 - title: "Inferring Automatic Test Oracles"
   authors:
     - William B. Langdon
@@ -2010,6 +1996,20 @@
     - GP
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1003.pdf
+
+- title: "Genetic Improvement in Code Interpreters and Compilers"
+  authors:
+    - Oliver Krauss
+  venue: "SPLASH"
+  year: 2017
+  type: Conference
+  doi: https://doi.org/10.1145/3135932.3135934
+  tags:
+    - GP
+  urls:
+    - https://2017.splashcon.org/event/splash-2017-doctoral-symposium-genetic-improvement-in-code-interpreters-and-compilers
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/SPLASH_SRC_Krauss_Oliver.pdf
 
 - title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
   authors:
@@ -3094,6 +3094,24 @@
   tags:
     - GP
 
+- title: "Post-compiler Software Optimization for Reducing Energy"
+  authors:
+    - Eric Schulte
+    - Jonathan Dorn
+    - Stephen Harding
+    - Stephanie Forrest
+    - Westley Weimer
+  venue: "ASPLOS"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2541940.2541980
+  tags:
+    - GP
+  urls:
+    - http://doi.acm.org/10.1145/2654822.2541980
+  pdfs:
+    - https://squareslab.github.io/papers-repo/pdfs/schulte-asplos2014.pdf
+
 - title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
   authors:
     - Saemundur O. Haraldsson
@@ -3158,24 +3176,6 @@
   urls:
     - https://hal.archives-ouvertes.fr/hal-00938855/document
     - http://doi.acm.org/10.1145/2610384.2610415
-
-- title: "Post-compiler Software Optimization for Reducing Energy"
-  authors:
-    - Eric Schulte
-    - Jonathan Dorn
-    - Stephen Harding
-    - Stephanie Forrest
-    - Westley Weimer
-  venue: "Proceedings of the 19th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS'14"
-  year: 2014
-  type: Conference
-  doi: https://doi.org/10.1145/2541940.2541980
-  tags:
-    - GP
-  urls:
-    - http://doi.acm.org/10.1145/2654822.2541980
-  pdfs:
-    - https://squareslab.github.io/papers-repo/pdfs/schulte-asplos2014.pdf
 
 - title: "Genetic Improvement for Adaptive Software Engineering"
   authors:
