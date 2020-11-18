@@ -256,23 +256,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp144s2-file1.pdf
 
-- title: "Checkers: Multi-modal Darwinian API Optimisation"
-  authors:
-    - Santanu Kumar Dash
-    - Fan Wu
-    - Michail Basios
-    - Lingbo Li
-    - Leslie Kanthan
-  venue: "GI@GECCO"
-  year: 2020
-  type: Workshop
-  doi: https://doi.org/10.1145/3387940.3392173
-  tags:
-    - GP
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
-
 - title: "Evolving sqrt into 1/x via Software Data Maintenance"
   authors:
     - William B. Langdon
@@ -303,26 +286,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp145s2-file1.pdf
 
-- title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
-  authors:
-    - Emily Winter
-    - David Bowes
-    - Steve Counsell
-    - Tracy Hall
-    - Saemundur O. Haraldsson
-    - Vesna Nowack
-    - John R. Woodward
-  venue: "GI@GECCO"
-  year: 2020
-  type: Workshop
-  doi: https://doi.org/10.1145/3387940.3392176
-  tags:
-    - GP
-    - SBSE
-    - survey
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Winter_2020_GI.pdf
-
 - title: "Optimising the Fit of Stack Overflow Code Snippets into Existing Code"
   authors:
     - Brittany Reid
@@ -340,11 +303,62 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp119s2-file1.pdf
 
+- title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
+  authors:
+    - Mohsen Mosayebi
+    - Manbir Sodhi
+  venue: "GI@GECCO"
+  year: 2020
+  type: Workshop
+  doi: https://doi.org/10.1145/3377929.3398136
+  tags:
+    - GP
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp176s2-file1.pdf
+
+- title: "Checkers: Multi-modal Darwinian API Optimisation"
+  authors:
+    - Santanu Kumar Dash
+    - Fan Wu
+    - Michail Basios
+    - Lingbo Li
+    - Leslie Kanthan
+  venue: "GI@ICSE"
+  year: 2020
+  type: Workshop
+  doi: https://doi.org/10.1145/3387940.3392173
+  tags:
+    - GP
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
+
+- title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
+  authors:
+    - Emily Winter
+    - David Bowes
+    - Steve Counsell
+    - Tracy Hall
+    - Saemundur O. Haraldsson
+    - Vesna Nowack
+    - John R. Woodward
+  venue: "GI@ICSE"
+  year: 2020
+  type: Workshop
+  doi: https://doi.org/10.1145/3387940.3392176
+  tags:
+    - GP
+    - SBSE
+    - survey
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Winter_2020_GI.pdf
+
 - title: "Stack-Based Genetic Improvement"
   authors:
     - Aymeric Blot
     - Justyna Petke
-  venue: "GI@GECCO"
+  venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392174
@@ -359,7 +373,7 @@
   authors:
     - Aymeric Blot
     - Justyna Petke
-  venue: "GI@GECCO"
+  venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392175
@@ -374,7 +388,7 @@
     - Oliver Krauss
     - Hanspeter Moessenboeck
     - Michael Affenzeller
-  venue: "GI@GECCO"
+  venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392172
@@ -383,20 +397,6 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/krauss_towards_2020.pdf
-
-- title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
-  authors:
-    - Mohsen Mosayebi
-    - Manbir Sodhi
-  venue: "GI@GECCO"
-  year: 2020
-  type: Workshop
-  doi: https://doi.org/10.1145/3377929.3398136
-  tags:
-    - GP
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp176s2-file1.pdf
 
 - title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
   authors:
@@ -412,7 +412,7 @@
     - Erik Meijer
     - Silvia Sapora
     - Justin Spahr-Summers
-  venue: "GI@GECCO"
+  venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392089
@@ -594,50 +594,6 @@
   pdfs:
     - https://cs.adelaide.edu.au/~markus/pub/2019gecco-giSurvey.pdf
 
-- title: "Better Code Search and Reuse for Better Program Repair"
-  authors:
-    - Qi Xin
-    - Steven Reiss
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  tags:
-    - APR
-    - GP
-  urls:
-    - https://dl.acm.org/citation.cfm?id=3339020.3339023
-  pdfs:
-    - http://geneticimprovementofsoftware.com/paper_pdfs/xin2019better.pdf
-
-- title: "Evolutionary Computation for Improving Malware Analysis"
-  authors:
-    - Kevin Leach
-    - Ryan Dougherty
-    - Chad Spensky
-    - Stephanie Forrest
-    - Westley Weimer
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  tags:
-    - GP
-  pdfs:
-    - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
-    - http://geneticimprovementofsoftware.com/paper_pdfs/leach2019evolutionary.pdf
-
-- title: "Fuzzy Edit Sequences in Genetic Improvement"
-  authors:
-    - Aymeric Blot
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  tags:
-    - GP
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2019.pdf
-    - http://geneticimprovementofsoftware.com/paper_pdfs/blot2019gi.pdf
-
 - title: "Genetic Algorithms for Affine Transformations to Existential t-Restrictions"
   authors:
     - Ryan E. Dougherty
@@ -666,62 +622,6 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_GI7.pdf
-
-- title: "Genetic Improvement of GPU Code"
-  authors:
-    - Jhe-Yu Liou
-    - Stephanie Forrest
-    - Carole-Jean Wu
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  tags:
-    - GP
-  urls:
-    - https://dl.acm.org/citation.cfm?id=3339020.3339025
-  pdfs:
-    - http://gpbib.cs.ucl.ac.uk/gi2019/Liou_2019_GI.pdf
-    - http://geneticimprovementofsoftware.com/paper_pdfs/liou2019genetic.pdf
-
-- title: "Industrial experience of Genetic Improvement in Facebook"
-  authors:
-    - Nadia Alshahwan
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  doi: https://doi.org/10.1109/GI.2019.00010
-  tags:
-    - GP
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2019/Alshahwan_2019_GI.pdf
-
-- title: "Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair"
-  authors:
-    - Zhen Yu Ding
-    - Yiwei Lyu
-    - Christopher Timperley
-    - Claire Le Goues
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  tags:
-    - GP
-    - SBSE
-  pdfs:
-    - http://geneticimprovementofsoftware.com/paper_pdfs/ding2019leveraging.pdf
-
-- title: "Mining Patterns from Genetic Improvement Experiments"
-  authors:
-    - Oliver Krauss
-    - Hanspeter Moessenboeck
-    - Michael Affenzeller
-  venue: "GI@GECCO"
-  year: 2019
-  type: Workshop
-  tags:
-    - GP
-  pdfs:
-    - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
 
 - title: "On Adaptive Specialisation in Genetic Improvement"
   authors:
@@ -767,6 +667,106 @@
     - https://arxiv.org/abs/1905.02258
   pdfs:
     - https://ctreude.files.wordpress.com/2019/05/gi19.pdf
+
+- title: "Better Code Search and Reuse for Better Program Repair"
+  authors:
+    - Qi Xin
+    - Steven Reiss
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  tags:
+    - APR
+    - GP
+  urls:
+    - https://dl.acm.org/citation.cfm?id=3339020.3339023
+  pdfs:
+    - http://geneticimprovementofsoftware.com/paper_pdfs/xin2019better.pdf
+
+- title: "Evolutionary Computation for Improving Malware Analysis"
+  authors:
+    - Kevin Leach
+    - Ryan Dougherty
+    - Chad Spensky
+    - Stephanie Forrest
+    - Westley Weimer
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+  pdfs:
+    - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
+    - http://geneticimprovementofsoftware.com/paper_pdfs/leach2019evolutionary.pdf
+
+- title: "Fuzzy Edit Sequences in Genetic Improvement"
+  authors:
+    - Aymeric Blot
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2019.pdf
+    - http://geneticimprovementofsoftware.com/paper_pdfs/blot2019gi.pdf
+
+- title: "Genetic Improvement of GPU Code"
+  authors:
+    - Jhe-Yu Liou
+    - Stephanie Forrest
+    - Carole-Jean Wu
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+  urls:
+    - https://dl.acm.org/citation.cfm?id=3339020.3339025
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2019/Liou_2019_GI.pdf
+    - http://geneticimprovementofsoftware.com/paper_pdfs/liou2019genetic.pdf
+
+- title: "Industrial experience of Genetic Improvement in Facebook"
+  authors:
+    - Nadia Alshahwan
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00010
+  tags:
+    - GP
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2019/Alshahwan_2019_GI.pdf
+
+- title: "Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair"
+  authors:
+    - Zhen Yu Ding
+    - Yiwei Lyu
+    - Christopher Timperley
+    - Claire Le Goues
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+    - SBSE
+  pdfs:
+    - http://geneticimprovementofsoftware.com/paper_pdfs/ding2019leveraging.pdf
+
+- title: "Mining Patterns from Genetic Improvement Experiments"
+  authors:
+    - Oliver Krauss
+    - Hanspeter Moessenboeck
+    - Michael Affenzeller
+  venue: "GI@ICSE"
+  year: 2019
+  type: Workshop
+  tags:
+    - GP
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
 
 - title: "A Journey Among Java Neutral Program Variants"
   authors:
@@ -1042,38 +1042,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2018_EuroGP.pdf
 
-- title: "A Turing Test for Genetic Improvement"
-  authors:
-    - Afsoon Afzal
-    - Jeremy Lacomis
-    - Claire Le Goues
-    - Christopher Timperley
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: http://dx.doi.org/10.1145/3194810.3194817
-  tags:
-    - GP
-  pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Timperley_2018_GI.pdf
-
-- title: "A spoonful of DevOps helps the GI Go Down"
-  authors:
-    - Benoit Baudry
-    - Nicolas Harrand
-    - Eric Schulte
-    - Christopher Timperley
-    - Shin Hwei Tan
-    - Marija Selakovic
-    - Emamurho Ugherughe
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  tags:
-    - GP
-  pdfs:
-    - http://www.shinhwei.com/devop-gi.pdf
-
 - title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
   authors:
     - David Nader-Palacio
@@ -1089,22 +1057,6 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/assessing_single-objective_performance_convergence_and_time_complexity_for_refactoring_detection.pdf
 
-- title: "Comparing Line and AST Granularity Level for Program Repair using PyGGI"
-  authors:
-    - Gabin An
-    - Jinhan Kim
-    - Shin Yoo
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: https://doi.org/10.1145/3194810.3194814
-  tags:
-    - GP
-    - SBSE
-    - PyGGI
-  pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/An_2018_GI.pdf
-
 - title: "Dynamic Fitness Functions for Genetic Improvement in Compilers and Interpreters"
   authors:
     - Oliver Krauss
@@ -1119,46 +1071,6 @@
     - testing
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/dynamic_fitness_functions_for_genetic_improvement_in_compilers_and_interpreters.pdf
-
-- title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
-  authors:
-    - Jason Landsborough
-    - Stephen Harding
-    - Bryan Beabout
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: https://doi.org/10.1145/3194810.3194819
-  tags:
-    - GP
-  pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/GI.pdf
-
-- title: "Evolving Software Quality"
-  authors:
-    - Claire Le Goues
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  tags:
-    - GP
-    - survey
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/w.langdon/icse2018/GI_2018_FM_to_chair_04-26-18.pdf
-
-- title: "Experiments in Genetic Divergence for Emergent Systems"
-  authors:
-    - Christopher McGowan
-    - Alexander Wild
-    - Barry Porter
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: https://doi.org/10.1145/3194810.3194813
-  tags:
-    - GP
-  pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Porter_2018_GI.pdf
 
 - title: "Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems"
   authors:
@@ -1177,40 +1089,6 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/genetic_configuration_sampling.pdf
 
-- title: "Learning to Synthesize"
-  authors:
-    - Yingfei Xiong
-    - Bo Wang
-    - Guirong Fu
-    - Linfei Zang
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: https://doi.org/10.1145/3194810.3194816
-  tags:
-    - GP
-  urls:
-    - https://arxiv.org/pdf/1802.07608
-  pdfs:
-    - http://sei.pku.edu.cn/~xiongyf04/papers/GI18.pdf
-
-- title: "Neutrality and Epistasis in Program Space"
-  authors:
-    - Joseph Renzullo
-    - Westley Weimer
-    - Melanie Moses
-    - Stephanie Forrest
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: https://doi.org/10.1145/3194810.3194812
-  tags:
-    - GP
-    - SBSE
-    - testing
-  pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/Renzullo_2018_GI.pdf
-
 - title: "Novelty Search for software improvement of a SLAM system"
   authors:
     - Victor R. Lopez-Lopez
@@ -1224,20 +1102,6 @@
     - GP
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/novelty_search_for_software_improvement_of_a_SLAM_system.pdf
-
-- title: "Performance Localisation"
-  authors:
-    - Brendan Cody-Kenny
-    - Michael O'Neill
-    - Stephen Barrett
-  venue: "GI@GECCO"
-  year: 2018
-  type: Workshop
-  doi: https://doi.org/10.1145/3194810.3194815
-  tags:
-    - GP
-  pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Cody-Kenny_2018_GI.pdf
 
 - title: "Synthesizing Customized Network Protocols using Genetic Programming"
   authors:
@@ -1266,6 +1130,142 @@
   pdfs:
     - https://noexec.org/public/papers/modular-dsi.pdf
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/towards_modular_large-scale_darwinian_software_improvement.pdf
+
+- title: "A Turing Test for Genetic Improvement"
+  authors:
+    - Afsoon Afzal
+    - Jeremy Lacomis
+    - Claire Le Goues
+    - Christopher Timperley
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: http://dx.doi.org/10.1145/3194810.3194817
+  tags:
+    - GP
+  pdfs:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Timperley_2018_GI.pdf
+
+- title: "A spoonful of DevOps helps the GI Go Down"
+  authors:
+    - Benoit Baudry
+    - Nicolas Harrand
+    - Eric Schulte
+    - Christopher Timperley
+    - Shin Hwei Tan
+    - Marija Selakovic
+    - Emamurho Ugherughe
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+  pdfs:
+    - http://www.shinhwei.com/devop-gi.pdf
+
+- title: "Comparing Line and AST Granularity Level for Program Repair using PyGGI"
+  authors:
+    - Gabin An
+    - Jinhan Kim
+    - Shin Yoo
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: https://doi.org/10.1145/3194810.3194814
+  tags:
+    - GP
+    - SBSE
+    - PyGGI
+  pdfs:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/An_2018_GI.pdf
+
+- title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
+  authors:
+    - Jason Landsborough
+    - Stephen Harding
+    - Bryan Beabout
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: https://doi.org/10.1145/3194810.3194819
+  tags:
+    - GP
+  pdfs:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/GI.pdf
+
+- title: "Evolving Software Quality"
+  authors:
+    - Claire Le Goues
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  tags:
+    - GP
+    - survey
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/w.langdon/icse2018/GI_2018_FM_to_chair_04-26-18.pdf
+
+- title: "Experiments in Genetic Divergence for Emergent Systems"
+  authors:
+    - Christopher McGowan
+    - Alexander Wild
+    - Barry Porter
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: https://doi.org/10.1145/3194810.3194813
+  tags:
+    - GP
+  pdfs:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Porter_2018_GI.pdf
+
+- title: "Learning to Synthesize"
+  authors:
+    - Yingfei Xiong
+    - Bo Wang
+    - Guirong Fu
+    - Linfei Zang
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: https://doi.org/10.1145/3194810.3194816
+  tags:
+    - GP
+  urls:
+    - https://arxiv.org/pdf/1802.07608
+  pdfs:
+    - http://sei.pku.edu.cn/~xiongyf04/papers/GI18.pdf
+
+- title: "Neutrality and Epistasis in Program Space"
+  authors:
+    - Joseph Renzullo
+    - Westley Weimer
+    - Melanie Moses
+    - Stephanie Forrest
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: https://doi.org/10.1145/3194810.3194812
+  tags:
+    - GP
+    - SBSE
+    - testing
+  pdfs:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/Renzullo_2018_GI.pdf
+
+- title: "Performance Localisation"
+  authors:
+    - Brendan Cody-Kenny
+    - Michael O'Neill
+    - Stephen Barrett
+  venue: "GI@ICSE"
+  year: 2018
+  type: Workshop
+  doi: https://doi.org/10.1145/3194810.3194815
+  tags:
+    - GP
+  pdfs:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Cody-Kenny_2018_GI.pdf
 
 - title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
   authors:
@@ -3321,7 +3321,7 @@
     - Nick Johnson
   venue: "GI@GPGPU"
   year: 2013
-  type: Conference
+  type: Workshop
   doi: https://doi.org/10.1145/2458523.2458530
   urls:
     - http://doi.acm.org/10.1145/2458523.2458530
