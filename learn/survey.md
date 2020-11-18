@@ -42,7 +42,7 @@ Magic queries include <a href="#" onclick="force('venue=&quot;IEEE TEVC&quot;')"
       <td>{% if entry.venue %}<u class="" onclick="force('venue=&quot;{{ entry.venue }}&quot;')">{{ entry.venue }}</u>{% endif %} {% if entry.type %}(<u class="text-nowrap" onclick="force('type=&quot;{{ entry.type }}&quot;')">{{ entry.type }}</u>){% endif %}</td>
       <td>{% if entry.year %}<u class="text-nowrap" onclick="force('year=&quot;{{ entry.year }}&quot;')">{{ entry.year }}</u>{% endif %}</td>
       <td>{% for tag in entry.tags %}<u class="text-nowrap" onclick="force('tag=&quot;{{ tag }}&quot;')">#{{ tag }}</u> {% endfor %}</td>
-      <td>{% if entry.doi %}<a href="{{ entry.doi }}">[doi]</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% if entry.url %}<a href="{{ entry.url }}">[url]</a>{% endif %}</td>
+      <td>{% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}</td>
     </tr>{% endfor %}
   </tbody>
 </table>
