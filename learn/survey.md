@@ -21,7 +21,7 @@ Magic queries include <a href="#" onclick="force('venue=&quot;IEEE TEVC&quot;')"
 </div>
 
 <div>
-  Showing <span id="counter">{{ site.data.survey.size }}</span> entries.
+  Showing <span id="counter">{{ site.data.survey.size }}</span> of {{ site.data.survey.size }} entries.
 </div>
 
 <table id="survey" class="table table-responsive">
@@ -36,23 +36,21 @@ Magic queries include <a href="#" onclick="force('venue=&quot;IEEE TEVC&quot;')"
     </tr>
   </thead>
   <tbody>{% for entry in site.data.survey %}
-    <tr data-search="{{ entry.title }} {{ entry.subtitle }} {% for author in entry.authors %}{{ author }} {% endfor %} venue={{ entry.venue }} year={{ entry.year }} {% for tag in entry.tags %}tag={{ tag }} {% endfor %} {% if entry.type %}type={{ entry.type }}{% endif %}">
+    <tr data-search="{{ entry.title }} {{ entry.subtitle }} {% for author in entry.authors %}{% if author.aka %}{{ author.aka }} {% endif %}{{ author.name }} {% endfor %} venue={{ entry.venue }} year={{ entry.year }} {% for tag in entry.tags %}tag={{ tag }} {% endfor %} {% if entry.type %}type={{ entry.type }}{% endif %}">
       <td>{% if entry.title %}{{ entry.title }}{% if entry.subtitle %} &mdash; <i>{{ entry.subtitle }}</i>{% endif %}{% endif %}</td>
-      <td>{% for author in entry.authors %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}<u class="text-nowrap" onclick="force('&quot;{{ author }}&quot;')">{{ author }}</u>{% endfor %}</td>
-      <td>{% if entry.venue %}<u class="" onclick="force('venue=&quot;{{ entry.venue }}&quot;')">{{ entry.venue }}</u>{% endif %} {% if entry.type %}(<u class="text-nowrap" onclick="force('type=&quot;{{ entry.type }}&quot;')">{{ entry.type }}</u>){% endif %}</td>
-      <td>{% if entry.year %}<u class="text-nowrap" onclick="force('year=&quot;{{ entry.year }}&quot;')">{{ entry.year }}</u>{% endif %}</td>
-      <td>{% for tag in entry.tags %}<u class="text-nowrap" onclick="force('tag=&quot;{{ tag }}&quot;')">#{{ tag }}</u> {% endfor %}</td>
+      <td>{% for author in entry.authors %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}<a href="#search" class="text-nowrap" onclick="force('&quot;{% if author.aka %}{{ author.aka }}{% else %}{{ author.name }}{% endif %}&quot;')">{{ author.name }}</a>{% endfor %}</td>
+      <td>{% if entry.venue %}<a href="#search" class="" onclick="force('venue=&quot;{{ entry.venue }}&quot;')">{{ entry.venue }}</a>{% endif %} {% if entry.type %}(<a href="#search" class="text-nowrap" onclick="force('type=&quot;{{ entry.type }}&quot;')">{{ entry.type }}</a>){% endif %}</td>
+      <td>{% if entry.year %}<a href="#search" class="text-nowrap" onclick="force('year=&quot;{{ entry.year }}&quot;')">{{ entry.year }}</a>{% endif %}</td>
+      <td>{% for tag in entry.tags %}<a href="#search" class="text-nowrap" onclick="force('tag=&quot;{{ tag }}&quot;')">#{{ tag }}</a> {% endfor %}</td>
       <td>{% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}</td>
     </tr>{% endfor %}
   </tbody>
 </table>
 
 
-## Other resources
+---
 
-- The GP bibliography: [http://gpbib.cs.ucl.ac.uk](http://gpbib.cs.ucl.ac.uk)
-- The program-repair.org bibliography page: [https://program-repair.org/bibliography.html](https://program-repair.org/bibliography.html)
-- Martin Monperrus living review on Automated Program Repair: [https://www.monperrus.net/martin/repair-living-review.pdf](https://www.monperrus.net/martin/repair-living-review.pdf)
+This page is based on the GP bibliography: [http://gpbib.cs.ucl.ac.uk](http://gpbib.cs.ucl.ac.uk).
 
 
 <script>

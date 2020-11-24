@@ -1,39 +1,35 @@
 - title: "Fast Generation of Big Random Binary Trees"
   authors:
-    - William B. Langdon
+    - name: William B. Langdon
   venue: ""
   year: 2020
   type: TechReport
-  tags:
-    - GP
   urls:
     - https://arxiv.org/abs/2001.04505
 
 - title: "Refining Fitness Functions in Test-Based Program Repair"
   authors:
-    - Justyna Petke
-    - Aymeric Blot
+    - name: Justyna Petke
+    - name: Aymeric Blot
   venue: "APR@ICSE"
   year: 2020
   type: Workshop
   tags:
     - APR
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/petke_apr-icse_2020.pdf
 
 - title: "Empirical Analysis of 1-edit Degree Patches in Syntax-Based Automatic Program Repair"
   authors:
-    - Piotr Dziurzanski
-    - Simos Gerasimou
-    - Dimitris Kolovos
-    - Nicholas Matragkas
+    - name: Piotr Dziurzanski
+    - name: Simos Gerasimou
+    - name: Dimitris Kolovos
+    - name: Nicholas Matragkas
   venue: "CEC"
   year: 2020
   type: Conference
   tags:
-    - GP
     - SBSE
   urls:
     - https://pure.york.ac.uk/portal/en/publications/empirical-analysis-of-1edit-degree-patches-in-syntaxbased-automatic-program-repair(83213662-3691-42ce-804e-0fc8c524f2f8).html
@@ -42,13 +38,14 @@
 
 - title: "Genetic Improvement of Genetic Programming"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "CEC"
   year: 2020
   type: Session
   doi: https://doi.org/10.1109/CEC48606.2020.9185771
   tags:
-    - GP
+    - GISMO
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24061.pdf
@@ -56,14 +53,14 @@
 
 - title: "Injecting Shortcuts for Faster Running Java Code"
   authors:
-    - Alexander E. I. Brownlee
-    - Justyna Petke
-    - Anna F. Rasburn
+    - name: Alexander Brownlee
+      aka: Alexander E. I. Brownlee
+    - name: Justyna Petke
+    - name: Anna F. Rasburn
   venue: "CEC"
   year: 2020
   type: Conference
   tags:
-    - GP
     - SBSE
   urls:
     - http://hdl.handle.net/1893/30963
@@ -73,19 +70,18 @@
 
 - title: "Biases and Differences in Code Review using Medical Imaging and Eye-Tracking: Genders, Humans, and Machines"
   authors:
-    - Yu Huang
-    - Kevin Leach
-    - Zohreh Sharafi
-    - Nicholas McKay
-    - Tyler Santander
-    - Westley Weimer
+    - name: Yu Huang
+    - name: Kevin Leach
+    - name: Zohreh Sharafi
+    - name: Nicholas McKay
+    - name: Tyler Santander
+    - name: Westley Weimer
   venue: "ESEC/FSE"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3368089.3409681
   tags:
     - APR
-    - GP
     - SBSE
   urls:
     - https://2020.esec-fse.org/details/fse-2020-papers/114/Biases-and-Differences-in-Code-Review-using-Medical-Imaging-and-Eye-Tracking-Genders
@@ -94,42 +90,39 @@
 
 - title: "Evolutionary Improvement of Assertion Oracles"
   authors:
-    - Valerio Terragni
-    - Gunel Jahangirova
-    - Paolo Tonella
-    - Mauro Pezze
+    - name: Valerio Terragni
+    - name: Gunel Jahangirova
+    - name: Paolo Tonella
+    - name: Mauro Pezze
   venue: "ESEC/FSE"
   year: 2020
   type: Conference
   tags:
-    - GP
     - SBSE
   urls:
     - https://2020.esec-fse.org/details/fse-2020-papers/184/Evolutionary-Improvement-of-Assertion-Oracles
 
 - title: "Automatically Evolving Lookup Tables for Function Approximation"
   authors:
-    - Oliver Krauss
-    - William B. Langdon
+    - name: Oliver Krauss
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "EuroGP"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-44094-7_6
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/krauss_2020_EuroGP.pdf
 
 - title: "Comparing Genetic Programming Approaches for Non-Functional Genetic Improvement Case Study: Improvement of MiniSAT's Running Time"
   authors:
-    - Aymeric Blot
-    - Justyna Petke
+    - name: Aymeric Blot
+    - name: Justyna Petke
   venue: "EuroGP"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-44094-7_5
   tags:
-    - GP
     - SBSE
     - PyGGI
   urls:
@@ -139,117 +132,107 @@
 
 - title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
   authors:
-    - Daniel Dorfmeister
-    - Oliver Krauss
+    - name: Daniel Dorfmeister
+    - name: Oliver Krauss
   venue: "EvoSoft@GECCO"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398103
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp139s2-file1.pdf
 
 - title: "Exploiting Fault Localisation for Efficient Program Repair"
   authors:
-    - Vesna Nowack
-    - David Bowes
-    - Steve Counsell
-    - Tracy Hall
-    - Saemundur O. Haraldsson
-    - Emily Winter
-    - John R. Woodward
+    - name: Vesna Nowack
+    - name: David Bowes
+    - name: Steve Counsell
+    - name: Tracy Hall
+    - name: Saemundur Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: Emily Winter
+    - name: John Woodward
+      aka: John R. Woodward
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389912
   tags:
     - APR
-    - GP
 
 - title: "GEVO-ML: A Proposal for Optimizing ML Code with Evolutionary Computation"
   authors:
-    - Jhe-Yu Liou
-    - Xiaodong Wang
-    - Stephanie Forrest
-    - Carole-Jean Wu
+    - name: Jhe-Yu Liou
+    - name: Xiaodong Wang
+    - name: Stephanie Forrest
+    - name: Carole-Jean Wu
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3398139
   tags:
-    - GP
     - ML
 
 - title: "Genetic Improvement: Taking Real-World Source Code and Improving It Using Genetic Programming"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
-    - Markus Wagner
+    - name: Samundur O. Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: John R. Woodward
+    - name: Markus Wagner
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389885
-  tags:
-    - GP
 
 - title: "Genetic Programming: A Tutorial Introduction"
   authors:
-    - Una-May O'Reilly
-    - Erik Hemberg
+    - name: Una-May O'Reilly
+    - name: Erik Hemberg
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389882
-  tags:
-    - GP
 
 - title: "Hyper-Heuristics Tutorial"
   authors:
-    - Daniel R. Tauritz
-    - John R. Woodward
+    - name: Daniel R. Tauritz
+    - name: John Woodward
+      aka: John R. Woodward
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389855
-  tags:
-    - GP
 
 - title: "Novelty Search for Automatic Bug Repair"
   authors:
-    - Omar M. Villanueva
-    - Leonardo Trujillo
-    - Daniel E Hernandez
+    - name: Omar M. Villanueva
+    - name: Leonardo Trujillo
+    - name: Daniel E Hernandez
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377930.3389845
-  tags:
-    - GP
 
 - title: "Towards Rigorous Validation of Energy Optimisation Experiments"
   authors:
-    - Mahmoud A. Bokhari
-    - Brad Alexander
-    - Markus Wagner
+    - name: Mahmoud A. Bokhari
+    - name: Brad Alexander
+    - name: Markus Wagner
   venue: "GECCO"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377930.3390245
-  tags:
-    - GP
 
 - title: "An Annotated Dataset of Stack Overflow Post Edits"
   authors:
-    - Sebastian Baltes
-    - Markus Wagner
+    - name: Sebastian Baltes
+    - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398108
   tags:
-    - GP
     - SBSE
   urls:
     - https://arxiv.org/abs/2004.08193
@@ -258,29 +241,27 @@
 
 - title: "Evolving sqrt into 1/x via Software Data Maintenance"
   authors:
-    - William B. Langdon
-    - Oliver Krauss
+    - name: William B. Langdon
+    - name: Oliver Krauss
   venue: "GI@GECCO"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398110
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_GI9.pdf
 
 - title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
   authors:
-    - Mahmoud A. Bokhari
-    - Markus Wagner
-    - Brad Alexander
+    - name: Mahmoud A. Bokhari
+    - name: Markus Wagner
+    - name: Brad Alexander
   venue: "GI@GECCO"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398109
   tags:
-    - GP
     - ML
     - SBSE
   pdfs:
@@ -288,15 +269,14 @@
 
 - title: "Optimising the Fit of Stack Overflow Code Snippets into Existing Code"
   authors:
-    - Brittany Reid
-    - Christoph Treude
-    - Markus Wagner
+    - name: Brittany Reid
+    - name: Christoph Treude
+    - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398087
   tags:
-    - GP
     - SBSE
   urls:
     - https://arxiv.org/abs/2004.07663
@@ -305,50 +285,49 @@
 
 - title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
   authors:
-    - Mohsen Mosayebi
-    - Manbir Sodhi
+    - name: Mohsen Mosayebi
+    - name: Manbir Sodhi
   venue: "GI@GECCO"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398136
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp176s2-file1.pdf
 
 - title: "Checkers: Multi-modal Darwinian API Optimisation"
   authors:
-    - Santanu Kumar Dash
-    - Fan Wu
-    - Michail Basios
-    - Lingbo Li
-    - Leslie Kanthan
+    - name: Santanu Kumar Dash
+    - name: Fan Wu
+    - name: Michail Basios
+    - name: Lingbo Li
+    - name: Leslie Kanthan
   venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392173
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
 
 - title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
   authors:
-    - Emily Winter
-    - David Bowes
-    - Steve Counsell
-    - Tracy Hall
-    - Saemundur O. Haraldsson
-    - Vesna Nowack
-    - John R. Woodward
+    - name: Emily Winter
+    - name: David Bowes
+    - name: Steve Counsell
+    - name: Tracy Hall
+    - name: Saemundur Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: Vesna Nowack
+    - name: John Woodward
+      aka: John R. Woodward
   venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392176
   tags:
-    - GP
     - SBSE
     - survey
   pdfs:
@@ -356,68 +335,64 @@
 
 - title: "Stack-Based Genetic Improvement"
   authors:
-    - Aymeric Blot
-    - Justyna Petke
+    - name: Aymeric Blot
+    - name: Justyna Petke
   venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392174
   tags:
     - APR
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-1.pdf
 
 - title: "Synthetic Benchmarks for Genetic Improvement"
   authors:
-    - Aymeric Blot
-    - Justyna Petke
+    - name: Aymeric Blot
+    - name: Justyna Petke
   venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392175
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-2.pdf
 
 - title: "Towards Knowledge Guided Genetic Improvement"
   authors:
-    - Oliver Krauss
-    - Hanspeter Moessenboeck
-    - Michael Affenzeller
+    - name: Oliver Krauss
+    - name: Hanspeter Moessenboeck
+    - name: Michael Affenzeller
   venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392172
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/krauss_towards_2020.pdf
 
 - title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
   authors:
-    - John Ahlgren
-    - Maria Eugenia Berezin
-    - Kinga Bojarczuk
-    - Elena Dulskyte
-    - Inna Dvortsova
-    - Johann George
-    - Natalija Gucevska
-    - Mark Harman
-    - Ralf Laemmel
-    - Erik Meijer
-    - Silvia Sapora
-    - Justin Spahr-Summers
+    - name: John Ahlgren
+    - name: Maria Eugenia Berezin
+    - name: Kinga Bojarczuk
+    - name: Elena Dulskyte
+    - name: Inna Dvortsova
+    - name: Johann George
+    - name: Natalija Gucevska
+    - name: Mark Harman
+    - name: Ralf Laemmel
+    - name: Erik Meijer
+    - name: Silvia Sapora
+    - name: Justin Spahr-Summers
   venue: "GI@ICSE"
   year: 2020
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392089
   tags:
-    - GP
     - ML
     - SBSE
     - testing
@@ -428,28 +403,26 @@
 
 - title: "Genetic Improvement @ ICSE 2020"
   authors:
-    - William B. Langdon
-    - Westley Weimer
-    - Justyna Petke
-    - Erik Fredericks
-    - Seongmin Lee
-    - Emily Winter
-    - Michail Basios
-    - Myra B. Cohen
-    - Aymeric Blot
-    - Markus Wagner
-    - Bobby R. Bruce
-    - Shin Yoo
-    - Simos Gerasimou
-    - Oliver Krauss
-    - Yu Huang
-    - Michael Gerten
+    - name: William B. Langdon
+    - name: Westley Weimer
+    - name: Justyna Petke
+    - name: Erik Fredericks
+    - name: Seongmin Lee
+    - name: Emily Winter
+    - name: Michail Basios
+    - name: Myra B. Cohen
+    - name: Aymeric Blot
+    - name: Markus Wagner
+    - name: Bobby R. Bruce
+    - name: Shin Yoo
+    - name: Simos Gerasimou
+    - name: Oliver Krauss
+    - name: Yu Huang
+    - name: Michael Gerten
   venue: "SEN"
   year: 2020
   type: Journal
   doi: https://doi.org/10.1145/3417564.3417575
-  tags:
-    - GP
   urls:
     - https://arxiv.org/abs/2007.15987
     - https://dl.acm.org/toc/sigsoft/2020/45/4
@@ -458,38 +431,35 @@
 
 - title: "Impact of Test Suite Coverage on Overfitting in Genetic Improvement of Software"
   authors:
-    - Mingyi Lim
-    - Giovani Guizzo
-    - Justyna Petke
+    - name: Mingyi Lim
+    - name: Giovani Guizzo
+    - name: Justyna Petke
   venue: "SSBSE"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-59762-7_14
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
 
 - title: "The State and Future of Genetic Improvement"
   authors:
-    - William B. Langdon
-    - Westley Weimer
-    - Christopher Timperley
-    - Oliver Krauss
-    - Zhen Yu Ding
-    - Yiwei Lyu
-    - Nicolas Chausseau
-    - Eric Schulte
-    - Shin Hwei Tan
-    - Kevin Leach
-    - Yu Huang
-    - Gabin An
+    - name: William B. Langdon
+    - name: Westley Weimer
+    - name: Christopher Timperley
+    - name: Oliver Krauss
+    - name: Zhen Yu Ding
+    - name: Yiwei Lyu
+    - name: Nicolas Chausseau
+    - name: Eric Schulte
+    - name: Shin Hwei Tan
+    - name: Kevin Leach
+    - name: Yu Huang
+    - name: Gabin An
   venue: ""
   year: 2019
   type: TechReport
-  tags:
-    - GP
   urls:
     - https://arxiv.org/abs/1907.03773
   pdfs:
@@ -498,16 +468,15 @@
 
 - title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
   authors:
-    - Gabin An
-    - Aymeric Blot
-    - Justyna Petke
-    - Shin Yoo
+    - name: Gabin An
+    - name: Aymeric Blot
+    - name: Justyna Petke
+    - name: Shin Yoo
   venue: "ESEC/FSE"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3338906.3341184
   tags:
-    - GP
     - PyGGI
   urls:
     - https://esec-fse19.ut.ee/program/tool-demos/#
@@ -516,14 +485,13 @@
 
 - title: "Evolving AVX512 Parallel C Code using GP"
   authors:
-    - William B. Langdon
-    - Ronny Lorenz
+    - name: William B. Langdon
+    - name: Ronny Lorenz
   venue: "EuroGP"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-16670-0_16
   tags:
-    - GP
     - SBSE
   urls:
     - https://www.springer.com/us/book/9783030166694
@@ -532,63 +500,60 @@
 
 - title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
   authors:
-    - William B. Langdon
-    - Justyna Petke
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Justyna Petke
   venue: "GECCO"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3319619.3321954
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_log2.pdf
 
 - title: "Gin: genetic improvement research made easy"
   authors:
-    - Alexander E. I. Brownlee
-    - Justyna Petke
-    - Brad Alexander
-    - Earl T. Barr
-    - Markus Wagner
-    - David R. White
+    - name: Alexander E. I. Brownlee
+    - name: Justyna Petke
+    - name: Brad Alexander
+    - name: Earl T. Barr
+    - name: Markus Wagner
+    - name: David R. White
   venue: "GECCO"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3321707.3321841
   tags:
-    - GP
     - SBSE
   pdfs:
     - https://cs.adelaide.edu.au/users/markus/pub/2019gecco-gintool.pdf
 
 - title: "Teaching GP to program like a human software developer: using perplexity pressure to guide program synthesis approaches"
   authors:
-    - Dominik Sobania
-    - Franz Rothlauf
+    - name: Dominik Sobania
+    - name: Franz Rothlauf
   venue: "GECCO"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3321707.3321738
   tags:
-    - GP
     - SBSE
 
 - title: "A Survey of Genetic Improvement Search Spaces"
   authors:
-    - Justyna Petke
-    - Brad Alexander
-    - Earl T. Barr
-    - Alexander E. I. Brownlee
-    - Markus Wagner
-    - David R. White
+    - name: Justyna Petke
+    - name: Brad Alexander
+    - name: Earl T. Barr
+    - name: Alexander E. I. Brownlee
+    - name: Markus Wagner
+    - name: David R. White
   venue: "GI@GECCO"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326870
   tags:
     - APR
-    - GP
     - SBSE
     - survey
   pdfs:
@@ -596,72 +561,67 @@
 
 - title: "Genetic Algorithms for Affine Transformations to Existential t-Restrictions"
   authors:
-    - Ryan E. Dougherty
-    - Erin Lanus
-    - Charles J. Colbourn
-    - Stephanie Forrest
+    - name: Ryan E. Dougherty
+    - name: Erin Lanus
+    - name: Charles J. Colbourn
+    - name: Stephanie Forrest
   venue: "GI@GECCO"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326823
   tags:
-    - GP
     - testing
   pdfs:
     - https://forrest.biodesign.asu.edu/data/publications/2019-dougherty-gecco-workshop.pdf
 
 - title: "Genetic Improvement of Data gives double precision invsqrt"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "GI@GECCO"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326800
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_GI7.pdf
 
 - title: "On Adaptive Specialisation in Genetic Improvement"
   authors:
-    - Aymeric Blot
-    - Justyna Petke
+    - name: Aymeric Blot
+    - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326839
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-gecco_2019.pdf
 
 - title: "The Quest for Non-Functional Property Optimisation in Heterogeneous and Fragmented Ecosystems: a Distributed Approach"
   authors:
-    - Mahmoud A. Bokhari
-    - Markus Wagner
-    - Brad Alexander
+    - name: Mahmoud A. Bokhari
+    - name: Markus Wagner
+    - name: Brad Alexander
   venue: "GI@GECCO"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326877
-  tags:
-    - GP
   pdfs:
     - https://cs.adelaide.edu.au/~markus/pub/2019gecco-islands.pdf
 
 - title: "Toward Human-Like Summaries Generated from Heterogeneous Software Artefacts"
   authors:
-    - Mahfouth Alghamdi
-    - Christoph Treude
-    - Markus Wagner
+    - name: Mahfouth Alghamdi
+    - name: Christoph Treude
+    - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326814
   tags:
-    - GP
     - SBSE
   urls:
     - https://arxiv.org/abs/1905.02258
@@ -670,14 +630,13 @@
 
 - title: "Better Code Search and Reuse for Better Program Repair"
   authors:
-    - Qi Xin
-    - Steven Reiss
+    - name: Qi Xin
+    - name: Steven Reiss
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
   tags:
     - APR
-    - GP
   urls:
     - https://dl.acm.org/citation.cfm?id=3339020.3339023
   pdfs:
@@ -685,28 +644,25 @@
 
 - title: "Evolutionary Computation for Improving Malware Analysis"
   authors:
-    - Kevin Leach
-    - Ryan Dougherty
-    - Chad Spensky
-    - Stephanie Forrest
-    - Westley Weimer
+    - name: Kevin Leach
+    - name: Ryan Dougherty
+    - name: Chad Spensky
+    - name: Stephanie Forrest
+    - name: Westley Weimer
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
-  tags:
-    - GP
   pdfs:
     - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/leach2019evolutionary.pdf
 
 - title: "Fuzzy Edit Sequences in Genetic Improvement"
   authors:
-    - Aymeric Blot
+    - name: Aymeric Blot
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2019.pdf
@@ -714,14 +670,12 @@
 
 - title: "Genetic Improvement of GPU Code"
   authors:
-    - Jhe-Yu Liou
-    - Stephanie Forrest
-    - Carole-Jean Wu
+    - name: Jhe-Yu Liou
+    - name: Stephanie Forrest
+    - name: Carole-Jean Wu
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
-  tags:
-    - GP
   urls:
     - https://dl.acm.org/citation.cfm?id=3339020.3339025
   pdfs:
@@ -730,72 +684,64 @@
 
 - title: "Industrial experience of Genetic Improvement in Facebook"
   authors:
-    - Nadia Alshahwan
+    - name: Nadia Alshahwan
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
   doi: https://doi.org/10.1109/GI.2019.00010
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2019/Alshahwan_2019_GI.pdf
 
 - title: "Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair"
   authors:
-    - Zhen Yu Ding
-    - Yiwei Lyu
-    - Christopher Timperley
-    - Claire Le Goues
+    - name: Zhen Yu Ding
+    - name: Yiwei Lyu
+    - name: Christopher Timperley
+    - name: Claire Le Goues
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/ding2019leveraging.pdf
 
 - title: "Mining Patterns from Genetic Improvement Experiments"
   authors:
-    - Oliver Krauss
-    - Hanspeter Moessenboeck
-    - Michael Affenzeller
+    - name: Oliver Krauss
+    - name: Hanspeter Moessenboeck
+    - name: Michael Affenzeller
   venue: "GI@ICSE"
   year: 2019
   type: Workshop
-  tags:
-    - GP
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
 
 - title: "A Journey Among Java Neutral Program Variants"
   authors:
-    - Nicolas Harrand
-    - Simon Allier
-    - Marcelino Rodriguez-Cancio
-    - Martin Monperrus
-    - Benoit Baudry
+    - name: Nicolas Harrand
+    - name: Simon Allier
+    - name: Marcelino Rodriguez-Cancio
+    - name: Martin Monperrus
+    - name: Benoit Baudry
   venue: "GPEM"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1007/s10710-019-09355-3
-  tags:
-    - GP
   urls:
     - https://arxiv.org/abs/1901.02533
 
 - title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
-    - Bobby R. Bruce
-    - Justyna Petke
-    - Mark Harman
-    - Earl T. Barr
+    - name: Bobby R. Bruce
+    - name: Justyna Petke
+    - name: Mark Harman
+    - name: Earl T. Barr
   venue: "IEEE TSE"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1109/TSE.2018.2827066
   tags:
-    - GP
     - SBSE
   urls:
     - https://ieeexplore.ieee.org/document/8338061/
@@ -805,48 +751,45 @@
 
 - title: "The State and Future of Genetic Improvement"
   authors:
-    - William B. Langdon
-    - Westley Weimer
-    - Christopher Timperley
-    - Oliver Krauss
-    - Zhen Yu Ding
-    - Yiwei Lyu
-    - Nicolas Chausseau
-    - Eric Schulte
-    - Shin Hwei Tan
-    - Kevin Leach
-    - Yu Huang
-    - Gabin An
+    - name: William B. Langdon
+    - name: Westley Weimer
+    - name: Christopher Timperley
+    - name: Oliver Krauss
+    - name: Zhen Yu Ding
+    - name: Yiwei Lyu
+    - name: Nicolas Chausseau
+    - name: Eric Schulte
+    - name: Shin Hwei Tan
+    - name: Kevin Leach
+    - name: Yu Huang
+    - name: Gabin An
   venue: "SEN"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3356773.3356801
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/3356773.3356801
 
 - title: "Big Data Driven Genetic Improvement for Maintenance of Legacy Software Systems"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "SIGEVOlution"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3381343.3381345
-  tags:
-    - GP
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1203.pdf
 
 - title: "Mark Harman wins both IEEE and ACM Awards in 2019"
   authors:
-    - William B. Langdon
+    - name: Bill Langdon
+      aka: William B. Langdon
   venue: "SIGEVOlution"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3357514.3357517
   tags:
-    - GP
     - SBSE
     - testing
   pdfs:
@@ -854,42 +797,41 @@
 
 - title: "Search-Based Software Engineering Events in 2019"
   authors:
-    - Giovani Guizzo
+    - name: Giovani Guizzo
   venue: "SIGEVOlution"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3386047.3386050
   tags:
-    - GP
     - SBSE
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1204.pdf
 
 - title: "Software Improvement with Gin: a Case Study"
   authors:
-    - Justyna Petke
-    - Alexander E. I. Brownlee
+    - name: Justyna Petke
+    - name: Alexander Brownlee
+      aka: Alexander E. I. Brownlee
   venue: "SSBSE 2019"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-27455-9_14
   tags:
-    - GP
     - SBSE
   urls:
     - http://discovery.ucl.ac.uk/10077237/
 
 - title: "Applying Genetic Improvement to a Genetic Programming library in C++"
   authors:
-    - Victor R. Lopez-Lopez
-    - Leonardo Trujillo
-    - Pierrick Legrand
+    - name: Victor R. Lopez-Lopez
+    - name: Leonardo Trujillo
+    - name: Pierrick Legrand
   venue: "Soft Computing"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1007/s00500-018-03705-6
   tags:
-    - GP
+    - GISMO
   urls:
     - https://www.researchgate.net/publication/328737052_Applying_Genetic_Improvement_to_a_Genetic_Programming_library_in_C
     - https://hal.inria.fr/hal-01911943
@@ -898,36 +840,35 @@
 
 - title: "Evolving Square Root into Binary Logarithm"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: ""
   year: 2018
   type: TechReport
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_05.pdf
 
 - title: "Genetic Improvement GISMOE Blue Software Tool Demo"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: ""
   year: 2018
   type: TechReport
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/user_upload/blue.pdf
 
 - title: "Otimizacao para Reduzir o Tamanho de Codigo-Fonte Javascript"
   authors:
-    - Fabio de Almeida Farzat
+    - name: Fabio de Almeida Farzat
   venue: ""
   year: 2018
   type: PhdThesis
   tags:
-    - GP
     - SBSE
   urls:
     - https://www.cos.ufrj.br/index.php/en/publicacoes-pesquisa/details/20/2889
@@ -936,41 +877,37 @@
 
 - title: "The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement"
   authors:
-    - Bobby R. Bruce
+    - name: Bobby R. Bruce
   venue: ""
   year: 2018
   type: PhdThesis
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bruce_bobby_r_thesis.pdf
 
 - title: "Towards automatic generation and insertion of OpenACC directives"
   authors:
-    - Bobby R. Bruce
-    - Justyna Petke
+    - name: Bobby R. Bruce
+    - name: Justyna Petke
   venue: ""
   year: 2018
   type: TechReport
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_04.pdf
 
 - title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
-    - Justyna Petke
-    - Claire Le Goues
-    - Stephanie Forrest
-    - William B. Langdon
+    - name: Justyna Petke
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+    - name: William B. Langdon
   venue: "Dagstuhl Reports"
   year: 2018
   type: Journal
   doi: https://doi.org/10.4230/DagRep.8.1.158
   tags:
     - APR
-    - GP
     - SBSE
   urls:
     - https://www.dagstuhl.de/18052
@@ -980,187 +917,171 @@
 
 - title: "Darwinian Data Structure Selection"
   authors:
-    - Michail Basios
-    - Lingbo Li
-    - Fan Wu
-    - Leslie Kanthan
-    - Earl T. Barr
+    - name: Michail Basios
+    - name: Lingbo Li
+    - name: Fan Wu
+    - name: Leslie Kanthan
+    - name: Earl T. Barr
   venue: "ESEC/FSE"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1145/3236024.3236043
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://human-competitive.org/sites/default/files/artemis.pdf
 
 - title: "Evolving better RNAfold structure prediction"
   authors:
-    - William B. Langdon
-    - Justyna Petke
-    - Ronny Lorenz
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: Ronny Lorenz
   venue: "EuroGP"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-77553-1_14
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2018_EuroGP.pdf
 
 - title: "Investigating the Evolvability of Page Load Time"
   authors:
-    - Brendan Cody-Kenny
-    - Umberto Manganiello
-    - John Farrelly
-    - Adrian Ronayne
-    - Eoghan Considine
-    - Thomas McGuire
-    - Michael O'Neill
+    - name: Brendan Cody-Kenny
+    - name: Umberto Manganiello
+    - name: John Farrelly
+    - name: Adrian Ronayne
+    - name: Eoghan Considine
+    - name: Thomas McGuire
+    - name: Michael O'Neill
   venue: "EvoSET"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-77538-8_51
   tags:
-    - GP
     - SBSE
   urls:
     - https://arxiv.org/pdf/1803.01683
 
 - title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
   authors:
-    - David Nader-Palacio
-    - Daniel Rodriguez-Cardenas
-    - Jonatan Gomez
+    - name: David Nader-Palacio
+    - name: Daniel Rodriguez-Cardenas
+    - name: Jonatan Gomez
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208294
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/assessing_single-objective_performance_convergence_and_time_complexity_for_refactoring_detection.pdf
 
 - title: "Dynamic Fitness Functions for Genetic Improvement in Compilers and Interpreters"
   authors:
-    - Oliver Krauss
-    - Hanspeter Moessenboeck
-    - Michael Affenzeller
+    - name: Oliver Krauss
+    - name: Hanspeter Moessenboeck
+    - name: Michael Affenzeller
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208308
   tags:
-    - GP
     - testing
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/dynamic_fitness_functions_for_genetic_improvement_in_compilers_and_interpreters.pdf
 
 - title: "Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems"
   authors:
-    - Jifeng Xuan
-    - Yongfeng Gu
-    - Zhilei Ren
-    - Xiangyang Jia
-    - Qingna Fan
+    - name: Jifeng Xuan
+    - name: Yongfeng Gu
+    - name: Zhilei Ren
+    - name: Xiangyang Jia
+    - name: Qingna Fan
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208267
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/genetic_configuration_sampling.pdf
 
 - title: "Novelty Search for software improvement of a SLAM system"
   authors:
-    - Victor R. Lopez-Lopez
-    - Leonardo Trujillo
-    - Pierrick Legrand
+    - name: Victor R. Lopez-Lopez
+    - name: Leonardo Trujillo
+    - name: Pierrick Legrand
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208237
-  tags:
-    - GP
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/novelty_search_for_software_improvement_of_a_SLAM_system.pdf
 
 - title: "Synthesizing Customized Network Protocols using Genetic Programming"
   authors:
-    - Mohammad Roohitavaf
-    - Ling Zhu
-    - Sandeep Kulkarni
-    - Subir Biswas
+    - name: Mohammad Roohitavaf
+    - name: Ling Zhu
+    - name: Sandeep Kulkarni
+    - name: Subir Biswas
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208272
-  tags:
-    - GP
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/synthesizing_customized_network_protocols_using_genetic_programming.pdf
 
 - title: "Towards Modular Large-Scale Darwinian Software Improvement"
   authors:
-    - Michael Orlov
+    - name: Michael Orlov
   venue: "GI@GECCO"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208311
-  tags:
-    - GP
   pdfs:
     - https://noexec.org/public/papers/modular-dsi.pdf
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/towards_modular_large-scale_darwinian_software_improvement.pdf
 
 - title: "A Turing Test for Genetic Improvement"
   authors:
-    - Afsoon Afzal
-    - Jeremy Lacomis
-    - Claire Le Goues
-    - Christopher Timperley
+    - name: Afsoon Afzal
+    - name: Jeremy Lacomis
+    - name: Claire Le Goues
+    - name: Christopher Steven Timperley
+      aka: Christopher Timperley
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: http://dx.doi.org/10.1145/3194810.3194817
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Timperley_2018_GI.pdf
 
 - title: "A spoonful of DevOps helps the GI Go Down"
   authors:
-    - Benoit Baudry
-    - Nicolas Harrand
-    - Eric Schulte
-    - Christopher Timperley
-    - Shin Hwei Tan
-    - Marija Selakovic
-    - Emamurho Ugherughe
+    - name: Benoit Baudry
+    - name: Nicolas Harrand
+    - name: Eric Schulte
+    - name: Christopher Timperley
+    - name: Shin Hwei Tan
+    - name: Marija Selakovic
+    - name: Emamurho Ugherughe
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
-  tags:
-    - GP
   pdfs:
     - http://www.shinhwei.com/devop-gi.pdf
 
 - title: "Comparing Line and AST Granularity Level for Program Repair using PyGGI"
   authors:
-    - Gabin An
-    - Jinhan Kim
-    - Shin Yoo
+    - name: Gabin An
+    - name: Jinhan Kim
+    - name: Shin Yoo
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194814
   tags:
-    - GP
     - SBSE
     - PyGGI
   pdfs:
@@ -1168,56 +1089,49 @@
 
 - title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
   authors:
-    - Jason Landsborough
-    - Stephen Harding
-    - Bryan Beabout
+    - name: Jason Landsborough
+    - name: Stephen Harding
+    - name: Bryan Beabout
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194819
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/GI.pdf
 
 - title: "Evolving Software Quality"
   authors:
-    - Claire Le Goues
+    - name: Claire Le Goues
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   tags:
-    - GP
     - survey
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/w.langdon/icse2018/GI_2018_FM_to_chair_04-26-18.pdf
 
 - title: "Experiments in Genetic Divergence for Emergent Systems"
   authors:
-    - Christopher McGowan
-    - Alexander Wild
-    - Barry Porter
+    - name: Christopher McGowan
+    - name: Alexander Wild
+    - name: Barry Porter
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194813
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Porter_2018_GI.pdf
 
 - title: "Learning to Synthesize"
   authors:
-    - Yingfei Xiong
-    - Bo Wang
-    - Guirong Fu
-    - Linfei Zang
+    - name: Yingfei Xiong
+    - name: Bo Wang
+    - name: Guirong Fu
+    - name: Linfei Zang
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194816
-  tags:
-    - GP
   urls:
     - https://arxiv.org/pdf/1802.07608
   pdfs:
@@ -1225,16 +1139,15 @@
 
 - title: "Neutrality and Epistasis in Program Space"
   authors:
-    - Joseph Renzullo
-    - Westley Weimer
-    - Melanie Moses
-    - Stephanie Forrest
+    - name: Joseph Renzullo
+    - name: Westley Weimer
+    - name: Melanie Moses
+    - name: Stephanie Forrest
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194812
   tags:
-    - GP
     - SBSE
     - testing
   pdfs:
@@ -1242,89 +1155,80 @@
 
 - title: "Performance Localisation"
   authors:
-    - Brendan Cody-Kenny
-    - Michael O'Neill
-    - Stephen Barrett
+    - name: Brendan Cody-Kenny
+    - name: Michael O'Neill
+    - name: Stephen Barrett
   venue: "GI@ICSE"
   year: 2018
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194815
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Cody-Kenny_2018_GI.pdf
 
 - title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
   authors:
-    - Nadarajen Veerapen
-    - Gabriela Ochoa
+    - name: Nadarajen Veerapen
+    - name: Gabriela Ochoa
   venue: "GPEM"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1007/s10710-018-9328-1
-  tags:
-    - GP
   urls:
     - http://hdl.handle.net/1893/27485
     - http://hdl.handle.net/11667/120
 
 - title: "Genetic Improvement of Software: a Comprehensive Survey"
   authors:
-    - Justyna Petke
-    - Saemundur O. Haraldsson
-    - Mark Harman
-    - William B. Langdon
-    - David R. White
-    - John R. Woodward
+    - name: Justyna Petke
+    - name: Saemundur O. Haraldsson
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: David R. White
+    - name: John R. Woodward
   venue: "IEEE TEVC"
   year: 2018
   type: Journal
   doi: http://dx.doi.org/doi:10.1109/TEVC.2017.2693219
   tags:
-    - GP
     - survey
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2017_TEVC.pdf
 
 - title: "Specialising Software for Different Downstream Applications Using Genetic Improvement and Code Transplantation"
   authors:
-    - Justyna Petke
-    - Mark Harman
-    - William B. Langdon
-    - Westley Weimer
+    - name: Justyna Petke
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Westley Weimer
   venue: "IEEE TSE"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1109/TSE.2017.2702606
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2017_TSE.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2017_ieeeTSE.pdf
 
 - title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
   authors:
-    - Fabio de Almeida Farzat
-    - Marcio de Oliveira Barros
-    - Guilherme Horta Travassos
+    - name: Fabio de Almeida Farzat
+    - name: Marcio de Oliveira Barros
+    - name: Guilherme Horta Travassos
   venue: "JSERD"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1186/s40411-018-0056-2
   tags:
-    - GP
     - SBSE
 
 - title: "Genetic Programming + Proof Search = Automatic Improvement"
   authors:
-    - Zoltan A. Kocsis
-    - Jerry Swan
+    - name: Zoltan A. Kocsis
+    - name: Jerry Swan
   venue: "Journal of Automated Reasoning"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1007/s10817-017-9409-5
   tags:
-    - GP
     - SBSE
   urls:
     - http://eprints.whiterose.ac.uk/117917/
@@ -1333,12 +1237,10 @@
 
 - title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
   authors:
-    - Oliver Krauss
+    - name: Oliver Krauss
   venue: "ManLang"
   year: 2018
   type: Conference
-  tags:
-    - GP
   urls:
     - http://ssw.jku.at/manlang18/index.php/manlang/program
   pdfs:
@@ -1346,112 +1248,100 @@
 
 - title: "Guiding Software Evolution with Binary Diversity"
   authors:
-    - Jeremiah Greer
-    - Samuel Toth
-    - Rashmi Jha
-    - Anca Ralescu
-    - Nan Niu
-    - Mitchell Hirschfeld
-    - David Kapp
+    - name: Jeremiah Greer
+    - name: Samuel Toth
+    - name: Rashmi Jha
+    - name: Anca Ralescu
+    - name: Nan Niu
+    - name: Mitchell Hirschfeld
+    - name: David Kapp
   venue: "NAECON"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1109/NAECON.2018.8556645
-  tags:
-    - GP
 
 - title: "Dagstuhl: Seminar on Genetic Improvement of Software"
   authors:
-    - Benjamin Danglot
+    - name: Benjamin Danglot
   venue: "SIGEVOlution"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1145/3302542.3302544
-  tags:
-    - GP
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1104.pdf
 
 - title: "Genetic Improvement Workshop at ICSE 2018"
   authors:
-    - Gabin An
+    - name: Gabin An
   venue: "SIGEVOlution"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1145/3302542.3302544
-  tags:
-    - GP
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1104.pdf
 
 - title: "Deploying Search Based Software Engineering with Sapienz at Facebook"
   authors:
-    - Nadia Alshahwan
-    - Xinbo Gao
-    - Mark Harman
-    - Yue Jia
-    - Ke Mao
-    - Alexander Mols
-    - Taijin Tei
-    - Ilya Zorin
+    - name: Nadia Alshahwan
+    - name: Xinbo Gao
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Ke Mao
+    - name: Alexander Mols
+    - name: Taijin Tei
+    - name: Ilya Zorin
   venue: "SSBSE 2018"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_1
   tags:
-    - GP
     - SBSE
 
 - title: "EvoIsolator: Evolving Program Slices for Hardware Isolation Based Security"
   authors:
-    - Mengmei Ye
-    - Myra B. Cohen
-    - Witawas Srisa-an
-    - Sheng Wei
+    - name: Mengmei Ye
+    - name: Myra B. Cohen
+    - name: Witawas Srisa-an
+    - name: Sheng Wei
   venue: "SSBSE 2018"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_24
   tags:
-    - GP
     - SBSE
 
 - title: "Evolving Better Software Parameters"
   authors:
-    - William B. Langdon
-    - Justyna Petke
+    - name: William B. Langdon
+    - name: Justyna Petke
   venue: "SSBSE 2018 Hot off the Press Track"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_22
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2018_SSBSE.pdf
 
 - title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
-    - Bobby R. Bruce
-    - Justyna Petke
-    - Mark Harman
-    - Earl T. Barr
+    - name: Bobby R. Bruce
+    - name: Justyna Petke
+    - name: Mark Harman
+    - name: Earl T. Barr
   venue: ""
   year: 2017
   type: TechReport
-  tags:
-    - GP
   urls:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_17_01.PDF
 
 - title: "Automated Improvement of Software Design by Search-Based Refactoring"
   authors:
-    - Rodrigo Morales Alvarado
+    - name: Rodrigo Morales Alvarado
   venue: ""
   year: 2017
   type: PhdThesis
   tags:
-    - GP
     - SBSE
     - testing
   urls:
@@ -1461,35 +1351,30 @@
 
 - title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV : A Correction"
   authors:
-    - Bobby R. Bruce
+    - name: Bobby R. Bruce
   venue: ""
   year: 2017
   type: TechReport
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_17_07.pdf
 
 - title: "Design of repair operators for automated program repair"
   authors:
-    - Shin Hwei Tan
+    - name: Shin Hwei Tan
   venue: ""
   year: 2017
   type: PhdThesis
-  tags:
-    - GP
   pdfs:
     - https://www.comp.nus.edu.sg/~abhik/Students/ShinHwei.pdf
 
 - title: "Evolving better RNAfold C source code"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: ""
   year: 2017
   type: TechReport
   doi: https://doi.org/10.1101/201640
-  tags:
-    - GP
   urls:
     - https://www.biorxiv.org/content/early/2017/10/11/201640
   pdfs:
@@ -1497,12 +1382,12 @@
 
 - title: "Genetic Improvement of Software: From Program Landscapes to the Automatic Improvement of a Live System"
   authors:
-    - Saemundur O. Haraldsson
+    - name: Saemundur Oskar Haraldsson
+      aka: Saemundur O. Haraldsson
   venue: ""
   year: 2017
   type: PhdThesis
   tags:
-    - GP
     - SBSE
   urls:
     - http://hdl.handle.net/1893/26007
@@ -1512,12 +1397,11 @@
 
 - title: "Mutation-Based Genetic Improvement of Software"
   authors:
-    - Fan Wu
+    - name: Fan Wu
   venue: ""
   year: 2017
   type: PhdThesis
   tags:
-    - GP
     - SBSE
     - testing
   pdfs:
@@ -1525,7 +1409,7 @@
 
 - title: "Optimizing Tradeoffs of Non-Functional Properties in Software"
   authors:
-    - Jonathan Dorn
+    - name: Jonathan Dorn
   venue: ""
   year: 2017
   type: PhdThesis
@@ -1537,29 +1421,27 @@
 
 - title: "Genetically Improved BarraCUDA"
   authors:
-    - William B. Langdon
-    - Brian Yee Hong Lam
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Brian Yee Hong Lam
   venue: "BioData Mining"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1186/s13040-017-0149-1
-  tags:
-    - GP
 
 - title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
   authors:
-    - Xuan-Bach D. Le
-    - Duc-Hiep Chu
-    - David Lo
-    - Claire Le Goues
-    - Willem Visser
+    - name: Xuan-Bach D. Le
+    - name: Duc-Hiep Chu
+    - name: David Lo
+    - name: Claire Le Goues
+    - name: Willem Visser
   venue: "ESEC/FSE"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1145/3106237.3106309
   tags:
     - APR
-    - GP
   urls:
     - http://doi.acm.org/10.1145/3106237.3106309
   pdfs:
@@ -1567,16 +1449,15 @@
 
 - title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
-    - Alexander E. I. Brownlee
-    - David Cairns
+    - name: Saemundur O. Haraldsson
+    - name: John R. Woodward
+    - name: Alexander E. I. Brownlee
+    - name: David Cairns
   venue: "EuroGP"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-55696-3_2
   tags:
-    - GP
     - SBSE
   urls:
     - http://hdl.handle.net/1893/25251
@@ -1585,15 +1466,14 @@
 
 - title: "Visualising the Search Landscape of the Triangle Program"
   authors:
-    - William B. Langdon
-    - Nadarajen Veerapen
-    - Gabriela Ochoa
+    - name: William B. Langdon
+    - name: Nadarajen Veerapen
+    - name: Gabriela Ochoa
   venue: "EuroGP"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-55696-3_7
   tags:
-    - GP
     - SBSE
     - testing
   pdfs:
@@ -1601,10 +1481,10 @@
 
 - title: "Deep Parameter Tuning of Concurrent Divide and Conquer Algorithms in Akka"
   authors:
-    - David R. White
-    - Leonid Joffe
-    - Edward Bowles
-    - Jerry Swan
+    - name: David R. White
+    - name: Leonid Joffe
+    - name: Edward Bowles
+    - name: Jerry Swan
   venue: "EvoAPPS"
   year: 2017
   type: Conference
@@ -1618,15 +1498,13 @@
 
 - title: "Polytypic Genetic Programming"
   authors:
-    - Jerry Swan
-    - Krzysztof Krawiec
-    - Neil Ghani
+    - name: Jerry Swan
+    - name: Krzysztof Krawiec
+    - name: Neil Ghani
   venue: "EvoAPPS"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-55792-2_5
-  tags:
-    - GP
   urls:
     - http://eprints.whiterose.ac.uk/117964/
   pdfs:
@@ -1634,75 +1512,52 @@
 
 - title: "Genetic Improvement of Computational Biology Software"
   authors:
-    - William B. Langdon
-    - Karina Zile
+    - name: William B. Langdon
+    - name: Karina Zile
   venue: "Evolutionary Computation in Computational Biology"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1145/3067695.3082540
   tags:
-    - GP
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/3067695.3082540
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
 
-- title: "A Search for Improved Performance in Regular Expressions"
-  authors:
-    - Brendan Cody-Kenny
-    - Michael Fenton
-    - Adrian Ronayne
-    - Eoghan Considine
-    - Thomas McGuire
-    - Michael O'Neill
-  venue: "GECCO"
-  year: 2017
-  type: Conference
-  doi: https://doi.org/10.1145/3071178.3071196
-  tags:
-    - GP
-  urls:
-    - http://doi.acm.org/10.1145/3071178.3071196
-
 - title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
   authors:
-    - Mahmoud A. Bokhari
-    - Bobby R. Bruce
-    - Brad Alexander
-    - Markus Wagner
+    - name: Mahmoud A. Bokhari
+    - name: Bobby R. Bruce
+    - name: Brad Alexander
+    - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082519
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/bokhari2017_deep_parameter_optimisation.pdf
     - http://cs.adelaide.edu.au/~markus/pub/2017gecco-deepandroid.pdf
 
 - title: "Embedding Genetic Improvement into Programming Languages"
   authors:
-    - Shin Yoo
+    - name: Shin Yoo
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082516
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/yoo2017_embedding_gi.pdf
 
 - title: "Evolving Software Building Blocks with FINCH"
   authors:
-    - Michael Orlov
+    - name: Michael Orlov
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082521
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/3067695.3082521
   pdfs:
@@ -1711,16 +1566,15 @@
 
 - title: "Fixing Bugs in Your Sleep: How Genetic Improvement Became an Overnight Success"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
-    - Alexander E. I. Brownlee
-    - Kristin Siggeirsdottir
+    - name: Saemundur O. Haraldsson
+    - name: John R. Woodward
+    - name: Alexander E. I. Brownlee
+    - name: Kristin Siggeirsdottir
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082517
   tags:
-    - GP
     - testing
   urls:
     - http://www.human-competitive.org/sites/default/files/haraldsson-text.txt
@@ -1730,27 +1584,24 @@
 
 - title: "From Problem Landscapes to Language Landscapes: Questions in Genetic Improvement"
   authors:
-    - Brendan Cody-Kenny
-    - Michael Fenton
-    - Michael O'Neill
+    - name: Brendan Cody-Kenny
+    - name: Michael Fenton
+    - name: Michael O'Neill
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082522
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/codykenny2017_landscape_questions.pdf
 
 - title: "GI in No Time"
   authors:
-    - David R. White
+    - name: David R. White
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: http://dx.doi.org/doi:10.1145/3067695.3082515
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/white2017_gin.pdf
@@ -1758,16 +1609,14 @@
 
 - title: "Gaining Insights into Traffic Data through Genetic Improvement"
   authors:
-    - Aniko Ekart
-    - Alina Patelli
-    - Victoria Lush
-    - Elisabeth Ilie-Zudor
+    - name: Aniko Ekart
+    - name: Alina Patelli
+    - name: Victoria Lush
+    - name: Elisabeth Ilie-Zudor
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082523
-  tags:
-    - GP
   urls:
     - http://eprints.sztaki.hu/9290/
   pdfs:
@@ -1776,31 +1625,28 @@
 
 - title: "Genetic Improvement of Runtime in a Bioinformatics Application"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
-    - Alexander E. I. Brownlee
-    - Albert V. Smith
-    - Vilmundur Gudnason
+    - name: Saemundur O. Haraldsson
+    - name: John R. Woodward
+    - name: Alexander E. I. Brownlee
+    - name: Albert V. Smith
+    - name: Vilmundur Gudnason
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082526
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/haraldsson2017_bioinformatics.pdf
 
 - title: "Improving SSE Parallel Code with Grow and Graft Genetic Programming"
   authors:
-    - William B. Langdon
-    - Ronny Lorenz
+    - name: William B. Langdon
+    - name: Ronny Lorenz
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082524
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/3067695.3082524
   pdfs:
@@ -1809,57 +1655,50 @@
 
 - title: "Learning from Super-Mutants"
   authors:
-    - Jason Landsborough
-    - Stephen Harding
-    - Sunny Fugate
+    - name: Jason Landsborough
+    - name: Stephen Harding
+    - name: Sunny Fugate
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082525
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/landsborough2017_supermutants.pdf
 
 - title: "Modelling Genetic Improvement Landscapes with Local Optima Networks"
   authors:
-    - Nadarajen Veerapen
-    - Fabio Daolio
-    - Gabriela Ochoa
+    - name: Nadarajen Veerapen
+    - name: Fabio Daolio
+    - name: Gabriela Ochoa
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082518
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/veerapen2017_local_optima_networks.pdf
 
 - title: "New Operators for Non-functional Genetic Improvement"
   authors:
-    - Justyna Petke
+    - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2017
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082520
-  tags:
-    - GP
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/petke2017_operators.pdf
 
 - title: "Genetic Improvement of GPU Software"
   authors:
-    - William B. Langdon
-    - Brian Yee Hong Lam
-    - Marc Modat
-    - Justyna Petke
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Brian Yee Hong Lam
+    - name: Marc Modat
+    - name: Justyna Petke
+    - name: Mark Harman
   venue: "GPEM"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1007/s10710-016-9273-9
   tags:
-    - GP
     - SBSE
     - survey
   pdfs:
@@ -1867,80 +1706,72 @@
 
 - title: "Online Genetic Improvement on the java virtual machine with ECSELR"
   authors:
-    - Kwaku Yeboah-Antwi
-    - Benoit Baudry
+    - name: Kwaku Yeboah-Antwi
+    - name: Benoit Baudry
   venue: "GPEM"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1007/s10710-016-9278-4
   tags:
     - AI
-    - GP
     - SBSE
   urls:
     - https://hal.inria.fr/hal-01382964
 
 - title: "Preface to the Special Issue on Genetic Improvement"
   authors:
-    - Justyna Petke
+    - name: Justyna Petke
   venue: "GPEM"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1007/s10710-016-9280-x
-  tags:
-    - GP
 
 - title: "Trading between quality and non-functional properties of median filter in embedded systems"
   authors:
-    - Zdenek Vasicek
-    - Vojtech Mrazek
+    - name: Zdenek Vasicek
+    - name: Vojtech Mrazek
   venue: "GPEM"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1007/s10710-016-9275-7
-  tags:
-    - GP
   urls:
     - http://www.fit.vutbr.cz/research/view_pub.php.cs?id=11077
 
 - title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
   authors:
-    - Alexander Edward Ian Brownlee
-    - Nathan Burles
-    - Jerry Swan
+    - name: Alexander Edward Ian Brownlee
+    - name: Nathan Burles
+    - name: Jerry Swan
   venue: "IEEE TETCI"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1109/TETCI.2017.2699193
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://eprints.whiterose.ac.uk/117916/1/07935484_1.pdf
 
 - title: "Some Remarks on Code Evolution with Genetic Programming"
   authors:
-    - Wolfgang Banzhaf
+    - name: Wolfgang Banzhaf
   venue: "Inspired by Nature: Essays Presented to Julian F. Miller on the Occasion of his 60th Birthday"
   year: 2017
   type: Collection
   doi: https://doi.org/10.1007/978-3-319-67997-6_6
   tags:
-    - GP
     - ML
     - SBSE
 
 - title: "PyGGI: Python General framework for Genetic Improvement"
   authors:
-    - Gabin An
-    - Jinhan Kim
-    - Seongmin Lee
-    - Shin Yoo
+    - name: Gabin An
+    - name: Jinhan Kim
+    - name: Seongmin Lee
+    - name: Shin Yoo
   venue: "KSC"
   year: 2017
   type: Conference
   tags:
-    - GP
     - PyGGI
   urls:
     - http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07322214&language=en_EN#
@@ -1949,9 +1780,9 @@
 
 - title: "Inferring Automatic Test Oracles"
   authors:
-    - William B. Langdon
-    - Shin Yoo
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Shin Yoo
+    - name: Mark Harman
   venue: "SBST"
   year: 2017
   type: Conference
@@ -1966,15 +1797,15 @@
 
 - title: "The Use of Automatic Test Data Generation for Genetic Improvement in a Live System"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
-    - Alexander E. I. Brownlee
+    - name: Saemundur Oskar Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: John R. Woodward
+    - name: Alexander E. I. Brownlee
   venue: "SBST"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1109/SBST.2017..10
   tags:
-    - GP
     - SBSE
     - testing
   urls:
@@ -1987,25 +1818,21 @@
 
 - title: "Genetic Improvement Workshop at GECCO 2017"
   authors:
-    - Brendan Cody-Kenny
+    - name: Brendan Cody-Kenny
   venue: "SIGEVOlution"
   year: 2017
   type: Journal
   doi: https://doi.org/10.1145/3231560.3231562
-  tags:
-    - GP
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1003.pdf
 
 - title: "Genetic Improvement in Code Interpreters and Compilers"
   authors:
-    - Oliver Krauss
+    - name: Oliver Krauss
   venue: "SPLASH"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1145/3135932.3135934
-  tags:
-    - GP
   urls:
     - https://2017.splashcon.org/event/splash-2017-doctoral-symposium-genetic-improvement-in-code-interpreters-and-compilers
   pdfs:
@@ -2013,40 +1840,39 @@
 
 - title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
   authors:
-    - Christopher Timperley
-    - Susan Stepney
-    - Claire Le Goues
+    - name: Christopher Steven Timperley
+      aka: Christopher Timperley
+    - name: Susan Stepney
+    - name: Claire Le Goues
   venue: "SSBSE"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-66299-2_7
   tags:
-    - GP
     - SBSE
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/legoues-ssbse17.pdf
 
 - title: "MuSynth: Program Synthesis via Code Reuse and Code Manipulation"
   authors:
-    - Vineeth Kashyap
-    - Rebecca Swords
-    - Eric Schulte
-    - David Melski
+    - name: Vineeth Kashyap
+    - name: Rebecca Swords
+    - name: Eric Schulte
+    - name: David Melski
   venue: "SSBSE"
   year: 2017
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-66299-2_8
   tags:
-    - GP
     - SBSE
 
 - title: "Optimising Darwinian Data Structures on Google Guava"
   authors:
-    - Michail Basios
-    - Lingbo Li
-    - Fan Wu
-    - Leslie Kanthan
-    - Earl T. Barr
+    - name: Michail Basios
+    - name: Lingbo Li
+    - name: Fan Wu
+    - name: Leslie Kanthan
+    - name: Earl T. Barr
   venue: "SSBSE"
   year: 2017
   type: Conference
@@ -2056,20 +1882,21 @@
 
 - title: "Computers will soon be able to fix themselves - are IT departments for the chop?"
   authors:
-    - Saemundur O. Haraldsson
-    - Alexander E. I. Brownlee
-    - John R. Woodward
+    - name: Saemundur Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: Alexander Brownlee
+      aka: Alexander E. I. Brownlee
+    - name: John R. Woodward
   venue: "The Conversation"
   year: 2017
   type: Journal
-  tags:
-    - GP
   urls:
     - http://theconversation.com/computers-will-soon-be-able-to-fix-themselves-are-it-departments-for-the-chop-85632
 
 - title: "Benchmarking BarraCUDA on Epigenetic DNA and nVidia Pascal GPUs"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: ""
   year: 2016
   type: TechReport
@@ -2081,7 +1908,7 @@
 
 - title: "Multi-Dimensional Analysis of Software Power Consumptions in Multi-Core Architectures"
   authors:
-    - Maxime Colmant
+    - name: Maxime Colmant
   venue: ""
   year: 2016
   type: PhdThesis
@@ -2095,40 +1922,37 @@
 
 - title: "The Genetic Improvement Fitness Landscape"
   authors:
-    - William B. Langdon
+    - name: William B. Langdon
   venue: ""
   year: 2016
   type: TechReport
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1604.pdf
 
 - title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
   authors:
-    - Kate Highnam
-    - Kevin Angstadt
-    - Kevin Leach
-    - Westley Weimer
-    - Aaron Paulos
-    - Patrick Hurley
+    - name: Kate Highnam
+    - name: Kevin Angstadt
+    - name: Kevin Leach
+    - name: Westley Weimer
+    - name: Aaron Paulos
+    - name: Patrick Hurley
   venue: "2016 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshop (DSN-W)"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1109/DSN-W.2016.63
-  tags:
-    - GP
   pdfs:
     - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
 
 - title: "Automatically scheduling halide image processing pipelines"
   authors:
-    - Ravi Teja Mullapudi
-    - Andrew Adams
-    - Dillon Sharlet
-    - Jonathan Ragan-Kelley
-    - Kayvon Fatahalian
+    - name: Ravi Teja Mullapudi
+    - name: Andrew Adams
+    - name: Dillon Sharlet
+    - name: Jonathan Ragan-Kelley
+    - name: Kayvon Fatahalian
   venue: "ACM Transactions on Graphics"
   year: 2016
   type: Journal
@@ -2140,15 +1964,13 @@
 
 - title: "Connecting Automatic Parameter Tuning, Genetic Programming as a Hyper-heuristic, and Genetic Improvement Programming"
   authors:
-    - John R. Woodward
-    - Colin G. Johnson
-    - Alexander E. I. Brownlee
+    - name: John R. Woodward
+    - name: Colin G. Johnson
+    - name: Alexander E. I. Brownlee
   venue: "GECCO"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931728
-  tags:
-    - GP
   urls:
     - http://hdl.handle.net/1893/23394
   pdfs:
@@ -2156,44 +1978,40 @@
 
 - title: "Visualisation and Analysis of Genetic Records Produced by Cartesian Genetic Programming"
   authors:
-    - Lukas Sekanina
-    - Vlastimil Kapusta
+    - name: Lukas Sekanina
+    - name: Vlastimil Kapusta
   venue: "GECCO"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931740
-  tags:
-    - GP
 
 - title: "Automatic Improvement of Apache Spark Queries using Semantics-preserving Program Reduction"
   authors:
-    - Zoltan A. Kocsis
-    - John H. Drake
-    - Douglas Carson
-    - Jerry Swan
+    - name: Zoltan A. Kocsis
+    - name: John H. Drake
+    - name: Douglas Carson
+    - name: Jerry Swan
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931692
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Automatic_Improvement_of_Apache_Spark_Queries_using_Semantics-preserving_Program_Reduction.pdf
 
 - title: "Benchmarking Genetically Improved BarraCUDA on Epigenetic Methylation NGS datasets and nVidia GPUs"
   authors:
-    - William B. Langdon
-    - Albert Vilella
-    - Brian Yee Hong Lam
-    - Justyna Petke
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Albert Vilella
+    - name: Brian Yee Hong Lam
+    - name: Justyna Petke
+    - name: Mark Harman
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931687
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_GI.pdf
@@ -2201,112 +2019,107 @@
 
 - title: "Evals is not enough: why we should report wall-clock time"
   authors:
-    - John R. Woodward
-    - Alexander E. I. Brownlee
-    - Colin Johnson
+    - name: John Woodward
+      aka: John R. Woodward
+    - name: Alexander Brownlee
+      aka: Alexander E. I. Brownlee
+    - name: Colin Johnson
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931695
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Evals_is_not_enough_why_we_should_report_wall-clock_time.pdf
 
 - title: "Evolutionary optimization of compiler flag selection by learning and exploiting flags interactions"
   authors:
-    - Unai Garciarena
-    - Roberto Santana
+    - name: Unai Garciarena
+    - name: Roberto Santana
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931696
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Evolutionary_optimization_of_compiler_flag_selection_by_learning_and_exploiting_flags_interactions.pdf
 
 - title: "GP vs GI: if you can't beat them, join them"
   authors:
-    - John R. Woodward
-    - Colin Johnson
-    - Alexander E. I. Brownlee
+    - name: John Woodward
+      aka: John R. Woodward
+    - name: Colin Johnson
+    - name: Alexander Brownlee
+      aka: Alexander E. I. Brownlee
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931694
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/GP_vs_GI_if_you_can%E2%80%99t_beat_them_join_them.pdf
 
 - title: "Genetic Improvement 2016 Chairs' Welcome and Organization"
   authors:
-    - Westley Weimer
-    - Justyna Petke
-    - David R. White
+    - name: Westley Weimer
+    - name: Justyna Petke
+    - name: David R. White
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931686
-  tags:
-    - GP
 
 - title: "Genetic Improvement for Code Obfuscation"
   authors:
-    - Justyna Petke
+    - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931689
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Genetic_Improvement_for_Code_Obfuscation.pdf
 
 - title: "Genetic Programming: From design to improved implementation"
   authors:
-    - Victor R. Lopez-Lopez
-    - Leonardo Trujillo
-    - Pierrick Legrand
-    - Gustavo Olague
+    - name: Victor R. Lopez-Lopez
+    - name: Leonardo Trujillo
+    - name: Pierrick Legrand
+    - name: Gustavo Olague
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931693
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Genetic_Programming_From_Design_to_Improved_Implementation.pdf
 
 - title: "Guiding Unconstrained Genetic Improvement"
   authors:
-    - David White
+    - name: David White
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931688
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Guiding_Unconstrained_Genetic-Improvement.pdf
 
 - title: "Optimising Energy Consumption Heuristically on Android Mobile Phones"
   authors:
-    - Mahmoud Bokhari
-    - Markus Wagner
+    - name: Mahmoud Bokhari
+    - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931691
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-energy.pdf
@@ -2314,13 +2127,12 @@
 
 - title: "Speeding up the proof strategy in formal software verification"
   authors:
-    - Markus Wagner
+    - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931690
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-verification.pdf
@@ -2328,27 +2140,23 @@
 
 - title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
   authors:
-    - William B. Langdon
-    - Gabriela Ochoa
+    - name: William B. Langdon
+    - name: Gabriela Ochoa
   venue: "Key Challenges and Future Directions of Evolutionary Computation"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1109/CEC.2016.7744177
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_cec.pdf
 
 - title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
   authors:
-    - Weilin Xu
-    - Yanjun Qi
-    - David Evans
+    - name: Weilin Xu
+    - name: Yanjun Qi
+    - name: David Evans
   venue: "NDSS"
   year: 2016
   type: Conference
-  tags:
-    - GP
   urls:
     - http://evademl.org/
     - https://www.internetsociety.org/events/ndss-symposium-2016/ndss-2016-programme#session11
@@ -2357,42 +2165,39 @@
 
 - title: "A General-Purpose Framework for Genetic Improvement"
   authors:
-    - Francesco Marino
-    - Giovanni Squillero
-    - Alberto Tonda
+    - name: Francesco Marino
+    - name: Giovanni Squillero
+    - name: Alberto Tonda
   venue: "PPSN"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-45823-6_32
   tags:
-    - GP
     - SBSE
 
 - title: "Optimising Quantisation Noise in Energy Measurement"
   authors:
-    - William B. Langdon
-    - Justyna Petke
-    - Bobby R. Bruce
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: Bobby R. Bruce
   venue: "PPSN"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-45823-6_23
   tags:
     - AI
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_PPSN.pdf
 
 - title: "Fitness Landscape of the Triangle Program"
   authors:
-    - William B. Langdon
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Mark Harman
   venue: "PPSN-2016 Workshop on Landscape-Aware Heuristic Search"
   year: 2016
   type: Conference
   tags:
-    - GP
     - SBSE
     - testing
   urls:
@@ -2402,38 +2207,36 @@
 
 - title: "A Report on the Genetic Improvement Workshop@GECCO 2016"
   authors:
-    - Bobby R. Bruce
+    - name: Bobby Bruce
+      aka: Bobby R. Bruce
   venue: "SIGEVOlution"
   year: 2016
   type: Journal
   doi: https://doi.org/10.1145/3066157.3066159
-  tags:
-    - GP
   pdfs:
     - http://www.sigevolution.org/issues/pdf/SIGEVOlution0902.pdf
 
 - title: "API-Constrained Genetic Improvement"
   authors:
-    - William B. Langdon
-    - David R. White
-    - Mark Harman
-    - Yue Jia
-    - Justyna Petke
+    - name: William B. Langdon
+    - name: David R. White
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Justyna Petke
   venue: "SSBSE"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-47106-8_16
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_SSBSE.pdf
 
 - title: "Amortised Deep Parameter Optimisation of GPGPU Work Group Size for OpenCV"
   authors:
-    - Jeongju Sohn
-    - Seongmin Lee
-    - Shin Yoo
+    - name: Jeongju Sohn
+    - name: Seongmin Lee
+    - name: Shin Yoo
   venue: "SSBSE"
   year: 2016
   type: Conference
@@ -2445,68 +2248,86 @@
 
 - title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV"
   authors:
-    - Bobby R. Bruce
-    - Jonathan M. Aitken
-    - Justyna Petke
+    - name: Bobby R. Bruce
+    - name: Jonathan M. Aitken
+    - name: Justyna Petke
   venue: "SSBSE"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-47106-8_18
   tags:
-    - GP
     - SBSE
+
+- title: "Field Report: Applying Monte Carlo Tree Search for Program Synthesis"
+  authors:
+    - name: Jin-Suk Lim
+    - name: Shin Yoo
+  venue: "SSBSE"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-47106-8_27
+  urls:
+    - http://coinse.kaist.ac.kr/projects/mctsps/
 
 - title: "HOMI: Searching Higher Order Mutants For Software Improvement"
   authors:
-    - Fan Wu
-    - Mark Harman
-    - Yue Jia
-    - Jens Krinke
+    - name: Fan Wu
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Jens Krinke
   venue: "SSBSE"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-47106-8_2
   tags:
-    - GP
     - SBSE
 
 - title: "Improved crossover operators for genetic programming for program repair"
   authors:
-    - Vinicius Paulo L. Oliveira
-    - Eduardo F. D. Souza
-    - Claire Le Goues
-    - Celso G. Camilo-Junior
+    - name: Vinicius Paulo L. Oliveira
+    - name: Eduardo F. D. Souza
+    - name: Claire Le Goues
+    - name: Celso G. Camilo-Junior
   venue: "SSBSE"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-47106-8_8
   tags:
     - APR
-    - GP
     - SBSE
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/legoues-ssbse16.pdf
 
 - title: "Genetic Improvement for Approximate Computing"
   authors:
-    - Lukas Sekanina
-    - Zdenek Vasicek
+    - name: Lukas Sekanina
+    - name: Zdenek Vasicek
   venue: "WAPCO"
   year: 2016
   type: Workshop
-  tags:
-    - GP
   pdfs:
     - http://wapco.inf.uth.gr/papers/SESSION2/wapco2016_2_5.pdf
 
+- title: "Automatic Software Repair: a Bibliography"
+  authors:
+    - name: Martin Monperrus
+  venue: ""
+  year: 2015
+  type: TechReport
+  tags:
+    - survey
+  urls:
+    - https://hal.archives-ouvertes.fr/hal-01206501
+  pdfs:
+    - http://www.monperrus.net/martin/survey-automatic-repair.pdf
+
 - title: "Genetic Programming Bias with Software Performance Analysis"
   authors:
-    - Brendan Cody-Kenny
+    - name: Brendan Cody-Kenny
   venue: ""
   year: 2015
   type: PhdThesis
   tags:
-    - GP
     - SBSE
   urls:
     - http://www.tara.tcd.ie/handle/2262/76251
@@ -2515,8 +2336,9 @@
 
 - title: "Genetically Improved BarraCUDA"
   authors:
-    - William B. Langdon
-    - Brian Yee Hong Lam
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Brian Yee Hong Lam
   venue: ""
   year: 2015
   type: TechReport
@@ -2527,22 +2349,20 @@
 
 - title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
   authors:
-    - Nam Ho
-    - Abdullah Fathi Ahmed
-    - Paul Kaufmann
-    - Marco Platzner
+    - name: Nam Ho
+    - name: Abdullah Fathi Ahmed
+    - name: Paul Kaufmann
+    - name: Marco Platzner
   venue: "2015 NASA/ESA Conference on Adaptive Hardware and Systems (AHS)"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1109/AHS.2015.7231178
-  tags:
-    - GP
 
 - title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
   authors:
-    - Ravi Teja Mullapudi
-    - Vinay Vasista
-    - Uday Bondhugula
+    - name: Ravi Teja Mullapudi
+    - name: Vinay Vasista
+    - name: Uday Bondhugula
   venue: "ACM SIGPLAN Notices"
   year: 2015
   type: Journal
@@ -2552,27 +2372,26 @@
 
 - title: "Performance of Genetic Programming Optimised Bowtie2 on Genome Comparison and Analytic Testing (GCAT) Benchmarks"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "BioData Mining"
   year: 2015
   type: Journal
   doi: https://doi.org/10.1186/s13040-014-0034-0
   tags:
-    - GP
     - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_BDM.pdf
 
 - title: "Software is Not Fragile"
   authors:
-    - William B. Langdon
-    - Justyna Petke
+    - name: William B. Langdon
+    - name: Justyna Petke
   venue: "Complex Systems Digital Campus E-conference, CS-DC'15"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-45901-1_24
   tags:
-    - GP
     - SBSE
   urls:
     - http://cs-dc-15.org/papers/multi-scale-dynamics/evol-comp-methods-2/software-is-not-fragile/
@@ -2582,34 +2401,31 @@
 
 - title: "App Store Mining and Analysis"
   authors:
-    - Afnan Al-Subaihin
-    - Anthony Finkelstein
-    - Mark Harman
-    - Yue Jia
-    - William Martin
-    - Federica Sarro
-    - Yuanyuan Zhang
+    - name: Afnan Al-Subaihin
+    - name: Anthony Finkelstein
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: William Martin
+    - name: Federica Sarro
+    - name: Yuanyuan Zhang
   venue: "DeMobile"
   year: 2015
   type: Workshop
-  tags:
-    - GP
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/mharman/final-demobile15-keynote.pdf
 
 - title: "Deep Parameter Optimisation"
   authors:
-    - Fan Wu
-    - Westley Weimer
-    - Mark Harman
-    - Yue Jia
-    - Jens Krinke
+    - name: Fan Wu
+    - name: Westley Weimer
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Jens Krinke
   venue: "GECCO"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1145/2739480.2754648
   tags:
-    - GP
     - SBSE
   urls:
     - http://www.human-competitive.org/sites/default/files/wu-weimer-harman-jia-krinke-text.txt
@@ -2618,17 +2434,16 @@
 
 - title: "Improving CUDA DNA Analysis Software with Genetic Programming"
   authors:
-    - William B. Langdon
-    - Brian Yee Hong Lam
-    - Justyna Petke
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Brian Yee Hong Lam
+    - name: Justyna Petke
+    - name: Mark Harman
   venue: "GECCO"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1145/2739480.2754652
   tags:
     - AI
-    - GP
     - SBSE
     - testing
   urls:
@@ -2638,15 +2453,14 @@
 
 - title: "Reducing Energy Consumption Using Genetic Improvement"
   authors:
-    - Bobby R. Bruce
-    - Justyna Petke
-    - Mark Harman
+    - name: Bobby R. Bruce
+    - name: Justyna Petke
+    - name: Mark Harman
   venue: "GECCO"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1145/2739480.2754752
   tags:
-    - GP
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/2739480.2754752
@@ -2655,18 +2469,16 @@
 
 - title: "Embedded Dynamic Improvement"
   authors:
-    - Nathan Burles
-    - Jerry Swan
-    - Edward Bowles
-    - Alexander E. I. Brownlee
-    - Zoltan A. Kocsis
-    - Nadarajen Veerapen
+    - name: Nathan Burles
+    - name: Jerry Swan
+    - name: Edward Bowles
+    - name: Alexander E. I. Brownlee
+    - name: Zoltan A. Kocsis
+    - name: Nadarajen Veerapen
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768423
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768423
   pdfs:
@@ -2674,14 +2486,12 @@
 
 - title: "Embedding Adaptivity in Software Systems using the ECSELR framework"
   authors:
-    - Kwaku Yeboah-Antwi
-    - Benoit Baudry
+    - name: Kwaku Yeboah-Antwi
+    - name: Benoit Baudry
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768425
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768425
   pdfs:
@@ -2690,13 +2500,12 @@
 
 - title: "Energy Optimisation via Genetic Improvement A SBSE technique for a new era in Software Development"
   authors:
-    - Bobby R. Bruce
+    - name: Bobby R. Bruce
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768420
   tags:
-    - GP
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/2739482.2768420
@@ -2705,15 +2514,13 @@
 
 - title: "Evolutionary Approximation of Software for Embedded Systems: Median Function"
   authors:
-    - Vojtech Mrazek
-    - Zdenek Vasicek
-    - Lukas Sekanina
+    - name: Vojtech Mrazek
+    - name: Zdenek Vasicek
+    - name: Lukas Sekanina
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768416
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768416
   pdfs:
@@ -2721,26 +2528,22 @@
 
 - title: "Fitness as Task-relevant Information Accumulation"
   authors:
-    - Colin G. Johnson
-    - John R. Woodward
+    - name: Colin G. Johnson
+    - name: John R. Woodward
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
-  tags:
-    - GP
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/fitness_as_task-relevant_information_accumulation.pdf
 
 - title: "GI4GI: Improving Genetic Improvement Fitness Functions"
   authors:
-    - Mark Harman
-    - Justyna Petke
+    - name: Mark Harman
+    - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768415
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768415
   pdfs:
@@ -2748,14 +2551,12 @@
 
 - title: "Genetic Improvement 2015 Chairs' Welcome"
   authors:
-    - William B. Langdon
-    - Justyna Petke
-    - David R. White
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: David R. White
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
-  tags:
-    - GP
   urls:
     - http://dl.acm.org/ft_gateway.cfm?id=2803154
   pdfs:
@@ -2763,18 +2564,16 @@
 
 - title: "Genetic Improvement for Software Product Lines: An Overview and a Roadmap"
   authors:
-    - Roberto E. Lopez-Herrejon
-    - Lukas Linsbauer
-    - Wesley K. G. Assuncao
-    - Stefan Fischer
-    - Silvia R. Vergilio
-    - Alexander Egyed
+    - name: Roberto E. Lopez-Herrejon
+    - name: Lukas Linsbauer
+    - name: Wesley K. G. Assuncao
+    - name: Stefan Fischer
+    - name: Silvia R. Vergilio
+    - name: Alexander Egyed
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768422
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768422
   pdfs:
@@ -2782,29 +2581,25 @@
 
 - title: "Genetic Improvement of Energy Usage is only as Reliable as the Measurements are Accurate"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
+    - name: Saemundur O. Haraldsson
+    - name: John R. Woodward
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768421
-  tags:
-    - GP
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/energy_optimisation_via_genetic_improvement.pdf
 
 - title: "Genetic Improvement using Higher Order Mutation"
   authors:
-    - Yue Jia
-    - Fan Wu
-    - Mark Harman
-    - Jens Krinke
+    - name: Yue Jia
+    - name: Fan Wu
+    - name: Mark Harman
+    - name: Jens Krinke
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768417
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768417
   pdfs:
@@ -2812,15 +2607,14 @@
 
 - title: "Grow and Graft a better CUDA pknotsRG for RNA pseudoknot free energy calculation"
   authors:
-    - William B. Langdon
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Mark Harman
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768418
   tags:
     - AI
-    - GP
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/2739482.2768418
@@ -2830,15 +2624,13 @@
 
 - title: "Removing the Kitchen Sink from Software"
   authors:
-    - Jason Landsborough
-    - Stephen Harding
-    - Sunny Fugate
+    - name: Jason Landsborough
+    - name: Stephen Harding
+    - name: Sunny Fugate
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768424
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768424
   pdfs:
@@ -2846,15 +2638,13 @@
 
 - title: "Repairing COTS Router Firmware without Access to Source Code or Test Suites: A Case Study in Evolutionary Software Repair"
   authors:
-    - Eric Schulte
-    - Westley Weimer
-    - Stephanie Forrest
+    - name: Eric Schulte
+    - name: Westley Weimer
+    - name: Stephanie Forrest
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768427
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768427
   pdfs:
@@ -2862,14 +2652,12 @@
 
 - title: "Rethinking Genetic Improvement Programming"
   authors:
-    - David R. White
-    - Jeremy Singer
+    - name: David R. White
+    - name: Jeremy Singer
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768426
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768426
   pdfs:
@@ -2877,15 +2665,13 @@
 
 - title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
   authors:
-    - Brendan Cody-Kenny
-    - Edgar Galvan Lopez
-    - Stephen Barrett
+    - name: Brendan Cody-Kenny
+    - name: Edgar Galvan Lopez
+    - name: Stephen Barrett
   venue: "GI@GECCO"
   year: 2015
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768419
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2739482.2768419
   pdfs:
@@ -2893,29 +2679,28 @@
 
 - title: "Genetically Improved Software"
   authors:
-    - William B. Langdon
+    - name: William B. Langdon
   venue: "Handbook of Genetic Programming Applications"
   year: 2015
   type: Collection
   doi: https://doi.org/10.1007/978-3-319-20883-1_8
   tags:
     - AI
-    - GP
+    - GISMO
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_hbgpa.pdf
 
 - title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
   authors:
-    - Mark Harman
-    - Yue Jia
-    - Yuanyuan Zhang
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Yuanyuan Zhang
   venue: "ICST"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1109/ICST.2015.7102580
   tags:
-    - GP
     - SBSE
     - testing
   pdfs:
@@ -2923,14 +2708,13 @@
 
 - title: "Optimising Existing Software with Genetic Programming"
   authors:
-    - William B. Langdon
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Mark Harman
   venue: "IEEE TEVC"
   year: 2015
   type: Journal
   doi: https://doi.org/10.1109/TEVC.2013.2281544
   tags:
-    - GP
     - SBSE
   urls:
     - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6733370
@@ -2940,17 +2724,15 @@
 
 - title: "Automated Software Transplantation"
   authors:
-    - Earl T. Barr
-    - Mark Harman
-    - Yue Jia
-    - Alexandru Marginean
-    - Justyna Petke
+    - name: Earl T. Barr
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Alexandru Marginean
+    - name: Justyna Petke
   venue: "ISSTA"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1145/2771783.2771796
-  tags:
-    - GP
   urls:
     - http://crest.cs.ucl.ac.uk/autotransplantation/
     - http://www.human-competitive.org/sites/default/files/barr-harman-jia-marginean-petke-text.txt
@@ -2959,29 +2741,27 @@
 
 - title: "Amortised Optimisation of Non-functional Properties in Production Environments"
   authors:
-    - Shin Yoo
+    - name: Shin Yoo
   venue: "SSBSE"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-22183-0_3
   tags:
-    - GP
     - SBSE
   urls:
     - http://hdl.handle.net/10203/224142
 
 - title: "Automated Transplantation of Call Graph and Layout Features into Kate"
   authors:
-    - Alexandru Marginean
-    - Earl T. Barr
-    - Mark Harman
-    - Yue Jia
+    - name: Alexandru Marginean
+    - name: Earl T. Barr
+    - name: Mark Harman
+    - name: Yue Jia
   venue: "SSBSE"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-22183-0_21
   tags:
-    - GP
     - SBSE
   urls:
     - http://crest.cs.ucl.ac.uk/autotransplantation/
@@ -2990,30 +2770,30 @@
 
 - title: "Genetic Improvement of Software for Multiple Objectives"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "SSBSE"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-22183-0_2
   tags:
-    - GP
+    - GISMO
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_SSBSE.pdf
 
 - title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
   authors:
-    - Nathan Burles
-    - Edward Bowles
-    - Alexander E. I. Brownlee
-    - Zoltan A. Kocsis
-    - Jerry Swan
-    - Nadarajen Veerapen
+    - name: Nathan Burles
+    - name: Edward Bowles
+    - name: Alexander E. I. Brownlee
+    - name: Zoltan A. Kocsis
+    - name: Jerry Swan
+    - name: Nadarajen Veerapen
   venue: "SSBSE"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-22183-0_20
   tags:
-    - GP
     - SBSE
   urls:
     - http://hdl.handle.net/1893/22227
@@ -3022,91 +2802,95 @@
 
 - title: "Specialising Guava's Cache to Reduce Energy Consumption"
   authors:
-    - Nathan Burles
-    - Edward Bowles
-    - Bobby R. Bruce
-    - Komsan Srivisut
+    - name: Nathan Burles
+    - name: Edward Bowles
+    - name: Bobby R. Bruce
+    - name: Komsan Srivisut
   venue: "SSBSE"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-22183-0_23
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/R.Bruce/Burles2015Specialising.pdf
 
 - title: "Grow and Serve: Growing Django Citation Services Using SBSE"
   authors:
-    - Yue Jia
-    - Mark Harman
-    - William B. Langdon
-    - Alexandru Marginean
+    - name: Yue Jia
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Alexandru Marginean
   venue: "SSBSE 2015 Challenge Track"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-22183-0_22
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://alexandrumarginean.com/grow_and_serve.pdf
 
 - title: "How computers are learning to make human software work more efficiently"
   authors:
-    - John R. Woodward
-    - Justyna Petke
-    - William Langdon
+    - name: John R. Woodward
+    - name: Justyna Petke
+    - name: William Langdon
   venue: "The Conversation"
   year: 2015
   type: Journal
-  tags:
-    - GP
   urls:
     - http://theconversation.com/how-computers-are-learning-to-make-human-software-work-more-efficiently-43798
 
 - title: "Gen-O-Fix: An embeddable framework for Dynamic Adaptive Genetic Improvement Programming"
   authors:
-    - Jerry Swan
-    - Michael G. Epitropakis
-    - John R. Woodward
+    - name: Jerry Swan
+    - name: Michael G. Epitropakis
+    - name: John R. Woodward
   venue: ""
   year: 2014
   type: TechReport
-  tags:
-    - GP
   urls:
     - http://www.cs.stir.ac.uk/~kjt/techreps/previous.html
   pdfs:
     - http://www.cs.stir.ac.uk/~kjt/techreps/pdf/TR195.pdf
     - http://www.epitropakis.co.uk/sites/default/files/pubs/genofix-TR.pdf
 
+- title: "Genetically Improved CUDA kernels for StereoCamera"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: M. Harman
+  venue: ""
+  year: 2014
+  type: TechReport
+  tags:
+    - GISMO
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/Langdon_RN1402.pdf
+
 - title: "Quality Assurance for Self-Adaptive, Self-Organising Systems (Message from the Workshop Organisers)"
   authors:
-    - Benedikt Eberhardinger
-    - Wolfgang Reif
-    - Franz Wotawa
-    - Tom Holvoet
+    - name: Benedikt Eberhardinger
+    - name: Wolfgang Reif
+    - name: Franz Wotawa
+    - name: Tom Holvoet
   venue: "2014 IEEE Eighth International Conference on Self-Adaptive and Self-Organizing Systems Workshops"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1109/SASOW.2014.30
-  tags:
-    - GP
 
 - title: "Post-compiler Software Optimization for Reducing Energy"
   authors:
-    - Eric Schulte
-    - Jonathan Dorn
-    - Stephen Harding
-    - Stephanie Forrest
-    - Westley Weimer
+    - name: Eric Schulte
+    - name: Jonathan Dorn
+    - name: Stephen Harding
+    - name: Stephanie Forrest
+    - name: Westley Weimer
   venue: "ASPLOS"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1145/2541940.2541980
-  tags:
-    - GP
   urls:
     - http://doi.acm.org/10.1145/2654822.2541980
   pdfs:
@@ -3114,64 +2898,73 @@
 
 - title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
   authors:
-    - Saemundur O. Haraldsson
-    - John R. Woodward
+    - name: Saemundur O. Haraldsson
+    - name: John R. Woodward
   venue: "ECADA@GECCO"
   year: 2014
   type: Workshop
   doi: https://doi.org/10.1145/2598394.2609874
   tags:
-    - GP
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/2598394.2609874
 
 - title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
   authors:
-    - Justyna Petke
-    - Mark Harman
-    - William B. Langdon
-    - Westley Weimer
+    - name: Justyna Petke
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Westley Weimer
   venue: "EuroGP"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1007/978-3-662-44303-3_12
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2014_EuroGP.pdf
 
 - title: "Improving 3D Medical Image Registration CUDA Software with Genetic Programming"
   authors:
-    - William B. Langdon
-    - Marc Modat
-    - Justyna Petke
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Marc Modat
+    - name: Justyna Petke
+    - name: Mark Harman
   venue: "GECCO"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1145/2576768.2598244
   tags:
     - AI
-    - GP
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/2576768.2598244
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_GECCO.pdf
 
+- title: "Improving Source Code with Genetic Programming"
+  authors:
+    - name: William B. Langdon
+    - name: Mark Harman
+  venue: "GECCO 2014 Hot of the Press"
+  year: 2014
+  type: Conference
+  tags:
+    - GISMO
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Langdon_gecco2014_hot.pdf
+
 - title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
   authors:
-    - Benoit Baudry
-    - Simon Allier
-    - Martin Monperrus
+    - name: Benoit Baudry
+    - name: Simon Allier
+    - name: Martin Monperrus
   venue: "ISSTA"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1145/2610384.2610415
   tags:
-    - GP
     - SBSE
   urls:
     - https://hal.archives-ouvertes.fr/hal-00938855/document
@@ -3179,20 +2972,19 @@
 
 - title: "Genetic Improvement for Adaptive Software Engineering"
   authors:
-    - Mark Harman
-    - Yue Jia
-    - William B. Langdon
-    - Justyna Petke
-    - Iman Hemati Moghadam
-    - Shin Yoo
-    - Fan Wu
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: Iman Hemati Moghadam
+    - name: Shin Yoo
+    - name: Fan Wu
   venue: "SEAMS"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1145/2593929.2600116
   tags:
     - AI
-    - GP
     - ML
     - SBSE
   pdfs:
@@ -3200,18 +2992,18 @@
 
 - title: "Search based software engineering for software product line engineering: a survey and directions for future work"
   authors:
-    - Mark Harman
-    - Yue Jia
-    - Jens Krinke
-    - William B. Langdon
-    - Justyna Petke
-    - Yuanyuan Zhang
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Jens Krinke
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Justyna Petke
+    - name: Yuanyuan Zhang
   venue: "SPLC"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1145/2648511.2648513
   tags:
-    - GP
     - SBSE
     - survey
   pdfs:
@@ -3219,15 +3011,15 @@
 
 - title: "Babel Pidgin: SBSE Can Grow and Graft Entirely New Functionality into a Real World System"
   authors:
-    - Mark Harman
-    - Yue Jia
-    - William B. Langdon
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: William B. Langdon
   venue: "SSBSE"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-09940-8_20
   tags:
-    - GP
+    - GISMO
     - SBSE
   urls:
     - http://www.springer.com/computer/swe/book/978-3-319-09939-2
@@ -3236,32 +3028,30 @@
 
 - title: "Repairing and Optimizing Hadoop hashCode Implementations"
   authors:
-    - Zoltan A. Kocsis
-    - Geoff Neumann
-    - Jerry Swan
-    - Michael G. Epitropakis
-    - Alexander E. I. Brownlee
-    - Saemundur O. Haraldsson
-    - Edward Bowles
+    - name: Zoltan A. Kocsis
+    - name: Geoff Neumann
+    - name: Jerry Swan
+    - name: Michael G. Epitropakis
+    - name: Alexander E. I. Brownlee
+    - name: Saemundur O. Haraldsson
+    - name: Edward Bowles
   venue: "SSBSE"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-09940-8_22
   tags:
-    - GP
     - SBSE
   urls:
     - http://www.springer.com/computer/swe/book/978-3-319-09939-2
 
 - title: "Genetic Improvement of Programs"
   authors:
-    - William B. Langdon
+    - name: William B. Langdon
   venue: "SYNASC"
   year: 2014
   type: Conference
   doi: https://doi.org/10.1109/SYNASC.2014.10
   tags:
-    - GP
     - SBSE
   urls:
     - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7034660
@@ -3271,38 +3061,81 @@
 
 - title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
   authors:
-    - Zoltan A. Kocsis
-    - Jerry Swan
+    - name: Zoltan A. Kocsis
+    - name: Jerry Swan
   venue: "Semantic Methods in Genetic Programming"
   year: 2014
   type: Conference
-  tags:
-    - GP
   pdfs:
     - http://www.cs.put.poznan.pl/kkrawiec/smgp2014/uploads/Site/Kocsis.pdf
 
+- title: "Using Genetic Programming to Model Software"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: M. Harman
+  venue: ""
+  year: 2013
+  type: TechReport
+  tags:
+    - GISMO
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1306.5667
+  pdfs:
+    - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Langdon_RN1312.pdf
+
+- title: "Which is faster: Bowtie2GP $>$ Bowtie $>$ Bowtie2 $>$ BWA"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+  venue: ""
+  year: 2013
+  type: TechReport
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1301.5187
+  pdfs:
+    - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_13_03.pdf
+
 - title: "Genetic Programming for Reverse Engineering"
   authors:
-    - Mark Harman
-    - William B. Langdon
-    - Westley Weimer
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Westley Weimer
   venue: "20th Working Conference on Reverse Engineering (WCRE 2013)"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1109/WCRE.2013.6671274
   tags:
-    - GP
+    - GISMO
     - SBSE
   urls:
     - http://www.youtube.com/watch?v=MbsuejqE_sk
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2013_WCRE.pdf
 
+- title: "The GISMOE Architecture"
+  authors:
+    - name: Yue Jia
+    - name: Mark Harman
+    - name: Bill Langdon
+      aka: William B. Langdon
+  venue: "2nd Chinese Search Based Software Engineering workshop"
+  year: 2013
+  type: Conference
+  tags:
+    - GISMO
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Jia_2013_CSBSE.pdf
+
 - title: "Input-aware Auto-tuning for Directive-based GPU Programming"
   authors:
-    - Alberto Magni
-    - Dominik Grewe
-    - Nick Johnson
+    - name: Alberto Magni
+    - name: Dominik Grewe
+    - name: Nick Johnson
   venue: "GI@GPGPU"
   year: 2013
   type: Workshop
@@ -3312,137 +3145,144 @@
 
 - title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
   authors:
-    - Yuhua Qi
-    - Xiaoguang Mao
-    - Yan Lei
+    - name: Yuhua Qi
+    - name: Xiaoguang Mao
+    - name: Yan Lei
   venue: "ICSM"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1109/ICSM.2013.29
   tags:
     - APR
-    - GP
     - testing
   pdfs:
     - https://icsm2013.tue.nl/ICSM2013.pdf
 
 - title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
   authors:
-    - Jonathan Ragan-Kelley
-    - Connelly Barnes
-    - Andrew Adams
-    - Sylvain Paris
-    - Fredo Durand
-    - Saman Amarasinghe
+    - name: Jonathan Ragan-Kelley
+    - name: Connelly Barnes
+    - name: Andrew Adams
+    - name: Sylvain Paris
+    - name: Fredo Durand
+    - name: Saman Amarasinghe
   venue: "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2491956.2462176
-  tags:
-    - GP
   pdfs:
     - http://people.csail.mit.edu/jrk/halide-pldi13.pdf
 
 - title: "Applying Genetic Improvement to MiniSAT"
   authors:
-    - Justyna Petke
-    - William B. Langdon
-    - Mark Harman
+    - name: Justyna Petke
+    - name: William B. Langdon
+    - name: Mark Harman
   venue: "SSBSE"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1007/978-3-642-39742-4_21
   tags:
-    - GP
+    - GISMO
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2013_SSBSE.pdf
 
 - title: "Genetically Improving 50000 Lines of C++"
   authors:
-    - William B. Langdon
-    - Mark Harman
+    - name: William B. Langdon
+    - name: Mark Harman
   venue: ""
   year: 2012
   type: TechReport
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_12_09.pdf
 
 - title: "Genetic Improvement of Programs"
   authors:
-    - William B. Langdon
+    - name: W. B. Langdon
+      aka: William B. Langdon
   venue: "MENDEL"
   year: 2012
   type: Conference
   tags:
-    - GP
+    - GISMO
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2012_mendel.pdf
 
+- title: "The GISMOE challenge: Constructing the Pareto Program Surface Using Genetic Programming to Find Better Programs"
+  authors:
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Yue Jia
+    - name: David R. White
+    - name: Andrea Arcuri
+    - name: John A. Clark
+  venue: "The 27th IEEE/ACM International Conference on Automated Software Engineering (ASE 12)"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1145/2351676.2351678
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2012_ASE.pdf
+
 - title: "Evolutionary Improvement of Programs"
   authors:
-    - David R. White
-    - Andrea Arcuri
-    - John A. Clark
+    - name: David R. White
+    - name: Andrea Arcuri
+    - name: John A. Clark
   venue: "IEEE TEVC"
   year: 2011
   type: Journal
   doi: https://doi.org/10.1109/TEVC.2010.2083669
   tags:
-    - GP
     - SBSE
   pdfs:
     - http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/WhiteAC.pdf
 
 - title: "EvoCaches: Application-specific Adaptation of Cache Mappings"
   authors:
-    - Paul Kaufmann
-    - Christian Plessl
-    - Marco Platzner
+    - name: Paul Kaufmann
+    - name: Christian Plessl
+    - name: Marco Platzner
   venue: "2009 NASA/ESA Conference on Adaptive Hardware and Systems"
   year: 2009
   type: Conference
   doi: https://doi.org/10.1109/AHS.2009.26
-  tags:
-    - GP
 
 - title: "Evolutionary Software Improvement for Instruction Set Meta-evolution"
   authors:
-    - Michael Orlov
-    - Moshe Sipper
+    - name: Michael Orlov
+    - name: Moshe Sipper
   venue: "WSSEC 2008 Workshop and Summer School on Evolutionary Computing"
   year: 2008
   type: Conference
-  tags:
-    - GP
   pdfs:
     - https://noexec.org/public/papers/wssec.pdf
     - https://www.cs.bgu.ac.il/~orlovm/papers/wssec.pdf
 
 - title: "Genetic Programming as an Explorative Tool in Early Software Development Phases"
   authors:
-    - Robert Feldt
+    - name: Robert Feldt
   venue: "Proceedings of the 1st International Workshop on Soft Computing Applied to Software Engineering"
   year: 1999
   type: Conference
-  tags:
-    - GP
   pdfs:
     - http://drfeldt.googlepages.com/feldt_1999_gp_as_explorative_tool.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/scase_1999/feldt_1999_GPxtxsdp.pdf
 
 - title: "Evolutionary Algorithms for Automatic Parallelization"
   authors:
-    - Kenneth P. Williams
+    - name: Kenneth Peter Williams
+      aka: Kenneth P. Williams
   venue: ""
   year: 1998
   type: PhdThesis
   tags:
-    - GP
     - SBSE
   urls:
     - http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.265665
@@ -3450,8 +3290,8 @@
 
 - title: "Genetic compilers: A new technique for automatic parallelisation"
   authors:
-    - Kenneth P. Williams
-    - Shirley A. Williams
+    - name: Kenneth P. Williams
+    - name: Shirley A. Williams
   venue: "2nd European School of Parallel Programming Environments (ESPPE'96)"
   year: 1996
   type: Conference
@@ -3461,13 +3301,11 @@
 
 - title: "Automatic conversion of programs from serial to parallel using Genetic Programming - The Paragen System"
   authors:
-    - Paul Walsh
-    - Conor Ryan
+    - name: Paul Walsh
+    - name: Conor Ryan
   venue: "Proceedings of ParCo'95"
   year: 1995
   type: Conference
-  tags:
-    - GP
   urls:
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.26.1301
     - https://core.ac.uk/display/22182162
@@ -3476,24 +3314,21 @@
 
 - title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
-    - Yuan Yuan
-    - Wolfgang Banzhaf
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
   venue: "IEEE TSE"
   year: 
   type: Journal
   doi: https://doi.org/10.1109/TSE.2018.2874648
-  tags:
-    - GP
 
 - title: "Evolving JavaScript code to reduce load time"
   authors:
-    - Fabio de A. Farzat
-    - Marcio de O. Barros
-    - Guilherme H. Travassos
+    - name: Fabio de A. Farzat
+    - name: Marcio de O. Barros
+    - name: Guilherme H. Travassos
   venue: "IEEE TSE"
   year: 
   type: Journal
   doi: https://doi.org/10.1109/TSE.2019.2928293
-  tags:
-    - GP
 
