@@ -8,7 +8,7 @@ Search operates within all fields available.
 Use quotes for <a href="#" onclick="force('&quot;program repair&quot;')">"multi-words queries"</a>.
 Space separated queries are conjunctives.
 Magic queries include <a href="#" onclick="force('venue=&quot;IEEE TEVC&quot;')">venues</a>, <a href="#" onclick="force('type=Workshop')">type of venue</a>, <a href="#" onclick="force('year=2020')">publication year</a>, and <a href="#" onclick="force('tag=survey')">tags</a>.
-
+Clicking on data links in the table will query all similar entries.
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
