@@ -22,19 +22,19 @@ While not limited to the following, do not hesitate to:
 
 ## How to contribute
 
-This website is hosted on GitHub pages on a public repository: [https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io]().
+This website is hosted on GitHub pages on a public repository: [https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io](https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io).
 From there you can easily open [issue tickets](https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io/issues), fork the repository, and submit [pull requests](https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io/pulls).  
 Alternatively, you can directly [contact us]({{ "/community/website" | relative_url }}).
 
 In practice, GitHub pages internally uses [Jekyll](https://jekyllrb.com/), which in turn uses [markdown](https://daringfireball.net/projects/markdown/) and [liquid](https://github.com/Shopify/liquid/wiki).
 Once forked, you can edit the website _simply_ by installing Ruby and the `jekyll` and `jekyll-seo-tag` gems.
-Once installed, you can host the website locally by running `$ jekyll serve` from a terminal and visiting (presumably) the address [http://127.0.0.1:4000/geneticimprovementofsoftware/]().
-Note that committing changes to GitHub will lead to a CNAME related page build warning email; this is a normal and expected result.
+Once installed, you can host the website locally by running `$ jekyll serve` from a terminal and visiting (presumably) the address [http://127.0.0.1:4000/geneticimprovementofsoftware/](http://127.0.0.1:4000/geneticimprovementofsoftware/).
+Note that committing changes to a self-hosting GitHub fork will lead to a CNAME related page build warning email; this is a normal and expected result.
 
 
 ## Useful resources
 
-- Original markdown documentation: [https://daringfireball.net/projects/markdown/syntax]()
-- GitHub markdown documentation: [https://guides.github.com/features/mastering-markdown/]()
-- Liquid documentation: [https://shopify.github.io/liquid/]()
-- Jekyll documentation: [https://jekyllrb.com/docs/]()
+- Original markdown documentation: [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
+- GitHub markdown documentation: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+- Liquid documentation: [https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
+- Jekyll documentation: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
