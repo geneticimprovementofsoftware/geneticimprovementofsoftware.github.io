@@ -30,7 +30,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 * <span class="badge badge-primary">NEW</span> We are happy to announce that the 10th edition of the International Workshop on Genetic Improvement will take place at [ICSE 2021](https://conf.researchr.org/home/icse-2021).
 * There was a [GI tutorial at ASE 2020]({{ "/events/ase2020" | relative_url }}).
 * There was a [tutorial on Genetic Improvement](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) at PPSN 2020. [Slides can be obtained here](./slides/PPSN2020_GItutorial.pdf).
-* Due to ICSE going [virtual](https://conf.researchr.org/home/icse-2020), the [8th GI workshop]({{ "/events/icse2020" | relative_url }}) was held online on July 3rd 2020. All talks, including Prof. Mark Harman's keynote are available on the [GI@ICSE workshop page](./gi2020icse.html).
+* Due to ICSE going [virtual](https://conf.researchr.org/home/icse-2020), the [8th GI workshop]({{ "/events/icse2020" | relative_url }}) was held online on July 3rd 2020. All talks, including Prof. Mark Harman's keynote are available on the [GI@ICSE workshop page]({{ "/events/icse2020" | relative_url }}).
 * The [9th International Workshop on Genetic Improvement](https://gi-gecco-20.gi-workshops.org/) took place at [GECCO 2020](https://gecco-2020.sigevo.org/index.html/Workshops#id_The%20Ninth%20Genetic%20Improvement%20Workshop%20(2020)).
 * There was a [special session on Genetic Improvement at WCCI 2020]({{ "/events/wcci2020" | relative_url }}).
 * [The 62nd CREST Open Workshop](http://crest.cs.ucl.ac.uk/cow/62/) on Program Repair and Genetic Improvement took place on 20-21st January 2020.
