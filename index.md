@@ -32,7 +32,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 * There was a [tutorial on Genetic Improvement](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) at PPSN 2020. [Slides can be obtained here](./slides/PPSN2020_GItutorial.pdf).
 * Due to ICSE going [virtual](https://conf.researchr.org/home/icse-2020), the [8th GI workshop](./gi2020icse.html) also went virtual and was held on July 3rd 2020.
 * **Mark Harman (Facebook, University College London)** gave a keynote talk at [the GI workshop at ICSE 2020](./gi2020icse.html).
-* The 9th International Workshop on Genetic Improvement took place at [GECCO 2020](https://gecco-2020.sigevo.org/index.html/Workshops#id_The%20Ninth%20Genetic%20Improvement%20Workshop%20(2020)).
+* The [9th International Workshop on Genetic Improvement](https://gi-gecco-20.gi-workshops.org) took place at [GECCO 2020](https://gecco-2020.sigevo.org/index.html/Workshops#id_The%20Ninth%20Genetic%20Improvement%20Workshop%20(2020)).
 * There was a [special session on Genetic Improvement at WCCI 2020](./wcci2020ss.html).
 * [The 62nd CREST Open Workshop](http://crest.cs.ucl.ac.uk/cow/62/) on Program Repair and Genetic Improvement took place on 20-21st January 2020.
 * Version 2 of the Genetic Improvement in No time (Gin) tool has been released. It is available at [https://github.com/gintool/gin](https://github.com/gintool/gin). It provides the ability to handle multi-class projects, gradle and maven build tools, built-in profiler and sampling utilities, test case generation, and a load of new edit operators.
