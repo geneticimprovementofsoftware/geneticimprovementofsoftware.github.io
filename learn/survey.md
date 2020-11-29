@@ -24,12 +24,12 @@ Clicking on data links in the table will query all similar entries.
   Showing <span id="counter">{{ site.data.survey.size }}</span> of {{ site.data.survey.size }} entries.
 </div>
 
-<table id="survey" class="table table-responsive">
+<table id="survey" class="table table-responsive" style="max-width: 100%">
   <thead>
     <tr>
-      <th style="min-width: 20em">Title</th>
-      <th style="max-width: 10em">Authors</th>
-      <th style="max-width: 10em">Venue/Issue</th>
+      <th>Title</th>
+      <th>Authors</th>
+      <th>Venue/Issue</th>
       <th>Year</th>
       <th>Tags</th>
       <th>Links</th>
