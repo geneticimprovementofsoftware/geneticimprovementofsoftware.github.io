@@ -9,12 +9,14 @@ maintainers:
 # Who maintains this website?
 
 <div class="row justify-content-around">
-{% for name in page.maintainers %}{% for p in site.data.people %}{% if p.name == name %}
-<figure style="text-align: center; margin: 0.5em 1em; width: 120px">
-<picture style="max-width: 120px; max-height: 120px;">
-  <img class="rounded img-thumbnail" style="max-width: 100%; max-height: inherit;" src="{{ p.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />
+{% for name in page.maintainers %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}
+<figure style="text-align: center; margin: 0.5em 0.25em;>
+<picture style="max-width: 140px; max-height: 140px;">
+  {% if match.homepage %}<a href="{{ match.homepage }}" style="max-width: 100%; max-height: inherit;">{% endif %}<img class="rounded img-thumbnail" style="max-width: 100%; max-height: inherit;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />{% if match.homepage %}</a>{% endif %}
 </picture>
-<figcaption style="font-size: 90%;">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</figcaption>
-<figcaption style="font-size: 80%;">{% if p.affil %}{{ p.affil }}{% endif %}</figcaption>
-</figure>{% endif %}{% endfor %}{% endfor %}
+<figcaption>{{ match.name }}</figcaption>
+<figcaption style="font-size: 80%;">{% if match.affil %}{{ match.affil }}{% endif %}</figcaption>
+<figcaption>{% if match.homepage %}<a href="{{ match.homepage }}"><i class="fas fa-home"></i></a>{% endif %} {% if match.dblp %}<a href="{{ match.dblp }}"><i class="ai ai-dblp"></i></a>{% endif %} {% if match.scholar %}<a href="{{ match.scholar }}"><i class="ai ai-google-scholar"></i></a>{% endif %}</figcaption>
+</figure>{% endfor %}
 </div>
+

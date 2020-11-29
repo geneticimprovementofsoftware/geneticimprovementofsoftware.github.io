@@ -1,141 +1,250 @@
 - name: Brad Alexander
+  aka:
+    - Bradley Alexander
+  show: yes
   affil: University of Adelaide, Australia
-  url: https://researchers.adelaide.edu.au/profile/bradley.alexander
+  homepage: https://researchers.adelaide.edu.au/profile/bradley.alexander
+  dblp: https://dblp.org/pid/68/2289.html
+  scholar: https://scholar.google.com/citations?user=-9PWueoAAAAJ
   img: /profile_images/brad_alexander.jpg
   tags:
     - Gin
 
 - name: Nadia Alshahwan
+  show: yes
   affil: Facebook London, United Kingdom
-  url: https://www.linkedin.com/in/nadiaalshahwan
+  homepage: https://www.linkedin.com/in/nadiaalshahwan
+  dblp: https://dblp.org/pid/98/6159.html
+  scholar: https://scholar.google.com/citations?user=TG8-wssAAAAJ
   img: /profile_images/nadia_alshawan.jpg
 
 - name: Gabin An
+  show: yes
   affil: KAIST, Korea
-  url: https://coinse.kaist.ac.kr/members/gabin/
+  homepage: https://coinse.kaist.ac.kr/members/gabin/
+  dblp: https://dblp.uni-trier.de/pid/225/3675.html
+  scholar: https://scholar.google.fr/citations?user=T-58s1oAAAAJ
   img: /profile_images/gabin_an.jpg
   tags:
     - PyGGI
 
 - name: Marcio Barros
+  show: yes
   affil: UNIRIO University, Brazil
-  url: https://www.uniriotec.br/~marcio.barros/
+  homepage: https://www.uniriotec.br/~marcio.barros/
+  dblp: https://dblp.org/pid/36/2479.html
+  scholar: http://scholar.google.com/citations?user=GvmSuw8AAAAJ
   img: /profile_images/marcio_barros.jpg
 
 - name: Aymeric Blot
+  show: yes
   affil: UCL, United Kingdom
-  url: http://www0.cs.ucl.ac.uk/staff/a.blot/
+  homepage: http://www0.cs.ucl.ac.uk/staff/a.blot/
+  dblp: https://dblp.uni-trier.de/pers/hd/b/Blot:Aymeric
+  scholar: https://scholar.google.fr/citations?user=I8sfMwwAAAAJ
   tags:
     - PyGGI
 
 - name: Sandy Brownlee
+  aka:
+    - Alexander Brownlee
+    - Alexander E.I. Brownlee
+    - Alexander E. I. Brownlee
+  show: yes
   affil: University of Stirling, United Kingdom
-  url: http://www.cs.stir.ac.uk/~sbr/
+  homepage: http://www.cs.stir.ac.uk/~sbr/
+  dblp: https://dblp.uni-trier.de/pid/57/5601.html
+  scholar: https://scholar.google.com/citations?user=Yxwz9b0AAAAJ
   img: /profile_images/sandy_brownlee.jpg
 
 - name: Bobby Bruce
+  show: yes
+  aka:
+    - Bobby R. Bruce
   affil: UC Davis, USA
-  url: https://www.bobbybruce.net/
+  homepage: https://www.bobbybruce.net/
+  dblp: https://dblp.uni-trier.de/pid/164/9023.html
+  scholar: https://scholar.google.com/citations?user=CgxQ9ZIAAAAJ
   img: /profile_images/bobby_bruce.jpg
 
+- name: Stephanie Forrest
+  homepage: https://forrest.biodesign.asu.edu/index.html
+
 - name: Lea Kristin Gerling
+  show: yes
   affil: University of Hildesheim, Germany
-  url: https://sse.uni-hildesheim.de/mitglieder/lea-kristin-gerling/
+  homepage: https://sse.uni-hildesheim.de/mitglieder/lea-kristin-gerling/
+  dblp: https://dblp.org/pid/169/9528.html
+  scholar: https://scholar.google.com/citations?hl=en&user=Kj6H9-0AAAAJ
   img: /profile_images/lea_kristin_gerling_.jpg
 
 - name: Tracy Hall
+  show: yes
   affil: Lancaster University, United Kingdom
-  url: https://www.lancaster.ac.uk/scc/about-us/people/tracy-hall
+  homepage: https://www.lancaster.ac.uk/scc/about-us/people/tracy-hall
+  dblp: https://dblp.org/pid/69/3214.html
+  scholar: https://scholar.google.com/citations?hl=en&user=TPQhlqgAAAAJ
   img: /profile_images/tracy_hall.jpg
 
 - name: Saemundur Haraldsson
+  aka:
+    - Saemundur O. Haraldsson
+    - Saemundur Oskar Haraldsson
+  show: yes
   affil: University of Stirling, United Kingdom
-  url: http://www.cs.stir.ac.uk/~soh/
+  homepage: http://www.cs.stir.ac.uk/~soh/
+  dblp: https://dblp.org/pid/148/1056.html#
+  scholar: https://scholar.google.com/citations?hl=en&user=ZD8qxc0AAAAJ
   img: /profile_images/saemundur_haraldsson.jpg
 
 - name: Yu Huang
+  show: yes
   affil: University of Michigan, USA
-  url: http://www-personal.umich.edu/~yhhy/
+  homepage: http://www-personal.umich.edu/~yhhy/
+  dblp: https://dblp.org/pid/39/6301-15.html
+  scholar: https://scholar.google.com/citations?user=ngLMhbIAAAAJ
   img: /profile_images/yu_huang.jpg
 
 - name: Colin Johnson
+  aka:
+    - Colin G. Johnson
+  show: yes
   affil: University of Nottingham, United Kingdom
-  url: http://www.cs.kent.ac.uk/people/staff/cgj
+  homepage: http://www.cs.kent.ac.uk/people/staff/cgj
+  dblp: https://dblp.org/pid/97/2460.html
+  scholar: https://scholar.google.com/citations?hl=en&user=6W7BtygAAAAJ
   img: /profile_images/colin_johnson.jpg
 
+- name: Oliver Krauss
+  homepage: https://research.fh-ooe.at/en/staff/25755
+
 - name: Bill Langdon
+  aka:
+    - W. B. Langdon
+    - William Langdon
+    - William B. Langdon
+  show: yes
   affil: UCL, United Kingdom
-  url: http://www0.cs.ucl.ac.uk/staff/W.Langdon/
+  homepage: http://www0.cs.ucl.ac.uk/staff/W.Langdon/
+  dblp: https://dblp.uni-trier.de/pid/l/WilliamBLangdon.html
+  scholar: https://scholar.google.fr/citations?user=O5cSyYMAAAAJ&hl=en
   img: /profile_images/bill_langdon.jpg
 
 - name: Bach Le
+  show: yes
   affil: University of Melbourne, Australia
-  url: https://cis.unimelb.edu.au/people/bach-le
+  homepage: https://cis.unimelb.edu.au/people/bach-le
+  dblp: https://dblp.org/pid/167/6015.html
+  scholar: https://scholar.google.com/citations?hl=en&user=AUJWzE8AAAAJ
   img: /profile_images/bach_le.jpg
 
 - name: ThanhVu Nguyen
+  show: yes
   affil: University of Nebraska-Lincoln, USA
-  url: https://nguyenthanhvuh.github.io/
+  homepage: https://nguyenthanhvuh.github.io/
+  dblp: https://dblp.org/pid/19/7057.html
+  scholar: https://scholar.google.com/citations?hl=en&user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
 
 - name: Justyna Petke
+  show: yes
   affil: UCL, United Kingdom
-  url: http://www0.cs.ucl.ac.uk/staff/J.Petke/
+  homepage: http://www0.cs.ucl.ac.uk/staff/J.Petke/
+  dblp: https://dblp.uni-trier.de/pid/23/8779.html
+  scholar: https://scholar.google.fr/citations?user=a6kdFxIAAAAJ&hl=en
   img: /profile_images/justyna_petke.jpg
   tags:
     - PyGGI
     - Gin
 
 - name: Eric Schulte
+  show: yes
   affil: GrammaTech, USA
-  url: https://www.cs.unm.edu/~eschulte/
+  homepage: https://www.cs.unm.edu/~eschulte/
+  dblp: https://dblp.uni-trier.de/pid/32/8523.html
+  scholar: https://dblp.org/pid/32/8523.html
   img: /profile_images/eric_schulte.jpg
 
 - name: Marija Selakovic
+  show: yes
   affil: Huawei Research Center, Germany
-  url: http://marija.skyresource.com/
+  homepage: http://marija.skyresource.com/
+  dblp: https://dblp.uni-trier.de/pid/167/0216.html
+  scholar: https://scholar.google.com/citations?hl=en&user=BAPCssIAAAAJ
   img: /profile_images/marija_selakovic.jpg
 
 - name: Christopher Timperley
+  aka:
+    - Chris Timperley
+    - Christopher S. Timperley
+  show: yes
   affil: Carnegie Mellon University, USA
-  url: http://www.christimperley.co.uk/
+  homepage: http://www.christimperley.co.uk/
+  dblp: https://dblp.uni-trier.de/pid/205/1113.html
+  scholar: https://scholar.google.com/citations?hl=en&user=btEn24cAAAAJ
   img: /profile_images/christopher_timperley.jpg
 
 - name: Leonardo Trujillo
+  show: yes
   affil: Instituto Tecnológico de Tijuana, Mexico
-  url: https://sites.google.com/site/leonardotrujillogp/
+  homepage: https://sites.google.com/site/leonardotrujillogp/
+  dblp: https://dblp.uni-trier.de/pid/62/1755.html
+  scholar: https://scholar.google.com/citations?hl=en&user=xXh3xRYAAAAJ
   img: /profile_images/leonardo_trujillo.jpg
 
 - name: Markus Wagner
+  show: yes
   affil: University of Adelaide, Australia
-  url: https://cs.adelaide.edu.au/users/markus/
+  homepage: https://cs.adelaide.edu.au/users/markus/
+  dblp: https://dblp.uni-trier.de/pid/94/7030-7.html
+  scholar: https://scholar.google.com/citations?hl=en&user=9cbh6PoAAAAJ
   img: /profile_images/markus_wagner.jpg
   tags:
     - Gin
 
 - name: Westley Weimer
+  show: yes
   affil: University of Michigan, USA
-  url: https://web.eecs.umich.edu/~weimerw/
+  homepage: https://web.eecs.umich.edu/~weimerw/
+  dblp: https://dblp.uni-trier.de/pid/05/4127.html
+  scholar: https://scholar.google.com/citations?hl=en&user=Tj-vav8AAAAJ
   img: /profile_images/westley_weimer.jpg
 
+- name: David R. White
+  homepage: https://davidrwhite.co.uk/
+
 - name: John Woodward
+  aka:
+    - John R. Woodward
+  show: yes
   affil: QMUL, United Kingdom
-  url: http://www.eecs.qmul.ac.uk/~jwoodward/
+  homepage: http://www.eecs.qmul.ac.uk/~jwoodward/
+  dblp: https://dblp.uni-trier.de/pid/47/2379.html
+  scholar: https://scholar.google.com/citations?hl=en&user=iZIjJ80AAAAJ
   img: /profile_images/john_woodward.jpg
 
 - name: Jifeng Xuan
+  show: yes
   affil: Wuhan University, China
-  url: http://jifeng-xuan.com/
+  homepage: http://jifeng-xuan.com/
+  dblp: https://dblp.uni-trier.de/pid/86/4142.html
+  scholar: https://scholar.google.com/citations?hl=en&user=G3xi5UkAAAAJ
   img: /profile_images/jifeng_xuan.jpg
 
 - name: Shin Yoo
+  show: yes
   affil: KAIST, Korea
-  url: https://coinse.kaist.ac.kr/members/shin.yoo/
+  homepage: https://coinse.kaist.ac.kr/members/shin.yoo/
+  dblp: https://dblp.uni-trier.de/pid/06/1626.html
+  scholar: https://scholar.google.fr/citations?user=W9ymXf4AAAAJ&hl=en
   img: /profile_images/shin_yoo.jpg
   tags:
     - PyGGI
 
 - name: Yuan Yuan
+  show: yes
   affil: Michigan State University, USA
-  url: https://yyxhdy.github.io/
+  homepage: https://yyxhdy.github.io/
+  dblp: https://dblp.org/pid/64/5845-4.html
+  scholar: https://scholar.google.com/citations?user=ygShHQUAAAAJ
   img: /profile_images/yuan_yuan.jpg
