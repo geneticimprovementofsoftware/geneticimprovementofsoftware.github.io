@@ -12,7 +12,7 @@
     - name: Yuan Yuan2
       aka: Yuan Yuan
     - name: Wolfgang Banzhaf
-  venue: "ACM Transactions on Software Engineering and Methodology"
+  venue: "ACM TSEM"
   year: 2020
   type: Journal
   doi: https://doi.org/10.1145/3360004
@@ -874,6 +874,20 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-39958-0_19
 
+- title: "Software Improvement by Data Improvement"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+  venue: "IEEE Software Blog"
+  year: 2019
+  type: Web
+  tags:
+    - GISMO
+  urls:
+    - http://blog.ieeesoftware.org/2019/02/software-improvement-by-data-improvement.html
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_ieeeblog.pdf
+
 - title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
     - name: Bobby R. Bruce
@@ -1117,6 +1131,17 @@
   urls:
     - http://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=422
 
+- title: "Automatic Software Repair: a Bibliography"
+  authors:
+    - name: Martin Monperrus
+  venue: "ArXiV"
+  year: 2018
+  type: Archive
+  tags:
+    - survey
+  urls:
+    - http://arxiv.org/abs/1807.00515
+
 - title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
     - name: Justyna Petke
@@ -1182,7 +1207,7 @@
   tags:
     - SBSE
   urls:
-    - https://arxiv.org/pdf/1803.01683
+    - https://arxiv.org/abs/1803.01683
 
 - title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
   authors:
@@ -1367,7 +1392,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194816
   urls:
-    - https://arxiv.org/pdf/1802.07608
+    - https://arxiv.org/abs/1802.07608
   pdfs:
     - http://sei.pku.edu.cn/~xiongyf04/papers/GI18.pdf
 
@@ -1685,6 +1710,37 @@
     - SBSE
   pdfs:
     - https://libra2.lib.virginia.edu/downloads/4m90dv78f?filename=1_Dorn_Jonathan_2017_PHD.pdf
+
+- title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
+  authors:
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "ArXiV"
+  year: 2017
+  type: Archive
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://arxiv.org/abs/1712.07804
+    - http://adsabs.harvard.edu/abs/2017arXiv171207804Y
+
+- title: "Darwinian Data Structure Selection"
+  authors:
+    - name: Michail Basios
+    - name: Lingbo Li
+    - name: Fan Wu
+    - name: Leslie Kanthan
+    - name: Donald Lawrence
+    - name: Earl T. Barr
+  venue: "ArXiV"
+  year: 2017
+  type: Archive
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1706.03232
 
 - title: "Genetically Improved BarraCUDA"
   authors:
@@ -2058,6 +2114,21 @@
   doi: https://doi.org/10.1007/s10710-016-9275-7
   urls:
     - http://www.fit.vutbr.cz/research/view_pub.php.cs?id=11077
+
+- title: "BarraCUDA in the Cloud"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Bob Davidson
+  venue: "IEEE Software Blog"
+  year: 2017
+  type: Web
+  tags:
+    - GISMO
+  urls:
+    - http://blog.ieeesoftware.org/2017/01/barracuda-in-cloud.html
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ieeeblog.pdf
 
 - title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
   authors:
@@ -2578,6 +2649,20 @@
   urls:
     - https://goo.gl/9TS9wo
 
+- title: "Genetic Improvement"
+  authors:
+    - name: William B. Langdon
+    - name: Justyna Petke
+  venue: "IEEE Software Blog"
+  year: 2016
+  type: Web
+  tags:
+    - GISMO
+  urls:
+    - http://blog.ieeesoftware.org/2016/02/genetic-improvement.html?platform=hootsuite
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_ieeeblog.pdf
+
 - title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
   authors:
     - name: William B. Langdon
@@ -2887,6 +2972,21 @@
   tags:
     - SBSE
 
+- title: "Automatic Repair of Real Bugs: An Experience Report on the Defects4J Dataset"
+  authors:
+    - name: Thomas Durieux
+    - name: Matias Martinez
+    - name: Martin Monperrus
+    - name: Romain Sommerard
+    - name: Jifeng Xuan
+  venue: "ArXiV"
+  year: 2015
+  type: Archive
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1505.07002
+
 - title: "Performance of Genetic Programming Optimised Bowtie2 on Genome Comparison and Analytic Testing (GCAT) Benchmarks"
   authors:
     - name: W. B. Langdon
@@ -2915,6 +3015,15 @@
     - http://cs-dc-15.org/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_csdc.pdf
+
+- title: "Revolutionising the process of software development"
+  authors:
+    - name: Justyna Petke
+  venue: "DAASE project blog"
+  year: 2015
+  type: Web
+  urls:
+    - https://daaseblog.wordpress.com/2015/08/07/revolutionising-the-process-of-software-development/
 
 - title: "App Store Mining and Analysis"
   authors:
@@ -3469,7 +3578,7 @@
     - SBSE
   urls:
     - http://arxiv.org/abs/1410.6651
-    - http://arxiv.org/pdf/1410.6651v1
+    - http://arxiv.org/abs/1410.6651v1
     - https://hal.archives-ouvertes.fr/hal-01075976
 
 - title: "Automating Program Verification and Repair Using Invariant Analysis and Test-input Generation"
@@ -3593,6 +3702,20 @@
   doi: https://doi.org/10.1016/j.asoc.2013.12.002
   urls:
     - http://www.sciencedirect.com/science/article/pii/S1568494613004213
+
+- title: "Genetic Programming for Smart Phone Personalisation"
+  authors:
+    - name: Philip Valencia
+    - name: Aiden Haak
+    - name: Alban Cotillon
+    - name: Raja Jurdak
+  venue: "ArXiV"
+  year: 2014
+  type: Archive
+  urls:
+    - http://arxiv.org/abs/1408.2288
+  pdfs:
+    - http://jurdak.com/ASC-GP.pdf
 
 - title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
   authors:
@@ -4240,6 +4363,34 @@
     - SBSE
   urls:
     - http://www.hindawi.com/journals/ase/2012/893701/
+
+- title: "Scaling Genetic Programming for Source Code Modification"
+  authors:
+    - name: Brendan Cody-Kenny
+    - name: Stephen Barrett
+  venue: "ArXiV"
+  year: 2012
+  type: Archive
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1211.5098
+
+- title: "Software Mutational Robustness: Bridging The Gap Between Mutation Testing and Evolutionary Biology"
+  authors:
+    - name: Eric Schulte
+    - name: Zachary P. Fry
+    - name: Ethan Fast
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "ArXiV"
+  year: 2012
+  type: Archive
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - http://arxiv.org/abs/1204.4224
 
 - title: "Android Genetic Programming Framework"
   authors:
