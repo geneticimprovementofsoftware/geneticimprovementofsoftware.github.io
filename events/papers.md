@@ -50,13 +50,19 @@ Jump to papers from:{% for event in page.workshops %}
 
   {% assign entries = site.data.survey | where: "venue", event.venue | where: "year", event.year %}
   {% for entry in entries %}
-  {% if forloop.first == false %}***{% endif %}
 
-  **{{ entry.title }}**  
-  by {% for author in entry.authors %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == author.name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == author.name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}{% if match.homepage %}<a href="{{ match.homepage }}">{{ author.name }}</a>{% else %}<span class="text-nowrap">{{ author.name }}</span>{% endif %}{% endfor %}  
-  {% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}
-
-  {% if entry.abstract %}{{ entry.abstract }}{% endif %}
+  <div>
+    <p>
+      <strong>{{ entry.title }}</strong><br/>
+      by {% for author in entry.authors %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == author.name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == author.name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}{% if match.homepage %}<a href="{{ match.homepage }}">{{ author.name }}</a>{% else %}<span class="text-nowrap">{{ author.name }}</span>{% endif %}{% endfor %}<br/>
+      {% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}
+    {% if entry.abstract %}
+      <span class="badge badge-secondary" style="cursor: pointer;" onclick="$(this).parent().siblings('.collapse').toggle()">Abstract</span>
+      <div class="card collapse"><div class="card-body text-justify">
+        {{ entry.abstract }}
+      </div></div>
+    </p>{% endif %}
+  </div>
   {% endfor %}
 
 {% endfor %}
