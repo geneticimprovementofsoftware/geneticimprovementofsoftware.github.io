@@ -30,10 +30,10 @@ Other frameworks and libraries identified at the <a href="https://www.dagstuhl.d
 - <a href="https://github.com/STAMP-project/dspot">DSpot: a tool for Genetic Improvement  of test suites</a>
 - <a href="https://github.com/coinse/pyggi"> PyGGI: Python General Framework for GI</a>
 - <a href="https://github.com/yyxhdy/arja">ARJA: multi-objective automated program repair</a>
-- <a href="https://github.com/Spirals-Team/librepair/tree/master/repairnator">Repairnator</a>
+- <a href="https://github.com/eclipse/repairnator/">Repairnator</a>
 - <a href="https://github.com/kayquesousa/astor4android">Astor4Android: program repair for Android Apps</a>
 
 
 <div class="alert alert-info" role="alert">
-  <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expending it</a>)
+  <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expanding it</a>)
 </div>

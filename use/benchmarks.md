@@ -22,5 +22,5 @@ Benchmarks identified at the [Dagstuhl Seminar on Genetic Improvement of Softwar
 
 
 <div class="alert alert-info" role="alert">
-  <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expending it</a>)
+  <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expanding it</a>)
 </div>
