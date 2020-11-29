@@ -4,6 +4,11 @@ active: learn
 
 ## Human-competitive awards
 
+<figure class="figure float-right" style="margin: auto 0.5em;">
+  <img class="figure-img rounded img-thumbnail" style="max-width: 200px; max-height: 160px;" src="{{ "/misc_images/humies.png" | relative_url }}" />
+  <figcaption class="figure-caption text-right"><a href="http://www.human-competitive.org/">www.human-competitive.org/</a></figcaption>
+</figure>
+
 Across the years works on genetic improvement have lead to many appearances in the _Humies_ competition, rewarding for techniques of genetic and evolutionary computation yielding results that are not merely academically interesting, but competitive with the work done by creative and inventive humans.
 
 - **2019, bronze award**: Michail Basios, Lingbo Li, Fan Wu, Leslie Kanthan, and Earl T. Barr, for _Darwinian Data Structure Selection_
