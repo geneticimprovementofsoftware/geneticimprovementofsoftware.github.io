@@ -7,6 +7,18 @@
   urls:
     - https://arxiv.org/abs/2001.04505
 
+- title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
+  authors:
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "ACM Transactions on Software Engineering and Methodology"
+  year: 2020
+  type: Journal
+  doi: https://doi.org/10.1145/3360004
+  tags:
+    - SBSE
+
 - title: "Refining Fitness Functions in Test-Based Program Repair"
   authors:
     - name: Justyna Petke
@@ -67,6 +79,16 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24667.pdf
     - https://dspace.stir.ac.uk/bitstream/1893/30963/1/InjectingShortcutsCEC2020.pdf
+
+- title: "Adding More Color to Patch Picture"
+  authors:
+    - name: Martin Rinard
+  venue: "Communications of the ACM"
+  year: 2020
+  type: Journal
+  doi: https://doi.org/10.1145/3383390
+  urls:
+    - https://cacm.acm.org/magazines/2020/4/243626-adding-more-color-to-patch-picture/fulltext
 
 - title: "Biases and Differences in Code Review using Medical Imaging and Eye-Tracking: Genders, Humans, and Machines"
   authors:
@@ -230,6 +252,7 @@
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2020
+  abstract: "To improve software engineering, software repositories have been mined for code snippets and bug fixes. Typically, this mining takes place at the level of files or commits. To be able to dig deeper and to extract insights at a higher resolution, we hereby present an annotated dataset that contains over 7 million edits of code and text on Stack Overflow. Our preliminary study indicates that these edits might be a treasure trove for mining information about fine-grained patches, e.g., for the optimisation of non-functional properties."
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398108
   tags:
@@ -245,6 +268,7 @@
     - name: Oliver Krauss
   venue: "GI@GECCO"
   year: 2020
+  abstract: "While most software automation research concentrates on programs code, we have started investigating if Genetic Improvement (GI) of data can assist developers by automating aspects of the maintenance of parameters embedded in source code. We extend recent GI work on optimising compile time constants to give new functionality and describe the transformation of a GNU C library square root function into the double precision reciprocal function, drcp. Multiplying by 1/x (drcp) allows division free division without requiring the hardware to support division. The evolution (6 seconds) and indeed the GI dp division (7.14 nS) are both surprisingly fast."
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398110
   tags:
@@ -259,6 +283,7 @@
     - name: Brad Alexander
   venue: "GI@GECCO"
   year: 2020
+  abstract: "Many challenges arise in the application of Genetic Improvement (GI) of Software to improve non-functional requirements of software such as energy use and run-time. These challenges are mainly centred around the complexity of the search space and the estimation of the desired fitness function. For example, such fitness function are expensive, noisy and estimating them is not a straight-forward task. we illustrate some of the challenges incomputing such fitness functions and propose a synergy between in-vivo evaluation and machine learning approaches to overcome such issues."
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398109
   tags:
@@ -274,6 +299,7 @@
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2020
+  abstract: "Software developers often reuse code from online sources such as Stack Overflow within their projects. However, the process of searching for code snippets and integrating them within existing source code can be tedious. In order to improve efficiency and reduce time spent on code reuse, we present an automated code reuse tool for the Eclipse IDE (Integrated Developer Environment), NLP2TestableCode. NLP2TestableCode can not only search for Java code snippets using natural language tasks, but also evaluate code snippets based on a user's existing code, modify snippets to improve fit and correct errors, before presenting the user with the best snippet, all without leaving the editor. NLP2TestableCode also includes functionality to automatically generate customisable test cases and suggest argument and return types, in order to further evaluate code snippets. In evaluation, NLP2TestableCode was capable of finding compilable code snippets for 82.9percent of tasks, and testable code snippets for 42.9percent."
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398087
   tags:
@@ -289,6 +315,7 @@
     - name: Manbir Sodhi
   venue: "GI@GECCO"
   year: 2020
+  abstract: "Tuning evolutionary algorithms is a persistent challenge in thefield of evolutionary computing. The efficiency of an evolutionary algorithm relates to the coding of the algorithm, the design of the evolutionary operators and the parameter settings for evolution. we explore the effect of tuning the operators and parameters of a genetic algorithm for solving the Traveling Salesman Problem using Design of Experiments theory. Small scale problems are solved with specific settings of parameters including population size, crossover rate, mutation rate and the extent of elitism. Good values of the parameters suggested by the experiments are used to solve large scale problems. Computational tests show that the parameters selected by this process result in improved performance both in the quality of results obtained and the convergence rate when compared with untuned parameter settings."
   type: Workshop
   doi: https://doi.org/10.1145/3377929.3398136
   tags:
@@ -305,6 +332,7 @@
     - name: Leslie Kanthan
   venue: "GI@ICSE"
   year: 2020
+  abstract: "Advent of microservices has increased the popularity of the API-first design principles. Developers have been focusing on concretising the API to a system before building the system. An API-first approach assumes that the API will be correctly used. Inevitably, most developers, even experienced ones, end-up writing sub-optimal software because of using APIs incorrectly. we discuss an automated approach for exploring API equivalence and a framework to synthesise semantically equivalent programs. Unlike existing approaches to API transplantation, we propose an amorphous or formless approach to software translation in which a single API could potentially be replaced by a synthesised sequence of APIs which ensures type progress. Our search is guided by the non-functional goals for the software, a type-theoretic notion of progress and an automatic multi-modal embedding of the API from its documentation and code analysis."
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392173
   tags:
@@ -325,6 +353,7 @@
       aka: John R. Woodward
   venue: "GI@ICSE"
   year: 2020
+  abstract: "Automatic software repair represents a significant development in software engineering, promising considerable potential change to the working procedures and practices of software engineers, developers, and testers. Technical advances within this domain have been the focus of many recent publications. However, despite the simultaneous rising prominence of studies that consider the role of human factors within software engineering, there has not been an equivalent growth of studies of human factors within the domain of automatic software repair. This position paper presents the case for increased research in this area and suggests three key focuses and approaches for a future research agenda. These are: considerations that go beyond the current focus on the usability of automatic software repair tools; longitudinal studies; and the use of a wide range of appropriate social research methods, not just surveys. All three of these enable industry-based software engineers not just to provide feedback on automatic software repair tools but to participate in the shaping of these technologies, facilitating the development of tools that meet developer and industry needs, as well as allaying any concerns."
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392176
   tags:
@@ -339,6 +368,7 @@
     - name: Justyna Petke
   venue: "GI@ICSE"
   year: 2020
+  abstract: "Genetic improvement (GI) uses automated search to find improved versions of existing software. If originally GI directly evolved populations of software, most GI work nowadays use a solution representation based on a list of mutations. This representation however has some limitations, notably in how genetic material can be re-combined. We introduce a novel stack-based representation and discuss its possible benefits"
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392174
   tags:
@@ -353,6 +383,7 @@
     - name: Justyna Petke
   venue: "GI@ICSE"
   year: 2020
+  abstract: "Genetic improvement (GI) uses automated search to find improved versions of existing software. If over the years the potential of many GI approaches have been demonstrated, the intrinsic cost of evaluating real-world software makes comparing these approaches in large-scale meta-analyses very expensive. We propose and describe a method to construct synthetic GI benchmarks, to circumvent this bottleneck and enable much faster quality assessment of GI approaches."
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392175
   tags:
@@ -367,6 +398,7 @@
     - name: Michael Affenzeller
   venue: "GI@ICSE"
   year: 2020
+  abstract: "We outline a combination of Grammar Guided Genetic Programming with Tree Genetic Programming. Instead of using a grammar directly, an operator graph based on that grammar is created, that is responsible for producing abstract syntax trees. Each operator contains knowledge about the grammar symbol it represents and returns only trees valid according to user-defined restrictions such as depth, complexity and approximated run-time performance. Initial Results show that the approach reduces invalid individuals in an evolutionary run, while supporting the extension towards further non-functional features"
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392172
   tags:
@@ -390,6 +422,7 @@
     - name: Justin Spahr-Summers
   venue: "GI@ICSE"
   year: 2020
+  abstract: "We introduce the Web-Enabled Simulation (WES) research agenda, and describe FACEBOOK WW system. We describe the application of WW to reliability, integrity and privacy at FACEBOOK, where it is used to simulate social media interactions on an infrastructure consisting of hundreds of millions of lines of code. The WES agenda draws on research from many areas of study, including Search Based Software Engineering, Machine Learning, Programming Languages, Multi Agent Systems, Graph Theory, Game AI, and AI Assisted Game Play. We conclude with a set of open problems and research challenges to motivate wider investigation."
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392089
   tags:
@@ -443,6 +476,19 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
 
+- title: "Deep Pattern Mining for Program Repair"
+  authors:
+    - name: Kui Liu
+  venue: ""
+  year: 2019
+  type: PhdThesis
+  tags:
+    - APR
+  urls:
+    - http://hdl.handle.net/10993/41348
+  pdfs:
+    - https://orbilu.uni.lu/bitstream/10993/41348/1/thesis.pdf
+
 - title: "The State and Future of Genetic Improvement"
   authors:
     - name: William B. Langdon
@@ -466,6 +512,50 @@
     - http://www.cs.ucl.ac.uk/fileadmin/user_upload/RN-19-02.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2019_discussion.pdf
 
+- title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
+  authors:
+    - name: Kui Liu
+    - name: Anil Koyuncu
+    - name: Dongsun Kim
+    - name: Tegawende F. Bissyande
+  venue: "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1109/SANER.2019.8667970
+
+- title: "SapFix: Automated End-to-End Repair at Scale"
+  authors:
+    - name: Alexandru Marginean
+    - name: Johannes Bader
+    - name: Satish Chandra
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Ke Mao
+    - name: Alexander Mols
+    - name: Andrew Scott
+  venue: "41st International Conference on Software Engineering"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE-SEIP.2019.00039
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://2019.icse-conferences.org/details/icse-2019-Software-Engineering-in-Practice/9/SapFix-Automated-End-to-End-Repair-at-Scale
+    - https://research.fb.com/publications/sapfix-automated-end-to-end-repair-at-scale/
+
+- title: "Automated Program Repair"
+  authors:
+    - name: Claire Le Goues
+    - name: Michael Pradel
+    - name: Abhik Roychoudhury
+  venue: "Communications of the ACM"
+  year: 2019
+  type: Journal
+  doi: https://doi.org/10.1145/3318162
+  pdfs:
+    - http://software-lab.org/publications/cacm2019_program_repair.pdf
+
 - title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
   authors:
     - name: Gabin An
@@ -477,11 +567,28 @@
   type: Conference
   doi: https://doi.org/10.1145/3338906.3341184
   tags:
+    - SBSE
     - PyGGI
   urls:
     - https://esec-fse19.ut.ee/program/tool-demos/#
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/an_2019_fse.pdf
+
+- title: "A comparison of tree- and line-oriented observational slicing"
+  authors:
+    - name: David Binkley
+    - name: Nicolas Gold
+    - name: Syed Islam
+    - name: Jens Krinke
+    - name: Shin Yoo
+  venue: "Empirical Software Engineering"
+  year: 2019
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-018-9675-9
+  tags:
+    - PyGGI
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/j.krinke/publications/emse19.pdf
 
 - title: "Evolving AVX512 Parallel C Code using GP"
   authors:
@@ -497,6 +604,19 @@
     - https://www.springer.com/us/book/9783030166694
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_EuroGP.pdf
+
+- title: "A Hybrid Evolutionary System for Automatic Software Repair"
+  authors:
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "GECCO"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1145/3321707.3321830
+  tags:
+    - APR
+    - SBSE
 
 - title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
   authors:
@@ -550,6 +670,7 @@
     - name: David R. White
   venue: "GI@GECCO"
   year: 2019
+  abstract: "Genetic Improvement (GI) uses automated search to improve existing software. Most GI work has focused on empirical studies that successfully apply GI to improve softwares running time, fix bugs, add new features, etc. There has been little research into why GI has been so successful. For example, genetic programming has been the most commonly applied search algorithm in GI. Is genetic programming the best choice for GI? Initial attempts to answer this question have explored GIs mutation search space. This paper summarises the work published on this question to date"
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326870
   tags:
@@ -567,6 +688,7 @@
     - name: Stephanie Forrest
   venue: "GI@GECCO"
   year: 2019
+  abstract: "The subject of t-restrictions has garnered considerable interest recently as it encompasses many different types of combinatorial objects, all of which have unique and important applications. One of the most popular of these is an ingredient in the generation of covering arrays, which are used for discovering faulty interactions among software components. We focus on existential t-restrictions, which have a structure that can be exploited by genetic algorithms. In particular, recent work on such restrictions considers affine transformations while maximizing the corresponding score of the formed restriction. We propose to use genetic algorithms for existential t-restrictions by providing a general framework that can be applied to all such objects."
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326823
   tags:
@@ -580,6 +702,7 @@
       aka: William B. Langdon
   venue: "GI@GECCO"
   year: 2019
+  abstract: "CMA-ES plus manual code changes rapidly transforms 512 Newton-Raphson start points from a GNU C library table driven version of sqrt into a double precision reciprocal square root function. The GI 1/sqrt(x) is far more accurate than Quake's InvSqrt, Quare root."
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326800
   tags:
@@ -593,6 +716,7 @@
     - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2019
+  abstract: "Genetic improvement uses automated search to find improved versions of existing software. Software can either be evolved with general-purpose intentions or with a focus on a specific application (e.g., to improve its efficiency for a particular class of problems). Unfortunately, software specialisation to each problem application is generally performed independently, fragmenting and slowing down an already very time-consuming search process. We propose to incorporate specialisation as an online mechanism of the general search process, in an attempt to automatically devise application classes, by benefiting from past execution history."
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326839
   tags:
@@ -607,6 +731,7 @@
     - name: Brad Alexander
   venue: "GI@GECCO"
   year: 2019
+  abstract: "The optimisation of non-functional properties of software is of growing importance in all scales of modern computing (from embedded systems to data-centres). In mobile computing, smart devices have complex interactions between their hardware and software components. Small changes in the environment can greatly impact the measurements of non-functional properties of software. In-vivo optimisation of applications on a platform can be used to evolve robust new solutions. However, the portability of such solutions performance across different platforms is questionable. In this paper we discuss the issue of optimising the non-functional properties of applications running in the Android ecosystem. We also propose a distributed framework that can mitigate such issues."
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326877
   pdfs:
@@ -619,6 +744,7 @@
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2019
+  abstract: "Automatic text summarisation has drawn considerable interest in the field of software engineering. It can improve the efficiency of software developers, enhance the quality of products, and ensure timely delivery. In this paper, we present our initial work towards automatically generating human-like multi-document summaries from heterogeneous software artefacts. Our analysis of the text properties of 545 human-written summaries from 15 software engineering projects will ultimately guide heuristics searches in the automatic generation of human-like summaries."
   type: Workshop
   doi: https://doi.org/10.1145/3319619.3326814
   tags:
@@ -634,6 +760,7 @@
     - name: Steven Reiss
   venue: "GI@ICSE"
   year: 2019
+  abstract: "A branch of automated program repair (APR) techniques look at finding and reusing existing code for bug repair. ssFix is one of such techniques that is syntactic search-based: it searches a code database for code fragments that are syntactically similar to the bug context and reuses such code fragments to produce patches. The keys to its success lie in the approaches it uses for code search and code reuse. We investigated the effectiveness of ssFix using the Defects4J bug dataset and found that its code search and code reuse approaches are not truly effective and can be significantly improved. Motivated by the investigation, we developed a new repair technique sharpFix that follows ssFix's basic idea but differs significantly in the approaches used for code search and code reuse. We compared sharpFix and ssFix on the Defects4J dataset and confirmed through experiments that (1) sharpFix's code search and code reuse approaches are better than ssFix's approaches and (2) sharpFix can do better repair. sharpFix successfully repaired a total of 36 Defects4J bugs and outperformed many existing repair techniques in repairing more bugs. We also compared sharpFix, ssFix, and four other techniques on another dataset Bugs.jar-ELIXIR. Our results show that sharpFix did better than others and repaired the largest number of bugs."
   type: Workshop
   tags:
     - APR
@@ -651,6 +778,7 @@
     - name: Westley Weimer
   venue: "GI@ICSE"
   year: 2019
+  abstract: "Research in genetic improvement (GI) conventionally focuses on the improvement of software, including the automated repair of bugs and vulnerabilities as well as the refinement of software to increase performance. Eliminating or reducing vulnerabilities using GI has improved the security of benign software, but the growing volume and complexity of malicious software necessitates better analysis techniques that may benefit from a GI-based approach. Rather than focus on the use of GI to improve individual software artefacts, we believe GI can be applied to the tools used to analyse malicious code for its behaviour. First, malware analysis is critical to understanding the damage caused by an attacker, which GI-based bug repair does not currently address. Second, modern malware samples leverage complex vectors for infection that cannot currently be addressed by GI. In this paper, we discuss an application of genetic improvement to the realm of automated malware analysis through the use of variable-strength covering arrays."
   type: Workshop
   pdfs:
     - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
@@ -661,6 +789,7 @@
     - name: Aymeric Blot
   venue: "GI@ICSE"
   year: 2019
+  abstract: "Genetic improvement uses automated search to find improved versions of existing software. Edit sequences have been proposed as a very convenient way to represent code modifications, focusing on the changes themselves rather than duplicating the entire program. However, edits are usually defined in terms of practical operations rather than in terms of semantic changes; indeed, crossover and other edit sequence mutations usually never guarantee semantic preservation. We propose several changes to usual edit sequences, specifically augmenting edits with content data and using fuzzy matching, in an attempt to improve semantic preservation."
   type: Workshop
   tags:
     - SBSE
@@ -675,6 +804,7 @@
     - name: Carole-Jean Wu
   venue: "GI@ICSE"
   year: 2019
+  abstract: "As the programming stack and tool support for GPU have matured, GPUs have become accessible to programmers who often lack domain-specific knowledge of the underlying architecture and fail to fully leverage the GPU's computation power. This paper presents GEVO (Gpu EVOlution), a tool for automatically tuning the performance of GPU kernels in the LLVM representation to meet desired criteria. GEVO uses population-based search to find edits to programs compiled to LLVM-IR that improve performance on desired criteria and retain required functionality. GEVO extends earlier GI work by operating directly on the LLVM-IR without custom representations or other manual interventions. We demonstrate that GEVO improves runtime on NVIDIA Tesla P100 for many programs in the Rodinia benchmark suite and a supervised machine learning code, ThunderSVM. For the Rodinia benchmark, GEVO improves GPU kernel runtime performance by an average of 13.87percent and as much as 43percent over the fully compiler-optimized baseline. If the kernel output accuracy is relaxed to tolerate 1percent error, GEVO can find kernel variants that outperform the baseline version by an average of 15.47percent. For ThunderSVM, GEVO reduces entire model training time by 50percent and 24.8percent, for MNIST handwriting recognition dataset and a9a income prediction, where the accuracy of trained model are improved by 0.17percent and 0.04percent respectively."
   type: Workshop
   urls:
     - https://dl.acm.org/citation.cfm?id=3339020.3339025
@@ -687,6 +817,7 @@
     - name: Nadia Alshahwan
   venue: "GI@ICSE"
   year: 2019
+  abstract: "Facebook recently had their first experience with Genetic Improvement (GI) by developing and deploying the automated bug fixing tool SapFix. The experience was successful resulting in landed fixes but also very educational. This paper will briefly outline some of the challenges for GI that were highlighted by this experience as well as a look at future directions in the area of mobile apps."
   type: Workshop
   doi: https://doi.org/10.1109/GI.2019.00010
   pdfs:
@@ -700,6 +831,7 @@
     - name: Claire Le Goues
   venue: "GI@ICSE"
   year: 2019
+  abstract: "Search-based automatic program repair has shown promise in reducing the cost of defects in real-world software.However, to date, such techniques have typically been most successful when constructing short or single-edit repairs. This is true even when techniques make use of heuristic search strategies, like genetic programming, that in principle support the construction of patches of arbitrary length. One key reason is that the fitness function traditionally depends entirely on test cases, which are poor at identifying partially correct solutions and lead to a fitness landscape with many plateaus. We propose a novel fitness function that optimizes for both functionality and semantic diversity, characterized using learned invariant solver intermediate behaviour. Our early results show that this new approach improves semantic diversity and fitness granularity, but does not statistically significantly improve repair performance."
   type: Workshop
   tags:
     - SBSE
@@ -713,6 +845,7 @@
     - name: Michael Affenzeller
   venue: "GI@ICSE"
   year: 2019
+  abstract: "When conducting genetic improvement experiments, a large amount of individuals (approx population size times generations) is created and evaluated. The corresponding experiments contain valuable data concerning the fitness of individuals for the defined criteria, such as run-time performance, memory use or robustness. This publication presents an approach to use this information in order to identify recurring context independent patterns in abstract syntax trees (ASTs). These patterns can be applied for restricting the search space (in the form of anti-patterns) or for grafting operators in the population. Future work includes an evaluation of this approach, as well as extending it with wildcards and class hierarchies for larger and more generalised patterns."
   type: Workshop
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
@@ -730,6 +863,16 @@
   doi: https://doi.org/10.1007/s10710-019-09355-3
   urls:
     - https://arxiv.org/abs/1901.02533
+
+- title: "An Evolutionary System for better automatic software repair"
+  authors:
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "Genetic Programming Theory and Practice XVII"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-030-39958-0_19
 
 - title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
@@ -807,6 +950,33 @@
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1204.pdf
 
+- title: "Code naturalness to assist search space exploration in Search-based Program Repair methods"
+  authors:
+    - name: Altino Dantas
+    - name: Eduardo Faria de Souza
+    - name: Jerffeson Souza
+    - name: Celso G. Camilo-Junior
+  venue: "SSBSE 2019"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-030-27455-9_12
+  tags:
+    - APR
+    - SBSE
+
+- title: "General Program Synthesis using Guided Corpus Generation and Automatic Refactoring"
+  authors:
+    - name: Alexander Wild
+    - name: Barry Porter
+  venue: "SSBSE 2019"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-030-27455-9_7
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.barryfp.com/papers/2019_ssbse_wild.pdf
+
 - title: "Software Improvement with Gin: a Case Study"
   authors:
     - name: Justyna Petke
@@ -875,6 +1045,18 @@
   pdfs:
     - https://www.cos.ufrj.br/uploadfile/publicacao/2889.pdf
 
+- title: "Overfitting in Automated Program Repair: Challenges and Solutions"
+  authors:
+    - name: Dinh Xuan Bach Le
+  venue: ""
+  year: 2018
+  type: PhdThesis
+  tags:
+    - APR
+  urls:
+    - https://ink.library.smu.edu.sg/etd_coll/177/
+    - https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=1177&context=etd_coll
+
 - title: "The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement"
   authors:
     - name: Bobby R. Bruce
@@ -895,6 +1077,45 @@
   type: TechReport
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_04.pdf
+
+- title: "Repairing Crashes in Android Apps"
+  authors:
+    - name: Shin Hwei Tan
+    - name: Zhen Dong
+    - name: Xiang Gao
+    - name: Abhik Roychoudhury
+  venue: "40th International Conference on Software Engineering"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1145/3180155.3180243
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - https://www.icse2018.org/event/icse-2018-technical-papers-repairing-crashes-in-android-apps
+  pdfs:
+    - http://www.human-competitive.org/sites/default/files/tan-paper.pdf
+    - http://www.shinhwei.com/droixicse_camera.pdf
+
+- title: "Toward Introducing Automated Program Repair Techniques to Industrial Software Development"
+  authors:
+    - name: Keigo Naitou
+    - name: Akito Tanikado
+    - name: Shinsuke Matsumoto
+    - name: Yoshiki Higo
+    - name: Shinji Kusumoto
+    - name: Hiroyuki Kirinuki
+    - name: Toshiyuki Kurabayashi
+    - name: Haruto Tanno
+  venue: "40th International Conference on Software Engineering"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1145/3196321.3196358
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - http://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=422
 
 - title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
@@ -970,6 +1191,7 @@
     - name: Jonatan Gomez
   venue: "GI@GECCO"
   year: 2018
+  abstract: "The automatic detection of refactoring recommendations has been tackled in prior optimization studies involving bad code smells, semantic coherence and importance of classes; however, such studies informally addressed formalisms to standardize and replicate refactoring models. We propose to assess the refactoring detection by means of performance convergence and time complexity. Since the reported approaches are difficult to reproduce, we employ an Artificial Refactoring Generation (ARGen) as a formal and naive computational solution for the Refactoring Detection Problem. ARGen is able to detect massive refactoring sets in feasible areas of the search space. We used a refactoring formalization to adapt search techniques (Hill Climbing, Simulated Annealing and Hybrid Adaptive Evolutionary Algorithm) that assess the performance and complexity on three open software systems. Combinatorial techniques are limited in solving the Refactoring Detection Problem due to the relevance of developers' criteria (human factor) when designing reconstructions. Without performance convergence and time complexity analysis, a software empirical analysis that uses search techniques is incomplete."
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208294
   tags:
@@ -984,6 +1206,7 @@
     - name: Michael Affenzeller
   venue: "GI@GECCO"
   year: 2018
+  abstract: "When attempting to improve the non-functional requirements of software, specifically run-time performance of code, an important requirement is to preserve the correctness of the optimized code. Additionally when attempting to integrate Genetic Improvement into a compiler or interpreter, the large search spaces resulting from the amount of operators and operands a language provides needs to be dealt with. This publication explores dynamic fitness functions as a foundation for a use in Genetic Improvement to optimize programs. An approach of using a test suite to verify code correctness in the Truffle Framework and Graal Compiler is presented. Two types of fitness functions are explored, which split the test suite according to their complexity and attempt to generate correct solutions with a growing set of increasingly complex tests. One of them increases the amount of tests sequentially over several iterations. The parallel fitness function attempts to split a test suite and to re-combine the results with increasingly large suites. The results show that these functions only marginally improve the fitness landscape on their own, but show that more partially correct solutions can be found with dynamic fitness functions. In the future, our approach may be improved by implementing specific crossover and mutator operations to accompany the dynamic fitness functions."
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208308
   tags:
@@ -1000,6 +1223,7 @@
     - name: Qingna Fan
   venue: "GI@GECCO"
   year: 2018
+  abstract: "A highly-configurable system provides many configuration options to diversify application scenarios. The combination of these configuration options results in a large search space of configurations. This makes the detection of configuration-related faults extremely hard. Since it is infeasible to exhaust every configuration, several methods are proposed to sample a subset of all configurations to detect hidden faults. Configuration sampling can be viewed as a process of repeating a pre-defined sampling action to the whole search space, such as the one-enabled or pair-wise strategy. we propose genetic configuration sampling, a new method of learning a sampling strategy for configuration-related faults. Genetic configuration sampling encodes a sequence of sampling actions as a chromosome in the genetic algorithm. Given a set of known configuration-related faults, genetic configuration sampling evolves the sequence of sampling actions and applies the learnt sequence to new configuration data. A pilot study on three highly-configurable systems shows that genetic configuration sampling performs well among nine sampling strategies in comparison."
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208267
   tags:
@@ -1014,6 +1238,7 @@
     - name: Pierrick Legrand
   venue: "GI@GECCO"
   year: 2018
+  abstract: "Genetic Improvement (GI) performs a search at the level of source code to find the best variant of a baseline system that improves non-functional properties while maintaining functionality, with noticeable results in several domains. There a many aspects of this general approach that are currently being explored. In particular, this work deals to the way in which the search is guided to efficiently explore the search space of possible software versions in which GI operates. The proposal is to integrate Novelty Search (NS) within the GISMOE GI framework to improve KinectFusion, which is a vision-based Simultaneous Localization and Mapping (SLAM) system that is used for augmented reality, autonomous vehicle navigation, and many other real-world applications. This is one of a small set of works that have successfully combined NS with a GP system, and the first time that it has been used for software improvement. To achieve this, we propose a new behaviour descriptor for SLAM algorithms, based on state-of-the-art benchmarking and present results that show that NS can produce significant improvement gains in a GI setting, when considering execution time and trajectory estimation as the main performance criteria."
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208237
   pdfs:
@@ -1027,6 +1252,7 @@
     - name: Subir Biswas
   venue: "GI@GECCO"
   year: 2018
+  abstract: "Given the advances in areas such as home automation, agricultural networks, smart cities, designers often need to design protocols that use the features of that network while dealing with its limitations. Using standardized protocols for such networks may not be appropriate as they may not address limitations of the network such as heterogeneous nodes or limited capability of some nodes. While designing a customized protocol for that network would be desirable, it is extremely time-consuming unless we can automate the development of the required protocol. In this paper, we present NetSynth, a GP based mechanism to develop customized routing protocol for the given network. NetSynth lets us conveniently describe a network using an XML file, and it synthesizes a routing protocol that suits the input network by considering the characteristics specific to the given network. We show how NetSynth creates protocols that perform comparably to best-known protocols for the case where we want to broadcast a set of messages to all nodes in a grid. We also show how NetSynth helps us design protocols that provide a trade-off between throughput and energy."
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208272
   pdfs:
@@ -1037,6 +1263,7 @@
     - name: Michael Orlov
   venue: "GI@GECCO"
   year: 2018
+  abstract: "This paper proposes to explore a software engineer-assisted method for evolutionarily improving large-scale software systems. A frame-work is outlined for selecting and evolving specific components of such systems, while avoiding treating the complete software as a single independent individual in the population, thereby forgoing the high costs of that approach."
   type: Workshop
   doi: https://doi.org/10.1145/3205651.3208311
   pdfs:
@@ -1052,6 +1279,7 @@
       aka: Christopher Timperley
   venue: "GI@ICSE"
   year: 2018
+  abstract: "Genetic improvement is a research field that aims to develop searchbased techniques for improving existing code. GI has been used to automatically repair bugs, reduce energy consumption, and to improve run-time performance. In this paper, we reflect on the often-overlooked relationship between GI and developers within the context of continually evolving software systems. We introduce a distinction between transparent and opaque patches based on intended lifespan and developer interaction. Finally, we outline a Turing test for assessing the ability of a GI system to produce opaque patches that are acceptable to humans. This motivates research into the role GI systems will play in transparent development contexts."
   type: Workshop
   doi: http://dx.doi.org/10.1145/3194810.3194817
   pdfs:
@@ -1068,6 +1296,7 @@
     - name: Emamurho Ugherughe
   venue: "GI@ICSE"
   year: 2018
+  abstract: "DevOps emphasizes a high degree of automation at all phases of the software development lifecyle. Meanwhile, Genetic Improvement (GI) focuses on the automatic improvement of software artefacts. In this paper, we discuss why we believe that DevOps offers an excellent technical context for easing the adoption of GI techniques by software developers. We also discuss A/B testing as a prominent and clear example of GI taking place in the wild today, albeit one with human-supervised fitness and mutation operators."
   type: Workshop
   pdfs:
     - http://www.shinhwei.com/devop-gi.pdf
@@ -1079,6 +1308,7 @@
     - name: Shin Yoo
   venue: "GI@ICSE"
   year: 2018
+  abstract: "PyGGI is a lightweight Python framework that can be used to implement generic Genetic Improvement algorithms at the API level. The original version of PyGGI only provided lexical modifications, i.e., modifications of the source code at the physical line granularity level. This paper introduces new extensions to PyGGI that enables syntactic modifications for Python code, i.e., modifications that operates at the AST granularity level. Taking advantage of the new extensions, we also present a case study that compares the lexical and syntactic search granularity level for automated program repair, using ten seeded faults in a real world open source Python project. The results show that search landscapes at the AST granularity level are more effective (i.e. eventually more likely to produce plausible patches) due to the smaller sizes of ingredient spaces (i.e., the space from which we search for the material to build a patch), but may require longer time for search because the larger number of syntactically intact candidates leads to more fitness evaluations."
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194814
   tags:
@@ -1094,6 +1324,7 @@
     - name: Bryan Beabout
   venue: "GI@ICSE"
   year: 2018
+  abstract: "As fuzz testing strategies have become more and more sophisticated, we see a natural application of fuzz testing to Genetic Improvement techniques. In particular, the ability to generate high quality and high coverage tests with advanced fuzzers can greatly enhance the effectiveness of Genetic Improvement algorithms, especially when the algorithm is applied to bug fixing or other similar kinds of software improvement to improve qualities such as security."
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194819
   pdfs:
@@ -1104,6 +1335,7 @@
     - name: Claire Le Goues
   venue: "GI@ICSE"
   year: 2018
+  abstract: "Genetic Improvement describes a class of search-based techniques that automatically improve software along a a variety of quality dimensions. In this talk, I will survey the research advances that have made possible the significant recent progress in this field. I will focus on the ongoing research opportunities that lie in genetic software improvement, with an especial focus on the challenges of confidently reasoning about, measuring, and assuring the quality of automatically and constantly evolving artefacts."
   type: Workshop
   tags:
     - survey
@@ -1117,6 +1349,7 @@
     - name: Barry Porter
   venue: "GI@ICSE"
   year: 2018
+  abstract: "Emergent software systems take a step towards tackling the ever-increasing complexity of modern software, by having systems self-assemble from a library of building blocks, and then continually re-assemble themselves from alternative building blocks to learn which compositions of behaviour work best in each deployment environment. One of the key challenges in emergent systems is populating the library of building blocks, and particularly a set of alternative implementations of particular building blocks, which form the runtime search space of optimal behaviour. We present initial work in using a fusion of genetic improvement and genetic synthesis to automatically populate a divergent set of implementations of the same functionality, allowing emergent systems to explore new behavioural alternatives without human input. Our early results indicate this approach is able to successfully yield useful divergent implementations of building blocks which are more suited than any existing alternative for particular operating conditions."
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194813
   pdfs:
@@ -1130,6 +1363,7 @@
     - name: Linfei Zang
   venue: "GI@ICSE"
   year: 2018
+  abstract: "n many scenarios we need to find the most likely program under a local context, where the local context can be an incomplete program, a partial specification, natural language description, etc. We call such problem program estimation. In this paper we propose an abstract framework, learning to synthesis, or L2S in short, to address this problem. L2S combines four tools to achieve this: syntax is used to define the search space and search steps, constraints are used to prune off invalid candidates at each search step, machine-learned models are used to estimate conditional probabilities for the candidates at each search step, and search algorithms are used to find the best possible solution. The main goal of L2S is to lay out the design space to motivate the research on program estimation. We have performed a preliminary evaluation by instantiating this framework for synthesizing conditions of an automated program repair (APR) system. The training data are from the project itself and related JDK packages. Compared to ACS, a state-of-the-art condition synthesis system for program repair, our approach could deal with a larger search space such that we fixed 4 additional bugs outside the search space of ACS, and relies only on the source code of the current projects."
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194816
   urls:
@@ -1145,6 +1379,7 @@
     - name: Stephanie Forrest
   venue: "GI@ICSE"
   year: 2018
+  abstract: "Neutral networks in biology often contain diverse solutions with equal fitness, which can be useful when environments (requirements) change over time. we present a method for studying neutral networks in software. In these networks, we find multiple solutions to held-out test cases (latent bugs), suggesting that neutral software networks also exhibit relevant diversity. We also observe instances of positive epistasis between random mutations, i.e. interactions that collectively increase fitness. Positive epistasis is rare as a fraction of the total search space but significant as a fraction of the objective space: 9percent of the repairs we found to look (and 4.63percent across all programs analysed) were produced by positive interactions between mutations. Further, the majority (62.50percent) of unique repairs are instances of positive epistasis"
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194812
   tags:
@@ -1160,6 +1395,7 @@
     - name: Stephen Barrett
   venue: "GI@ICSE"
   year: 2018
+  abstract: "Profiling techniques highlight where performance issues manifest and provide a starting point for tracing cause back through a program. While people diagnose and understand the cause of performance to guide formulation of a performance improvement, we seek automated techniques for highlighting performance improvement opportunities to guide search algorithms. We investigate mutation-based approaches for highlighting where a performance improvement is likely to exist. For all modification locations in a program, we make all possible modifications and analyse how often modifications reduce execution count. We compare the resulting code location rankings against rankings derived using a profiler and find that mutation analysis provides the higher accuracy in highlighting performance improvement locations in a set of benchmark problems, though at a much higher execution cost. We see both approaches as complimentary and consider how they may be used to further guide Genetic Programming in finding performance improvements"
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194815
   pdfs:
@@ -1323,6 +1559,37 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2018_SSBSE.pdf
 
+- title: "Applying Genetic Programming with Similar Bug Fix Information to Automatic Fault Repair"
+  authors:
+    - name: Geunseok Yang
+    - name: Youngjun Jeong
+    - name: Kyeongsic Min
+    - name: Jung-Won Lee
+    - name: Byungjeong Lee
+  venue: "Symmetry"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.3390/sym10040092
+  tags:
+    - SBSE
+  urls:
+    - https://www.mdpi.com/2073-8994/10/4/92/pdf
+
+- title: "Evolving Exact Decompilation"
+  authors:
+    - name: Eric Schulte
+    - name: Jason Ruchti
+    - name: Matt Noonan
+    - name: David Ciarletta
+    - name: Alexey Loginov
+  venue: "Workshop on Binary Analysis Research"
+  year: 2018
+  type: Conference
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.unm.edu/~eschulte/data/bed.pdf
+
 - title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
     - name: Bobby R. Bruce
@@ -1447,6 +1714,22 @@
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
 
+- title: "Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset"
+  authors:
+    - name: Matias Martinez
+    - name: Thomas Durieux
+    - name: Romain Sommerard
+    - name: Jifeng Xuan
+    - name: Martin Monperrus
+  venue: "Empirical Software Engineering"
+  year: 2017
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-016-9470-4
+  urls:
+    - https://hal.archives-ouvertes.fr/hal-01387556/
+  pdfs:
+    - https://hal.archives-ouvertes.fr/hal-01387556/automatic-repair-defects4j.pdf
+
 - title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
   authors:
     - name: Saemundur O. Haraldsson
@@ -1525,6 +1808,33 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
 
+- title: "A Search for Improved Performance in Regular Expressions"
+  authors:
+    - name: Brendan Cody-Kenny
+    - name: Michael Fenton
+    - name: Adrian Ronayne
+    - name: Eoghan Considine
+    - name: Thomas McGuire
+    - name: Michael O'Neill
+  venue: "GECCO"
+  year: 2017
+  type: Conference
+  doi: https://doi.org/10.1145/3071178.3071196
+  urls:
+    - http://doi.acm.org/10.1145/3071178.3071196
+
+- title: "Empirical Evaluation of Conditional Operators in GP Based Fault Localization"
+  authors:
+    - name: Dahyun Kang
+    - name: Jeongju Sohn
+    - name: Shin Yoo
+  venue: "GECCO"
+  year: 2017
+  type: Conference
+  doi: https://doi.org/10.1145/3071178.3071263
+  urls:
+    - http://doi.acm.org/10.1145/3071178.3071263
+
 - title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
   authors:
     - name: Mahmoud A. Bokhari
@@ -1533,6 +1843,7 @@
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2017
+  abstract: "With power demands of mobile devices rising, it is becoming increasingly important to make mobile software applications more energy efficient. Unfortunately, mobile platforms are diverse and very complex which makes energy behaviours difficult to model. This complexity presents challenges to the effectiveness of off-line optimisation of mobile applications. In this paper, we demonstrate that it is possible to automatically optimise an application for energy on a mobile device by evaluating energy consumption in-vivo. In contrast to previous work, we use only the device's own internal meter. Our approach involves many technical challenges but represents a realistic path toward learning hardware specific energy models for program code features."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082519
   pdfs:
@@ -1544,6 +1855,7 @@
     - name: Shin Yoo
   venue: "GI@GECCO"
   year: 2017
+  abstract: "We present a vision of genetic improvement firmly embedded in, and supported by, programming languages. Genetic improvement has already been envisioned as the next compiler, which would take human written programs as input and return versions optimised with respect to various objectives. As an intermediate stage, or perhaps to complement the fully automated vision, we imagine genetic improvement processes that are hinted at and directed by humans but understood and undertaken by programming languages and their run-times, via interactions through the source code. We examine existing similar ideas and examine the benefits of embedding them within programming languages."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082516
   tags:
@@ -1556,6 +1868,7 @@
     - name: Michael Orlov
   venue: "GI@GECCO"
   year: 2017
+  abstract: "This paper proposes to explore the following question: can software evolution systems like FINCH, that evolve linear representations originating from a higher-level structural language, take advantage of building blocks inherent to that original language?"
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082521
   urls:
@@ -1572,6 +1885,7 @@
     - name: Kristin Siggeirsdottir
   venue: "GI@GECCO"
   year: 2017
+  abstract: "We present a bespoke live system in commercial use with self-improving capability. During daytime business hours it provides an overview and control for many specialists to simultaneously schedule and observe the rehabilitation process for multiple clients. However in the evening, after the last user logs out, it starts a self-analysis based on the day's recorded interactions. It generates test data from the recorded interactions for Genetic Improvement to fix any recorded bugs that have raised exceptions. The system has already been under test for over 6 months and has in that time identified, located, and fixed 22 bugs. No other bugs have been identified by other methods during that time. It demonstrates the effectiveness of simple test data generation and the ability of GI for improving live code."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082517
   tags:
@@ -1589,6 +1903,7 @@
     - name: Michael O'Neill
   venue: "GI@GECCO"
   year: 2017
+  abstract: "Managing and curating software is a time consuming process particularly as programming languages, libraries, and execution environments change. To support the engineering of software, we propose applying a GP-based continuous learning system to all useful software. We take the position that search-based itemization and analysis of all commonly used software is feasible, in large part, because the requirements that people place on software can be used to bound the search space to software which is of high practical use. By repeatedly reusing the information generated during the search process we hope to attain a higher-level, but also more rigorous, understanding of our engineering material: source code."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082522
   pdfs:
@@ -1599,6 +1914,7 @@
     - name: David R. White
   venue: "GI@GECCO"
   year: 2017
+  abstract: "We describe a small, simple, and lightweight micro-framework for the Genetic Improvement of Java code. We call the framework GI in no time, or Gin. Gin is designed to be a straightforward, hackable, GI tool for Java. It currently lacks large features found in comparable program repair tools, but nonetheless it is capable of performing optimisation of a Java class via local search. We hope that providing this contribution will encourage researchers to collaborate on GI tool development, whilst lowering the barrier to entry for those interested in experimenting with GI. It is intended to serve both as a tool kit to be extended, and also an example of how GI can be implemented. We discuss some of the design principles behind Gin, and outline observations made during its development."
   type: Workshop
   doi: http://dx.doi.org/doi:10.1145/3067695.3082515
   tags:
@@ -1615,6 +1931,7 @@
     - name: Elisabeth Ilie-Zudor
   venue: "GI@GECCO"
   year: 2017
+  abstract: "We argue that Genetic Improvement can be successfully used for enhancing road traffic data mining. This would support the relevant decision makers with extending the existing network of devices that sense and control city traffic, with the end goal of improving vehicle flow and reducing the frequency of road accidents. Our position results from a set of preliminary observations emerging from the analysis of open access road traffic data collected in real time by the Birmingham City Council."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082523
   urls:
@@ -1632,6 +1949,7 @@
     - name: Vilmundur Gudnason
   venue: "GI@GECCO"
   year: 2017
+  abstract: "We present a Genetic Improvement (GI) experiment on ProbAbel, a piece of bioinformatics software for Genome Wide Association (GWA) studies. The GI framework used here has previously been successfully used on Python programs and can, with minimal adaptation, be used on source code written in other languages. We achieve improvements in execution time without the loss of accuracy in output while also exploring the vast fitness landscape that the GI framework has to search. The runtime improvements achieved on smaller data set scale up for larger data sets. Our findings are that for ProbAbel, the GI's execution time landscape is noisy but flat. We also confirm that human written code is robust with respect to small edits to the source code."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082526
   tags:
@@ -1645,6 +1963,7 @@
     - name: Ronny Lorenz
   venue: "GI@GECCO"
   year: 2017
+  abstract: "RNAfold predicts the secondary structure of RNA molecules from their base sequence. We apply a mixture of manual and automated genetic improvements to RNAfold's C source code. GI gives a 1.6 percent improvement to parallel SSE4.1 code. The automatic programming evolutionary system has access to Intel library code and previous revisions. On 4666 curated structures from RNA_STRAND, GGGP gives a combined average speed up of 31.9 percent, with no loss of accuracy."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082524
   urls:
@@ -1660,6 +1979,7 @@
     - name: Sunny Fugate
   venue: "GI@GECCO"
   year: 2017
+  abstract: "In light of recent advances in genetic-algorithm-driven automated program modification, our team has been actively exploring the art, engineering, and discovery of novel semantics-preserving transforms. While modern compilers represent some of the best ideas we have for automated program modification, current approaches represent only a small subset of the types of transforms which can be achieved. In the wilderness of post-apocalyptic software ecosystems of genetically-modified and mutant programs, there exist a broad array of potentially useful software mutations, including semantics-preserving transforms that may play an important role in future software design, development, and most importantly, evolution."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082525
   pdfs:
@@ -1672,6 +1992,7 @@
     - name: Gabriela Ochoa
   venue: "GI@GECCO"
   year: 2017
+  abstract: "Local optima networks are a compact representation of the global structure of a search space. They can be used for analysis and visualisation. This paper provides one of the first analyses of program search spaces using local optima networks. These are generated by sampling the search space by recording the progress of an Iterated Local Search algorithm. Source code mutations in comparison and Boolean operators are considered. The search spaces of two small benchmark programs, the triangle and TCAS programs, are analysed and visualised. Results show a high level of neutrality, i.e. connected test-equivalent mutants. It is also generally relatively easy to find a path from a random mutant to a mutant that passes all test case"
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082518
   pdfs:
@@ -1682,6 +2003,7 @@
     - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2017
+  abstract: "Genetic improvement uses automated search to find improved versions of existing software. Typically software is modified using either delete, copy or replace operations at the level of source code, its abstract syntax tree, binary or assembly representation. Impressive improvements have been achieved through this approach, yet research in the use of other search operators is largely unexplored. We propose several ways for devising new search operators for improvement of non-functional properties using a genetic improvement approach."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082520
   pdfs:
@@ -1880,6 +2202,19 @@
   tags:
     - SBSE
 
+- title: "Multi-objective code-smells detection using good and bad design examples"
+  authors:
+    - name: Usman Mansoor
+    - name: Marouane Kessentini
+    - name: Bruce R. Maxim
+    - name: Kalyanmoy Deb
+  venue: "Software Quality Journal"
+  year: 2017
+  type: Journal
+  doi: https://doi.org/10.1007/s11219-016-9309-7
+  tags:
+    - SBSE
+
 - title: "Computers will soon be able to fix themselves - are IT departments for the chop?"
   authors:
     - name: Saemundur Haraldsson
@@ -1892,6 +2227,17 @@
   type: Journal
   urls:
     - http://theconversation.com/computers-will-soon-be-able-to-fix-themselves-are-it-departments-for-the-chop-85632
+
+- title: "Facebook's evolutionary search for crashing software bugs"
+  authors:
+    - name: Sebastian Anthony
+  venue: "ars technica UK"
+  year: 2017
+  type: Journal
+  tags:
+    - SBSE
+  urls:
+    - https://arstechnica.co.uk/information-technology/2017/08/facebook-dynamic-analysis-software-sapienz/
 
 - title: "Benchmarking BarraCUDA on Epigenetic DNA and nVidia Pascal GPUs"
   authors:
@@ -1931,6 +2277,19 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1604.pdf
 
+- title: "Toward Developer-like Automated Program Repair: Modification Comparisons between GenProg and Developers"
+  authors:
+    - name: Hiroki Nakajima
+    - name: Yoshiki Higo
+    - name: Haruki Yokoyama
+    - name: Shinji Kusumoto
+  venue: "2016 23rd Asia-Pacific Software Engineering Conference (APSEC)"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/APSEC.2016.042
+  tags:
+    - APR
+
 - title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
   authors:
     - name: Kate Highnam
@@ -1945,6 +2304,38 @@
   doi: https://doi.org/10.1109/DSN-W.2016.63
   pdfs:
     - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
+
+- title: "A Capable Crossover Technique on Automatic Program Repair"
+  authors:
+    - name: Ryotaro Kou
+    - name: Yoshiki Higo
+    - name: Shinji Kusumoto
+  venue: "2016 7th International Workshop on Empirical Software Engineering in Practice (IWESEP)"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/IWESEP.2016.15
+
+- title: "McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation"
+  authors:
+    - name: Marco Elver
+    - name: Vijay Nagarajan
+  venue: "22nd IEEE Symposium on High Performance Computer Architecture, HPCA 2016"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/HPCA.2016.7446099
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - http://hpca22.site.ac.upc.edu/index.php/program/conference-program/
+
+- title: "Automatic Synthesis of Code Using Genetic Programming"
+  authors:
+    - name: Doron Peled
+  venue: "7th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2016"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-47166-2_12
 
 - title: "Automatically scheduling halide image processing pipelines"
   authors:
@@ -1961,6 +2352,29 @@
     - SBSE
   urls:
     - http://graphics.cs.cmu.edu/projects/halidesched/
+
+- title: "Automated program repair using genetic programming and model checking"
+  authors:
+    - name: Zahra Zojaji
+    - name: Behrouz Tork Ladani
+    - name: Alireza Khalilian
+  venue: "Applied Intelligence"
+  year: 2016
+  type: Journal
+  doi: http://dx.doi.org/10.1007/s10489-016-0804-0
+
+- title: "Towards Automated Strategies in Satisfiability Modulo Theory"
+  authors:
+    - name: Nicolas Galvez Ramirez
+    - name: Youssef Hamadi
+    - name: Eric Monfroy
+    - name: Frederic Saubion
+  venue: "EuroGP"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-30668-1_15
+  tags:
+    - SBSE
 
 - title: "Connecting Automatic Parameter Tuning, Genetic Programming as a Hyper-heuristic, and Genetic Improvement Programming"
   authors:
@@ -1993,6 +2407,7 @@
     - name: Jerry Swan
   venue: "GI@GECCO"
   year: 2016
+  abstract: "Apache Spark is a popular framework for large-scale data analytics. Unfortunately, Spark's performance can be difficult to optimise, since queries freely expressed in source code are not amenable to traditional optimisation techniques. This article describes Hylas, a tool for automatically optimising Spark queries embedded in source code via the application of semantics-preserving transformations. The transformation method is inspired by functional programming techniques of deforestation, which eliminate intermediate data structures from a computation. This contrasts with approaches defined entirely within structured query formats such as Spark SQL. Hylas can identify certain computationally expensive operations and ensure that performing them creates no superfluous data structures. This optimisation leads to significant improvements in execution time, with over 10,000 times improvement observed in some cases."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931692
   tags:
@@ -2009,6 +2424,7 @@
     - name: Mark Harman
   venue: "GI@GECCO"
   year: 2016
+  abstract: "BarraCUDA uses CUDA graphics cards to map DNA reads to the human genome. Previously its software source code was genetically improved for short paired end next generation sequences. On longer noisy epigenetics strings using nVidia Titan and twin Tesla K40 the same GI-ed code is more than 3 times faster than bwa-meth on an 8 core CPU."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931687
   tags:
@@ -2026,6 +2442,7 @@
     - name: Colin Johnson
   venue: "GI@GECCO"
   year: 2016
+  abstract: "Have you ever noticed that your car never achieves the fuel economy claimed by the manufacturer? Does this seem unfair? Unscientific? Would you like the same situation to occur in Genetic Improvement? Comparison will always be difficult [9], however, guidelines have been discussed [3, 5, 4]. With two GP [8] approaches, comparing the number of evaluations of the fitness function is reasonably fair. This means you are comparing the GP systems, and not how well they are implemented, how fast the language is. However, the situation with GI [6, 1] is unique. With GI we will typically compare systems which are applied to the same application written in the same language (i.e. a GI systems targeted at Java, may not even be applied to C). Thus, wall-clock time becomes more relevant. Thus, this paper asks if reporting number of evaluations is enough, or if wall-clock time is also important, particularly in the context of GI. It argues that reporting time is even more important when doing GI when compared to traditional GP."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931695
   tags:
@@ -2039,6 +2456,7 @@
     - name: Roberto Santana
   venue: "GI@GECCO"
   year: 2016
+  abstract: "Compiler flag selection can be an effective way to increase the quality of executable code according to different code quality criteria. Evolutionary algorithms have been successfully applied to this optimization problem. However, previous approaches have only partially addressed the question of capturing and exploiting the interactions between compilation options to improve the search. In this paper we deal with this question comparing estimation of distribution algorithms (EDAs) and a traditional genetic algorithm approach. We show that EDAs that learn bivariate interactions can improve the results of GAs for some of the programs considered. We also show that the probabilistic models generated as a result of the search for optimal flag combinations can be used to unveil the (problem-dependent) interactions between the flags, allowing the user a more informed choice of compilation options."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931696
   tags:
@@ -2055,6 +2473,7 @@
       aka: Alexander E. I. Brownlee
   venue: "GI@GECCO"
   year: 2016
+  abstract: "Genetic Programming (GP) has been criticized for targeting irrelevant problems [12], and is also true of the wider machine learning community [11]. which has become detached from the source of the data it is using to drive the field forward. However, recently GI provides a fresh perspective on automated programming. In contrast to GP, GI begins with existing software, and therefore immediately has the aim of tackling real software. As evolution is the main approach to GI to manipulating programs, this connection with real software should persuade the GP community to confront the issues around what it originally set out to tackle i.e. evolving real software."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931694
   tags:
@@ -2069,6 +2488,7 @@
     - name: David R. White
   venue: "GI@GECCO"
   year: 2016
+  abstract: "It is our great pleasure to welcome you to the 2nd Workshop on Genetic Improvement..."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931686
 
@@ -2077,6 +2497,7 @@
     - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2016
+  abstract: "Genetic improvement (GI) is a relatively new area of software engineering and thus the extent of its applicability is yet to be explored. Although a growing interest in GI in recent years started with the work on automatic bug fixing, the area flourished when results on optimisation of non- functional software properties, such as efficiency and energy consumption, were published. Further success of GI in trans-planting functionality from one program to another leads to a question: what other software engineering areas can benefit from the use of genetic improvement techniques? We propose to use GI for code obfuscation"
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931689
   tags:
@@ -2092,6 +2513,7 @@
     - name: Gustavo Olague
   venue: "GI@GECCO"
   year: 2016
+  abstract: "Genetic programming (GP) is an evolutionary-based search paradigm that is well suited to automatically solve difficult design problems. The general principles of GP have been used to evolve mathematical functions, models, image operators, programs, and even antennas and lenses. Since GP evolves the syntax and structure of a solution, the evolutionary process can be carried out in one environment and the solution can then be ported to another. However, given the nature of GP it is common that the evolved designs are unorthodox compared to traditional approaches used in the problem domain. Therefore, efficiently porting, improving or optimizing an evolved design might not be a trivial task. In this work we argue that the same GP principles used to evolve the solution can then be used to optimize a particular new implementation of the design, following the Genetic Improvement approach. In particular, this paper presents a case study where evolved image operators are ported from Matlab to OpenCV, and then the source code is optimized an improved using Genetic Improvement of Software for Multiple Objectives (GISMOE). In the example we show that functional behaviour is maintained (output image) while improving non-functional properties (computation time). Despite the fact that this first example is a simple case, it clearly illustrates the possibilities of using GP principles in two distinct stages of the software development process, from design to improved implementation."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931693
   tags:
@@ -2104,6 +2526,7 @@
     - name: David White
   venue: "GI@GECCO"
   year: 2016
+  abstract: "This paper argues that the potential for arbitrary transformation is what differentiates GI from other program transformation work. With great expressive power comes great responsibility, and GI has had mixed success finding effective program repairs and optimisations. The search must be better guided in order to improve solution quality."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931688
   tags:
@@ -2117,6 +2540,7 @@
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2016
+  abstract: "In this paper we outline our proposed framework for optimising energy consumption on Android mobile phones. To model the power usage, we use an event-based modelling technique. The internal battery fuel gauge chip is used to measure the amount of energy being consumed and accordingly the model is built on. We use the model to estimate components' energy usages. In addition, we propose the use of evolutionary computations to prolong the battery life. This can be achieved by using the power consumption model as a fitness function, re-configuring the smartphone's default settings and modifying existing code of applications."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931691
   tags:
@@ -2130,6 +2554,7 @@
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2016
+  abstract: "The functional correctness of safety- and security-critical software is of utmost importance. Nowadays, this can be achieved through computer assisted verification. While formal verification itself typically poses a steep learning-curve for anyone who wants to apply it, its applicability is further hindered by its (typically) low runtime performance. With the increasing popularity of algorithm parameter tuning and genetic improvement, we see a great opportunity for assisting verification engineers in their daily tasks."
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931690
   tags:
@@ -2137,6 +2562,21 @@
   pdfs:
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-verification.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Speeding-up-the-Proof_Strategy_in_Formal_Software_Verification.pdf
+
+- title: "Enhancing Automated Program Repair with Deductive Verification"
+  authors:
+    - name: Xuan-Bach D. Le
+    - name: Quang Loc Le
+    - name: David Lo
+    - name: Claire Le Goues
+  venue: "ICSM"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/ICSME.2016.66
+  tags:
+    - SBSE
+  urls:
+    - https://goo.gl/9TS9wo
 
 - title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
   authors:
@@ -2204,6 +2644,19 @@
     - https://discovery.ucl.ac.uk/id/eprint/1500877/
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1605.pdf
+
+- title: "Anti-patterns in Search-based Program Repair"
+  authors:
+    - name: Shin Hwei Tan
+    - name: Hiroaki Yoshida
+    - name: Mukul R. Prasad
+    - name: Abhik Roychoudhury
+  venue: "Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering, FSE 2016"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1145/2950290.2950295
+  pdfs:
+    - https://www.comp.nus.edu.sg/~abhik/pdf/FSE16.pdf
 
 - title: "A Report on the Genetic Improvement Workshop@GECCO 2016"
   authors:
@@ -2308,6 +2761,17 @@
   pdfs:
     - http://wapco.inf.uth.gr/papers/SESSION2/wapco2016_2_5.pdf
 
+- title: "An automated approach to program repair with semantic code search"
+  authors:
+    - name: Yalin Ke
+  venue: ""
+  year: 2015
+  tags:
+    - SBSE
+  urls:
+    - http://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=5820&context=etd
+    - http://lib.dr.iastate.edu/etd/14813/
+
 - title: "Automatic Software Repair: a Bibliography"
   authors:
     - name: Martin Monperrus
@@ -2357,6 +2821,59 @@
   year: 2015
   type: Conference
   doi: https://doi.org/10.1109/AHS.2015.7231178
+
+- title: "Experience report: How do techniques, programs, and tests impact automated program repair?"
+  authors:
+    - name: Xianglong Kong
+    - name: Lingming Zhang
+    - name: W. Eric Wong
+    - name: Bixin Li
+  venue: "26th IEEE International Symposium on Software Reliability Engineering (ISSRE)"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ISSRE.2015.7381813
+  tags:
+    - SBSE
+
+- title: "Should fixing these failures be delegated to automated program repair?"
+  authors:
+    - name: Xuan-Bach D. Le
+    - name: Tien-Duy B. Le
+    - name: David Lo
+  venue: "26th IEEE International Symposium on Software Reliability Engineering (ISSRE)"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ISSRE.2015.7381836
+  tags:
+    - SBSE
+
+- title: "Repairing Programs with Semantic Code Search"
+  authors:
+    - name: Yalin Ke
+    - name: Kathryn T. Stolee
+    - name: Claire Le Goues
+    - name: Yuriy Brun
+  venue: "30th IEEE/ACM International Conference on Automated Software Engineering (ASE 2015)"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ASE.2015.60
+  tags:
+    - SBSE
+  pdfs:
+    - http://people.cs.umass.edu/brun/pubs/pubs/Ke15ase.pdf
+
+- title: "relifix: Automated Repair of Software Regressions"
+  authors:
+    - name: Shin Hwei Tan
+    - name: Abhik Roychoudhury
+  venue: "37th International Conference on Software Engineering"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2015.65
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.comp.nus.edu.sg/~shinhwei/relifix.pdf
 
 - title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
   authors:
@@ -2413,6 +2930,22 @@
   type: Workshop
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/mharman/final-demobile15-keynote.pdf
+
+- title: "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair"
+  authors:
+    - name: Edward K. Smith
+    - name: Earl T. Barr
+    - name: Claire Le Goues
+    - name: Yuriy Brun
+  venue: "ESEC/FSE"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1145/2786805.2786825
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://people.cs.umass.edu/~brun/pubs/pubs/Smith15fse.pdf
 
 - title: "Deep Parameter Optimisation"
   authors:
@@ -2477,6 +3010,7 @@
     - name: Nadarajen Veerapen
   venue: "GI@GECCO"
   year: 2015
+  abstract: "We discuss the useful role that can be played by a subtype of improvement programming, which we term Embedded Dynamic Improvement. In this approach, developer-specified variation points define the scope of improvement. A search framework is embedded at these variation points, facilitating the creation of adaptive software that can respond online to changes in its execution environment."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768423
   urls:
@@ -2490,6 +3024,7 @@
     - name: Benoit Baudry
   venue: "GI@GECCO"
   year: 2015
+  abstract: "ECSELR is an ecologically-inspired approach to software evolution that enables environmentally driven evolution at runtime in extant software systems without relying on any offline components or management. ECSELR embeds adaptation and evolution inside the target software system enabling the system to transform itself via Darwinian evolutionary mechanisms and adapt in a self contained manner. This allows the software system to benefit autonomously from the useful emergent byproducts of evolution like adaptivity and bio-diversity, avoiding the problems involved in engineering and maintaining such properties. ECSELR enables software systems to address changing environments at run time, ensuring benefits like mitigation of attacks and memory-optimisation among others while avoiding time consuming and costly maintenance and downtime. ECSELR differs from existing work in that, 1) adaptation is embedded in the target system, 2) evolution and adaptation happens online (i.e. in-situ at runtime) and 3) ECSELR is able to embed adaptation inside systems that have already been started and are in the midst of execution. We demonstrate the use of ECSELR and present results on using the ECSELR framework to slim a software system."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768425
   urls:
@@ -2503,6 +3038,7 @@
     - name: Bobby R. Bruce
   venue: "GI@GECCO"
   year: 2015
+  abstract: "The discipline of Software Engineering has arisen during a time in which developers rarely concerned themselves with the energy efficiency of their software. Due to the growth in both mobile devices and large server clusters this period is undoubtedly coming to an end and, as such, new tools for creating energy-efficient software are required. This paper takes the position that Genetic Improvement, a Search-Based Software Engineering technique, has the potential to aid developers in refactoring their software to a more energy-efficient state; allowing focus to remain on functional requirements while leaving concerns over energy consumption to an automated process."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768420
   tags:
@@ -2519,6 +3055,7 @@
     - name: Lukas Sekanina
   venue: "GI@GECCO"
   year: 2015
+  abstract: "This paper deals with genetic programming-based improvement of non-functional properties of programs intended for low-cost microcontrollers. As the objective is to significantly reduce power consumption and execution time, the approximate computing scenario is considered in which occasional errors in results are acceptable. The method is based on Cartesian genetic programming and evaluated in the task of approximation of 9-input and 25-input median function. Resulting approximations show a significant improvement in the execution time and power consumption with respect to the accurate median function while the observed errors are moderate."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768416
   urls:
@@ -2532,6 +3069,7 @@
     - name: John R. Woodward
   venue: "GI@GECCO"
   year: 2015
+  abstract: "If you cannot measure it, you cannot improve it. Lord Kelvin Fitness in GP/GI is usually a short-sighted greedy fitness function counting the number of satisfied test cases (or some other score based on error). If GP/GI is to be extended to successfully tackle full software systems, which is the stated domain of Genetic Improvement, with loops, conditional statements and function calls, then this kind of fitness will fail to scale. One alternative approach is to measure the fitness gain in terms of the accumulated information at each executed step of the program. This paper discusses methods for measuring the way in which programs accumulate information relevant to their task as they run, by building measures of this information gain based on information theory and model complexity."
   type: Workshop
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/fitness_as_task-relevant_information_accumulation.pdf
@@ -2542,6 +3080,7 @@
     - name: Justyna Petke
   venue: "GI@GECCO"
   year: 2015
+  abstract: "Genetic improvement (GI) has been successfully used to optimise non-functional properties of software, such as execution time, by automatically manipulating program's source code. Measurement of non-functional properties, however, is a non-trivial task; energy consumption, for instance, is highly dependant on the hardware used. Therefore, we propose the GI4GI framework (and two illustrative applications). GI4GI first applies GI to improve the fitness function for the particular environment within which software is subsequently optimised using traditional GI."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768415
   urls:
@@ -2572,6 +3111,7 @@
     - name: Alexander Egyed
   venue: "GI@GECCO"
   year: 2015
+  abstract: "Software Product Lines (SPLs) are families of related software systems that provide different combinations of features. Extensive research and application attest to the significant economical and technological benefits of employing SPL practices. However, there are still several challenges that remain open. Salient among them is reverse engineering SPLs from existing variants of software systems and their subsequent evolution. In this paper, we aim at sketching connections between research on these open SPL challenges and ongoing work on Genetic Improvement. Our hope is that by drawing such connections we can spark the interest of both research communities on the exciting synergies at the intersection of these subject areas."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768422
   urls:
@@ -2585,6 +3125,7 @@
     - name: John R. Woodward
   venue: "GI@GECCO"
   year: 2015
+  abstract: "Energy has recently become an objective for Genetic Improvement. Measuring software energy use is complicated which might tempt us to use simpler measurements. However if we base the GI on inaccurate measurements we can not assure any improvements. This paper seeks to highlight important issues when evaluating energy use of programs."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768421
   pdfs:
@@ -2598,6 +3139,7 @@
     - name: Jens Krinke
   venue: "GI@GECCO"
   year: 2015
+  abstract: "This paper presents a brief outline of a higher-order mutation based framework for Genetic Improvement (GI). We argue that search-based higher-order mutation testing can be used to implement a form of genetic programming (GP) to increase the search granularity and testability of GI."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768417
   urls:
@@ -2611,6 +3153,7 @@
     - name: Mark Harman
   venue: "GI@GECCO"
   year: 2015
+  abstract: "Grow and graft genetic programming greatly improves GPGPU dynamic programming software for predicting the minimum binding energy for folding of RNA molecules. The parallel code inserted into the existing CUDA version of pknots was grown using a BNF grammar. On an nVidia Tesla K40 GPU GGGP gives a speed up of up to 10000 times."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768418
   tags:
@@ -2629,6 +3172,7 @@
     - name: Sunny Fugate
   venue: "GI@GECCO"
   year: 2015
+  abstract: "We would all benefit if software were slimmer, thinner, and generally only did what we needed and nothing more. To this end, our research team has been exploring methods for removing unused and undesirable features from compiled programs. Our primary goal is to improve software security by removing rarely used features in order to decrease a program's attack surface. This paper describes two different approaches for thinning binary programs. The first approach removes specific program features using dynamic tracing as a guide. This approach is relatively safe, but is only capable of removing code which is reachable in a trace when an undesirable feature is enabled. The second approach uses a genetic algorithm (GA) to mutate a program until a suitable variant is found. Our GA-based approach can potentially remove any code that is not strictly required for proper execution, but may break program semantics in unpredictable ways. We show results of these approaches on a toy program and real-world software and explore some of the implications for software security."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768424
   urls:
@@ -2643,6 +3187,7 @@
     - name: Stephanie Forrest
   venue: "GI@GECCO"
   year: 2015
+  abstract: "The speed with which newly discovered software vulnerabilities are patched is a critical factor in mitigating the harm caused by subsequent exploits. Unfortunately, software vendors are often slow or unwilling to patch vulnerabilities, especially in embedded systems which frequently have no mechanism for updating factory-installed firmware. The situation is particularly dire for commercial off the shelf (COTS) software users, who lack source code and are wholly dependent on patches released by the vendor. We propose a solution in which the vulnerabilities drive an automated evolutionary computation repair process capable of directly patching embedded systems firmware. Our approach does not require access to source code, regression tests, or any participation from the software vendor. Instead, we present an interactive evolutionary algorithm that searches for patches that resolve target vulnerabilities while relying heavily on post-evolution difference minimisation to remove most regressions. Extensions to prior work in evolutionary program repair include: repairing vulnerabilities in COTS router firmware; handling stripped MIPS executable; operating without fault localisation information; operating without a regression test suite; and incorporating user interaction into the evolutionary repair process. We demonstrate this method by repairing two well-known vulnerabilities in version 4 of NETGEAR's WNDR3700 wireless router before NETGEAR released patches publicly for the vulnerabilities. Without fault localisation we are able to find repair edits that are not located on execution traces. Without the advantage of regression tests to guide the search, we find that 80percent of repairs of the example vulnerabilities retain program functionality after minimisation. With minimal user interaction to demonstrate required functionality, 100percent of the proposed repairs were able to address the vulnerabilities while retaining required functionality."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768427
   urls:
@@ -2656,6 +3201,7 @@
     - name: Jeremy Singer
   venue: "GI@GECCO"
   year: 2015
+  abstract: "We re-examine the central motivation behind Genetic Improvement Programming (GIP), and argue that the most important insight is the concept of applying Genetic Programming to existing software. This viewpoint allows us to make several observations about potential directions for GIP research"
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768426
   urls:
@@ -2670,6 +3216,7 @@
     - name: Stephen Barrett
   venue: "GI@GECCO"
   year: 2015
+  abstract: "We present locoGP, a Genetic Programming (GP) system written in Java for evolving Java source code. locoGP was designed to improve the performance of programs as measured in the number of operations executed. Variable test cases are used to maintain functional correctness during evolution. The operation of locoGP is demonstrated on a number of typically constructed off-the-shelf hand-written implementations of sort and prefix-code programs. locoGP was able to find improvement opportunities in all test problems."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768419
   urls:
@@ -2722,6 +3269,19 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2013_ieeeTEC.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bowtie2_supplementary.pdf
 
+- title: "An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems"
+  authors:
+    - name: Zichao Qi
+    - name: Fan Long
+    - name: Sara Achour
+    - name: Martin Rinard
+  venue: "ISSTA"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1145/2771783.2771791
+  tags:
+    - SBSE
+
 - title: "Automated Software Transplantation"
   authors:
     - name: Earl T. Barr
@@ -2738,6 +3298,44 @@
     - http://www.human-competitive.org/sites/default/files/barr-harman-jia-marginean-petke-text.txt
   pdfs:
     - http://crest.cs.ucl.ac.uk/autotransplantation/downloads/autotransplantation.pdf
+
+- title: "A Novel Approach to Generating Test Cases with Genetic Programming"
+  authors:
+    - name: Saso Karakatic
+    - name: Tina Schweighofer
+  venue: "Proceedings of the 10th International Conference on Knowledge Management in Organizations, KMO 2015"
+  year: 2015
+  type: Conference
+  doi: http://dx.doi.org/10.1007/978-3-319-21009-4_20
+  tags:
+    - testing
+
+- title: "Making Lock-free Data Structures Verifiable with Artificial Transactions"
+  authors:
+    - name: Xinhao Yuan
+    - name: David Williams-King
+    - name: Junfeng Yang
+    - name: Simha Sethumadhavan
+  venue: "Proceedings of the 8th Workshop on Programming Languages and Operating Systems, PLOS 2015"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1145/2818302.2818309
+  urls:
+    - http://doi.acm.org/10.1145/2818302.2818309
+
+- title: "SASS: Self-adaptation using stochastic search"
+  authors:
+    - name: Zack Coker
+    - name: David Garlan
+    - name: Claire Le Goues
+  venue: "SEAMS"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/SEAMS.2015.16
+  tags:
+    - SBSE
+  pdfs:
+    - https://www.cs.cmu.edu/~clegoues/docs/seams15-position.pdf
 
 - title: "Amortised Optimisation of Non-functional Properties in Production Environments"
   authors:
@@ -2841,6 +3439,52 @@
   urls:
     - http://theconversation.com/how-computers-are-learning-to-make-human-software-work-more-efficiently-43798
 
+- title: "Automated Bug Fixing: An Interview with Westley Weimer, Department of Computer Science, University of Virginia and Martin Monperrus, University of Lille and INRIA, Lille, France"
+  authors:
+    - name: Walter Tichy
+  venue: "Ubiquity"
+  year: 2015
+  type: Journal
+  doi: https://doi.org/10.1145/2746519
+  urls:
+    - http://doi.acm.org/10.1145/2746519
+
+- title: "Code 'transplant' could revolutionise programming"
+  authors:
+    - name: James Temperton
+  venue: "Wired.co.uk"
+  year: 2015
+  type: Journal
+  urls:
+    - http://www.wired.co.uk/news/archive/2015-07/30/code-organ-transplant-software-myscalpel
+
+- title: "ASTOR: Evolutionary Automatic Software Repair for Java"
+  authors:
+    - name: Matias Martinez
+    - name: Martin Monperrus
+  venue: ""
+  year: 2014
+  type: TechReport
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1410.6651
+    - http://arxiv.org/pdf/1410.6651v1
+    - https://hal.archives-ouvertes.fr/hal-01075976
+
+- title: "Automating Program Verification and Repair Using Invariant Analysis and Test-input Generation"
+  authors:
+    - name: ThanhVu Nguyen
+  venue: ""
+  year: 2014
+  type: PhdThesis
+  tags:
+    - APR
+  urls:
+    - http://www.cs.umd.edu/~tnguyen/#
+  pdfs:
+    - http://www.cs.umd.edu/~tnguyen/Pub/ptn.pdf
+
 - title: "Gen-O-Fix: An embeddable framework for Dynamic Adaptive Genetic Improvement Programming"
   authors:
     - name: Jerry Swan
@@ -2869,6 +3513,18 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/Langdon_RN1402.pdf
 
+- title: "Neutral Networks of Real-World Programs and their Application to Automated Software Evolution"
+  authors:
+    - name: Eric Schulte
+  venue: ""
+  year: 2014
+  type: PhdThesis
+  urls:
+    - http://hdl.handle.net/1928/25819
+    - https://cs.unm.edu/~eschulte/dissertation
+  pdfs:
+    - https://cs.unm.edu/~eschulte/dissertation/schulte-dissertation.pdf
+
 - title: "Quality Assurance for Self-Adaptive, Self-Organising Systems (Message from the Workshop Organisers)"
   authors:
     - name: Benedikt Eberhardinger
@@ -2879,6 +3535,22 @@
   year: 2014
   type: Conference
   doi: https://doi.org/10.1109/SASOW.2014.30
+
+- title: "The Plastic Surgery Hypothesis"
+  authors:
+    - name: Earl T. Barr
+    - name: Yuriy Brun
+    - name: Premkumar Devanbu
+    - name: Mark Harman
+    - name: Federica Sarro
+  venue: "22nd ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE 2014)"
+  year: 2014
+  type: Conference
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://earlbarr.com/publications/psh.pdf
 
 - title: "Post-compiler Software Optimization for Reducing Energy"
   authors:
@@ -2896,6 +3568,66 @@
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/schulte-asplos2014.pdf
 
+- title: "Genetic programming for smart phone personalisation"
+  authors:
+    - name: Philip Valencia
+    - name: Aiden Haak
+    - name: Alban Cotillon
+    - name: Raja Jurdak
+  venue: "Applied Soft Computing"
+  year: 2014
+  type: Journal
+  doi: https://doi.org/10.1016/j.asoc.2014.08.058
+  urls:
+    - http://www.sciencedirect.com/science/article/pii/S1568494614004232
+
+- title: "The impact of topology on energy consumption for collection tree protocols: An experimental assessment through evolutionary computation"
+  authors:
+    - name: Doina Bucur
+    - name: Giovanni Iacca
+    - name: Giovanni Squillero
+    - name: Alberto Tonda
+  venue: "Applied Soft Computing"
+  year: 2014
+  type: Journal
+  doi: https://doi.org/10.1016/j.asoc.2013.12.002
+  urls:
+    - http://www.sciencedirect.com/science/article/pii/S1568494613004213
+
+- title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
+  authors:
+    - name: Matias Martinez
+    - name: Westley Weimer
+    - name: Martin Monperrus
+  venue: "Companion Proceedings of the 36th International Conference on Software Engineering, ICSE Companion 2014"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2591062.2591114
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1403.6322
+
+- title: "Automatic Design of Noncryptographic Hash Functions using Genetic Programming"
+  authors:
+    - name: Cesar Estebanez
+    - name: Yago Saez
+    - name: Gustavo Recio
+    - name: Pedro Isasi
+  venue: "Computational Intelligence"
+  year: 2014
+  type: Journal
+  doi: https://doi.org/10.1002/coin.12033
+
+- title: "Discussion on Automatic Fault Localisation and Repair"
+  authors:
+    - name: Bradley Alexander
+  venue: "Computational Intelligence for Software Engineering"
+  year: 2014
+  type: Collection
+  pdfs:
+    - http://shonan.nii.ac.jp/seminar/reports/wp-content/uploads/sites/56/2015/01/No.2014-13.pdf
+
 - title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
   authors:
     - name: Saemundur O. Haraldsson
@@ -2908,6 +3640,17 @@
     - SBSE
   urls:
     - http://doi.acm.org/10.1145/2598394.2609874
+
+- title: "Genetically Improved CUDA C++ Software"
+  authors:
+    - name: William B. Langdon
+    - name: Mark Harman
+  venue: "EuroGP"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-662-44303-3_8
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_EuroGP.pdf
 
 - title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
   authors:
@@ -2955,6 +3698,23 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Langdon_gecco2014_hot.pdf
 
+- title: "Software mutational robustness"
+  authors:
+    - name: Eric Schulte
+    - name: Zachary P. Fry
+    - name: Ethan Fast
+    - name: Westley Weimer
+    - name: Stephanie Forrest
+  venue: "GPEM"
+  year: 2014
+  type: Journal
+  doi: https://doi.org/10.1007/s10710-013-9195-8
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.416.675
+
 - title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
   authors:
     - name: Benoit Baudry
@@ -2969,6 +3729,58 @@
   urls:
     - https://hal.archives-ouvertes.fr/hal-00938855/document
     - http://doi.acm.org/10.1145/2610384.2610415
+
+- title: "Java evolutionary framework based on genetic programming"
+  authors:
+    - name: Jan Karasek
+    - name: Radim Burget
+    - name: Malay Kishore Dutta
+    - name: Anushikha Singh
+  venue: "International Conference on Signal Processing and Integrated Networks (SPIN 2014)"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1109/SPIN.2014.6777026
+
+- title: "A methodology to automatically optimize dynamic memory managers applying grammatical evolution"
+  authors:
+    - name: Jose L. Risco-Martin
+    - name: J. Manuel Colmenar
+    - name: J. Ignacio Hidalgo
+    - name: Juan Lanchares
+    - name: Josefa Diaz
+  venue: "Journal of Systems and Software"
+  year: 2014
+  type: Journal
+  doi: https://doi.org/10.1016/j.jss.2013.12.044
+  tags:
+    - SBSE
+  urls:
+    - http://www.sciencedirect.com/science/article/pii/S016412121400017X
+
+- title: "The Strength of Random Search on Automated Program Repair"
+  authors:
+    - name: Yuhua Qi
+    - name: Xiaoguang Mao
+    - name: Yan Lei
+    - name: Ziying Dai
+    - name: Chengsong Wang
+  venue: "Proceedings of the 36th International Conference on Software Engineering, ICSE 2014"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2568225.2568254
+  tags:
+    - APR
+    - SBSE
+
+- title: "CRYSEED: An Automatic 8-bit Cryptographic Algorithm Developed with Genetic Programming"
+  authors:
+    - name: Rodrigo S. Semente
+    - name: Andres O. Salazar
+    - name: Felipe D. M. Oliveira
+  venue: "Proceedings of the IEEE International Instrumentation and Measurement Technology Conference (I2MTC 2014)"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1109/I2MTC.2014.6860905
 
 - title: "Genetic Improvement for Adaptive Software Engineering"
   authors:
@@ -3069,6 +3881,47 @@
   pdfs:
     - http://www.cs.put.poznan.pl/kkrawiec/smgp2014/uploads/Site/Kocsis.pdf
 
+- title: "Automatic Program Repair Using Genetic Programming"
+  authors:
+    - name: Claire Le Goues
+  venue: ""
+  year: 2013
+  type: PhdThesis
+  doi: https://doi.org/10.18130/V3KZ3C
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/students/claire-phd.pdf
+
+- title: "Evolution vs. Intelligent Design in Program Patching"
+  authors:
+    - name: Yuriy Brun
+    - name: Earl Barr
+    - name: Ming Xiao
+    - name: Claire Le Goues
+    - name: P. Devanbu
+  venue: ""
+  year: 2013
+  type: TechReport
+  tags:
+    - SBSE
+  pdfs:
+    - https://escholarship.org/uc/item/3z8926ks.pdf
+
+- title: "Synthesizing Round Based Fault-Tolerant Programs using Genetic Programming"
+  authors:
+    - name: Ling Zhu
+    - name: Sandeep Kulkarni
+  venue: ""
+  year: 2013
+  type: TechReport
+  tags:
+    - SBSE
+  urls:
+    - http://www.cse.msu.edu/cgi-user/web/tech/document?ID=1022
+    - http://www.cse.msu.edu/publications/tech/TR/MSU-CSE-13-9.ps
+
 - title: "Using Genetic Programming to Model Software"
   authors:
     - name: W. B. Langdon
@@ -3116,6 +3969,22 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2013_WCRE.pdf
 
+- title: "Leveraging Program Equivalence for Adaptive Program Repair: Models and First Results"
+  authors:
+    - name: Westley Weimer
+    - name: Zachary P. Fry
+    - name: Stephanie Forrest
+  venue: "28th IEEE/ACM International Conference on Automated Software Engineering"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ASE.2013.6693094
+  tags:
+    - APR
+    - SBSE
+    - testing
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/weimer-ase2013-preprint.pdf
+
 - title: "The GISMOE Architecture"
   authors:
     - name: Yue Jia
@@ -3130,6 +3999,57 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Jia_2013_CSBSE.pdf
+
+- title: "Automatic Patch Generation Learned from Human-Written Patches"
+  authors:
+    - name: Dongsun Kim
+    - name: Jaechang Nam
+    - name: Jaewoo Song
+    - name: Sunghun Kim
+  venue: "35th International Conference on Software Engineering (ICSE 2013)"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2013.6606626
+  tags:
+    - APR
+    - SBSE
+
+- title: "Automated Repair of Binary and Assembly Programs for Cooperating Embedded Devices"
+  authors:
+    - name: Eric Schulte
+    - name: Jonathan DiLorenzo
+    - name: Westley Weimer
+    - name: Stephanie Forrest
+  venue: "ASPLOS"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1145/2451116.2451151
+  tags:
+    - APR
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/schulte2013embedded.pdf
+
+- title: "Exploring automated software composition with genetic programming"
+  authors:
+    - name: Erik M. Fredericks
+    - name: Betty H. C. Cheng
+  venue: "GECCO"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1145/2464576.2480790
+  tags:
+    - SBSE
+
+- title: "GPDL: a framework-independent problem definition language for grammar-guided genetic programming"
+  authors:
+    - name: Gabriel Kronberger
+    - name: Michael Kommenda
+    - name: Stefan Wagner
+    - name: Heinz Dobler
+  venue: "GECCO"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1145/2464576.2482713
 
 - title: "Input-aware Auto-tuning for Directive-based GPU Programming"
   authors:
@@ -3158,6 +4078,17 @@
   pdfs:
     - https://icsm2013.tue.nl/ICSM2013.pdf
 
+- title: "Synthesizing Round Based Fault-Tolerant Programs Using Genetic Programming"
+  authors:
+    - name: Ling Zhu
+    - name: Sandeep Kulkarni
+  venue: "Proceedings of the 15th International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS 2013)"
+  year: 2013
+  type: Conference
+  doi: http://dx.doi.org/10.1007/978-3-319-03089-0_33
+  tags:
+    - SBSE
+
 - title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
   authors:
     - name: Jonathan Ragan-Kelley
@@ -3172,6 +4103,30 @@
   doi: https://doi.org/10.1145/2491956.2462176
   pdfs:
     - http://people.csail.mit.edu/jrk/halide-pldi13.pdf
+
+- title: "Synthesizing, Correcting and Improving Code, Using Model Checking-Based Genetic Programming"
+  authors:
+    - name: Gal Katz
+    - name: Doron Peled
+  venue: "Proceedings of the 9th International Haifa Verification Conference (HVC 2013)"
+  year: 2013
+  type: Conference
+  doi: http://dx.doi.org/10.1007/978-3-319-03077-7_17
+  tags:
+    - SBSE
+
+- title: "Advances in Automated Program Repair and a Call to Arms"
+  authors:
+    - name: Westley Weimer
+  venue: "SSBSE"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-642-39742-4_1
+  tags:
+    - SBSE
+    - survey
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/s.yoo/papers/Xie2013kx.pdf
 
 - title: "Applying Genetic Improvement to MiniSAT"
   authors:
@@ -3188,6 +4143,48 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2013_SSBSE.pdf
 
+- title: "The Emergence of Useful Bias in Self-focusing Genetic Programming for Software Optimisation"
+  authors:
+    - name: Brendan Cody-Kenny
+    - name: Stephen Barrett
+  venue: "SSBSE"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-642-39742-4_29
+  tags:
+    - SBSE
+
+- title: "Current challenges in automatic software repair"
+  authors:
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "Software Quality Journal"
+  year: 2013
+  type: Journal
+  doi: http://dx.doi.org/10.1007/s11219-013-9208-0
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.368.1034
+  pdfs:
+    - http://www.cs.cmu.edu/~clegoues/docs/legoues-sqjo13.pdf
+
+- title: "Evolutionary Computing Driven Search Based Software Testing and Correction"
+  authors:
+    - name: Joshua Lee Wilkerson
+  venue: ""
+  year: 2012
+  type: PhdThesis
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - http://hdl.handle.net/10355/26508
+  pdfs:
+    - https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/26508/Wilkerson_2012.pdf
+
 - title: "Genetically Improving 50000 Lines of C++"
   authors:
     - name: William B. Langdon
@@ -3199,6 +4196,133 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_12_09.pdf
+
+- title: "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each"
+  authors:
+    - name: Claire Le Goues
+    - name: Michael Dewey-Vogt
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "34th International Conference on Software Engineering (ICSE 2012)"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2012.6227211
+  tags:
+    - APR
+  urls:
+    - https://squareslab.github.io/genprog-code/
+  pdfs:
+    - http://dijkstra.cs.virginia.edu/genprog/papers/weimer-icse2012-genprog-preprint.pdf
+
+- title: "Automated Web Service Composition Using Genetic Programming"
+  authors:
+    - name: Liyuan Xiao
+    - name: Carl K. Chang
+    - name: Hen-I Yang
+    - name: Kai-Shin Lu
+    - name: Hsin-yi Jiang
+  venue: "36th Annual IEEE Computer Software and Applications Conference Workshops (COMPSACW 2012)"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1109/COMPSACW.2012.12
+  tags:
+    - testing
+
+- title: "Genetic Programming for Automating the Development of Data Management Algorithms in Information Technology Systems"
+  authors:
+    - name: Gabriel A. Archanjo
+    - name: Fernando J. Von Zuben
+  venue: "Advances in Software Engineering"
+  year: 2012
+  type: Journal
+  doi: https://doi.org/10.1155/2012/893701
+  tags:
+    - SBSE
+  urls:
+    - http://www.hindawi.com/journals/ase/2012/893701/
+
+- title: "Android Genetic Programming Framework"
+  authors:
+    - name: Alban Cotillon
+    - name: Philip Valencia
+    - name: Raja Jurdak
+  venue: "EuroGP"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-642-29139-5_2
+  pdfs:
+    - http://jurdak.com/eurogp12.pdf
+
+- title: "Multi-Objective Coevolutionary Automated Software Correction"
+  authors:
+    - name: Josh L. Wilkerson
+    - name: Daniel R. Tauritz
+    - name: James M. Bridges
+  venue: "GECCO"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1145/2330163.2330333
+  tags:
+    - SBSE
+
+- title: "Representations and operators for improving evolutionary software repair"
+  authors:
+    - name: Claire Le Goues
+    - name: Westley Weimer
+    - name: Stephanie Forrest
+  venue: "GECCO"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1145/2330163.2330296
+  tags:
+    - AI
+    - SBSE
+    - testing
+  pdfs:
+    - http://www.clairelegoues.com.s3-website-us-east-1.amazonaws.com/docs/genprog-gecco2012-preprint.pdf
+
+- title: "Genetically Programmed Regression Linear Models for Non-Deterministic Estimates"
+  authors:
+    - name: Guilherme Esmeraldo
+    - name: Robson Feitosa
+    - name: Dilza Esmeraldo
+    - name: Edna Barros
+  venue: "Genetic Programming - New Approaches and Successful Applications"
+  year: 2012
+  type: Collection
+  doi: https://doi.org/10.5772/48156
+
+- title: "GenProg: A Generic Method for Automatic Software Repair"
+  authors:
+    - name: Claire Le Goues
+    - name: ThanhVu Nguyen
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "IEEE TSE"
+  year: 2012
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2011.104
+  tags:
+    - SBSE
+    - testing
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/weimer-tse2012-genprog.pdf
+
+- title: "A Human Study of Patch Maintainability"
+  authors:
+    - name: Zachary P. Fry
+    - name: Bryan Landau
+    - name: Westley Weimer
+  venue: "ISSTA"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1145/2338965.2336775
+  tags:
+    - SBSE
+  urls:
+    - http://doi.acm.org/10.1145/2338965.2336775
+  pdfs:
+    - https://web.eecs.umich.edu/~weimerw/p/FryISSTA12_PREPRINT.pdf
 
 - title: "Genetic Improvement of Programs"
   authors:
@@ -3230,6 +4354,82 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2012_ASE.pdf
 
+- title: "Design Defects Detection and Correction by Example"
+  authors:
+    - name: Marouane Kessentini
+    - name: Wael Kessentini
+    - name: Houari Sahraoui
+    - name: Mounir Boukadoum
+    - name: Ali Ouni
+  venue: "19th IEEE International Conference on Program Comprehension (ICPC 2011)"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1109/ICPC.2011.22
+  tags:
+    - SBSE
+
+- title: "Towards an automatic design of non-cryptographic hash function"
+  authors:
+    - name: Jan Karasek
+    - name: Radim Burget
+    - name: Ondrej Morsky
+  venue: "34th International Conference on Telecommunications and Signal Processing (TSP 2011)"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1109/TSP.2011.6043785
+
+- title: "Genetic programming for shader simplification"
+  authors:
+    - name: Pitchaya Sitthi-amorn
+    - name: Nicholas Modly
+    - name: Westley Weimer
+    - name: Jason Lawrence
+  venue: "ACM Transactions on Graphics"
+  year: 2011
+  type: Journal
+  doi: https://doi.org/10.1145/2070781.2024186
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11.pdf
+    - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11_supp.pdf
+
+- title: "Evolving patches for software repair"
+  authors:
+    - name: Thomas Ackling
+    - name: Bradley Alexander
+    - name: Ian Grunert
+  venue: "GECCO"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1145/2001576.2001768
+  tags:
+    - SBSE
+
+- title: "Multi-objective optimization of dynamic memory managers using grammatical evolution"
+  authors:
+    - name: J. Manuel Colmenar
+    - name: Jose L. Risco-Martin
+    - name: David Atienza
+    - name: J. Ignacio Hidalgo
+  venue: "GECCO"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1145/2001576.2001820
+  tags:
+    - SBSE
+
+- title: "Scalability of the coevolutionary automated software correction system"
+  authors:
+    - name: Josh L. Wilkerson
+    - name: Daniel R. Tauritz
+  venue: "GECCO '11: Proceedings of the 13th annual conference companion on Genetic and evolutionary computation"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1145/2001858.2001995
+  tags:
+    - SBSE
+
 - title: "Evolutionary Improvement of Programs"
   authors:
     - name: David R. White
@@ -3244,6 +4444,224 @@
   pdfs:
     - http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/WhiteAC.pdf
 
+- title: "Flight of the FINCH through the Java Wilderness"
+  authors:
+    - name: Michael Orlov
+    - name: Moshe Sipper
+  venue: "IEEE TEVC"
+  year: 2011
+  type: Journal
+  doi: https://doi.org/10.1109/TEVC.2010.2052622
+  urls:
+    - https://drive.google.com/file/d/0B6G3tbmMcpR4bFVYbWRWVGlDN28/view
+
+- title: "Auto-tuning SkePU: A Multi-backend Skeleton Programming Framework for multi-GPU Systems"
+  authors:
+    - name: Usman Dastgeer
+    - name: Johan Enmyren
+    - name: Christoph W. Kessler
+  venue: "Proceedings of the 4th International Workshop on Multicore Software Engineering, IWMSE-2011"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1145/1984693.1984697
+  urls:
+    - http://doi.acm.org/10.1145/1984693.1984697
+
+- title: "Attribute Grammar Genetic Programming Algorithm for Automatic Code Parallelization"
+  authors:
+    - name: Daniel Howard
+    - name: Conor Ryan
+    - name: J. J. Collins
+  venue: "Proceedings of the 5th International Conference on Convergence and Hybrid Information Technology, ICHIT 2011"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-642-24082-9_31
+  tags:
+    - SBSE
+
+- title: "Automated Patching Techniques: The Fix Is In"
+  authors:
+    - name: Mark Harman
+  venue: "Communications of the ACM"
+  year: 2010
+  type: Journal
+  doi: https://doi.org/10.1145/1735223.1735248
+  tags:
+    - SBSE
+
+- title: "Automatic program repair with evolutionary computation"
+  authors:
+    - name: Westley Weimer
+    - name: Stephanie Forrest
+    - name: Claire Le Goues
+    - name: ThanhVu Nguyen
+  venue: "Communications of the ACM"
+  year: 2010
+  type: Journal
+  doi: https://doi.org/10.1145/1735223.1735249
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf
+
+- title: "Coevolutionary automated software correction"
+  authors:
+    - name: Josh L. Wilkerson
+    - name: Daniel Tauritz
+  venue: "GECCO"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1830483.1830739
+  tags:
+    - AI
+    - SBSE
+    - testing
+
+- title: "Designing better fitness functions for automated program repair"
+  authors:
+    - name: Ethan Fast
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "GECCO"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1830483.1830654
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/weimer-gecco2010-preprint.pdf
+
+- title: "Improving reliability of embedded systems through dynamic memory manager optimization using grammatical evolution"
+  authors:
+    - name: J. Manuel Colmenar
+    - name: Jose L. Risco-Martin
+    - name: David Atienza
+    - name: Oscar Garnica
+    - name: J. Ignacio Hidalgo
+    - name: Juan Lanchares
+  venue: "GECCO"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1830483.1830705
+  tags:
+    - SBSE
+
+- title: "FINCH: A System for Evolving Java (Bytecode)"
+  authors:
+    - name: Michael Orlov
+    - name: Moshe Sipper
+  venue: "Genetic Programming Theory and Practice VIII"
+  year: 2010
+  type: Collection
+  doi: https://doi.org/10.1007/978-1-4419-7747-2_1
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.6355
+    - http://www.springer.com/computer/ai/book/978-1-4419-7746-5
+  pdfs:
+    - http://www.cs.bgu.ac.il/~orlovm/papers/gptp.pdf
+
+- title: "A parallel evolutionary algorithm to optimize dynamic memory managers in embedded systems"
+  authors:
+    - name: Jose L. Risco-Martin
+    - name: David Atienza
+    - name: J. Manuel Colmenar
+    - name: Oscar Garnica
+  venue: "Parallel Computing"
+  year: 2010
+  type: Journal
+  doi: https://doi.org/10.1016/j.parco.2010.07.001
+  tags:
+    - SBSE
+  urls:
+    - http://www.sciencedirect.com/science/article/B6V12-50J9GPR-1/2/e049c72f4c9e284bd1c2bdbf7c09f3aa
+
+- title: "Why Haven't We Automated Programming"
+  authors:
+    - name: Robert Balzer
+  venue: "Proceedings of the FSE/SDP Workshop on Future of Software Engineering Research"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1882362.1882366
+  urls:
+    - http://doi.acm.org/10.1145/1882362.1882366
+
+- title: "Multiplicity computing: a vision of software engineering for next-generation computing platform applications"
+  authors:
+    - name: Cristian Cadar
+    - name: Peter Pietzuch
+    - name: Alexander L. Wolf
+  venue: "Proceedings of the FSE/SDP workshop on Future of software engineering research"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1882362.1882380
+  pdfs:
+    - http://www.doc.ic.ac.uk/~cristic/papers/multicomp-foser-10.pdf
+
+- title: "The case for software evolution"
+  authors:
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "Proceedings of the FSE/SDP workshop on Future of software engineering research, FoSER'10"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1882362.1882406
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/p205-legoues.pdf
+
+- title: "Automated Program Repair through the Evolution of Assembly Code"
+  authors:
+    - name: Eric Schulte
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "Proceedings of the IEEE/ACM International Conference on Automated Software Engineering"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1858996.1859059
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.cs.unm.edu/~eschulte/data/ase2010-asm-preprint.pdf
+
+- title: "Parisian Approach Reducing Computational Effort to Improve SMT Performance by setting Resizable Caches"
+  authors:
+    - name: Josefa Diaz
+    - name: Francisco Fernandez de Vega
+    - name: J. Ignacio Hidalgo
+    - name: Oscar Garnica
+  venue: "Proceedings of the International Conference on Evolutionary Computation (ICEC 2010)"
+  year: 2010
+  type: Conference
+  pdfs:
+    - http://www.robinbye.com/files/publications/ICEC_2010.pdf
+
+- title: "The Case for Evolvable Software"
+  authors:
+    - name: Stephanie Forrest
+  venue: "SPLASH"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1869459.1869539
+  urls:
+    - http://portal.acm.org/ft_gateway.cfm?id=1869539&type=pdf&CFID=114019259&CFTOKEN=22192943
+
+- title: "Automatic Repair of Concurrency Bugs"
+  authors:
+    - name: Jeremy S. Bradbury
+    - name: Kevin Jalbert
+  venue: "SSBSE"
+  year: 2010
+  type: Conference
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.ssbse.org/2010/fastabstracts/ssbse2010_fastabstract_04.pdf
+
 - title: "EvoCaches: Application-specific Adaptation of Cache Mappings"
   authors:
     - name: Paul Kaufmann
@@ -3253,6 +4671,120 @@
   year: 2009
   type: Conference
   doi: https://doi.org/10.1109/AHS.2009.26
+
+- title: "A genetic programming approach to automated software repair"
+  authors:
+    - name: Stephanie Forrest
+    - name: ThanhVu Nguyen
+    - name: Westley Weimer
+    - name: Claire Le Goues
+  venue: "GECCO"
+  year: 2009
+  type: Conference
+  doi: https://doi.org/10.1145/1569901.1570031
+  tags:
+    - testing
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.7651
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/weimer-gecco2009.pdf
+
+- title: "Improving SMT performance: an application of genetic algorithms to configure resizable caches"
+  authors:
+    - name: Josefa Diaz
+    - name: J. Ignacio Hidalgo
+    - name: Francisco Fernandez
+    - name: Oscar Garnica
+    - name: Sonia Lopez
+  venue: "GECCO"
+  year: 2009
+  type: Conference
+  doi: https://doi.org/10.1145/1570256.1570271
+
+- title: "Using Execution Paths to Evolve Software Patches"
+  authors:
+    - name: ThanhVu Nguyen
+    - name: Westley Weimer
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+  venue: "ICST"
+  year: 2009
+  type: Conference
+  doi: https://doi.org/10.1109/ICSTW.2009.35
+  tags:
+    - SBSE
+    - testing
+  pdfs:
+    - http://iaser.tek.bth.se/feldt/conferences/sbst09/papers/nguyen_sbst09.pdf
+
+- title: "Automatically Finding Patches Using Genetic Programming"
+  authors:
+    - name: Westley Weimer
+    - name: ThanhVu Nguyen
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+  venue: "International Conference on Software Engineering (ICSE) 2009"
+  year: 2009
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2009.5070536
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.8995
+  pdfs:
+    - http://www.cs.unm.edu/~tnguyen/papers/genprog.pdf
+    - http://www.cs.virginia.edu/~csl9q/docs/legoues-icse2009-genprog-preprint.pdf
+
+- title: "Correction of Logical Errors in C programs using Genetic Algorithm Techniques"
+  authors:
+    - name: Prakash Murali
+    - name: Atul Sandur
+    - name: Abhay Ashok Patil
+  venue: "International Journal of Recent Trends in Engineering (IJRTE)"
+  year: 2009
+  type: Journal
+  tags:
+    - SBSE
+  urls:
+    - http://www.iaeng.org/IMECS2009/doc/titles_A_C.html
+  pdfs:
+    - http://ijrte.academypublisher.com/vol01/no02/ijrte0102176178.pdf
+
+- title: "Co-evolutionary automated software correction: a proof of concept"
+  authors:
+    - name: Joshua Lee Wilkerson
+  venue: ""
+  year: 2008
+  tags:
+    - SBSE
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.304.6988
+    - http://hdl.handle.net/10355/27358
+  pdfs:
+    - http://scholarsmine.mst.edu/thesis/pdf/Wilkerson_09007dcc80642bb4.pdf
+
+- title: "Superblock scheduling using genetic programming for embedded systems"
+  authors:
+    - name: Anjali Mahajan
+    - name: M S Ali
+  venue: "7th IEEE International Conference on Cognitive Informatics, ICCI 2008"
+  year: 2008
+  type: Conference
+  doi: https://doi.org/10.1109/COGINF.2008.4639177
+
+- title: "Searching for resource-efficient programs: low-power pseudorandom number generators"
+  authors:
+    - name: David R. White
+    - name: John Clark
+    - name: Jeremy Jacob
+    - name: Simon M. Poulding
+  venue: "GECCO"
+  year: 2008
+  type: Conference
+  doi: https://doi.org/10.1145/1389095.1389437
+  tags:
+    - SBSE
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gecco2008/docs/p1775.pdf
+    - http://www.cs.york.ac.uk/~drw/rnggecco.pdf
 
 - title: "Evolutionary Software Improvement for Instruction Set Meta-evolution"
   authors:
@@ -3264,6 +4796,105 @@
   pdfs:
     - https://noexec.org/public/papers/wssec.pdf
     - https://www.cs.bgu.ac.il/~orlovm/papers/wssec.pdf
+
+- title: "Evolving hash functions by means of genetic programming"
+  authors:
+    - name: Cesar Estebanez
+    - name: Julio Cesar Hernandez-Castro
+    - name: Arturo Ribagorda
+    - name: Pedro Isasi
+  venue: "GECCO"
+  year: 2006
+  type: Conference
+  doi: https://doi.org/10.1145/1143997.1144300
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gecco2006/docs/p1861.pdf
+
+- title: "Finding State-of-the-Art Non-cryptographic Hashes with Genetic Programming"
+  authors:
+    - name: Cesar Estebanez
+    - name: Julio Cesar Hernandez-Castro
+    - name: Arturo Ribagorda
+    - name: Pedro Isasi
+  venue: "Parallel Problem Solving from Nature - PPSN IX"
+  year: 2006
+  type: Conference
+  doi: https://doi.org/10.1007/11844297_83
+
+- title: "GEVOSH: Using Grammatical Evolution to Generate Hashing Functions"
+  authors:
+    - name: Patrick Berarducci
+    - name: Demetrius Jordan
+    - name: David Martin
+    - name: Jennifer Seitzer
+  venue: "GECCO 2004 Workshop Proceedings"
+  year: 2004
+  type: Conference
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gecco2004/WUGW001.pdf
+
+- title: "GEVOSH: Using Grammatical Evolution to Generate Hashing Functions"
+  authors:
+    - name: Patrick Berarducci
+    - name: Demetrius Jordan
+    - name: David Martin
+    - name: Jennifer Seitzer
+  venue: "Proceedings of the Fifteenth Midwest Artificial Intelligence and Cognitive Sciences Conference, MAICS 2004"
+  year: 2004
+  type: Conference
+  pdfs:
+    - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.4612.pdf
+
+- title: "N-Version Genetic Programming: A Probabilistically Optimal Ensemble Approach"
+  authors:
+    - name: Kosuke Imamura
+  venue: ""
+  year: 2002
+  type: PhdThesis
+  urls:
+    - https://www.uidaho.edu/engr/departments/cs/research/theses
+    - http://search.proquest.com/docview/288080102
+
+- title: "Paragen - The first results"
+  authors:
+    - name: Conor Ryan
+    - name: Laur Ivan
+  venue: "EuroGP"
+  year: 2000
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-540-46239-2_26
+
+- title: "Evolutionary Techniques Applied to Hashing: An efficient data retrieval method"
+  authors:
+    - name: Daniar Hussain
+    - name: Steven Malliaris
+  venue: "GECCO"
+  year: 2000
+  type: Conference
+  urls:
+    - http://gpbib.cs.ucl.ac.uk/gecco2000/RW054.ps
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gecco2000/RW054.pdf
+
+- title: "Automatic Re-engineering of Software Using Genetic Programming"
+  authors:
+    - name: Conor Ryan
+  venue: ""
+  year: 1999
+  type: Book
+  tags:
+    - SBSE
+  urls:
+    - http://www.amazon.com/exec/obidos/ASIN/0792386531/qid%3D943291341/102-9266197-5591202
+
+- title: "Automatic Parallelization of Arbitrary Programs"
+  authors:
+    - name: Conor Ryan
+    - name: Laur Ivan
+  venue: "EuroGP"
+  year: 1999
+  type: Conference
+  doi: https://doi.org/10.1007/3-540-48885-5_21
 
 - title: "Genetic Programming as an Explorative Tool in Early Software Development Phases"
   authors:
@@ -3288,6 +4919,17 @@
     - http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.265665
     - ftp://ftp.pets.reading.ac.uk/pub/cs/theses/PEDAL/williams98.ps.gz
 
+- title: "Generating Diverse Software Versions with Genetic Programming: an Experimental Study"
+  authors:
+    - name: Robert Feldt
+  venue: "IEE Proceedings - Software Engineering"
+  year: 1998
+  type: Journal
+  doi: https://doi.org/10.1049/ip-sen:19982444
+  tags:
+    - SBSE
+    - testing
+
 - title: "Genetic compilers: A new technique for automatic parallelisation"
   authors:
     - name: Kenneth P. Williams
@@ -3298,6 +4940,20 @@
   urls:
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.3499
     - ftp://ftp.pets.rdg.ac.uk/pub/cs/papers/PEDAL/esppe96.ps.gz
+
+- title: "Paragen: A Novel Technique for the Autoparallelisation of Sequential Programs using Genetic Programming"
+  authors:
+    - name: Paul Walsh
+    - name: Conor Ryan
+  venue: "Genetic Programming 1996: Proceedings of the First Annual Conference"
+  year: 1996
+  type: Conference
+  tags:
+    - SBSE
+  urls:
+    - http://cognet.mit.edu/library/books/view?isbn=0262611279
+  pdfs:
+    - http://cognet.mit.edu/sites/default/files/books/9780262315876/pdfs/9780262315876_chap56.pdf
 
 - title: "Automatic conversion of programs from serial to parallel using Genetic Programming - The Paragen System"
   authors:
@@ -3311,6 +4967,25 @@
     - https://core.ac.uk/display/22182162
   pdfs:
     - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.1301.pdf
+
+- title: "The Programmer's Apprentice"
+  authors:
+    - name: Charles Rich
+    - name: Richard C. Waters
+  venue: "Computer"
+  year: 1988
+  type: Journal
+  doi: https://doi.org/10.1109/2.86782
+  urls:
+    - http://ieeexplore.ieee.org/iel1/2/2826/00086782.pdf?isNumber=2826
+
+- title: "A 15 Year Perspective on Automatic Programming"
+  authors:
+    - name: Robert Balzer
+  venue: "IEEE TSE"
+  year: 1985
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.1985.231877
 
 - title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
