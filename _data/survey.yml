@@ -59,6 +59,8 @@
   tags:
     - GISMO
     - SBSE
+  urls:
+    - https://youtu.be/Ycx89TpxGMA
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24061.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_cec.pdf
@@ -107,6 +109,7 @@
     - SBSE
   urls:
     - https://2020.esec-fse.org/details/fse-2020-papers/114/Biases-and-Differences-in-Code-Review-using-Medical-Imaging-and-Eye-Tracking-Genders
+    - https://youtu.be/Z_fKVMkd2Dk
   pdfs:
     - http://www-personal.umich.edu/~yhhy/index_files/bias_code_review_FSE20.pdf
 
@@ -123,6 +126,7 @@
     - SBSE
   urls:
     - https://2020.esec-fse.org/details/fse-2020-papers/184/Evolutionary-Improvement-of-Assertion-Oracles
+    - https://www.youtube.com/watch?v=-fZVT3FoFcE
 
 - title: "Automatically Evolving Lookup Tables for Function Approximation"
   authors:
@@ -273,6 +277,8 @@
   doi: https://doi.org/10.1145/3377929.3398110
   tags:
     - SBSE
+  urls:
+    - https://youtu.be/-7G1Um57RrU
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_GI9.pdf
 
@@ -337,6 +343,8 @@
   doi: https://doi.org/10.1145/3387940.3392173
   tags:
     - SBSE
+  urls:
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
 
@@ -359,6 +367,8 @@
   tags:
     - SBSE
     - survey
+  urls:
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Winter_2020_GI.pdf
 
@@ -374,6 +384,8 @@
   tags:
     - APR
     - SBSE
+  urls:
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-1.pdf
 
@@ -388,6 +400,8 @@
   doi: https://doi.org/10.1145/3387940.3392175
   tags:
     - SBSE
+  urls:
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-2.pdf
 
@@ -403,6 +417,8 @@
   doi: https://doi.org/10.1145/3387940.3392172
   tags:
     - SBSE
+  urls:
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/krauss_towards_2020.pdf
 
@@ -431,6 +447,7 @@
     - testing
   urls:
     - https://research.fb.com/publications/wes-agent-based-user-interaction-simulation-on-real-infrastructure/
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf
 
@@ -459,6 +476,7 @@
   urls:
     - https://arxiv.org/abs/2007.15987
     - https://dl.acm.org/toc/sigsoft/2020/45/4
+    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020_discussion.pdf
 
@@ -473,6 +491,8 @@
   doi: https://doi.org/10.1007/978-3-030-59762-7_14
   tags:
     - SBSE
+  urls:
+    - https://www.youtube.com/watch?v=018oszfebqg
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
 
@@ -571,6 +591,7 @@
     - PyGGI
   urls:
     - https://esec-fse19.ut.ee/program/tool-demos/#
+    - https://youtu.be/PxRUdlRDS40
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/an_2019_fse.pdf
 
@@ -2079,6 +2100,8 @@
   tags:
     - SBSE
     - survey
+  urls:
+    - https://youtu.be/KVaji1pvd-0
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_GPEM.pdf
 
@@ -2205,6 +2228,7 @@
     - https://www.researchgate.net/publication/315381757_The_Use_of_Automatic_Test_Data_Generation_for_Genetic_Improvement_in_a_Live_System
     - http://www.human-competitive.org/sites/default/files/haraldsson-text.txt
     - http://dl.acm.org/citation.cfm?id=3105433&CFID=952099816&CFTOKEN=74048713
+    - http://crest.cs.ucl.ac.uk/cow/50/videos/haraldsson_cow50_480p.mp4
   pdfs:
     - https://www.researchgate.net/profile/Saemundur_Haraldsson/publication/315381757_The_Use_of_Automatic_Test_Data_Generation_for_Genetic_Improvement_in_a_Live_System/links/58d3abeda6fdccd24d4595d1/The-Use-of-Automatic-Test-Data-Generation-for-Genetic-Improvement-in-a-Live-System.pdf
     - http://www.human-competitive.org/sites/default/files/haraldsson-paper-1.pdf
@@ -3374,6 +3398,7 @@
     - SBSE
   urls:
     - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6733370
+    - http://youtu.be/Ut0qERy9yZQ
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2013_ieeeTEC.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bowtie2_supplementary.pdf
@@ -3772,6 +3797,9 @@
   year: 2014
   type: Conference
   doi: https://doi.org/10.1007/978-3-662-44303-3_8
+  urls:
+    - http://youtu.be/oax7CKp-_W4
+    - http://youtu.be/6TR04wuWjuM
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_EuroGP.pdf
 
@@ -4592,6 +4620,8 @@
   doi: https://doi.org/10.1109/TEVC.2010.2083669
   tags:
     - SBSE
+  urls:
+    - http://crest.cs.ucl.ac.uk/cow/50/videos/arcuri_cow50_480p.mp4
   pdfs:
     - http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/WhiteAC.pdf
 
@@ -5053,6 +5083,8 @@
   venue: "Proceedings of the 1st International Workshop on Soft Computing Applied to Software Engineering"
   year: 1999
   type: Conference
+  urls:
+    - http://crest.cs.ucl.ac.uk/cow/50/videos/feldt_cow50_480p.mp4
   pdfs:
     - http://drfeldt.googlepages.com/feldt_1999_gp_as_explorative_tool.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/scase_1999/feldt_1999_GPxtxsdp.pdf
