@@ -945,8 +945,6 @@
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3356773.3356801
-  urls:
-    - http://doi.acm.org/10.1145/3356773.3356801
 
 - title: "Big Data Driven Genetic Improvement for Maintenance of Legacy Software Systems"
   authors:
@@ -1327,7 +1325,7 @@
   year: 2018
   abstract: "Genetic improvement is a research field that aims to develop searchbased techniques for improving existing code. GI has been used to automatically repair bugs, reduce energy consumption, and to improve run-time performance. In this paper, we reflect on the often-overlooked relationship between GI and developers within the context of continually evolving software systems. We introduce a distinction between transparent and opaque patches based on intended lifespan and developer interaction. Finally, we outline a Turing test for assessing the ability of a GI system to produce opaque patches that are acceptable to humans. This motivates research into the role GI systems will play in transparent development contexts."
   type: Workshop
-  doi: http://dx.doi.org/10.1145/3194810.3194817
+  doi: https://doi.org/10.1145/3194810.3194817
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Timperley_2018_GI.pdf
 
@@ -1470,7 +1468,7 @@
   venue: "IEEE TEVC"
   year: 2018
   type: Journal
-  doi: http://dx.doi.org/doi:10.1109/TEVC.2017.2693219
+  doi: https://doi.org/10.1109/TEVC.2017.2693219
   tags:
     - survey
   pdfs:
@@ -1786,8 +1784,6 @@
   doi: https://doi.org/10.1145/3106237.3106309
   tags:
     - APR
-  urls:
-    - http://doi.acm.org/10.1145/3106237.3106309
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
 
@@ -1880,8 +1876,6 @@
   doi: https://doi.org/10.1145/3067695.3082540
   tags:
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/3067695.3082540
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
 
@@ -1897,8 +1891,6 @@
   year: 2017
   type: Conference
   doi: https://doi.org/10.1145/3071178.3071196
-  urls:
-    - http://doi.acm.org/10.1145/3071178.3071196
 
 - title: "Empirical Evaluation of Conditional Operators in GP Based Fault Localization"
   authors:
@@ -1909,8 +1901,6 @@
   year: 2017
   type: Conference
   doi: https://doi.org/10.1145/3071178.3071263
-  urls:
-    - http://doi.acm.org/10.1145/3071178.3071263
 
 - title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
   authors:
@@ -1948,8 +1938,6 @@
   abstract: "This paper proposes to explore the following question: can software evolution systems like FINCH, that evolve linear representations originating from a higher-level structural language, take advantage of building blocks inherent to that original language?"
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082521
-  urls:
-    - http://doi.acm.org/10.1145/3067695.3082521
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/orlov2017_finch.pdf
     - https://noexec.org/public/papers/finch-tree.pdf
@@ -1993,7 +1981,7 @@
   year: 2017
   abstract: "We describe a small, simple, and lightweight micro-framework for the Genetic Improvement of Java code. We call the framework GI in no time, or Gin. Gin is designed to be a straightforward, hackable, GI tool for Java. It currently lacks large features found in comparable program repair tools, but nonetheless it is capable of performing optimisation of a Java class via local search. We hope that providing this contribution will encourage researchers to collaborate on GI tool development, whilst lowering the barrier to entry for those interested in experimenting with GI. It is intended to serve both as a tool kit to be extended, and also an example of how GI can be implemented. We discuss some of the design principles behind Gin, and outline observations made during its development."
   type: Workshop
-  doi: http://dx.doi.org/doi:10.1145/3067695.3082515
+  doi: https://doi.org/10.1145/3067695.3082515
   tags:
     - SBSE
   pdfs:
@@ -2043,8 +2031,6 @@
   abstract: "RNAfold predicts the secondary structure of RNA molecules from their base sequence. We apply a mixture of manual and automated genetic improvements to RNAfold's C source code. GI gives a 1.6 percent improvement to parallel SSE4.1 code. The automatic programming evolutionary system has access to Intel library code and previous revisions. On 4666 curated structures from RNA_STRAND, GGGP gives a combined average speed up of 31.9 percent, with no loss of accuracy."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082524
-  urls:
-    - http://doi.acm.org/10.1145/3067695.3082524
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2017_GI.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/langdon2017_parallel_code.pdf
@@ -2456,7 +2442,7 @@
   venue: "Applied Intelligence"
   year: 2016
   type: Journal
-  doi: http://dx.doi.org/10.1007/s10489-016-0804-0
+  doi: https://doi.org/10.1007/s10489-016-0804-0
 
 - title: "Towards Automated Strategies in Satisfiability Modulo Theory"
   authors:
@@ -3112,8 +3098,6 @@
     - AI
     - SBSE
     - testing
-  urls:
-    - http://doi.acm.org/10.1145/2739480.2754652
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_GECCO.pdf
 
@@ -3128,8 +3112,6 @@
   doi: https://doi.org/10.1145/2739480.2754752
   tags:
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/2739480.2754752
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Bruce_2015_GECCO.pdf
 
@@ -3146,8 +3128,6 @@
   abstract: "We discuss the useful role that can be played by a subtype of improvement programming, which we term Embedded Dynamic Improvement. In this approach, developer-specified variation points define the scope of improvement. A search framework is embedded at these variation points, facilitating the creation of adaptive software that can respond online to changes in its execution environment."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768423
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768423
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/embedded_dynamic_improvement.pdf
 
@@ -3160,8 +3140,6 @@
   abstract: "ECSELR is an ecologically-inspired approach to software evolution that enables environmentally driven evolution at runtime in extant software systems without relying on any offline components or management. ECSELR embeds adaptation and evolution inside the target software system enabling the system to transform itself via Darwinian evolutionary mechanisms and adapt in a self contained manner. This allows the software system to benefit autonomously from the useful emergent byproducts of evolution like adaptivity and bio-diversity, avoiding the problems involved in engineering and maintaining such properties. ECSELR enables software systems to address changing environments at run time, ensuring benefits like mitigation of attacks and memory-optimisation among others while avoiding time consuming and costly maintenance and downtime. ECSELR differs from existing work in that, 1) adaptation is embedded in the target system, 2) evolution and adaptation happens online (i.e. in-situ at runtime) and 3) ECSELR is able to embed adaptation inside systems that have already been started and are in the midst of execution. We demonstrate the use of ECSELR and present results on using the ECSELR framework to slim a software system."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768425
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768425
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/embedding_adaptivity_in_software_systems_using-the_eselr_framework.pdf
     - http://diversify-project.eu/papers/Yeboah15.pdf
@@ -3176,8 +3154,6 @@
   doi: https://doi.org/10.1145/2739482.2768420
   tags:
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768420
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/energy_optimisation_via_genetic_improvement.pdf
 
@@ -3191,8 +3167,6 @@
   abstract: "This paper deals with genetic programming-based improvement of non-functional properties of programs intended for low-cost microcontrollers. As the objective is to significantly reduce power consumption and execution time, the approximate computing scenario is considered in which occasional errors in results are acceptable. The method is based on Cartesian genetic programming and evaluated in the task of approximation of 9-input and 25-input median function. Resulting approximations show a significant improvement in the execution time and power consumption with respect to the accurate median function while the observed errors are moderate."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768416
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768416
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/evolutionary_approximation_of_software_for_embedded_systems_median_function.pdf
 
@@ -3216,8 +3190,6 @@
   abstract: "Genetic improvement (GI) has been successfully used to optimise non-functional properties of software, such as execution time, by automatically manipulating program's source code. Measurement of non-functional properties, however, is a non-trivial task; energy consumption, for instance, is highly dependant on the hardware used. Therefore, we propose the GI4GI framework (and two illustrative applications). GI4GI first applies GI to improve the fitness function for the particular environment within which software is subsequently optimised using traditional GI."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768415
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768415
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/giforgi.pdf
 
@@ -3247,8 +3219,6 @@
   abstract: "Software Product Lines (SPLs) are families of related software systems that provide different combinations of features. Extensive research and application attest to the significant economical and technological benefits of employing SPL practices. However, there are still several challenges that remain open. Salient among them is reverse engineering SPLs from existing variants of software systems and their subsequent evolution. In this paper, we aim at sketching connections between research on these open SPL challenges and ongoing work on Genetic Improvement. Our hope is that by drawing such connections we can spark the interest of both research communities on the exciting synergies at the intersection of these subject areas."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768422
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768422
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/genetic_improvement_for_software_product_lines-an_overview_and_a_roadmap.pdf
 
@@ -3275,8 +3245,6 @@
   abstract: "This paper presents a brief outline of a higher-order mutation based framework for Genetic Improvement (GI). We argue that search-based higher-order mutation testing can be used to implement a form of genetic programming (GP) to increase the search granularity and testability of GI."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768417
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768417
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/genetic_improvement_using_higher_order_mutation.pdf
 
@@ -3292,8 +3260,6 @@
   tags:
     - AI
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768418
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/grow_and_graft_a_better_CUDA_pknotsRG-for-RNA_pseudoknot_free_energy_calculation.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_gi_pknots.pdf
@@ -3308,8 +3274,6 @@
   abstract: "We would all benefit if software were slimmer, thinner, and generally only did what we needed and nothing more. To this end, our research team has been exploring methods for removing unused and undesirable features from compiled programs. Our primary goal is to improve software security by removing rarely used features in order to decrease a program's attack surface. This paper describes two different approaches for thinning binary programs. The first approach removes specific program features using dynamic tracing as a guide. This approach is relatively safe, but is only capable of removing code which is reachable in a trace when an undesirable feature is enabled. The second approach uses a genetic algorithm (GA) to mutate a program until a suitable variant is found. Our GA-based approach can potentially remove any code that is not strictly required for proper execution, but may break program semantics in unpredictable ways. We show results of these approaches on a toy program and real-world software and explore some of the implications for software security."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768424
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768424
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/removing_the_kitchen_sink_from_software.pdf
 
@@ -3323,8 +3287,6 @@
   abstract: "The speed with which newly discovered software vulnerabilities are patched is a critical factor in mitigating the harm caused by subsequent exploits. Unfortunately, software vendors are often slow or unwilling to patch vulnerabilities, especially in embedded systems which frequently have no mechanism for updating factory-installed firmware. The situation is particularly dire for commercial off the shelf (COTS) software users, who lack source code and are wholly dependent on patches released by the vendor. We propose a solution in which the vulnerabilities drive an automated evolutionary computation repair process capable of directly patching embedded systems firmware. Our approach does not require access to source code, regression tests, or any participation from the software vendor. Instead, we present an interactive evolutionary algorithm that searches for patches that resolve target vulnerabilities while relying heavily on post-evolution difference minimisation to remove most regressions. Extensions to prior work in evolutionary program repair include: repairing vulnerabilities in COTS router firmware; handling stripped MIPS executable; operating without fault localisation information; operating without a regression test suite; and incorporating user interaction into the evolutionary repair process. We demonstrate this method by repairing two well-known vulnerabilities in version 4 of NETGEAR's WNDR3700 wireless router before NETGEAR released patches publicly for the vulnerabilities. Without fault localisation we are able to find repair edits that are not located on execution traces. Without the advantage of regression tests to guide the search, we find that 80percent of repairs of the example vulnerabilities retain program functionality after minimisation. With minimal user interaction to demonstrate required functionality, 100percent of the proposed repairs were able to address the vulnerabilities while retaining required functionality."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768427
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768427
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/W.Langdon/gecco2015/Schulte_2015_gi.pdf
 
@@ -3337,8 +3299,6 @@
   abstract: "We re-examine the central motivation behind Genetic Improvement Programming (GIP), and argue that the most important insight is the concept of applying Genetic Programming to existing software. This viewpoint allows us to make several observations about potential directions for GIP research"
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768426
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768426
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/rethinking_gi.pdf
 
@@ -3352,8 +3312,6 @@
   abstract: "We present locoGP, a Genetic Programming (GP) system written in Java for evolving Java source code. locoGP was designed to improve the performance of programs as measured in the number of operations executed. Variable test cases are used to maintain functional correctness during evolution. The operation of locoGP is demonstrated on a number of typically constructed off-the-shelf hand-written implementations of sort and prefix-code programs. locoGP was able to find improvement opportunities in all test problems."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768419
-  urls:
-    - http://doi.acm.org/10.1145/2739482.2768419
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/locoGP_improving_performance_by_genetic_programming_java_source_code.pdf
 
@@ -3440,7 +3398,7 @@
   venue: "Proceedings of the 10th International Conference on Knowledge Management in Organizations, KMO 2015"
   year: 2015
   type: Conference
-  doi: http://dx.doi.org/10.1007/978-3-319-21009-4_20
+  doi: https://doi.org/10.1007/978-3-319-21009-4_20
   tags:
     - testing
 
@@ -3454,8 +3412,6 @@
   year: 2015
   type: Conference
   doi: https://doi.org/10.1145/2818302.2818309
-  urls:
-    - http://doi.acm.org/10.1145/2818302.2818309
 
 - title: "SASS: Self-adaptation using stochastic search"
   authors:
@@ -3580,8 +3536,6 @@
   year: 2015
   type: Journal
   doi: https://doi.org/10.1145/2746519
-  urls:
-    - http://doi.acm.org/10.1145/2746519
 
 - title: "Code 'transplant' could revolutionise programming"
   authors:
@@ -3696,9 +3650,7 @@
   venue: "ASPLOS"
   year: 2014
   type: Conference
-  doi: https://doi.org/10.1145/2541940.2541980
-  urls:
-    - http://doi.acm.org/10.1145/2654822.2541980
+  doi: https://doi.org/10.1145/2654822.2541980
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/schulte-asplos2014.pdf
 
@@ -3786,8 +3738,6 @@
   doi: https://doi.org/10.1145/2598394.2609874
   tags:
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/2598394.2609874
 
 - title: "Genetically Improved CUDA C++ Software"
   authors:
@@ -3831,8 +3781,6 @@
   tags:
     - AI
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/2576768.2598244
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_GECCO.pdf
 
@@ -3879,7 +3827,6 @@
     - SBSE
   urls:
     - https://hal.archives-ouvertes.fr/hal-00938855/document
-    - http://doi.acm.org/10.1145/2610384.2610415
 
 - title: "Java evolutionary framework based on genetic programming"
   authors:
@@ -4211,8 +4158,6 @@
   year: 2013
   type: Workshop
   doi: https://doi.org/10.1145/2458523.2458530
-  urls:
-    - http://doi.acm.org/10.1145/2458523.2458530
 
 - title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
   authors:
@@ -4236,7 +4181,7 @@
   venue: "Proceedings of the 15th International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS 2013)"
   year: 2013
   type: Conference
-  doi: http://dx.doi.org/10.1007/978-3-319-03089-0_33
+  doi: https://doi.org/10.1007/978-3-319-03089-0_33
   tags:
     - SBSE
 
@@ -4262,7 +4207,7 @@
   venue: "Proceedings of the 9th International Haifa Verification Conference (HVC 2013)"
   year: 2013
   type: Conference
-  doi: http://dx.doi.org/10.1007/978-3-319-03077-7_17
+  doi: https://doi.org/10.1007/978-3-319-03077-7_17
   tags:
     - SBSE
 
@@ -4313,7 +4258,7 @@
   venue: "Software Quality Journal"
   year: 2013
   type: Journal
-  doi: http://dx.doi.org/10.1007/s11219-013-9208-0
+  doi: https://doi.org/10.1007/s11219-013-9208-0
   tags:
     - APR
     - SBSE
@@ -4498,8 +4443,6 @@
   doi: https://doi.org/10.1145/2338965.2336775
   tags:
     - SBSE
-  urls:
-    - http://doi.acm.org/10.1145/2338965.2336775
   pdfs:
     - https://web.eecs.umich.edu/~weimerw/p/FryISSTA12_PREPRINT.pdf
 
@@ -4645,8 +4588,6 @@
   year: 2011
   type: Conference
   doi: https://doi.org/10.1145/1984693.1984697
-  urls:
-    - http://doi.acm.org/10.1145/1984693.1984697
 
 - title: "Attribute Grammar Genetic Programming Algorithm for Automatic Code Parallelization"
   authors:
@@ -4764,8 +4705,6 @@
   year: 2010
   type: Conference
   doi: https://doi.org/10.1145/1882362.1882366
-  urls:
-    - http://doi.acm.org/10.1145/1882362.1882366
 
 - title: "Multiplicity computing: a vision of software engineering for next-generation computing platform applications"
   authors:
