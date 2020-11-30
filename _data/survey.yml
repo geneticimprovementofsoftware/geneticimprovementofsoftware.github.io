@@ -1645,7 +1645,7 @@
   venue: ""
   year: 2017
   type: TechReport
-  urls:
+  pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_17_01.PDF
 
 - title: "Automated Improvement of Software Design by Search-Based Refactoring"
