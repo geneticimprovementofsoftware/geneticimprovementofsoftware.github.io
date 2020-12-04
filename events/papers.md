@@ -60,8 +60,8 @@ Jump to papers from:{% for event in page.workshops %}
       <span class="badge badge-secondary" style="cursor: pointer;" onclick="$(this).parent().siblings('.collapse').toggle()">Abstract</span>
       <div class="card collapse"><div class="card-body text-justify">
         {{ entry.abstract }}
-      </div></div>
-    </p>{% endif %}
+      </div></div>{% endif %}
+    </p>
   </div>
   {% endfor %}
 
