@@ -28,6 +28,12 @@
   tags:
     - PyGGI
 
+- name: Sebastian Baltes
+  homepage: https://empirical-software.engineering/
+
+- name: Earl T. Barr
+  homepage: http://earlbarr.com/
+
 - name: Marcio Barros
   show: yes
   affil: UNIRIO University, Brazil
@@ -45,11 +51,17 @@
   tags:
     - PyGGI
 
+- name: Mahmoud A. Bokhari
+  aka:
+    - Mahmoud Bokhari
+  scholar: https://scholar.google.com/citations?user=1eJ9Ld8AAAAJ
+
 - name: Sandy Brownlee
   aka:
     - Alexander Brownlee
     - Alexander E.I. Brownlee
     - Alexander E. I. Brownlee
+    - Alexander (Sandy) Brownlee
   show: yes
   affil: University of Stirling, United Kingdom
   homepage: http://www.cs.stir.ac.uk/~sbr/
@@ -67,8 +79,13 @@
   scholar: https://scholar.google.com/citations?user=CgxQ9ZIAAAAJ
   img: /profile_images/bobby_bruce.jpg
 
+- name: Aniko Ekart
+  homepage: https://www2.aston.ac.uk/eas/staff/a-z/dr-aniko-ekart
+  img: /profile_images/aniko_ekart.jpg
+
 - name: Stephanie Forrest
   homepage: https://forrest.biodesign.asu.edu/index.html
+  img: /profile_images/stephanie_forrest.jpg
 
 - name: Lea Kristin Gerling
   show: yes
@@ -97,6 +114,9 @@
   scholar: https://scholar.google.com/citations?hl=en&user=ZD8qxc0AAAAJ
   img: /profile_images/saemundur_haraldsson.jpg
 
+- name: Mark Harman
+  homepage: https://research.fb.com/people/harman-mark/
+
 - name: Yu Huang
   show: yes
   affil: University of Michigan, USA
@@ -104,6 +124,10 @@
   dblp: https://dblp.org/pid/39/6301-15.html
   scholar: https://scholar.google.com/citations?user=ngLMhbIAAAAJ
   img: /profile_images/yu_huang.jpg
+
+- name: Ciera Jaspan
+  homepage: https://research.google.com/pubs/CieraJaspan.html
+  img: /profile_images/ciera_jaspan.jpg
 
 - name: Colin Johnson
   aka:
@@ -118,6 +142,9 @@
 - name: Oliver Krauss
   homepage: https://research.fh-ooe.at/en/staff/25755
 
+- name: Jens Krinke
+  homepage: http://www0.cs.ucl.ac.uk/staff/j.krinke/
+
 - name: Bill Langdon
   aka:
     - W. B. Langdon
@@ -127,7 +154,7 @@
   affil: UCL, United Kingdom
   homepage: http://www0.cs.ucl.ac.uk/staff/W.Langdon/
   dblp: https://dblp.uni-trier.de/pid/l/WilliamBLangdon.html
-  scholar: https://scholar.google.fr/citations?user=O5cSyYMAAAAJ&hl=en
+  scholar: https://scholar.google.fr/citations?user=O5cSyYMAAAAJ
   img: /profile_images/bill_langdon.jpg
 
 - name: Bach Le
@@ -138,6 +165,9 @@
   scholar: https://scholar.google.com/citations?hl=en&user=AUJWzE8AAAAJ
   img: /profile_images/bach_le.jpg
 
+- name: Mohsen Mosayebi
+  homepage: https://www.linkedin.com/in/mohsen-mosayebi-276485177/
+
 - name: ThanhVu Nguyen
   show: yes
   affil: University of Nebraska-Lincoln, USA
@@ -146,16 +176,27 @@
   scholar: https://scholar.google.com/citations?hl=en&user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
 
+- name: Corina Pasareanu
+  homepage: https://ti.arc.nasa.gov/profile/pcorina/
+  img: /profile_images/corina_pasareanu.jpg
+
 - name: Justyna Petke
   show: yes
   affil: UCL, United Kingdom
   homepage: http://www0.cs.ucl.ac.uk/staff/J.Petke/
   dblp: https://dblp.uni-trier.de/pid/23/8779.html
-  scholar: https://scholar.google.fr/citations?user=a6kdFxIAAAAJ&hl=en
+  scholar: https://scholar.google.fr/citations?user=a6kdFxIAAAAJ
   img: /profile_images/justyna_petke.jpg
   tags:
     - PyGGI
     - Gin
+
+- name: Brittany Reid
+  scholar: https://scholar.google.com/citations?user=biWKuMUAAAAJ
+
+- name: Abhik Roychoudhury
+  homepage: http://www.comp.nus.edu.sg/~abhik/
+  img: /profile_images/abhik_roychoudhury.jpg
 
 - name: Eric Schulte
   show: yes
@@ -173,16 +214,27 @@
   scholar: https://scholar.google.com/citations?hl=en&user=BAPCssIAAAAJ
   img: /profile_images/marija_selakovic.jpg
 
+- name: Manbir Sodhi
+  homepage: https://web.uri.edu/engineering/meet/msodhi/
+
+- name: Shin Hwei Tan
+  homepage: https://www.shinhwei.com
+  img: /profile_images/shin_hwei_tan.jpg
+
 - name: Christopher Timperley
   aka:
     - Chris Timperley
     - Christopher S. Timperley
+    - Christopher Steven Timperley
   show: yes
   affil: Carnegie Mellon University, USA
   homepage: http://www.christimperley.co.uk/
   dblp: https://dblp.uni-trier.de/pid/205/1113.html
   scholar: https://scholar.google.com/citations?hl=en&user=btEn24cAAAAJ
   img: /profile_images/christopher_timperley.jpg
+
+- name: Christoph Treude
+  homepage: https://ctreude.ca/
 
 - name: Leonardo Trujillo
   show: yes
@@ -191,6 +243,10 @@
   dblp: https://dblp.uni-trier.de/pid/62/1755.html
   scholar: https://scholar.google.com/citations?hl=en&user=xXh3xRYAAAAJ
   img: /profile_images/leonardo_trujillo.jpg
+
+- name: Emamurho Ugherughe
+  homepage: https://www.linkedin.com/in/emamurho
+  img: /profile_images/emamurho_ugherughe.jpg
 
 - name: Markus Wagner
   show: yes
@@ -211,7 +267,10 @@
   img: /profile_images/westley_weimer.jpg
 
 - name: David R. White
+  aka:
+    - David White
   homepage: https://davidrwhite.co.uk/
+  img: /profile_images/david_white.jpg
 
 - name: John Woodward
   aka:
@@ -231,12 +290,16 @@
   scholar: https://scholar.google.com/citations?hl=en&user=G3xi5UkAAAAJ
   img: /profile_images/jifeng_xuan.jpg
 
+- name: Bing Xue
+  homepage: https://people.wgtn.ac.nz/Bing.Xue
+  img: /profile_images/bing_xue.jpg
+
 - name: Shin Yoo
   show: yes
   affil: KAIST, Korea
   homepage: https://coinse.kaist.ac.kr/members/shin.yoo/
   dblp: https://dblp.uni-trier.de/pid/06/1626.html
-  scholar: https://scholar.google.fr/citations?user=W9ymXf4AAAAJ&hl=en
+  scholar: https://scholar.google.fr/citations?user=W9ymXf4AAAAJ
   img: /profile_images/shin_yoo.jpg
   tags:
     - PyGGI
@@ -248,3 +311,11 @@
   dblp: https://dblp.org/pid/64/5845-4.html
   scholar: https://scholar.google.com/citations?user=ygShHQUAAAAJ
   img: /profile_images/yuan_yuan.jpg
+
+- name: Ling Zhu
+  homepage: https://linkedin.com/in/ling-zhu-a8098b15
+  img: /profile_images/ling_zhu.jpg
+
+- name: Nur Zincir-Heywood
+  homepage: http://www.cs.dal.ca/~zincir
+  img: /profile_images/nur_zincir_heywood.jpg
