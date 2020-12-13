@@ -1,3 +1,22 @@
+- name: Ayaz Akram
+  homepage: https://ayaz91.github.io/
+  img: /profile_images/ayaz_akram.jpg
+
+- name: Afnan AlSubaihin
+  homepage: https://afnan.ws
+
+- name: Emily Winter
+  homepage: https://www.lancaster.ac.uk/people-profiles/emily-winter
+  img: /profile_images/emily_winter.jpg
+
+- name: Yuan Yuan
+  homepage: https://yyxhdy.github.io
+  img: /profile_images/yuan_yuan.jpg
+
+- name: Erik Fredericks
+  homepage: http://efredericks.net/
+  img: /profile_images/erik_fredericks
+
 - name: Brad Alexander
   aka:
     - Bradley Alexander
@@ -201,7 +220,7 @@
 - name: Eric Schulte
   show: yes
   affil: GrammaTech, USA
-  homepage: https://www.cs.unm.edu/~eschulte/
+  homepage: https://eschulte.github.io/
   dblp: https://dblp.uni-trier.de/pid/32/8523.html
   scholar: https://dblp.org/pid/32/8523.html
   img: /profile_images/eric_schulte.jpg
@@ -238,11 +257,11 @@
 
 - name: Leonardo Trujillo
   show: yes
-  affil: Instituto Tecnológico de Tijuana, Mexico
-  homepage: https://sites.google.com/site/leonardotrujillogp/
+  affil: Instituto Tecnológico de Tijuana de Mexico/IT de Tijuana
+  homepage: https://dcitectijuana.mx/
   dblp: https://dblp.uni-trier.de/pid/62/1755.html
   scholar: https://scholar.google.com/citations?hl=en&user=xXh3xRYAAAAJ
-  img: /profile_images/leonardo_trujillo.jpg
+  img: /profile_images/leonardo_trujillo.png
 
 - name: Emamurho Ugherughe
   homepage: https://www.linkedin.com/in/emamurho
