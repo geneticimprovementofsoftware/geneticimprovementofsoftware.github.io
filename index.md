@@ -27,6 +27,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 ## News
 
+* GI workshop deadline has been extended to Janaury, 19th, AoE.
 * <span class="badge badge-primary">NEW</span> We are happy to announce that the 10th edition of the International Workshop on Genetic Improvement will take place at [ICSE 2021](https://conf.researchr.org/home/icse-2021).
 * There was a [GI tutorial at ASE 2020]({{ "/events/ase2020" | relative_url }}).
 * There was a [tutorial on Genetic Improvement](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) at PPSN 2020. [Slides can be obtained here](./slides/PPSN2020_GItutorial.pdf).
