@@ -18,10 +18,13 @@ p {
 
 ## 2020
 
-**Tutorial on Genetic improvement ([ASE 2020](https://conf.researchr.org/home/ase-2020))**
+**Tutorial on Genetic Improvement ([ASE 2020](https://conf.researchr.org/home/ase-2020))**
 - [<i class="fa fa-link"></i> Event page]({{"/events/ase2020" | relative_url }})
 
-**Tutorial on Genetic improvement ([PPSN 2020](https://ppsn2020.liacs.leidenuniv.nl))**
+**Tutorial on Genetic Improvement ([GECCO 2020](https://gecco-2020.sigevo.org/))**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://gecco-2020.sigevo.org/index.html/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20genetic%20programming.)
+
+**Tutorial on Genetic Improvement ([PPSN 2020](https://ppsn2020.liacs.leidenuniv.nl))**
 - [<i class="fa fa-file-pdf"></i> Slides]({{"/slides/PPSN2020_GItutorial.pdf" | relative_url }})
 
 **Special session on Genetic Improvement ([WCCI 2020](https://wcci2020.org/))**
@@ -54,6 +57,9 @@ p {
 - [<i class="ai ai-doi"></i> Discussions](https://doi.org/10.1145/3356773.3356801) ([<i class="ai ai-arxiv"></i> ArXiV](http://arxiv.org/abs/1907.03773))
 
 ## 2018
+
+**Dagstuhl Seminar 18052 on Genetic Improvement of Software**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052)
 
 **5th International Workshop on Genetic Improvement (GI@[GECCO 2018](http://gecco-2018.sigevo.org/index.html/tiki-index.html))**
 - [<i class="fa fa-external-link-alt"></i> Event page](http://www.cs.stir.ac.uk/events/gecco-gi-2018)
