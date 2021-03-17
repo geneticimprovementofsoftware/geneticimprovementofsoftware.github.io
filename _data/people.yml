@@ -1,3 +1,6 @@
+- name: Jason Adair
+  homepage: http://www.cs.stir.ac.uk/~jad/
+
 - name: Ayaz Akram
   homepage: https://ayaz91.github.io/
   img: /profile_images/ayaz_akram.jpg
@@ -17,6 +20,9 @@
 - name: Mohamoud Bokari
   homepage: https://www.researchgate.net/profile/Mahmoud_Bokhari
   img: /profile_images/mohamoud_bokari.jpg
+
+- name: Hammad Ahmad
+  homepage: http://www-personal.umich.edu/~hammada/
 
 - name: Brad Alexander
   aka:
@@ -62,6 +68,9 @@
   scholar: http://scholar.google.com/citations?user=GvmSuw8AAAAJ
   img: /profile_images/marcio_barros.jpg
 
+- name: Alexandre Bergel
+  homepage: http://bergel.eu/
+
 - name: Aymeric Blot
   show: yes
   affil: UCL, United Kingdom
@@ -99,9 +108,27 @@
   scholar: https://scholar.google.com/citations?user=CgxQ9ZIAAAAJ
   img: /profile_images/bobby_bruce.jpg
 
+- name: James Callan
+  homepage: https://www.linkedin.com/in/james-callan-a79300135/
+
+- name: John Clark
+  homepage: https://www.sheffield.ac.uk/dcs/people/academic/john-clark
+
+- name: Myra B. Cohen
+  homepage: https://web.cs.iastate.edu/~mcohen/
+
+- name: Byron DeVries
+  homepage: http://www.byrondevries.com/
+
+- name: Ryan Dougherty
+  homepage: https://www.westpoint.edu/electrical-engineering-and-computer-science/profile/ryan_dougherty
+
 - name: Aniko Ekart
   homepage: https://www2.aston.ac.uk/eas/staff/a-z/dr-aniko-ekart
   img: /profile_images/aniko_ekart.jpg
+
+- name: Penelope Faulkner Rainford
+  homepage: https://faulknerrainford.co.uk/
 
 - name: Stephanie Forrest
   homepage: https://forrest.biodesign.asu.edu/index.html
@@ -114,6 +141,11 @@
   dblp: https://dblp.org/pid/169/9528.html
   scholar: https://scholar.google.com/citations?hl=en&user=Kj6H9-0AAAAJ
   img: /profile_images/lea_kristin_gerling_.jpg
+
+- name: Michael Gerten
+  aka:
+    - Michael C. Gerten
+  homepage: https://www.linkedin.com/in/michael-gerten-1b7747a5/
 
 - name: Tracy Hall
   show: yes
@@ -145,9 +177,15 @@
   scholar: https://scholar.google.com/citations?user=ngLMhbIAAAAJ
   img: /profile_images/yu_huang.jpg
 
+- name: John Jabbo
+  homepage: https://www.linkedin.com/in/jfjabbo/
+
 - name: Ciera Jaspan
   homepage: https://research.google.com/pubs/CieraJaspan.html
   img: /profile_images/ciera_jaspan.jpg
+
+- name: Xi Jiang
+  homepage: https://www.linkedin.com/in/xijiang2/
 
 - name: Colin Johnson
   aka:
@@ -177,6 +215,11 @@
   scholar: https://scholar.google.fr/citations?user=O5cSyYMAAAAJ
   img: /profile_images/bill_langdon.jpg
 
+- name: James Lathrop
+  aka:
+    - James I. Lathrop
+  homepage: http://web.cs.iastate.edu/~jil/
+
 - name: Bach Le
   show: yes
   affil: University of Melbourne, Australia
@@ -184,6 +227,9 @@
   dblp: https://dblp.org/pid/167/6015.html
   scholar: https://scholar.google.com/citations?hl=en&user=AUJWzE8AAAAJ
   img: /profile_images/bach_le.jpg
+
+- name: Ibrahim Mesecan
+  homepage: https://sites.google.com/site/imesecan/home
 
 - name: Mohsen Mosayebi
   homepage: https://www.linkedin.com/in/mohsen-mosayebi-276485177/
@@ -195,6 +241,9 @@
   dblp: https://dblp.org/pid/19/7057.html
   scholar: https://scholar.google.com/citations?hl=en&user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
+
+- name: George O'Brien
+  homepage: https://www.linkedin.com/in/george-o-brien-163a2610a/
 
 - name: Corina Pasareanu
   homepage: https://ti.arc.nasa.gov/profile/pcorina/
@@ -210,6 +259,9 @@
   tags:
     - PyGGI
     - Gin
+
+- name: Barry Porter
+  homepage: https://www.lancaster.ac.uk/scc/about-us/people/barry-porter
 
 - name: Brittany Reid
   scholar: https://scholar.google.com/citations?user=biWKuMUAAAAJ
@@ -233,6 +285,9 @@
   dblp: https://dblp.uni-trier.de/pid/167/0216.html
   scholar: https://scholar.google.com/citations?hl=en&user=BAPCssIAAAAJ
   img: /profile_images/marija_selakovic.jpg
+
+- name: Marta Smigielska
+  homepage: https://www.linkedin.com/in/marta-smigielska-959661145/
 
 - name: Manbir Sodhi
   homepage: https://web.uri.edu/engineering/meet/msodhi/
