@@ -2,6 +2,10 @@
 active: events
 
 workshops:
+- name: 10th International Workshop
+  venue: GI@ICSE
+  year: 2021
+  anchor: icse2021
 - name: 9th International Workshop
   venue: GI@GECCO
   year: 2020
