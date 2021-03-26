@@ -66,6 +66,8 @@
   year: 2021
   abstract: "Machine learning accounts for considerable global electricity demand and resulting environmental impact, as training a large deep-learning model produces 284 000kgs of the greenhouse gas carbon dioxide. In recent years, search-based approaches have begun to explore improving software to consume less energy. Machine learning is a particularly strong candidate for this because it is possible to trade off functionality (accuracy) against energy consumption, whereas with many programs functionality is simply a pass-or-fail constraint. We use a grid search to explore hyperparameter configurations for a multilayer perceptron on five classification data sets, considering trade-offs of classification accuracy against training or inference energy. On one data set, we show that 77 percent of energy consumption for inference can saved by reducing accuracy from 94.3 percent to 93.2 percent. Energy for training can also be reduced by 30-50 percent with minimal loss of accuracy. We also find that structural parameters like hidden layer size is a major driver of the energy-accuracy trade-off, but there is some evidence that non-structural hyperparameters influence the trade-off too. We also show that a search-based approach has the potential to identify these trade-offs more efficiently than the grid search."
   type: Workshop
+  pdfs:
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/brownlee_gi-icse_2021.pdf
 
 - title: "Generating Objected-Oriented Source Code Using Genetic Programming"
   authors:
