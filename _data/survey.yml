@@ -23,6 +23,10 @@
   year: 2021
   abstract: "Procedural story generation tailors a unique narrative experience for a player and can be accomplished via multiple techniques, from matching storylets to grammar-based generation. This paper describes a conceptual procedure for applying genetic improvement to a grammar-driven procedural narrative within the context of a browser-based game."
   type: Workshop
+  urls:
+    - https://arxiv.org/abs/2103.06935
+  pdfs:
+    - https://arxiv.org/pdf/2103.06935.pdf
 
 - title: "A Permutation Representation of Covering Arrays"
   authors:
@@ -86,6 +90,8 @@
   year: 2021
   abstract: "Genetic improvement for emergent software systems faces unique challenges due to its deployment in highly dynamic environments. In this paper we discuss four of those challenges along with our initial plans for new research."
   type: Workshop
+  pdfs:
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/rainford_gi-icse_2021.pdf
 
 - title: "Optimising SQL Queries Using Genetic Improvement"
   authors:
