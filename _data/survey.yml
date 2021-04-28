@@ -1,3 +1,19 @@
+- title: "Refining Fitness Functions for Search-Based Program Repair"
+  authors:
+    - name: Zhiqiang Bian
+    - name: Justyna Petke
+    - name: Aymeric Blot
+  venue: "APR@ICSE"
+  year: 2021
+  type: Workshop
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://github.com/SOLAR-group/apr2021artefact
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/bian_apr-icse_2021.pdf
+
 - title: "Evolving Reinforcement Learning Algorithms"
   authors:
     - name: John D. Co-Reyes
@@ -14,6 +30,8 @@
   urls:
     - https://arxiv.org/abs/2101.03958
     - https://slideslive.com/38941399/evolving-reinforcement-learning-algorithms
+  pdfs:
+    - https://arxiv.org/pdf/2101.03958.pdf
 
 - title: "(Genetically) Improving Novelty in Procedural Story Generation"
   authors:
@@ -21,7 +39,7 @@
     - name: Byron DeVries
   venue: "GI@ICSE"
   year: 2021
-  abstract: "Procedural story generation tailors a unique narrative experience for a player and can be accomplished via multiple techniques, from matching storylets to grammar-based generation. This paper describes a conceptual procedure for applying genetic improvement to a grammar-driven procedural narrative within the context of a browser-based game."
+  abstract: "Procedural story generation (PCG) tailors a unique narrative experience for a player and can be accomplished via multiple techniques, from matching storylets to grammar-based generation. There exists a rich opportunity for evolutionary algorithms to be applied to this domain for intelligently constructing game narratives. We describe a conceptual procedure for applying genetic improvement to a grammar-driven procedural narrative within the context of a browser-based game."
   type: Workshop
   urls:
     - https://arxiv.org/abs/2103.06935
@@ -79,8 +97,10 @@
     - name: Alexandre Bergel
   venue: "GI@ICSE"
   year: 2021
-  abstract: "Using machine learning to generate source code is an active and highly important research area. It has been shown that genetic programming (GP) efficiently contributes to software repair. However, most of the published advances on applying GP to generate source code are limited to the C programming language. This paper explores the use of genetic programming to generate objected oriented source code in a dynamically-typed setting. We found that GP is able to produce missing one-line statements with a precision of 51 percent. Our preliminary results contributes to the state of the art by indicating that GP may be effectively employed to generate source code for dynamically-typed object-oriented applications."
+  abstract: "using machine learning to generate source code is an active and highly important research area. In particular,it has been shown that genetic programming (GP) efficiently contributes to software repair. However, most of the published advances on applying GP to generate source code are limited to the C programming language, a statically-typed procedural language. As a consequence, applying GP to object-oriented and dynamically-typed languages may represent a significant opportunity. explores the use of genetic programming to generate objected-oriented source code in a dynamically-typed setting. We found that GP is able to produce missing one-line statements with a precision of 51 percent. Our preliminary results contributes to the state of the art by indicating that GP maybe effectively employed to generate source code for dynamically-typed object-oriented applications."
   type: Workshop
+  pdfs:
+    - http://bergel.eu/MyPapers/Illa21a-GP.pdf
 
 - title: "Open Challenges in Genetic Improvement for Emergent Software Systems"
   authors:
@@ -88,7 +108,7 @@
     - name: Barry Porter
   venue: "GI@ICSE"
   year: 2021
-  abstract: "Genetic improvement for emergent software systems faces unique challenges due to its deployment in highly dynamic environments. In this paper we discuss four of those challenges along with our initial plans for new research."
+  abstract: "Genetic improvement for emergent software systems faces unique challenges due to its deployment in highly dynamic environments. We discuss four of those challenges along with our initial plans for new research."
   type: Workshop
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/rainford_gi-icse_2021.pdf
@@ -124,10 +144,10 @@
   type: Workshop
   tags:
     - PyGGI
-  pdfs:
-    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/smigielska_gi-icse_2021.pdf
   urls:
     - https://github.com/SOLAR-group/gi2021artefact
+  pdfs:
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/smigielska_gi-icse_2021.pdf
 
 - title: "Using Genetic Improvement to Synthesise Quantum Programs on Differing Hardware"
   authors:
@@ -137,6 +157,39 @@
   year: 2021
   abstract: "Quantum computers are rapidly developing to a point where they can solve problems faster than any classical computation. As they're developed competing standards for languages, models and architectures are also being created. These standards are often bespoke and aimed at optimizing around a single algorithm or problem. This can make it very difficult to reuse these them should the original hardware become unavailable or obsolete. We demonstrate a method that can compile circuits more generally across hardware constraints with the use of a genetic improvement inspired search technique that includes a realistic model of the hardware. We show that this method is effective at selecting gates that can be more easily implemented and ran compared to generic optimization which reduces the total chance of failure. To ensure that these results are practical, empirical results are generated using different IBM hardware and a selection of real algorithms."
   type: Workshop
+
+- title: "A Novel Approach For Search-Based Program Repair"
+  authors:
+    - name: Leonardo Trujillo
+    - name: Omar M. Villanueva
+    - name: Daniel E. Hernandez
+  venue: "IEEE Software"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1109/MS.2021.3070552
+  tags:
+    - SBSE
+
+- title: "Rosita: Towards Automatic Elimination of Power-Analysis Leakage in Ciphers"
+  authors:
+    - name: Madura A. Shelton
+    - name: Niels Samwel
+    - name: Lejla Batina
+    - name: Francesco Regazzoni
+    - name: Markus Wagner
+    - name: Yuval Yarom
+  venue: "NDSS"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/0.14722/ndss.2021.23137
+  tags:
+    - SBSE
+  urls:
+    - https://arxiv.org/abs/1912.05183
+    - https://www.youtube.com/watch?v=yY-YQItFug8
+  pdfs:
+    - https://arxiv.org/pdf/1912.05183.pdf
+    - https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-3_23137_paper.pdf
 
 - title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
   authors:
@@ -163,6 +216,8 @@
   type: TechReport
   urls:
     - https://arxiv.org/abs/2001.04505
+  pdfs:
+    - https://arxiv.org/pdf/2001.04505.pdf
 
 - title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
   authors:
@@ -429,6 +484,7 @@
     - https://arxiv.org/abs/2004.08193
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp144s2-file1.pdf
+    - https://arxiv.org/pdf/2004.08193.pdf
 
 - title: "Evolving sqrt into 1/x via Software Data Maintenance"
   authors:
@@ -478,6 +534,7 @@
     - https://arxiv.org/abs/2004.07663
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp119s2-file1.pdf
+    - https://arxiv.org/pdf/2004.07663.pdf
 
 - title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
   authors:
@@ -651,6 +708,7 @@
     - https://dl.acm.org/toc/sigsoft/2020/45/4
     - https://youtu.be/GsNKCifm44A
   pdfs:
+    - https://arxiv.org/pdf/2007.15987.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020_discussion.pdf
 
 - title: "Impact of Test Suite Coverage on Overfitting in Genetic Improvement of Software"
@@ -722,6 +780,7 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/user_upload/RN-19-02.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2019_discussion.pdf
+    - https://arxiv.org/pdf/1907.03773.pdf
 
 - title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
   authors:
@@ -964,6 +1023,7 @@
   urls:
     - https://arxiv.org/abs/1905.02258
   pdfs:
+    - https://arxiv.org/pdf/1905.02258.pdf
     - https://ctreude.files.wordpress.com/2019/05/gi19.pdf
 
 - title: "Better Code Search and Reuse for Better Program Repair"
@@ -1075,6 +1135,8 @@
   doi: https://doi.org/10.1007/s10710-019-09355-3
   urls:
     - https://arxiv.org/abs/1901.02533
+  pdfs:
+    - https://arxiv.org/pdf/1901.02533.pdf
 
 - title: "An Evolutionary System for better automatic software repair"
   authors:
@@ -1363,6 +1425,8 @@
     - survey
   urls:
     - http://arxiv.org/abs/1807.00515
+  pdfs:
+    - http://arxiv.org/pdf/1807.00515.pdf
 
 - title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
@@ -1430,6 +1494,8 @@
     - SBSE
   urls:
     - https://arxiv.org/abs/1803.01683
+  pdfs:
+    - https://arxiv.org/pdf/1803.01683.pdf
 
 - title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
   authors:
@@ -1618,6 +1684,7 @@
     - https://arxiv.org/abs/1802.07608
   pdfs:
     - http://sei.pku.edu.cn/~xiongyf04/papers/GI18.pdf
+    - https://arxiv.org/pdf/1802.07608.pdf
 
 - title: "Neutrality and Epistasis in Program Space"
   authors:
@@ -1969,6 +2036,8 @@
   urls:
     - https://arxiv.org/abs/1712.07804
     - http://adsabs.harvard.edu/abs/2017arXiv171207804Y
+  pdfs:
+    - https://arxiv.org/pdf/1712.07804.pdf
 
 - title: "Darwinian Data Structure Selection"
   authors:
@@ -1985,6 +2054,8 @@
     - SBSE
   urls:
     - http://arxiv.org/abs/1706.03232
+  pdfs:
+    - http://arxiv.org/pdf/1706.03232.pdf
 
 - title: "Genetically Improved BarraCUDA"
   authors:
@@ -3144,6 +3215,7 @@
   urls:
     - http://arxiv.org/abs/arXiv:1505.07855
   pdfs:
+    - http://arxiv.org/pdf/arXiv:1505.07855.pdf
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn-15-03.pdf
 
 - title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
@@ -3236,6 +3308,8 @@
     - SBSE
   urls:
     - http://arxiv.org/abs/1505.07002
+  pdfs:
+    - http://arxiv.org/pdf/1505.07002.pdf
 
 - title: "Performance of Genetic Programming Optimised Bowtie2 on Genome Comparison and Analytic Testing (GCAT) Benchmarks"
   authors:
@@ -3802,6 +3876,9 @@
     - http://arxiv.org/abs/1410.6651
     - http://arxiv.org/abs/1410.6651v1
     - https://hal.archives-ouvertes.fr/hal-01075976
+  pdfs:
+    - http://arxiv.org/pdf/1410.6651.pdf
+    - http://arxiv.org/pdf/1410.6651v1.pdf
 
 - title: "Automating Program Verification and Repair Using Invariant Analysis and Test-input Generation"
   authors:
@@ -3937,6 +4014,7 @@
   urls:
     - http://arxiv.org/abs/1408.2288
   pdfs:
+    - http://arxiv.org/pdf/1408.2288.pdf
     - http://jurdak.com/ASC-GP.pdf
 
 - title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
@@ -3952,6 +4030,8 @@
     - SBSE
   urls:
     - http://arxiv.org/abs/1403.6322
+  pdfs:
+    - http://arxiv.org/pdf/1403.6322.pdf
 
 - title: "Automatic Design of Noncryptographic Hash Functions using Genetic Programming"
   authors:
@@ -4280,6 +4360,7 @@
     - http://arxiv.org/abs/1306.5667
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Langdon_RN1312.pdf
+    - http://arxiv.org/pdf/1306.5667.pdf
 
 - title: "Which is faster: Bowtie2GP $>$ Bowtie $>$ Bowtie2 $>$ BWA"
   authors:
@@ -4294,6 +4375,7 @@
     - http://arxiv.org/abs/1301.5187
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_13_03.pdf
+    - http://arxiv.org/pdf/1301.5187.pdf
 
 - title: "Genetic Programming for Reverse Engineering"
   authors:
@@ -4593,6 +4675,8 @@
     - SBSE
   urls:
     - http://arxiv.org/abs/1211.5098
+  pdfs:
+    - http://arxiv.org/pdf/1211.5098.pdf
 
 - title: "Software Mutational Robustness: Bridging The Gap Between Mutation Testing and Evolutionary Biology"
   authors:
@@ -4609,6 +4693,8 @@
     - testing
   urls:
     - http://arxiv.org/abs/1204.4224
+  pdfs:
+    - http://arxiv.org/pdf/1204.4224.pdf
 
 - title: "Android Genetic Programming Framework"
   authors:
@@ -4757,6 +4843,8 @@
   doi: https://doi.org/10.1145/2070781.2024186
   tags:
     - SBSE
+  urls:
+    - http://web.eecs.umich.edu/~weimerw/p/sitthiamorn_siga11.mov
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11.pdf
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11_supp.pdf
@@ -5365,6 +5453,34 @@
   year: 1985
   type: Journal
   doi: https://doi.org/10.1109/TSE.1985.231877
+
+- title: "Genetic Improvement of Data for Maths Functions"
+  authors:
+    - name: William B. Langdon
+    - name: Oliver Krauss
+  venue: "ACM TELO"
+  year: 
+  type: Journal
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO.pdf
+
+- title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
+  authors:
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "IEEE TEVC"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/TEVC.2021.3070271
+  tags:
+    - SBSE
+    - PyGGI
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/publis/#blot:2021:tevc
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
 
 - title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
