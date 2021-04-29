@@ -1,4 +1,5 @@
-- title: "Refining Fitness Functions for Search-Based Program Repair"
+- key: "bian:2021:apr_icse"
+  title: "Refining Fitness Functions for Search-Based Program Repair"
   authors:
     - name: Zhiqiang Bian
     - name: Justyna Petke
@@ -14,7 +15,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/bian_apr-icse_2021.pdf
 
-- title: "Evolving Reinforcement Learning Algorithms"
+- key: "coreyes2021evolving"
+  title: "Evolving Reinforcement Learning Algorithms"
   authors:
     - name: John D. Co-Reyes
     - name: Yingjie Miao
@@ -33,7 +35,8 @@
   pdfs:
     - https://arxiv.org/pdf/2101.03958.pdf
 
-- title: "(Genetically) Improving Novelty in Procedural Story Generation"
+- key: "Fredericks:2021:GI"
+  title: "(Genetically) Improving Novelty in Procedural Story Generation"
   authors:
     - name: Erik Fredericks
     - name: Byron DeVries
@@ -46,7 +49,8 @@
   pdfs:
     - https://arxiv.org/pdf/2103.06935.pdf
 
-- title: "A Permutation Representation of Covering Arrays"
+- key: "Dougherty:2021:GI"
+  title: "A Permutation Representation of Covering Arrays"
   authors:
     - name: Ryan Dougherty
     - name: Xi Jiang
@@ -55,7 +59,8 @@
   abstract: "Testing a large-scale system requires understanding how each of the components interact with each other, which is the subject of interaction testing. Covering arrays are a well-studied object, but traditional representations of these arrays in the context of genetic algorithms has not yielded much success. We propose a new representation of covering arrays based on a permutation of the rows considered. Preliminary results for reducing the mean-time-to-failure of these arrays are given."
   type: Workshop
 
-- title: "Applying Automated Program Repair to Dataflow Programming Languages"
+- key: "Huang:2021:GI"
+  title: "Applying Automated Program Repair to Dataflow Programming Languages"
   authors:
     - name: Yu Huang
     - name: Hammad Ahmad
@@ -66,7 +71,8 @@
   abstract: "Dataflow programming languages are used in a variety of settings, and defects in their programs can have serious consequences. However, prior work in automated program repair (APR) emphasizes control flow over dataflow languages. We identify three impediments to the use of APR in dataflow programming, parallelism, state, and evaluation, and highlight opportunities for overcoming them."
   type: Workshop
 
-- title: "CRNRepair: Automated Program Repair of Chemical Reaction Networks"
+- key: "Mesecan:2021:GI"
+  title: "CRNRepair: Automated Program Repair of Chemical Reaction Networks"
   authors:
     - name: Ibrahim Mesecan
     - name: Michael C. Gerten
@@ -78,7 +84,8 @@
   abstract: "Chemical reaction networks (CRNs) are abstractions of distributed networks that form the foundations of many natural phenomena such as biological processes. These can be encoded and/or compiled into DNA and have been shown to be Turing complete. Before CRNs are implemented in a physical environment, they are often simulated in programming environments. Like traditional programs, these CRN programs must be validated. Researchers have recently designed a software testing framework for CRNs, however, repairing CRN programs is still a manual task. While the programs are often small in size, finding and repairing the faults can be difficult without automated support. In this paper we present CRNRepair, a program repair framework for CRN programs. We built our framework on top of an existing APR framework. We use a testing infrastructure built in the Matlab SimBiology package and adapt it to use the SBML representation for its abstract syntax tree. In a case study on 19 mutant versions of 2 programs, we find plausible patches for 90 percent of one of the programs, and 50 percent of the other. We find several common types of repairs, which differ from the correct programs, but are functionally correct."
   type: Workshop
 
-- title: "Exploring the Accuracy -- Energy Trade-off in Machine Learning"
+- key: "Brownlee:2021:GI"
+  title: "Exploring the Accuracy -- Energy Trade-off in Machine Learning"
   authors:
     - name: Alexander E. I. Brownlee
     - name: Jason Adair
@@ -91,7 +98,8 @@
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/brownlee_gi-icse_2021.pdf
 
-- title: "Generating Objected-Oriented Source Code Using Genetic Programming"
+- key: "Illanes:2021:GI"
+  title: "Generating Objected-Oriented Source Code Using Genetic Programming"
   authors:
     - name: Vicente Illanes
     - name: Alexandre Bergel
@@ -102,7 +110,8 @@
   pdfs:
     - http://bergel.eu/MyPapers/Illa21a-GP.pdf
 
-- title: "Open Challenges in Genetic Improvement for Emergent Software Systems"
+- key: "Rainford:2021:GI"
+  title: "Open Challenges in Genetic Improvement for Emergent Software Systems"
   authors:
     - name: Penelope Faulkner Rainford
     - name: Barry Porter
@@ -113,7 +122,8 @@
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/rainford_gi-icse_2021.pdf
 
-- title: "Optimising SQL Queries Using Genetic Improvement"
+- key: "Callan:2021:GI"
+  title: "Optimising SQL Queries Using Genetic Improvement"
   authors:
     - name: James Callan
     - name: Justyna Petke
@@ -124,7 +134,8 @@
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/callan_gi-icse_2021.pdf
 
-- title: "Partial Specifications for Program Repair"
+- key: "Kitt:2021:GI"
+  title: "Partial Specifications for Program Repair"
   authors:
     - name: Linsey Kitt
     - name: Myra B. Cohen
@@ -133,7 +144,8 @@
   abstract: "we argue for using many partial test suites instead of one full test suite during program repair. This may provide a pool of simpler, yet correct patches, addressing both the overfitting and poor repair quality problem. To support this idea, we present some insight obtained running APR partial test suites on the well studied triangle program."
   type: Workshop
 
-- title: "Uniform Edit Selection for Genetic Improvement: Empirical Analysis of Mutation Operator Efficacy"
+- key: "Smigielska:2021:GI"
+  title: "Uniform Edit Selection for Genetic Improvement: Empirical Analysis of Mutation Operator Efficacy"
   authors:
     - name: Marta Smigielska
     - name: Aymeric Blot
@@ -149,7 +161,8 @@
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/smigielska_gi-icse_2021.pdf
 
-- title: "Using Genetic Improvement to Synthesise Quantum Programs on Differing Hardware"
+- key: "OBrien:2021:GI"
+  title: "Using Genetic Improvement to Synthesise Quantum Programs on Differing Hardware"
   authors:
     - name: George O'Brien
     - name: John Clark
@@ -158,7 +171,8 @@
   abstract: "Quantum computers are rapidly developing to a point where they can solve problems faster than any classical computation. As they're developed competing standards for languages, models and architectures are also being created. These standards are often bespoke and aimed at optimizing around a single algorithm or problem. This can make it very difficult to reuse these them should the original hardware become unavailable or obsolete. We demonstrate a method that can compile circuits more generally across hardware constraints with the use of a genetic improvement inspired search technique that includes a realistic model of the hardware. We show that this method is effective at selecting gates that can be more easily implemented and ran compared to generic optimization which reduces the total chance of failure. To ensure that these results are practical, empirical results are generated using different IBM hardware and a selection of real algorithms."
   type: Workshop
 
-- title: "A Novel Approach For Search-Based Program Repair"
+- key: "Trujillo:2021:IEEESoftware"
+  title: "A Novel Approach For Search-Based Program Repair"
   authors:
     - name: Leonardo Trujillo
     - name: Omar M. Villanueva
@@ -170,7 +184,8 @@
   tags:
     - SBSE
 
-- title: "Rosita: Towards Automatic Elimination of Power-Analysis Leakage in Ciphers"
+- key: "Shelton:2021:NDSS"
+  title: "Rosita: Towards Automatic Elimination of Power-Analysis Leakage in Ciphers"
   authors:
     - name: Madura A. Shelton
     - name: Niels Samwel
@@ -191,7 +206,8 @@
     - https://arxiv.org/pdf/1912.05183.pdf
     - https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-3_23137_paper.pdf
 
-- title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
+- key: "Guizzo:2021:ICSE"
+  title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
   authors:
     - name: Giovani Guizzo
     - name: Justyna Petke
@@ -208,7 +224,8 @@
     - https://conf.researchr.org/details/icse-2021/icse-2021-papers/6/Enhancing-Genetic-Improvement-of-Software-with-Regression-Test-Selection
     - https://discovery.ucl.ac.uk/id/eprint/10120263/
 
-- title: "Fast Generation of Big Random Binary Trees"
+- key: "langdon:RN2001"
+  title: "Fast Generation of Big Random Binary Trees"
   authors:
     - name: William B. Langdon
   venue: ""
@@ -219,7 +236,8 @@
   pdfs:
     - https://arxiv.org/pdf/2001.04505.pdf
 
-- title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
+- key: "Yuan:2020:TBE"
+  title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
   authors:
     - name: Yuan Yuan2
       aka: Yuan Yuan
@@ -231,7 +249,8 @@
   tags:
     - SBSE
 
-- title: "Refining Fitness Functions in Test-Based Program Repair"
+- key: "Petke:2020:APR"
+  title: "Refining Fitness Functions in Test-Based Program Repair"
   authors:
     - name: Justyna Petke
     - name: Aymeric Blot
@@ -245,7 +264,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/petke_apr-icse_2020.pdf
 
-- title: "Empirical Analysis of 1-edit Degree Patches in Syntax-Based Automatic Program Repair"
+- key: "Dziurzanski:2020:CEC"
+  title: "Empirical Analysis of 1-edit Degree Patches in Syntax-Based Automatic Program Repair"
   authors:
     - name: Piotr Dziurzanski
     - name: Simos Gerasimou
@@ -262,7 +282,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24527.pdf
 
-- title: "Genetic Improvement of Genetic Programming"
+- key: "langdon:2020:cec"
+  title: "Genetic Improvement of Genetic Programming"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -279,7 +300,8 @@
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24061.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_cec.pdf
 
-- title: "Injecting Shortcuts for Faster Running Java Code"
+- key: "Brownlee:2020:CEC"
+  title: "Injecting Shortcuts for Faster Running Java Code"
   authors:
     - name: Alexander Brownlee
       aka: Alexander E. I. Brownlee
@@ -297,7 +319,8 @@
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24667.pdf
     - https://dspace.stir.ac.uk/bitstream/1893/30963/1/InjectingShortcutsCEC2020.pdf
 
-- title: "Adding More Color to Patch Picture"
+- key: "Rinard:2020:ACM"
+  title: "Adding More Color to Patch Picture"
   authors:
     - name: Martin Rinard
   venue: "Communications of the ACM"
@@ -307,7 +330,8 @@
   urls:
     - https://cacm.acm.org/magazines/2020/4/243626-adding-more-color-to-patch-picture/fulltext
 
-- title: "Biases and Differences in Code Review using Medical Imaging and Eye-Tracking: Genders, Humans, and Machines"
+- key: "bias_code_review_FSE20"
+  title: "Biases and Differences in Code Review using Medical Imaging and Eye-Tracking: Genders, Humans, and Machines"
   authors:
     - name: Yu Huang
     - name: Kevin Leach
@@ -328,7 +352,8 @@
   pdfs:
     - http://www-personal.umich.edu/~yhhy/index_files/bias_code_review_FSE20.pdf
 
-- title: "Evolutionary Improvement of Assertion Oracles"
+- key: "terragni-fse-2020"
+  title: "Evolutionary Improvement of Assertion Oracles"
   authors:
     - name: Valerio Terragni
     - name: Gunel Jahangirova
@@ -346,7 +371,8 @@
   pdfs:
     - https://www.pre-crime.eu/techreps/TR-Precrime-2020-02.pdf
 
-- title: "Automatically Evolving Lookup Tables for Function Approximation"
+- key: "krauss:2020:EuroGP"
+  title: "Automatically Evolving Lookup Tables for Function Approximation"
   authors:
     - name: Oliver Krauss
     - name: W. B. Langdon
@@ -358,7 +384,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/krauss_2020_EuroGP.pdf
 
-- title: "Comparing Genetic Programming Approaches for Non-Functional Genetic Improvement Case Study: Improvement of MiniSAT's Running Time"
+- key: "Blot:2020:EuroGP"
+  title: "Comparing Genetic Programming Approaches for Non-Functional Genetic Improvement Case Study: Improvement of MiniSAT's Running Time"
   authors:
     - name: Aymeric Blot
     - name: Justyna Petke
@@ -375,7 +402,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_eurogp_2020.pdf
 
-- title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
+- key: "heuristicLab_GCE_2020"
+  title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
   authors:
     - name: Daniel Dorfmeister
     - name: Oliver Krauss
@@ -388,7 +416,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp139s2-file1.pdf
 
-- title: "Exploiting Fault Localisation for Efficient Program Repair"
+- key: "Nowack:2020:GECCOcomp"
+  title: "Exploiting Fault Localisation for Efficient Program Repair"
   authors:
     - name: Vesna Nowack
     - name: David Bowes
@@ -406,7 +435,8 @@
   tags:
     - APR
 
-- title: "GEVO-ML: A Proposal for Optimizing ML Code with Evolutionary Computation"
+- key: "Liou:2020:GECCOcomp"
+  title: "GEVO-ML: A Proposal for Optimizing ML Code with Evolutionary Computation"
   authors:
     - name: Jhe-Yu Liou
     - name: Xiaodong Wang
@@ -419,7 +449,8 @@
   tags:
     - ML
 
-- title: "Genetic Improvement: Taking Real-World Source Code and Improving It Using Genetic Programming"
+- key: "Haraldsson:2020:GECCOcomp"
+  title: "Genetic Improvement: Taking Real-World Source Code and Improving It Using Genetic Programming"
   authors:
     - name: Samundur O. Haraldsson
       aka: Saemundur O. Haraldsson
@@ -430,7 +461,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389885
 
-- title: "Genetic Programming: A Tutorial Introduction"
+- key: "OReilly:2020:GECCOcomp"
+  title: "Genetic Programming: A Tutorial Introduction"
   authors:
     - name: Una-May O'Reilly
     - name: Erik Hemberg
@@ -439,7 +471,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389882
 
-- title: "Hyper-Heuristics Tutorial"
+- key: "Tauritz:2020:GECCOcomp"
+  title: "Hyper-Heuristics Tutorial"
   authors:
     - name: Daniel R. Tauritz
     - name: John Woodward
@@ -449,7 +482,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389855
 
-- title: "Novelty Search for Automatic Bug Repair"
+- key: "Villanueva:2020:GECCO"
+  title: "Novelty Search for Automatic Bug Repair"
   authors:
     - name: Omar M. Villanueva
     - name: Leonardo Trujillo
@@ -459,7 +493,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3377930.3389845
 
-- title: "Towards Rigorous Validation of Energy Optimisation Experiments"
+- key: "Bokhari:2020:GECCO"
+  title: "Towards Rigorous Validation of Energy Optimisation Experiments"
   authors:
     - name: Mahmoud A. Bokhari
     - name: Brad Alexander
@@ -469,7 +504,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3377930.3390245
 
-- title: "An Annotated Dataset of Stack Overflow Post Edits"
+- key: "Baltes:2020:GI9"
+  title: "An Annotated Dataset of Stack Overflow Post Edits"
   authors:
     - name: Sebastian Baltes
     - name: Markus Wagner
@@ -486,7 +522,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp144s2-file1.pdf
     - https://arxiv.org/pdf/2004.08193.pdf
 
-- title: "Evolving sqrt into 1/x via Software Data Maintenance"
+- key: "langdon:2020:GI9"
+  title: "Evolving sqrt into 1/x via Software Data Maintenance"
   authors:
     - name: William B. Langdon
     - name: Oliver Krauss
@@ -502,7 +539,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_GI9.pdf
 
-- title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
+- key: "Bokhari:2020:GI9"
+  title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
   authors:
     - name: Mahmoud A. Bokhari
     - name: Markus Wagner
@@ -518,7 +556,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp145s2-file1.pdf
 
-- title: "Optimising the Fit of Stack Overflow Code Snippets into Existing Code"
+- key: "Reid:2020:GI9"
+  title: "Optimising the Fit of Stack Overflow Code Snippets into Existing Code"
   authors:
     - name: Brittany Reid
     - name: Christoph Treude
@@ -536,7 +575,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp119s2-file1.pdf
     - https://arxiv.org/pdf/2004.07663.pdf
 
-- title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
+- key: "Mosayebi:2020:GI9"
+  title: "Tuning Genetic Algorithm Parameters using Design of Experiments"
   authors:
     - name: Mohsen Mosayebi
     - name: Manbir Sodhi
@@ -550,7 +590,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp176s2-file1.pdf
 
-- title: "Checkers: Multi-modal Darwinian API Optimisation"
+- key: "Dash:2020:GI"
+  title: "Checkers: Multi-modal Darwinian API Optimisation"
   authors:
     - name: Santanu Kumar Dash
     - name: Fan Wu
@@ -569,7 +610,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
 
-- title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
+- key: "Winter:2020:GI"
+  title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
   authors:
     - name: Emily Winter
     - name: David Bowes
@@ -593,7 +635,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Winter_2020_GI.pdf
 
-- title: "Stack-Based Genetic Improvement"
+- key: "Blot:2020:GIsp"
+  title: "Stack-Based Genetic Improvement"
   authors:
     - name: Aymeric Blot
     - name: Justyna Petke
@@ -610,7 +653,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-1.pdf
 
-- title: "Synthetic Benchmarks for Genetic Improvement"
+- key: "Blot:2020:GI"
+  title: "Synthetic Benchmarks for Genetic Improvement"
   authors:
     - name: Aymeric Blot
     - name: Justyna Petke
@@ -626,7 +670,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-2.pdf
 
-- title: "Towards Knowledge Guided Genetic Improvement"
+- key: "krauss_towards_2020"
+  title: "Towards Knowledge Guided Genetic Improvement"
   authors:
     - name: Oliver Krauss
     - name: Hanspeter Moessenboeck
@@ -643,7 +688,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/krauss_towards_2020.pdf
 
-- title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
+- key: "Ahlgren:2020:GI"
+  title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
   authors:
     - name: John Ahlgren
     - name: Maria Eugenia Berezin
@@ -672,7 +718,8 @@
   pdfs:
     - https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf
 
-- title: "A Review on Complex System Engineering"
+- key: "Parrend:2020:JSSC"
+  title: "A Review on Complex System Engineering"
   authors:
     - name: Pierre Parrend
     - name: Pierre Collet
@@ -681,7 +728,8 @@
   type: Journal
   doi: https://doi.org/10.1007/s11424-020-8275-0
 
-- title: "Genetic Improvement @ ICSE 2020"
+- key: "Langdon:2020:SEN"
+  title: "Genetic Improvement @ ICSE 2020"
   authors:
     - name: William B. Langdon
     - name: Westley Weimer
@@ -711,7 +759,8 @@
     - https://arxiv.org/pdf/2007.15987.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020_discussion.pdf
 
-- title: "Impact of Test Suite Coverage on Overfitting in Genetic Improvement of Software"
+- key: "Lim:2020:SSBSE:RENE"
+  title: "Impact of Test Suite Coverage on Overfitting in Genetic Improvement of Software"
   authors:
     - name: Mingyi Lim
     - name: Giovani Guizzo
@@ -727,7 +776,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
 
-- title: "Automated Program-Semantic Defect Repair and False-Positive Elimination without Side Effects"
+- key: "Dong:2020:Symmetry"
+  title: "Automated Program-Semantic Defect Repair and False-Positive Elimination without Side Effects"
   authors:
     - name: Yukun Dong
     - name: Mengying Wu
@@ -745,7 +795,8 @@
   urls:
     - https://www.mdpi.com/2073-8994/12/12/2076
 
-- title: "Deep Pattern Mining for Program Repair"
+- key: "Kui_Liu:thesis"
+  title: "Deep Pattern Mining for Program Repair"
   authors:
     - name: Kui Liu
   venue: ""
@@ -758,7 +809,8 @@
   pdfs:
     - https://orbilu.uni.lu/bitstream/10993/41348/1/thesis.pdf
 
-- title: "The State and Future of Genetic Improvement"
+- key: "gi2019_discussion"
+  title: "The State and Future of Genetic Improvement"
   authors:
     - name: William B. Langdon
     - name: Westley Weimer
@@ -782,7 +834,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2019_discussion.pdf
     - https://arxiv.org/pdf/1907.03773.pdf
 
-- title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
+- key: "Liu:2019:SANER"
+  title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
   authors:
     - name: Kui Liu
     - name: Anil Koyuncu
@@ -793,7 +846,8 @@
   type: Conference
   doi: https://doi.org/10.1109/SANER.2019.8667970
 
-- title: "SapFix: Automated End-to-End Repair at Scale"
+- key: "Marginean:2019:ICSE"
+  title: "SapFix: Automated End-to-End Repair at Scale"
   authors:
     - name: Alexandru Marginean
     - name: Johannes Bader
@@ -814,7 +868,8 @@
     - https://2019.icse-conferences.org/details/icse-2019-Software-Engineering-in-Practice/9/SapFix-Automated-End-to-End-Repair-at-Scale
     - https://research.fb.com/publications/sapfix-automated-end-to-end-repair-at-scale/
 
-- title: "Automated Program Repair"
+- key: "cacm2019_program_repair"
+  title: "Automated Program Repair"
   authors:
     - name: Claire Le Goues
     - name: Michael Pradel
@@ -826,7 +881,8 @@
   pdfs:
     - http://software-lab.org/publications/cacm2019_program_repair.pdf
 
-- title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
+- key: "an:2019:fse"
+  title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
   authors:
     - name: Gabin An
     - name: Aymeric Blot
@@ -845,7 +901,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/an_2019_fse.pdf
 
-- title: "A comparison of tree- and line-oriented observational slicing"
+- key: "emse19"
+  title: "A comparison of tree- and line-oriented observational slicing"
   authors:
     - name: David Binkley
     - name: Nicolas Gold
@@ -861,7 +918,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/j.krinke/publications/emse19.pdf
 
-- title: "Evolving AVX512 Parallel C Code using GP"
+- key: "langdon:2019:EuroGP"
+  title: "Evolving AVX512 Parallel C Code using GP"
   authors:
     - name: William B. Langdon
     - name: Ronny Lorenz
@@ -876,7 +934,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_EuroGP.pdf
 
-- title: "A Hybrid Evolutionary System for Automatic Software Repair"
+- key: "Yuan:2019:GECCO"
+  title: "A Hybrid Evolutionary System for Automatic Software Repair"
   authors:
     - name: Yuan Yuan2
       aka: Yuan Yuan
@@ -889,7 +948,8 @@
     - APR
     - SBSE
 
-- title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
+- key: "langdon:2019:log2"
+  title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -903,7 +963,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_log2.pdf
 
-- title: "Gin: genetic improvement research made easy"
+- key: "Brownlee:2019:GECCO"
+  title: "Gin: genetic improvement research made easy"
   authors:
     - name: Alexander E. I. Brownlee
     - name: Justyna Petke
@@ -920,7 +981,8 @@
   pdfs:
     - https://cs.adelaide.edu.au/users/markus/pub/2019gecco-gintool.pdf
 
-- title: "Teaching GP to program like a human software developer: using perplexity pressure to guide program synthesis approaches"
+- key: "Sobania:2019:GECCO"
+  title: "Teaching GP to program like a human software developer: using perplexity pressure to guide program synthesis approaches"
   authors:
     - name: Dominik Sobania
     - name: Franz Rothlauf
@@ -931,7 +993,8 @@
   tags:
     - SBSE
 
-- title: "A Survey of Genetic Improvement Search Spaces"
+- key: "Petke:2019:GI7"
+  title: "A Survey of Genetic Improvement Search Spaces"
   authors:
     - name: Justyna Petke
     - name: Brad Alexander
@@ -951,7 +1014,8 @@
   pdfs:
     - https://cs.adelaide.edu.au/~markus/pub/2019gecco-giSurvey.pdf
 
-- title: "Genetic Algorithms for Affine Transformations to Existential t-Restrictions"
+- key: "Dougherty:2019:GI7"
+  title: "Genetic Algorithms for Affine Transformations to Existential t-Restrictions"
   authors:
     - name: Ryan E. Dougherty
     - name: Erin Lanus
@@ -967,7 +1031,8 @@
   pdfs:
     - https://forrest.biodesign.asu.edu/data/publications/2019-dougherty-gecco-workshop.pdf
 
-- title: "Genetic Improvement of Data gives double precision invsqrt"
+- key: "langdon:2019:GI7"
+  title: "Genetic Improvement of Data gives double precision invsqrt"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -981,7 +1046,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_GI7.pdf
 
-- title: "On Adaptive Specialisation in Genetic Improvement"
+- key: "Blot:2019:GI7"
+  title: "On Adaptive Specialisation in Genetic Improvement"
   authors:
     - name: Aymeric Blot
     - name: Justyna Petke
@@ -995,7 +1061,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-gecco_2019.pdf
 
-- title: "The Quest for Non-Functional Property Optimisation in Heterogeneous and Fragmented Ecosystems: a Distributed Approach"
+- key: "Bokhari:2019:GI7"
+  title: "The Quest for Non-Functional Property Optimisation in Heterogeneous and Fragmented Ecosystems: a Distributed Approach"
   authors:
     - name: Mahmoud A. Bokhari
     - name: Markus Wagner
@@ -1008,7 +1075,8 @@
   pdfs:
     - https://cs.adelaide.edu.au/~markus/pub/2019gecco-islands.pdf
 
-- title: "Toward Human-Like Summaries Generated from Heterogeneous Software Artefacts"
+- key: "Alghamdi:2019:GI7"
+  title: "Toward Human-Like Summaries Generated from Heterogeneous Software Artefacts"
   authors:
     - name: Mahfouth Alghamdi
     - name: Christoph Treude
@@ -1026,7 +1094,8 @@
     - https://arxiv.org/pdf/1905.02258.pdf
     - https://ctreude.files.wordpress.com/2019/05/gi19.pdf
 
-- title: "Better Code Search and Reuse for Better Program Repair"
+- key: "Xin:2019:GI"
+  title: "Better Code Search and Reuse for Better Program Repair"
   authors:
     - name: Qi Xin
     - name: Steven Reiss
@@ -1041,7 +1110,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/xin2019better.pdf
 
-- title: "Evolutionary Computation for Improving Malware Analysis"
+- key: "Leach:2019:GI"
+  title: "Evolutionary Computation for Improving Malware Analysis"
   authors:
     - name: Kevin Leach
     - name: Ryan Dougherty
@@ -1056,7 +1126,8 @@
     - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/leach2019evolutionary.pdf
 
-- title: "Fuzzy Edit Sequences in Genetic Improvement"
+- key: "Blot:2019:GI"
+  title: "Fuzzy Edit Sequences in Genetic Improvement"
   authors:
     - name: Aymeric Blot
   venue: "GI@ICSE"
@@ -1069,7 +1140,8 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2019.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/blot2019gi.pdf
 
-- title: "Genetic Improvement of GPU Code"
+- key: "Liou:2019:GI"
+  title: "Genetic Improvement of GPU Code"
   authors:
     - name: Jhe-Yu Liou
     - name: Stephanie Forrest
@@ -1084,7 +1156,8 @@
     - http://gpbib.cs.ucl.ac.uk/gi2019/Liou_2019_GI.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/liou2019genetic.pdf
 
-- title: "Industrial experience of Genetic Improvement in Facebook"
+- key: "Alshahwan:2019:GI"
+  title: "Industrial experience of Genetic Improvement in Facebook"
   authors:
     - name: Nadia Alshahwan
   venue: "GI@ICSE"
@@ -1095,7 +1168,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2019/Alshahwan_2019_GI.pdf
 
-- title: "Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair"
+- key: "Ding:2019:GI"
+  title: "Leveraging Program Invariants to Promote Population Diversity in Search-Based Automatic Program Repair"
   authors:
     - name: Zhen Yu Ding
     - name: Yiwei Lyu
@@ -1110,7 +1184,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/ding2019leveraging.pdf
 
-- title: "Mining Patterns from Genetic Improvement Experiments"
+- key: "Krauss:2019:GI"
+  title: "Mining Patterns from Genetic Improvement Experiments"
   authors:
     - name: Oliver Krauss
     - name: Hanspeter Moessenboeck
@@ -1122,7 +1197,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
 
-- title: "A Journey Among Java Neutral Program Variants"
+- key: "Harrand:GPEM"
+  title: "A Journey Among Java Neutral Program Variants"
   authors:
     - name: Nicolas Harrand
     - name: Simon Allier
@@ -1138,7 +1214,8 @@
   pdfs:
     - https://arxiv.org/pdf/1901.02533.pdf
 
-- title: "An Evolutionary System for better automatic software repair"
+- key: "Yuan:2019:GPTP"
+  title: "An Evolutionary System for better automatic software repair"
   authors:
     - name: Yuan Yuan2
       aka: Yuan Yuan
@@ -1148,7 +1225,8 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-39958-0_19
 
-- title: "Software Improvement by Data Improvement"
+- key: "langdon:2019:ieeeblog"
+  title: "Software Improvement by Data Improvement"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -1162,7 +1240,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_ieeeblog.pdf
 
-- title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
+- key: "Bruce:TSE"
+  title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
     - name: Bobby R. Bruce
     - name: Justyna Petke
@@ -1180,7 +1259,8 @@
     - http://www.bobbybruce.net/assets/pdfs/publications/bruce-2019-approximate.pdf
     - https://pdfs.semanticscholar.org/83d3/685a11e8f4855047dd3fba11a67b45aab935.pdf
 
-- title: "The State and Future of Genetic Improvement"
+- key: "Langdon:2019:SEN"
+  title: "The State and Future of Genetic Improvement"
   authors:
     - name: William B. Langdon
     - name: Westley Weimer
@@ -1199,7 +1279,8 @@
   type: Journal
   doi: https://doi.org/10.1145/3356773.3356801
 
-- title: "Big Data Driven Genetic Improvement for Maintenance of Legacy Software Systems"
+- key: "langdon:2019:bddGI4mlss"
+  title: "Big Data Driven Genetic Improvement for Maintenance of Legacy Software Systems"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -1210,7 +1291,8 @@
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1203.pdf
 
-- title: "Mark Harman wins both IEEE and ACM Awards in 2019"
+- key: "langdon:2019:sigevolution"
+  title: "Mark Harman wins both IEEE and ACM Awards in 2019"
   authors:
     - name: Bill Langdon
       aka: William B. Langdon
@@ -1224,7 +1306,8 @@
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1202.pdf
 
-- title: "Search-Based Software Engineering Events in 2019"
+- key: "Guizzo:2019:sigevolution"
+  title: "Search-Based Software Engineering Events in 2019"
   authors:
     - name: Giovani Guizzo
   venue: "SIGEVOlution"
@@ -1236,7 +1319,8 @@
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1204.pdf
 
-- title: "Code naturalness to assist search space exploration in Search-based Program Repair methods"
+- key: "Dantas:2019:SSBSE"
+  title: "Code naturalness to assist search space exploration in Search-based Program Repair methods"
   authors:
     - name: Altino Dantas
     - name: Eduardo Faria de Souza
@@ -1250,7 +1334,8 @@
     - APR
     - SBSE
 
-- title: "General Program Synthesis using Guided Corpus Generation and Automatic Refactoring"
+- key: "Wild:2019:SSBSE"
+  title: "General Program Synthesis using Guided Corpus Generation and Automatic Refactoring"
   authors:
     - name: Alexander Wild
     - name: Barry Porter
@@ -1263,7 +1348,8 @@
   pdfs:
     - http://www.barryfp.com/papers/2019_ssbse_wild.pdf
 
-- title: "Software Improvement with Gin: a Case Study"
+- key: "Petke:2019:SSBSE"
+  title: "Software Improvement with Gin: a Case Study"
   authors:
     - name: Justyna Petke
     - name: Alexander Brownlee
@@ -1277,7 +1363,8 @@
   urls:
     - http://discovery.ucl.ac.uk/10077237/
 
-- title: "Applying Genetic Improvement to a Genetic Programming library in C++"
+- key: "Lopez-Lopez:2019:SC"
+  title: "Applying Genetic Improvement to a Genetic Programming library in C++"
   authors:
     - name: Victor R. Lopez-Lopez
     - name: Leonardo Trujillo
@@ -1294,7 +1381,8 @@
   pdfs:
     - https://www.researchgate.net/profile/Leonardo_Trujillo/publication/328737052_Applying_Genetic_Improvement_to_a_Genetic_Programming_library_in_C.pdf
 
-- title: "Automated Artificial Intelligence (AutoAI)"
+- key: "Hoos:2018:AutoAI"
+  title: "Automated Artificial Intelligence (AutoAI)"
   authors:
     - name: Holger H. Hoos
   venue: ""
@@ -1303,7 +1391,8 @@
   pdfs:
     - https://ada.liacs.nl/auto-ai/vision-paper.pdf
 
-- title: "Evolving Square Root into Binary Logarithm"
+- key: "langdon:RN1805"
+  title: "Evolving Square Root into Binary Logarithm"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -1315,7 +1404,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_05.pdf
 
-- title: "Genetic Improvement GISMOE Blue Software Tool Demo"
+- key: "langdon:RN1806"
+  title: "Genetic Improvement GISMOE Blue Software Tool Demo"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -1327,7 +1417,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/user_upload/blue.pdf
 
-- title: "Otimizacao para Reduzir o Tamanho de Codigo-Fonte Javascript"
+- key: "de_Almeida_Farzat:thesis"
+  title: "Otimizacao para Reduzir o Tamanho de Codigo-Fonte Javascript"
   authors:
     - name: Fabio de Almeida Farzat
   venue: ""
@@ -1340,7 +1431,8 @@
   pdfs:
     - https://www.cos.ufrj.br/uploadfile/publicacao/2889.pdf
 
-- title: "Overfitting in Automated Program Repair: Challenges and Solutions"
+- key: "Le_Xuan-Bach:thesis"
+  title: "Overfitting in Automated Program Repair: Challenges and Solutions"
   authors:
     - name: Dinh Xuan Bach Le
   venue: ""
@@ -1352,7 +1444,8 @@
     - https://ink.library.smu.edu.sg/etd_coll/177/
     - https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=1177&context=etd_coll
 
-- title: "The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement"
+- key: "bruce_bobby_r_thesis"
+  title: "The Blind Software Engineer: Improving the Non-Functional Properties of Software by Means of Genetic Improvement"
   authors:
     - name: Bobby R. Bruce
   venue: ""
@@ -1366,7 +1459,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bruce_bobby_r_thesis.pdf
 
-- title: "Towards automatic generation and insertion of OpenACC directives"
+- key: "Bruce:RN1804"
+  title: "Towards automatic generation and insertion of OpenACC directives"
   authors:
     - name: Bobby R. Bruce
     - name: Justyna Petke
@@ -1376,7 +1470,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_04.pdf
 
-- title: "Repairing Crashes in Android Apps"
+- key: "Tan:2018:ICSE"
+  title: "Repairing Crashes in Android Apps"
   authors:
     - name: Shin Hwei Tan
     - name: Zhen Dong
@@ -1395,7 +1490,8 @@
     - http://www.human-competitive.org/sites/default/files/tan-paper.pdf
     - http://www.shinhwei.com/droixicse_camera.pdf
 
-- title: "Toward Introducing Automated Program Repair Techniques to Industrial Software Development"
+- key: "Naitou:2018:ICSE"
+  title: "Toward Introducing Automated Program Repair Techniques to Industrial Software Development"
   authors:
     - name: Keigo Naitou
     - name: Akito Tanikado
@@ -1415,7 +1511,8 @@
   urls:
     - http://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=422
 
-- title: "Automatic Software Repair: a Bibliography"
+- key: "DBLP:journals/corr/abs-1807-00515"
+  title: "Automatic Software Repair: a Bibliography"
   authors:
     - name: Martin Monperrus
   venue: "ArXiV"
@@ -1428,7 +1525,8 @@
   pdfs:
     - http://arxiv.org/pdf/1807.00515.pdf
 
-- title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
+- key: "gi_dagstuhl_2018"
+  title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
     - name: Justyna Petke
     - name: Claire Le Goues
@@ -1447,7 +1545,8 @@
   pdfs:
     - http://drops.dagstuhl.de/opus/volltexte/2018/9287/pdf/dagrep_v008_i001_p158_18052.pdf
 
-- title: "Darwinian Data Structure Selection"
+- key: "Basios:2018:FSE"
+  title: "Darwinian Data Structure Selection"
   authors:
     - name: Michail Basios
     - name: Lingbo Li
@@ -1463,7 +1562,8 @@
   pdfs:
     - http://human-competitive.org/sites/default/files/artemis.pdf
 
-- title: "Evolving better RNAfold structure prediction"
+- key: "langdon:2018:EuroGP"
+  title: "Evolving better RNAfold structure prediction"
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
@@ -1477,7 +1577,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2018_EuroGP.pdf
 
-- title: "Investigating the Evolvability of Page Load Time"
+- key: "Cody-Kenny:2018:evoApplications"
+  title: "Investigating the Evolvability of Page Load Time"
   authors:
     - name: Brendan Cody-Kenny
     - name: Umberto Manganiello
@@ -1497,7 +1598,8 @@
   pdfs:
     - https://arxiv.org/pdf/1803.01683.pdf
 
-- title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
+- key: "Nader-Palacio:2018:GI5"
+  title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
   authors:
     - name: David Nader-Palacio
     - name: Daniel Rodriguez-Cardenas
@@ -1512,7 +1614,8 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/assessing_single-objective_performance_convergence_and_time_complexity_for_refactoring_detection.pdf
 
-- title: "Dynamic Fitness Functions for Genetic Improvement in Compilers and Interpreters"
+- key: "Krauss:2018:GI5"
+  title: "Dynamic Fitness Functions for Genetic Improvement in Compilers and Interpreters"
   authors:
     - name: Oliver Krauss
     - name: Hanspeter Moessenboeck
@@ -1527,7 +1630,8 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/dynamic_fitness_functions_for_genetic_improvement_in_compilers_and_interpreters.pdf
 
-- title: "Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems"
+- key: "Xuan:2018:GI5"
+  title: "Genetic Configuration Sampling: Learning a Sampling Strategy for Fault Detection of Configurable Systems"
   authors:
     - name: Jifeng Xuan
     - name: Yongfeng Gu
@@ -1544,7 +1648,8 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/genetic_configuration_sampling.pdf
 
-- title: "Novelty Search for software improvement of a SLAM system"
+- key: "Lopez-Lopez:2018:GI5"
+  title: "Novelty Search for software improvement of a SLAM system"
   authors:
     - name: Victor R. Lopez-Lopez
     - name: Leonardo Trujillo
@@ -1557,7 +1662,8 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/novelty_search_for_software_improvement_of_a_SLAM_system.pdf
 
-- title: "Synthesizing Customized Network Protocols using Genetic Programming"
+- key: "Roohitavaf:2018:GI5"
+  title: "Synthesizing Customized Network Protocols using Genetic Programming"
   authors:
     - name: Mohammad Roohitavaf
     - name: Ling Zhu
@@ -1571,7 +1677,8 @@
   pdfs:
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/synthesizing_customized_network_protocols_using_genetic_programming.pdf
 
-- title: "Towards Modular Large-Scale Darwinian Software Improvement"
+- key: "Orlov:2018:GI5"
+  title: "Towards Modular Large-Scale Darwinian Software Improvement"
   authors:
     - name: Michael Orlov
   venue: "GI@GECCO"
@@ -1583,7 +1690,8 @@
     - https://noexec.org/public/papers/modular-dsi.pdf
     - http://www.cs.stir.ac.uk/events/gecco-gi-2018/papers/towards_modular_large-scale_darwinian_software_improvement.pdf
 
-- title: "A Turing Test for Genetic Improvement"
+- key: "Timperley:2018:GI"
+  title: "A Turing Test for Genetic Improvement"
   authors:
     - name: Afsoon Afzal
     - name: Jeremy Lacomis
@@ -1598,7 +1706,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Timperley_2018_GI.pdf
 
-- title: "A spoonful of DevOps helps the GI Go Down"
+- key: "Baudry:2018:GI"
+  title: "A spoonful of DevOps helps the GI Go Down"
   authors:
     - name: Benoit Baudry
     - name: Nicolas Harrand
@@ -1615,7 +1724,8 @@
   pdfs:
     - http://www.shinhwei.com/devop-gi.pdf
 
-- title: "Comparing Line and AST Granularity Level for Program Repair using PyGGI"
+- key: "An:2018:GI"
+  title: "Comparing Line and AST Granularity Level for Program Repair using PyGGI"
   authors:
     - name: Gabin An
     - name: Jinhan Kim
@@ -1631,7 +1741,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/An_2018_GI.pdf
 
-- title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
+- key: "Landsborough:2018:GI"
+  title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
   authors:
     - name: Jason Landsborough
     - name: Stephen Harding
@@ -1644,7 +1755,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/GI.pdf
 
-- title: "Evolving Software Quality"
+- key: "LeGoues:2018:GI"
+  title: "Evolving Software Quality"
   authors:
     - name: Claire Le Goues
   venue: "GI@ICSE"
@@ -1656,7 +1768,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/w.langdon/icse2018/GI_2018_FM_to_chair_04-26-18.pdf
 
-- title: "Experiments in Genetic Divergence for Emergent Systems"
+- key: "Porter:2018:GI"
+  title: "Experiments in Genetic Divergence for Emergent Systems"
   authors:
     - name: Christopher McGowan
     - name: Alexander Wild
@@ -1669,7 +1782,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Porter_2018_GI.pdf
 
-- title: "Learning to Synthesize"
+- key: "Xiong:2018:GI"
+  title: "Learning to Synthesize"
   authors:
     - name: Yingfei Xiong
     - name: Bo Wang
@@ -1686,7 +1800,8 @@
     - http://sei.pku.edu.cn/~xiongyf04/papers/GI18.pdf
     - https://arxiv.org/pdf/1802.07608.pdf
 
-- title: "Neutrality and Epistasis in Program Space"
+- key: "Renzullo:2018:GI"
+  title: "Neutrality and Epistasis in Program Space"
   authors:
     - name: Joseph Renzullo
     - name: Westley Weimer
@@ -1703,7 +1818,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/Renzullo_2018_GI.pdf
 
-- title: "Performance Localisation"
+- key: "Cody-Kenny:2018:GI"
+  title: "Performance Localisation"
   authors:
     - name: Brendan Cody-Kenny
     - name: Michael O'Neill
@@ -1716,7 +1832,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Cody-Kenny_2018_GI.pdf
 
-- title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
+- key: "Veerapen:2018:GPEM"
+  title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
   authors:
     - name: Nadarajen Veerapen
     - name: Gabriela Ochoa
@@ -1728,7 +1845,8 @@
     - http://hdl.handle.net/1893/27485
     - http://hdl.handle.net/11667/120
 
-- title: "Accelerating Search-Based Program Repair"
+- key: "Mehne:2018:ICST"
+  title: "Accelerating Search-Based Program Repair"
   authors:
     - name: Ben Mehne
     - name: Hiroaki Yoshida
@@ -1743,7 +1861,8 @@
   tags:
     - SBSE
 
-- title: "Genetic Improvement of Software: a Comprehensive Survey"
+- key: "Petke:gisurvey"
+  title: "Genetic Improvement of Software: a Comprehensive Survey"
   authors:
     - name: Justyna Petke
     - name: Saemundur O. Haraldsson
@@ -1760,7 +1879,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2017_TEVC.pdf
 
-- title: "Specialising Software for Different Downstream Applications Using Genetic Improvement and Code Transplantation"
+- key: "Petke:2017:ieeeTSE"
+  title: "Specialising Software for Different Downstream Applications Using Genetic Improvement and Code Transplantation"
   authors:
     - name: Justyna Petke
     - name: Mark Harman
@@ -1774,7 +1894,8 @@
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2017_TSE.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2017_ieeeTSE.pdf
 
-- title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
+- key: "deAlmeidaFarzat:2018:JSERD"
+  title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
   authors:
     - name: Fabio de Almeida Farzat
     - name: Marcio de Oliveira Barros
@@ -1786,7 +1907,8 @@
   tags:
     - SBSE
 
-- title: "Genetic Programming + Proof Search = Automatic Improvement"
+- key: "PolyfinicJAR"
+  title: "Genetic Programming + Proof Search = Automatic Improvement"
   authors:
     - name: Zoltan A. Kocsis
     - name: Jerry Swan
@@ -1801,7 +1923,8 @@
   pdfs:
     - http://eprints.whiterose.ac.uk/117917/1/art_10.1007_s10817_017_9409_5.pdf
 
-- title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
+- key: "Krauss:2018:ManLang"
+  title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
   authors:
     - name: Oliver Krauss
   venue: "ManLang"
@@ -1812,7 +1935,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Krauss_2018_ManLang.pdf
 
-- title: "Guiding Software Evolution with Binary Diversity"
+- key: "Greer:2018:NAECON"
+  title: "Guiding Software Evolution with Binary Diversity"
   authors:
     - name: Jeremiah Greer
     - name: Samuel Toth
@@ -1826,7 +1950,8 @@
   type: Conference
   doi: https://doi.org/10.1109/NAECON.2018.8556645
 
-- title: "Dagstuhl: Seminar on Genetic Improvement of Software"
+- key: "Danglot:2018:sigevolution"
+  title: "Dagstuhl: Seminar on Genetic Improvement of Software"
   authors:
     - name: Benjamin Danglot
   venue: "SIGEVOlution"
@@ -1836,7 +1961,8 @@
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1104.pdf
 
-- title: "Genetic Improvement Workshop at ICSE 2018"
+- key: "An:2018:sigevolution"
+  title: "Genetic Improvement Workshop at ICSE 2018"
   authors:
     - name: Gabin An
   venue: "SIGEVOlution"
@@ -1846,7 +1972,8 @@
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1104.pdf
 
-- title: "Deploying Search Based Software Engineering with Sapienz at Facebook"
+- key: "Alshahwan:2018:SSBSE"
+  title: "Deploying Search Based Software Engineering with Sapienz at Facebook"
   authors:
     - name: Nadia Alshahwan
     - name: Xinbo Gao
@@ -1863,7 +1990,8 @@
   tags:
     - SBSE
 
-- title: "EvoIsolator: Evolving Program Slices for Hardware Isolation Based Security"
+- key: "Ye:2018:SSBSE"
+  title: "EvoIsolator: Evolving Program Slices for Hardware Isolation Based Security"
   authors:
     - name: Mengmei Ye
     - name: Myra B. Cohen
@@ -1876,7 +2004,8 @@
   tags:
     - SBSE
 
-- title: "Evolving Better Software Parameters"
+- key: "Langdon:2018:SSBSE"
+  title: "Evolving Better Software Parameters"
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
@@ -1889,7 +2018,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2018_SSBSE.pdf
 
-- title: "Applying Genetic Programming with Similar Bug Fix Information to Automatic Fault Repair"
+- key: "Yang:2018:Symmetry"
+  title: "Applying Genetic Programming with Similar Bug Fix Information to Automatic Fault Repair"
   authors:
     - name: Geunseok Yang
     - name: Youngjun Jeong
@@ -1905,7 +2035,8 @@
   urls:
     - https://www.mdpi.com/2073-8994/10/4/92/pdf
 
-- title: "Evolving Exact Decompilation"
+- key: "Schulte:2018:BAR"
+  title: "Evolving Exact Decompilation"
   authors:
     - name: Eric Schulte
     - name: Jason Ruchti
@@ -1923,7 +2054,8 @@
     - https://www.ndss-symposium.org/wp-content/uploads/2018/07/bar2018_8_Schulte_paper.pdf
     - http://www.cs.unm.edu/~eschulte/data/bed.pdf
 
-- title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
+- key: "bruce:RN1701"
+  title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
     - name: Bobby R. Bruce
     - name: Justyna Petke
@@ -1935,7 +2067,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_17_01.PDF
 
-- title: "Automated Improvement of Software Design by Search-Based Refactoring"
+- key: "Morales-Alvarado:thesis"
+  title: "Automated Improvement of Software Design by Search-Based Refactoring"
   authors:
     - name: Rodrigo Morales Alvarado
   venue: ""
@@ -1949,7 +2082,8 @@
   pdfs:
     - https://publications.polymtl.ca/2878/1/2017_RodrigoMoralesAlvarado.pdf
 
-- title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV : A Correction"
+- key: "bruce:RN1707"
+  title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV : A Correction"
   authors:
     - name: Bobby R. Bruce
   venue: ""
@@ -1958,7 +2092,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_17_07.pdf
 
-- title: "Design of repair operators for automated program repair"
+- key: "ShinHwei"
+  title: "Design of repair operators for automated program repair"
   authors:
     - name: Shin Hwei Tan
   venue: ""
@@ -1967,7 +2102,8 @@
   pdfs:
     - https://www.comp.nus.edu.sg/~abhik/Students/ShinHwei.pdf
 
-- title: "Evolving better RNAfold C source code"
+- key: "langdon:RN1708"
+  title: "Evolving better RNAfold C source code"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -1980,7 +2116,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_17_08.pdf
 
-- title: "Genetic Improvement of Software: From Program Landscapes to the Automatic Improvement of a Live System"
+- key: "Haraldsson:thesis"
+  title: "Genetic Improvement of Software: From Program Landscapes to the Automatic Improvement of a Live System"
   authors:
     - name: Saemundur Oskar Haraldsson
       aka: Saemundur O. Haraldsson
@@ -1995,7 +2132,8 @@
   pdfs:
     - https://dspace.stir.ac.uk/bitstream/1893/26007/1/thesis.pdf
 
-- title: "Mutation-Based Genetic Improvement of Software"
+- key: "Thesis_Fan_v2.1"
+  title: "Mutation-Based Genetic Improvement of Software"
   authors:
     - name: Fan Wu
   venue: ""
@@ -2010,7 +2148,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Thesis_Fan_v2.1.pdf
 
-- title: "Optimizing Tradeoffs of Non-Functional Properties in Software"
+- key: "1_Dorn_Jonathan_2017_PHD"
+  title: "Optimizing Tradeoffs of Non-Functional Properties in Software"
   authors:
     - name: Jonathan Dorn
   venue: ""
@@ -2022,7 +2161,8 @@
   pdfs:
     - https://libra2.lib.virginia.edu/downloads/4m90dv78f?filename=1_Dorn_Jonathan_2017_PHD.pdf
 
-- title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
+- key: "2017arXiv171207804Y"
+  title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
     - name: Yuan Yuan2
       aka: Yuan Yuan
@@ -2039,7 +2179,8 @@
   pdfs:
     - https://arxiv.org/pdf/1712.07804.pdf
 
-- title: "Darwinian Data Structure Selection"
+- key: "DBLP:journals/corr/BasiosLWKLB17"
+  title: "Darwinian Data Structure Selection"
   authors:
     - name: Michail Basios
     - name: Lingbo Li
@@ -2057,7 +2198,24 @@
   pdfs:
     - http://arxiv.org/pdf/1706.03232.pdf
 
-- title: "Genetically Improved BarraCUDA"
+- key: "Bokhari:2017:arXiv"
+  title: "Validation of Internal Meters of Mobile Android Devices"
+  authors:
+    - name: Mahmoud A. Bokhari
+    - name: Yuanzhong Xia
+    - name: Bo Zhou
+    - name: Brad Alexander
+    - name: Markus Wagner
+  venue: "ArXiV"
+  year: 2017
+  type: Archive
+  urls:
+    - https://arxiv.org/abs/1701.07095
+  pdfs:
+    - https://arxiv.org/pdf/1701.07095.pdf
+
+- key: "Langdon:2017:BDM"
+  title: "Genetically Improved BarraCUDA"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -2067,7 +2225,8 @@
   type: Journal
   doi: https://doi.org/10.1186/s13040-017-0149-1
 
-- title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
+- key: "Le:2017:SSS"
+  title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
   authors:
     - name: Xuan-Bach D. Le
     - name: Duc-Hiep Chu
@@ -2083,7 +2242,8 @@
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
 
-- title: "Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset"
+- key: "Martinez:2017:ESE"
+  title: "Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset"
   authors:
     - name: Matias Martinez
     - name: Thomas Durieux
@@ -2099,7 +2259,8 @@
   pdfs:
     - https://hal.archives-ouvertes.fr/hal-01387556/automatic-repair-defects4j.pdf
 
-- title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
+- key: "Haraldsson:2017:EuroGP"
+  title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
   authors:
     - name: Saemundur O. Haraldsson
     - name: John R. Woodward
@@ -2116,7 +2277,8 @@
   pdfs:
     - https://dspace.stir.ac.uk/bitstream/1893/25251/1/haraldsson.pdf
 
-- title: "Visualising the Search Landscape of the Triangle Program"
+- key: "langdon:2017:EuroGP"
+  title: "Visualising the Search Landscape of the Triangle Program"
   authors:
     - name: William B. Langdon
     - name: Nadarajen Veerapen
@@ -2131,7 +2293,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_EuroGP.pdf
 
-- title: "Deep Parameter Tuning of Concurrent Divide and Conquer Algorithms in Akka"
+- key: "White:2017:DPO"
+  title: "Deep Parameter Tuning of Concurrent Divide and Conquer Algorithms in Akka"
   authors:
     - name: David R. White
     - name: Leonid Joffe
@@ -2148,7 +2311,8 @@
   pdfs:
     - http://eprints.whiterose.ac.uk/117963/1/optimizing_akka_concurrency.pdf
 
-- title: "Polytypic Genetic Programming"
+- key: "Swan:2017:evoApplications"
+  title: "Polytypic Genetic Programming"
   authors:
     - name: Jerry Swan
     - name: Krzysztof Krawiec
@@ -2162,7 +2326,8 @@
   pdfs:
     - http://eprints.whiterose.ac.uk/117964/1/polytypic_genetic_programming.pdf
 
-- title: "Genetic Improvement of Computational Biology Software"
+- key: "langdon:2017:ECCSB"
+  title: "Genetic Improvement of Computational Biology Software"
   authors:
     - name: William B. Langdon
     - name: Karina Zile
@@ -2175,7 +2340,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
 
-- title: "A Search for Improved Performance in Regular Expressions"
+- key: "Cody-Kenny:2017:GECCOa"
+  title: "A Search for Improved Performance in Regular Expressions"
   authors:
     - name: Brendan Cody-Kenny
     - name: Michael Fenton
@@ -2188,7 +2354,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3071178.3071196
 
-- title: "Empirical Evaluation of Conditional Operators in GP Based Fault Localization"
+- key: "Kang:2017:GECCO"
+  title: "Empirical Evaluation of Conditional Operators in GP Based Fault Localization"
   authors:
     - name: Dahyun Kang
     - name: Jeongju Sohn
@@ -2198,7 +2365,8 @@
   type: Conference
   doi: https://doi.org/10.1145/3071178.3071263
 
-- title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
+- key: "Bokhari:2017:GI"
+  title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
   authors:
     - name: Mahmoud A. Bokhari
     - name: Bobby R. Bruce
@@ -2213,7 +2381,8 @@
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/bokhari2017_deep_parameter_optimisation.pdf
     - http://cs.adelaide.edu.au/~markus/pub/2017gecco-deepandroid.pdf
 
-- title: "Embedding Genetic Improvement into Programming Languages"
+- key: "Yoo:2017:GI"
+  title: "Embedding Genetic Improvement into Programming Languages"
   authors:
     - name: Shin Yoo
   venue: "GI@GECCO"
@@ -2226,7 +2395,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/yoo2017_embedding_gi.pdf
 
-- title: "Evolving Software Building Blocks with FINCH"
+- key: "Orlov:2017:GI"
+  title: "Evolving Software Building Blocks with FINCH"
   authors:
     - name: Michael Orlov
   venue: "GI@GECCO"
@@ -2238,7 +2408,8 @@
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/orlov2017_finch.pdf
     - https://noexec.org/public/papers/finch-tree.pdf
 
-- title: "Fixing Bugs in Your Sleep: How Genetic Improvement Became an Overnight Success"
+- key: "Haraldsson:2017:GI"
+  title: "Fixing Bugs in Your Sleep: How Genetic Improvement Became an Overnight Success"
   authors:
     - name: Saemundur O. Haraldsson
     - name: John R. Woodward
@@ -2257,7 +2428,8 @@
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/haraldsson2017_gi_overnight.pdf
     - http://www.human-competitive.org/sites/default/files/haraldsson-paper-2.pdf
 
-- title: "From Problem Landscapes to Language Landscapes: Questions in Genetic Improvement"
+- key: "Cody-Kenny:2017:GI"
+  title: "From Problem Landscapes to Language Landscapes: Questions in Genetic Improvement"
   authors:
     - name: Brendan Cody-Kenny
     - name: Michael Fenton
@@ -2270,7 +2442,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/codykenny2017_landscape_questions.pdf
 
-- title: "GI in No Time"
+- key: "White:2017:GI"
+  title: "GI in No Time"
   authors:
     - name: David R. White
   venue: "GI@GECCO"
@@ -2284,7 +2457,8 @@
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/white2017_gin.pdf
     - https://github.com/gintool/gin/blob/master/doc/gin.pdf
 
-- title: "Gaining Insights into Traffic Data through Genetic Improvement"
+- key: "Ekart:2017:GI"
+  title: "Gaining Insights into Traffic Data through Genetic Improvement"
   authors:
     - name: Aniko Ekart
     - name: Alina Patelli
@@ -2301,7 +2475,8 @@
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/ekart2017_road_data.pdf
     - https://publications.aston.ac.uk/id/eprint/31438/1/Road_traffic_data_through_genetic_improvement.pdf
 
-- title: "Genetic Improvement of Runtime in a Bioinformatics Application"
+- key: "Haraldsson:2017a:GI"
+  title: "Genetic Improvement of Runtime in a Bioinformatics Application"
   authors:
     - name: Saemundur O. Haraldsson
     - name: John R. Woodward
@@ -2318,7 +2493,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/haraldsson2017_bioinformatics.pdf
 
-- title: "Improving SSE Parallel Code with Grow and Graft Genetic Programming"
+- key: "Langdon:2017:GI"
+  title: "Improving SSE Parallel Code with Grow and Graft Genetic Programming"
   authors:
     - name: William B. Langdon
     - name: Ronny Lorenz
@@ -2331,7 +2507,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2017_GI.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/langdon2017_parallel_code.pdf
 
-- title: "Learning from Super-Mutants"
+- key: "Landsborough:2017:GI"
+  title: "Learning from Super-Mutants"
   authors:
     - name: Jason Landsborough
     - name: Stephen Harding
@@ -2344,7 +2521,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/landsborough2017_supermutants.pdf
 
-- title: "Modelling Genetic Improvement Landscapes with Local Optima Networks"
+- key: "Veerapen:2017:GI"
+  title: "Modelling Genetic Improvement Landscapes with Local Optima Networks"
   authors:
     - name: Nadarajen Veerapen
     - name: Fabio Daolio
@@ -2357,7 +2535,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/veerapen2017_local_optima_networks.pdf
 
-- title: "New Operators for Non-functional Genetic Improvement"
+- key: "Petke:2017:GI"
+  title: "New Operators for Non-functional Genetic Improvement"
   authors:
     - name: Justyna Petke
   venue: "GI@GECCO"
@@ -2368,7 +2547,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/petke2017_operators.pdf
 
-- title: "Genetic Improvement of GPU Software"
+- key: "Langdon:2016:GPEM"
+  title: "Genetic Improvement of GPU Software"
   authors:
     - name: William B. Langdon
     - name: Brian Yee Hong Lam
@@ -2387,7 +2567,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_GPEM.pdf
 
-- title: "Online Genetic Improvement on the java virtual machine with ECSELR"
+- key: "Yeboah-Antwi:2016:GPEM"
+  title: "Online Genetic Improvement on the java virtual machine with ECSELR"
   authors:
     - name: Kwaku Yeboah-Antwi
     - name: Benoit Baudry
@@ -2401,7 +2582,8 @@
   urls:
     - https://hal.inria.fr/hal-01382964
 
-- title: "Preface to the Special Issue on Genetic Improvement"
+- key: "Petke:2016:GPEM"
+  title: "Preface to the Special Issue on Genetic Improvement"
   authors:
     - name: Justyna Petke
   venue: "GPEM"
@@ -2409,7 +2591,8 @@
   type: Journal
   doi: https://doi.org/10.1007/s10710-016-9280-x
 
-- title: "Trading between quality and non-functional properties of median filter in embedded systems"
+- key: "Vasicek:2016:GPEMa"
+  title: "Trading between quality and non-functional properties of median filter in embedded systems"
   authors:
     - name: Zdenek Vasicek
     - name: Vojtech Mrazek
@@ -2420,7 +2603,8 @@
   urls:
     - http://www.fit.vutbr.cz/research/view_pub.php.cs?id=11077
 
-- title: "BarraCUDA in the Cloud"
+- key: "langdon:2017:ieeeblog"
+  title: "BarraCUDA in the Cloud"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -2435,7 +2619,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ieeeblog.pdf
 
-- title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
+- key: "Brownlee:2017:ieeeETCI"
+  title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
   authors:
     - name: Alexander Edward Ian Brownlee
     - name: Nathan Burles
@@ -2449,7 +2634,8 @@
   pdfs:
     - http://eprints.whiterose.ac.uk/117916/1/07935484_1.pdf
 
-- title: "Some Remarks on Code Evolution with Genetic Programming"
+- key: "Banzhaf:2017:miller"
+  title: "Some Remarks on Code Evolution with Genetic Programming"
   authors:
     - name: Wolfgang Banzhaf
   venue: "Inspired by Nature: Essays Presented to Julian F. Miller on the Occasion of his 60th Birthday"
@@ -2460,7 +2646,8 @@
     - ML
     - SBSE
 
-- title: "PyGGI: Python General framework for Genetic Improvement"
+- key: "An2017aa"
+  title: "PyGGI: Python General framework for Genetic Improvement"
   authors:
     - name: Gabin An
     - name: Jinhan Kim
@@ -2476,7 +2663,8 @@
   pdfs:
     - https://coinse.kaist.ac.kr/publications/pdfs/An2017aa.pdf
 
-- title: "Inferring Automatic Test Oracles"
+- key: "Langdon:2017:SBST"
+  title: "Inferring Automatic Test Oracles"
   authors:
     - name: William B. Langdon
     - name: Shin Yoo
@@ -2493,7 +2681,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2017_SBST.pdf
 
-- title: "The Use of Automatic Test Data Generation for Genetic Improvement in a Live System"
+- key: "Haraldsson:2017:SBST"
+  title: "The Use of Automatic Test Data Generation for Genetic Improvement in a Live System"
   authors:
     - name: Saemundur Oskar Haraldsson
       aka: Saemundur O. Haraldsson
@@ -2515,7 +2704,8 @@
     - https://www.researchgate.net/profile/Saemundur_Haraldsson/publication/315381757_The_Use_of_Automatic_Test_Data_Generation_for_Genetic_Improvement_in_a_Live_System/links/58d3abeda6fdccd24d4595d1/The-Use-of-Automatic-Test-Data-Generation-for-Genetic-Improvement-in-a-Live-System.pdf
     - http://www.human-competitive.org/sites/default/files/haraldsson-paper-1.pdf
 
-- title: "Genetic Improvement Workshop at GECCO 2017"
+- key: "Cody-Kenny:2017:sigevolution"
+  title: "Genetic Improvement Workshop at GECCO 2017"
   authors:
     - name: Brendan Cody-Kenny
   venue: "SIGEVOlution"
@@ -2525,7 +2715,8 @@
   pdfs:
     - http://www.sigevolution.org/issues/SIGEVOlution1003.pdf
 
-- title: "Genetic Improvement in Code Interpreters and Compilers"
+- key: "Krauss:2017:SPLASHcomp"
+  title: "Genetic Improvement in Code Interpreters and Compilers"
   authors:
     - name: Oliver Krauss
   venue: "SPLASH"
@@ -2537,7 +2728,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/SPLASH_SRC_Krauss_Oliver.pdf
 
-- title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
+- key: "Timperley:2017:SSBSE"
+  title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
   authors:
     - name: Christopher Steven Timperley
       aka: Christopher Timperley
@@ -2552,7 +2744,8 @@
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/legoues-ssbse17.pdf
 
-- title: "MuSynth: Program Synthesis via Code Reuse and Code Manipulation"
+- key: "Kashyap:2017:SSBSE"
+  title: "MuSynth: Program Synthesis via Code Reuse and Code Manipulation"
   authors:
     - name: Vineeth Kashyap
     - name: Rebecca Swords
@@ -2565,7 +2758,8 @@
   tags:
     - SBSE
 
-- title: "Optimising Darwinian Data Structures on Google Guava"
+- key: "Basios:2017:SSBSE"
+  title: "Optimising Darwinian Data Structures on Google Guava"
   authors:
     - name: Michail Basios
     - name: Lingbo Li
@@ -2579,7 +2773,8 @@
   tags:
     - SBSE
 
-- title: "Multi-objective code-smells detection using good and bad design examples"
+- key: "Mansoor:2017:SQJ"
+  title: "Multi-objective code-smells detection using good and bad design examples"
   authors:
     - name: Usman Mansoor
     - name: Marouane Kessentini
@@ -2592,7 +2787,8 @@
   tags:
     - SBSE
 
-- title: "Computers will soon be able to fix themselves - are IT departments for the chop?"
+- key: "Haraldsson:2017:cwsbatfix"
+  title: "Computers will soon be able to fix themselves - are IT departments for the chop?"
   authors:
     - name: Saemundur Haraldsson
       aka: Saemundur O. Haraldsson
@@ -2605,7 +2801,8 @@
   urls:
     - http://theconversation.com/computers-will-soon-be-able-to-fix-themselves-are-it-departments-for-the-chop-85632
 
-- title: "Facebook's evolutionary search for crashing software bugs"
+- key: "Anthony:2017/08/facebook"
+  title: "Facebook's evolutionary search for crashing software bugs"
   authors:
     - name: Sebastian Anthony
   venue: "ars technica UK"
@@ -2616,7 +2813,8 @@
   urls:
     - https://arstechnica.co.uk/information-technology/2017/08/facebook-dynamic-analysis-software-sapienz/
 
-- title: "Benchmarking BarraCUDA on Epigenetic DNA and nVidia Pascal GPUs"
+- key: "langdon:RN1610"
+  title: "Benchmarking BarraCUDA on Epigenetic DNA and nVidia Pascal GPUs"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -2629,7 +2827,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1610.pdf
 
-- title: "Multi-Dimensional Analysis of Software Power Consumptions in Multi-Core Architectures"
+- key: "Colmant:thesis"
+  title: "Multi-Dimensional Analysis of Software Power Consumptions in Multi-Core Architectures"
   authors:
     - name: Maxime Colmant
   venue: ""
@@ -2643,7 +2842,8 @@
   pdfs:
     - https://tel.archives-ouvertes.fr/tel-01403559/file/colmant-thesis.pdf
 
-- title: "The Genetic Improvement Fitness Landscape"
+- key: "langdon:RN1604"
+  title: "The Genetic Improvement Fitness Landscape"
   authors:
     - name: William B. Langdon
   venue: ""
@@ -2654,7 +2854,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1604.pdf
 
-- title: "Toward Developer-like Automated Program Repair: Modification Comparisons between GenProg and Developers"
+- key: "Nakajima:2016:APSEC"
+  title: "Toward Developer-like Automated Program Repair: Modification Comparisons between GenProg and Developers"
   authors:
     - name: Hiroki Nakajima
     - name: Yoshiki Higo
@@ -2667,7 +2868,8 @@
   tags:
     - APR
 
-- title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
+- key: "Highnam:2016:DSN-W"
+  title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
   authors:
     - name: Kate Highnam
     - name: Kevin Angstadt
@@ -2682,7 +2884,8 @@
   pdfs:
     - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
 
-- title: "A Capable Crossover Technique on Automatic Program Repair"
+- key: "Kou:2016:IWESEP"
+  title: "A Capable Crossover Technique on Automatic Program Repair"
   authors:
     - name: Ryotaro Kou
     - name: Yoshiki Higo
@@ -2692,7 +2895,8 @@
   type: Conference
   doi: https://doi.org/10.1109/IWESEP.2016.15
 
-- title: "McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation"
+- key: "Elver:2016:ieeeHPCA"
+  title: "McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation"
   authors:
     - name: Marco Elver
     - name: Vijay Nagarajan
@@ -2706,7 +2910,8 @@
   urls:
     - http://hpca22.site.ac.upc.edu/index.php/program/conference-program/
 
-- title: "Automatic Synthesis of Code Using Genetic Programming"
+- key: "Peled:2016:ISoLA"
+  title: "Automatic Synthesis of Code Using Genetic Programming"
   authors:
     - name: Doron Peled
   venue: "7th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2016"
@@ -2714,7 +2919,8 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-47166-2_12
 
-- title: "Automatically scheduling halide image processing pipelines"
+- key: "Mullapudi:2016:acmTG"
+  title: "Automatically scheduling halide image processing pipelines"
   authors:
     - name: Ravi Teja Mullapudi
     - name: Andrew Adams
@@ -2730,7 +2936,8 @@
   urls:
     - http://graphics.cs.cmu.edu/projects/halidesched/
 
-- title: "Automated program repair using genetic programming and model checking"
+- key: "Zojaji:2016:AI"
+  title: "Automated program repair using genetic programming and model checking"
   authors:
     - name: Zahra Zojaji
     - name: Behrouz Tork Ladani
@@ -2740,7 +2947,8 @@
   type: Journal
   doi: https://doi.org/10.1007/s10489-016-0804-0
 
-- title: "Towards Automated Strategies in Satisfiability Modulo Theory"
+- key: "GalvezRamirez:2016:EuroGP"
+  title: "Towards Automated Strategies in Satisfiability Modulo Theory"
   authors:
     - name: Nicolas Galvez Ramirez
     - name: Youssef Hamadi
@@ -2753,7 +2961,8 @@
   tags:
     - SBSE
 
-- title: "Connecting Automatic Parameter Tuning, Genetic Programming as a Hyper-heuristic, and Genetic Improvement Programming"
+- key: "Woodward:2016:GECCOcomp"
+  title: "Connecting Automatic Parameter Tuning, Genetic Programming as a Hyper-heuristic, and Genetic Improvement Programming"
   authors:
     - name: John R. Woodward
     - name: Colin G. Johnson
@@ -2767,7 +2976,8 @@
   pdfs:
     - https://dspace.stir.ac.uk/bitstream/1893/23394/1/ecada03%20%284%29.pdf
 
-- title: "Visualisation and Analysis of Genetic Records Produced by Cartesian Genetic Programming"
+- key: "Sekanina:2016:GECCOcomp"
+  title: "Visualisation and Analysis of Genetic Records Produced by Cartesian Genetic Programming"
   authors:
     - name: Lukas Sekanina
     - name: Vlastimil Kapusta
@@ -2776,7 +2986,8 @@
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931740
 
-- title: "Automatic Improvement of Apache Spark Queries using Semantics-preserving Program Reduction"
+- key: "Kocsis:2016:GI"
+  title: "Automatic Improvement of Apache Spark Queries using Semantics-preserving Program Reduction"
   authors:
     - name: Zoltan A. Kocsis
     - name: John H. Drake
@@ -2792,7 +3003,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Automatic_Improvement_of_Apache_Spark_Queries_using_Semantics-preserving_Program_Reduction.pdf
 
-- title: "Benchmarking Genetically Improved BarraCUDA on Epigenetic Methylation NGS datasets and nVidia GPUs"
+- key: "langdon:2016:GI"
+  title: "Benchmarking Genetically Improved BarraCUDA on Epigenetic Methylation NGS datasets and nVidia GPUs"
   authors:
     - name: William B. Langdon
     - name: Albert Vilella
@@ -2810,7 +3022,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_GI.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Benchmarking_Genetically_Improved-BarraCUDA_on_Epigenetic_Methylation_NGS_datasets_and_nVidia_GPUs.pdf
 
-- title: "Evals is not enough: why we should report wall-clock time"
+- key: "Woodward:2016:GIa"
+  title: "Evals is not enough: why we should report wall-clock time"
   authors:
     - name: John Woodward
       aka: John R. Woodward
@@ -2827,7 +3040,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Evals_is_not_enough_why_we_should_report_wall-clock_time.pdf
 
-- title: "Evolutionary optimization of compiler flag selection by learning and exploiting flags interactions"
+- key: "Garciarena:2016:GI"
+  title: "Evolutionary optimization of compiler flag selection by learning and exploiting flags interactions"
   authors:
     - name: Unai Garciarena
     - name: Roberto Santana
@@ -2841,7 +3055,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Evolutionary_optimization_of_compiler_flag_selection_by_learning_and_exploiting_flags_interactions.pdf
 
-- title: "GP vs GI: if you can't beat them, join them"
+- key: "Woodward:2016:GI"
+  title: "GP vs GI: if you can't beat them, join them"
   authors:
     - name: John Woodward
       aka: John R. Woodward
@@ -2858,7 +3073,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/GP_vs_GI_if_you_can%E2%80%99t_beat_them_join_them.pdf
 
-- title: "Genetic Improvement 2016 Chairs' Welcome and Organization"
+- key: "Weimer:2016:GECCOcomp"
+  title: "Genetic Improvement 2016 Chairs' Welcome and Organization"
   authors:
     - name: Westley Weimer
     - name: Justyna Petke
@@ -2869,7 +3085,8 @@
   type: Workshop
   doi: https://doi.org/10.1145/2908961.2931686
 
-- title: "Genetic Improvement for Code Obfuscation"
+- key: "Petke:2016:GI"
+  title: "Genetic Improvement for Code Obfuscation"
   authors:
     - name: Justyna Petke
   venue: "GI@GECCO"
@@ -2882,7 +3099,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Genetic_Improvement_for_Code_Obfuscation.pdf
 
-- title: "Genetic Programming: From design to improved implementation"
+- key: "Lopez:2016:GI"
+  title: "Genetic Programming: From design to improved implementation"
   authors:
     - name: Victor R. Lopez-Lopez
     - name: Leonardo Trujillo
@@ -2898,7 +3116,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Genetic_Programming_From_Design_to_Improved_Implementation.pdf
 
-- title: "Guiding Unconstrained Genetic Improvement"
+- key: "White:2016:GI"
+  title: "Guiding Unconstrained Genetic Improvement"
   authors:
     - name: David White
   venue: "GI@GECCO"
@@ -2911,7 +3130,8 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Guiding_Unconstrained_Genetic-Improvement.pdf
 
-- title: "Optimising Energy Consumption Heuristically on Android Mobile Phones"
+- key: "Bokhari:2016:GI"
+  title: "Optimising Energy Consumption Heuristically on Android Mobile Phones"
   authors:
     - name: Mahmoud Bokhari
     - name: Markus Wagner
@@ -2926,7 +3146,8 @@
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-energy.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Optimising_Energy_Consumption_Heuristically_on_Android_Mobile_Phones.pdf
 
-- title: "Speeding up the proof strategy in formal software verification"
+- key: "Wagner:2016:GI"
+  title: "Speeding up the proof strategy in formal software verification"
   authors:
     - name: Markus Wagner
   venue: "GI@GECCO"
@@ -2940,7 +3161,8 @@
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-verification.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Speeding-up-the-Proof_Strategy_in_Formal_Software_Verification.pdf
 
-- title: "Enhancing Automated Program Repair with Deductive Verification"
+- key: "Le:2016:ICSME"
+  title: "Enhancing Automated Program Repair with Deductive Verification"
   authors:
     - name: Xuan-Bach D. Le
     - name: Quang Loc Le
@@ -2955,7 +3177,8 @@
   urls:
     - https://goo.gl/9TS9wo
 
-- title: "Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language"
+- key: "DBLP:conf/wcre/LimaSLCMF16"
+  title: "Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language"
   authors:
     - name: Luis Gabriel Lima
     - name: Francisco Soares-Neto
@@ -2970,7 +3193,8 @@
   pdfs:
     - http://green-haskell.github.io/papers/saner2016.pdf
 
-- title: "Genetic Improvement"
+- key: "langdon:2016:ieeeblog"
+  title: "Genetic Improvement"
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
@@ -2984,7 +3208,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_ieeeblog.pdf
 
-- title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
+- key: "langdon:2016:cec"
+  title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
   authors:
     - name: William B. Langdon
     - name: Gabriela Ochoa
@@ -2995,7 +3220,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_cec.pdf
 
-- title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
+- key: "Xu:2016:NDSS"
+  title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
   authors:
     - name: Weilin Xu
     - name: Yanjun Qi
@@ -3009,7 +3235,8 @@
   pdfs:
     - https://www.internetsociety.org/sites/default/files/blogs-media/automatically-evading-classifiers.pdf
 
-- title: "A General-Purpose Framework for Genetic Improvement"
+- key: "Marino:2016:PPSN"
+  title: "A General-Purpose Framework for Genetic Improvement"
   authors:
     - name: Francesco Marino
     - name: Giovanni Squillero
@@ -3021,7 +3248,8 @@
   tags:
     - SBSE
 
-- title: "Optimising Quantisation Noise in Energy Measurement"
+- key: "Langdon:2016:PPSN"
+  title: "Optimising Quantisation Noise in Energy Measurement"
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
@@ -3036,7 +3264,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_PPSN.pdf
 
-- title: "Fitness Landscape of the Triangle Program"
+- key: "langdon:2016:PPSNlandscape"
+  title: "Fitness Landscape of the Triangle Program"
   authors:
     - name: William B. Langdon
     - name: Mark Harman
@@ -3051,7 +3280,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1605.pdf
 
-- title: "Anti-patterns in Search-based Program Repair"
+- key: "Tan:2016:ASP:2950290.2950295"
+  title: "Anti-patterns in Search-based Program Repair"
   authors:
     - name: Shin Hwei Tan
     - name: Hiroaki Yoshida
@@ -3064,7 +3294,8 @@
   pdfs:
     - https://www.comp.nus.edu.sg/~abhik/pdf/FSE16.pdf
 
-- title: "A Report on the Genetic Improvement Workshop@GECCO 2016"
+- key: "Bruce:2016:sigevolution"
+  title: "A Report on the Genetic Improvement Workshop@GECCO 2016"
   authors:
     - name: Bobby Bruce
       aka: Bobby R. Bruce
@@ -3075,7 +3306,8 @@
   pdfs:
     - http://www.sigevolution.org/issues/pdf/SIGEVOlution0902.pdf
 
-- title: "API-Constrained Genetic Improvement"
+- key: "Langdon:2016:SSBSE"
+  title: "API-Constrained Genetic Improvement"
   authors:
     - name: William B. Langdon
     - name: David R. White
@@ -3091,7 +3323,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_SSBSE.pdf
 
-- title: "Amortised Deep Parameter Optimisation of GPGPU Work Group Size for OpenCV"
+- key: "Sohn:2016:SSBSE"
+  title: "Amortised Deep Parameter Optimisation of GPGPU Work Group Size for OpenCV"
   authors:
     - name: Jeongju Sohn
     - name: Seongmin Lee
@@ -3105,7 +3338,8 @@
   urls:
     - https://coinse.kaist.ac.kr/projects/adpoopencv/
 
-- title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV"
+- key: "Bruce:2016:SSBSE"
+  title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV"
   authors:
     - name: Bobby R. Bruce
     - name: Jonathan M. Aitken
@@ -3117,7 +3351,8 @@
   tags:
     - SBSE
 
-- title: "Field Report: Applying Monte Carlo Tree Search for Program Synthesis"
+- key: "Lim:2016:SSBSE"
+  title: "Field Report: Applying Monte Carlo Tree Search for Program Synthesis"
   authors:
     - name: Jin-Suk Lim
     - name: Shin Yoo
@@ -3128,7 +3363,8 @@
   urls:
     - http://coinse.kaist.ac.kr/projects/mctsps/
 
-- title: "HOMI: Searching Higher Order Mutants For Software Improvement"
+- key: "Wu:2016:SSBSE"
+  title: "HOMI: Searching Higher Order Mutants For Software Improvement"
   authors:
     - name: Fan Wu
     - name: Mark Harman
@@ -3141,7 +3377,8 @@
   tags:
     - SBSE
 
-- title: "Improved crossover operators for genetic programming for program repair"
+- key: "Oliveira:2016:SSBSE"
+  title: "Improved crossover operators for genetic programming for program repair"
   authors:
     - name: Vinicius Paulo L. Oliveira
     - name: Eduardo F. D. Souza
@@ -3157,7 +3394,8 @@
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/legoues-ssbse16.pdf
 
-- title: "Genetic Improvement for Approximate Computing"
+- key: "Sekanina:2016:WAPCO"
+  title: "Genetic Improvement for Approximate Computing"
   authors:
     - name: Lukas Sekanina
     - name: Zdenek Vasicek
@@ -3167,7 +3405,8 @@
   pdfs:
     - http://wapco.inf.uth.gr/papers/SESSION2/wapco2016_2_5.pdf
 
-- title: "An automated approach to program repair with semantic code search"
+- key: "YalinKe:Masters"
+  title: "An automated approach to program repair with semantic code search"
   authors:
     - name: Yalin Ke
   venue: ""
@@ -3178,7 +3417,8 @@
     - http://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=5820&context=etd
     - http://lib.dr.iastate.edu/etd/14813/
 
-- title: "Automatic Software Repair: a Bibliography"
+- key: "monperrus:hal-01206501"
+  title: "Automatic Software Repair: a Bibliography"
   authors:
     - name: Martin Monperrus
   venue: ""
@@ -3191,7 +3431,8 @@
   pdfs:
     - http://www.monperrus.net/martin/survey-automatic-repair.pdf
 
-- title: "Genetic Programming Bias with Software Performance Analysis"
+- key: "BCK-thesis"
+  title: "Genetic Programming Bias with Software Performance Analysis"
   authors:
     - name: Brendan Cody-Kenny
   venue: ""
@@ -3204,7 +3445,8 @@
   pdfs:
     - http://www.tara.tcd.ie/bitstream/handle/2262/76251/BCK.thesis.april.2016%5b1%5d.pdf
 
-- title: "Genetically Improved BarraCUDA"
+- key: "Langdon:RN1503"
+  title: "Genetically Improved BarraCUDA"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -3218,7 +3460,8 @@
     - http://arxiv.org/pdf/arXiv:1505.07855.pdf
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn-15-03.pdf
 
-- title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
+- key: "ho-ah-ka-15a"
+  title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
   authors:
     - name: Nam Ho
     - name: Abdullah Fathi Ahmed
@@ -3229,7 +3472,8 @@
   type: Conference
   doi: https://doi.org/10.1109/AHS.2015.7231178
 
-- title: "Experience report: How do techniques, programs, and tests impact automated program repair?"
+- key: "Kong:2015:ieeeISSRE"
+  title: "Experience report: How do techniques, programs, and tests impact automated program repair?"
   authors:
     - name: Xianglong Kong
     - name: Lingming Zhang
@@ -3242,7 +3486,8 @@
   tags:
     - SBSE
 
-- title: "Should fixing these failures be delegated to automated program repair?"
+- key: "Le:2015:ieeeISSRE"
+  title: "Should fixing these failures be delegated to automated program repair?"
   authors:
     - name: Xuan-Bach D. Le
     - name: Tien-Duy B. Le
@@ -3254,7 +3499,8 @@
   tags:
     - SBSE
 
-- title: "Repairing Programs with Semantic Code Search"
+- key: "Ke:2015:ASE"
+  title: "Repairing Programs with Semantic Code Search"
   authors:
     - name: Yalin Ke
     - name: Kathryn T. Stolee
@@ -3269,7 +3515,8 @@
   pdfs:
     - http://people.cs.umass.edu/brun/pubs/pubs/Ke15ase.pdf
 
-- title: "relifix: Automated Repair of Software Regressions"
+- key: "Tan:ICSE:2015"
+  title: "relifix: Automated Repair of Software Regressions"
   authors:
     - name: Shin Hwei Tan
     - name: Abhik Roychoudhury
@@ -3282,7 +3529,8 @@
   pdfs:
     - http://www.comp.nus.edu.sg/~shinhwei/relifix.pdf
 
-- title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
+- key: "Mullapudi:2015:ASPLOS"
+  title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
   authors:
     - name: Ravi Teja Mullapudi
     - name: Vinay Vasista
@@ -3294,7 +3542,8 @@
   tags:
     - SBSE
 
-- title: "Automatic Repair of Real Bugs: An Experience Report on the Defects4J Dataset"
+- key: "DBLP:journals/corr/DurieuxMMSX15"
+  title: "Automatic Repair of Real Bugs: An Experience Report on the Defects4J Dataset"
   authors:
     - name: Thomas Durieux
     - name: Matias Martinez
@@ -3311,7 +3560,8 @@
   pdfs:
     - http://arxiv.org/pdf/1505.07002.pdf
 
-- title: "Performance of Genetic Programming Optimised Bowtie2 on Genome Comparison and Analytic Testing (GCAT) Benchmarks"
+- key: "Langdon:2014:BDM"
+  title: "Performance of Genetic Programming Optimised Bowtie2 on Genome Comparison and Analytic Testing (GCAT) Benchmarks"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -3324,7 +3574,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_BDM.pdf
 
-- title: "Software is Not Fragile"
+- key: "langdon:2015:csdc"
+  title: "Software is Not Fragile"
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
@@ -3340,7 +3591,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_csdc.pdf
 
-- title: "Revolutionising the process of software development"
+- key: "petke:2015:daase_blog"
+  title: "Revolutionising the process of software development"
   authors:
     - name: Justyna Petke
   venue: "DAASE project blog"
@@ -3349,7 +3601,8 @@
   urls:
     - https://daaseblog.wordpress.com/2015/08/07/revolutionising-the-process-of-software-development/
 
-- title: "App Store Mining and Analysis"
+- key: "Harman:2015:DeMobile"
+  title: "App Store Mining and Analysis"
   authors:
     - name: Afnan Al-Subaihin
     - name: Anthony Finkelstein
@@ -3364,7 +3617,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/mharman/final-demobile15-keynote.pdf
 
-- title: "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair"
+- key: "Smith:2015:FSE"
+  title: "Is the Cure Worse Than the Disease? Overfitting in Automated Program Repair"
   authors:
     - name: Edward K. Smith
     - name: Earl T. Barr
@@ -3380,7 +3634,8 @@
   pdfs:
     - http://people.cs.umass.edu/~brun/pubs/pubs/Smith15fse.pdf
 
-- title: "Deep Parameter Optimisation"
+- key: "Wu:2015:GECCO"
+  title: "Deep Parameter Optimisation"
   authors:
     - name: Fan Wu
     - name: Westley Weimer
@@ -3398,7 +3653,8 @@
   pdfs:
     - http://www.human-competitive.org/sites/default/files/wu-weimer-harman-jia-krinke-paper.pdf
 
-- title: "Improving CUDA DNA Analysis Software with Genetic Programming"
+- key: "Langdon:2015:GECCO"
+  title: "Improving CUDA DNA Analysis Software with Genetic Programming"
   authors:
     - name: William B. Langdon
     - name: Brian Yee Hong Lam
@@ -3415,7 +3671,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_GECCO.pdf
 
-- title: "Reducing Energy Consumption Using Genetic Improvement"
+- key: "bruce2015reducing"
+  title: "Reducing Energy Consumption Using Genetic Improvement"
   authors:
     - name: Bobby R. Bruce
     - name: Justyna Petke
@@ -3429,7 +3686,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Bruce_2015_GECCO.pdf
 
-- title: "Embedded Dynamic Improvement"
+- key: "Swan:2015:gi"
+  title: "Embedded Dynamic Improvement"
   authors:
     - name: Nathan Burles
     - name: Jerry Swan
@@ -3445,7 +3703,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/embedded_dynamic_improvement.pdf
 
-- title: "Embedding Adaptivity in Software Systems using the ECSELR framework"
+- key: "Yeboah-Antwi:2015:gi"
+  title: "Embedding Adaptivity in Software Systems using the ECSELR framework"
   authors:
     - name: Kwaku Yeboah-Antwi
     - name: Benoit Baudry
@@ -3458,7 +3717,8 @@
     - http://gpbib.cs.ucl.ac.uk/gi2015/embedding_adaptivity_in_software_systems_using-the_eselr_framework.pdf
     - http://diversify-project.eu/papers/Yeboah15.pdf
 
-- title: "Energy Optimisation via Genetic Improvement A SBSE technique for a new era in Software Development"
+- key: "Bruce:2015:gi"
+  title: "Energy Optimisation via Genetic Improvement A SBSE technique for a new era in Software Development"
   authors:
     - name: Bobby R. Bruce
   venue: "GI@GECCO"
@@ -3471,7 +3731,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/energy_optimisation_via_genetic_improvement.pdf
 
-- title: "Evolutionary Approximation of Software for Embedded Systems: Median Function"
+- key: "Mrazek:2015:gi"
+  title: "Evolutionary Approximation of Software for Embedded Systems: Median Function"
   authors:
     - name: Vojtech Mrazek
     - name: Zdenek Vasicek
@@ -3484,7 +3745,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/evolutionary_approximation_of_software_for_embedded_systems_median_function.pdf
 
-- title: "Fitness as Task-relevant Information Accumulation"
+- key: "Johnson:2015:gi"
+  title: "Fitness as Task-relevant Information Accumulation"
   authors:
     - name: Colin G. Johnson
     - name: John R. Woodward
@@ -3498,7 +3760,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/fitness_as_task-relevant_information_accumulation.pdf
 
-- title: "GI4GI: Improving Genetic Improvement Fitness Functions"
+- key: "Harman:2015:gi"
+  title: "GI4GI: Improving Genetic Improvement Fitness Functions"
   authors:
     - name: Mark Harman
     - name: Justyna Petke
@@ -3510,7 +3773,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/giforgi.pdf
 
-- title: "Genetic Improvement 2015 Chairs' Welcome"
+- key: "langdon:2015:gi"
+  title: "Genetic Improvement 2015 Chairs' Welcome"
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
@@ -3523,7 +3787,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2015/langdon_2015_gi.pdf
 
-- title: "Genetic Improvement for Software Product Lines: An Overview and a Roadmap"
+- key: "Lopez-Herrejon:2015:gi"
+  title: "Genetic Improvement for Software Product Lines: An Overview and a Roadmap"
   authors:
     - name: Roberto E. Lopez-Herrejon
     - name: Lukas Linsbauer
@@ -3539,7 +3804,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/genetic_improvement_for_software_product_lines-an_overview_and_a_roadmap.pdf
 
-- title: "Genetic Improvement of Energy Usage is only as Reliable as the Measurements are Accurate"
+- key: "Haraldsson:2015:gi"
+  title: "Genetic Improvement of Energy Usage is only as Reliable as the Measurements are Accurate"
   authors:
     - name: Saemundur O. Haraldsson
     - name: John R. Woodward
@@ -3551,7 +3817,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/energy_optimisation_via_genetic_improvement.pdf
 
-- title: "Genetic Improvement using Higher Order Mutation"
+- key: "Jia:2015:gi"
+  title: "Genetic Improvement using Higher Order Mutation"
   authors:
     - name: Yue Jia
     - name: Fan Wu
@@ -3565,7 +3832,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/genetic_improvement_using_higher_order_mutation.pdf
 
-- title: "Grow and Graft a better CUDA pknotsRG for RNA pseudoknot free energy calculation"
+- key: "langdon:2015:gi_pknots"
+  title: "Grow and Graft a better CUDA pknotsRG for RNA pseudoknot free energy calculation"
   authors:
     - name: William B. Langdon
     - name: Mark Harman
@@ -3581,7 +3849,8 @@
     - http://gpbib.cs.ucl.ac.uk/gi2015/grow_and_graft_a_better_CUDA_pknotsRG-for-RNA_pseudoknot_free_energy_calculation.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_gi_pknots.pdf
 
-- title: "Removing the Kitchen Sink from Software"
+- key: "Landsborough:2015:gi"
+  title: "Removing the Kitchen Sink from Software"
   authors:
     - name: Jason Landsborough
     - name: Stephen Harding
@@ -3594,7 +3863,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/removing_the_kitchen_sink_from_software.pdf
 
-- title: "Repairing COTS Router Firmware without Access to Source Code or Test Suites: A Case Study in Evolutionary Software Repair"
+- key: "Schulte:2015:gi"
+  title: "Repairing COTS Router Firmware without Access to Source Code or Test Suites: A Case Study in Evolutionary Software Repair"
   authors:
     - name: Eric Schulte
     - name: Westley Weimer
@@ -3607,7 +3877,8 @@
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/W.Langdon/gecco2015/Schulte_2015_gi.pdf
 
-- title: "Rethinking Genetic Improvement Programming"
+- key: "White:2015:gi"
+  title: "Rethinking Genetic Improvement Programming"
   authors:
     - name: David R. White
     - name: Jeremy Singer
@@ -3619,7 +3890,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/rethinking_gi.pdf
 
-- title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
+- key: "Cody-Kenny:2015:gi"
+  title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
   authors:
     - name: Brendan Cody-Kenny
     - name: Edgar Galvan Lopez
@@ -3632,7 +3904,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/locoGP_improving_performance_by_genetic_programming_java_source_code.pdf
 
-- title: "Genetically Improved Software"
+- key: "langdon:2015:hbgpa"
+  title: "Genetically Improved Software"
   authors:
     - name: William B. Langdon
   venue: "Handbook of Genetic Programming Applications"
@@ -3646,7 +3919,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_hbgpa.pdf
 
-- title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
+- key: "Harman:2015:ICST"
+  title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
   authors:
     - name: Mark Harman
     - name: Yue Jia
@@ -3661,7 +3935,8 @@
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/m.harman/icst15.pdf
 
-- title: "Optimising Existing Software with Genetic Programming"
+- key: "Langdon:2013:ieeeTEC"
+  title: "Optimising Existing Software with Genetic Programming"
   authors:
     - name: William B. Langdon
     - name: Mark Harman
@@ -3678,7 +3953,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2013_ieeeTEC.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bowtie2_supplementary.pdf
 
-- title: "An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems"
+- key: "Qi:2015:APP:2771783.2771791"
+  title: "An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems"
   authors:
     - name: Zichao Qi
     - name: Fan Long
@@ -3691,7 +3967,8 @@
   tags:
     - SBSE
 
-- title: "Automated Software Transplantation"
+- key: "Barr:2015:ISSTA"
+  title: "Automated Software Transplantation"
   authors:
     - name: Earl T. Barr
     - name: Mark Harman
@@ -3708,7 +3985,8 @@
   pdfs:
     - http://crest.cs.ucl.ac.uk/autotransplantation/downloads/autotransplantation.pdf
 
-- title: "A Novel Approach to Generating Test Cases with Genetic Programming"
+- key: "Karakatic:2015:KMO"
+  title: "A Novel Approach to Generating Test Cases with Genetic Programming"
   authors:
     - name: Saso Karakatic
     - name: Tina Schweighofer
@@ -3719,7 +3997,8 @@
   tags:
     - testing
 
-- title: "Making Lock-free Data Structures Verifiable with Artificial Transactions"
+- key: "Yuan:2015:PLOS"
+  title: "Making Lock-free Data Structures Verifiable with Artificial Transactions"
   authors:
     - name: Xinhao Yuan
     - name: David Williams-King
@@ -3730,7 +4009,8 @@
   type: Conference
   doi: https://doi.org/10.1145/2818302.2818309
 
-- title: "SASS: Self-adaptation using stochastic search"
+- key: "Coker:SEAMS:2015"
+  title: "SASS: Self-adaptation using stochastic search"
   authors:
     - name: Zack Coker
     - name: David Garlan
@@ -3744,7 +4024,8 @@
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/seams15-position.pdf
 
-- title: "Amortised Optimisation of Non-functional Properties in Production Environments"
+- key: "Yoo:2015:SSBSE"
+  title: "Amortised Optimisation of Non-functional Properties in Production Environments"
   authors:
     - name: Shin Yoo
   venue: "SSBSE"
@@ -3756,7 +4037,8 @@
   urls:
     - http://hdl.handle.net/10203/224142
 
-- title: "Automated Transplantation of Call Graph and Layout Features into Kate"
+- key: "Marginean:2015:SSBSE"
+  title: "Automated Transplantation of Call Graph and Layout Features into Kate"
   authors:
     - name: Alexandru Marginean
     - name: Earl T. Barr
@@ -3773,7 +4055,8 @@
   pdfs:
     - http://alexandrumarginean.com/autotransplantation-ssbse.pdf
 
-- title: "Genetic Improvement of Software for Multiple Objectives"
+- key: "Langdon:2015:SSBSE"
+  title: "Genetic Improvement of Software for Multiple Objectives"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -3786,7 +4069,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_SSBSE.pdf
 
-- title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
+- key: "Burles:2015:SSBSE"
+  title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
   authors:
     - name: Nathan Burles
     - name: Edward Bowles
@@ -3805,7 +4089,8 @@
   pdfs:
     - https://dspace.stir.ac.uk/bitstream/1893/22227/1/SSBSE15-oogiiecgg.pdf
 
-- title: "Specialising Guava's Cache to Reduce Energy Consumption"
+- key: "Burles:2015:SSBSEa"
+  title: "Specialising Guava's Cache to Reduce Energy Consumption"
   authors:
     - name: Nathan Burles
     - name: Edward Bowles
@@ -3820,7 +4105,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/R.Bruce/Burles2015Specialising.pdf
 
-- title: "Grow and Serve: Growing Django Citation Services Using SBSE"
+- key: "jia:2015:gsgp"
+  title: "Grow and Serve: Growing Django Citation Services Using SBSE"
   authors:
     - name: Yue Jia
     - name: Mark Harman
@@ -3835,7 +4121,8 @@
   pdfs:
     - http://alexandrumarginean.com/grow_and_serve.pdf
 
-- title: "How computers are learning to make human software work more efficiently"
+- key: "Woodward:2015:hclhswe"
+  title: "How computers are learning to make human software work more efficiently"
   authors:
     - name: John R. Woodward
     - name: Justyna Petke
@@ -3846,7 +4133,8 @@
   urls:
     - http://theconversation.com/how-computers-are-learning-to-make-human-software-work-more-efficiently-43798
 
-- title: "Automated Bug Fixing: An Interview with Westley Weimer, Department of Computer Science, University of Virginia and Martin Monperrus, University of Lille and INRIA, Lille, France"
+- key: "Tichy:2015:Ubiquity"
+  title: "Automated Bug Fixing: An Interview with Westley Weimer, Department of Computer Science, University of Virginia and Martin Monperrus, University of Lille and INRIA, Lille, France"
   authors:
     - name: Walter Tichy
   venue: "Ubiquity"
@@ -3854,7 +4142,8 @@
   type: Journal
   doi: https://doi.org/10.1145/2746519
 
-- title: "Code 'transplant' could revolutionise programming"
+- key: "Temperton:2015:wired"
+  title: "Code 'transplant' could revolutionise programming"
   authors:
     - name: James Temperton
   venue: "Wired.co.uk"
@@ -3863,7 +4152,8 @@
   urls:
     - http://www.wired.co.uk/news/archive/2015-07/30/code-organ-transplant-software-myscalpel
 
-- title: "ASTOR: Evolutionary Automatic Software Repair for Java"
+- key: "martinez:hal-01075976"
+  title: "ASTOR: Evolutionary Automatic Software Repair for Java"
   authors:
     - name: Matias Martinez
     - name: Martin Monperrus
@@ -3880,7 +4170,8 @@
     - http://arxiv.org/pdf/1410.6651.pdf
     - http://arxiv.org/pdf/1410.6651v1.pdf
 
-- title: "Automating Program Verification and Repair Using Invariant Analysis and Test-input Generation"
+- key: "vuphdthesis"
+  title: "Automating Program Verification and Repair Using Invariant Analysis and Test-input Generation"
   authors:
     - name: ThanhVu Nguyen
   venue: ""
@@ -3893,7 +4184,8 @@
   pdfs:
     - http://www.cs.umd.edu/~tnguyen/Pub/ptn.pdf
 
-- title: "Gen-O-Fix: An embeddable framework for Dynamic Adaptive Genetic Improvement Programming"
+- key: "genofix-TR"
+  title: "Gen-O-Fix: An embeddable framework for Dynamic Adaptive Genetic Improvement Programming"
   authors:
     - name: Jerry Swan
     - name: Michael G. Epitropakis
@@ -3909,7 +4201,8 @@
     - http://www.cs.stir.ac.uk/~kjt/techreps/pdf/TR195.pdf
     - http://www.epitropakis.co.uk/sites/default/files/pubs/genofix-TR.pdf
 
-- title: "Genetically Improved CUDA kernels for StereoCamera"
+- key: "Langdon_RN1402"
+  title: "Genetically Improved CUDA kernels for StereoCamera"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -3923,7 +4216,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/Langdon_RN1402.pdf
 
-- title: "Neutral Networks of Real-World Programs and their Application to Automated Software Evolution"
+- key: "schulte2014dissertation"
+  title: "Neutral Networks of Real-World Programs and their Application to Automated Software Evolution"
   authors:
     - name: Eric Schulte
   venue: ""
@@ -3935,7 +4229,8 @@
   pdfs:
     - https://cs.unm.edu/~eschulte/dissertation/schulte-dissertation.pdf
 
-- title: "Quality Assurance for Self-Adaptive, Self-Organising Systems (Message from the Workshop Organisers)"
+- key: "Eberhardinger:2014:SASOW"
+  title: "Quality Assurance for Self-Adaptive, Self-Organising Systems (Message from the Workshop Organisers)"
   authors:
     - name: Benedikt Eberhardinger
     - name: Wolfgang Reif
@@ -3946,7 +4241,8 @@
   type: Conference
   doi: https://doi.org/10.1109/SASOW.2014.30
 
-- title: "The Plastic Surgery Hypothesis"
+- key: "Barr:2014:FSE"
+  title: "The Plastic Surgery Hypothesis"
   authors:
     - name: Earl T. Barr
     - name: Yuriy Brun
@@ -3962,7 +4258,8 @@
   pdfs:
     - http://earlbarr.com/publications/psh.pdf
 
-- title: "Post-compiler Software Optimization for Reducing Energy"
+- key: "schulte2014optimization"
+  title: "Post-compiler Software Optimization for Reducing Energy"
   authors:
     - name: Eric Schulte
     - name: Jonathan Dorn
@@ -3976,7 +4273,8 @@
   pdfs:
     - https://squareslab.github.io/papers-repo/pdfs/schulte-asplos2014.pdf
 
-- title: "Genetic programming for smart phone personalisation"
+- key: "Valencia:2014:ASC"
+  title: "Genetic programming for smart phone personalisation"
   authors:
     - name: Philip Valencia
     - name: Aiden Haak
@@ -3989,7 +4287,8 @@
   urls:
     - http://www.sciencedirect.com/science/article/pii/S1568494614004232
 
-- title: "The impact of topology on energy consumption for collection tree protocols: An experimental assessment through evolutionary computation"
+- key: "Bucur:2014:ASC"
+  title: "The impact of topology on energy consumption for collection tree protocols: An experimental assessment through evolutionary computation"
   authors:
     - name: Doina Bucur
     - name: Giovanni Iacca
@@ -4002,7 +4301,8 @@
   urls:
     - http://www.sciencedirect.com/science/article/pii/S1568494613004213
 
-- title: "Genetic Programming for Smart Phone Personalisation"
+- key: "Valencia:2014:arXiv"
+  title: "Genetic Programming for Smart Phone Personalisation"
   authors:
     - name: Philip Valencia
     - name: Aiden Haak
@@ -4017,7 +4317,8 @@
     - http://arxiv.org/pdf/1408.2288.pdf
     - http://jurdak.com/ASC-GP.pdf
 
-- title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
+- key: "Martinez:2014:FIA:2591062.2591114"
+  title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
   authors:
     - name: Matias Martinez
     - name: Westley Weimer
@@ -4033,7 +4334,8 @@
   pdfs:
     - http://arxiv.org/pdf/1403.6322.pdf
 
-- title: "Automatic Design of Noncryptographic Hash Functions using Genetic Programming"
+- key: "Estebanez:2014:CI"
+  title: "Automatic Design of Noncryptographic Hash Functions using Genetic Programming"
   authors:
     - name: Cesar Estebanez
     - name: Yago Saez
@@ -4044,7 +4346,8 @@
   type: Journal
   doi: https://doi.org/10.1002/coin.12033
 
-- title: "Discussion on Automatic Fault Localisation and Repair"
+- key: "Alexander:2014:shonan"
+  title: "Discussion on Automatic Fault Localisation and Repair"
   authors:
     - name: Bradley Alexander
   venue: "Computational Intelligence for Software Engineering"
@@ -4053,7 +4356,8 @@
   pdfs:
     - http://shonan.nii.ac.jp/seminar/reports/wp-content/uploads/sites/56/2015/01/No.2014-13.pdf
 
-- title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
+- key: "Haraldsson:2014:GECCOcomp"
+  title: "Automated design of algorithms and genetic improvement: contrast and commonalities"
   authors:
     - name: Saemundur O. Haraldsson
     - name: John R. Woodward
@@ -4064,7 +4368,8 @@
   tags:
     - SBSE
 
-- title: "Genetically Improved CUDA C++ Software"
+- key: "langdon:2014:EuroGP"
+  title: "Genetically Improved CUDA C++ Software"
   authors:
     - name: William B. Langdon
     - name: Mark Harman
@@ -4078,7 +4383,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_EuroGP.pdf
 
-- title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
+- key: "Petke:2014:EuroGP"
+  title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
   authors:
     - name: Justyna Petke
     - name: Mark Harman
@@ -4093,7 +4399,8 @@
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2014_EuroGP.pdf
 
-- title: "Improving 3D Medical Image Registration CUDA Software with Genetic Programming"
+- key: "Langdon:2014:GECCO"
+  title: "Improving 3D Medical Image Registration CUDA Software with Genetic Programming"
   authors:
     - name: William B. Langdon
     - name: Marc Modat
@@ -4109,7 +4416,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_GECCO.pdf
 
-- title: "Improving Source Code with Genetic Programming"
+- key: "Langdon:gecco2014_hot"
+  title: "Improving Source Code with Genetic Programming"
   authors:
     - name: William B. Langdon
     - name: Mark Harman
@@ -4122,7 +4430,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Langdon_gecco2014_hot.pdf
 
-- title: "Software mutational robustness"
+- key: "Schulte:2014:GPEM"
+  title: "Software mutational robustness"
   authors:
     - name: Eric Schulte
     - name: Zachary P. Fry
@@ -4139,7 +4448,8 @@
   urls:
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.416.675
 
-- title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
+- key: "Baudry:2014:ISSTA"
+  title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
   authors:
     - name: Benoit Baudry
     - name: Simon Allier
@@ -4153,7 +4463,8 @@
   urls:
     - https://hal.archives-ouvertes.fr/hal-00938855/document
 
-- title: "Java evolutionary framework based on genetic programming"
+- key: "Karasek:2014:SPIN"
+  title: "Java evolutionary framework based on genetic programming"
   authors:
     - name: Jan Karasek
     - name: Radim Burget
@@ -4164,7 +4475,8 @@
   type: Conference
   doi: https://doi.org/10.1109/SPIN.2014.6777026
 
-- title: "A methodology to automatically optimize dynamic memory managers applying grammatical evolution"
+- key: "RiscoMartin:2014:JSS"
+  title: "A methodology to automatically optimize dynamic memory managers applying grammatical evolution"
   authors:
     - name: Jose L. Risco-Martin
     - name: J. Manuel Colmenar
@@ -4180,7 +4492,8 @@
   urls:
     - http://www.sciencedirect.com/science/article/pii/S016412121400017X
 
-- title: "The Strength of Random Search on Automated Program Repair"
+- key: "Qi:2014:ICSE"
+  title: "The Strength of Random Search on Automated Program Repair"
   authors:
     - name: Yuhua Qi
     - name: Xiaoguang Mao
@@ -4195,7 +4508,8 @@
     - APR
     - SBSE
 
-- title: "CRYSEED: An Automatic 8-bit Cryptographic Algorithm Developed with Genetic Programming"
+- key: "Semente:2014:I2MTC"
+  title: "CRYSEED: An Automatic 8-bit Cryptographic Algorithm Developed with Genetic Programming"
   authors:
     - name: Rodrigo S. Semente
     - name: Andres O. Salazar
@@ -4205,7 +4519,8 @@
   type: Conference
   doi: https://doi.org/10.1109/I2MTC.2014.6860905
 
-- title: "Genetic Improvement for Adaptive Software Engineering"
+- key: "Harman:2014:seams"
+  title: "Genetic Improvement for Adaptive Software Engineering"
   authors:
     - name: Mark Harman
     - name: Yue Jia
@@ -4225,7 +4540,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/seams14main-id100-p-22852-aede8e5-20619-submitted.pdf
 
-- title: "Search based software engineering for software product line engineering: a survey and directions for future work"
+- key: "Harman:2014:SPLC"
+  title: "Search based software engineering for software product line engineering: a survey and directions for future work"
   authors:
     - name: Mark Harman
     - name: Yue Jia
@@ -4244,7 +4560,8 @@
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/m.harman/splc14.pdf
 
-- title: "Babel Pidgin: SBSE Can Grow and Graft Entirely New Functionality into a Real World System"
+- key: "Harman:2014:Babel"
+  title: "Babel Pidgin: SBSE Can Grow and Graft Entirely New Functionality into a Real World System"
   authors:
     - name: Mark Harman
     - name: Yue Jia
@@ -4261,7 +4578,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2014_Babel.pdf
 
-- title: "Repairing and Optimizing Hadoop hashCode Implementations"
+- key: "ssbsehadoop"
+  title: "Repairing and Optimizing Hadoop hashCode Implementations"
   authors:
     - name: Zoltan A. Kocsis
     - name: Geoff Neumann
@@ -4279,7 +4597,8 @@
   urls:
     - http://www.springer.com/computer/swe/book/978-3-319-09939-2
 
-- title: "Genetic Improvement of Programs"
+- key: "langdon:2014:synasc"
+  title: "Genetic Improvement of Programs"
   authors:
     - name: William B. Langdon
   venue: "SYNASC"
@@ -4294,7 +4613,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc_abstract.pdf
 
-- title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
+- key: "Kocsis:2014:SMGP"
+  title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
   authors:
     - name: Zoltan A. Kocsis
     - name: Jerry Swan
@@ -4304,7 +4624,8 @@
   pdfs:
     - http://www.cs.put.poznan.pl/kkrawiec/smgp2014/uploads/Site/Kocsis.pdf
 
-- title: "Automatic Program Repair Using Genetic Programming"
+- key: "LeGoues:thesis"
+  title: "Automatic Program Repair Using Genetic Programming"
   authors:
     - name: Claire Le Goues
   venue: ""
@@ -4317,7 +4638,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/students/claire-phd.pdf
 
-- title: "Evolution vs. Intelligent Design in Program Patching"
+- key: "Brun:2013:TR"
+  title: "Evolution vs. Intelligent Design in Program Patching"
   authors:
     - name: Yuriy Brun
     - name: Earl Barr
@@ -4332,7 +4654,8 @@
   pdfs:
     - https://escholarship.org/uc/item/3z8926ks.pdf
 
-- title: "Synthesizing Round Based Fault-Tolerant Programs using Genetic Programming"
+- key: "MSU-CSE-13-9"
+  title: "Synthesizing Round Based Fault-Tolerant Programs using Genetic Programming"
   authors:
     - name: Ling Zhu
     - name: Sandeep Kulkarni
@@ -4345,7 +4668,8 @@
     - http://www.cse.msu.edu/cgi-user/web/tech/document?ID=1022
     - http://www.cse.msu.edu/publications/tech/TR/MSU-CSE-13-9.ps
 
-- title: "Using Genetic Programming to Model Software"
+- key: "Langdon:RN1312"
+  title: "Using Genetic Programming to Model Software"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -4362,7 +4686,8 @@
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Langdon_RN1312.pdf
     - http://arxiv.org/pdf/1306.5667.pdf
 
-- title: "Which is faster: Bowtie2GP $>$ Bowtie $>$ Bowtie2 $>$ BWA"
+- key: "Langdon:RN1303"
+  title: "Which is faster: Bowtie2GP $>$ Bowtie $>$ Bowtie2 $>$ BWA"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -4377,7 +4702,8 @@
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_13_03.pdf
     - http://arxiv.org/pdf/1301.5187.pdf
 
-- title: "Genetic Programming for Reverse Engineering"
+- key: "Harman:2013:WCRE"
+  title: "Genetic Programming for Reverse Engineering"
   authors:
     - name: Mark Harman
     - name: William B. Langdon
@@ -4394,7 +4720,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2013_WCRE.pdf
 
-- title: "Leveraging Program Equivalence for Adaptive Program Repair: Models and First Results"
+- key: "Weimer-ase2013"
+  title: "Leveraging Program Equivalence for Adaptive Program Repair: Models and First Results"
   authors:
     - name: Westley Weimer
     - name: Zachary P. Fry
@@ -4410,7 +4737,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/weimer-ase2013-preprint.pdf
 
-- title: "The GISMOE Architecture"
+- key: "Jia:2013:CSBSE"
+  title: "The GISMOE Architecture"
   authors:
     - name: Yue Jia
     - name: Mark Harman
@@ -4425,7 +4753,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Jia_2013_CSBSE.pdf
 
-- title: "Automatic Patch Generation Learned from Human-Written Patches"
+- key: "Kim:2013:ICSE"
+  title: "Automatic Patch Generation Learned from Human-Written Patches"
   authors:
     - name: Dongsun Kim
     - name: Jaechang Nam
@@ -4439,7 +4768,8 @@
     - APR
     - SBSE
 
-- title: "Automated Repair of Binary and Assembly Programs for Cooperating Embedded Devices"
+- key: "Schulte:2013:ARB:2451116.2451151"
+  title: "Automated Repair of Binary and Assembly Programs for Cooperating Embedded Devices"
   authors:
     - name: Eric Schulte
     - name: Jonathan DiLorenzo
@@ -4454,7 +4784,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/schulte2013embedded.pdf
 
-- title: "Exploring automated software composition with genetic programming"
+- key: "Fredericks:2013:GECCOcomp"
+  title: "Exploring automated software composition with genetic programming"
   authors:
     - name: Erik M. Fredericks
     - name: Betty H. C. Cheng
@@ -4465,7 +4796,8 @@
   tags:
     - SBSE
 
-- title: "GPDL: a framework-independent problem definition language for grammar-guided genetic programming"
+- key: "Kronberger:2013:GECCOcomp"
+  title: "GPDL: a framework-independent problem definition language for grammar-guided genetic programming"
   authors:
     - name: Gabriel Kronberger
     - name: Michael Kommenda
@@ -4476,7 +4808,8 @@
   type: Conference
   doi: https://doi.org/10.1145/2464576.2482713
 
-- title: "Input-aware Auto-tuning for Directive-based GPU Programming"
+- key: "Magni:2013:GPGPU"
+  title: "Input-aware Auto-tuning for Directive-based GPU Programming"
   authors:
     - name: Alberto Magni
     - name: Dominik Grewe
@@ -4486,7 +4819,8 @@
   type: Workshop
   doi: https://doi.org/10.1145/2458523.2458530
 
-- title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
+- key: "Qi:2013:ICSM"
+  title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
   authors:
     - name: Yuhua Qi
     - name: Xiaoguang Mao
@@ -4501,7 +4835,8 @@
   pdfs:
     - https://icsm2013.tue.nl/ICSM2013.pdf
 
-- title: "Synthesizing Round Based Fault-Tolerant Programs Using Genetic Programming"
+- key: "conf/sss/ZhuK13"
+  title: "Synthesizing Round Based Fault-Tolerant Programs Using Genetic Programming"
   authors:
     - name: Ling Zhu
     - name: Sandeep Kulkarni
@@ -4512,7 +4847,8 @@
   tags:
     - SBSE
 
-- title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
+- key: "Ragan-Kelley:2013:PLDI"
+  title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
   authors:
     - name: Jonathan Ragan-Kelley
     - name: Connelly Barnes
@@ -4527,7 +4863,8 @@
   pdfs:
     - http://people.csail.mit.edu/jrk/halide-pldi13.pdf
 
-- title: "Synthesizing, Correcting and Improving Code, Using Model Checking-Based Genetic Programming"
+- key: "conf/hvc/KatzP13"
+  title: "Synthesizing, Correcting and Improving Code, Using Model Checking-Based Genetic Programming"
   authors:
     - name: Gal Katz
     - name: Doron Peled
@@ -4538,7 +4875,8 @@
   tags:
     - SBSE
 
-- title: "Advances in Automated Program Repair and a Call to Arms"
+- key: "Weimer:2013:SSBSE"
+  title: "Advances in Automated Program Repair and a Call to Arms"
   authors:
     - name: Westley Weimer
   venue: "SSBSE"
@@ -4551,7 +4889,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/s.yoo/papers/Xie2013kx.pdf
 
-- title: "Applying Genetic Improvement to MiniSAT"
+- key: "Petke:2013:SSBSE"
+  title: "Applying Genetic Improvement to MiniSAT"
   authors:
     - name: Justyna Petke
     - name: William B. Langdon
@@ -4566,7 +4905,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2013_SSBSE.pdf
 
-- title: "The Emergence of Useful Bias in Self-focusing Genetic Programming for Software Optimisation"
+- key: "Cody-Kenny:2013:SSBSE"
+  title: "The Emergence of Useful Bias in Self-focusing Genetic Programming for Software Optimisation"
   authors:
     - name: Brendan Cody-Kenny
     - name: Stephen Barrett
@@ -4577,7 +4917,8 @@
   tags:
     - SBSE
 
-- title: "Current challenges in automatic software repair"
+- key: "legouesWFSQJO2013"
+  title: "Current challenges in automatic software repair"
   authors:
     - name: Claire Le Goues
     - name: Stephanie Forrest
@@ -4594,7 +4935,8 @@
   pdfs:
     - http://www.cs.cmu.edu/~clegoues/docs/legoues-sqjo13.pdf
 
-- title: "Evolutionary Computing Driven Search Based Software Testing and Correction"
+- key: "Wilkerson:thesis"
+  title: "Evolutionary Computing Driven Search Based Software Testing and Correction"
   authors:
     - name: Joshua Lee Wilkerson
   venue: ""
@@ -4608,7 +4950,8 @@
   pdfs:
     - https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/26508/Wilkerson_2012.pdf
 
-- title: "Genetically Improving 50000 Lines of C++"
+- key: "Langdon:RN1209"
+  title: "Genetically Improving 50000 Lines of C++"
   authors:
     - name: William B. Langdon
     - name: Mark Harman
@@ -4620,7 +4963,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_12_09.pdf
 
-- title: "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each"
+- key: "LeGoues:2012:ICSE"
+  title: "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each"
   authors:
     - name: Claire Le Goues
     - name: Michael Dewey-Vogt
@@ -4637,7 +4981,8 @@
   pdfs:
     - http://dijkstra.cs.virginia.edu/genprog/papers/weimer-icse2012-genprog-preprint.pdf
 
-- title: "Automated Web Service Composition Using Genetic Programming"
+- key: "Xiao:2012:COMPSACW"
+  title: "Automated Web Service Composition Using Genetic Programming"
   authors:
     - name: Liyuan Xiao
     - name: Carl K. Chang
@@ -4651,7 +4996,8 @@
   tags:
     - testing
 
-- title: "Genetic Programming for Automating the Development of Data Management Algorithms in Information Technology Systems"
+- key: "Archanjo:2012:ASE"
+  title: "Genetic Programming for Automating the Development of Data Management Algorithms in Information Technology Systems"
   authors:
     - name: Gabriel A. Archanjo
     - name: Fernando J. Von Zuben
@@ -4664,7 +5010,8 @@
   urls:
     - http://www.hindawi.com/journals/ase/2012/893701/
 
-- title: "Scaling Genetic Programming for Source Code Modification"
+- key: "DBLP:journals/corr/abs-1211-5098"
+  title: "Scaling Genetic Programming for Source Code Modification"
   authors:
     - name: Brendan Cody-Kenny
     - name: Stephen Barrett
@@ -4678,7 +5025,8 @@
   pdfs:
     - http://arxiv.org/pdf/1211.5098.pdf
 
-- title: "Software Mutational Robustness: Bridging The Gap Between Mutation Testing and Evolutionary Biology"
+- key: "DBLP:journals/corr/abs-1204-4224"
+  title: "Software Mutational Robustness: Bridging The Gap Between Mutation Testing and Evolutionary Biology"
   authors:
     - name: Eric Schulte
     - name: Zachary P. Fry
@@ -4696,7 +5044,8 @@
   pdfs:
     - http://arxiv.org/pdf/1204.4224.pdf
 
-- title: "Android Genetic Programming Framework"
+- key: "cotillon:2012:EuroGP"
+  title: "Android Genetic Programming Framework"
   authors:
     - name: Alban Cotillon
     - name: Philip Valencia
@@ -4708,7 +5057,8 @@
   pdfs:
     - http://jurdak.com/eurogp12.pdf
 
-- title: "Multi-Objective Coevolutionary Automated Software Correction"
+- key: "Wilkerson:2012:GECCO"
+  title: "Multi-Objective Coevolutionary Automated Software Correction"
   authors:
     - name: Josh L. Wilkerson
     - name: Daniel R. Tauritz
@@ -4720,7 +5070,8 @@
   tags:
     - SBSE
 
-- title: "Representations and operators for improving evolutionary software repair"
+- key: "LeGoues:2012:GECCO"
+  title: "Representations and operators for improving evolutionary software repair"
   authors:
     - name: Claire Le Goues
     - name: Westley Weimer
@@ -4736,7 +5087,8 @@
   pdfs:
     - http://www.clairelegoues.com.s3-website-us-east-1.amazonaws.com/docs/genprog-gecco2012-preprint.pdf
 
-- title: "Genetically Programmed Regression Linear Models for Non-Deterministic Estimates"
+- key: "Esmeraldo:2012:GPnew"
+  title: "Genetically Programmed Regression Linear Models for Non-Deterministic Estimates"
   authors:
     - name: Guilherme Esmeraldo
     - name: Robson Feitosa
@@ -4747,7 +5099,8 @@
   type: Collection
   doi: https://doi.org/10.5772/48156
 
-- title: "GenProg: A Generic Method for Automatic Software Repair"
+- key: "DBLP:journals/tse/GouesNFW12"
+  title: "GenProg: A Generic Method for Automatic Software Repair"
   authors:
     - name: Claire Le Goues
     - name: ThanhVu Nguyen
@@ -4763,7 +5116,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/weimer-tse2012-genprog.pdf
 
-- title: "A Human Study of Patch Maintainability"
+- key: "Fry:2012:ISSTA"
+  title: "A Human Study of Patch Maintainability"
   authors:
     - name: Zachary P. Fry
     - name: Bryan Landau
@@ -4777,7 +5131,8 @@
   pdfs:
     - https://web.eecs.umich.edu/~weimerw/p/FryISSTA12_PREPRINT.pdf
 
-- title: "Genetic Improvement of Programs"
+- key: "Langdon:2012:mendel"
+  title: "Genetic Improvement of Programs"
   authors:
     - name: W. B. Langdon
       aka: William B. Langdon
@@ -4790,7 +5145,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2012_mendel.pdf
 
-- title: "The GISMOE challenge: Constructing the Pareto Program Surface Using Genetic Programming to Find Better Programs"
+- key: "Harman:2012:ASE"
+  title: "The GISMOE challenge: Constructing the Pareto Program Surface Using Genetic Programming to Find Better Programs"
   authors:
     - name: Mark Harman
     - name: William B. Langdon
@@ -4807,7 +5163,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2012_ASE.pdf
 
-- title: "Design Defects Detection and Correction by Example"
+- key: "Kessentini:2011:ICPC"
+  title: "Design Defects Detection and Correction by Example"
   authors:
     - name: Marouane Kessentini
     - name: Wael Kessentini
@@ -4821,7 +5178,8 @@
   tags:
     - SBSE
 
-- title: "Towards an automatic design of non-cryptographic hash function"
+- key: "Karasek:2011:TSP"
+  title: "Towards an automatic design of non-cryptographic hash function"
   authors:
     - name: Jan Karasek
     - name: Radim Burget
@@ -4831,7 +5189,8 @@
   type: Conference
   doi: https://doi.org/10.1109/TSP.2011.6043785
 
-- title: "Genetic programming for shader simplification"
+- key: "DBLP:journals/tog/Sitthi-amornMWL11"
+  title: "Genetic programming for shader simplification"
   authors:
     - name: Pitchaya Sitthi-amorn
     - name: Nicholas Modly
@@ -4849,7 +5208,8 @@
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11.pdf
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11_supp.pdf
 
-- title: "Evolving patches for software repair"
+- key: "Ackling:2011:GECCO"
+  title: "Evolving patches for software repair"
   authors:
     - name: Thomas Ackling
     - name: Bradley Alexander
@@ -4861,7 +5221,8 @@
   tags:
     - SBSE
 
-- title: "Multi-objective optimization of dynamic memory managers using grammatical evolution"
+- key: "Colmenar:2011:GECCO"
+  title: "Multi-objective optimization of dynamic memory managers using grammatical evolution"
   authors:
     - name: J. Manuel Colmenar
     - name: Jose L. Risco-Martin
@@ -4874,7 +5235,8 @@
   tags:
     - SBSE
 
-- title: "Scalability of the coevolutionary automated software correction system"
+- key: "Wilkerson:2011:GECCOcomp"
+  title: "Scalability of the coevolutionary automated software correction system"
   authors:
     - name: Josh L. Wilkerson
     - name: Daniel R. Tauritz
@@ -4885,7 +5247,8 @@
   tags:
     - SBSE
 
-- title: "Evolutionary Improvement of Programs"
+- key: "White:2011:ieeeTEC"
+  title: "Evolutionary Improvement of Programs"
   authors:
     - name: David R. White
     - name: Andrea Arcuri
@@ -4901,7 +5264,8 @@
   pdfs:
     - http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/WhiteAC.pdf
 
-- title: "Flight of the FINCH through the Java Wilderness"
+- key: "Orlov:2011:ieeeTEC"
+  title: "Flight of the FINCH through the Java Wilderness"
   authors:
     - name: Michael Orlov
     - name: Moshe Sipper
@@ -4912,7 +5276,8 @@
   urls:
     - https://drive.google.com/file/d/0B6G3tbmMcpR4bFVYbWRWVGlDN28/view
 
-- title: "Auto-tuning SkePU: A Multi-backend Skeleton Programming Framework for multi-GPU Systems"
+- key: "Dastgeer:2011:IWMSE"
+  title: "Auto-tuning SkePU: A Multi-backend Skeleton Programming Framework for multi-GPU Systems"
   authors:
     - name: Usman Dastgeer
     - name: Johan Enmyren
@@ -4922,7 +5287,8 @@
   type: Conference
   doi: https://doi.org/10.1145/1984693.1984697
 
-- title: "Attribute Grammar Genetic Programming Algorithm for Automatic Code Parallelization"
+- key: "Howard:2011:ICHIT"
+  title: "Attribute Grammar Genetic Programming Algorithm for Automatic Code Parallelization"
   authors:
     - name: Daniel Howard
     - name: Conor Ryan
@@ -4934,7 +5300,8 @@
   tags:
     - SBSE
 
-- title: "Automated Patching Techniques: The Fix Is In"
+- key: "Harman:2010:ACM"
+  title: "Automated Patching Techniques: The Fix Is In"
   authors:
     - name: Mark Harman
   venue: "Communications of the ACM"
@@ -4944,7 +5311,8 @@
   tags:
     - SBSE
 
-- title: "Automatic program repair with evolutionary computation"
+- key: "Weimer:2010:ACM"
+  title: "Automatic program repair with evolutionary computation"
   authors:
     - name: Westley Weimer
     - name: Stephanie Forrest
@@ -4959,7 +5327,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf
 
-- title: "Coevolutionary automated software correction"
+- key: "Wilkerson:2010:gecco"
+  title: "Coevolutionary automated software correction"
   authors:
     - name: Josh L. Wilkerson
     - name: Daniel Tauritz
@@ -4972,7 +5341,8 @@
     - SBSE
     - testing
 
-- title: "Designing better fitness functions for automated program repair"
+- key: "Fast:2010:GECCO"
+  title: "Designing better fitness functions for automated program repair"
   authors:
     - name: Ethan Fast
     - name: Claire Le Goues
@@ -4987,7 +5357,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/weimer-gecco2010-preprint.pdf
 
-- title: "Improving reliability of embedded systems through dynamic memory manager optimization using grammatical evolution"
+- key: "Colmenar:2010:gecco"
+  title: "Improving reliability of embedded systems through dynamic memory manager optimization using grammatical evolution"
   authors:
     - name: J. Manuel Colmenar
     - name: Jose L. Risco-Martin
@@ -5002,7 +5373,8 @@
   tags:
     - SBSE
 
-- title: "FINCH: A System for Evolving Java (Bytecode)"
+- key: "Orlov:2010:GPTP"
+  title: "FINCH: A System for Evolving Java (Bytecode)"
   authors:
     - name: Michael Orlov
     - name: Moshe Sipper
@@ -5016,7 +5388,8 @@
   pdfs:
     - http://www.cs.bgu.ac.il/~orlovm/papers/gptp.pdf
 
-- title: "Using Mutation to Automatically Suggest Fixes for Faulty Programs"
+- key: "Debroy:2010:ICST"
+  title: "Using Mutation to Automatically Suggest Fixes for Faulty Programs"
   authors:
     - name: Vidroha Debroy
     - name: W. Eric Wong
@@ -5028,7 +5401,8 @@
     - SBSE
     - testing
 
-- title: "A parallel evolutionary algorithm to optimize dynamic memory managers in embedded systems"
+- key: "RiscoMartin2010572"
+  title: "A parallel evolutionary algorithm to optimize dynamic memory managers in embedded systems"
   authors:
     - name: Jose L. Risco-Martin
     - name: David Atienza
@@ -5043,7 +5417,8 @@
   urls:
     - http://www.sciencedirect.com/science/article/B6V12-50J9GPR-1/2/e049c72f4c9e284bd1c2bdbf7c09f3aa
 
-- title: "Why Haven't We Automated Programming"
+- key: "Balzer:2010:FoSER"
+  title: "Why Haven't We Automated Programming"
   authors:
     - name: Robert Balzer
   venue: "Proceedings of the FSE/SDP Workshop on Future of Software Engineering Research"
@@ -5051,7 +5426,8 @@
   type: Conference
   doi: https://doi.org/10.1145/1882362.1882366
 
-- title: "Multiplicity computing: a vision of software engineering for next-generation computing platform applications"
+- key: "Cadar:2010:FoSER"
+  title: "Multiplicity computing: a vision of software engineering for next-generation computing platform applications"
   authors:
     - name: Cristian Cadar
     - name: Peter Pietzuch
@@ -5063,7 +5439,8 @@
   pdfs:
     - http://www.doc.ic.ac.uk/~cristic/papers/multicomp-foser-10.pdf
 
-- title: "The case for software evolution"
+- key: "DBLP:conf/sigsoft/GouesFW10"
+  title: "The case for software evolution"
   authors:
     - name: Claire Le Goues
     - name: Stephanie Forrest
@@ -5078,7 +5455,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/p205-legoues.pdf
 
-- title: "Automated Program Repair through the Evolution of Assembly Code"
+- key: "schulte10:_autom_progr_repair_evolut_assem_code"
+  title: "Automated Program Repair through the Evolution of Assembly Code"
   authors:
     - name: Eric Schulte
     - name: Stephanie Forrest
@@ -5093,7 +5471,8 @@
   pdfs:
     - http://www.cs.unm.edu/~eschulte/data/ase2010-asm-preprint.pdf
 
-- title: "Parisian Approach Reducing Computational Effort to Improve SMT Performance by setting Resizable Caches"
+- key: "Diaz:2010:ICEC"
+  title: "Parisian Approach Reducing Computational Effort to Improve SMT Performance by setting Resizable Caches"
   authors:
     - name: Josefa Diaz
     - name: Francisco Fernandez de Vega
@@ -5105,7 +5484,8 @@
   pdfs:
     - http://www.robinbye.com/files/publications/ICEC_2010.pdf
 
-- title: "The Case for Evolvable Software"
+- key: "Forrest:2010:SPLASH"
+  title: "The Case for Evolvable Software"
   authors:
     - name: Stephanie Forrest
   venue: "SPLASH"
@@ -5115,7 +5495,8 @@
   urls:
     - http://portal.acm.org/ft_gateway.cfm?id=1869539&type=pdf&CFID=114019259&CFTOKEN=22192943
 
-- title: "Automatic Repair of Concurrency Bugs"
+- key: "BradburyJ10"
+  title: "Automatic Repair of Concurrency Bugs"
   authors:
     - name: Jeremy S. Bradbury
     - name: Kevin Jalbert
@@ -5127,7 +5508,8 @@
   pdfs:
     - http://www.ssbse.org/2010/fastabstracts/ssbse2010_fastabstract_04.pdf
 
-- title: "EvoCaches: Application-specific Adaptation of Cache Mappings"
+- key: "ka-pl-pl-2009"
+  title: "EvoCaches: Application-specific Adaptation of Cache Mappings"
   authors:
     - name: Paul Kaufmann
     - name: Christian Plessl
@@ -5137,7 +5519,8 @@
   type: Conference
   doi: https://doi.org/10.1109/AHS.2009.26
 
-- title: "A genetic programming approach to automated software repair"
+- key: "DBLP:conf/gecco/ForrestNWG09"
+  title: "A genetic programming approach to automated software repair"
   authors:
     - name: Stephanie Forrest
     - name: ThanhVu Nguyen
@@ -5154,7 +5537,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/weimer-gecco2009.pdf
 
-- title: "Improving SMT performance: an application of genetic algorithms to configure resizable caches"
+- key: "1570271"
+  title: "Improving SMT performance: an application of genetic algorithms to configure resizable caches"
   authors:
     - name: Josefa Diaz
     - name: J. Ignacio Hidalgo
@@ -5166,7 +5550,8 @@
   type: Conference
   doi: https://doi.org/10.1145/1570256.1570271
 
-- title: "Using Execution Paths to Evolve Software Patches"
+- key: "Nguyen:2009:SBST"
+  title: "Using Execution Paths to Evolve Software Patches"
   authors:
     - name: ThanhVu Nguyen
     - name: Westley Weimer
@@ -5182,7 +5567,8 @@
   pdfs:
     - http://iaser.tek.bth.se/feldt/conferences/sbst09/papers/nguyen_sbst09.pdf
 
-- title: "Automatically Finding Patches Using Genetic Programming"
+- key: "Weimer:2009:ICES"
+  title: "Automatically Finding Patches Using Genetic Programming"
   authors:
     - name: Westley Weimer
     - name: ThanhVu Nguyen
@@ -5198,7 +5584,8 @@
     - http://www.cs.unm.edu/~tnguyen/papers/genprog.pdf
     - http://www.cs.virginia.edu/~csl9q/docs/legoues-icse2009-genprog-preprint.pdf
 
-- title: "Correction of Logical Errors in C programs using Genetic Algorithm Techniques"
+- key: "Murali:2009:IJRTE"
+  title: "Correction of Logical Errors in C programs using Genetic Algorithm Techniques"
   authors:
     - name: Prakash Murali
     - name: Atul Sandur
@@ -5213,7 +5600,8 @@
   pdfs:
     - http://ijrte.academypublisher.com/vol01/no02/ijrte0102176178.pdf
 
-- title: "Co-evolutionary automated software correction: a proof of concept"
+- key: "Wilkerson:masters"
+  title: "Co-evolutionary automated software correction: a proof of concept"
   authors:
     - name: Joshua Lee Wilkerson
   venue: ""
@@ -5226,7 +5614,8 @@
   pdfs:
     - http://scholarsmine.mst.edu/thesis/pdf/Wilkerson_09007dcc80642bb4.pdf
 
-- title: "Superblock scheduling using genetic programming for embedded systems"
+- key: "Mahajan:2008:ieeeICCI"
+  title: "Superblock scheduling using genetic programming for embedded systems"
   authors:
     - name: Anjali Mahajan
     - name: M S Ali
@@ -5235,7 +5624,8 @@
   type: Conference
   doi: https://doi.org/10.1109/COGINF.2008.4639177
 
-- title: "Searching for resource-efficient programs: low-power pseudorandom number generators"
+- key: "White2:2008:gecco"
+  title: "Searching for resource-efficient programs: low-power pseudorandom number generators"
   authors:
     - name: David R. White
     - name: John Clark
@@ -5251,7 +5641,8 @@
     - http://gpbib.cs.ucl.ac.uk/gecco2008/docs/p1775.pdf
     - http://www.cs.york.ac.uk/~drw/rnggecco.pdf
 
-- title: "Evolutionary Software Improvement for Instruction Set Meta-evolution"
+- key: "Orlov08:evolutionary"
+  title: "Evolutionary Software Improvement for Instruction Set Meta-evolution"
   authors:
     - name: Michael Orlov
     - name: Moshe Sipper
@@ -5262,7 +5653,8 @@
     - https://noexec.org/public/papers/wssec.pdf
     - https://www.cs.bgu.ac.il/~orlovm/papers/wssec.pdf
 
-- title: "Evolving hash functions by means of genetic programming"
+- key: "1144300"
+  title: "Evolving hash functions by means of genetic programming"
   authors:
     - name: Cesar Estebanez
     - name: Julio Cesar Hernandez-Castro
@@ -5275,7 +5667,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gecco2006/docs/p1861.pdf
 
-- title: "Finding State-of-the-Art Non-cryptographic Hashes with Genetic Programming"
+- key: "Estebanez:PPSN:2006"
+  title: "Finding State-of-the-Art Non-cryptographic Hashes with Genetic Programming"
   authors:
     - name: Cesar Estebanez
     - name: Julio Cesar Hernandez-Castro
@@ -5286,7 +5679,8 @@
   type: Conference
   doi: https://doi.org/10.1007/11844297_83
 
-- title: "GEVOSH: Using Grammatical Evolution to Generate Hashing Functions"
+- key: "berarducci:2004:ugw:pber"
+  title: "GEVOSH: Using Grammatical Evolution to Generate Hashing Functions"
   authors:
     - name: Patrick Berarducci
     - name: Demetrius Jordan
@@ -5298,7 +5692,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gecco2004/WUGW001.pdf
 
-- title: "GEVOSH: Using Grammatical Evolution to Generate Hashing Functions"
+- key: "DBLP:conf/maics/BerarducciJMS04"
+  title: "GEVOSH: Using Grammatical Evolution to Generate Hashing Functions"
   authors:
     - name: Patrick Berarducci
     - name: Demetrius Jordan
@@ -5310,7 +5705,8 @@
   pdfs:
     - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.4612.pdf
 
-- title: "N-Version Genetic Programming: A Probabilistically Optimal Ensemble Approach"
+- key: "Imamura:thesis"
+  title: "N-Version Genetic Programming: A Probabilistically Optimal Ensemble Approach"
   authors:
     - name: Kosuke Imamura
   venue: ""
@@ -5320,7 +5716,8 @@
     - https://www.uidaho.edu/engr/departments/cs/research/theses
     - http://search.proquest.com/docview/288080102
 
-- title: "Paragen - The first results"
+- key: "ryan:2000:paragen1"
+  title: "Paragen - The first results"
   authors:
     - name: Conor Ryan
     - name: Laur Ivan
@@ -5329,7 +5726,8 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-540-46239-2_26
 
-- title: "Evolutionary Techniques Applied to Hashing: An efficient data retrieval method"
+- key: "Hussain:2000:GECCO"
+  title: "Evolutionary Techniques Applied to Hashing: An efficient data retrieval method"
   authors:
     - name: Daniar Hussain
     - name: Steven Malliaris
@@ -5341,7 +5739,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gecco2000/RW054.pdf
 
-- title: "Automatic Re-engineering of Software Using Genetic Programming"
+- key: "ryan:book"
+  title: "Automatic Re-engineering of Software Using Genetic Programming"
   authors:
     - name: Conor Ryan
   venue: ""
@@ -5352,7 +5751,8 @@
   urls:
     - http://www.amazon.com/exec/obidos/ASIN/0792386531/qid%3D943291341/102-9266197-5591202
 
-- title: "Automatic Parallelization of Arbitrary Programs"
+- key: "ryan:1999:apap"
+  title: "Automatic Parallelization of Arbitrary Programs"
   authors:
     - name: Conor Ryan
     - name: Laur Ivan
@@ -5361,7 +5761,8 @@
   type: Conference
   doi: https://doi.org/10.1007/3-540-48885-5_21
 
-- title: "Genetic Programming as an Explorative Tool in Early Software Development Phases"
+- key: "feldt:1999:GPxtxsdp"
+  title: "Genetic Programming as an Explorative Tool in Early Software Development Phases"
   authors:
     - name: Robert Feldt
   venue: "Proceedings of the 1st International Workshop on Soft Computing Applied to Software Engineering"
@@ -5373,7 +5774,8 @@
     - http://drfeldt.googlepages.com/feldt_1999_gp_as_explorative_tool.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/scase_1999/feldt_1999_GPxtxsdp.pdf
 
-- title: "Evolutionary Algorithms for Automatic Parallelization"
+- key: "williams98"
+  title: "Evolutionary Algorithms for Automatic Parallelization"
   authors:
     - name: Kenneth Peter Williams
       aka: Kenneth P. Williams
@@ -5386,7 +5788,8 @@
     - http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.265665
     - ftp://ftp.pets.reading.ac.uk/pub/cs/theses/PEDAL/williams98.ps.gz
 
-- title: "Generating Diverse Software Versions with Genetic Programming: an Experimental Study"
+- key: "feldt:1998:gdsvGPes"
+  title: "Generating Diverse Software Versions with Genetic Programming: an Experimental Study"
   authors:
     - name: Robert Feldt
   venue: "IEE Proceedings - Software Engineering"
@@ -5397,7 +5800,8 @@
     - SBSE
     - testing
 
-- title: "Genetic compilers: A new technique for automatic parallelisation"
+- key: "Williams:1996:ESPPE"
+  title: "Genetic compilers: A new technique for automatic parallelisation"
   authors:
     - name: Kenneth P. Williams
     - name: Shirley A. Williams
@@ -5408,7 +5812,8 @@
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.3499
     - ftp://ftp.pets.rdg.ac.uk/pub/cs/papers/PEDAL/esppe96.ps.gz
 
-- title: "Paragen: A Novel Technique for the Autoparallelisation of Sequential Programs using Genetic Programming"
+- key: "walsh:1996:Paragen"
+  title: "Paragen: A Novel Technique for the Autoparallelisation of Sequential Programs using Genetic Programming"
   authors:
     - name: Paul Walsh
     - name: Conor Ryan
@@ -5422,7 +5827,8 @@
   pdfs:
     - http://cognet.mit.edu/sites/default/files/books/9780262315876/pdfs/9780262315876_chap56.pdf
 
-- title: "Automatic conversion of programs from serial to parallel using Genetic Programming - The Paragen System"
+- key: "ryan:1995:paragen"
+  title: "Automatic conversion of programs from serial to parallel using Genetic Programming - The Paragen System"
   authors:
     - name: Paul Walsh
     - name: Conor Ryan
@@ -5435,7 +5841,8 @@
   pdfs:
     - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.1301.pdf
 
-- title: "The Programmer's Apprentice"
+- key: "rich:overview"
+  title: "The Programmer's Apprentice"
   authors:
     - name: Charles Rich
     - name: Richard C. Waters
@@ -5446,7 +5853,8 @@
   urls:
     - http://ieeexplore.ieee.org/iel1/2/2826/00086782.pdf?isNumber=2826
 
-- title: "A 15 Year Perspective on Automatic Programming"
+- key: "Balzer:1985:ieeeTSE"
+  title: "A 15 Year Perspective on Automatic Programming"
   authors:
     - name: Robert Balzer
   venue: "IEEE TSE"
@@ -5454,7 +5862,8 @@
   type: Journal
   doi: https://doi.org/10.1109/TSE.1985.231877
 
-- title: "Genetic Improvement of Data for Maths Functions"
+- key: "Langdon:TELO"
+  title: "Genetic Improvement of Data for Maths Functions"
   authors:
     - name: William B. Langdon
     - name: Oliver Krauss
@@ -5466,7 +5875,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO.pdf
 
-- title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
+- key: "blot:2021:tevc"
+  title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
   authors:
     - name: Aymeric Blot
     - name: Justyna Petke
@@ -5482,7 +5892,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
 
-- title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
+- key: "Yuan:ieeeSE"
+  title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
     - name: Yuan Yuan2
       aka: Yuan Yuan
@@ -5492,7 +5903,8 @@
   type: Journal
   doi: https://doi.org/10.1109/TSE.2018.2874648
 
-- title: "Evolving JavaScript code to reduce load time"
+- key: "deAlmeidaFarzat:ieeeTSE"
+  title: "Evolving JavaScript code to reduce load time"
   authors:
     - name: Fabio de A. Farzat
     - name: Marcio de O. Barros

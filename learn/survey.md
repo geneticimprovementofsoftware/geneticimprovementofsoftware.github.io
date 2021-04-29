@@ -36,13 +36,13 @@ Clicking on data links in the table will query all similar entries.
     </tr>
   </thead>
   <tbody>{% for entry in site.data.survey %}
-    <tr data-search="{{ entry.title }} {{ entry.subtitle }} {% for author in entry.authors %}{% if author.aka %}{{ author.aka }} {% endif %}{{ author.name }} {% endfor %} venue={{ entry.venue }} year={{ entry.year }} {% for tag in entry.tags %}tag={{ tag }} {% endfor %} {% if entry.type %}type={{ entry.type }}{% endif %}">
-      <td>{% if entry.title %}{{ entry.title }}{% if entry.subtitle %} &mdash; <i>{{ entry.subtitle }}</i>{% endif %}{% endif %}</td>
+    <tr data-search="key={{ entry.key }} {{ entry.title }} {{ entry.subtitle }} {% for author in entry.authors %}{% if author.aka %}{{ author.aka }} {% endif %}{{ author.name }} {% endfor %} venue={{ entry.venue }} year={{ entry.year }} {% for tag in entry.tags %}tag={{ tag }} {% endfor %} {% if entry.type %}type={{ entry.type }}{% endif %}">
+      <td title="{{ entry.key }}">{% if entry.title %}{{ entry.title }}{% if entry.subtitle %} &mdash; <i>{{ entry.subtitle }}</i>{% endif %}{% endif %}</td>
       <td>{% for author in entry.authors %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}<a href="#search" class="text-nowrap" onclick="force('&quot;{% if author.aka %}{{ author.aka }}{% else %}{{ author.name }}{% endif %}&quot;')">{{ author.name }}</a>{% endfor %}</td>
       <td>{% if entry.venue %}<a href="#search" class="" onclick="force('venue=&quot;{{ entry.venue }}&quot;')">{{ entry.venue }}</a>{% endif %} {% if entry.type %}(<a href="#search" class="text-nowrap" onclick="force('type=&quot;{{ entry.type }}&quot;')">{{ entry.type }}</a>){% endif %}</td>
       <td>{% if entry.year %}<a href="#search" class="text-nowrap" onclick="force('year=&quot;{{ entry.year }}&quot;')">{{ entry.year }}</a>{% endif %}</td>
       <td>{% for tag in entry.tags %}<a href="#search" class="text-nowrap" onclick="force('tag=&quot;{{ tag }}&quot;')">#{{ tag }}</a> {% endfor %}</td>
-      <td>{% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}</td>
+      <td>{% if entry.doi %}<a class="badge badge-primary" target="_blank" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a target="_blank" href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" target="_blank" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" target="_blank" href="{{ url }}">URL</a> {% endfor %}</td>
     </tr>{% endfor %}
   </tbody>
 </table>
@@ -88,5 +88,10 @@ function force(s) {
   $("input#search").val(s);
   search();
   return false;
+}
+
+var query = (new URLSearchParams(window.location.search)).get("q");
+if (query) {
+  force(query)
 }
 </script>
