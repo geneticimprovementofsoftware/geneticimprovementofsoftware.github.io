@@ -83,6 +83,8 @@
   year: 2021
   abstract: "Chemical reaction networks (CRNs) are abstractions of distributed networks that form the foundations of many natural phenomena such as biological processes. These can be encoded and/or compiled into DNA and have been shown to be Turing complete. Before CRNs are implemented in a physical environment, they are often simulated in programming environments. Like traditional programs, these CRN programs must be validated. Researchers have recently designed a software testing framework for CRNs, however, repairing CRN programs is still a manual task. While the programs are often small in size, finding and repairing the faults can be difficult without automated support. In this paper we present CRNRepair, a program repair framework for CRN programs. We built our framework on top of an existing APR framework. We use a testing infrastructure built in the Matlab SimBiology package and adapt it to use the SBML representation for its abstract syntax tree. In a case study on 19 mutant versions of 2 programs, we find plausible patches for 90 percent of one of the programs, and 50 percent of the other. We find several common types of repairs, which differ from the correct programs, but are functionally correct."
   type: Workshop
+  pdfs:
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/mesecan_gi-icse_2021.pdf
 
 - key: "Brownlee:2021:GI"
   title: "Exploring the Accuracy -- Energy Trade-off in Machine Learning"
@@ -109,6 +111,7 @@
   type: Workshop
   pdfs:
     - http://bergel.eu/MyPapers/Illa21a-GP.pdf
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/illanes_gi-icse_2021.pdf
 
 - key: "Rainford:2021:GI"
   title: "Open Challenges in Genetic Improvement for Emergent Software Systems"
@@ -143,6 +146,8 @@
   year: 2021
   abstract: "we argue for using many partial test suites instead of one full test suite during program repair. This may provide a pool of simpler, yet correct patches, addressing both the overfitting and poor repair quality problem. To support this idea, we present some insight obtained running APR partial test suites on the well studied triangle program."
   type: Workshop
+  pdfs:
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/kitt_gi-icse_2021.pdf
 
 - key: "Smigielska:2021:GI"
   title: "Uniform Edit Selection for Genetic Improvement: Empirical Analysis of Mutation Operator Efficacy"
