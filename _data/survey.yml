@@ -175,6 +175,8 @@
   year: 2021
   abstract: "Quantum computers are rapidly developing to a point where they can solve problems faster than any classical computation. As they're developed competing standards for languages, models and architectures are also being created. These standards are often bespoke and aimed at optimizing around a single algorithm or problem. This can make it very difficult to reuse these them should the original hardware become unavailable or obsolete. We demonstrate a method that can compile circuits more generally across hardware constraints with the use of a genetic improvement inspired search technique that includes a realistic model of the hardware. We show that this method is effective at selecting gates that can be more easily implemented and ran compared to generic optimization which reduces the total chance of failure. To ensure that these results are practical, empirical results are generated using different IBM hardware and a selection of real algorithms."
   type: Workshop
+  pdfs:
+    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/obrien_gi-icse_2021.pdf
 
 - key: "Trujillo:2021:IEEESoftware"
   title: "A Novel Approach For Search-Based Program Repair"
