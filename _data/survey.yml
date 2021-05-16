@@ -35,6 +35,22 @@
   pdfs:
     - https://arxiv.org/pdf/2101.03958.pdf
 
+- key: "Langdon:TELO:HOP"
+  title: "Genetic Improvement of Data for Maths Functions*"
+  authors:
+    - name: William B. Langdon
+    - name: Oliver Krauss
+  venue: "GECCO-comp"
+  year: 2021
+  type: Conference
+  doi: https://doi.org://doi:10.5281/zenodo.3755346
+  tags:
+    - SBSE
+  urls:
+    - https://github.com/oliver-krauss/Replication_GI_Division_Free_Division
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO_HOP.pdf
+
 - key: "Fredericks:2021:GI"
   title: "(Genetically) Improving Novelty in Procedural Story Generation"
   authors:
@@ -44,8 +60,11 @@
   year: 2021
   abstract: "Procedural story generation (PCG) tailors a unique narrative experience for a player and can be accomplished via multiple techniques, from matching storylets to grammar-based generation. There exists a rich opportunity for evolutionary algorithms to be applied to this domain for intelligently constructing game narratives. We describe a conceptual procedure for applying genetic improvement to a grammar-driven procedural narrative within the context of a browser-based game."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00016
   urls:
     - https://arxiv.org/abs/2103.06935
+    - https://youtu.be/bsrHjd2_J2E
+    - https://efredericks.github.io/P5-Projects/
   pdfs:
     - https://arxiv.org/pdf/2103.06935.pdf
 
@@ -58,6 +77,7 @@
   year: 2021
   abstract: "Testing a large-scale system requires understanding how each of the components interact with each other, which is the subject of interaction testing. Covering arrays are a well-studied object, but traditional representations of these arrays in the context of genetic algorithms has not yielded much success. We propose a new representation of covering arrays based on a permutation of the rows considered. Preliminary results for reducing the mean-time-to-failure of these arrays are given."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00017
 
 - key: "Huang:2021:GI"
   title: "Applying Automated Program Repair to Dataflow Programming Languages"
@@ -70,6 +90,9 @@
   year: 2021
   abstract: "Dataflow programming languages are used in a variety of settings, and defects in their programs can have serious consequences. However, prior work in automated program repair (APR) emphasizes control flow over dataflow languages. We identify three impediments to the use of APR in dataflow programming, parallelism, state, and evaluation, and highlight opportunities for overcoming them."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00013
+  tags:
+    - APR
 
 - key: "Mesecan:2021:GI"
   title: "CRNRepair: Automated Program Repair of Chemical Reaction Networks"
@@ -83,6 +106,12 @@
   year: 2021
   abstract: "Chemical reaction networks (CRNs) are abstractions of distributed networks that form the foundations of many natural phenomena such as biological processes. These can be encoded and/or compiled into DNA and have been shown to be Turing complete. Before CRNs are implemented in a physical environment, they are often simulated in programming environments. Like traditional programs, these CRN programs must be validated. Researchers have recently designed a software testing framework for CRNs, however, repairing CRN programs is still a manual task. While the programs are often small in size, finding and repairing the faults can be difficult without automated support. In this paper we present CRNRepair, a program repair framework for CRN programs. We built our framework on top of an existing APR framework. We use a testing infrastructure built in the Matlab SimBiology package and adapt it to use the SBML representation for its abstract syntax tree. In a case study on 19 mutant versions of 2 programs, we find plausible patches for 90 percent of one of the programs, and 50 percent of the other. We find several common types of repairs, which differ from the correct programs, but are functionally correct."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00014
+  tags:
+    - APR
+    - PyGGI
+  urls:
+    - https://github.com/LavaOps/CRNRepair/
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/mesecan_gi-icse_2021.pdf
 
@@ -97,6 +126,7 @@
   year: 2021
   abstract: "Machine learning accounts for considerable global electricity demand and resulting environmental impact, as training a large deep-learning model produces 284 000kgs of the greenhouse gas carbon dioxide. In recent years, search-based approaches have begun to explore improving software to consume less energy. Machine learning is a particularly strong candidate for this because it is possible to trade off functionality (accuracy) against energy consumption, whereas with many programs functionality is simply a pass-or-fail constraint. We use a grid search to explore hyperparameter configurations for a multilayer perceptron on five classification data sets, considering trade-offs of classification accuracy against training or inference energy. On one data set, we show that 77 percent of energy consumption for inference can saved by reducing accuracy from 94.3 percent to 93.2 percent. Energy for training can also be reduced by 30-50 percent with minimal loss of accuracy. We also find that structural parameters like hidden layer size is a major driver of the energy-accuracy trade-off, but there is some evidence that non-structural hyperparameters influence the trade-off too. We also show that a search-based approach has the potential to identify these trade-offs more efficiently than the grid search."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00011
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/brownlee_gi-icse_2021.pdf
 
@@ -107,11 +137,12 @@
     - name: Alexandre Bergel
   venue: "GI@ICSE"
   year: 2021
-  abstract: "using machine learning to generate source code is an active and highly important research area. In particular,it has been shown that genetic programming (GP) efficiently contributes to software repair. However, most of the published advances on applying GP to generate source code are limited to the C programming language, a statically-typed procedural language. As a consequence, applying GP to object-oriented and dynamically-typed languages may represent a significant opportunity. explores the use of genetic programming to generate objected-oriented source code in a dynamically-typed setting. We found that GP is able to produce missing one-line statements with a precision of 51 percent. Our preliminary results contributes to the state of the art by indicating that GP maybe effectively employed to generate source code for dynamically-typed object-oriented applications."
+  abstract: "Using machine learning to generate source code is an active and highly important research area. In particular,it has been shown that genetic programming (GP) efficiently contributes to software repair. However, most of the published advances on applying GP to generate source code are limited to the C programming language, a statically-typed procedural language. As a consequence, applying GP to object-oriented and dynamically-typed languages may represent a significant opportunity. explores the use of genetic programming to generate objected-oriented source code in a dynamically-typed setting. We found that GP is able to produce missing one-line statements with a precision of 51 percent. Our preliminary results contributes to the state of the art by indicating that GP maybe effectively employed to generate source code for dynamically-typed object-oriented applications."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00019
   pdfs:
-    - http://bergel.eu/MyPapers/Illa21a-GP.pdf
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/illanes_gi-icse_2021.pdf
+    - http://bergel.eu/MyPapers/Illa21a-GP.pdf
 
 - key: "Rainford:2021:GI"
   title: "Open Challenges in Genetic Improvement for Emergent Software Systems"
@@ -122,6 +153,7 @@
   year: 2021
   abstract: "Genetic improvement for emergent software systems faces unique challenges due to its deployment in highly dynamic environments. We discuss four of those challenges along with our initial plans for new research."
   type: Workshop
+  doi: https://doi.org/0.1109/GI52543.2021.00018
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/rainford_gi-icse_2021.pdf
 
@@ -134,6 +166,7 @@
   year: 2021
   abstract: "Structured Query Language (SQL) queries are ubiquitous in modern software engineering. These queries can be costly when run on large databases with many entries and tables to consider. We propose using Genetic Improvement (GI) to explore patches for these queries, with the aim of optimising their execution time, whilst maintaining the functionality of the program in which they are used. Specifically, we propose three ways in which SQL JOIN statements can be mutated in order to improve performance. We also discuss the requirements of software being improved in this manner and the potential challenges of our approach."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00010
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/callan_gi-icse_2021.pdf
 
@@ -146,6 +179,11 @@
   year: 2021
   abstract: "we argue for using many partial test suites instead of one full test suite during program repair. This may provide a pool of simpler, yet correct patches, addressing both the overfitting and poor repair quality problem. To support this idea, we present some insight obtained running APR partial test suites on the well studied triangle program."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00012
+  tags:
+    - APR
+    - testing
+    - PyGGI
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/kitt_gi-icse_2021.pdf
 
@@ -159,7 +197,9 @@
   year: 2021
   abstract: "Genetic improvement (GI) tools find improved program versions by modifying the initial program. These can be used for the purpose of automated program repair (APR). GI uses software transformations, called mutation operators, such as deletions, insertions, and replacements of code fragments. Current edit selection strategies, however, under-explore the search spaces of insertion and replacement operators. Therefore, we implement a uniform strategy based on the relative operator search space sizes. We evaluate it on the QuixBugs repair benchmark and find that the uniform strategy has the potential for improving APR tool performance. We also analyse the efficacy of the different mutation operators with regard to the type of code fragment they are applied to. We find that, for all operators, choosing expression statements as target statements is the most successful for finding program variants with improved or preserved fitness (50.03 percent, 33.12 percent and 23.85 percent for deletions, insertions and replacements, respectively), whereas choosing declaration statements is the least effective (3.16 percent, 10.82 percent and 3.14 percent for deletions, insertions and replacements)."
   type: Workshop
+  doi: https://doi.org/10.1109/GI52543.2021.00009
   tags:
+    - APR
     - PyGGI
   urls:
     - https://github.com/SOLAR-group/gi2021artefact
@@ -167,7 +207,7 @@
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/smigielska_gi-icse_2021.pdf
 
 - key: "OBrien:2021:GI"
-  title: "Using Genetic Improvement to Synthesise Quantum Programs on Differing Hardware"
+  title: "Using Genetic Improvement to Retarget quantum Software on Differing Hardware"
   authors:
     - name: George O'Brien
     - name: John Clark
@@ -175,8 +215,55 @@
   year: 2021
   abstract: "Quantum computers are rapidly developing to a point where they can solve problems faster than any classical computation. As they're developed competing standards for languages, models and architectures are also being created. These standards are often bespoke and aimed at optimizing around a single algorithm or problem. This can make it very difficult to reuse these them should the original hardware become unavailable or obsolete. We demonstrate a method that can compile circuits more generally across hardware constraints with the use of a genetic improvement inspired search technique that includes a realistic model of the hardware. We show that this method is effective at selecting gates that can be more easily implemented and ran compared to generic optimization which reduces the total chance of failure. To ensure that these results are practical, empirical results are generated using different IBM hardware and a selection of real algorithms."
   type: Workshop
-  pdfs:
-    - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/obrien_gi-icse_2021.pdf
+  doi: https://doi.org/10.1109/GI52543.2021.00015
+
+- key: "Guizzo:2021:ICSE"
+  title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
+  authors:
+    - name: Giovani Guizzo
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Mark Harman
+  venue: "ICSE"
+  year: 2021
+  type: Conference
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - https://bit.ly/Guizzo-ICSE-2021
+    - https://conf.researchr.org/details/icse-2021/icse-2021-papers/6/Enhancing-Genetic-Improvement-of-Software-with-Regression-Test-Selection
+    - https://discovery.ucl.ac.uk/id/eprint/10120263/
+
+- key: "Guizzo:2021:ICSEcomp"
+  title: "Artifact for Enhancing Genetic Improvement of Software with Regression Test Selection"
+  authors:
+    - name: Giovani Guizzo
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Mark Harman
+  venue: "ICSE-comp"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.5522/04/12890792
+  tags:
+    - SBSE
+  urls:
+    - https://hub.docker.com/repository/docker/giovaniguizzo/icse21-p66
+
+- key: "Molina:2021:ICSEcomp"
+  title: "EvoSpex: An Evolutionary Algorithm for Learning Postconditions (artifact)"
+  authors:
+    - name: Facundo Molina
+    - name: Pablo Ponzio
+    - name: Nazareno Aguirre
+    - name: Marcelo Frias
+  venue: "ICSE-comp"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.5281/zenodo.4458256
+  urls:
+    - https://github.com/facumolina/evospex-ae
 
 - key: "Trujillo:2021:IEEESoftware"
   title: "A Novel Approach For Search-Based Program Repair"
@@ -189,6 +276,7 @@
   type: Journal
   doi: https://doi.org/10.1109/MS.2021.3070552
   tags:
+    - APR
     - SBSE
 
 - key: "Shelton:2021:NDSS"
@@ -213,24 +301,6 @@
     - https://arxiv.org/pdf/1912.05183.pdf
     - https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-3_23137_paper.pdf
 
-- key: "Guizzo:2021:ICSE"
-  title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
-  authors:
-    - name: Giovani Guizzo
-    - name: Justyna Petke
-    - name: Federica Sarro
-    - name: Mark Harman
-  venue: "Proceedings of the International Conference on Software Engineering, ICSE 2021"
-  year: 2021
-  type: Conference
-  tags:
-    - SBSE
-    - testing
-  urls:
-    - https://bit.ly/Guizzo-ICSE-2021
-    - https://conf.researchr.org/details/icse-2021/icse-2021-papers/6/Enhancing-Genetic-Improvement-of-Software-with-Regression-Test-Selection
-    - https://discovery.ucl.ac.uk/id/eprint/10120263/
-
 - key: "langdon:RN2001"
   title: "Fast Generation of Big Random Binary Trees"
   authors:
@@ -254,6 +324,7 @@
   type: Journal
   doi: https://doi.org/10.1145/3360004
   tags:
+    - APR
     - SBSE
 
 - key: "Petke:2020:APR"
@@ -283,6 +354,7 @@
   type: Conference
   doi: https://doi.org/10.1109/CEC48606.2020.9185913
   tags:
+    - APR
     - SBSE
   urls:
     - https://pure.york.ac.uk/portal/en/publications/empirical-analysis-of-1edit-degree-patches-in-syntaxbased-automatic-program-repair(83213662-3691-42ce-804e-0fc8c524f2f8).html
@@ -334,6 +406,8 @@
   year: 2020
   type: Journal
   doi: https://doi.org/10.1145/3383390
+  tags:
+    - APR
   urls:
     - https://cacm.acm.org/magazines/2020/4/243626-adding-more-color-to-patch-picture/fulltext
 
@@ -423,6 +497,30 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp139s2-file1.pdf
 
+- key: "Villanueva:2020:GECCO"
+  title: "Novelty Search for Automatic Bug Repair"
+  authors:
+    - name: Omar M. Villanueva
+    - name: Leonardo Trujillo
+    - name: Daniel E Hernandez
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  doi: https://doi.org/10.1145/3377930.3389845
+  tags:
+    - APR
+
+- key: "Bokhari:2020:GECCO"
+  title: "Towards Rigorous Validation of Energy Optimisation Experiments"
+  authors:
+    - name: Mahmoud A. Bokhari
+    - name: Brad Alexander
+    - name: Markus Wagner
+  venue: "GECCO"
+  year: 2020
+  type: Conference
+  doi: https://doi.org/10.1145/3377930.3390245
+
 - key: "Nowack:2020:GECCOcomp"
   title: "Exploiting Fault Localisation for Efficient Program Repair"
   authors:
@@ -435,7 +533,7 @@
     - name: Emily Winter
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389912
@@ -449,7 +547,7 @@
     - name: Xiaodong Wang
     - name: Stephanie Forrest
     - name: Carole-Jean Wu
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3398139
@@ -463,7 +561,7 @@
       aka: Saemundur O. Haraldsson
     - name: John R. Woodward
     - name: Markus Wagner
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389885
@@ -473,7 +571,7 @@
   authors:
     - name: Una-May O'Reilly
     - name: Erik Hemberg
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389882
@@ -484,32 +582,10 @@
     - name: Daniel R. Tauritz
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389855
-
-- key: "Villanueva:2020:GECCO"
-  title: "Novelty Search for Automatic Bug Repair"
-  authors:
-    - name: Omar M. Villanueva
-    - name: Leonardo Trujillo
-    - name: Daniel E Hernandez
-  venue: "GECCO"
-  year: 2020
-  type: Conference
-  doi: https://doi.org/10.1145/3377930.3389845
-
-- key: "Bokhari:2020:GECCO"
-  title: "Towards Rigorous Validation of Energy Optimisation Experiments"
-  authors:
-    - name: Mahmoud A. Bokhari
-    - name: Brad Alexander
-    - name: Markus Wagner
-  venue: "GECCO"
-  year: 2020
-  type: Conference
-  doi: https://doi.org/10.1145/3377930.3390245
 
 - key: "Baltes:2020:GI9"
   title: "An Annotated Dataset of Stack Overflow Post Edits"
@@ -635,6 +711,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392176
   tags:
+    - APR
     - SBSE
     - survey
   urls:
@@ -716,6 +793,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3387940.3392089
   tags:
+    - APR
     - ML
     - SBSE
     - testing
@@ -841,40 +919,6 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2019_discussion.pdf
     - https://arxiv.org/pdf/1907.03773.pdf
 
-- key: "Liu:2019:SANER"
-  title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
-  authors:
-    - name: Kui Liu
-    - name: Anil Koyuncu
-    - name: Dongsun Kim
-    - name: Tegawende F. Bissyande
-  venue: "2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)"
-  year: 2019
-  type: Conference
-  doi: https://doi.org/10.1109/SANER.2019.8667970
-
-- key: "Marginean:2019:ICSE"
-  title: "SapFix: Automated End-to-End Repair at Scale"
-  authors:
-    - name: Alexandru Marginean
-    - name: Johannes Bader
-    - name: Satish Chandra
-    - name: Mark Harman
-    - name: Yue Jia
-    - name: Ke Mao
-    - name: Alexander Mols
-    - name: Andrew Scott
-  venue: "41st International Conference on Software Engineering"
-  year: 2019
-  type: Conference
-  doi: https://doi.org/10.1109/ICSE-SEIP.2019.00039
-  tags:
-    - APR
-    - SBSE
-  urls:
-    - https://2019.icse-conferences.org/details/icse-2019-Software-Engineering-in-Practice/9/SapFix-Automated-End-to-End-Repair-at-Scale
-    - https://research.fb.com/publications/sapfix-automated-end-to-end-repair-at-scale/
-
 - key: "cacm2019_program_repair"
   title: "Automated Program Repair"
   authors:
@@ -885,6 +929,8 @@
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3318162
+  tags:
+    - APR
   pdfs:
     - http://software-lab.org/publications/cacm2019_program_repair.pdf
 
@@ -900,6 +946,7 @@
   type: Conference
   doi: https://doi.org/10.1145/3338906.3341184
   tags:
+    - APR
     - SBSE
     - PyGGI
   urls:
@@ -955,21 +1002,6 @@
     - APR
     - SBSE
 
-- key: "langdon:2019:log2"
-  title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
-  authors:
-    - name: W. B. Langdon
-      aka: William B. Langdon
-    - name: Justyna Petke
-  venue: "GECCO"
-  year: 2019
-  type: Conference
-  doi: https://doi.org/10.1145/3319619.3321954
-  tags:
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_log2.pdf
-
 - key: "Brownlee:2019:GECCO"
   title: "Gin: genetic improvement research made easy"
   authors:
@@ -999,6 +1031,21 @@
   doi: https://doi.org/10.1145/3321707.3321738
   tags:
     - SBSE
+
+- key: "langdon:2019:log2"
+  title: "Genetic Improvement of Data gives Binary Logarithm from sqrt"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Justyna Petke
+  venue: "GECCO-comp"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1145/3319619.3321954
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_log2.pdf
 
 - key: "Petke:2019:GI7"
   title: "A Survey of Genetic Improvement Search Spaces"
@@ -1172,6 +1219,8 @@
   abstract: "Facebook recently had their first experience with Genetic Improvement (GI) by developing and deploying the automated bug fixing tool SapFix. The experience was successful resulting in landed fixes but also very educational. This paper will briefly outline some of the challenges for GI that were highlighted by this experience as well as a look at future directions in the area of mobile apps."
   type: Workshop
   doi: https://doi.org/10.1109/GI.2019.00010
+  tags:
+    - APR
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2019/Alshahwan_2019_GI.pdf
 
@@ -1231,6 +1280,30 @@
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-39958-0_19
+  tags:
+    - APR
+
+- key: "Marginean:2019:ICSE"
+  title: "SapFix: Automated End-to-End Repair at Scale"
+  authors:
+    - name: Alexandru Marginean
+    - name: Johannes Bader
+    - name: Satish Chandra
+    - name: Mark Harman
+    - name: Yue Jia
+    - name: Ke Mao
+    - name: Alexander Mols
+    - name: Andrew Scott
+  venue: "ICSE"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE-SEIP.2019.00039
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://2019.icse-conferences.org/details/icse-2019-Software-Engineering-in-Practice/9/SapFix-Automated-End-to-End-Repair-at-Scale
+    - https://research.fb.com/publications/sapfix-automated-end-to-end-repair-at-scale/
 
 - key: "langdon:2019:ieeeblog"
   title: "Software Improvement by Data Improvement"
@@ -1265,6 +1338,20 @@
   pdfs:
     - http://www.bobbybruce.net/assets/pdfs/publications/bruce-2019-approximate.pdf
     - https://pdfs.semanticscholar.org/83d3/685a11e8f4855047dd3fba11a67b45aab935.pdf
+
+- key: "Liu:2019:SANER"
+  title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
+  authors:
+    - name: Kui Liu
+    - name: Anil Koyuncu
+    - name: Dongsun Kim
+    - name: Tegawende F. Bissyande
+  venue: "SANER"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.1109/SANER.2019.8667970
+  tags:
+    - APR
 
 - key: "Langdon:2019:SEN"
   title: "The State and Future of Genetic Improvement"
@@ -1333,7 +1420,7 @@
     - name: Eduardo Faria de Souza
     - name: Jerffeson Souza
     - name: Celso G. Camilo-Junior
-  venue: "SSBSE 2019"
+  venue: "SSBSE"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-27455-9_12
@@ -1346,7 +1433,7 @@
   authors:
     - name: Alexander Wild
     - name: Barry Porter
-  venue: "SSBSE 2019"
+  venue: "SSBSE"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-27455-9_7
@@ -1361,7 +1448,7 @@
     - name: Justyna Petke
     - name: Alexander Brownlee
       aka: Alexander E. I. Brownlee
-  venue: "SSBSE 2019"
+  venue: "SSBSE"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-27455-9_14
@@ -1477,47 +1564,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_04.pdf
 
-- key: "Tan:2018:ICSE"
-  title: "Repairing Crashes in Android Apps"
-  authors:
-    - name: Shin Hwei Tan
-    - name: Zhen Dong
-    - name: Xiang Gao
-    - name: Abhik Roychoudhury
-  venue: "40th International Conference on Software Engineering"
-  year: 2018
-  type: Conference
-  doi: https://doi.org/10.1145/3180155.3180243
-  tags:
-    - SBSE
-    - testing
-  urls:
-    - https://www.icse2018.org/event/icse-2018-technical-papers-repairing-crashes-in-android-apps
-  pdfs:
-    - http://www.human-competitive.org/sites/default/files/tan-paper.pdf
-    - http://www.shinhwei.com/droixicse_camera.pdf
-
-- key: "Naitou:2018:ICSE"
-  title: "Toward Introducing Automated Program Repair Techniques to Industrial Software Development"
-  authors:
-    - name: Keigo Naitou
-    - name: Akito Tanikado
-    - name: Shinsuke Matsumoto
-    - name: Yoshiki Higo
-    - name: Shinji Kusumoto
-    - name: Hiroyuki Kirinuki
-    - name: Toshiyuki Kurabayashi
-    - name: Haruto Tanno
-  venue: "40th International Conference on Software Engineering"
-  year: 2018
-  type: Conference
-  doi: https://doi.org/10.1145/3196321.3196358
-  tags:
-    - APR
-    - SBSE
-  urls:
-    - http://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=422
-
 - key: "DBLP:journals/corr/abs-1807-00515"
   title: "Automatic Software Repair: a Bibliography"
   authors:
@@ -1526,6 +1572,7 @@
   year: 2018
   type: Archive
   tags:
+    - APR
     - survey
   urls:
     - http://arxiv.org/abs/1807.00515
@@ -1743,6 +1790,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194814
   tags:
+    - APR
     - SBSE
     - PyGGI
   pdfs:
@@ -1852,6 +1900,48 @@
     - http://hdl.handle.net/1893/27485
     - http://hdl.handle.net/11667/120
 
+- key: "Tan:2018:ICSE"
+  title: "Repairing Crashes in Android Apps"
+  authors:
+    - name: Shin Hwei Tan
+    - name: Zhen Dong
+    - name: Xiang Gao
+    - name: Abhik Roychoudhury
+  venue: "ICSE"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1145/3180155.3180243
+  tags:
+    - APR
+    - SBSE
+    - testing
+  urls:
+    - https://www.icse2018.org/event/icse-2018-technical-papers-repairing-crashes-in-android-apps
+  pdfs:
+    - http://www.human-competitive.org/sites/default/files/tan-paper.pdf
+    - http://www.shinhwei.com/droixicse_camera.pdf
+
+- key: "Naitou:2018:ICSE"
+  title: "Toward Introducing Automated Program Repair Techniques to Industrial Software Development"
+  authors:
+    - name: Keigo Naitou
+    - name: Akito Tanikado
+    - name: Shinsuke Matsumoto
+    - name: Yoshiki Higo
+    - name: Shinji Kusumoto
+    - name: Hiroyuki Kirinuki
+    - name: Toshiyuki Kurabayashi
+    - name: Haruto Tanno
+  venue: "ICSE"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1145/3196321.3196358
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - http://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=422
+
 - key: "Mehne:2018:ICST"
   title: "Accelerating Search-Based Program Repair"
   authors:
@@ -1866,6 +1956,7 @@
   type: Conference
   doi: https://doi.org/10.1109/ICST.2018.00031
   tags:
+    - APR
     - SBSE
 
 - key: "Petke:gisurvey"
@@ -1990,7 +2081,7 @@
     - name: Alexander Mols
     - name: Taijin Tei
     - name: Ilya Zorin
-  venue: "SSBSE 2018"
+  venue: "SSBSE"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_1
@@ -2004,7 +2095,7 @@
     - name: Myra B. Cohen
     - name: Witawas Srisa-an
     - name: Sheng Wei
-  venue: "SSBSE 2018"
+  venue: "SSBSE"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_24
@@ -2016,7 +2107,7 @@
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
-  venue: "SSBSE 2018 Hot off the Press Track"
+  venue: "SSBSE"
   year: 2018
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-99241-9_22
@@ -2038,6 +2129,7 @@
   type: Journal
   doi: https://doi.org/10.3390/sym10040092
   tags:
+    - APR
     - SBSE
   urls:
     - https://www.mdpi.com/2073-8994/10/4/92/pdf
@@ -2106,6 +2198,8 @@
   venue: ""
   year: 2017
   type: PhdThesis
+  tags:
+    - APR
   pdfs:
     - https://www.comp.nus.edu.sg/~abhik/Students/ShinHwei.pdf
 
@@ -2132,6 +2226,7 @@
   year: 2017
   type: PhdThesis
   tags:
+    - APR
     - SBSE
   urls:
     - http://hdl.handle.net/1893/26007
@@ -2261,6 +2356,8 @@
   year: 2017
   type: Journal
   doi: https://doi.org/10.1007/s10664-016-9470-4
+  tags:
+    - APR
   urls:
     - https://hal.archives-ouvertes.fr/hal-01387556/
   pdfs:
@@ -2371,6 +2468,8 @@
   year: 2017
   type: Conference
   doi: https://doi.org/10.1145/3071178.3071263
+  tags:
+    - APR
 
 - key: "Bokhari:2017:GI"
   title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation - A Tale of Woe and a Proof-of-Concept"
@@ -2428,6 +2527,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082517
   tags:
+    - APR
     - testing
   urls:
     - http://www.human-competitive.org/sites/default/files/haraldsson-text.txt
@@ -2660,7 +2760,7 @@
     - name: Jinhan Kim
     - name: Seongmin Lee
     - name: Shin Yoo
-  venue: "KSC"
+  venue: "Proceedings of Korea Software Congress"
   year: 2017
   type: Conference
   tags:
@@ -2700,6 +2800,7 @@
   type: Conference
   doi: https://doi.org/10.1109/SBST.2017..10
   tags:
+    - APR
     - SBSE
     - testing
   urls:
@@ -2805,6 +2906,8 @@
   venue: "The Conversation"
   year: 2017
   type: Journal
+  tags:
+    - APR
   urls:
     - http://theconversation.com/computers-will-soon-be-able-to-fix-themselves-are-it-departments-for-the-chop-85632
 
@@ -2816,6 +2919,7 @@
   year: 2017
   type: Journal
   tags:
+    - APR
     - SBSE
   urls:
     - https://arstechnica.co.uk/information-technology/2017/08/facebook-dynamic-analysis-software-sapienz/
@@ -2861,20 +2965,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1604.pdf
 
-- key: "Nakajima:2016:APSEC"
-  title: "Toward Developer-like Automated Program Repair: Modification Comparisons between GenProg and Developers"
-  authors:
-    - name: Hiroki Nakajima
-    - name: Yoshiki Higo
-    - name: Haruki Yokoyama
-    - name: Shinji Kusumoto
-  venue: "2016 23rd Asia-Pacific Software Engineering Conference (APSEC)"
-  year: 2016
-  type: Conference
-  doi: https://doi.org/10.1109/APSEC.2016.042
-  tags:
-    - APR
-
 - key: "Highnam:2016:DSN-W"
   title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
   authors:
@@ -2888,6 +2978,8 @@
   year: 2016
   type: Conference
   doi: https://doi.org/10.1109/DSN-W.2016.63
+  tags:
+    - APR
   pdfs:
     - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
 
@@ -2901,6 +2993,8 @@
   year: 2016
   type: Conference
   doi: https://doi.org/10.1109/IWESEP.2016.15
+  tags:
+    - APR
 
 - key: "Elver:2016:ieeeHPCA"
   title: "McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation"
@@ -2943,6 +3037,20 @@
   urls:
     - http://graphics.cs.cmu.edu/projects/halidesched/
 
+- key: "Nakajima:2016:APSEC"
+  title: "Toward Developer-like Automated Program Repair: Modification Comparisons between GenProg and Developers"
+  authors:
+    - name: Hiroki Nakajima
+    - name: Yoshiki Higo
+    - name: Haruki Yokoyama
+    - name: Shinji Kusumoto
+  venue: "APSEC"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/APSEC.2016.042
+  tags:
+    - APR
+
 - key: "Zojaji:2016:AI"
   title: "Automated program repair using genetic programming and model checking"
   authors:
@@ -2953,6 +3061,8 @@
   year: 2016
   type: Journal
   doi: https://doi.org/10.1007/s10489-016-0804-0
+  tags:
+    - APR
 
 - key: "GalvezRamirez:2016:EuroGP"
   title: "Towards Automated Strategies in Satisfiability Modulo Theory"
@@ -2974,7 +3084,7 @@
     - name: John R. Woodward
     - name: Colin G. Johnson
     - name: Alexander E. I. Brownlee
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931728
@@ -2988,7 +3098,7 @@
   authors:
     - name: Lukas Sekanina
     - name: Vlastimil Kapusta
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931740
@@ -3180,6 +3290,7 @@
   type: Conference
   doi: https://doi.org/10.1109/ICSME.2016.66
   tags:
+    - APR
     - SBSE
   urls:
     - https://goo.gl/9TS9wo
@@ -3298,6 +3409,8 @@
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2950290.2950295
+  tags:
+    - APR
   pdfs:
     - https://www.comp.nus.edu.sg/~abhik/pdf/FSE16.pdf
 
@@ -3419,6 +3532,7 @@
   venue: ""
   year: 2015
   tags:
+    - APR
     - SBSE
   urls:
     - http://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=5820&context=etd
@@ -3432,6 +3546,7 @@
   year: 2015
   type: TechReport
   tags:
+    - APR
     - survey
   urls:
     - https://hal.archives-ouvertes.fr/hal-01206501
@@ -3491,6 +3606,7 @@
   type: Conference
   doi: https://doi.org/10.1109/ISSRE.2015.7381813
   tags:
+    - APR
     - SBSE
 
 - key: "Le:2015:ieeeISSRE"
@@ -3504,6 +3620,7 @@
   type: Conference
   doi: https://doi.org/10.1109/ISSRE.2015.7381836
   tags:
+    - APR
     - SBSE
 
 - key: "Ke:2015:ASE"
@@ -3518,23 +3635,10 @@
   type: Conference
   doi: https://doi.org/10.1109/ASE.2015.60
   tags:
+    - APR
     - SBSE
   pdfs:
     - http://people.cs.umass.edu/brun/pubs/pubs/Ke15ase.pdf
-
-- key: "Tan:ICSE:2015"
-  title: "relifix: Automated Repair of Software Regressions"
-  authors:
-    - name: Shin Hwei Tan
-    - name: Abhik Roychoudhury
-  venue: "37th International Conference on Software Engineering"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1109/ICSE.2015.65
-  tags:
-    - SBSE
-  pdfs:
-    - http://www.comp.nus.edu.sg/~shinhwei/relifix.pdf
 
 - key: "Mullapudi:2015:ASPLOS"
   title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
@@ -3561,6 +3665,7 @@
   year: 2015
   type: Archive
   tags:
+    - APR
     - SBSE
   urls:
     - http://arxiv.org/abs/1505.07002
@@ -3926,6 +4031,21 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_hbgpa.pdf
 
+- key: "Tan:ICSE:2015"
+  title: "relifix: Automated Repair of Software Regressions"
+  authors:
+    - name: Shin Hwei Tan
+    - name: Abhik Roychoudhury
+  venue: "ICSE"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2015.65
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.comp.nus.edu.sg/~shinhwei/relifix.pdf
+
 - key: "Harman:2015:ICST"
   title: "Achievements, Open Problems and Challenges for Search Based Software Testing"
   authors:
@@ -3972,6 +4092,7 @@
   type: Conference
   doi: https://doi.org/10.1145/2771783.2771791
   tags:
+    - APR
     - SBSE
 
 - key: "Barr:2015:ISSTA"
@@ -4002,6 +4123,7 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-21009-4_20
   tags:
+    - APR
     - testing
 
 - key: "Yuan:2015:PLOS"
@@ -4076,6 +4198,22 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_SSBSE.pdf
 
+- key: "jia:2015:gsgp"
+  title: "Grow and Serve: Growing Django Citation Services Using SBSE"
+  authors:
+    - name: Yue Jia
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Alexandru Marginean
+  venue: "SSBSE"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-22183-0_22
+  tags:
+    - SBSE
+  pdfs:
+    - http://alexandrumarginean.com/grow_and_serve.pdf
+
 - key: "Burles:2015:SSBSE"
   title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
   authors:
@@ -4112,22 +4250,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/R.Bruce/Burles2015Specialising.pdf
 
-- key: "jia:2015:gsgp"
-  title: "Grow and Serve: Growing Django Citation Services Using SBSE"
-  authors:
-    - name: Yue Jia
-    - name: Mark Harman
-    - name: William B. Langdon
-    - name: Alexandru Marginean
-  venue: "SSBSE 2015 Challenge Track"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-319-22183-0_22
-  tags:
-    - SBSE
-  pdfs:
-    - http://alexandrumarginean.com/grow_and_serve.pdf
-
 - key: "Woodward:2015:hclhswe"
   title: "How computers are learning to make human software work more efficiently"
   authors:
@@ -4148,6 +4270,8 @@
   year: 2015
   type: Journal
   doi: https://doi.org/10.1145/2746519
+  tags:
+    - APR
 
 - key: "Temperton:2015:wired"
   title: "Code 'transplant' could revolutionise programming"
@@ -4168,6 +4292,7 @@
   year: 2014
   type: TechReport
   tags:
+    - APR
     - SBSE
   urls:
     - http://arxiv.org/abs/1410.6651
@@ -4324,23 +4449,6 @@
     - http://arxiv.org/pdf/1408.2288.pdf
     - http://jurdak.com/ASC-GP.pdf
 
-- key: "Martinez:2014:FIA:2591062.2591114"
-  title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
-  authors:
-    - name: Matias Martinez
-    - name: Westley Weimer
-    - name: Martin Monperrus
-  venue: "Companion Proceedings of the 36th International Conference on Software Engineering, ICSE Companion 2014"
-  year: 2014
-  type: Conference
-  doi: https://doi.org/10.1145/2591062.2591114
-  tags:
-    - SBSE
-  urls:
-    - http://arxiv.org/abs/1403.6322
-  pdfs:
-    - http://arxiv.org/pdf/1403.6322.pdf
-
 - key: "Estebanez:2014:CI"
   title: "Automatic Design of Noncryptographic Hash Functions using Genetic Programming"
   authors:
@@ -4360,6 +4468,8 @@
   venue: "Computational Intelligence for Software Engineering"
   year: 2014
   type: Collection
+  tags:
+    - APR
   pdfs:
     - http://shonan.nii.ac.jp/seminar/reports/wp-content/uploads/sites/56/2015/01/No.2014-13.pdf
 
@@ -4455,6 +4565,40 @@
   urls:
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.416.675
 
+- key: "Qi:2014:ICSE"
+  title: "The Strength of Random Search on Automated Program Repair"
+  authors:
+    - name: Yuhua Qi
+    - name: Xiaoguang Mao
+    - name: Yan Lei
+    - name: Ziying Dai
+    - name: Chengsong Wang
+  venue: "ICSE"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2568225.2568254
+  tags:
+    - APR
+    - SBSE
+
+- key: "Martinez:2014:FIA:2591062.2591114"
+  title: "Do the Fix Ingredients Already Exist? An Empirical Inquiry into the Redundancy Assumptions of Program Repair Approaches"
+  authors:
+    - name: Matias Martinez
+    - name: Westley Weimer
+    - name: Martin Monperrus
+  venue: "ICSE-comp"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2591062.2591114
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/1403.6322
+  pdfs:
+    - http://arxiv.org/pdf/1403.6322.pdf
+
 - key: "Baudry:2014:ISSTA"
   title: "Tailored Source Code Transformations to Synthesize Computationally Diverse Program Variants"
   authors:
@@ -4498,22 +4642,6 @@
     - SBSE
   urls:
     - http://www.sciencedirect.com/science/article/pii/S016412121400017X
-
-- key: "Qi:2014:ICSE"
-  title: "The Strength of Random Search on Automated Program Repair"
-  authors:
-    - name: Yuhua Qi
-    - name: Xiaoguang Mao
-    - name: Yan Lei
-    - name: Ziying Dai
-    - name: Chengsong Wang
-  venue: "Proceedings of the 36th International Conference on Software Engineering, ICSE 2014"
-  year: 2014
-  type: Conference
-  doi: https://doi.org/10.1145/2568225.2568254
-  tags:
-    - APR
-    - SBSE
 
 - key: "Semente:2014:I2MTC"
   title: "CRYSEED: An Automatic 8-bit Cryptographic Algorithm Developed with Genetic Programming"
@@ -4657,6 +4785,7 @@
   year: 2013
   type: TechReport
   tags:
+    - APR
     - SBSE
   pdfs:
     - https://escholarship.org/uc/item/3z8926ks.pdf
@@ -4670,6 +4799,7 @@
   year: 2013
   type: TechReport
   tags:
+    - APR
     - SBSE
   urls:
     - http://www.cse.msu.edu/cgi-user/web/tech/document?ID=1022
@@ -4760,21 +4890,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Jia_2013_CSBSE.pdf
 
-- key: "Kim:2013:ICSE"
-  title: "Automatic Patch Generation Learned from Human-Written Patches"
-  authors:
-    - name: Dongsun Kim
-    - name: Jaechang Nam
-    - name: Jaewoo Song
-    - name: Sunghun Kim
-  venue: "35th International Conference on Software Engineering (ICSE 2013)"
-  year: 2013
-  type: Conference
-  doi: https://doi.org/10.1109/ICSE.2013.6606626
-  tags:
-    - APR
-    - SBSE
-
 - key: "Schulte:2013:ARB:2451116.2451151"
   title: "Automated Repair of Binary and Assembly Programs for Cooperating Embedded Devices"
   authors:
@@ -4796,7 +4911,7 @@
   authors:
     - name: Erik M. Fredericks
     - name: Betty H. C. Cheng
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2480790
@@ -4810,7 +4925,7 @@
     - name: Michael Kommenda
     - name: Stefan Wagner
     - name: Heinz Dobler
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2482713
@@ -4825,6 +4940,21 @@
   year: 2013
   type: Workshop
   doi: https://doi.org/10.1145/2458523.2458530
+
+- key: "Kim:2013:ICSE"
+  title: "Automatic Patch Generation Learned from Human-Written Patches"
+  authors:
+    - name: Dongsun Kim
+    - name: Jaechang Nam
+    - name: Jaewoo Song
+    - name: Sunghun Kim
+  venue: "ICSE"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2013.6606626
+  tags:
+    - APR
+    - SBSE
 
 - key: "Qi:2013:ICSM"
   title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
@@ -4852,6 +4982,7 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-03089-0_33
   tags:
+    - APR
     - SBSE
 
 - key: "Ragan-Kelley:2013:PLDI"
@@ -4891,6 +5022,7 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-642-39742-4_1
   tags:
+    - APR
     - SBSE
     - survey
   pdfs:
@@ -4950,6 +5082,7 @@
   year: 2012
   type: PhdThesis
   tags:
+    - APR
     - SBSE
     - testing
   urls:
@@ -4969,24 +5102,6 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_12_09.pdf
-
-- key: "LeGoues:2012:ICSE"
-  title: "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each"
-  authors:
-    - name: Claire Le Goues
-    - name: Michael Dewey-Vogt
-    - name: Stephanie Forrest
-    - name: Westley Weimer
-  venue: "34th International Conference on Software Engineering (ICSE 2012)"
-  year: 2012
-  type: Conference
-  doi: https://doi.org/10.1109/ICSE.2012.6227211
-  tags:
-    - APR
-  urls:
-    - https://squareslab.github.io/genprog-code/
-  pdfs:
-    - http://dijkstra.cs.virginia.edu/genprog/papers/weimer-icse2012-genprog-preprint.pdf
 
 - key: "Xiao:2012:COMPSACW"
   title: "Automated Web Service Composition Using Genetic Programming"
@@ -5075,6 +5190,7 @@
   type: Conference
   doi: https://doi.org/10.1145/2330163.2330333
   tags:
+    - APR
     - SBSE
 
 - key: "LeGoues:2012:GECCO"
@@ -5089,6 +5205,7 @@
   doi: https://doi.org/10.1145/2330163.2330296
   tags:
     - AI
+    - APR
     - SBSE
     - testing
   pdfs:
@@ -5106,6 +5223,24 @@
   type: Collection
   doi: https://doi.org/10.5772/48156
 
+- key: "LeGoues:2012:ICSE"
+  title: "A Systematic Study of Automated Program Repair: Fixing 55 out of 105 bugs for $8 Each"
+  authors:
+    - name: Claire Le Goues
+    - name: Michael Dewey-Vogt
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "ICSE"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2012.6227211
+  tags:
+    - APR
+  urls:
+    - https://squareslab.github.io/genprog-code/
+  pdfs:
+    - http://dijkstra.cs.virginia.edu/genprog/papers/weimer-icse2012-genprog-preprint.pdf
+
 - key: "DBLP:journals/tse/GouesNFW12"
   title: "GenProg: A Generic Method for Automatic Software Repair"
   authors:
@@ -5118,6 +5253,7 @@
   type: Journal
   doi: https://doi.org/10.1109/TSE.2011.104
   tags:
+    - APR
     - SBSE
     - testing
   pdfs:
@@ -5134,6 +5270,7 @@
   type: Conference
   doi: https://doi.org/10.1145/2338965.2336775
   tags:
+    - APR
     - SBSE
   pdfs:
     - https://web.eecs.umich.edu/~weimerw/p/FryISSTA12_PREPRINT.pdf
@@ -5166,6 +5303,7 @@
   type: Conference
   doi: https://doi.org/10.1145/2351676.2351678
   tags:
+    - APR
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2012_ASE.pdf
@@ -5183,6 +5321,7 @@
   type: Conference
   doi: https://doi.org/10.1109/ICPC.2011.22
   tags:
+    - APR
     - SBSE
 
 - key: "Karasek:2011:TSP"
@@ -5226,6 +5365,7 @@
   type: Conference
   doi: https://doi.org/10.1145/2001576.2001768
   tags:
+    - APR
     - SBSE
 
 - key: "Colmenar:2011:GECCO"
@@ -5252,6 +5392,7 @@
   type: Conference
   doi: https://doi.org/10.1145/2001858.2001995
   tags:
+    - APR
     - SBSE
 
 - key: "White:2011:ieeeTEC"
@@ -5316,6 +5457,7 @@
   type: Journal
   doi: https://doi.org/10.1145/1735223.1735248
   tags:
+    - APR
     - SBSE
 
 - key: "Weimer:2010:ACM"
@@ -5330,6 +5472,7 @@
   type: Journal
   doi: https://doi.org/10.1145/1735223.1735249
   tags:
+    - APR
     - SBSE
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf
@@ -5345,6 +5488,7 @@
   doi: https://doi.org/10.1145/1830483.1830739
   tags:
     - AI
+    - APR
     - SBSE
     - testing
 
@@ -5360,6 +5504,7 @@
   type: Conference
   doi: https://doi.org/10.1145/1830483.1830654
   tags:
+    - APR
     - SBSE
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/weimer-gecco2010-preprint.pdf
@@ -5405,6 +5550,7 @@
   type: Conference
   doi: https://doi.org/10.1109/ICST.2010.66
   tags:
+    - APR
     - SBSE
     - testing
 
@@ -5511,6 +5657,7 @@
   year: 2010
   type: Conference
   tags:
+    - APR
     - SBSE
   pdfs:
     - http://www.ssbse.org/2010/fastabstracts/ssbse2010_fastabstract_04.pdf
@@ -5538,6 +5685,7 @@
   type: Conference
   doi: https://doi.org/10.1145/1569901.1570031
   tags:
+    - APR
     - testing
   urls:
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.7651
@@ -5552,10 +5700,29 @@
     - name: Francisco Fernandez
     - name: Oscar Garnica
     - name: Sonia Lopez
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2009
   type: Conference
   doi: https://doi.org/10.1145/1570256.1570271
+
+- key: "Weimer:2009:ICES"
+  title: "Automatically Finding Patches Using Genetic Programming"
+  authors:
+    - name: Westley Weimer
+    - name: ThanhVu Nguyen
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+  venue: "ICSE"
+  year: 2009
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2009.5070536
+  tags:
+    - APR
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.8995
+  pdfs:
+    - http://www.cs.unm.edu/~tnguyen/papers/genprog.pdf
+    - http://www.cs.virginia.edu/~csl9q/docs/legoues-icse2009-genprog-preprint.pdf
 
 - key: "Nguyen:2009:SBST"
   title: "Using Execution Paths to Evolve Software Patches"
@@ -5569,27 +5736,11 @@
   type: Conference
   doi: https://doi.org/10.1109/ICSTW.2009.35
   tags:
+    - APR
     - SBSE
     - testing
   pdfs:
     - http://iaser.tek.bth.se/feldt/conferences/sbst09/papers/nguyen_sbst09.pdf
-
-- key: "Weimer:2009:ICES"
-  title: "Automatically Finding Patches Using Genetic Programming"
-  authors:
-    - name: Westley Weimer
-    - name: ThanhVu Nguyen
-    - name: Claire Le Goues
-    - name: Stephanie Forrest
-  venue: "International Conference on Software Engineering (ICSE) 2009"
-  year: 2009
-  type: Conference
-  doi: https://doi.org/10.1109/ICSE.2009.5070536
-  urls:
-    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.147.8995
-  pdfs:
-    - http://www.cs.unm.edu/~tnguyen/papers/genprog.pdf
-    - http://www.cs.virginia.edu/~csl9q/docs/legoues-icse2009-genprog-preprint.pdf
 
 - key: "Murali:2009:IJRTE"
   title: "Correction of Logical Errors in C programs using Genetic Algorithm Techniques"
@@ -5601,6 +5752,7 @@
   year: 2009
   type: Journal
   tags:
+    - APR
     - SBSE
   urls:
     - http://www.iaeng.org/IMECS2009/doc/titles_A_C.html
@@ -5614,6 +5766,7 @@
   venue: ""
   year: 2008
   tags:
+    - APR
     - SBSE
   urls:
     - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.304.6988
@@ -5877,8 +6030,11 @@
   venue: "ACM TELO"
   year: 
   type: Journal
+  doi: https://doi.org://doi:10.5281/zenodo.3755346
   tags:
     - SBSE
+  urls:
+    - https://github.com/oliver-krauss/Replication_GI_Division_Free_Division
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO.pdf
 
@@ -5896,6 +6052,7 @@
     - PyGGI
   urls:
     - http://www.cs.ucl.ac.uk/staff/a.blot/publis/#blot:2021:tevc
+    - https://github.com/bloa/tevc_2020_artefact
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
 
@@ -5909,6 +6066,26 @@
   year: 
   type: Journal
   doi: https://doi.org/10.1109/TSE.2018.2874648
+
+- key: "Kechagia:TSE"
+  title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
+  authors:
+    - name: Maria Kechagia
+    - name: Sergey Mechtaev
+    - name: Federica Sarro
+    - name: Mark Harman
+  venue: "IEEE TSE"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2021.3067156
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://ieeexplore.ieee.org/document/9381596
+    - https://mkechagia.github.io/
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
 
 - key: "deAlmeidaFarzat:ieeeTSE"
   title: "Evolving JavaScript code to reduce load time"
