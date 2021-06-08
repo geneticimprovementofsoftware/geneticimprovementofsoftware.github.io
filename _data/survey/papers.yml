@@ -1,3 +1,108 @@
+- key: "Langdon:TELO"
+  title: "Genetic Improvement of Data for Maths Functions"
+  authors:
+    - name: William B. Langdon
+    - name: Oliver Krauss
+  venue: "ACM TELO"
+  year: 
+  type: Journal
+  doi: https://doi.org://doi:10.5281/zenodo.3755346
+  tags:
+    - SBSE
+  urls:
+    - https://github.com/oliver-krauss/Replication_GI_Division_Free_Division
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO.pdf
+
+- key: "Kirbas:IEEEsoftware"
+  title: "On the Introduction of Automatic Program Repair in Bloomberg"
+  authors:
+    - name: Serkan Kirbas
+    - name: Etienne Windels
+    - name: Olayori McBello
+    - name: Kevin Kells
+    - name: Matthew Pagano
+    - name: Rafal Szalanski
+    - name: Vesna Nowack
+    - name: Emily Winter
+    - name: Steve Counsell
+    - name: David Bowes
+    - name: Tracy Hall
+    - name: Saemundur Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: John Woodward
+      aka: John R. Woodward
+  venue: "IEEE Software"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/MS.2021.3071086
+  tags:
+    - APR
+  urls:
+    - http://www.research.lancs.ac.uk/portal/en/publications/-(4b95b5d2-8077-47cc-8998-0dfa411b41e4).html
+  pdfs:
+    - https://eprints.lancs.ac.uk/id/eprint/154793/1/Fixie_IEEE_Software_Revisions.pdf
+
+- key: "blot:2021:tevc"
+  title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
+  authors:
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "IEEE TEVC"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/TEVC.2021.3070271
+  tags:
+    - SBSE
+    - PyGGI
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/publis/#blot:2021:tevc
+    - https://github.com/bloa/tevc_2020_artefact
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
+
+- key: "Kechagia:TSE"
+  title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
+  authors:
+    - name: Maria Kechagia
+    - name: Sergey Mechtaev
+    - name: Federica Sarro
+    - name: Mark Harman
+  venue: "IEEE TSE"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2021.3067156
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://ieeexplore.ieee.org/document/9381596
+    - https://mkechagia.github.io/
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
+
+- key: "deAlmeidaFarzat:ieeeTSE"
+  title: "Evolving JavaScript code to reduce load time"
+  authors:
+    - name: Fabio de A. Farzat
+    - name: Marcio de O. Barros
+    - name: Guilherme H. Travassos
+  venue: "IEEE TSE"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2019.2928293
+
+- key: "Lorandi:2021:TELO"
+  title: "Genetic Improvement of Routing Protocols for Delay Tolerant Networks"
+  authors:
+    - name: Michela Lorandi
+    - name: Leonardo Lucio Custode
+    - name: Giovanni Iacca
+  venue: "ACM TELO"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1145/3453683
+
 - key: "bian:2021:apr_icse"
   title: "Refining Fitness Functions for Search-Based Program Repair"
   authors:
@@ -63,10 +168,13 @@
   doi: https://doi.org/10.1109/GI52543.2021.00016
   urls:
     - https://arxiv.org/abs/2103.06935
-    - https://youtu.be/bsrHjd2_J2E
     - https://efredericks.github.io/P5-Projects/
   pdfs:
     - https://arxiv.org/pdf/2103.06935.pdf
+  video:
+    - https://youtu.be/bsrHjd2_J2E
+    - https://www.youtube.com/watch?v=3dNaixTXeqA&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=13
+    - https://www.youtube.com/watch?v=0HSm6BNyOzU&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=14
 
 - key: "Dougherty:2021:GI"
   title: "A Permutation Representation of Covering Arrays"
@@ -78,6 +186,9 @@
   abstract: "Testing a large-scale system requires understanding how each of the components interact with each other, which is the subject of interaction testing. Covering arrays are a well-studied object, but traditional representations of these arrays in the context of genetic algorithms has not yielded much success. We propose a new representation of covering arrays based on a permutation of the rows considered. Preliminary results for reducing the mean-time-to-failure of these arrays are given."
   type: Workshop
   doi: https://doi.org/10.1109/GI52543.2021.00017
+  video:
+    - https://www.youtube.com/watch?v=58u_bYvMUGs&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=23
+    - https://www.youtube.com/watch?v=9TsoF5qIJ6w&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=24
 
 - key: "Huang:2021:GI"
   title: "Applying Automated Program Repair to Dataflow Programming Languages"
@@ -93,6 +204,9 @@
   doi: https://doi.org/10.1109/GI52543.2021.00013
   tags:
     - APR
+  video:
+    - https://www.youtube.com/watch?v=-GHGgOtWp7o&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=17
+    - https://www.youtube.com/watch?v=EEhK3SAvGws&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=18
 
 - key: "Mesecan:2021:GI"
   title: "CRNRepair: Automated Program Repair of Chemical Reaction Networks"
@@ -114,6 +228,9 @@
     - https://github.com/LavaOps/CRNRepair/
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/mesecan_gi-icse_2021.pdf
+  video:
+    - https://www.youtube.com/watch?v=SjNsbERd6e0&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=15
+    - https://www.youtube.com/watch?v=AtwAfPwdfJ4&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=16
 
 - key: "Brownlee:2021:GI"
   title: "Exploring the Accuracy -- Energy Trade-off in Machine Learning"
@@ -129,6 +246,9 @@
   doi: https://doi.org/10.1109/GI52543.2021.00011
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/brownlee_gi-icse_2021.pdf
+  video:
+    - https://www.youtube.com/watch?v=bap72BF9vZw&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=7
+    - https://www.youtube.com/watch?v=tgRV-AsVYko&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=8
 
 - key: "Illanes:2021:GI"
   title: "Generating Objected-Oriented Source Code Using Genetic Programming"
@@ -143,6 +263,9 @@
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/illanes_gi-icse_2021.pdf
     - http://bergel.eu/MyPapers/Illa21a-GP.pdf
+  video:
+    - https://www.youtube.com/watch?v=PMPm-jpdg6U&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=19
+    - https://www.youtube.com/watch?v=0KOJqrYrgCc&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=20
 
 - key: "Rainford:2021:GI"
   title: "Open Challenges in Genetic Improvement for Emergent Software Systems"
@@ -153,9 +276,12 @@
   year: 2021
   abstract: "Genetic improvement for emergent software systems faces unique challenges due to its deployment in highly dynamic environments. We discuss four of those challenges along with our initial plans for new research."
   type: Workshop
-  doi: https://doi.org/0.1109/GI52543.2021.00018
+  doi: https://doi.org/10.1109/GI52543.2021.00018
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/rainford_gi-icse_2021.pdf
+  video:
+    - https://www.youtube.com/watch?v=nJOXo_8P__4&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=9
+    - https://www.youtube.com/watch?v=rve5PbjixZw&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=10
 
 - key: "Callan:2021:GI"
   title: "Optimising SQL Queries Using Genetic Improvement"
@@ -169,6 +295,9 @@
   doi: https://doi.org/10.1109/GI52543.2021.00010
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/callan_gi-icse_2021.pdf
+  video:
+    - https://www.youtube.com/watch?v=WopftjIYPgs&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=5
+    - https://www.youtube.com/watch?v=A-QX5dlsKUI&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=6
 
 - key: "Kitt:2021:GI"
   title: "Partial Specifications for Program Repair"
@@ -186,6 +315,9 @@
     - PyGGI
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/kitt_gi-icse_2021.pdf
+  video:
+    - https://www.youtube.com/watch?v=NrmaeHMR_Lw&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=21
+    - https://www.youtube.com/watch?v=GMFU4DpnO3g&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=22
 
 - key: "Smigielska:2021:GI"
   title: "Uniform Edit Selection for Genetic Improvement: Empirical Analysis of Mutation Operator Efficacy"
@@ -205,6 +337,9 @@
     - https://github.com/SOLAR-group/gi2021artefact
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/smigielska_gi-icse_2021.pdf
+  video:
+    - https://www.youtube.com/watch?v=cpN9pLLKA7s&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=3
+    - https://www.youtube.com/watch?v=9nqrQ7YkHQM&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=4
 
 - key: "OBrien:2021:GI"
   title: "Using Genetic Improvement to Retarget quantum Software on Differing Hardware"
@@ -216,6 +351,9 @@
   abstract: "Quantum computers are rapidly developing to a point where they can solve problems faster than any classical computation. As they're developed competing standards for languages, models and architectures are also being created. These standards are often bespoke and aimed at optimizing around a single algorithm or problem. This can make it very difficult to reuse these them should the original hardware become unavailable or obsolete. We demonstrate a method that can compile circuits more generally across hardware constraints with the use of a genetic improvement inspired search technique that includes a realistic model of the hardware. We show that this method is effective at selecting gates that can be more easily implemented and ran compared to generic optimization which reduces the total chance of failure. To ensure that these results are practical, empirical results are generated using different IBM hardware and a selection of real algorithms."
   type: Workshop
   doi: https://doi.org/10.1109/GI52543.2021.00015
+  video:
+    - https://www.youtube.com/watch?v=yUooM4q_LF8&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=11
+    - https://www.youtube.com/watch?v=HusJI2iTUOU&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=12
 
 - key: "Guizzo:2021:ICSE"
   title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
@@ -227,6 +365,7 @@
   venue: "ICSE"
   year: 2021
   type: Conference
+  doi: https://doi.org/10.1109/ICSE43902.2021.00120
   tags:
     - SBSE
     - testing
@@ -234,6 +373,32 @@
     - https://bit.ly/Guizzo-ICSE-2021
     - https://conf.researchr.org/details/icse-2021/icse-2021-papers/6/Enhancing-Genetic-Improvement-of-Software-with-Regression-Test-Selection
     - https://discovery.ucl.ac.uk/id/eprint/10120263/
+
+- key: "Ahlgren:2021:ICSE"
+  title: "Testing Web Enabled Simulation at Scale Using Metamorphic Testing"
+  authors:
+    - name: John Ahlgren
+    - name: Maria Eugenia Berezin
+    - name: Kinga Bojarczuk
+    - name: Elena Dulskyte
+    - name: Inna Dvortsova
+    - name: Johann George
+    - name: Natalija Gucevska
+    - name: Mark Harman
+    - name: Maria Lomeli
+    - name: Erik Meijer
+    - name: Silvia Sapora
+    - name: Justin Spahr-Summers
+  venue: "ICSE"
+  year: 2021
+  type: Conference
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - https://research.fb.com/publications/testing-web-enabled-simulation-at-scale-using-metamorphic-testing/
+  pdfs:
+    - https://research.fb.com/wp-content/uploads/2021/03/Testing-Web-Enabled-Simulation-at-Scale-Using-Metamorphic-Testing.pdf
 
 - key: "Guizzo:2021:ICSEcomp"
   title: "Artifact for Enhancing Genetic Improvement of Software with Regression Test Selection"
@@ -291,15 +456,30 @@
   venue: "NDSS"
   year: 2021
   type: Conference
-  doi: https://doi.org/0.14722/ndss.2021.23137
+  doi: https://doi.org/10.14722/ndss.2021.23137
   tags:
     - SBSE
   urls:
     - https://arxiv.org/abs/1912.05183
-    - https://www.youtube.com/watch?v=yY-YQItFug8
   pdfs:
     - https://arxiv.org/pdf/1912.05183.pdf
     - https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-3_23137_paper.pdf
+  video:
+    - https://www.youtube.com/watch?v=yY-YQItFug8
+
+- key: "Koyuncu:thesis"
+  title: "Boosting Automated Program Repair for Adoption By Practitioners"
+  authors:
+    - name: Anil Koyuncu
+  venue: ""
+  year: 2020
+  type: PhdThesis
+  tags:
+    - APR
+  urls:
+    - http://hdl.handle.net/10993/45073
+  pdfs:
+    - https://orbilu.uni.lu/bitstream/10993/45073/1/thesis.pdf
 
 - key: "langdon:RN2001"
   title: "Fast Generation of Big Random Binary Trees"
@@ -312,6 +492,18 @@
     - https://arxiv.org/abs/2001.04505
   pdfs:
     - https://arxiv.org/pdf/2001.04505.pdf
+
+- key: "Liou:2020:ACMtaco"
+  title: "GEVO: GPU Code Optimization Using Evolutionary Computation"
+  authors:
+    - name: Jhe-Yu Liou
+    - name: Xiaodong Wang
+    - name: Stephanie Forrest
+    - name: Carole-Jean Wu
+  venue: "ACM TACO"
+  year: 2020
+  type: Journal
+  doi: https://doi.org/10.1145/3418055
 
 - key: "Yuan:2020:TBE"
   title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
@@ -326,6 +518,10 @@
   tags:
     - APR
     - SBSE
+  urls:
+    - https://github.com/SerVal-DTF/AVATAR
+  pdfs:
+    - https://yyxhdy.github.io/files/TOSEM2019.pdf
 
 - key: "Petke:2020:APR"
   title: "Refining Fitness Functions in Test-Based Program Repair"
@@ -373,11 +569,11 @@
   tags:
     - GISMO
     - SBSE
-  urls:
-    - https://youtu.be/Ycx89TpxGMA
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24061.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_cec.pdf
+  video:
+    - https://youtu.be/Ycx89TpxGMA
 
 - key: "Brownlee:2020:CEC"
   title: "Injecting Shortcuts for Faster Running Java Code"
@@ -429,9 +625,10 @@
     - SBSE
   urls:
     - https://2020.esec-fse.org/details/fse-2020-papers/114/Biases-and-Differences-in-Code-Review-using-Medical-Imaging-and-Eye-Tracking-Genders
-    - https://youtu.be/Z_fKVMkd2Dk
   pdfs:
     - http://www-personal.umich.edu/~yhhy/index_files/bias_code_review_FSE20.pdf
+  video:
+    - https://youtu.be/Z_fKVMkd2Dk
 
 - key: "terragni-fse-2020"
   title: "Evolutionary Improvement of Assertion Oracles"
@@ -448,9 +645,10 @@
     - SBSE
   urls:
     - https://2020.esec-fse.org/details/fse-2020-papers/184/Evolutionary-Improvement-of-Assertion-Oracles
-    - https://www.youtube.com/watch?v=-fZVT3FoFcE
   pdfs:
     - https://www.pre-crime.eu/techreps/TR-Precrime-2020-02.pdf
+  video:
+    - https://www.youtube.com/watch?v=-fZVT3FoFcE
 
 - key: "krauss:2020:EuroGP"
   title: "Automatically Evolving Lookup Tables for Function Approximation"
@@ -479,9 +677,10 @@
     - PyGGI
   urls:
     - https://discovery.ucl.ac.uk/id/eprint/10097404
-    - https://www.youtube.com/watch?v=D-UQr-P3zUQ
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_eurogp_2020.pdf
+  video:
+    - https://www.youtube.com/watch?v=D-UQr-P3zUQ
 
 - key: "heuristicLab_GCE_2020"
   title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
@@ -520,6 +719,10 @@
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377930.3390245
+  urls:
+    - https://arxiv.org/abs/2004.04500
+  pdfs:
+    - https://arxiv.org/pdf/2004.04500.pdf
 
 - key: "Nowack:2020:GECCOcomp"
   title: "Exploiting Fault Localisation for Efficient Program Repair"
@@ -617,10 +820,10 @@
   doi: https://doi.org/10.1145/3377929.3398110
   tags:
     - SBSE
-  urls:
-    - https://youtu.be/-7G1Um57RrU
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_GI9.pdf
+  video:
+    - https://youtu.be/-7G1Um57RrU
 
 - key: "Bokhari:2020:GI9"
   title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
@@ -688,10 +891,10 @@
   doi: https://doi.org/10.1145/3387940.3392173
   tags:
     - SBSE
-  urls:
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
 
 - key: "Winter:2020:GI"
   title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
@@ -714,10 +917,10 @@
     - APR
     - SBSE
     - survey
-  urls:
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Winter_2020_GI.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
 
 - key: "Blot:2020:GIsp"
   title: "Stack-Based Genetic Improvement"
@@ -732,10 +935,10 @@
   tags:
     - APR
     - SBSE
-  urls:
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-1.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
 
 - key: "Blot:2020:GI"
   title: "Synthetic Benchmarks for Genetic Improvement"
@@ -749,10 +952,10 @@
   doi: https://doi.org/10.1145/3387940.3392175
   tags:
     - SBSE
-  urls:
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-2.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
 
 - key: "krauss_towards_2020"
   title: "Towards Knowledge Guided Genetic Improvement"
@@ -767,10 +970,10 @@
   doi: https://doi.org/10.1145/3387940.3392172
   tags:
     - SBSE
-  urls:
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/krauss_towards_2020.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
 
 - key: "Ahlgren:2020:GI"
   title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
@@ -799,9 +1002,23 @@
     - testing
   urls:
     - https://research.fb.com/publications/wes-agent-based-user-interaction-simulation-on-real-infrastructure/
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - https://research.fb.com/wp-content/uploads/2020/04/WES-Agent-based-User-Interaction-Simulation-on-Real-Infrastructure.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
+
+- key: "Yuan:ieeeSE"
+  title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
+  authors:
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "IEEE TSE"
+  year: 2020
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2018.2874648
+  tags:
+    - APR
 
 - key: "Parrend:2020:JSSC"
   title: "A Review on Complex System Engineering"
@@ -839,10 +1056,11 @@
   urls:
     - https://arxiv.org/abs/2007.15987
     - https://dl.acm.org/toc/sigsoft/2020/45/4
-    - https://youtu.be/GsNKCifm44A
   pdfs:
     - https://arxiv.org/pdf/2007.15987.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020_discussion.pdf
+  video:
+    - https://youtu.be/GsNKCifm44A
 
 - key: "Lim:2020:SSBSE:RENE"
   title: "Impact of Test Suite Coverage on Overfitting in Genetic Improvement of Software"
@@ -856,10 +1074,10 @@
   doi: https://doi.org/10.1007/978-3-030-59762-7_14
   tags:
     - SBSE
-  urls:
-    - https://www.youtube.com/watch?v=018oszfebqg
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
+  video:
+    - https://www.youtube.com/watch?v=018oszfebqg
 
 - key: "Dong:2020:Symmetry"
   title: "Automated Program-Semantic Defect Repair and False-Positive Elimination without Side Effects"
@@ -951,9 +1169,11 @@
     - PyGGI
   urls:
     - https://esec-fse19.ut.ee/program/tool-demos/#
-    - https://youtu.be/PxRUdlRDS40
+    - https://github.com/coinse/pyggi
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/an_2019_fse.pdf
+  video:
+    - https://youtu.be/PxRUdlRDS40
 
 - key: "emse19"
   title: "A comparison of tree- and line-oriented observational slicing"
@@ -967,8 +1187,6 @@
   year: 2019
   type: Journal
   doi: https://doi.org/10.1007/s10664-018-9675-9
-  tags:
-    - PyGGI
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/j.krinke/publications/emse19.pdf
 
@@ -1157,6 +1375,7 @@
   year: 2019
   abstract: "A branch of automated program repair (APR) techniques look at finding and reusing existing code for bug repair. ssFix is one of such techniques that is syntactic search-based: it searches a code database for code fragments that are syntactically similar to the bug context and reuses such code fragments to produce patches. The keys to its success lie in the approaches it uses for code search and code reuse. We investigated the effectiveness of ssFix using the Defects4J bug dataset and found that its code search and code reuse approaches are not truly effective and can be significantly improved. Motivated by the investigation, we developed a new repair technique sharpFix that follows ssFix's basic idea but differs significantly in the approaches used for code search and code reuse. We compared sharpFix and ssFix on the Defects4J dataset and confirmed through experiments that (1) sharpFix's code search and code reuse approaches are better than ssFix's approaches and (2) sharpFix can do better repair. sharpFix successfully repaired a total of 36 Defects4J bugs and outperformed many existing repair techniques in repairing more bugs. We also compared sharpFix, ssFix, and four other techniques on another dataset Bugs.jar-ELIXIR. Our results show that sharpFix did better than others and repaired the largest number of bugs."
   type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00012
   tags:
     - APR
   urls:
@@ -1188,6 +1407,7 @@
   year: 2019
   abstract: "Genetic improvement uses automated search to find improved versions of existing software. Edit sequences have been proposed as a very convenient way to represent code modifications, focusing on the changes themselves rather than duplicating the entire program. However, edits are usually defined in terms of practical operations rather than in terms of semantic changes; indeed, crossover and other edit sequence mutations usually never guarantee semantic preservation. We propose several changes to usual edit sequences, specifically augmenting edits with content data and using fuzzy matching, in an attempt to improve semantic preservation."
   type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00016
   tags:
     - SBSE
   pdfs:
@@ -1204,6 +1424,7 @@
   year: 2019
   abstract: "As the programming stack and tool support for GPU have matured, GPUs have become accessible to programmers who often lack domain-specific knowledge of the underlying architecture and fail to fully leverage the GPU's computation power. This paper presents GEVO (Gpu EVOlution), a tool for automatically tuning the performance of GPU kernels in the LLVM representation to meet desired criteria. GEVO uses population-based search to find edits to programs compiled to LLVM-IR that improve performance on desired criteria and retain required functionality. GEVO extends earlier GI work by operating directly on the LLVM-IR without custom representations or other manual interventions. We demonstrate that GEVO improves runtime on NVIDIA Tesla P100 for many programs in the Rodinia benchmark suite and a supervised machine learning code, ThunderSVM. For the Rodinia benchmark, GEVO improves GPU kernel runtime performance by an average of 13.87percent and as much as 43percent over the fully compiler-optimized baseline. If the kernel output accuracy is relaxed to tolerate 1percent error, GEVO can find kernel variants that outperform the baseline version by an average of 15.47percent. For ThunderSVM, GEVO reduces entire model training time by 50percent and 24.8percent, for MNIST handwriting recognition dataset and a9a income prediction, where the accuracy of trained model are improved by 0.17percent and 0.04percent respectively."
   type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00014
   urls:
     - https://dl.acm.org/citation.cfm?id=3339020.3339025
   pdfs:
@@ -1235,6 +1456,7 @@
   year: 2019
   abstract: "Search-based automatic program repair has shown promise in reducing the cost of defects in real-world software.However, to date, such techniques have typically been most successful when constructing short or single-edit repairs. This is true even when techniques make use of heuristic search strategies, like genetic programming, that in principle support the construction of patches of arbitrary length. One key reason is that the fitness function traditionally depends entirely on test cases, which are poor at identifying partially correct solutions and lead to a fitness landscape with many plateaus. We propose a novel fitness function that optimizes for both functionality and semantic diversity, characterized using learned invariant solver intermediate behaviour. Our early results show that this new approach improves semantic diversity and fitness granularity, but does not statistically significantly improve repair performance."
   type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00011
   tags:
     - SBSE
   pdfs:
@@ -1250,6 +1472,7 @@
   year: 2019
   abstract: "When conducting genetic improvement experiments, a large amount of individuals (approx population size times generations) is created and evaluated. The corresponding experiments contain valuable data concerning the fitness of individuals for the defined criteria, such as run-time performance, memory use or robustness. This publication presents an approach to use this information in order to identify recurring context independent patterns in abstract syntax trees (ASTs). These patterns can be applied for restricting the search space (in the form of anti-patterns) or for grafting operators in the population. Future work includes an evaluation of this approach, as well as extending it with wildcards and class hierarchies for larger and more generalised patterns."
   type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00015
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
 
@@ -1280,6 +1503,18 @@
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-39958-0_19
+  tags:
+    - APR
+
+- key: "Xing:2019:IBF"
+  title: "Automatic Software Merging using Automated Program Repair"
+  authors:
+    - name: Xiaoqian Xing
+    - name: Katsuhisa Maruyama
+  venue: "IBF"
+  year: 2019
+  type: Workshop
+  doi: https://doi.org/10.1109/IBF.2019.8665493
   tags:
     - APR
 
@@ -1339,6 +1574,27 @@
     - http://www.bobbybruce.net/assets/pdfs/publications/bruce-2019-approximate.pdf
     - https://pdfs.semanticscholar.org/83d3/685a11e8f4855047dd3fba11a67b45aab935.pdf
 
+- key: "Liu:2019:ISSTA"
+  title: "TBar: Revisiting Template-Based Automated Program Repair"
+  authors:
+    - name: Kui Liu
+    - name: Anil Koyuncu
+    - name: Dongsun Kim
+    - name: Tegawende F. Bissyande
+  venue: "ISSTA"
+  year: 2019
+  type: Conference
+  doi: https://doi.org/10.5281/zenodo.3237378
+  tags:
+    - APR
+    - SBSE
+    - testing
+  urls:
+    - https://arxiv.org/abs/1903.08409
+    - https://github.com/SerVal-DTF/TBar
+  pdfs:
+    - https://arxiv.org/pdf/1903.08409.pdf
+
 - key: "Liu:2019:SANER"
   title: "AVATAR: Fixing Semantic Bugs with Fix Patterns of Static Analysis Violations"
   authors:
@@ -1352,6 +1608,11 @@
   doi: https://doi.org/10.1109/SANER.2019.8667970
   tags:
     - APR
+  urls:
+    - https://arxiv.org/abs/1812.07270
+    - https://github.com/SerVal-DTF/AVATAR
+  pdfs:
+    - https://arxiv.org/pdf/1812.07270.pdf
 
 - key: "Langdon:2019:SEN"
   title: "The State and Future of Genetic Improvement"
@@ -1440,7 +1701,7 @@
   tags:
     - SBSE
   pdfs:
-    - http://www.barryfp.com/papers/2019_ssbse_wild.pdf
+    - http://barryfp.com/swc/pdfs/2019_ssbse_wild.pdf
 
 - key: "Petke:2019:SSBSE"
   title: "Software Improvement with Gin: a Case Study"
@@ -1456,6 +1717,8 @@
     - SBSE
   urls:
     - http://discovery.ucl.ac.uk/10077237/
+  pdfs:
+    - https://dspace.stir.ac.uk/bitstream/1893/30334/1/Software_Improvement_with_Gin__a_Case_Study.pdf
 
 - key: "Lopez-Lopez:2019:SC"
   title: "Applying Genetic Improvement to a Genetic Programming library in C++"
@@ -1616,6 +1879,23 @@
   pdfs:
     - http://human-competitive.org/sites/default/files/artemis.pdf
 
+- key: "oliveira:2018:ESE"
+  title: "Improved representation and genetic operators for linear genetic programming for automated program repair"
+  authors:
+    - name: Vinicius Paulo L. Oliveira
+    - name: Eduardo Faria de Souza
+    - name: Claire Le Goues
+    - name: Celso G. Camilo-Junior
+  venue: "Empirical Software Engineering"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-017-9562-9
+  tags:
+    - APR
+  urls:
+    - https://www.researchgate.net/publication/322704893_Improved_representation_and_genetic_operators_for_linear_genetic_programming_for_automated_program_repair
+    - http://link.springer.com/article/10.1007/s10664-017-9562-9
+
 - key: "langdon:2018:EuroGP"
   title: "Evolving better RNAfold structure prediction"
   authors:
@@ -1651,6 +1931,19 @@
     - https://arxiv.org/abs/1803.01683
   pdfs:
     - https://arxiv.org/pdf/1803.01683.pdf
+
+- key: "Jia:2018:SapFix"
+  title: "Finding and fixing software bugs automatically with SapFix and Sapienz"
+  authors:
+    - name: Yue Jia
+    - name: Ke Mao
+    - name: Mark Harman
+  venue: "Facebook"
+  year: 2018
+  type: Web
+  urls:
+    - https://bit.ly/3hR2gpy
+    - https://code.fb.com/developer-tools/finding-and-fixing-software-bugs-automatically-with-sapfix-and-sapienz/
 
 - key: "Nader-Palacio:2018:GI5"
   title: "Assessing Single-Objective Performance Convergence and Time Complexity for Refactoring Detection"
@@ -1758,7 +2051,8 @@
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194817
   pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Timperley_2018_GI.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Timperley_2018_GI.pdf
+    - https://afsafzal.github.io/materials/AfzalTuringTest2018.pdf
 
 - key: "Baudry:2018:GI"
   title: "A spoonful of DevOps helps the GI Go Down"
@@ -1794,7 +2088,8 @@
     - SBSE
     - PyGGI
   pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/An_2018_GI.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/An_2018_GI.pdf
+    - https://coinse.kaist.ac.kr/publications/pdfs/An2018to.pdf
 
 - key: "Landsborough:2018:GI"
   title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
@@ -1808,7 +2103,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194819
   pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/GI.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Landsborough_2018_GI.pdf
 
 - key: "LeGoues:2018:GI"
   title: "Evolving Software Quality"
@@ -1835,7 +2130,8 @@
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194813
   pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Porter_2018_GI.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Porter_2018_GI.pdf
+    - https://eprints.lancs.ac.uk/id/eprint/124101/1/main.pdf
 
 - key: "Xiong:2018:GI"
   title: "Learning to Synthesize"
@@ -1852,7 +2148,7 @@
   urls:
     - https://arxiv.org/abs/1802.07608
   pdfs:
-    - http://sei.pku.edu.cn/~xiongyf04/papers/GI18.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Xiong_2018_GI.pdf
     - https://arxiv.org/pdf/1802.07608.pdf
 
 - key: "Renzullo:2018:GI"
@@ -1871,7 +2167,7 @@
     - SBSE
     - testing
   pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/04/Renzullo_2018_GI.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Renzullo_2018_GI.pdf
 
 - key: "Cody-Kenny:2018:GI"
   title: "Performance Localisation"
@@ -1885,7 +2181,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3194810.3194815
   pdfs:
-    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/03/Cody-Kenny_2018_GI.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Cody-Kenny_2018_GI.pdf
 
 - key: "Veerapen:2018:GPEM"
   title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
@@ -1958,6 +2254,8 @@
   tags:
     - APR
     - SBSE
+  pdfs:
+    - https://people.eecs.berkeley.edu/~ksen/papers/repair.pdf
 
 - key: "Petke:gisurvey"
   title: "Genetic Improvement of Software: a Comprehensive Survey"
@@ -2028,6 +2326,7 @@
   venue: "ManLang"
   year: 2018
   type: Conference
+  doi: https://doi.org/10.1145/3237009.3237024
   urls:
     - http://ssw.jku.at/manlang18/index.php/manlang/program
   pdfs:
@@ -2047,6 +2346,25 @@
   year: 2018
   type: Conference
   doi: https://doi.org/10.1109/NAECON.2018.8556645
+
+- key: "Kinneer:2018:SEAMS"
+  title: "Managing Uncertainty in Self-Adaptive Systems with Plan Reuse and Stochastic Search"
+  authors:
+    - name: Cody Kinneer
+    - name: Zack Coker
+    - name: Jiacheng Wang
+    - name: David Garlan
+    - name: Claire Le Goues
+  venue: "SEAMS"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1145/3194133.3194145
+  tags:
+    - SBSE
+  urls:
+    - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=8595379
+  pdfs:
+    - http://acme.able.cs.cmu.edu/pubs/uploads/pdf/seams-uncertainty-kinneerpdf.pdf
 
 - key: "Danglot:2018:sigevolution"
   title: "Dagstuhl: Seminar on Genetic Improvement of Software"
@@ -2101,6 +2419,8 @@
   doi: https://doi.org/10.1007/978-3-319-99241-9_24
   tags:
     - SBSE
+  urls:
+    - https://par.nsf.gov/servlets/purl/10088739
 
 - key: "Langdon:2018:SSBSE"
   title: "Evolving Better Software Parameters"
@@ -2115,6 +2435,21 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2018_SSBSE.pdf
+
+- key: "Choi:2018:SSBSE"
+  title: "Learning Fault Localisation for Both Humans and Machines using Multi-Objective GP"
+  authors:
+    - name: Kabdo Choi
+    - name: Jeongju Sohn
+    - name: Shin Yoo
+  venue: "SSBSE"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-99241-9_20
+  tags:
+    - SBSE
+  pdfs:
+    - https://coinse.kaist.ac.kr/publications/pdfs/Choi2018aa.pdf
 
 - key: "Yang:2018:Symmetry"
   title: "Applying Genetic Programming with Similar Bug Fix Information to Automatic Fault Repair"
@@ -2669,10 +3004,10 @@
   tags:
     - SBSE
     - survey
-  urls:
-    - https://youtu.be/KVaji1pvd-0
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_GPEM.pdf
+  video:
+    - https://youtu.be/KVaji1pvd-0
 
 - key: "Yeboah-Antwi:2016:GPEM"
   title: "Online Genetic Improvement on the java virtual machine with ECSELR"
@@ -2767,6 +3102,7 @@
     - PyGGI
   urls:
     - http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07322214&language=en_EN#
+    - https://github.com/coinse/pyggi
   pdfs:
     - https://coinse.kaist.ac.kr/publications/pdfs/An2017aa.pdf
 
@@ -3064,6 +3400,22 @@
   tags:
     - APR
 
+- key: "DBLP:conf/dsn/WeimerFKGH16"
+  title: "Trusted Software Repair for System Resiliency"
+  authors:
+    - name: Westley Weimer
+    - name: Stephanie Forrest
+    - name: Miryung Kim
+    - name: Claire Le Goues
+    - name: Patrick Hurley
+  venue: "DSN Workshops"
+  year: 2016
+  type: Workshop
+  doi: https://doi.org/10.1109/DSN-W.2016.64
+  tags:
+    - APR
+    - SBSE
+
 - key: "GalvezRamirez:2016:EuroGP"
   title: "Towards Automated Strategies in Satisfiability Modulo Theory"
   authors:
@@ -3277,6 +3629,21 @@
   pdfs:
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-verification.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Speeding-up-the-Proof_Strategy_in_Formal_Software_Verification.pdf
+
+- key: "DBLP:conf/icse/MechtaevYR16"
+  title: "Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis"
+  authors:
+    - name: Sergey Mechtaev
+    - name: Jooyong Yi
+    - name: Abhik Roychoudhury
+  venue: "ICSE"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1145/2884781.2884807
+  tags:
+    - APR
+  pdfs:
+    - http://mechtaev.com/publications/icse16.pdf
 
 - key: "Le:2016:ICSME"
   title: "Enhancing Automated Program Repair with Deductive Verification"
@@ -3650,6 +4017,20 @@
   year: 2015
   type: Journal
   doi: https://doi.org/10.1145/2775054.2694364
+  tags:
+    - SBSE
+
+- key: "DBLP:journals/taco/JiaGSM15"
+  title: "GPU Performance and Power Tuning Using Regression Trees"
+  authors:
+    - name: Wenhao Jia
+    - name: Elba Garza
+    - name: Kelly A. Shaw
+    - name: Margaret Martonosi
+  venue: "ACM TACO"
+  year: 2015
+  type: Journal
+  doi: https://doi.org/10.1145/2736287
   tags:
     - SBSE
 
@@ -4075,10 +4456,11 @@
     - SBSE
   urls:
     - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6733370
-    - http://youtu.be/Ut0qERy9yZQ
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2013_ieeeTEC.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bowtie2_supplementary.pdf
+  video:
+    - http://youtu.be/Ut0qERy9yZQ
 
 - key: "Qi:2015:APP:2771783.2771791"
   title: "An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems"
@@ -4348,6 +4730,17 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/Langdon_RN1402.pdf
 
+- key: "zak-phd"
+  title: "Leveraging Light-Weight Analyses to Aid Software Maintenance"
+  authors:
+    - name: Zachary P. Fry
+  venue: ""
+  year: 2014
+  type: PhdThesis
+  doi: https://doi.org/10.18130/V34N7R
+  pdfs:
+    - https://web.eecs.umich.edu/~weimerw/students/zak-phd.pdf
+
 - key: "schulte2014dissertation"
   title: "Neutral Networks of Real-World Programs and their Application to Automated Software Evolution"
   authors:
@@ -4477,11 +4870,11 @@
   year: 2014
   type: Conference
   doi: https://doi.org/10.1007/978-3-662-44303-3_8
-  urls:
-    - http://youtu.be/oax7CKp-_W4
-    - http://youtu.be/6TR04wuWjuM
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_EuroGP.pdf
+  video:
+    - http://youtu.be/oax7CKp-_W4
+    - http://youtu.be/6TR04wuWjuM
 
 - key: "Petke:2014:EuroGP"
   title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
@@ -4575,6 +4968,15 @@
   year: 2014
   type: Conference
   doi: https://doi.org/10.1109/I2MTC.2014.6860905
+
+- key: "Monperrus:2014:CRA:2568225.2568324"
+  title: "A Critical Review of \"Automatic Patch Generation Learned from Human-written Patches\": Essay on the Problem Statement and the Evaluation of Automatic Software Repair"
+  authors:
+    - name: Martin Monperrus
+  venue: "ICSE"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2568225.2568324
 
 - key: "Qi:2014:ICSE"
   title: "The Strength of Random Search on Automated Program Repair"
@@ -4918,10 +5320,26 @@
     - name: Alberto Magni
     - name: Dominik Grewe
     - name: Nick Johnson
-  venue: "GI@GPGPU"
+  venue: "GPGPU"
   year: 2013
   type: Workshop
   doi: https://doi.org/10.1145/2458523.2458530
+
+- key: "Qi:2013:ICCIS"
+  title: "Does Genetic Programming Work Well on Automated Program Repair?"
+  authors:
+    - name: Yuhua Qi
+    - name: Xiaoguang Mao
+    - name: Yan Lei
+    - name: Ziying Dai
+    - name: Chengsong Wang
+  venue: "ICCIS"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ICCIS.2013.490
+  tags:
+    - APR
+    - SBSE
 
 - key: "Kim:2013:ICSE"
   title: "Automatic Patch Generation Learned from Human-Written Patches"
@@ -4937,6 +5355,22 @@
   tags:
     - APR
     - SBSE
+
+- key: "Nguyen:2013:ICSE"
+  title: "SemFix: Program repair via semantic analysis"
+  authors:
+    - name: Hoang Duong Thien Nguyen
+    - name: Dawei Qi
+    - name: Abhik Roychoudhury
+    - name: Satish Chandra
+  venue: "ICSE"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE.2013.6606623
+  tags:
+    - SBSE
+  urls:
+    - http://2013.icse-conferences.org/content/semfix-program-repair-semantic-analysis.html
 
 - key: "Qi:2013:ICSM"
   title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
@@ -4966,6 +5400,21 @@
   tags:
     - APR
     - SBSE
+
+- key: "DBLP:conf/IEEEpact/JiaSM13"
+  title: "Starchart: Hardware and software optimization using recursive partitioning regression trees"
+  authors:
+    - name: Wenhao Jia
+    - name: Kelly A. Shaw
+    - name: Margaret Martonosi
+  venue: "Proceedings of the 22nd International Conference on Parallel Architectures and Compilation Techniques"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/PACT.2013.6618822
+  tags:
+    - SBSE
+  pdfs:
+    - http://jiawenhao.com/starchart.pdf
 
 - key: "Ragan-Kelley:2013:PLDI"
   title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
@@ -5069,10 +5518,10 @@
   tags:
     - GISMO
     - SBSE
-  urls:
-    - http://www.youtube.com/watch?v=MbsuejqE_sk
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2013_WCRE.pdf
+  video:
+    - http://www.youtube.com/watch?v=MbsuejqE_sk
 
 - key: "Wilkerson:thesis"
   title: "Evolutionary Computing Driven Search Based Software Testing and Correction"
@@ -5102,6 +5551,21 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_12_09.pdf
+
+- key: "DBLP:conf/ispass/JiaSM12"
+  title: "Stargazer: Automated regression-based GPU design space exploration"
+  authors:
+    - name: Wenhao Jia
+    - name: Kelly A. Shaw
+    - name: Margaret Martonosi
+  venue: "2012 IEEE International Symposium on Performance Analysis of Systems & Software"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1109/ISPASS.2012.6189201
+  tags:
+    - SBSE
+  pdfs:
+    - http://jiawenhao.com/stargazer.pdf
 
 - key: "Xiao:2012:COMPSACW"
   title: "Automated Web Service Composition Using Genetic Programming"
@@ -6021,80 +6485,4 @@
   year: 1985
   type: Journal
   doi: https://doi.org/10.1109/TSE.1985.231877
-
-- key: "Langdon:TELO"
-  title: "Genetic Improvement of Data for Maths Functions"
-  authors:
-    - name: William B. Langdon
-    - name: Oliver Krauss
-  venue: "ACM TELO"
-  year: 
-  type: Journal
-  doi: https://doi.org://doi:10.5281/zenodo.3755346
-  tags:
-    - SBSE
-  urls:
-    - https://github.com/oliver-krauss/Replication_GI_Division_Free_Division
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO.pdf
-
-- key: "blot:2021:tevc"
-  title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
-  authors:
-    - name: Aymeric Blot
-    - name: Justyna Petke
-  venue: "IEEE TEVC"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TEVC.2021.3070271
-  tags:
-    - SBSE
-    - PyGGI
-  urls:
-    - http://www.cs.ucl.ac.uk/staff/a.blot/publis/#blot:2021:tevc
-    - https://github.com/bloa/tevc_2020_artefact
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
-
-- key: "Yuan:ieeeSE"
-  title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
-  authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
-    - name: Wolfgang Banzhaf
-  venue: "IEEE TSE"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TSE.2018.2874648
-
-- key: "Kechagia:TSE"
-  title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
-  authors:
-    - name: Maria Kechagia
-    - name: Sergey Mechtaev
-    - name: Federica Sarro
-    - name: Mark Harman
-  venue: "IEEE TSE"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TSE.2021.3067156
-  tags:
-    - APR
-    - SBSE
-  urls:
-    - https://ieeexplore.ieee.org/document/9381596
-    - https://mkechagia.github.io/
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
-
-- key: "deAlmeidaFarzat:ieeeTSE"
-  title: "Evolving JavaScript code to reduce load time"
-  authors:
-    - name: Fabio de A. Farzat
-    - name: Marcio de O. Barros
-    - name: Guilherme H. Travassos
-  venue: "IEEE TSE"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TSE.2019.2928293
 

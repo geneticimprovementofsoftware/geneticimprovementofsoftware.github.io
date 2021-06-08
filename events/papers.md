@@ -52,7 +52,7 @@ Jump to papers from:{% for event in page.workshops %}
 
 ## <a name="{{ event.anchor }}"></a> {{ event.venue }} {{ event.year }}: {{ event.name }}
 
-  {% assign entries = site.data.survey | where: "venue", event.venue | where: "year", event.year %}
+  {% assign entries = site.data.survey.papers | where: "venue", event.venue | where: "year", event.year %}
   {% for entry in entries %}
 
   <div>

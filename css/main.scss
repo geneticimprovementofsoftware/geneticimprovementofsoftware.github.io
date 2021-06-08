@@ -62,7 +62,10 @@ footer {
     }
 }
 
-#survey a {
-    color: inherit;
-    text-decoration: underline;
+.survey td a.perma {
+    visibility: hidden;
+}
+
+.survey td:hover a.perma {
+    visibility: visible;
 }
