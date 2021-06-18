@@ -13,6 +13,9 @@ p {
 
 ## 2021
 
+**Tutorial on Genetic Improvement ([GECCO 2021](https://gecco-2021.sigevo.org/))**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://gecco-2021.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.)
+
 **10th International Workshop on Genetic Improvement (GI@[ICSE 2021](https://conf.researchr.org/home/icse-2021))**
 - [<i class="fa fa-link"></i> Event page]({{"/events/icse2021" | relative_url }})
 

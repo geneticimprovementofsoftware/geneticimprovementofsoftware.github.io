@@ -2,32 +2,30 @@
 active: learn
 ---
 
-{% comment %}<div class="alert alert-danger" role="alert">
-  <b>Page in construction.</b> (see <a href="{{ "/community/contribute" | relative_url }}">how to contribute</a>)
-</div> {% endcomment %}
-
 ## What is Genetic Improvement?
 
-Genetic Improvement is the application of evolutionary and search-based optimisation methods to the improvement of existing software. For example, it may be used to automate the process of bug-fixing or execution time optimisation.
+Genetic Improvement is the application of evolutionary and search-based optimisation methods to the improvement of existing software.
+It has been used to improve both software functional properties, such as fixing bug or performing automated code transplantation, and software non-functional properties, such as minimising execution time, memory usage, or energy consumption.
 
 
-## What is a GI  Workshop?
+## The GI workshops
 
-As academics in the field, we run the workshop to offer an opportunity for researchers to disseminate work, but most importantly to meet and discuss with other GI researchers. So far we had 7 editions of the workshop, five co-located with GECCO (in 2015, 2016, 2017, 2018, and 2019) and two with ICSE (in 2018 and 2019).
+As academics in the field, we run the workshop to offer an opportunity for researchers to disseminate work, but most importantly to meet and discuss with other GI researchers.
+So far we had ten editions of the workshop, six co-located with GECCO (in 2015, 2016, 2017, 2018, 2019, and 2020) and four with ICSE (in 2018, 2019, 2020, and 2021).
 
-Since 2009 there have been four human competitive awards for work in GI (two Gold, one Silver and one Bronze) presented at GECCO and three best papers, including at the International Conference on Software Engineering and International Symposium on Software Testing and Analysis.
+Details on all previous workshop papers can be found [here](../events/papers).
 
 
 ## How can I find out more?
 
-Check out this <a href="http://blog.ieeesoftware.org/2016/02/genetic-improvement.html?platform=hootsuite">blog article</a> about GI on the IEEE Software Blog, see recent <a href="http://ieeexplore.ieee.org/document/7911210/?reload=true">survey</a>, GI <a href="https://link.springer.com/journal/10710/18/1/">special issue, </a>  and an Open PhD<a href="http://phdopen.mimuw.edu.pl/index.php?page=z15w1"> tutorial</a>.
+We have other [regular events](../events/gi) year-round, including tutorials in conferences such as GECCO, ASE, or PPSN.
 
-In June 2016 there was a talk on GI at the International Summer School on Software Engineering, given by Professor Mark Harman (UCL), one of the foremost experts on GI and an international leader in search-based software engineering.
+Check out the 2018 [comprehensive survey](http://ieeexplore.ieee.org/document/7911210) on GI, as well as our [living survey](survey) for even more related work.
 
-In January 2016 there was a CREST Open Workshop at UCL on Genetic Improvement. <a href="http://crest.cs.ucl.ac.uk/cow/45/">Full details of the talks and speakers are available</a>. A <a href="http://crest.cs.ucl.ac.uk/cow/50/">second workshop</a> took place in January 2017.
 
-There was be a <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052">Dagstuhl Seminar on GI</a> at the end of January 2018.
+### Other resources
 
-Proceedings of GI 2015 can be found in <a href="https://dl.acm.org/citation.cfm?id=2739482">GECCO'15 Companion</a>. Proceedings of GI 2016 can be found in <a href="http://dl.acm.org/citation.cfm?doid=2908961.2931686">GECCO'16 Companion</a>. Proceedings of GI 2017 can be found in <a href="http://dblp.org/db/conf/gecco/gecco2017c">GECCO'17 Companion</a>.
-
-Also, try <a href="https://en.wikipedia.org/wiki/Genetic_improvement_%28computer_science%29">Wikipedia</a>.
+- [Wikipedia](https://en.wikipedia.org/wiki/Genetic_improvement_%28computer_science%29)
+- a [special issue](https://link.springer.com/journal/10710/18/1) on GI
+- an Open PhD [tutorial](http://phdopen.mimuw.edu.pl/index.php?page=z15w1)
+- an IEEE Software Blog [article](http://blog.ieeesoftware.org/2016/02/genetic-improvement.html)
