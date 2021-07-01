@@ -28,4 +28,4 @@ Check out the 2018 [comprehensive survey](http://ieeexplore.ieee.org/document/79
 - [Wikipedia](https://en.wikipedia.org/wiki/Genetic_improvement_%28computer_science%29)
 - a [special issue](https://link.springer.com/journal/10710/18/1) on GI
 - an Open PhD [tutorial](http://phdopen.mimuw.edu.pl/index.php?page=z15w1)
-- an IEEE Software Blog [article](http://blog.ieeesoftware.org/2016/02/genetic-improvement.html)
+- blog posts [at Facebook](https://engineering.fb.com/2018/09/13/developer-tools/finding-and-fixing-software-bugs-automatically-with-sapfix-and-sapienz/) (2018), in the [IEEE Software blog](http://blog.ieeesoftware.org/2016/02/genetic-improvement.html) (2016), or in the [DAASE project blog](https://daaseblog.wordpress.com/2015/08/07/revolutionising-the-process-of-software-development/) (2015)
