@@ -9,14 +9,6 @@
   homepage: https://afnan.ws
   img: /profile_images/afnan_alsubaihin.png
 
-- name: Emily Winter
-  homepage: https://www.lancaster.ac.uk/people-profiles/emily-winter
-  img: /profile_images/emily_winter.jpg
-
-- name: Erik Fredericks
-  homepage: http://efredericks.net/
-  img: /profile_images/erik_fredericks.jpg
-
 - name: Mohamoud Bokari
   homepage: https://www.researchgate.net/profile/Mahmoud_Bokhari
   img: /profile_images/mohamoud_bokari.jpg
@@ -134,6 +126,10 @@
   homepage: https://forrest.biodesign.asu.edu/index.html
   img: /profile_images/stephanie_forrest.jpg
 
+- name: Erik Fredericks
+  homepage: http://efredericks.net/
+  img: /profile_images/erik_fredericks.jpg
+
 - name: Lea Kristin Gerling
   show: yes
   affil: University of Hildesheim, Germany
@@ -242,6 +238,14 @@
   scholar: https://scholar.google.com/citations?hl=en&user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
 
+- name: Vesna Nowack
+  show: yes
+  affil: Lancaster University, UK
+  homepage: https://www.linkedin.com/in/vesnasmiljkovic/
+  dblp: https://dblp.org/pid/223/9468.html
+  scholar: https://scholar.google.com/citations?user=KZ66xMoAAAAJ
+  img: /profile_images/vesna_nowack.jpg
+
 - name: George O'Brien
   homepage: https://www.linkedin.com/in/george-o-brien-163a2610a/
 
@@ -346,6 +350,14 @@
     - David White
   homepage: https://davidrwhite.co.uk/
   img: /profile_images/david_white.jpg
+
+- name: Emily Winter
+  show: yes
+  affil: University of Lancaster, UK
+  homepage: https://www.lancaster.ac.uk/people-profiles/emily-winter
+  dblp: https://dblp.org/pid/227/5399.html
+  scholar: https://scholar.google.com/citations?user=G1q_FZcAAAAJ
+  img: /profile_images/emily_winter.jpg
 
 - name: John Woodward
   aka:
