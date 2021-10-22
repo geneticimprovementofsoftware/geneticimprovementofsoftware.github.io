@@ -3,7 +3,7 @@ title: "GI @ ICSE 2021"
 
 chairs:
 - name: Bobby R. Bruce
-  desc: "%%NAME%% is a Postdoctoral Scholar at UC Davis where he primarily works on the gem5 computer architecture simulator. Prior to UC Davis, Bobby carried out research into the automatic optimization of Java bytecode at UCLA. His research interests are centred around Search-based Software Engineering, and its application to improving software performance."
+  desc: "%%NAME%% is a Project Scientist at UC Davis where he primarily works on the gem5 computer architecture simulator. Prior to UC Davis, Bobby carried out research into the automatic optimization of Java bytecode at UCLA. His research interests are centred around Search-based Software Engineering, and its application to improving software performance."
 - name: Vesna Nowack
   desc: "%%NAME%%. Since she gained her PhD in Software Engineering in 2016 from the Universitat Politecnica de Catalunya in Barcelona, she has conducted research in supercomputing (Spain) and taught robotics in Germany. Her recent research has been on APR in the UK, including 12 months with Bloomberg (London) published this summer as “On the Introduction of Automatic Program Repair in Bloomberg” by IEEE Software. She is now a Senior Research Assistant at Lancaster University where she continues her work on using GI to automatically fix bugs."
 - name: Aymeric Blot
