@@ -1,5 +1,6 @@
 ---
-title: "GI @ ICSE 2021"
+title: "GI @ GECCO 2022"
+disable_alerts: true
 
 chairs:
 - name: Bobby R. Bruce
@@ -10,10 +11,10 @@ chairs:
   desc: "%%NAME%% is a Research Associate conducting research in genetic improvement at the CREST and SOLAR groups in University College London. He received in 2018 a doctorate from the University of Lille following work on automated algorithm design for multi-objective combinatorial optimisation. His research focuses on strengthening GI techniques using knowledge from automated machine learning, algorithm configuration, and evolutionary computation. He maintains and evolves the community website on genetic improvement."
 - name: Emily Winter
   desc: "%%NAME%% is a Senior Research Associate at Lancaster University, specialising in the human and socio-technical aspects of software engineering. She works on the Fixie Project: Exploiting Defect Prediction for Automatic Software Repair, investigating developer needs and preferences for how they interact with an Automatic Software Repair tool. As part of her research, she is seconded as a contractor to Bloomberg LP."
-- name: Justyna Petke
-  desc: "%%NAME%% is a Principal Research Fellow and Proleptic Senior Lecturer (Associate Prof.), conducting research in genetic improvement. She has a doctorate in Computer Science from University of Oxford and is now at the Centre for Research on Evolution, Search and Testing (CREST) in University College London. She has published on applications of genetic improvement. Her work on the subject was awarded a Silver and a Gold ’Humie’ at GECCO 2014 and GECCO 2016 as well as an ACM SIGSOFT Distinguished Paper Award at ISSTA 2015. She was the PC co-Chair for the International Symposium on Search-Based Software Engineering in 2017. She currently serves on the editorial board of the Genetic Programming and Evolvable Machines journal."
 - name: Bill Langdon
-  desc: "Special thanks to %%NAME%% for helping with advertising the workshop."
+  desc: "%%NAME%% has been working on GP since 1993. His PhD was the first book to be published in John Koza and Dave Goldberg's book series. He has previously run the GP track for GECCO&nbsp;2001 and 2014 and was programme chair for GECCO&nbsp;2002 having previously chaired EuroGP for 3 years. More recently he edited FOGA&nbsp;2011 and run the computational intelligence on GPUs (CIGPU 2008&mdash;2012) and EvoPAR workshops. His books include A Field Guide to Genetic Programming, Foundations of Genetic Programming and Advances in Genetic Programming&nbsp;III. He also maintains the genetic programming bibliography. His current research uses GP to genetically improve existing software, CUDA, search based software engineering and Bioinformatics. He co-organised GI&nbsp;2015, GI&nbsp;2017, GI&nbsp;2018, GI&nbsp;2019, GI&nbsp;2021 and the 2018 Genetic Improvement of Software Seminar at Dagstuhl."
+- name: Justyna Petke
+  desc: "%%NAME%% is a Principal Research Fellow and Proleptic Senior Lecturer (Associate Prof.), conducting research in genetic improvement. She has a doctorate in Computer Science from University of Oxford and is now at the Centre for Research on Evolution, Search and Testing (CREST) in University College London. She has published on applications of genetic improvement. Her work on the subject was awarded a Silver and a Gold ’Humie’ at GECCO&nbsp;2014 and GECCO&nbsp;2016 as well as an ACM SIGSOFT Distinguished Paper Award at ISSTA&nbsp;2015. She was the PC co-Chair for the International Symposium on Search-Based Software Engineering in 2017. She currently serves on the editorial board of the Genetic Programming and Evolvable Machines journal."
 ---
 
 # The 11th International Workshop on Genetic Improvement @[GECCO 2022](https://gecco-2022.sigevo.org/HomePage)
@@ -25,19 +26,21 @@ chairs:
 </figure>
 
 
-## Proposed Event
+## Event
 
-We are hoping to hold the 11th instalment of the GI workshop with next year Genetic and Evolutionary Computation Conference, [GECCO 2022](https://gecco-2022.sigevo.org/HomePage), which will take place in Boston on July 9-13.
+The 11th instalment of the GI workshop with next year Genetic and Evolutionary Computation Conference, [GECCO 2022](https://gecco-2022.sigevo.org/HomePage), which will take place in Boston on July 9-13.
 
-{% comment %}
+
+<div class="alert alert-primary" role="alert">
+  There will also be a tutorial on GI at GECCO 2022 (<a href="https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.">see details</a>)
+</div>
+
 ## Important Dates
 
-- **Submission Deadline**: 19 January 2021 (Tue)
-- **Notification**: 22 February 2021 (Mon)
-- **Camera-ready**: 12 March 2021 (Fri)
-- **Video presentation**: 10 May 2021 (Mon)
-- **Workshop**: 30 May 2021 (Sun)
-{% endcomment %}
+- **Submission Deadline**: 11 April 2022 (Mon)
+- **Notification**: 25 April 2022 (Mon)
+- **Camera-ready**: 2 May 2022 (Mon)
+- **Workshop**: TBD
 
 
 ## <a name="CFP"></a> Call For Submissions

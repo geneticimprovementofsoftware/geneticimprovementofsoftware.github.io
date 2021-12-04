@@ -27,12 +27,9 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 ## News
 
+* The [11th International Workshop on Genetic Improvement](events/gecco2022) will take place at [GECCO 2022](https://gecco-2022.sigevo.org/), together with a [GI tutorial](https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.).
 * The [10th International Workshop on Genetic Improvement](events/icse2021) took place at [ICSE 2021](https://conf.researchr.org/home/icse-2021).
 * There was a [GI tutorial at ASE 2020](events/ase2020).
 * There was a [tutorial on Genetic Improvement](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) at PPSN 2020. [Slides can be obtained here](./slides/PPSN2020_GItutorial.pdf).
-* Due to ICSE going [virtual](https://conf.researchr.org/home/icse-2020), the [8th GI workshop](events/icse2020) was held online on July 3rd 2020. All talks, including Prof. Mark Harman's keynote are available on the [GI@ICSE workshop page](events/icse2020).
-* The [9th International Workshop on Genetic Improvement](https://gi-gecco-20.gi-workshops.org/) took place at [GECCO 2020](https://gecco-2020.sigevo.org/index.html/Workshops#id_The%20Ninth%20Genetic%20Improvement%20Workshop%20(2020)).
-* There was a [special session on Genetic Improvement at WCCI 2020](events/wcci2020).
-* [The 62nd CREST Open Workshop](http://crest.cs.ucl.ac.uk/cow/62/) on Program Repair and Genetic Improvement took place on 20-21st January 2020.
 * Version 2 of the Genetic Improvement in No time (Gin) tool has been released. It is available at [https://github.com/gintool/gin](https://github.com/gintool/gin). It provides the ability to handle multi-class projects, gradle and maven build tools, built-in profiler and sampling utilities, test case generation, and a load of new edit operators.
 * Version 2, alpha release, of the PYGGI Python General Framework for Genetic Improvement has been released. It is available at [https://github.com/coinse/pyggi/releases](https://github.com/coinse/pyggi/releases). This release now supports XML.

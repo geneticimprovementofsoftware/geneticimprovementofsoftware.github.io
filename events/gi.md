@@ -11,6 +11,14 @@ p {
 
 # GI Events
 
+## 2022
+
+**11th International Workshop on Genetic Improvement (GI@[GECCO 2022](https://gecco-2022.sigevo.org/))**
+- [<i class="fa fa-link"></i> Event page]({{"/events/gecco2022" | relative_url }})
+
+**Tutorial on Genetic Improvement ([GECCO 2022](https://gecco-2022.sigevo.org/))**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.)
+
 ## 2021
 
 **Tutorial on Genetic Improvement ([GECCO 2021](https://gecco-2021.sigevo.org/))**
