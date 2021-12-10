@@ -43,6 +43,21 @@ The 11th instalment of the GI workshop with next year Genetic and Evolutionary C
 - **Workshop**: TBD
 
 
+## Keynote
+
+<figure class="figure float-right" style="margin: auto 0.5em;">
+  <img class="figure-img rounded img-thumbnail" style="max-width: 200px; max-height: 160px;" src="{{ "/profile_images/westley_weimer.jpg" | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />
+  <figcaption class="figure-caption text-right">Westley Weimer</figcaption>
+</figure>
+
+
+We are happy to announce that [Westley Weimer](https://web.eecs.umich.edu/~weimerw/) (University of Michigan, USA) will give the keynote speech in GI@GECCO 2022.
+
+Prof. Westley Weimer received his PhD from the University of California at Berkeley.
+His research interests include reducing the costs associated with software development at scale (particularly through automated program repair) as well as program analysis, formal verification, and human linguistic and visual interaction with software.
+He is a senior member of the Association for Computing Machinery and his work has led to over fifteen thousand citations and several awards, including three ‘Humies’ and ICSE 2019 Most Influential paper for his work on using Genetic Improvement for bug fixing.
+
+
 ## <a name="CFP"></a> Call For Submissions
 
 We invite submissions that discuss recent developments in all areas of research on, and applications of, Genetic Improvement.
