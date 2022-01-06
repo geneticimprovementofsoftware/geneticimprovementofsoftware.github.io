@@ -1,21 +1,3 @@
-- key: "blot:2021:tevc"
-  title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
-  authors:
-    - name: Aymeric Blot
-    - name: Justyna Petke
-  venue: "IEEE TEVC"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TEVC.2021.3070271
-  tags:
-    - SBSE
-    - PyGGI
-  urls:
-    - http://www.cs.ucl.ac.uk/staff/a.blot/publis/#blot:2021:tevc
-    - https://github.com/bloa/tevc_2020_artefact
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
-
 - key: "Kechagia:TSE"
   title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
   authors:
@@ -35,6 +17,36 @@
     - https://mkechagia.github.io/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
+
+- key: "langdon:2021:sigevolution"
+  title: "Evolving Open Complexity"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+  venue: "SIGEVOlution"
+  year: 
+  type: Journal
+  tags:
+    - SBSE
+  urls:
+    - http://arxiv.org/abs/2112.00812
+  pdfs:
+    - http://arxiv.org/pdf/2112.00812.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2021_sigevolution.pdf
+
+- key: "Sohn:thesis"
+  title: "Synergetic Interaction Between Fault Localization and Defect Prediction"
+  authors:
+    - name: Jeongju Sohn
+  venue: ""
+  year: 2021
+  type: PhdThesis
+  tags:
+    - SBSE
+  urls:
+    - https://coinse.kaist.ac.kr/coinse/2021/04/09/Jeongju-Sohn-PhD-defense.html
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Sohn_thesis.pdf
 
 - key: "Langdon:TELO"
   title: "Genetic Improvement of Data for Maths Functions"
@@ -88,6 +100,27 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/bian_apr-icse_2021.pdf
   video:
     - https://www.youtube.com/watch?v=2CbHQMhkMTU
+
+- key: "Clark:2021:ASE-NIER"
+  title: "HyperGI: Automated Detection and Repair of Information Flow Leakage"
+  authors:
+    - name: Ibrahim Mesecan
+    - name: Daniel Blackwell
+    - name: David Clark
+    - name: Myra B. Cohen
+    - name: Justyna Petke
+  venue: "ASE"
+  year: 2021
+  type: Conference
+  tags:
+    - APR
+    - SBSE
+    - PyGGI
+  urls:
+    - https://arxiv.org/abs/2108.12075
+  pdfs:
+    - https://arxiv.org/pdf/2108.12075.pdf
+    - https://faculty.sites.iastate.edu/mcohen/files/inline-files/hyper-gi-2021.pdf
 
 - key: "coreyes2021evolving"
   title: "Evolving Reinforcement Learning Algorithms"
@@ -145,7 +178,7 @@
     - name: Justyna Petke
     - name: David Clark
     - name: William B. Langdon
-  venue: "ESEC/FSE 2021, Ideas, Visions and Reflections"
+  venue: "ESEC/FSE"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3468264.3473133
@@ -552,6 +585,24 @@
   pdfs:
     - https://eprints.lancs.ac.uk/id/eprint/154793/1/Fixie_IEEE_Software_Revisions.pdf
 
+- key: "blot:2021:tevc"
+  title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
+  authors:
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "IEEE TEVC"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1109/TEVC.2021.3070271
+  tags:
+    - SBSE
+    - PyGGI
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/publis/#blot:2021:tevc
+    - https://github.com/bloa/tevc_2020_artefact
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_tevc_2021.pdf
+
 - key: "deAlmeidaFarzat:ieeeTSE"
   title: "Evolving JavaScript code to reduce load time"
   authors:
@@ -593,6 +644,7 @@
   venue: "SEN"
   year: 2021
   type: Journal
+  doi: https://doi.org/10.1145/3485952.3485960
 
 - key: "Callan:2021:SSBSE"
   title: "Improving Android App Responsiveness through Search-Based Frame Rate Reduction"
@@ -627,31 +679,8 @@
   urls:
     - https://discovery.ucl.ac.uk/id/eprint/10131848/
     - https://figshare.com/s/35ea3fd819e737ed806b
-  pdfs:
-    - https://www.dropbox.com/s/rrkogd2bqmzuslb/SSBSE2021.pdf
   video:
     - https://www.youtube.com/watch?v=lcpYTv1TaE8
-
-- key: "Clark:2021:ASE-NIER"
-  title: "HyperGI: Automated Detection and Repair of Information Flow Leakage"
-  authors:
-    - name: Ibrahim Mesecan
-    - name: Daniel Blackwell
-    - name: David Clark
-    - name: Myra B. Cohen
-    - name: Justyna Petke
-  venue: "The 36th IEEE/ACM International Conference on Automated Software Engineering, New Ideas and Emerging Results track, ASE NIER 2021"
-  year: 2021
-  type: Conference
-  tags:
-    - APR
-    - SBSE
-    - PyGGI
-  urls:
-    - https://arxiv.org/abs/2108.12075
-  pdfs:
-    - https://arxiv.org/pdf/2108.12075.pdf
-    - https://faculty.sites.iastate.edu/mcohen/files/inline-files/hyper-gi-2021.pdf
 
 - key: "Koyuncu:thesis"
   title: "Boosting Automated Program Repair for Adoption By Practitioners"
@@ -694,6 +723,24 @@
     - http://hdl.handle.net/2440/130174
   pdfs:
     - https://digital.library.adelaide.edu.au/dspace/bitstream/2440/130174/1/Bokhari2020_PhD.pdf
+
+- key: "arXiv-2007.06986"
+  title: "Longitudinal Analysis of the Applicability of Program Repair on Past Commits"
+  authors:
+    - name: Khashayar Etemadi
+    - name: Niloofar Tarighat
+    - name: Siddharth Yadav
+    - name: Matias Martinez
+    - name: Martin Monperrus
+  venue: ""
+  year: 2020
+  type: TechReport
+  tags:
+    - APR
+  urls:
+    - http://arxiv.org/abs/2007.06986
+  pdfs:
+    - http://arxiv.org/pdf/2007.06986.pdf
 
 - key: "Liou:2020:ACMtaco"
   title: "GEVO: GPU Code Optimization Using Evolutionary Computation"
@@ -1382,19 +1429,6 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2019_discussion.pdf
     - https://arxiv.org/pdf/1907.03773.pdf
 
-- key: "Rodrigues-Filho:2019:FAS*W"
-  title: "Code Synthesis in Self-Improving Software Systems"
-  authors:
-    - name: Roberto Vito Rodrigues Filho
-    - name: Alexander Wild
-    - name: Barry Porter
-  venue: "2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems (FAS*W)"
-  year: 2019
-  type: Conference
-  doi: https://doi.org/10.1109/FAS-W.2019.00015
-  pdfs:
-    - https://eprints.lancs.ac.uk/id/eprint/133281/1/sissy2019rodrigues.pdf
-
 - key: "cacm2019_program_repair"
   title: "Automated Program Repair"
   authors:
@@ -1467,6 +1501,19 @@
     - http://www.tbi.univie.ac.at/RNA/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_EuroGP.pdf
+
+- key: "Rodrigues-Filho:2019:FAS*W"
+  title: "Code Synthesis in Self-Improving Software Systems"
+  authors:
+    - name: Roberto Vito Rodrigues Filho
+    - name: Alexander Wild
+    - name: Barry Porter
+  venue: "FAS*W"
+  year: 2019
+  type: Workshop
+  doi: https://doi.org/10.1109/FAS-W.2019.00015
+  pdfs:
+    - https://eprints.lancs.ac.uk/id/eprint/133281/1/sissy2019rodrigues.pdf
 
 - key: "Yuan:2019:GECCO"
   title: "A Hybrid Evolutionary System for Automatic Software Repair"
@@ -2782,6 +2829,7 @@
     - SBSE
   urls:
     - https://www.ndss-symposium.org/ndss2018/bar-workshop-programme/
+    - https://github.com/nforest/awesome-decompilation
   pdfs:
     - https://www.ndss-symposium.org/wp-content/uploads/2018/07/bar2018_8_Schulte_paper.pdf
     - http://www.cs.unm.edu/~eschulte/data/bed.pdf
@@ -3027,6 +3075,8 @@
   tags:
     - SBSE
     - testing
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/triangle.tar.gz
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_EuroGP.pdf
 
@@ -3248,7 +3298,7 @@
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/langdon2017_parallel_code.pdf
 
 - key: "Landsborough:2017:GI"
-  title: "Learning from Super-Mutants"
+  title: "Learning from Super-Mutants: searching post-apocalyptic software ecosystems for novel semantics-preserving transforms"
   authors:
     - name: Jason Landsborough
     - name: Stephen Harding
@@ -3258,6 +3308,8 @@
   abstract: "In light of recent advances in genetic-algorithm-driven automated program modification, our team has been actively exploring the art, engineering, and discovery of novel semantics-preserving transforms. While modern compilers represent some of the best ideas we have for automated program modification, current approaches represent only a small subset of the types of transforms which can be achieved. In the wilderness of post-apocalyptic software ecosystems of genetically-modified and mutant programs, there exist a broad array of potentially useful software mutations, including semantics-preserving transforms that may play an important role in future software design, development, and most importantly, evolution."
   type: Workshop
   doi: https://doi.org/10.1145/3067695.3082525
+  tags:
+    - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/landsborough2017_supermutants.pdf
 
@@ -3730,6 +3782,22 @@
   tags:
     - SBSE
 
+- key: "Tan:2016:ASP:2950290.2950295"
+  title: "Anti-patterns in Search-based Program Repair"
+  authors:
+    - name: Shin Hwei Tan
+    - name: Hiroaki Yoshida
+    - name: Mukul R. Prasad
+    - name: Abhik Roychoudhury
+  venue: "FSE"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1145/2950290.2950295
+  tags:
+    - APR
+  pdfs:
+    - https://www.comp.nus.edu.sg/~abhik/pdf/FSE16.pdf
+
 - key: "Woodward:2016:GECCOcomp"
   title: "Connecting Automatic Parameter Tuning, Genetic Programming as a Hyper-heuristic, and Genetic Improvement Programming"
   authors:
@@ -4049,22 +4117,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1605.pdf
 
-- key: "Tan:2016:ASP:2950290.2950295"
-  title: "Anti-patterns in Search-based Program Repair"
-  authors:
-    - name: Shin Hwei Tan
-    - name: Hiroaki Yoshida
-    - name: Mukul R. Prasad
-    - name: Abhik Roychoudhury
-  venue: "Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering, FSE 2016"
-  year: 2016
-  type: Conference
-  doi: https://doi.org/10.1145/2950290.2950295
-  tags:
-    - APR
-  pdfs:
-    - https://www.comp.nus.edu.sg/~abhik/pdf/FSE16.pdf
-
 - key: "DBLP:conf/wcre/LimaSLCMF16"
   title: "Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language"
   authors:
@@ -4290,23 +4342,6 @@
     - APR
     - SBSE
 
-- key: "Ke:2015:ASE"
-  title: "Repairing Programs with Semantic Code Search"
-  authors:
-    - name: Yalin Ke
-    - name: Kathryn T. Stolee
-    - name: Claire Le Goues
-    - name: Yuriy Brun
-  venue: "30th IEEE/ACM International Conference on Automated Software Engineering (ASE 2015)"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1109/ASE.2015.60
-  tags:
-    - APR
-    - SBSE
-  pdfs:
-    - http://people.cs.umass.edu/brun/pubs/pubs/Ke15ase.pdf
-
 - key: "Mullapudi:2015:ASPLOS"
   title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
   authors:
@@ -4333,6 +4368,23 @@
   doi: https://doi.org/10.1145/2736287
   tags:
     - SBSE
+
+- key: "Ke:2015:ASE"
+  title: "Repairing Programs with Semantic Code Search"
+  authors:
+    - name: Yalin Ke
+    - name: Kathryn T. Stolee
+    - name: Claire Le Goues
+    - name: Yuriy Brun
+  venue: "ASE"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ASE.2015.60
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://people.cs.umass.edu/brun/pubs/pubs/Ke15ase.pdf
 
 - key: "DBLP:journals/corr/DurieuxMMSX15"
   title: "Automatic Repair of Real Bugs: An Experience Report on the Defects4J Dataset"
@@ -4461,6 +4513,9 @@
     - AI
     - SBSE
     - testing
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/barracuda_gp.tar.gz
+    - http://seqbarracuda.sourceforge.net/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_GECCO.pdf
 
@@ -4756,6 +4811,7 @@
     - SBSE
   urls:
     - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6733370
+    - http://crest.cs.ucl.ac.uk/bowtie2gp/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2013_ieeeTEC.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bowtie2_supplementary.pdf
@@ -5541,23 +5597,6 @@
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/RN_13_03.pdf
     - http://arxiv.org/pdf/1301.5187.pdf
 
-- key: "Weimer-ase2013"
-  title: "Leveraging Program Equivalence for Adaptive Program Repair: Models and First Results"
-  authors:
-    - name: Westley Weimer
-    - name: Zachary P. Fry
-    - name: Stephanie Forrest
-  venue: "28th IEEE/ACM International Conference on Automated Software Engineering"
-  year: 2013
-  type: Conference
-  doi: https://doi.org/10.1109/ASE.2013.6693094
-  tags:
-    - APR
-    - SBSE
-    - testing
-  pdfs:
-    - http://www.cs.virginia.edu/~weimer/p/weimer-ase2013-preprint.pdf
-
 - key: "Jia:2013:CSBSE"
   title: "The GISMOE Architecture"
   authors:
@@ -5573,6 +5612,23 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Jia_2013_CSBSE.pdf
+
+- key: "Weimer-ase2013"
+  title: "Leveraging Program Equivalence for Adaptive Program Repair: Models and First Results"
+  authors:
+    - name: Westley Weimer
+    - name: Zachary P. Fry
+    - name: Stephanie Forrest
+  venue: "ASE"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/ASE.2013.6693094
+  tags:
+    - APR
+    - SBSE
+    - testing
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/weimer-ase2013-preprint.pdf
 
 - key: "Schulte:2013:ARB:2451116.2451151"
   title: "Automated Repair of Binary and Assembly Programs for Cooperating Embedded Devices"
@@ -5671,6 +5727,8 @@
     - SBSE
   urls:
     - http://2013.icse-conferences.org/content/semfix-program-repair-semantic-analysis.html
+  pdfs:
+    - https://www.comp.nus.edu.sg/~abhik/pdf/ICSE13-SEMFIX.pdf
 
 - key: "Qi:2013:ICSM"
   title: "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization"
@@ -5882,6 +5940,25 @@
   tags:
     - testing
 
+- key: "Harman:2012:ASE"
+  title: "The GISMOE challenge: Constructing the Pareto Program Surface Using Genetic Programming to Find Better Programs"
+  authors:
+    - name: Mark Harman
+    - name: William B. Langdon
+    - name: Yue Jia
+    - name: David R. White
+    - name: Andrea Arcuri
+    - name: John A. Clark
+  venue: "ASE"
+  year: 2012
+  type: Conference
+  doi: https://doi.org/10.1145/2351676.2351678
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2012_ASE.pdf
+
 - key: "Archanjo:2012:ASE"
   title: "Genetic Programming for Automating the Development of Data Management Algorithms in Information Technology Systems"
   authors:
@@ -6055,25 +6132,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2012_mendel.pdf
 
-- key: "Harman:2012:ASE"
-  title: "The GISMOE challenge: Constructing the Pareto Program Surface Using Genetic Programming to Find Better Programs"
-  authors:
-    - name: Mark Harman
-    - name: William B. Langdon
-    - name: Yue Jia
-    - name: David R. White
-    - name: Andrea Arcuri
-    - name: John A. Clark
-  venue: "The 27th IEEE/ACM International Conference on Automated Software Engineering (ASE 12)"
-  year: 2012
-  type: Conference
-  doi: https://doi.org/10.1145/2351676.2351678
-  tags:
-    - APR
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2012_ASE.pdf
-
 - key: "Kessentini:2011:ICPC"
   title: "Design Defects Detection and Correction by Example"
   authors:
@@ -6214,6 +6272,22 @@
   tags:
     - SBSE
 
+- key: "schulte10:_autom_progr_repair_evolut_assem_code"
+  title: "Automated Program Repair through the Evolution of Assembly Code"
+  authors:
+    - name: Eric Schulte
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "ASE"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.1145/1858996.1859059
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.cs.unm.edu/~eschulte/data/ase2010-asm-preprint.pdf
+
 - key: "Harman:2010:ACM"
   title: "Automated Patching Techniques: The Fix Is In"
   authors:
@@ -6242,6 +6316,44 @@
     - SBSE
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/p109-weimer.pdf
+
+- key: "Cadar:2010:FoSER"
+  title: "Multiplicity computing: a vision of software engineering for next-generation computing platform applications"
+  authors:
+    - name: Cristian Cadar
+    - name: Peter Pietzuch
+    - name: Alexander L. Wolf
+  venue: "FoSER"
+  year: 2010
+  type: Workshop
+  doi: https://doi.org/10.1145/1882362.1882380
+  pdfs:
+    - http://www.doc.ic.ac.uk/~cristic/papers/multicomp-foser-10.pdf
+
+- key: "DBLP:conf/sigsoft/GouesFW10"
+  title: "The case for software evolution"
+  authors:
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "FoSER"
+  year: 2010
+  type: Workshop
+  doi: https://doi.org/10.1145/1882362.1882406
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - http://www.cs.virginia.edu/~weimer/p/p205-legoues.pdf
+
+- key: "Balzer:2010:FoSER"
+  title: "Why Haven't We Automated Programming"
+  authors:
+    - name: Robert Balzer
+  venue: "FoSER"
+  year: 2010
+  type: Workshop
+  doi: https://doi.org/10.1145/1882362.1882366
 
 - key: "Wilkerson:2010:gecco"
   title: "Coevolutionary automated software correction"
@@ -6335,60 +6447,6 @@
     - SBSE
   urls:
     - http://www.sciencedirect.com/science/article/B6V12-50J9GPR-1/2/e049c72f4c9e284bd1c2bdbf7c09f3aa
-
-- key: "Balzer:2010:FoSER"
-  title: "Why Haven't We Automated Programming"
-  authors:
-    - name: Robert Balzer
-  venue: "Proceedings of the FSE/SDP Workshop on Future of Software Engineering Research"
-  year: 2010
-  type: Conference
-  doi: https://doi.org/10.1145/1882362.1882366
-
-- key: "Cadar:2010:FoSER"
-  title: "Multiplicity computing: a vision of software engineering for next-generation computing platform applications"
-  authors:
-    - name: Cristian Cadar
-    - name: Peter Pietzuch
-    - name: Alexander L. Wolf
-  venue: "Proceedings of the FSE/SDP workshop on Future of software engineering research"
-  year: 2010
-  type: Conference
-  doi: https://doi.org/10.1145/1882362.1882380
-  pdfs:
-    - http://www.doc.ic.ac.uk/~cristic/papers/multicomp-foser-10.pdf
-
-- key: "DBLP:conf/sigsoft/GouesFW10"
-  title: "The case for software evolution"
-  authors:
-    - name: Claire Le Goues
-    - name: Stephanie Forrest
-    - name: Westley Weimer
-  venue: "Proceedings of the FSE/SDP workshop on Future of software engineering research, FoSER'10"
-  year: 2010
-  type: Conference
-  doi: https://doi.org/10.1145/1882362.1882406
-  tags:
-    - APR
-    - SBSE
-  pdfs:
-    - http://www.cs.virginia.edu/~weimer/p/p205-legoues.pdf
-
-- key: "schulte10:_autom_progr_repair_evolut_assem_code"
-  title: "Automated Program Repair through the Evolution of Assembly Code"
-  authors:
-    - name: Eric Schulte
-    - name: Stephanie Forrest
-    - name: Westley Weimer
-  venue: "Proceedings of the IEEE/ACM International Conference on Automated Software Engineering"
-  year: 2010
-  type: Conference
-  doi: https://doi.org/10.1145/1858996.1859059
-  tags:
-    - APR
-    - SBSE
-  pdfs:
-    - http://www.cs.unm.edu/~eschulte/data/ase2010-asm-preprint.pdf
 
 - key: "Diaz:2010:ICEC"
   title: "Parisian Approach Reducing Computational Effort to Improve SMT Performance by setting Resizable Caches"
