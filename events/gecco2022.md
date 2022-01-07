@@ -58,7 +58,7 @@ His research interests include reducing the costs associated with software devel
 He is a senior member of the Association for Computing Machinery and his work has led to over fifteen thousand citations and several awards, including three ‘Humies’ and ICSE 2019 Most Influential paper for his work on using Genetic Improvement for bug fixing.
 
 
-## <a name="CFP"></a> Call For Submissions
+## <a name="CFP"></a> Call For Submissions [[pdf]({{ "/paper_pdfs/gi2022gecco/call_for_papers.pdf" | relative_url }})]
 
 We invite submissions that discuss recent developments in all areas of research on, and applications of, Genetic Improvement.
 The International Workshop on Genetic Improvement is the premier workshop in the field and provides an opportunity for researchers interested in automated program repair and software optimisation to disseminate their work, exchange ideas, and discover new research directions.
@@ -74,16 +74,15 @@ Topics of interest include both the theory and practice of Genetic Improvement. 
 - Repair bugs
 
 We invite submissions of two paper types:
-- Research papers (eight page limit, including references)
+- Research papers (eight page limit, *excluding* references)
 - Position papers (two page limit, including references)
 
+Detailed formatting instructions for authors are listed [here](https://gecco-2022.sigevo.org/Paper-Submission-Instructions).  
 We encourage authors to submit early and in-progress work.
 The workshop emphasises interaction and discussion.
 
-{% comment %}
 These papers will be reviewed in a double-blind manner.  
 All accepted papers must be presented at GI-2022 and will appear in the GECCO companion volume.
-{% endcomment %}
 
 
 ## <a name="chairs"></a> Workshop Chairs
