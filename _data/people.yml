@@ -7,7 +7,7 @@
 
 - name: Afnan AlSubaihin
   homepage: https://afnan.ws
-  img: /profile_images/afnan_alsubaihin.png
+  img: /profile_images/afnan_alsubaihin.jpg
 
 - name: Mohamoud Bokari
   homepage: https://www.researchgate.net/profile/Mahmoud_Bokhari
@@ -102,6 +102,7 @@
 
 - name: James Callan
   homepage: https://www.linkedin.com/in/james-callan-a79300135/
+  img: /profile_images/james_callan.jpg
 
 - name: John Clark
   homepage: https://www.sheffield.ac.uk/dcs/people/academic/john-clark
@@ -111,6 +112,10 @@
 
 - name: Byron DeVries
   homepage: http://www.byrondevries.com/
+
+- name:  Jonathan Dorn
+  homepage: https://dornja.github.io/
+  img: /profile_images/jonathan_dorn.jpg
 
 - name: Ryan Dougherty
   homepage: https://www.westpoint.edu/electrical-engineering-and-computer-science/profile/ryan_dougherty
@@ -193,6 +198,10 @@
   scholar: https://scholar.google.com/citations?hl=en&user=6W7BtygAAAAJ
   img: /profile_images/colin_johnson.jpg
 
+- name: Serkan Kirbas
+  homepage: https://uk.linkedin.com/in/serkankirbas
+  img: /profile_images/serkan_kirbas.jpg
+
 - name: Oliver Krauss
   homepage: https://research.fh-ooe.at/en/staff/25755
 
@@ -264,6 +273,10 @@
     - PyGGI
     - Gin
 
+- name: Nelishia Pillay
+  homepage: https://www.cs.up.ac.za/cs/npillay/Nelishia.htm
+  img: /profile_images/nelishia_pillay.jpg
+
 - name: Barry Porter
   homepage: https://www.lancaster.ac.uk/scc/about-us/people/barry-porter
 
@@ -296,6 +309,9 @@
 - name: Manbir Sodhi
   homepage: https://web.uri.edu/engineering/meet/msodhi/
 
+- name: Jeongju Sohn
+  homepage: https://wwwfr.uni.lu/snt/people/jeongju_sohn
+
 - name: Shin Hwei Tan
   homepage: https://www.shinhwei.com
   img: /profile_images/shin_hwei_tan.jpg
@@ -321,7 +337,7 @@
   homepage: https://dcitectijuana.mx/
   dblp: https://dblp.uni-trier.de/pid/62/1755.html
   scholar: https://scholar.google.com/citations?hl=en&user=xXh3xRYAAAAJ
-  img: /profile_images/leonardo_trujillo.png
+  img: /profile_images/leonardo_trujillo.jpg
 
 - name: Emamurho Ugherughe
   homepage: https://www.linkedin.com/in/emamurho
@@ -399,6 +415,12 @@
   scholar: https://scholar.google.com/citations?user=ygShHQUAAAAJ
   img: /profile_images/yuan_yuan.jpg
 
+- name: Jie M. Zhang
+  aka:
+    - Jie Marina Zhang
+  homepage: https://sites.google.com/view/jie-zhang/home
+  img: /profile_images/jie_zhang.jpg
+
 - name: Ling Zhu
   homepage: https://linkedin.com/in/ling-zhu-a8098b15
   img: /profile_images/ling_zhu.jpg
@@ -406,3 +428,5 @@
 - name: Nur Zincir-Heywood
   homepage: http://www.cs.dal.ca/~zincir
   img: /profile_images/nur_zincir_heywood.jpg
+
+

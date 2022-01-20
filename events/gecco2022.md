@@ -15,6 +15,21 @@ chairs:
   desc: "%%NAME%% has been working on GP since 1993. His PhD was the first book to be published in John Koza and Dave Goldberg's book series. He has previously run the GP track for GECCO&nbsp;2001 and 2014 and was programme chair for GECCO&nbsp;2002 having previously chaired EuroGP for 3 years. More recently he edited FOGA&nbsp;2011 and run the computational intelligence on GPUs (CIGPU 2008&mdash;2012) and EvoPAR workshops. His books include A Field Guide to Genetic Programming, Foundations of Genetic Programming and Advances in Genetic Programming&nbsp;III. He also maintains the genetic programming bibliography. His current research uses GP to genetically improve existing software, CUDA, search based software engineering and Bioinformatics. He co-organised GI&nbsp;2015, GI&nbsp;2017, GI&nbsp;2018, GI&nbsp;2019, GI&nbsp;2021 and the 2018 Genetic Improvement of Software Seminar at Dagstuhl."
 - name: Justyna Petke
   desc: "%%NAME%% is a Principal Research Fellow and Proleptic Senior Lecturer (Associate Prof.), conducting research in genetic improvement. She has a doctorate in Computer Science from University of Oxford and is now at the Centre for Research on Evolution, Search and Testing (CREST) in University College London. She has published on applications of genetic improvement. Her work on the subject was awarded a Silver and a Gold ’Humie’ at GECCO&nbsp;2014 and GECCO&nbsp;2016 as well as an ACM SIGSOFT Distinguished Paper Award at ISSTA&nbsp;2015. She was the PC co-Chair for the International Symposium on Search-Based Software Engineering in 2017. She currently serves on the editorial board of the Genetic Programming and Evolvable Machines journal."
+
+reviewers:
+- Brad Alexander
+- Nadia Alshahwan
+- Afnan AlSubaihin
+- Gabin An
+- James Callan
+- Jonathan Dorn
+- Yu Huang
+- Serkan Kirbas
+- Nelishia Pillay
+- Eric Schulte
+- Jeongju Sohn
+- Christopher Timperley
+- Jie Marina Zhang
 ---
 
 # The 11th International Workshop on Genetic Improvement @[GECCO 2022](https://gecco-2022.sigevo.org/HomePage)
@@ -98,3 +113,14 @@ All accepted papers must be presented at GI-2022 and will appear in the GECCO co
   {{ chair.desc | replace: '%%NAME%%', chair_name }}
 </p>
 {% endfor %}
+
+
+## <a name="PC"></a> PC
+
+<div class="row justify-content-around">
+{% for name in page.reviewers %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}
+<figure class="figure" style="text-align: center; margin: 0.5em 1em; width: 140px;">
+  <img class="figure-img" style="max-width: 140px; max-height: 140px;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />
+  <figcaption class="figure-caption">{% if match.homepage %}<a href="{{ match.homepage }}">{{ match.name }}</a>{% else %}{{ name }}{% endif %}</figcaption>
+</figure>{% endfor %}
+</div>
