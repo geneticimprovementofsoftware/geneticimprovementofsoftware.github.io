@@ -121,6 +121,6 @@ All accepted papers must be presented at GI-2022 and will appear in the GECCO co
 {% for name in page.reviewers %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}
 <figure class="figure" style="text-align: center; margin: 0.5em 1em; width: 140px;">
   <img class="figure-img" style="max-width: 140px; max-height: 140px;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />
-  <figcaption class="figure-caption">{% if match.homepage %}<a href="{{ match.homepage }}">{{ match.name }}</a>{% else %}{{ name }}{% endif %}</figcaption>
+  <figcaption class="figure-caption">{% if match.homepage or match.scholar or match.dblp %}<a href="{{ match.homepage | default:  match.scholar | default:  match.dblp }}">{{ match.name }}</a>{% else %}{{ name }}{% endif %}</figcaption>
 </figure>{% endfor %}
 </div>

@@ -5,13 +5,11 @@
   homepage: https://ayaz91.github.io/
   img: /profile_images/ayaz_akram.jpg
 
-- name: Afnan AlSubaihin
-  homepage: https://afnan.ws
-  img: /profile_images/afnan_alsubaihin.jpg
+- name: Michael Affenzeller
+  homepage: https://heal.heuristiclab.com/team/affenzeller
 
-- name: Mohamoud Bokari
-  homepage: https://www.researchgate.net/profile/Mahmoud_Bokhari
-  img: /profile_images/mohamoud_bokari.jpg
+- name: Afsoon Afzal
+  homepage: https://afsafzal.github.io/
 
 - name: Hammad Ahmad
   homepage: http://www-personal.umich.edu/~hammada/
@@ -28,6 +26,9 @@
   tags:
     - Gin
 
+- name: Mahfouth Alghamdi
+  dblp: https://dblp.org/pid/193/5204.html
+
 - name: Nadia Alshahwan
   show: yes
   affil: Facebook London, United Kingdom
@@ -35,6 +36,10 @@
   dblp: https://dblp.org/pid/98/6159.html
   scholar: https://scholar.google.com/citations?user=TG8-wssAAAAJ
   img: /profile_images/nadia_alshawan.jpg
+
+- name: Afnan AlSubaihin
+  homepage: https://afnan.ws
+  img: /profile_images/afnan_alsubaihin.jpg
 
 - name: Gabin An
   show: yes
@@ -60,6 +65,9 @@
   scholar: http://scholar.google.com/citations?user=GvmSuw8AAAAJ
   img: /profile_images/marcio_barros.jpg
 
+- name: Benoit Baudry
+  homepage: https://softwarediversity.eu/
+
 - name: Alexandre Bergel
   homepage: http://bergel.eu/
 
@@ -76,6 +84,7 @@
   aka:
     - Mahmoud Bokhari
   scholar: https://scholar.google.com/citations?user=1eJ9Ld8AAAAJ
+  img: /profile_images/mohamoud_bokari.jpg
 
 - name: Sandy Brownlee
   aka:
@@ -100,6 +109,9 @@
   scholar: https://scholar.google.com/citations?user=CgxQ9ZIAAAAJ
   img: /profile_images/bobby_bruce.jpg
 
+- name: Nathan Burles
+  homepage: https://www.nburles.co.uk/
+
 - name: James Callan
   homepage: https://www.linkedin.com/in/james-callan-a79300135/
   img: /profile_images/james_callan.jpg
@@ -107,17 +119,30 @@
 - name: John Clark
   homepage: https://www.sheffield.ac.uk/dcs/people/academic/john-clark
 
+- name: Brendan Cody-Kenny
+  homepage: https://codykenb.github.io/
+
 - name: Myra B. Cohen
   homepage: https://web.cs.iastate.edu/~mcohen/
 
+- name: Santanu Dash
+  aka:
+    - Santanu Kumar Dash
+  homepage: https://santanu.uk/
+
 - name: Byron DeVries
   homepage: http://www.byrondevries.com/
+
+- name: Zhen Yu Ding
+  homepage: https://www.linkedin.com/in/zhen-yu-ding
 
 - name:  Jonathan Dorn
   homepage: https://dornja.github.io/
   img: /profile_images/jonathan_dorn.jpg
 
 - name: Ryan Dougherty
+  aka:
+    - Ryan E. Dougherty
   homepage: https://www.westpoint.edu/electrical-engineering-and-computer-science/profile/ryan_dougherty
 
 - name: Aniko Ekart
@@ -134,6 +159,9 @@
 - name: Erik Fredericks
   homepage: http://efredericks.net/
   img: /profile_images/erik_fredericks.jpg
+
+- name: Unai Garciarena
+  homepage: https://unaigarciarena.github.io/
 
 - name: Lea Kristin Gerling
   show: yes
@@ -185,6 +213,9 @@
   homepage: https://research.google.com/pubs/CieraJaspan.html
   img: /profile_images/ciera_jaspan.jpg
 
+- name: Yue Jia
+  homepage: https://uk.linkedin.com/in/yue-jia-3326b796
+
 - name: Xi Jiang
   homepage: https://www.linkedin.com/in/xijiang2/
 
@@ -201,6 +232,9 @@
 - name: Serkan Kirbas
   homepage: https://uk.linkedin.com/in/serkankirbas
   img: /profile_images/serkan_kirbas.jpg
+
+- name: Zoltan A. Kocsis
+  homepage: https://existence.property
 
 - name: Oliver Krauss
   homepage: https://research.fh-ooe.at/en/staff/25755
@@ -220,6 +254,9 @@
   scholar: https://scholar.google.fr/citations?user=O5cSyYMAAAAJ
   img: /profile_images/bill_langdon.jpg
 
+- name: Jason Landsborough
+  homepage: https://www.linkedin.com/in/jason-landsborough-63096b77
+
 - name: James Lathrop
   aka:
     - James I. Lathrop
@@ -233,11 +270,41 @@
   scholar: https://scholar.google.com/citations?hl=en&user=AUJWzE8AAAAJ
   img: /profile_images/bach_le.jpg
 
+- name: Kevin Joseph Leach
+  aka:
+    - Kevin Leach
+  homepage: https://kjl.name/
+
+- name: Claire Le Goues
+  homepage: https://clairelegoues.com/
+
+- name: Jhe-Yu Liou
+  scholar: https://scholar.google.com/citations?user=VQZnkGIAAAAJ&hl=en
+
+- name: Roberto Erick Lopez Herrejon
+  aka:
+    - Roberto E. Lopez-Herrejon
+  scholar: https://scholar.google.com/citations?user=SsACdxUAAAAJ&hl=en
+
+- name: Víctor R. López-López
+  aka:
+    - Victor R. Lopez-Lopez
+  scholar: https://scholar.google.com/citations?user=UITzQScAAAAJ&hl=en
+
+- name: Christopher McGowan
+  homepage: https://uk.linkedin.com/in/christopher-mcgowan-2313a1b6
+
 - name: Ibrahim Mesecan
   homepage: https://sites.google.com/site/imesecan/home
 
+- name: Hanspeter Moessenboeck
+  homepage: https://ssw.jku.at/General/Staff/HM/
+
 - name: Mohsen Mosayebi
   homepage: https://www.linkedin.com/in/mohsen-mosayebi-276485177/
+
+- name: Vojtech Mrazek
+  scholar: https://scholar.google.com/citations?user=1arH2UwAAAAJ&hl=en
 
 - name: ThanhVu Nguyen
   show: yes
@@ -257,6 +324,15 @@
 
 - name: George O'Brien
   homepage: https://www.linkedin.com/in/george-o-brien-163a2610a/
+
+- name: Michael Orlov
+  homepage: https://noexec.org/
+
+- name: David N. Palacio
+  aka:
+    - David A.N. Palacio
+    - David Nader-Palacio
+  scholar: https://scholar.google.com/citations?user=9hZ1tgUAAAAJ&hl=en
 
 - name: Corina Pasareanu
   homepage: https://ti.arc.nasa.gov/profile/pcorina/
@@ -282,6 +358,12 @@
 
 - name: Brittany Reid
   scholar: https://scholar.google.com/citations?user=biWKuMUAAAAJ
+
+- name: Joseph Renzullo
+  scholar: https://scholar.google.com/citations?user=4Wdn0hoAAAAJ&hl=en
+
+- name: Mohammad Roohitavaf
+  scholar: https://scholar.google.com/citations?user=o-cCPNMAAAAJ&hl=en
 
 - name: Abhik Roychoudhury
   homepage: http://www.comp.nus.edu.sg/~abhik/
@@ -343,6 +425,9 @@
   homepage: https://www.linkedin.com/in/emamurho
   img: /profile_images/emamurho_ugherughe.jpg
 
+- name: Nadarajen Veerapen
+  scholar: https://scholar.google.co.uk/citations?user=N-1KB5sAAAAJ&hl=en
+
 - name: Markus Wagner
   show: yes
   affil: University of Adelaide, Australia
@@ -384,6 +469,15 @@
   dblp: https://dblp.uni-trier.de/pid/47/2379.html
   scholar: https://scholar.google.com/citations?hl=en&user=iZIjJ80AAAAJ
   img: /profile_images/john_woodward.jpg
+
+- name: Fan Wu
+  homepage: https://scholar.google.co.uk/citations?user=p8z2_usAAAAJ&hl=en
+
+- name: Qi Xin
+  homepage: https://qixin5.github.io/
+
+- name: Yingfei Xiong
+  homepage: https://xiongyingfei.github.io/
 
 - name: Jifeng Xuan
   show: yes
@@ -428,5 +522,3 @@
 - name: Nur Zincir-Heywood
   homepage: http://www.cs.dal.ca/~zincir
   img: /profile_images/nur_zincir_heywood.jpg
-
-
