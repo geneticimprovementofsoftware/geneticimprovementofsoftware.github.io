@@ -96,6 +96,7 @@ Detailed formatting instructions for authors are listed [here](https://gecco-202
 We encourage authors to submit early and in-progress work.
 The workshop emphasises interaction and discussion.
 
+Papers must be submitted through the paper submission website: [https://ssl.linklings.net/conferences/gecco/](https://ssl.linklings.net/conferences/gecco/)  
 These papers will be reviewed in a double-blind manner.  
 All accepted papers must be presented at GI-2022 and will appear in the GECCO companion volume.
 
