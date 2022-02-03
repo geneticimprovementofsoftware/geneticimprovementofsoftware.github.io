@@ -23,6 +23,7 @@ reviewers:
 - Gabin An
 - James Callan
 - Jonathan Dorn
+- Erik Fredericks
 - Yu Huang
 - Serkan Kirbas
 - Nelishia Pillay
