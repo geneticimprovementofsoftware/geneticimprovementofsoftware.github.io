@@ -101,6 +101,7 @@ Papers must be submitted through the paper submission website: [https://ssl.link
 These papers will be reviewed in a double-blind manner.  
 All accepted papers must be presented at GI-2022 and will appear in the GECCO companion volume.
 
+As a published ACM author, you and your co-authors are subject to all ACM Publications Policies ([https://www.acm.org/publications/policies/toc](https://www.acm.org/publications/policies/toc)), including ACM's new Publications Policy on Research Involving Human Participants and Subjects ([https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects)).
 
 ## <a name="chairs"></a> Workshop Chairs
 
