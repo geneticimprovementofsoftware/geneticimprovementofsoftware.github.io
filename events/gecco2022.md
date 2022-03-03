@@ -93,6 +93,8 @@ We invite submissions of two paper types:
 - Research papers (eight page limit, *excluding* references)
 - Position papers (two page limit, including references)
 
+The **<i class="fas fa-award"></i> best paper** and **<i class="fas fa-award"></i> best presentation** will be awarded during the workshop.
+
 Detailed formatting instructions for authors are listed [here](https://gecco-2022.sigevo.org/Paper-Submission-Instructions).  
 We encourage authors to submit early and in-progress work.
 The workshop emphasises interaction and discussion.
@@ -102,6 +104,19 @@ These papers will be reviewed in a double-blind manner.
 All accepted papers must be presented at GI-2022 and will appear in the GECCO companion volume.
 
 As a published ACM author, you and your co-authors are subject to all ACM Publications Policies ([https://www.acm.org/publications/policies/toc](https://www.acm.org/publications/policies/toc)), including ACM's new Publications Policy on Research Involving Human Participants and Subjects ([https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects)).
+
+
+## <a name="bursaries"></a> Funding Opportunity For Students
+
+We will offer up to 5 scholarships to partially cover registration and travel costs for GECCO and all associated workshops for students whose work is accepted to the GI workshop.
+Priority will be given based on the student’s need and submission quality.
+
+Students applying for a scholarship should submit a first-author regular paper to the workshop (up to 8 pages long) and plan to present their work in Boston in person.
+Moreover, their supervisor should send a one-paragraph note of recommendation to [bbruce@ucdavis.edu](mailto:bbruce@ucdavis.edu) listing:
+- the student’s area of work.
+- the supervisor’s support of the student’s application.
+
+
 
 ## <a name="chairs"></a> Workshop Chairs
 
