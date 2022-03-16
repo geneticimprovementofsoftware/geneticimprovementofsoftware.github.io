@@ -108,7 +108,7 @@ As a published ACM author, you and your co-authors are subject to all ACM Public
 
 ## <a name="bursaries"></a> Funding Opportunity For Students
 
-We will offer up to 5 scholarships to partially cover (up to $200 each) registration and travel costs for GECCO and all associated workshops for students whose work is accepted to the GI workshop.
+We will support up to 5 students by offering to partially reimburse (up to $250 each) registration and travel costs for GECCO and all associated workshops for students whose work is accepted to the GI workshop.
 Priority will be given based on the student’s need and submission quality.
 
 Students applying for a scholarship should submit a first-author regular paper to the workshop (up to 8 pages long) and plan to present their work in Boston in person.
