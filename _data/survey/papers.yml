@@ -1,3 +1,14 @@
+- key: "callan2022"
+  title: "How Do Android Developers Improve Non-Functional Properties of Software?"
+  authors:
+    - name: James Callan
+    - name: Oliver Krauss
+    - name: Justyna Petke
+    - name: Federica Sarro
+  venue: "ESE"
+  year: 
+  type: Journal
+
 - key: "Kechagia:TSE"
   title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
   authors:
@@ -18,21 +29,70 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
 
-- key: "langdon:2021:sigevolution"
-  title: "Evolving Open Complexity"
+- key: "poliansky:2022:AS"
+  title: "From Requirements to Source Code: Evolution of Behavioral Programs"
   authors:
-    - name: W. B. Langdon
-      aka: William B. Langdon
-  venue: "SIGEVOlution"
-  year: 
+    - name: Roy Poliansky
+    - name: Moshe Sipper
+    - name: Achiya Elyasaf
+  venue: "AS"
+  year: 2022
   type: Journal
+  doi: https://doi.org/10.3390/app12031587
+  urls:
+    - https://www.mdpi.com/2076-3417/12/3/1587
+
+- key: "peeler2022optimizing"
+  title: "Optimizing LLVM Pass Sequences with Shackleton: A Linear Genetic Programming Framework"
+  authors:
+    - name: Hannah Peeler
+    - name: Shuyue Stella Li
+    - name: Andrew N. Sloss
+    - name: Kenneth N. Reid
+    - name: Yuan Yuan2
+      aka: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "ArXiV"
+  year: 2022
+  type: Archive
   tags:
     - SBSE
   urls:
-    - http://arxiv.org/abs/2112.00812
+    - https://arxiv.org/abs/2201.13305
+    - https://github.com/ARM-software/Shackleton-Framework
   pdfs:
-    - http://arxiv.org/pdf/2112.00812.pdf
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2021_sigevolution.pdf
+    - https://arxiv.org/pdf/2201.13305.pdf
+
+- key: "blot:hal-03595447"
+  title: "Using Genetic Improvement to Optimise Optimisation Algorithm Implementations"
+  authors:
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "ROADEF"
+  year: 2022
+  type: Conference
+  tags:
+    - SBSE
+    - survey
+    - PyGGI
+  urls:
+    - https://hal.archives-ouvertes.fr/hal-03595447
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_roadef_2022.pdf
+
+- key: "Cambronero:thesis"
+  title: "Mining Software Artifacts for use in Automated Machine Learning"
+  authors:
+    - name: Jose Pablo Cambronero Sanchez
+  venue: ""
+  year: 2021
+  type: PhdThesis
+  tags:
+    - SBSE
+  urls:
+    - https://www.csail.mit.edu/event/mining-software-artifacts-use-automated-machine-learning
+  pdfs:
+    - https://www.josecambronero.com/pdf/JCambronero-PhD-EECS-June2021.pdf
 
 - key: "Sohn:thesis"
   title: "Synergetic Interaction Between Fault Localization and Defect Prediction"
@@ -172,6 +232,22 @@
   type: Journal
   doi: https://doi.org/10.1145/3453712
 
+- key: "KHALILIAN:2021:ESA"
+  title: "CGenProg: Adaptation of cartesian genetic programming with migration and opposite guesses for automatic repair of software regression faults"
+  authors:
+    - name: Alireza Khalilian
+    - name: Ahmad Baraani-Dastjerdi
+    - name: Bahman Zamani
+  venue: "ESA"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1016/j.eswa.2020.114503
+  tags:
+    - APR
+    - testing
+  urls:
+    - https://www.sciencedirect.com/science/article/pii/S0957417420311477
+
 - key: "Petke:2021:FSE-IVR"
   title: "Software Robustness: A Survey, a Theory, and Some Prospects"
   authors:
@@ -189,12 +265,26 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2021_FSE-IVR.pdf
 
+- key: "Ito:2021:GCCE"
+  title: "Evaluating Partial Correctness of Programs in Automated Program Repair"
+  authors:
+    - name: Yusaku Ito
+    - name: Hironori Washizaki
+    - name: Kazunori Sakamoto
+    - name: Yoshiaki Fukazawa
+  venue: "GCCE"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.1109/GCCE53005.2021.9621861
+  tags:
+    - APR
+
 - key: "Langdon:TELO:HOP"
   title: "Genetic Improvement of Data for Maths Functions*"
   authors:
     - name: William B. Langdon
     - name: Oliver Krauss
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2021
   type: Conference
   doi: https://doi.org://doi:10.5281/zenodo.3755346
@@ -213,7 +303,7 @@
     - name: Michela Lorandi
     - name: Leonardo Lucio Custode
     - name: Giovanni Iacca
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3462716
@@ -228,7 +318,7 @@
     - name: John R. Woodward
     - name: Markus Wagner
     - name: Bradley Alexander
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3461416
@@ -242,7 +332,7 @@
     - name: Gunel Jahangirova
     - name: Mauro Pezze
     - name: Paolo Tonella
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3462722
@@ -460,6 +550,20 @@
     - https://www.youtube.com/watch?v=HusJI2iTUOU&list=PLI8fiFpB7BoKDaxvS7SQp0iA7fN7rrvDD&index=12
     - https://www.youtube.com/watch?v=1nuPLMSPU10&list=PLXTjhGKkSnI-se7uQneCX-pEDiDrQ7TIS&index=11
 
+- key: "Fonseca:2021:GPTP"
+  title: "Grammatical Evolution Mapping for Semantically-Constrained Genetic Programming"
+  authors:
+    - name: Alcides Fonseca
+    - name: Paulo Santos
+    - name: Guilherme Espada
+    - name: Sara Silva
+  venue: "GPTP"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.1007/978-981-16-8113-4_3
+  tags:
+    - SBSE
+
 - key: "Guizzo:2021:ICSE"
   title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
   authors:
@@ -541,6 +645,25 @@
   doi: https://doi.org/10.5281/zenodo.4458256
   urls:
     - https://github.com/facumolina/evospex-ae
+
+- key: "DBLP:conf/icst/NilizadehLLPC21"
+  title: "Exploring True Test Overfitting in Dynamic Automated Program Repair using Formal Methods"
+  authors:
+    - name: Amirfarhad Nilizadeh
+    - name: Gary T. Leavens
+    - name: Xuan-Bach Dinh Le
+    - name: Corina S. Pasareanu
+    - name: David R. Cok
+  venue: "ICST"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.1109/ICST49551.2021.00033
+  tags:
+    - APR
+    - testing
+  urls:
+    - https://program-repair.org/bibliography.html
+    - https://github.com/Amirfarhad-Nilizadeh/Java-JML
 
 - key: "Trujillo:2021:IEEESoftware"
   title: "A Novel Approach For Search-Based Program Repair"
@@ -753,6 +876,8 @@
   year: 2020
   type: Journal
   doi: https://doi.org/10.1145/3418055
+  urls:
+    - https://github.com/lioujheyu/cuda_evolve
 
 - key: "Yuan:2020:TBE"
   title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
@@ -772,6 +897,18 @@
   pdfs:
     - https://yyxhdy.github.io/files/TOSEM2019.pdf
 
+- key: "Jahan:2020:ACSOS-C"
+  title: "Extending Context Awareness by Anticipating Uncertainty with Enki and Darjeeling"
+  authors:
+    - name: Sharmin Jahan
+    - name: Ian Riley
+    - name: Charles Walter
+    - name: Rose F. Gamble
+  venue: "ACSOS"
+  year: 2020
+  type: Conference
+  doi: https://doi.org/10.1109/ACSOS-C51401.2020.00051
+
 - key: "Petke:2020:APR"
   title: "Refining Fitness Functions in Test-Based Program Repair"
   authors:
@@ -786,6 +923,19 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/petke_apr-icse_2020.pdf
+
+- key: "wieczorek:2020:AS"
+  title: "Parsing Expression Grammars and Their Induction Algorithm"
+  authors:
+    - name: Wojciech Wieczorek
+    - name: Olgierd Unold
+    - name: Lukasz Strak
+  venue: "AS"
+  year: 2020
+  type: Journal
+  doi: https://doi.org/10.3390/app10238747
+  urls:
+    - https://www.mdpi.com/2076-3417/10/23/8747
 
 - key: "Dziurzanski:2020:CEC"
   title: "Empirical Analysis of 1-edit Degree Patches in Syntax-Based Automatic Program Repair"
@@ -998,7 +1148,7 @@
     - name: Emily Winter
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389912
@@ -1012,7 +1162,7 @@
     - name: Xiaodong Wang
     - name: Stephanie Forrest
     - name: Carole-Jean Wu
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3398139
@@ -1026,7 +1176,7 @@
       aka: Saemundur O. Haraldsson
     - name: John R. Woodward
     - name: Markus Wagner
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389885
@@ -1036,7 +1186,7 @@
   authors:
     - name: Una-May O'Reilly
     - name: Erik Hemberg
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389882
@@ -1047,7 +1197,7 @@
     - name: Daniel R. Tauritz
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389855
@@ -1282,6 +1432,23 @@
   tags:
     - APR
 
+- key: "Cao:2020:ISSSR"
+  title: "A Survey on Automatic Bug Fixing"
+  authors:
+    - name: Heling Cao
+    - name: YangXia Meng
+    - name: Jianshu Shi
+    - name: Lei Li
+    - name: Tiaoli Liao
+    - name: Chenyang Zhao
+  venue: "ISSSR"
+  year: 2020
+  type: Conference
+  doi: https://doi.org/10.1109/ISSSR51244.2020.00029
+  tags:
+    - APR
+    - survey
+
 - key: "Parrend:2020:JSSC"
   title: "A Review on Complex System Engineering"
   authors:
@@ -1446,6 +1613,21 @@
   video:
     - https://youtu.be/MGpJEa8makw
 
+- key: "emse19"
+  title: "A comparison of tree- and line-oriented observational slicing"
+  authors:
+    - name: David Binkley
+    - name: Nicolas Gold
+    - name: Syed Islam
+    - name: Jens Krinke
+    - name: Shin Yoo
+  venue: "ESE"
+  year: 2019
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-018-9675-9
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/j.krinke/publications/emse19.pdf
+
 - key: "an:2019:fse"
   title: "PyGGI 2.0: Language Independent Genetic Improvement Framework"
   authors:
@@ -1468,21 +1650,6 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/an_2019_fse.pdf
   video:
     - https://youtu.be/PxRUdlRDS40
-
-- key: "emse19"
-  title: "A comparison of tree- and line-oriented observational slicing"
-  authors:
-    - name: David Binkley
-    - name: Nicolas Gold
-    - name: Syed Islam
-    - name: Jens Krinke
-    - name: Shin Yoo
-  venue: "Empirical Software Engineering"
-  year: 2019
-  type: Journal
-  doi: https://doi.org/10.1007/s10664-018-9675-9
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/j.krinke/publications/emse19.pdf
 
 - key: "langdon:2019:EuroGP"
   title: "Evolving AVX512 Parallel C Code using GP"
@@ -1565,7 +1732,7 @@
     - name: W. B. Langdon
       aka: William B. Langdon
     - name: Justyna Petke
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3319619.3321954
@@ -1802,13 +1969,27 @@
   pdfs:
     - https://arxiv.org/pdf/1901.02533.pdf
 
+- key: "Liou:2019:GPGPU"
+  title: "Uncovering Performance Opportunities by Relaxing Program Semantics of GPGPU Kernels"
+  authors:
+    - name: Jhe-Yu Liou
+    - name: Stephanie Forrest
+    - name: Carole-Jean Wu
+  venue: "GPGPU"
+  year: 2019
+  type: Workshop
+  urls:
+    - https://asplos-conference.org/2019/index.html@p=824.html
+  pdfs:
+    - https://asplos-conference.org/2019/wp-content/uploads/2019/04/asplos19waci-liou-forrest-wu.pdf
+
 - key: "Yuan:2019:GPTP"
   title: "An Evolutionary System for better automatic software repair"
   authors:
     - name: Yuan Yuan2
       aka: Yuan Yuan
     - name: Wolfgang Banzhaf
-  venue: "Genetic Programming Theory and Practice XVII"
+  venue: "GPTP"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-39958-0_19
@@ -2185,6 +2366,26 @@
   pdfs:
     - http://arxiv.org/pdf/1807.00515.pdf
 
+- key: "Schulte:2018:BAR"
+  title: "Evolving Exact Decompilation"
+  authors:
+    - name: Eric Schulte
+    - name: Jason Ruchti
+    - name: Matt Noonan
+    - name: David Ciarletta
+    - name: Alexey Loginov
+  venue: "BAR"
+  year: 2018
+  type: Workshop
+  tags:
+    - SBSE
+  urls:
+    - https://www.ndss-symposium.org/ndss2018/bar-workshop-programme/
+    - https://github.com/nforest/awesome-decompilation
+  pdfs:
+    - https://www.ndss-symposium.org/wp-content/uploads/2018/07/bar2018_8_Schulte_paper.pdf
+    - http://www.cs.unm.edu/~eschulte/data/bed.pdf
+
 - key: "gi_dagstuhl_2018"
   title: "Genetic Improvement of Software: Report from Dagstuhl Seminar 18052"
   authors:
@@ -2205,6 +2406,23 @@
   pdfs:
     - http://drops.dagstuhl.de/opus/volltexte/2018/9287/pdf/dagrep_v008_i001_p158_18052.pdf
 
+- key: "oliveira:2018:ESE"
+  title: "Improved representation and genetic operators for linear genetic programming for automated program repair"
+  authors:
+    - name: Vinicius Paulo L. Oliveira
+    - name: Eduardo Faria de Souza
+    - name: Claire Le Goues
+    - name: Celso G. Camilo-Junior
+  venue: "ESE"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-017-9562-9
+  tags:
+    - APR
+  urls:
+    - https://www.researchgate.net/publication/322704893_Improved_representation_and_genetic_operators_for_linear_genetic_programming_for_automated_program_repair
+    - http://link.springer.com/article/10.1007/s10664-017-9562-9
+
 - key: "Basios:2018:FSE"
   title: "Darwinian Data Structure Selection"
   authors:
@@ -2221,23 +2439,6 @@
     - SBSE
   pdfs:
     - http://human-competitive.org/sites/default/files/artemis.pdf
-
-- key: "oliveira:2018:ESE"
-  title: "Improved representation and genetic operators for linear genetic programming for automated program repair"
-  authors:
-    - name: Vinicius Paulo L. Oliveira
-    - name: Eduardo Faria de Souza
-    - name: Claire Le Goues
-    - name: Celso G. Camilo-Junior
-  venue: "Empirical Software Engineering"
-  year: 2018
-  type: Journal
-  doi: https://doi.org/10.1007/s10664-017-9562-9
-  tags:
-    - APR
-  urls:
-    - https://www.researchgate.net/publication/322704893_Improved_representation_and_genetic_operators_for_linear_genetic_programming_for_automated_program_repair
-    - http://link.springer.com/article/10.1007/s10664-017-9562-9
 
 - key: "langdon:2018:EuroGP"
   title: "Evolving better RNAfold structure prediction"
@@ -2814,26 +3015,6 @@
   urls:
     - https://www.mdpi.com/2073-8994/10/4/92/pdf
 
-- key: "Schulte:2018:BAR"
-  title: "Evolving Exact Decompilation"
-  authors:
-    - name: Eric Schulte
-    - name: Jason Ruchti
-    - name: Matt Noonan
-    - name: David Ciarletta
-    - name: Alexey Loginov
-  venue: "Workshop on Binary Analysis Research"
-  year: 2018
-  type: Conference
-  tags:
-    - SBSE
-  urls:
-    - https://www.ndss-symposium.org/ndss2018/bar-workshop-programme/
-    - https://github.com/nforest/awesome-decompilation
-  pdfs:
-    - https://www.ndss-symposium.org/wp-content/uploads/2018/07/bar2018_8_Schulte_paper.pdf
-    - http://www.cs.unm.edu/~eschulte/data/bed.pdf
-
 - key: "bruce:RN1701"
   title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   authors:
@@ -3008,6 +3189,39 @@
   type: Journal
   doi: https://doi.org/10.1186/s13040-017-0149-1
 
+- key: "langdon:2017:ECCSB"
+  title: "Genetic Improvement of Computational Biology Software"
+  authors:
+    - name: William B. Langdon
+    - name: Karina Zile
+  venue: "ECCSB"
+  year: 2017
+  type: Workshop
+  doi: https://doi.org/10.1145/3067695.3082540
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
+
+- key: "Martinez:2017:ESE"
+  title: "Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset"
+  authors:
+    - name: Matias Martinez
+    - name: Thomas Durieux
+    - name: Romain Sommerard
+    - name: Jifeng Xuan
+    - name: Martin Monperrus
+  venue: "ESE"
+  year: 2017
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-016-9470-4
+  tags:
+    - APR
+  urls:
+    - https://hal.archives-ouvertes.fr/hal-01387556/
+  pdfs:
+    - https://hal.archives-ouvertes.fr/hal-01387556/automatic-repair-defects4j.pdf
+
 - key: "Le:2017:SSS"
   title: "S3: Syntax- and Semantic-guided Repair Synthesis via Programming by Examples"
   authors:
@@ -3024,25 +3238,6 @@
     - APR
   pdfs:
     - https://www.cs.cmu.edu/~clegoues/docs/legoues-esecfse17.pdf
-
-- key: "Martinez:2017:ESE"
-  title: "Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset"
-  authors:
-    - name: Matias Martinez
-    - name: Thomas Durieux
-    - name: Romain Sommerard
-    - name: Jifeng Xuan
-    - name: Martin Monperrus
-  venue: "Empirical Software Engineering"
-  year: 2017
-  type: Journal
-  doi: https://doi.org/10.1007/s10664-016-9470-4
-  tags:
-    - APR
-  urls:
-    - https://hal.archives-ouvertes.fr/hal-01387556/
-  pdfs:
-    - https://hal.archives-ouvertes.fr/hal-01387556/automatic-repair-defects4j.pdf
 
 - key: "Haraldsson:2017:EuroGP"
   title: "Exploring Fitness and Edit Distance of Mutated Python Programs"
@@ -3112,20 +3307,6 @@
     - http://eprints.whiterose.ac.uk/117964/
   pdfs:
     - http://eprints.whiterose.ac.uk/117964/1/polytypic_genetic_programming.pdf
-
-- key: "langdon:2017:ECCSB"
-  title: "Genetic Improvement of Computational Biology Software"
-  authors:
-    - name: William B. Langdon
-    - name: Karina Zile
-  venue: "Evolutionary Computation in Computational Biology"
-  year: 2017
-  type: Conference
-  doi: https://doi.org/10.1145/3067695.3082540
-  tags:
-    - SBSE
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
 
 - key: "Cody-Kenny:2017:GECCOa"
   title: "A Search for Improved Performance in Regular Expressions"
@@ -3804,7 +3985,7 @@
     - name: John R. Woodward
     - name: Colin G. Johnson
     - name: Alexander E. I. Brownlee
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931728
@@ -3818,7 +3999,7 @@
   authors:
     - name: Lukas Sekanina
     - name: Vlastimil Kapusta
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931740
@@ -4189,6 +4370,10 @@
   doi: https://doi.org/10.1007/978-3-319-47106-8_18
   tags:
     - SBSE
+  urls:
+    - https://github.com/BobbyRBruce/DPT-OpenCV
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Bruce_2016_SSBSE.pdf
 
 - key: "Lim:2016:SSBSE"
   title: "Field Report: Applying Monte Carlo Tree Search for Program Synthesis"
@@ -4693,6 +4878,8 @@
   tags:
     - AI
     - SBSE
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/pknotsGI.tar.gz
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/grow_and_graft_a_better_CUDA_pknotsRG-for-RNA_pseudoknot_free_energy_calculation.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_gi_pknots.pdf
@@ -4749,6 +4936,8 @@
   abstract: "We present locoGP, a Genetic Programming (GP) system written in Java for evolving Java source code. locoGP was designed to improve the performance of programs as measured in the number of operations executed. Variable test cases are used to maintain functional correctness during evolution. The operation of locoGP is demonstrated on a number of typically constructed off-the-shelf hand-written implementations of sort and prefix-code programs. locoGP was able to find improvement opportunities in all test problems."
   type: Workshop
   doi: https://doi.org/10.1145/2739482.2768419
+  urls:
+    - https://github.com/codykenb/locoGP/
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/locoGP_improving_performance_by_genetic_programming_java_source_code.pdf
 
@@ -5279,6 +5468,8 @@
   tags:
     - AI
     - SBSE
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/niftycuda.tar.gz
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2014_GECCO.pdf
 
@@ -5651,7 +5842,7 @@
   authors:
     - name: Erik M. Fredericks
     - name: Betty H. C. Cheng
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2480790
@@ -5665,7 +5856,7 @@
     - name: Michael Kommenda
     - name: Stefan Wagner
     - name: Heinz Dobler
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2482713
@@ -5893,6 +6084,7 @@
     - SBSE
     - testing
   urls:
+    - http://merlin.lib.umsystem.edu/record=b9387992~S5
     - http://hdl.handle.net/10355/26508
   pdfs:
     - https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/26508/Wilkerson_2012.pdf
@@ -6408,7 +6600,7 @@
   authors:
     - name: Michael Orlov
     - name: Moshe Sipper
-  venue: "Genetic Programming Theory and Practice VIII"
+  venue: "GPTP"
   year: 2010
   type: Collection
   doi: https://doi.org/10.1007/978-1-4419-7747-2_1
@@ -6524,7 +6716,7 @@
     - name: Francisco Fernandez
     - name: Oscar Garnica
     - name: Sonia Lopez
-  venue: "GECCO-comp"
+  venue: "GECCO-C"
   year: 2009
   type: Conference
   doi: https://doi.org/10.1145/1570256.1570271
