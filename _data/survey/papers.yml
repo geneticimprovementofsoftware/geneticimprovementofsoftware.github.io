@@ -63,6 +63,189 @@
   pdfs:
     - https://arxiv.org/pdf/2201.13305.pdf
 
+- key: "Krauss:2022:GI"
+  title: "Amaru - A Framework for combining Genetic Improvement with Pattern Mining"
+  authors:
+    - name: Oliver Krauss
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "We present Amaru, a framework for Genetic Improvement using Abstract Syntax Trees directly at the interpreter and compiler level. Amaru also enables the mining of frequent, discriminative patterns from Genetic Improvement populations. These patterns in turn can be used to improve the crossover and mutation operators to increase population diversity, reduce the number of individuals failing at run-time and increasing the amount of successful individuals."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534016
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Krauss_2022_GI.pdf
+
+- key: "Bruce:2022:GI"
+  title: "Automatically Exploring Computer System Design Spaces"
+  authors:
+    - name: Bobby R. Bruce
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "While much research has focused on using search to optimize software, it is possible to use these same approaches to optimise other parts of the computer system. With decreased costs in silicon customisation, and the return of centralized systems carrying out specialized tasks, the time is right to begin thinking about tools to optimize systems for the needs of specific software targets. In the approach outlined, the standard Genetic Improvement process is flipped with source code considered static and the remainder of the computer system altered to the needs of the software. The project proposed is preliminary research into incorporating grammar-based GP with an advanced computer architecture simulator to automatically design computer systems. I argue this approach has the potential to significantly improve the design of computer systems while reducing manual effort."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534021
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Bruce_2022_GI.pdf
+
+- key: "Licorish:2022:GI"
+  title: "Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study"
+  authors:
+    - name: Sherlock A. Licorish
+    - name: Markus Wagner
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Research studies are increasingly critical of publicly available code due to evidence of faults. This has led researchers to explore ways to improve such code, with static analysis and genetic code improvement previously singled out. Previous work has evaluated the feasibility of these techniques, using PMD and GIN for enhancing Stack Overflow code snippets. Results reported in this regard pointed to the potential of these techniques, especially in terms of GIN removal of PMD performance faults from 58 programs. We use a contextual lens to explore these mutations in this study, to evaluate the promise of these techniques. The outcomes show that while the programs were syntactically correct after GIN mutations, many of GIN mutations changed the semantics of the code, rendering its purpose questionable. However, certain code mutations tend to retain code semantics more than others. In addition, GINs mutations at times affected PMDs parsing ability, potentially increasing false negatives. Overall, while these approaches may prove useful, full utility may not be claimed at this time. For enhancing the outcomes of these approaches, we outline multiple strategies."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3533970
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Licorish_2022_GI.pdf
+
+- key: "Zuo:2022:GI"
+  title: "Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software"
+  authors:
+    - name: Shengjie Zuo
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Genetic improvement (GI) improves both functional properties of software, such as bug repair, and non-functional properties, such as execution time, energy consumption, or source code size. There are studies summarising and comparing GI tools for improving functional properties of software; however there is no such study for improvement of its non-functional properties using GI. Therefore, this research aims to survey and report on the existing GI tools for improvement of non-functional properties of software. We conducted a literature review of available GI tools, and ran multiple experiments on the found open-source tools to examine their usability. We applied a cross-testing strategy to check whether the available tools can work on different programs. Overall, we found 63 GI papers that use a GI tool to improve non-functional properties of software, within which 31 are accompanied with open-source code. We were able to successfully run nine GI tools, and found that ultimately only two, Gin and PyGGI, can be readily applied to new general software."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534004
+  tags:
+    - survey
+    - PyGGI
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zuo_2022_GI.pdf
+
+- key: "Li:2022:GI"
+  title: "Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences"
+  authors:
+    - name: Shuyue Stella Li
+    - name: Hannah Peeler
+    - name: Andrew N. Sloss
+    - name: Kenneth N. Reid
+    - name: Wolfgang Banzhaf
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Genetic Improvement is a search technique that aims to improve a given acceptable solution to a problem. In this paper, we present the novel use of genetic improvement to find problem-specific optimized LLVM Pass sequences. We develop a Pass-level edit representation in the linear genetic programming framework, Shackleton, to evolve the modifications to be applied to the default optimization Pass sequences. Our GI-evolved solution has a mean of 3.7percent runtime improvement compared to the default LLVM optimisation level -O3 which targets runtime. The proposed GI method provides an automatic way to find a problem-specific optimization sequence that improves upon a general solution without any expert domain knowledge. In this paper, we discuss the advantages and limitations of the GI feature in the Shackleton Framework and present our results."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534000
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Li_2022_GI.pdf
+
+- key: "AlNajar:2022:GI"
+  title: "Genetic Improvement of Shoreline Evolution Forecasting Models"
+  authors:
+    - name: Mahmoud Al Najar
+    - name: Rafael Almar
+    - name: Erwin W. J. Bergsma
+    - name: Jean-Marc Delvit
+    - name: Dennis G. Wilson
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Coastal development and climate change are changing the geography of our coasts, while more and more people are moving towards the coasts. Recent advances in artificial intelligence allow for automatic analysis of observational data. Cartesian Genetic Programming (CGP) is a form of Genetic Programming (GP) that has been successfully used in a large variety of tasks including data-driven symbolic regression. We formulate the problem of shoreline evolution forecasting as a Genetic Improvement (GI) problem using CGP to encode and improve upon ShoreFor, an equilibrium shoreline prediction model, to study the effectiveness of CGP in GI in forecasting tasks. This work presents an empirical study of the sensitivity of CGP to a number of evolutionary configurations and constraints and compares the performances of the evolved models to the base ShoreFor model."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534041
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/AlNajar_2022_GI.pdf
+
+- key: "Zhang:2022:GI"
+  title: "Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation"
+  authors:
+    - name: Yueke Zhang
+    - name: Yu Huang
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Decision making in automated GI-based software engineering tasks can significantly affect the performance of the system. However, modern SE usually presents high uncertainty in such decision making process due to the existence of multiple solutions that reply on different heuristics. We propose to apply the theory of Fuzzy System to obtain a final decision with lower uncertainty and higher accuracy. We also demonstrate a motivating example and discuss the challenges and opportunities for applying fuzzy system to SE tasks."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3533991
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhang_2022_GI.pdf
+
+- key: "Chuengsatiansup:2022:GI"
+  title: "Opportunities for Genetic Improvement of Cryptographic Code"
+  authors:
+    - name: Chitchanok Chuengsatiansup
+    - name: Markus Wagner
+    - name: Yuval Yarom
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Cryptography is one of the main tools underlying the security of our connected world. Cryptographic code must meet not only high security requirements, but also exhibit excellent non-functional properties, such as high performance and unique security requirements. As both automatic code generation and genetic improvement of such code are under explored, we motivate here what makes cryptographic code a prime target for future research."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534049
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Chuengsatiansup_2022_GI.pdf
+
+- key: "Zhong:2022:GI"
+  title: "Py2Cy: A Genetic Improvement Tool To Speed Up Python"
+  authors:
+    - name: James Zhong
+    - name: Max Hort
+    - name: Federica Sarro
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Due to it its ease of use and wide range of custom libraries, Python has quickly gained popularity and is nowadays used by a wide range of developers all over the world. While Python allows for fast writing of source code, the resulting programs are slow to execute when compared to programs written in other programming languages like C. One of the reasons for its slow execution time is the dynamic typing of variables. Cython is an extension to Python, which can achieve execution speed-ups by compiler optimization. One possibility for improvements is the use of static typing, which can be added to Python scripts by developers. To alleviate the need for manual effort, we create Py2Cy, a Genetic Improvement tool for automatically converting Python scripts to statically typed Cython scripts. To show the feasibility of improving runtime with Py2Cy, we optimize a Python script for generating Fibonacci numbers. The results show that Py2Cy is able to speed up the execution time by up to a factor of 9."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534037
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhong_2022_GI.pdf
+
+- key: "Murphy:2022:GI"
+  title: "The case for Grammatical Evolution in test generation"
+  authors:
+    - name: Aidan Murphy
+    - name: Thomas Laurent
+    - name: Anthony Ventresque
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "Generating tests for software is an important, but difficult, task. Search-based test generation is promising, as it reduces the time required from human experts, but suffers from many problems and limitations. Namely, the inability to fully incorporate a testers domain knowledge into the search, its difficulty in creating very complex objects, and the problems associated with variable length tests. This paper illustrates how Grammatical Evolution could address and provide a possible solution to each of these concerns."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3534042
+  tags:
+    - SBSE
+    - testing
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Murphy_2022_GI.pdf
+
+- key: "Anderson:2022:GI"
+  title: "Towards evolution-based autonomy in large-scale systems"
+  authors:
+    - name: Damien Anderson
+    - name: Paul Harvey
+    - name: Yusaku Kaneta
+    - name: Petros Papadopoulos
+    - name: Philip Rodgers
+    - name: Marc Roper
+  venue: "GI@GECCO"
+  year: 2022
+  abstract: "To achieve truly autonomous behaviour systems need to adapt to not only previously unseen circumstances but also previously unimagined ones. A hierarchical evolutionary system is proposed which is capable of displaying the emergent behaviour necessary to achieve this goal. This paper reports on the practical challenges encountered in implementing this proposed approach in a large-scale open-source system."
+  type: Workshop
+  doi: https://doi.org/10.1145/3520304.3533975
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Anderson_2022_GI.pdf
+
+- key: "Harman:2022:APR"
+  title: "Scaling Genetic Improvement and Automated Program Repair"
+  authors:
+    - name: Mark Harman
+  venue: "International Workshop on Automated Program Repair (APR'22)"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1145/3524459.3527353
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://research.facebook.com/publications/scaling-genetic-improvement-and-automated-program-repair/
+  pdfs:
+    - https://research.facebook.com/file/987372605236188/Scaling-Genetic-Improvement-and-Automated-Program-Repair.pdf
+  video:
+    - https://youtu.be/uAU_ySdEvks
+
 - key: "blot:hal-03595447"
   title: "Using Genetic Improvement to Optimise Optimisation Algorithm Implementations"
   authors:
@@ -79,6 +262,19 @@
     - https://hal.archives-ouvertes.fr/hal-03595447
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_roadef_2022.pdf
+
+- key: "Marginean_10137954_thesis_redacted"
+  title: "Automated Software Transplantation"
+  authors:
+    - name: Alexandru Marginean
+  venue: ""
+  year: 2021
+  type: PhdThesis
+  tags:
+    - APR
+    - SBSE
+  pdfs:
+    - https://discovery.ucl.ac.uk/id/eprint/10137954/1/Marginean_10137954_thesis_redacted.pdf
 
 - key: "Cambronero:thesis"
   title: "Mining Software Artifacts for use in Automated Machine Learning"
@@ -231,6 +427,34 @@
   year: 2021
   type: Journal
   doi: https://doi.org/10.1145/3453712
+
+- key: "DBLP:conf/ease/AhlgrenBDDGGHLL21"
+  title: "Facebook's Cyber-Cyber and Cyber-Physical Digital Twins"
+  authors:
+    - name: John Ahlgren
+    - name: Kinga Bojarczuk
+    - name: Sophia Drossopoulou
+    - name: Inna Dvortsova
+    - name: Johann George
+    - name: Natalija Gucevska
+    - name: Mark Harman
+    - name: Maria Lomeli
+    - name: Simon M. Lucas
+    - name: Erik Meijer
+    - name: Steve Omohundro
+    - name: Rubmary Rojas
+    - name: Silvia Sapora
+    - name: Norm Zhou
+  venue: "EASE 2021: Evaluation and Assessment in Software Engineering"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.1145/3463274.3463275
+  tags:
+    - SBSE
+  urls:
+    - https://research.facebook.com/publications/facebooks-cyber-cyber-and-cyber-physical-digital-twins/
+  pdfs:
+    - https://research.facebook.com/file/351440920108639/Facebooks-Cyber–Cyber-and-Cyber–Physical-Digital-Twins.pdf
 
 - key: "KHALILIAN:2021:ESA"
   title: "CGenProg: Adaptation of cartesian genetic programming with migration and opposite guesses for automatic repair of software regression faults"
@@ -1522,6 +1746,19 @@
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
   video:
     - https://www.youtube.com/watch?v=018oszfebqg
+
+- key: "DBLP:conf/vstte/BosamiyaGLPH20"
+  title: "Verified Transformations and Hoare Logic: Beautiful Proofs for Ugly Assembly Language"
+  authors:
+    - name: Jay Bosamiya
+    - name: Sydney Gibson
+    - name: Yao Li
+    - name: Bryan Parno
+    - name: Chris Hawblitzel
+  venue: "Software Verification - 12th International Conference, VSTTE 2020, and 13th International Workshop, NSV 2020"
+  year: 2020
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-030-63618-0_7
 
 - key: "Dong:2020:Symmetry"
   title: "Automated Program-Semantic Defect Repair and False-Positive Elimination without Side Effects"
