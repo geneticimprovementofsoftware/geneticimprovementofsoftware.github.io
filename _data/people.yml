@@ -29,6 +29,12 @@
 - name: Mahfouth Alghamdi
   dblp: https://dblp.org/pid/193/5204.html
 
+- name: Rafael Almar
+  scholar: https://scholar.google.com/citations?user=Jje_grYAAAAJ
+
+- name: Mahmoud Al Najar
+  homepage: https://www.linkedin.com/in/mahmoud-al-najar/
+
 - name: Nadia Alshahwan
   show: yes
   affil: Facebook London, United Kingdom
@@ -51,8 +57,14 @@
   tags:
     - PyGGI
 
+- name: Damien Anderson
+  homepage: https://www.strath.ac.uk/staff/andersondamienmr/
+
 - name: Sebastian Baltes
   homepage: https://empirical-software.engineering/
+
+- name: Wolfgang Banzhaf
+  homepage: https://www.cse.msu.edu/~banzhafw/
 
 - name: Earl T. Barr
   homepage: http://earlbarr.com/
@@ -68,8 +80,14 @@
 - name: Benoit Baudry
   homepage: https://softwarediversity.eu/
 
+- name: Michail Basios
+  homepage: https://www.linkedin.com/in/michail-basios-90410436/
+
 - name: Alexandre Bergel
   homepage: http://bergel.eu/
+
+- name: Erwin W. J. Bergsma
+  scholar: https://scholar.google.com/citations?user=Z3ClyIgAAAAJ
 
 - name: Aymeric Blot
   show: yes
@@ -116,6 +134,9 @@
   homepage: https://www.linkedin.com/in/james-callan-a79300135/
   img: /profile_images/james_callan.jpg
 
+- name: Chitchanok Chuengsatiansup
+  homepage: https://cs.adelaide.edu.au/~cchuengs/
+
 - name: John Clark
   homepage: https://www.sheffield.ac.uk/dcs/people/academic/john-clark
 
@@ -129,6 +150,9 @@
   aka:
     - Santanu Kumar Dash
   homepage: https://santanu.uk/
+
+- name: Jean-Marc Delvit
+  homepage: https://www.linkedin.com/in/jean-marc-delvit-a8a17a2a/
 
 - name: Byron DeVries
   homepage: http://www.byrondevries.com/
@@ -168,7 +192,7 @@
   affil: University of Hildesheim, Germany
   homepage: https://sse.uni-hildesheim.de/mitglieder/lea-kristin-gerling/
   dblp: https://dblp.org/pid/169/9528.html
-  scholar: https://scholar.google.com/citations?hl=en&user=Kj6H9-0AAAAJ
+  scholar: https://scholar.google.com/citations?user=Kj6H9-0AAAAJ
   img: /profile_images/lea_kristin_gerling_.jpg
 
 - name: Michael Gerten
@@ -181,7 +205,7 @@
   affil: Lancaster University, United Kingdom
   homepage: https://www.lancaster.ac.uk/scc/about-us/people/tracy-hall
   dblp: https://dblp.org/pid/69/3214.html
-  scholar: https://scholar.google.com/citations?hl=en&user=TPQhlqgAAAAJ
+  scholar: https://scholar.google.com/citations?user=TPQhlqgAAAAJ
   img: /profile_images/tracy_hall.jpg
 
 - name: Saemundur Haraldsson
@@ -192,11 +216,17 @@
   affil: University of Stirling, United Kingdom
   homepage: http://www.cs.stir.ac.uk/~soh/
   dblp: https://dblp.org/pid/148/1056.html#
-  scholar: https://scholar.google.com/citations?hl=en&user=ZD8qxc0AAAAJ
+  scholar: https://scholar.google.com/citations?user=ZD8qxc0AAAAJ
   img: /profile_images/saemundur_haraldsson.jpg
 
 - name: Mark Harman
   homepage: https://research.fb.com/people/harman-mark/
+
+- name: Paul Harvey
+  homepage: http://paul-harvey.org/
+
+- name: Max Hort
+  homepage: https://maxhort.github.io/
 
 - name: Yu Huang
   show: yes
@@ -226,8 +256,11 @@
   affil: University of Nottingham, United Kingdom
   homepage: http://www.cs.kent.ac.uk/people/staff/cgj
   dblp: https://dblp.org/pid/97/2460.html
-  scholar: https://scholar.google.com/citations?hl=en&user=6W7BtygAAAAJ
+  scholar: https://scholar.google.com/citations?user=6W7BtygAAAAJ
   img: /profile_images/colin_johnson.jpg
+
+- name: Yusaku Kaneta
+  homepage: https://sites.google.com/site/yusakukaneta/
 
 - name: Serkan Kirbas
   homepage: https://uk.linkedin.com/in/serkankirbas
@@ -257,6 +290,9 @@
 - name: Jason Landsborough
   homepage: https://www.linkedin.com/in/jason-landsborough-63096b77
 
+- name: Thomas Laurent
+  homepage: https://csl.ucd.ie/index.php/thomas-laurent/
+
 - name: James Lathrop
   aka:
     - James I. Lathrop
@@ -267,7 +303,7 @@
   affil: University of Melbourne, Australia
   homepage: https://cis.unimelb.edu.au/people/bach-le
   dblp: https://dblp.org/pid/167/6015.html
-  scholar: https://scholar.google.com/citations?hl=en&user=AUJWzE8AAAAJ
+  scholar: https://scholar.google.com/citations?user=AUJWzE8AAAAJ
   img: /profile_images/bach_le.jpg
 
 - name: Kevin Joseph Leach
@@ -278,18 +314,24 @@
 - name: Claire Le Goues
   homepage: https://clairelegoues.com/
 
+- name: Sherlock A. Licorish
+  homepage: https://www.otago.ac.nz/info-science/people/staff/sherlock-licorish.html
+
+- name: Shuyue Stella Li
+  homepage: https://stellali7.github.io/stellali/
+
 - name: Jhe-Yu Liou
-  scholar: https://scholar.google.com/citations?user=VQZnkGIAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=VQZnkGIAAAAJ
 
 - name: Roberto Erick Lopez Herrejon
   aka:
     - Roberto E. Lopez-Herrejon
-  scholar: https://scholar.google.com/citations?user=SsACdxUAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=SsACdxUAAAAJ
 
 - name: Víctor R. López-López
   aka:
     - Victor R. Lopez-Lopez
-  scholar: https://scholar.google.com/citations?user=UITzQScAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=UITzQScAAAAJ
 
 - name: Christopher McGowan
   homepage: https://uk.linkedin.com/in/christopher-mcgowan-2313a1b6
@@ -304,14 +346,14 @@
   homepage: https://www.linkedin.com/in/mohsen-mosayebi-276485177/
 
 - name: Vojtech Mrazek
-  scholar: https://scholar.google.com/citations?user=1arH2UwAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=1arH2UwAAAAJ
 
 - name: ThanhVu Nguyen
   show: yes
   affil: University of Nebraska-Lincoln, USA
   homepage: https://nguyenthanhvuh.github.io/
   dblp: https://dblp.org/pid/19/7057.html
-  scholar: https://scholar.google.com/citations?hl=en&user=TLcVQ-MAAAAJ
+  scholar: https://scholar.google.com/citations?user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
 
 - name: Vesna Nowack
@@ -332,11 +374,17 @@
   aka:
     - David A.N. Palacio
     - David Nader-Palacio
-  scholar: https://scholar.google.com/citations?user=9hZ1tgUAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=9hZ1tgUAAAAJ
+
+- name: Petros Papadopoulos
+  homepage: https://www.linkedin.com/in/petros-papadopoulos-49915ab/
 
 - name: Corina Pasareanu
   homepage: https://ti.arc.nasa.gov/profile/pcorina/
   img: /profile_images/corina_pasareanu.jpg
+
+- name: Hannah Peeler
+  homepage: https://www.linkedin.com/in/hannah-peeler-a4751bb2/
 
 - name: Justyna Petke
   show: yes
@@ -359,15 +407,27 @@
 - name: Brittany Reid
   scholar: https://scholar.google.com/citations?user=biWKuMUAAAAJ
 
+- name: Kenneth N. Reid
+  homepage: https://www.kenreid.co.uk/
+
 - name: Joseph Renzullo
-  scholar: https://scholar.google.com/citations?user=4Wdn0hoAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=4Wdn0hoAAAAJ
+
+- name: Philip Rodgers
+  homepage: https://www.linkedin.com/in/philip-rodgers-3a7943a7/
 
 - name: Mohammad Roohitavaf
-  scholar: https://scholar.google.com/citations?user=o-cCPNMAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=o-cCPNMAAAAJ
+
+- name: Marc Roper
+  homepage: https://www.strath.ac.uk/staff/ropermarcdr/
 
 - name: Abhik Roychoudhury
   homepage: http://www.comp.nus.edu.sg/~abhik/
   img: /profile_images/abhik_roychoudhury.jpg
+
+- name: Federica Sarro
+  homepage: http://www0.cs.ucl.ac.uk/staff/F.Sarro/
 
 - name: Eric Schulte
   show: yes
@@ -382,8 +442,11 @@
   affil: Huawei Research Center, Germany
   homepage: http://marija.skyresource.com/
   dblp: https://dblp.uni-trier.de/pid/167/0216.html
-  scholar: https://scholar.google.com/citations?hl=en&user=BAPCssIAAAAJ
+  scholar: https://scholar.google.com/citations?user=BAPCssIAAAAJ
   img: /profile_images/marija_selakovic.jpg
+
+- name: Andrew N. Sloss
+  homepage: https://www.linkedin.com/in/asloss/
 
 - name: Marta Smigielska
   homepage: https://www.linkedin.com/in/marta-smigielska-959661145/
@@ -408,7 +471,7 @@
   affil: Carnegie Mellon University, USA
   homepage: http://www.christimperley.co.uk/
   dblp: https://dblp.uni-trier.de/pid/205/1113.html
-  scholar: https://scholar.google.com/citations?hl=en&user=btEn24cAAAAJ
+  scholar: https://scholar.google.com/citations?user=btEn24cAAAAJ
   img: /profile_images/christopher_timperley.jpg
 
 - name: Christoph Treude
@@ -419,22 +482,25 @@
   affil: Instituto Tecnológico de Tijuana de Mexico/IT de Tijuana
   homepage: https://dcitectijuana.mx/
   dblp: https://dblp.uni-trier.de/pid/62/1755.html
-  scholar: https://scholar.google.com/citations?hl=en&user=xXh3xRYAAAAJ
+  scholar: https://scholar.google.com/citations?user=xXh3xRYAAAAJ
   img: /profile_images/leonardo_trujillo.jpg
 
 - name: Emamurho Ugherughe
   homepage: https://www.linkedin.com/in/emamurho
   img: /profile_images/emamurho_ugherughe.jpg
 
+- name: Anthony Ventresque
+  homepage: https://people.ucd.ie/anthony.ventresque
+
 - name: Nadarajen Veerapen
-  scholar: https://scholar.google.co.uk/citations?user=N-1KB5sAAAAJ&hl=en
+  scholar: https://scholar.google.co.uk/citations?user=N-1KB5sAAAAJ
 
 - name: Markus Wagner
   show: yes
   affil: University of Adelaide, Australia
   homepage: https://cs.adelaide.edu.au/users/markus/
   dblp: https://dblp.uni-trier.de/pid/94/7030-7.html
-  scholar: https://scholar.google.com/citations?hl=en&user=9cbh6PoAAAAJ
+  scholar: https://scholar.google.com/citations?user=9cbh6PoAAAAJ
   img: /profile_images/markus_wagner.jpg
   tags:
     - Gin
@@ -444,7 +510,7 @@
   affil: University of Michigan, USA
   homepage: https://web.eecs.umich.edu/~weimerw/
   dblp: https://dblp.uni-trier.de/pid/05/4127.html
-  scholar: https://scholar.google.com/citations?hl=en&user=Tj-vav8AAAAJ
+  scholar: https://scholar.google.com/citations?user=Tj-vav8AAAAJ
   img: /profile_images/westley_weimer.jpg
 
 - name: David R. White
@@ -452,6 +518,9 @@
     - David White
   homepage: https://davidrwhite.co.uk/
   img: /profile_images/david_white.jpg
+
+- name: Dennis G. Wilson
+  homepage: https://pagespro.isae-supaero.fr/dennis-wilson
 
 - name: Emily Winter
   show: yes
@@ -468,11 +537,11 @@
   affil: QMUL, United Kingdom
   homepage: http://www.eecs.qmul.ac.uk/~jwoodward/
   dblp: https://dblp.uni-trier.de/pid/47/2379.html
-  scholar: https://scholar.google.com/citations?hl=en&user=iZIjJ80AAAAJ
+  scholar: https://scholar.google.com/citations?user=iZIjJ80AAAAJ
   img: /profile_images/john_woodward.jpg
 
 - name: Fan Wu
-  homepage: https://scholar.google.co.uk/citations?user=p8z2_usAAAAJ&hl=en
+  homepage: https://scholar.google.co.uk/citations?user=p8z2_usAAAAJ
 
 - name: Qi Xin
   homepage: https://qixin5.github.io/
@@ -485,12 +554,18 @@
   affil: Wuhan University, China
   homepage: http://jifeng-xuan.com/
   dblp: https://dblp.uni-trier.de/pid/86/4142.html
-  scholar: https://scholar.google.com/citations?hl=en&user=G3xi5UkAAAAJ
+  scholar: https://scholar.google.com/citations?user=G3xi5UkAAAAJ
   img: /profile_images/jifeng_xuan.jpg
 
 - name: Bing Xue
   homepage: https://people.wgtn.ac.nz/Bing.Xue
   img: /profile_images/bing_xue.jpg
+
+- name: Yuval Yarom
+  homepage: https://cs.adelaide.edu.au/~yval/
+
+- name: Kwaku Yeboah-Antwi
+  homepage: https://www.linkedin.com/in/kwaku-yeboah-antwi/
 
 - name: Shin Yoo
   show: yes
@@ -515,6 +590,9 @@
     - Jie Marina Zhang
   homepage: https://sites.google.com/view/jie-zhang/home
   img: /profile_images/jie_zhang.jpg
+
+- name: James Zhong
+  homepage: https://www.linkedin.com/in/james-zhong-23443818b/
 
 - name: Ling Zhu
   homepage: https://linkedin.com/in/ling-zhu-a8098b15

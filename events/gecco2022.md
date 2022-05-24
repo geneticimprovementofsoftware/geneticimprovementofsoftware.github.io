@@ -75,6 +75,26 @@ His research interests include reducing the costs associated with software devel
 He is a senior member of the Association for Computing Machinery and his work has led to over fifteen thousand citations and several awards, including three ‘Humies’ and ICSE 2019 Most Influential paper for his work on using Genetic Improvement for bug fixing.
 
 
+## Accepted Papers
+
+{% assign entries = site.data.survey.papers | where: "venue", "GI@GECCO" | where: "year", 2022 %}
+{% for entry in entries %}
+
+<div>
+  <p>
+    <strong>{{ entry.title }}</strong><br/>
+    by {% for author in entry.authors %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == author.name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == author.name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}{% if match.homepage or match.scholar or match.dblp %}<a href="{{ match.homepage | default:  match.scholar | default:  match.dblp }}">{{ author.name }}</a>{% else %}<span class="text-nowrap">{{ author.name }}</span>{% endif %}{% endfor %}<br/>
+    {% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.video %}<a class="badge badge-danger" target="_blank" href="{{ url }}">VIDEO</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}
+  {% if entry.abstract %}
+    <span class="badge badge-secondary" style="cursor: pointer;" onclick="$(this).parent().siblings('.collapse').toggle()">Abstract</span>
+    <div class="card collapse"><div class="card-body text-justify">
+      {{ entry.abstract }}
+    </div></div>{% endif %}
+  </p>
+</div>
+{% endfor %}
+
+
 ## <a name="CFP"></a> Call For Submissions [[pdf]({{ "/paper_pdfs/gi2022gecco/call_for_papers.pdf" | relative_url }})]
 
 We invite submissions that discuss recent developments in all areas of research on, and applications of, Genetic Improvement.
