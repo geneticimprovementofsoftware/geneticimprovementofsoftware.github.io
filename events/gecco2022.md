@@ -41,6 +41,7 @@ reviewers:
   <figcaption class="figure-caption text-right">Financial District and Harbor, Boston</figcaption>
 </figure>
 
+Navigation: [Keynote](#keynote), [Accepted Papers](#accepted-papers), [Schedule](#schedule), [CFP](#CFP), [Workshops Chairs](#chairs), [PC](#pc)
 
 ## Event
 
@@ -93,6 +94,32 @@ He is a senior member of the Association for Computing Machinery and his work ha
   </p>
 </div>
 {% endfor %}
+
+
+## Schedule
+
+Times are shown in UTC; compare to your timezone [here](https://time.is/compare/UTC).  
+Presentations for full papers are 20 minutes long, followed by 5 minutes for questions.  
+Presentations for short papers consist of a 10 minute talk, followed by 5 minutes for questions.
+
+- TBD (110 mins)
+    - **Welcome** &mdash; Workshop chairs (5 mins)
+    - **Keynote speech** &mdash; *From Deep Learning to Human Judgments: Lessons for Genetic Improvement* &mdash; Westley Weimer (5+45+15 mins Q&A)
+    - **Long** &mdash; *Amaru: A Framework for Combining Genetic Improvement with Pattern Mining* &mdash; Oliver Krauss (20+5 mins)
+    - **Short** &mdash; *Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences* &mdash; Shuyue Stella Li, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf (10+5 mins)
+- TBD (110 mins)
+    - **Long** &mdash; *Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software* &mdash; Shengjie Zuo, Aymeric Blot, and Justyna Petke (20+5 mins)
+    - **Short** &mdash; *Opportunities for Genetic Improvement of Cryptographic Code* &mdash; Chitchanok Chuengsatiansup, Markus Wagner, and Yuval Yarom (10+5 mins)
+    - **Short** &mdash; *Towards evolution-based autonomy in large-scale systems* &mdash; Damien Anderson, Paul Harvey, Yusaku Kaneta, Petros Papadopoulos, Philip Rodgers, and Marc Roper (10+5 mins)
+    - **Long** &mdash; *Genetic Improvement of Shoreline Evolution Forecasting Models* &mdash; Mahmoud Al Najar, Rafael Almar, Erwin W. J. Bergsma, Jean-Marc Delvit, and Dennis G. Wilson (20+5 mins)
+    - **Short** &mdash; *The case for Grammatical Evolution in test generation* &mdash; Aidan Murphy, Thomas Laurent, and Anthony Ventresque (10+5 mins)
+    - **Short** &mdash; *Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation* &mdash; Yueke Zhang and Yu Huang (10+5 mins)
+- TBD (110 mins)
+    - **Long** &mdash; *Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study* &mdash; Sherlock A. Licorish and Markus Wagner (20+5 mins)
+    - **Long** &mdash; *Py2Cy: A Genetic Improvement Tool To Speed Up Python* &mdash; James Zhong and Max Hort, and Federica Sarro (20+5 mins)
+    - **Short** &mdash; *Automatically Exploring Computer System Design Spaces* &mdash; Bobby R. Bruce (10+5 mins)
+    - **Industry+Student+Faculty event** (40 mins)
+    - **Prizes &amp; Closing** (5 mins)
 
 
 ## <a name="CFP"></a> Call For Submissions [[pdf]({{ "/paper_pdfs/gi2022gecco/call_for_papers.pdf" | relative_url }})]
