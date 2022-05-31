@@ -59,6 +59,8 @@ The 11th instalment of the GI workshop with next year Genetic and Evolutionary C
 - **Workshop**: TBD
 
 
+Keep up to date with the latest event news via our Twitter: <https://twitter.com/gi_of_software>.
+
 ## Keynote
 
 <figure class="figure float-right" style="margin: auto 0.5em;">
