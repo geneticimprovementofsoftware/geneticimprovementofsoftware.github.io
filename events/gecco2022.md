@@ -41,6 +41,7 @@ reviewers:
   <figcaption class="figure-caption text-right">Financial District and Harbor, Boston</figcaption>
 </figure>
 
+Navigation: [Keynote](#keynote), [Accepted Papers](#accepted-papers), [Schedule](#schedule), [CFP](#CFP), [Workshops Chairs](#chairs), [PC](#pc)
 
 ## Event
 
@@ -69,11 +70,58 @@ Keep up to date with the latest event news via our Twitter: <https://twitter.com
 </figure>
 
 
-We are happy to announce that [Westley Weimer](https://web.eecs.umich.edu/~weimerw/) (University of Michigan, USA) will give the keynote speech in GI@GECCO 2022.
+We are happy to announce that [Westley Weimer](https://web.eecs.umich.edu/~weimerw/) (University of Michigan, USA) will give the keynote speech in GI@GECCO 2022: **From Deep Learning to Human Judgments: Lessons for Genetic Improvement**.  
+_Many new techniques and evaluation approaches are being considered in subfields like automated program repair or manual program improvement, but they have not yet translated to popular success in the subfield of Genetic Improvement. For example, automated program repair researchers are increasingly considering deep neural network or neural machine translation approaches to fix defects -- approaches which may seem, at first glance, to be incompatible with genetic methods. Similarly, there has been an increasing use of advanced measurements, such as eye tracking or medical imaging, or experimental designs, such as the use of deception, in the evaluation of bug-fixing patches -- but those evaluations are not as common for genetic improvement. This keynote address summarizes some recent techniques, placing them in a GI context and arguing that many of these techniques are compatible with a continuous notion of genetic improvement (as opposed to a discrete notion of program repair). This keynote also summarizes recent evaluations and their use in the field, as well as lessons that can be learned from industrial deployments (e.g., from Facebook to Fujitsu to Bloomberg) about human trust and acceptability. It concludes with a call to arms about the potential impact of Genetic Improvement._
 
 Prof. Westley Weimer received his PhD from the University of California at Berkeley.
 His research interests include reducing the costs associated with software development at scale (particularly through automated program repair) as well as program analysis, formal verification, and human linguistic and visual interaction with software.
 He is a senior member of the Association for Computing Machinery and his work has led to over fifteen thousand citations and several awards, including three ‘Humies’ and ICSE 2019 Most Influential paper for his work on using Genetic Improvement for bug fixing.
+
+
+## Accepted Papers
+
+{% assign entries = site.data.survey.papers | where: "venue", "GI@GECCO" | where: "year", 2022 %}
+{% for entry in entries %}
+
+<div>
+  <p>
+    <strong>{{ entry.title }}</strong><br/>
+    by {% for author in entry.authors %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == author.name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == author.name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}{% if match.homepage or match.scholar or match.dblp %}<a href="{{ match.homepage | default:  match.scholar | default:  match.dblp }}">{{ author.name }}</a>{% else %}<span class="text-nowrap">{{ author.name }}</span>{% endif %}{% endfor %}<br/>
+    {% if entry.doi %}<a class="badge badge-primary" href="{{ entry.doi }}">DOI</a>{% endif %} {% if entry.bib %}<a href="{{ entry.bib }}">[bib]</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.video %}<a class="badge badge-danger" target="_blank" href="{{ url }}">VIDEO</a> {% endfor %} {% for url in entry.urls %}<a class="badge badge-warning" href="{{ url }}">URL</a> {% endfor %}
+  {% if entry.abstract %}
+    <span class="badge badge-secondary" style="cursor: pointer;" onclick="$(this).parent().siblings('.collapse').toggle()">Abstract</span>
+    <div class="card collapse"><div class="card-body text-justify">
+      {{ entry.abstract }}
+    </div></div>{% endif %}
+  </p>
+</div>
+{% endfor %}
+
+
+## Schedule
+
+Times are shown in UTC; compare to your timezone [here](https://time.is/compare/UTC).  
+Presentations for full papers are 20 minutes long, followed by 5 minutes for questions.  
+Presentations for short papers consist of a 10 minute talk, followed by 5 minutes for questions.
+
+- TBD (110 mins)
+    - **Welcome** &mdash; Workshop chairs (5 mins)
+    - **Keynote speech** &mdash; *From Deep Learning to Human Judgments: Lessons for Genetic Improvement* &mdash; Westley Weimer (5+45+15 mins Q&A)
+    - **Long** &mdash; *Amaru: A Framework for Combining Genetic Improvement with Pattern Mining* &mdash; Oliver Krauss (20+5 mins)
+    - **Short** &mdash; *Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences* &mdash; Shuyue Stella Li, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf (10+5 mins)
+- TBD (110 mins)
+    - **Long** &mdash; *Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software* &mdash; Shengjie Zuo, Aymeric Blot, and Justyna Petke (20+5 mins)
+    - **Short** &mdash; *Opportunities for Genetic Improvement of Cryptographic Code* &mdash; Chitchanok Chuengsatiansup, Markus Wagner, and Yuval Yarom (10+5 mins)
+    - **Short** &mdash; *Towards evolution-based autonomy in large-scale systems* &mdash; Damien Anderson, Paul Harvey, Yusaku Kaneta, Petros Papadopoulos, Philip Rodgers, and Marc Roper (10+5 mins)
+    - **Long** &mdash; *Genetic Improvement of Shoreline Evolution Forecasting Models* &mdash; Mahmoud Al Najar, Rafael Almar, Erwin W. J. Bergsma, Jean-Marc Delvit, and Dennis G. Wilson (20+5 mins)
+    - **Short** &mdash; *The case for Grammatical Evolution in test generation* &mdash; Aidan Murphy, Thomas Laurent, and Anthony Ventresque (10+5 mins)
+    - **Short** &mdash; *Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation* &mdash; Yueke Zhang and Yu Huang (10+5 mins)
+- TBD (110 mins)
+    - **Long** &mdash; *Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study* &mdash; Sherlock A. Licorish and Markus Wagner (20+5 mins)
+    - **Long** &mdash; *Py2Cy: A Genetic Improvement Tool To Speed Up Python* &mdash; James Zhong and Max Hort, and Federica Sarro (20+5 mins)
+    - **Short** &mdash; *Automatically Exploring Computer System Design Spaces* &mdash; Bobby R. Bruce (10+5 mins)
+    - **Industry+Student+Faculty event** (40 mins)
+    - **Prizes &amp; Closing** (5 mins)
 
 
 ## <a name="CFP"></a> Call For Submissions [[pdf]({{ "/paper_pdfs/gi2022gecco/call_for_papers.pdf" | relative_url }})]
@@ -95,6 +143,8 @@ We invite submissions of two paper types:
 - Research papers (eight page limit, *excluding* references)
 - Position papers (two page limit, including references)
 
+The **<i class="fas fa-award"></i> best paper** and **<i class="fas fa-award"></i> best presentation** will be awarded during the workshop.
+
 Detailed formatting instructions for authors are listed [here](https://gecco-2022.sigevo.org/Paper-Submission-Instructions).  
 We encourage authors to submit early and in-progress work.
 The workshop emphasises interaction and discussion.
@@ -102,6 +152,20 @@ The workshop emphasises interaction and discussion.
 Papers must be submitted through the paper submission website: [https://ssl.linklings.net/conferences/gecco/](https://ssl.linklings.net/conferences/gecco/)  
 These papers will be reviewed in a double-blind manner.  
 All accepted papers must be presented at GI-2022 and will appear in the GECCO companion volume.
+
+As a published ACM author, you and your co-authors are subject to all ACM Publications Policies ([https://www.acm.org/publications/policies/toc](https://www.acm.org/publications/policies/toc)), including ACM's new Publications Policy on Research Involving Human Participants and Subjects ([https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects)).
+
+
+## <a name="bursaries"></a> Funding Opportunity For Students
+
+We will support up to 5 students by offering to partially reimburse (up to $250 each) registration and travel costs for GECCO and all associated workshops for students whose work is accepted to the GI workshop.
+Priority will be given based on the student’s need and submission quality.
+
+Students applying for a scholarship should submit a first-author regular paper to the workshop (up to 8 pages long) and plan to present their work in Boston in person.
+Moreover, their supervisor should send a one-paragraph note of recommendation to [bbruce@ucdavis.edu](mailto:bbruce@ucdavis.edu) listing:
+- the student’s area of work.
+- the supervisor’s support of the student’s application.
+
 
 
 ## <a name="chairs"></a> Workshop Chairs
