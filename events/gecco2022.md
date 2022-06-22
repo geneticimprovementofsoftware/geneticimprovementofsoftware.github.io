@@ -47,20 +47,20 @@ Navigation: [Keynote](#keynote), [Accepted Papers](#accepted-papers), [Schedule]
 
 The 11th instalment of the GI workshop with next year Genetic and Evolutionary Computation Conference, [GECCO 2022](https://gecco-2022.sigevo.org/HomePage), which will take place in Boston on July 9-13.
 
-
 <div class="alert alert-primary" role="alert">
   There will also be a tutorial on GI at GECCO 2022 (<a href="https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.">see details</a>)
 </div>
+
 
 ## Important Dates
 
 - **Submission Deadline**: 11 April 2022 (Mon)
 - **Notification**: 25 April 2022 (Mon)
 - **Camera-ready**: 2 May 2022 (Mon)
-- **Workshop**: TBD
-
+- **Workshop**: 9 July 2022 (Sat)
 
 Keep up to date with the latest event news via our Twitter: <https://twitter.com/gi_of_software>.
+
 
 ## Keynote
 
@@ -100,28 +100,28 @@ He is a senior member of the Association for Computing Machinery and his work ha
 
 ## Schedule
 
-Times are shown in UTC; compare to your timezone [here](https://time.is/compare/UTC).  
+This schedule appears in Boston's time zone (UTC/GMT-4, Eastern Daylight Time); compare to your timezone [here](https://time.is/compare/Boston).  
 Presentations for full papers are 20 minutes long, followed by 5 minutes for questions.  
 Presentations for short papers consist of a 10 minute talk, followed by 5 minutes for questions.
 
-- TBD (110 mins)
-    - **Welcome** &mdash; Workshop chairs (5 mins)
-    - **Keynote speech** &mdash; *From Deep Learning to Human Judgments: Lessons for Genetic Improvement* &mdash; **Westley Weimer** (5+45+15 mins Q&A)
-    - *Amaru: A Framework for Combining Genetic Improvement with Pattern Mining* &mdash; **Oliver Krauss** (20+5 mins)
-    - *Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences* &mdash; **Shuyue Stella Li**, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf (10+5 mins)
-- TBD (110 mins)
-    - *Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software* &mdash; Shengjie Zuo, **Aymeric Blot**, and Justyna Petke (20+5 mins)
-    - *Opportunities for Genetic Improvement of Cryptographic Code* &mdash; Chitchanok Chuengsatiansup, Markus Wagner, and **Yuval Yarom** (10+5 mins)
-    - *Towards evolution-based autonomy in large-scale systems* &mdash; **Damien Anderson**, Paul Harvey, **Yusaku Kaneta**, Petros Papadopoulos, **Philip Rodgers**, and Marc Roper (10+5 mins)
-    - *Genetic Improvement of Shoreline Evolution Forecasting Models* &mdash; **Mahmoud Al Najar**, Rafael Almar, Erwin W. J. Bergsma, Jean-Marc Delvit, and Dennis G. Wilson (20+5 mins)
-    - *The case for Grammatical Evolution in test generation* &mdash; **Aidan Murphy**, Thomas Laurent, and Anthony Ventresque (10+5 mins)
-    - *Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation* &mdash; **Yueke Zhang** and Yu Huang (10+5 mins)
-- TBD (110 mins)
-    - *Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study* &mdash; Sherlock A. Licorish and **Markus Wagner** (20+5 mins)
-    - *Py2Cy: A Genetic Improvement Tool To Speed Up Python* &mdash; **James Zhong**, **Max Hort**, and Federica Sarro (20+5 mins)
-    - *Automatically Exploring Computer System Design Spaces* &mdash; **Bobby R. Bruce** (10+5 mins)
-    - **Industry+Student+Faculty event** &mdash; Open discussion (40 mins)
-    - **Prizes &amp; Closing** &mdash; Workshop chairs (5 mins)
+- Saturday, July 09, 10:50--12:40 (110 mins)
+    - [10:50](https://time.is/1050_09_Jul_2022_in_Boston): **Welcome** &mdash; Workshop chairs (5 mins)
+    - [10:55](https://time.is/1055_09_Jul_2022_in_Boston): **Keynote speech** &mdash; *From Deep Learning to Human Judgments: Lessons for Genetic Improvement* &mdash; **Westley Weimer** (5+45+15 mins Q&A)
+    - [12:00](https://time.is/1200_09_Jul_2022_in_Boston): *Amaru: A Framework for Combining Genetic Improvement with Pattern Mining* &mdash; **Oliver Krauss** (20+5 mins)
+    - [12:25](https://time.is/1225_09_Jul_2022_in_Boston): *Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences* &mdash; **Shuyue Stella Li**, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf (10+5 mins)
+- Saturday, July 09, 13:40--15:30 (110 mins)
+    - [13:40](https://time.is/1340_09_Jul_2022_in_Boston): *Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software* &mdash; Shengjie Zuo, **Aymeric Blot**, and Justyna Petke (20+5 mins)
+    - [14:05](https://time.is/1405_09_Jul_2022_in_Boston): *Opportunities for Genetic Improvement of Cryptographic Code* &mdash; Chitchanok Chuengsatiansup, Markus Wagner, and **Yuval Yarom** (10+5 mins)
+    - [14:20](https://time.is/1420_09_Jul_2022_in_Boston): *Towards evolution-based autonomy in large-scale systems* &mdash; **Damien Anderson**, Paul Harvey, **Yusaku Kaneta**, Petros Papadopoulos, **Philip Rodgers**, and Marc Roper (10+5 mins)
+    - [14:35](https://time.is/1435_09_Jul_2022_in_Boston): *Genetic Improvement of Shoreline Evolution Forecasting Models* &mdash; **Mahmoud Al Najar**, Rafael Almar, Erwin W. J. Bergsma, Jean-Marc Delvit, and Dennis G. Wilson (20+5 mins)
+    - [15:00](https://time.is/1500_09_Jul_2022_in_Boston): *The case for Grammatical Evolution in test generation* &mdash; **Aidan Murphy**, Thomas Laurent, and Anthony Ventresque (10+5 mins)
+    - [15:15](https://time.is/1515_09_Jul_2022_in_Boston): *Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation* &mdash; **Yueke Zhang** and Yu Huang (10+5 mins)
+- Saturday, July 09, 16:00--17:50 (110 mins)
+    - [16:00](https://time.is/1600_09_Jul_2022_in_Boston): *Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study* &mdash; Sherlock A. Licorish and **Markus Wagner** (20+5 mins)
+    - [16:25](https://time.is/1625_09_Jul_2022_in_Boston): *Py2Cy: A Genetic Improvement Tool To Speed Up Python* &mdash; **James Zhong**, **Max Hort**, and Federica Sarro (20+5 mins)
+    - [16:50](https://time.is/1650_09_Jul_2022_in_Boston): *Automatically Exploring Computer System Design Spaces* &mdash; **Bobby R. Bruce** (10+5 mins)
+    - [17:05](https://time.is/1705_09_Jul_2022_in_Boston): **Industry+Student+Faculty event** &mdash; Open discussion (40 mins)
+    - [17:45](https://time.is/1745_09_Jul_2022_in_Boston): **Prizes &amp; Closing** &mdash; Workshop chairs (5 mins)
 
 
 ## <a name="CFP"></a> Call For Submissions [[pdf]({{ "/paper_pdfs/gi2022gecco/call_for_papers.pdf" | relative_url }})]
