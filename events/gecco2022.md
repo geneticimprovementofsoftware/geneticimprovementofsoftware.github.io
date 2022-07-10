@@ -45,11 +45,16 @@ Navigation: [Keynote](#keynote), [Accepted Papers](#accepted-papers), [Schedule]
 
 ## Event
 
-The 11th instalment of the GI workshop with next year Genetic and Evolutionary Computation Conference, [GECCO 2022](https://gecco-2022.sigevo.org/HomePage), which will take place in Boston on July 9-13.
+The 11th instalment of the GI workshop took place in Boston on 9 July 2022, collocated with the Genetic and Evolutionary Computation Conference, [GECCO 2022](https://gecco-2022.sigevo.org/HomePage).
 
+- **<span style="color:#C9B037"><i class="fas fa-award"></i> best paper award</span>: Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software** &mdash; Shengjie Zuo, Aymeric Blot, and Justyna Petke
+- **<span style="color:#C9B037"><i class="fas fa-award"></i> best presentation award</span>: Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences** &mdash; Shuyue Stella Li, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf
+
+{% comment %}
 <div class="alert alert-primary" role="alert">
   There will also be a tutorial on GI at GECCO 2022 (<a href="https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.">see details</a>)
 </div>
+{% endcomment %}
 
 
 ## Important Dates

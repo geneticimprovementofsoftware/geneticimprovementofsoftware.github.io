@@ -27,7 +27,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 ## News
 
-* The [11th International Workshop on Genetic Improvement](events/gecco2022) will take place at [GECCO 2022](https://gecco-2022.sigevo.org/), together with a [GI tutorial](https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.).
+* The [11th International Workshop on Genetic Improvement](events/gecco2022) took place at [GECCO 2022](https://gecco-2022.sigevo.org/), together with a [GI tutorial](https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.).
 * The [10th International Workshop on Genetic Improvement](events/icse2021) took place at [ICSE 2021](https://conf.researchr.org/home/icse-2021).
 * There was a [GI tutorial at ASE 2020](events/ase2020).
 * There was a [tutorial on Genetic Improvement](https://ppsn2020.liacs.leidenuniv.nl/tutorials/) at PPSN 2020. [Slides can be obtained here](./slides/PPSN2020_GItutorial.pdf).
