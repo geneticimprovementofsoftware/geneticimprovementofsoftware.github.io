@@ -56,6 +56,11 @@ The 11th instalment of the GI workshop took place in Boston on 9 July 2022, coll
 </div>
 {% endcomment %}
 
+Group photo:
+<figure class="figure">
+  <img class="figure-img img-fluid" src="{{ "/workshop_photos/gi2022gecco/group_photo.png" | relative_url }}">
+</figure>
+
 
 ## Important Dates
 
