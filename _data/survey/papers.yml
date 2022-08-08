@@ -200,6 +200,7 @@
     - https://oliver-krauss.github.io/amaru/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Krauss_2022_GI.pdf
+    - /slides/gi2022gecco/krauss-framework-for-combining-gi-gecco-22.pdf
 
 - key: "Bruce:2022:GI"
   title: "Automatically Exploring Computer System Design Spaces"
@@ -214,6 +215,7 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Bruce_2022_GI.pdf
+    - /slides/gi2022gecco/bruce-automatically-exploring-computer-gi-gecco-22.pdf
 
 - key: "Licorish:2022:GI"
   title: "Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study"
@@ -230,6 +232,7 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Licorish_2022_GI.pdf
+    - /slides/gi2022gecco/wagner-dissecting-copy-delete-replace-swap-gi-gecco-22.pdf
 
 - key: "Zuo:2022:GI"
   title: "Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software"
@@ -269,6 +272,7 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Li_2022_GI.pdf
     - https://arxiv.org/pdf/2204.13261.pdf
+    - /slides/gi2022gecco/li-genetic-improvement-in-the-shackleton-gi-gecco-22.pdf
 
 - key: "AlNajar:2022:GI"
   title: "Genetic Improvement of Shoreline Evolution Forecasting Models"
@@ -285,6 +289,7 @@
   doi: https://doi.org/10.1145/3520304.3534041
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/AlNajar_2022_GI.pdf
+    - /slides/gi2022gecco/najar-genetic-improvement-of-shoreline-evolution-forecasting-gi-gecco-22.pdf
 
 - key: "Zhang:2022:GI"
   title: "Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation"
@@ -298,6 +303,7 @@
   doi: https://doi.org/10.1145/3520304.3533991
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhang_2022_GI.pdf
+    - /slides/gi2022gecco/zhang-leveraging-fuzzy-system-gi-gecco-22.pdf
 
 - key: "Chuengsatiansup:2022:GI"
   title: "Opportunities for Genetic Improvement of Cryptographic Code"
@@ -312,6 +318,7 @@
   doi: https://doi.org/10.1145/3520304.3534049
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Chuengsatiansup_2022_GI.pdf
+    - /slides/gi2022gecco/chuengsatiansup-opportunities-for-genetic-gi-gecco-22.pdf
 
 - key: "Zhong:2022:GI"
   title: "Py2Cy: A Genetic Improvement Tool To Speed Up Python"
@@ -330,6 +337,7 @@
     - https://github.com/SOLAR-group/Py2Cy
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhong_2022_GI.pdf
+    - /slides/gi2022gecco/zhong-py2cy-gi-gecco-22.pdf
 
 - key: "Murphy:2022:GI"
   title: "The case for Grammatical Evolution in test generation"
@@ -347,6 +355,7 @@
     - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Murphy_2022_GI.pdf
+    - /slides/gi2022gecco/murphy-case-for-grammatical-evolution-gi-gecco-22.pdf
 
 - key: "Anderson:2022:GI"
   title: "Towards evolution-based autonomy in large-scale systems"
@@ -364,6 +373,7 @@
   doi: https://doi.org/10.1145/3520304.3533975
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Anderson_2022_GI.pdf
+    - /slides/gi2022gecco/anderson-towards-evolutionary-based-autonomy-gi-gecco-22.pdf
 
 - key: "Harman:2022:APR"
   title: "Scaling Genetic Improvement and Automated Program Repair"
