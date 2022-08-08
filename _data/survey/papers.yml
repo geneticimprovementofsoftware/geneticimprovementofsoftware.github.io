@@ -1,3 +1,13 @@
+- key: "Rainford:2022:TELO"
+  title: "Code and Data Synthesis for Genetic Improvement in Emergent Software Systems"
+  authors:
+    - name: Penny Faulkner Rainford
+    - name: Barry Porter
+  venue: "ACM TELO"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1145/3542823
+
 - key: "callan2022"
   title: "How Do Android Developers Improve Non-Functional Properties of Software?"
   authors:
@@ -29,6 +39,56 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
 
+- key: "Winter:TSE"
+  title: "Let's Talk With Developers, Not About Developers: A Review of Automatic Program Repair Research"
+  authors:
+    - name: Emily Rowan Winter
+    - name: Vesna Nowack
+    - name: David Bowes
+    - name: Steve Counsell
+    - name: Tracy Hall
+    - name: Saemundur O Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: John Woodward
+      aka: John R. Woodward
+  venue: "IEEE TSE"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2022.3152089
+  tags:
+    - APR
+  urls:
+    - http://www.research.lancs.ac.uk/portal/en/publications/-(00152abe-459f-4864-8133-80198ea69fba).html
+
+- key: "Krauss:thesis"
+  title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
+  authors:
+    - name: Oliver Krauss
+  venue: ""
+  year: 2022
+  type: PhdThesis
+  tags:
+    - SBSE
+  urls:
+    - https://ssw.jku.at/Teaching/PhDTheses/Krauss/index.html
+  pdfs:
+    - https://ssw.jku.at/Teaching/PhDTheses/Krauss/Dissertation%20Krauss.pdf
+
+- key: "Rainford:2022:ALife"
+  title: "Lineage Selection in Mixed Populations for Genetic Improvement"
+  authors:
+    - name: Penny Faulkner Rainford
+    - name: Barry Porter
+  venue: "ALIFE"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1162/isal_a_00494
+  tags:
+    - SBSE
+  urls:
+    - https://direct.mit.edu/isal/proceedings/isal/34/16/112318
+    - http://www.projectdana.com/research/alife2022rainford
+
 - key: "poliansky:2022:AS"
   title: "From Requirements to Source Code: Evolution of Behavioral Programs"
   authors:
@@ -40,7 +100,61 @@
   type: Journal
   doi: https://doi.org/10.3390/app12031587
   urls:
+    - https://www.human-competitive.org/sites/default/files/poliansky-sipper-elyasaf-humies-2022.txt
     - https://www.mdpi.com/2076-3417/12/3/1587
+
+- key: "Mesecan:2022:ASE"
+  title: "Keeping Secrets: Multi-objective Genetic Improvement forDetecting and Reducing Information Leakage"
+  authors:
+    - name: Ibrahim Mesecan
+    - name: Daniel Blackwell
+    - name: David Clark
+    - name: Myra B. Cohen
+    - name: Justyna Petke
+  venue: "ASE"
+  year: 2022
+  type: Conference
+  tags:
+    - APR
+    - SBSE
+    - PyGGI
+  urls:
+    - https://github.com/anonymous183459/LeakReducer/
+  pdfs:
+    - https://discovery.ucl.ac.uk/id/eprint/10152572/1/main.pdf
+
+- key: "Lehman:2022:ELM"
+  title: "Evolution through Large Models"
+  authors:
+    - name: Joel Lehman
+    - name: Jonathan Gordon
+    - name: Shawn Jain
+    - name: Kamal Ndousse
+    - name: Cathy Yeh
+    - name: Kenneth O. Stanley
+  venue: "ArXiV"
+  year: 2022
+  type: Archive
+  tags:
+    - APR
+  urls:
+    - https://arxiv.org/abs/2206.08896
+    - https://y2u.be/8C2K5fk28HI
+  pdfs:
+    - https://arxiv.org/pdf/2206.08896.pdf
+
+- key: "DBLP:journals/corr/abs-2202-01490"
+  title: "On the Utility of Marrying GIN and PMD for Improving Stack Overflow Code Snippets"
+  authors:
+    - name: Sherlock A. Licorish
+    - name: Markus Wagner
+  venue: "ArXiV"
+  year: 2022
+  type: Archive
+  urls:
+    - https://arxiv.org/abs/2202.01490
+  pdfs:
+    - https://arxiv.org/pdf/2202.01490.pdf
 
 - key: "peeler2022optimizing"
   title: "Optimizing LLVM Pass Sequences with Shackleton: A Linear Genetic Programming Framework"
@@ -63,6 +177,16 @@
   pdfs:
     - https://arxiv.org/pdf/2201.13305.pdf
 
+- key: "rainford:2022:GECCO"
+  title: "Using Phylogenetic Analysis to Enhance Genetic Improvement"
+  authors:
+    - name: Penny Rainford
+    - name: Barry Porter
+  venue: "GECCO"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1145/3512290.3528789
+
 - key: "Krauss:2022:GI"
   title: "Amaru - A Framework for combining Genetic Improvement with Pattern Mining"
   authors:
@@ -72,6 +196,8 @@
   abstract: "We present Amaru, a framework for Genetic Improvement using Abstract Syntax Trees directly at the interpreter and compiler level. Amaru also enables the mining of frequent, discriminative patterns from Genetic Improvement populations. These patterns in turn can be used to improve the crossover and mutation operators to increase population diversity, reduce the number of individuals failing at run-time and increasing the amount of successful individuals."
   type: Workshop
   doi: https://doi.org/10.1145/3520304.3534016
+  urls:
+    - https://oliver-krauss.github.io/amaru/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Krauss_2022_GI.pdf
 
@@ -81,7 +207,7 @@
     - name: Bobby R. Bruce
   venue: "GI@GECCO"
   year: 2022
-  abstract: "While much research has focused on using search to optimize software, it is possible to use these same approaches to optimise other parts of the computer system. With decreased costs in silicon customisation, and the return of centralized systems carrying out specialized tasks, the time is right to begin thinking about tools to optimize systems for the needs of specific software targets. In the approach outlined, the standard Genetic Improvement process is flipped with source code considered static and the remainder of the computer system altered to the needs of the software. The project proposed is preliminary research into incorporating grammar-based GP with an advanced computer architecture simulator to automatically design computer systems. I argue this approach has the potential to significantly improve the design of computer systems while reducing manual effort."
+  abstract: "While much research has focused on using search to optimize software, it is possible to use these same approaches to optimise other parts of the computer system. With decreased costs in silicon customisation, and the return of centralized systems carrying out specialized tasks, the time is right to begin thinking about tools to optimise systems for the needs of specific software targets. In the approach outlined, the standard Genetic Improvement process is flipped with source code considered static and the remainder of the computer system altered to the needs of the software. The project proposed is preliminary research into incorporating grammar-based GP with an advanced computer architecture simulator to automatically design computer systems. I argue this approach has the potential to significantly improve the design of computer systems while reducing manual effort."
   type: Workshop
   doi: https://doi.org/10.1145/3520304.3534021
   tags:
@@ -100,6 +226,7 @@
   type: Workshop
   doi: https://doi.org/10.1145/3520304.3533970
   tags:
+    - APR
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Licorish_2022_GI.pdf
@@ -118,6 +245,8 @@
   tags:
     - survey
     - PyGGI
+  urls:
+    - http://geneticimprovementofsoftware.com/learn/survey
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zuo_2022_GI.pdf
 
@@ -131,11 +260,15 @@
     - name: Wolfgang Banzhaf
   venue: "GI@GECCO"
   year: 2022
-  abstract: "Genetic Improvement is a search technique that aims to improve a given acceptable solution to a problem. In this paper, we present the novel use of genetic improvement to find problem-specific optimized LLVM Pass sequences. We develop a Pass-level edit representation in the linear genetic programming framework, Shackleton, to evolve the modifications to be applied to the default optimization Pass sequences. Our GI-evolved solution has a mean of 3.7percent runtime improvement compared to the default LLVM optimisation level -O3 which targets runtime. The proposed GI method provides an automatic way to find a problem-specific optimization sequence that improves upon a general solution without any expert domain knowledge. In this paper, we discuss the advantages and limitations of the GI feature in the Shackleton Framework and present our results."
+  abstract: "Genetic Improvement is a search technique that aims to improve a given acceptable solution to a problem. we present the novel use of genetic improvement to find problem-specific optimized LLVM Pass sequences. We develop a Pass-level edit representation in the linear genetic programming framework, Shackleton, to evolve the modifications to be applied to the default optimization Pass sequences. Our GI-evolved solution has a mean of 3.7percent runtime improvement compared to the default LLVM optimisation level -O3 which targets runtime. The proposed GI method provides an automatic way to find a problem-specific optimization sequence that improves upon a general solution without any expert domain knowledge. we discuss the advantages and limitations of the GI feature in the Shackleton Framework and present our results."
   type: Workshop
   doi: https://doi.org/10.1145/3520304.3534000
+  urls:
+    - https://arxiv.org/abs/2204.13261
+    - https://github.com/ARM-software/Shackleton-Framework
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Li_2022_GI.pdf
+    - https://arxiv.org/pdf/2204.13261.pdf
 
 - key: "AlNajar:2022:GI"
   title: "Genetic Improvement of Shoreline Evolution Forecasting Models"
@@ -188,9 +321,13 @@
     - name: Federica Sarro
   venue: "GI@GECCO"
   year: 2022
-  abstract: "Due to it its ease of use and wide range of custom libraries, Python has quickly gained popularity and is nowadays used by a wide range of developers all over the world. While Python allows for fast writing of source code, the resulting programs are slow to execute when compared to programs written in other programming languages like C. One of the reasons for its slow execution time is the dynamic typing of variables. Cython is an extension to Python, which can achieve execution speed-ups by compiler optimization. One possibility for improvements is the use of static typing, which can be added to Python scripts by developers. To alleviate the need for manual effort, we create Py2Cy, a Genetic Improvement tool for automatically converting Python scripts to statically typed Cython scripts. To show the feasibility of improving runtime with Py2Cy, we optimize a Python script for generating Fibonacci numbers. The results show that Py2Cy is able to speed up the execution time by up to a factor of 9."
+  abstract: "Due to its ease of use and wide range of custom libraries, Python has quickly gained popularity and is used by a wide range of developers all over the world. While Python allows for fast writing of source code, the resulting programs are slow to execute when compared to programs written in other programming languages like C. One of the reasons for its slow execution time is the dynamic typing of variables. Cython is an extension to Python, which can achieve execution speed-ups by compiler optimization. One possibility for improvements is the use of static typing, which can be added to Python scripts by developers. To alleviate the need for manual effort,we create Py2Cy, a Genetic Improvement tool for automatically converting Python scripts to statically typed Cython scripts. To show the feasibility of improving runtime with Py2Cy, we optimise a Python script for generating Fibonacci numbers. The results show that Py2Cy is able to speed up the execution time by up to a factor of 18."
   type: Workshop
   doi: https://doi.org/10.1145/3520304.3534037
+  tags:
+    - SBSE
+  urls:
+    - https://github.com/SOLAR-group/Py2Cy
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhong_2022_GI.pdf
 
@@ -222,7 +359,7 @@
     - name: Marc Roper
   venue: "GI@GECCO"
   year: 2022
-  abstract: "To achieve truly autonomous behaviour systems need to adapt to not only previously unseen circumstances but also previously unimagined ones. A hierarchical evolutionary system is proposed which is capable of displaying the emergent behaviour necessary to achieve this goal. This paper reports on the practical challenges encountered in implementing this proposed approach in a large-scale open-source system."
+  abstract: "To achieve truly autonomous behaviour systems need to adapt to not only previously unseen circumstances but also previously unimagined ones. A hierarchical evolutionary system is proposed which is capable of displaying the emergent behaviour necessary to achieve this goal. we report the practical challenges encountered in implementing this proposed approach in a large-scale open-source system."
   type: Workshop
   doi: https://doi.org/10.1145/3520304.3533975
   pdfs:
@@ -445,7 +582,7 @@
     - name: Rubmary Rojas
     - name: Silvia Sapora
     - name: Norm Zhou
-  venue: "EASE 2021: Evaluation and Assessment in Software Engineering"
+  venue: "EASE"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3463274.3463275
@@ -454,7 +591,7 @@
   urls:
     - https://research.facebook.com/publications/facebooks-cyber-cyber-and-cyber-physical-digital-twins/
   pdfs:
-    - https://research.facebook.com/file/351440920108639/Facebooks-Cyber–Cyber-and-Cyber–Physical-Digital-Twins.pdf
+    - https://discovery.ucl.ac.uk/id/eprint/10139789/1/EASE21.pdf
 
 - key: "KHALILIAN:2021:ESA"
   title: "CGenProg: Adaptation of cartesian genetic programming with migration and opposite guesses for automatic repair of software regression faults"
@@ -787,6 +924,17 @@
   doi: https://doi.org/10.1007/978-981-16-8113-4_3
   tags:
     - SBSE
+
+- key: "DBLP:conf/icaisc/VianaCJ21"
+  title: "A New Genetic Improvement Operator Based on Frequency Analysis for Genetic Algorithms Applied to Job Shop Scheduling Problem"
+  authors:
+    - name: Monique Simplicio Viana
+    - name: Rodrigo Colnago Contreras
+    - name: Orides Morandin Junior
+  venue: "ICAISC"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-030-87986-0\_39
 
 - key: "Guizzo:2021:ICSE"
   title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
@@ -6601,8 +6749,6 @@
   doi: https://doi.org/10.1145/2070781.2024186
   tags:
     - SBSE
-  urls:
-    - http://web.eecs.umich.edu/~weimerw/p/sitthiamorn_siga11.mov
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11.pdf
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11_supp.pdf
