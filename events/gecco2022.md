@@ -65,7 +65,7 @@ Group photo:
 
 A YouTube Playlist has been created containing recordings of all the 11th GI Workshop presentations:
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje" frameborder="0" allowfullscreen />
+<iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje" frameborder="0" allowfullscreen></iframe>
 
 ## Important Dates
 
