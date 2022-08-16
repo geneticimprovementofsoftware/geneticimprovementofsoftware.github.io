@@ -139,9 +139,27 @@
     - APR
   urls:
     - https://arxiv.org/abs/2206.08896
-    - https://y2u.be/8C2K5fk28HI
   pdfs:
     - https://arxiv.org/pdf/2206.08896.pdf
+  video:
+    - https://y2u.be/8C2K5fk28HI
+
+- key: "blot:2022:corr_1"
+  title: "MAGPIE: Machine Automated General Performance Improvement via Evolution of Software"
+  authors:
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "ArXiV"
+  year: 2022
+  type: Archive
+  doi: https://doi.org/10.48550/ARXIV.2208.02811
+  tags:
+    - SBSE
+  urls:
+    - https://arxiv.org/abs/2208.02811
+    - https://github.com/bloa/magpie
+  pdfs:
+    - https://arxiv.org/pdf/2208.02811.pdf
 
 - key: "DBLP:journals/corr/abs-2202-01490"
   title: "On the Utility of Marrying GIN and PMD for Improving Stack Overflow Code Snippets"
@@ -163,8 +181,7 @@
     - name: Shuyue Stella Li
     - name: Andrew N. Sloss
     - name: Kenneth N. Reid
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "ArXiV"
   year: 2022
@@ -200,7 +217,10 @@
     - https://oliver-krauss.github.io/amaru/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Krauss_2022_GI.pdf
-    - /slides/gi2022gecco/krauss-framework-for-combining-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=3Ok1JzdAmFs&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=2
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/krauss-framework-for-combining-gi-gecco-22.pdf
 
 - key: "Bruce:2022:GI"
   title: "Automatically Exploring Computer System Design Spaces"
@@ -215,7 +235,8 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Bruce_2022_GI.pdf
-    - /slides/gi2022gecco/bruce-automatically-exploring-computer-gi-gecco-22.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/bruce-automatically-exploring-computer-gi-gecco-22.pdf
 
 - key: "Licorish:2022:GI"
   title: "Dissecting Copy/Delete/Replace/Swap mutations: Insights from a GIN Case Study"
@@ -232,7 +253,10 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Licorish_2022_GI.pdf
-    - /slides/gi2022gecco/wagner-dissecting-copy-delete-replace-swap-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=CI5sT3L_-CI&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=9
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/wagner-dissecting-copy-delete-replace-swap-gi-gecco-22.pdf
 
 - key: "Zuo:2022:GI"
   title: "Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software"
@@ -272,7 +296,10 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Li_2022_GI.pdf
     - https://arxiv.org/pdf/2204.13261.pdf
-    - /slides/gi2022gecco/li-genetic-improvement-in-the-shackleton-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=20l_d3UuDPU&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=3
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/li-genetic-improvement-in-the-shackleton-gi-gecco-22.pdf
 
 - key: "AlNajar:2022:GI"
   title: "Genetic Improvement of Shoreline Evolution Forecasting Models"
@@ -289,7 +316,11 @@
   doi: https://doi.org/10.1145/3520304.3534041
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/AlNajar_2022_GI.pdf
-    - /slides/gi2022gecco/najar-genetic-improvement-of-shoreline-evolution-forecasting-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=66UiDk9lsnc&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=6
+  slides:
+    - https://sourcesup.renater.fr/wiki/atelieromp/_media/presentation_envia_mahmoud_al_ajar_omp_v2.pdf
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/li-genetic-improvement-in-the-shackleton-gi-gecco-22.pdf
 
 - key: "Zhang:2022:GI"
   title: "Leveraging Fuzzy System to Reduce Uncertainty of Decision Making in Software Engineering Automation"
@@ -303,7 +334,10 @@
   doi: https://doi.org/10.1145/3520304.3533991
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhang_2022_GI.pdf
-    - /slides/gi2022gecco/zhang-leveraging-fuzzy-system-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=xwD_f_YOBn8&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=8
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/zhang-leveraging-fuzzy-system-gi-gecco-22.pdf
 
 - key: "Chuengsatiansup:2022:GI"
   title: "Opportunities for Genetic Improvement of Cryptographic Code"
@@ -318,7 +352,10 @@
   doi: https://doi.org/10.1145/3520304.3534049
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Chuengsatiansup_2022_GI.pdf
-    - /slides/gi2022gecco/chuengsatiansup-opportunities-for-genetic-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=3xD2zgucpug&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=4
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/chuengsatiansup-opportunities-for-genetic-gi-gecco-22.pdf
 
 - key: "Zhong:2022:GI"
   title: "Py2Cy: A Genetic Improvement Tool To Speed Up Python"
@@ -337,7 +374,10 @@
     - https://github.com/SOLAR-group/Py2Cy
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zhong_2022_GI.pdf
-    - /slides/gi2022gecco/zhong-py2cy-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=eC39t5coXIE&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=10
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/zhong-py2cy-gi-gecco-22.pdf
 
 - key: "Murphy:2022:GI"
   title: "The case for Grammatical Evolution in test generation"
@@ -355,7 +395,10 @@
     - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Murphy_2022_GI.pdf
-    - /slides/gi2022gecco/murphy-case-for-grammatical-evolution-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=D_bBCT468WA&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=7
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/murphy-case-for-grammatical-evolution-gi-gecco-22.pdf
 
 - key: "Anderson:2022:GI"
   title: "Towards evolution-based autonomy in large-scale systems"
@@ -373,7 +416,10 @@
   doi: https://doi.org/10.1145/3520304.3533975
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Anderson_2022_GI.pdf
-    - /slides/gi2022gecco/anderson-towards-evolutionary-based-autonomy-gi-gecco-22.pdf
+  video:
+    - https://www.youtube.com/watch?v=xpKcZRsRgrQ&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=5
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/anderson-towards-evolutionary-based-autonomy-gi-gecco-22.pdf
 
 - key: "Harman:2022:APR"
   title: "Scaling Genetic Improvement and Automated Program Repair"
@@ -409,6 +455,8 @@
     - https://hal.archives-ouvertes.fr/hal-03595447
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_roadef_2022.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_roadef_2022_slides.pdf
 
 - key: "Marginean_10137954_thesis_redacted"
   title: "Automated Software Transplantation"
@@ -541,9 +589,10 @@
   type: Archive
   urls:
     - https://arxiv.org/abs/2101.03958
-    - https://slideslive.com/38941399/evolving-reinforcement-learning-algorithms
   pdfs:
     - https://arxiv.org/pdf/2101.03958.pdf
+  video:
+    - https://slideslive.com/38941399/evolving-reinforcement-learning-algorithms
 
 - key: "adler2021improving"
   title: "Improving Readability of Scratch Programs with Search-based Refactoring"
@@ -635,6 +684,8 @@
     - https://2021.esec-fse.org/details/fse-2021-ideas-visions-and-reflections/6/Software-Robustness-A-Survey-a-Theory-and-Prospects
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2021_FSE-IVR.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/fse2021/robustness.pdf
 
 - key: "Ito:2021:GCCE"
   title: "Evaluating Partial Correctness of Programs in Automated Program Repair"
@@ -667,6 +718,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_TELO_HOP.pdf
   video:
     - https://youtu.be/Z3gxNb4h3u8
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2021/Langdon_TELO_HOP_krauss_slides.pdf
 
 - key: "Lorandi:2021:TELO:HOP"
   title: "Genetic Improvement of Routing Protocols for Delay Tolerant Networks"
@@ -944,7 +997,7 @@
   venue: "ICAISC"
   year: 2021
   type: Conference
-  doi: https://doi.org/10.1007/978-3-030-87986-0\_39
+  doi: https://doi.org/10.1007/978-3-030-87986-0_39
 
 - key: "Guizzo:2021:ICSE"
   title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
@@ -1214,6 +1267,8 @@
     - https://arxiv.org/pdf/2001.04505.pdf
   video:
     - https://youtu.be/Zcf9YYlZHsA
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gggp/bigtree/langdon_sse_15-jan-2020.pdf
 
 - key: "Bokhari2020_PhD"
   title: "Genetic Improvement of Software for Energy Efficiency in Noisy and Fragmented Eco-Systems"
@@ -1264,8 +1319,7 @@
 - key: "Yuan:2020:TBE"
   title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
   authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "ACM TSEM"
   year: 2020
@@ -1355,6 +1409,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_cec.pdf
   video:
     - https://youtu.be/Ycx89TpxGMA
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gggp/langdon_cec_2020_slides.pdf
 
 - key: "Brownlee:2020:CEC"
   title: "Injecting Shortcuts for Faster Running Java Code"
@@ -1462,6 +1518,8 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_eurogp_2020.pdf
   video:
     - https://www.youtube.com/watch?v=D-UQr-P3zUQ
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_eurogp_2020_slides.pdf
 
 - key: "heuristicLab_GCE_2020"
   title: "Integrating HeuristicLab with Compilers and Interpreters for Non-Functional Code Optimization"
@@ -1480,8 +1538,7 @@
 - key: "Yuan:2020:beacon"
   title: "Making Better Use of Repair Templates in Automated Program Repair: A Multi-Objective Approach"
   authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "Evolution in Action: Past, Present and Future: A Festschrift in Honor of Erik D. Goodman"
   year: 2020
@@ -1618,6 +1675,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2020_GI9.pdf
   video:
     - https://youtu.be/-7G1Um57RrU
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gggp/langdon_2020_GI9_slides.pdf
 
 - key: "Bokhari:2020:GI9"
   title: "Genetic Improvement of Software Efficiency: The Curse of Fitness Estimation"
@@ -1689,6 +1748,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Dash_2020_GI.pdf
   video:
     - https://youtu.be/GsNKCifm44A
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2020icse/checkers_slides.pdf
 
 - key: "Winter:2020:GI"
   title: "Human Factors in the Study of Automatic Software Repair: Future Directions for Research with Industry"
@@ -1715,6 +1776,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/Winter_2020_GI.pdf
   video:
     - https://youtu.be/GsNKCifm44A
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2020icse/human_factors_slides.pdf
 
 - key: "Blot:2020:GIsp"
   title: "Stack-Based Genetic Improvement"
@@ -1733,6 +1796,8 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-1.pdf
   video:
     - https://youtu.be/GsNKCifm44A
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2020icse/synthetic_benchmarks_slides.pdf
 
 - key: "Blot:2020:GI"
   title: "Synthetic Benchmarks for Genetic Improvement"
@@ -1750,6 +1815,8 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2020-2.pdf
   video:
     - https://youtu.be/GsNKCifm44A
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2020icse/synthetic_benchmarks_slides.pdf
 
 - key: "krauss_towards_2020"
   title: "Towards Knowledge Guided Genetic Improvement"
@@ -1768,6 +1835,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2020/krauss_towards_2020.pdf
   video:
     - https://youtu.be/GsNKCifm44A
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2020icse/towards_knowledge_guided_slides.pdf
 
 - key: "Ahlgren:2020:GI"
   title: "WES: Agent-based User Interaction Simulation on Real Infrastructure"
@@ -1804,8 +1873,7 @@
 - key: "Yuan:ieeeSE"
   title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "IEEE TSE"
   year: 2020
@@ -2045,6 +2113,8 @@
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/an_2019_fse.pdf
   video:
     - https://youtu.be/PxRUdlRDS40
+  slides:
+    - http://crest.cs.ucl.ac.uk/fileadmin/crest/COWphotos/Other/Petke.pdf
 
 - key: "langdon:2019:EuroGP"
   title: "Evolving AVX512 Parallel C Code using GP"
@@ -2080,8 +2150,7 @@
 - key: "Yuan:2019:GECCO"
   title: "A Hybrid Evolutionary System for Automatic Software Repair"
   authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "GECCO"
   year: 2019
@@ -2108,6 +2177,8 @@
     - SBSE
   pdfs:
     - https://cs.adelaide.edu.au/users/markus/pub/2019gecco-gintool.pdf
+  slides:
+    - http://crest.cs.ucl.ac.uk/fileadmin/crest/COWphotos/Other/Petke.pdf
 
 - key: "Sobania:2019:GECCO"
   title: "Teaching GP to program like a human software developer: using perplexity pressure to guide program synthesis approaches"
@@ -2253,6 +2324,8 @@
     - https://dl.acm.org/citation.cfm?id=3339020.3339023
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/xin2019better.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/xin2019better_slides.pdf
 
 - key: "Leach:2019:GI"
   title: "Evolutionary Computation for Improving Malware Analysis"
@@ -2269,6 +2342,8 @@
   pdfs:
     - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/leach2019evolutionary.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/leach2019evolutionary_slides.pdf
 
 - key: "Blot:2019:GI"
   title: "Fuzzy Edit Sequences in Genetic Improvement"
@@ -2284,6 +2359,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2019.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/blot2019gi.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_gi-icse_2019_slides.pdf
 
 - key: "Liou:2019:GI"
   title: "Genetic Improvement of GPU Code"
@@ -2301,6 +2378,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Liou_2019_GI.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/liou2019genetic.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/liou2019genetic_slides.pdf
 
 - key: "Alshahwan:2019:GI"
   title: "Industrial experience of Genetic Improvement in Facebook"
@@ -2332,6 +2411,8 @@
     - SBSE
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/ding2019leveraging.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/ding2019leveraging_slides.pdf
 
 - key: "Krauss:2019:GI"
   title: "Mining Patterns from Genetic Improvement Experiments"
@@ -2346,6 +2427,8 @@
   doi: https://doi.org/10.1109/GI.2019.00015
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Krauss_2019_GI.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/krauss2019mining_slides.pdf
 
 - key: "Harrand:GPEM"
   title: "A Journey Among Java Neutral Program Variants"
@@ -2381,8 +2464,7 @@
 - key: "Yuan:2019:GPTP"
   title: "An Evolutionary System for better automatic software repair"
   authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "GPTP"
   year: 2019
@@ -3029,6 +3111,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/An_2018_GI.pdf
     - https://coinse.kaist.ac.kr/publications/pdfs/An2018to.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/06/gi-pyggi.compressed.pdf
 
 - key: "Landsborough:2018:GI"
   title: "Evolutionary Fuzzing for Genetic Improvement: Toward Adaptive Software Defense"
@@ -3043,6 +3127,8 @@
   doi: https://doi.org/10.1145/3194810.3194819
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Landsborough_2018_GI.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/06/Landsborough_GI_2018_Slides.compressed.pdf
 
 - key: "LeGoues:2018:GI"
   title: "Evolving Software Quality"
@@ -3071,6 +3157,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Porter_2018_GI.pdf
     - https://eprints.lancs.ac.uk/id/eprint/124101/1/main.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/06/presentation.pdf
 
 - key: "Xiong:2018:GI"
   title: "Learning to Synthesize"
@@ -3089,6 +3177,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Xiong_2018_GI.pdf
     - https://arxiv.org/pdf/1802.07608.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/06/2018-Learning-to-Synthesize@GI.pdf
 
 - key: "Renzullo:2018:GI"
   title: "Neutrality and Epistasis in Program Space"
@@ -3107,6 +3197,8 @@
     - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Renzullo_2018_GI.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/06/Renzullo.pdf
 
 - key: "Cody-Kenny:2018:GI"
   title: "Performance Localisation"
@@ -3121,6 +3213,8 @@
   doi: https://doi.org/10.1145/3194810.3194815
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Cody-Kenny_2018_GI.pdf
+  slides:
+    - http://geneticimprovementofsoftware.com/wp-content/uploads/2018/06/PerformanceLocalisation.pdf
 
 - key: "Veerapen:2018:GPEM"
   title: "Visualising the global structure of search landscapes: genetic improvement as a case study"
@@ -3376,6 +3470,8 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2018_SSBSE.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ssbse2018/Langdon_2018_SSBSE_slides.pdf
 
 - key: "Choi:2018:SSBSE"
   title: "Learning Fault Localisation for Both Humans and Machines using Multi-Objective GP"
@@ -3523,8 +3619,7 @@
 - key: "2017arXiv171207804Y"
   title: "ARJA: Automated Repair of Java Programs via Multi-Objective Genetic Programming"
   authors:
-    - name: Yuan Yuan2
-      aka: Yuan Yuan
+    - name: Yuan Yuan
     - name: Wolfgang Banzhaf
   venue: "ArXiV"
   year: 2017
@@ -3597,6 +3692,8 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_ECCSB.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2017/langdon_2017_eccsb_slides.pdf
 
 - key: "Martinez:2017:ESE"
   title: "Automatic repair of real bugs in java: a large-scale experiment on the defects4j dataset"
@@ -3872,6 +3969,8 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2017_GI.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/langdon2017_parallel_code.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2017/Langdon_2017_GI_slides.pdf
 
 - key: "Landsborough:2017:GI"
   title: "Learning from Super-Mutants: searching post-apocalyptic software ecosystems for novel semantics-preserving transforms"
@@ -3934,6 +4033,8 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_GPEM.pdf
   video:
     - https://youtu.be/KVaji1pvd-0
+  slides:
+    - http://crest.cs.ucl.ac.uk/cow/50/slides/cow50_Langdon.pdf
 
 - key: "Yeboah-Antwi:2016:GPEM"
   title: "Online Genetic Improvement on the java virtual machine with ECSELR"
@@ -4071,10 +4172,11 @@
     - https://www.researchgate.net/publication/315381757_The_Use_of_Automatic_Test_Data_Generation_for_Genetic_Improvement_in_a_Live_System
     - http://www.human-competitive.org/sites/default/files/haraldsson-text.txt
     - http://dl.acm.org/citation.cfm?id=3105433&CFID=952099816&CFTOKEN=74048713
-    - http://crest.cs.ucl.ac.uk/cow/50/videos/haraldsson_cow50_480p.mp4
   pdfs:
     - https://www.researchgate.net/profile/Saemundur_Haraldsson/publication/315381757_The_Use_of_Automatic_Test_Data_Generation_for_Genetic_Improvement_in_a_Live_System/links/58d3abeda6fdccd24d4595d1/The-Use-of-Automatic-Test-Data-Generation-for-Genetic-Improvement-in-a-Live-System.pdf
     - http://www.human-competitive.org/sites/default/files/haraldsson-paper-1.pdf
+  video:
+    - http://crest.cs.ucl.ac.uk/cow/50/videos/haraldsson_cow50_480p.mp4
 
 - key: "Cody-Kenny:2017:sigevolution"
   title: "Genetic Improvement Workshop at GECCO 2017"
@@ -4246,6 +4348,8 @@
     - APR
   pdfs:
     - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
+  slides:
+    - https://web.eecs.umich.edu/~weimerw/p/DSN16-Industrial%20Attack%20and%20Arch.pdf
 
 - key: "Kou:2016:IWESEP"
   title: "A Capable Crossover Technique on Automatic Program Repair"
@@ -4343,6 +4447,8 @@
   tags:
     - APR
     - SBSE
+  slides:
+    - https://web.eecs.umich.edu/~weimerw/p/weimer-dsn2016-trusted-pres.pdf
 
 - key: "GalvezRamirez:2016:EuroGP"
   title: "Towards Automated Strategies in Satisfiability Modulo Theory"
@@ -4605,6 +4711,8 @@
     - SBSE
   urls:
     - https://goo.gl/9TS9wo
+  slides:
+    - https://www.cs.cmu.edu/~clegoues/docs/slides/presentation-DeductiveRepair.pdf
 
 - key: "langdon:2016:ieeeblog"
   title: "Genetic Improvement"
@@ -4632,6 +4740,8 @@
   doi: https://doi.org/10.1109/CEC.2016.7744177
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_cec.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gggp/langdon_key_cec-2016_clean.pdf
 
 - key: "Xu:2016:NDSS"
   title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
@@ -5015,6 +5125,8 @@
     - http://cs-dc-15.org/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_csdc.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/langdon_2015_csdc_slides.pdf
 
 - key: "petke:2015:daase_blog"
   title: "Revolutionising the process of software development"
@@ -5098,6 +5210,8 @@
     - http://seqbarracuda.sourceforge.net/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_GECCO.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2015/langdon_2015_gecco_slides.pdf
 
 - key: "bruce2015reducing"
   title: "Reducing Energy Consumption Using Genetic Improvement"
@@ -5158,6 +5272,8 @@
     - SBSE
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/energy_optimisation_via_genetic_improvement.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/bruce/EnergyReductionViaGeneticImprovement.pdf
 
 - key: "Mrazek:2015:gi"
   title: "Evolutionary Approximation of Software for Embedded Systems: Median Function"
@@ -5172,6 +5288,8 @@
   doi: https://doi.org/10.1145/2739482.2768416
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/evolutionary_approximation_of_software_for_embedded_systems_median_function.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/vasicek/mrazek_vasicek_gecco_v2.pdf
 
 - key: "Johnson:2015:gi"
   title: "Fitness as Task-relevant Information Accumulation"
@@ -5200,6 +5318,8 @@
   doi: https://doi.org/10.1145/2739482.2768415
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/giforgi.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/petke/gi4gi.pdf
 
 - key: "langdon:2015:gi"
   title: "Genetic Improvement 2015 Chairs' Welcome"
@@ -5259,6 +5379,8 @@
   doi: https://doi.org/10.1145/2739482.2768417
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/genetic_improvement_using_higher_order_mutation.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/wu/GI_Fan.pdf
 
 - key: "langdon:2015:gi_pknots"
   title: "Grow and Graft a better CUDA pknotsRG for RNA pseudoknot free energy calculation"
@@ -5278,6 +5400,8 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/grow_and_graft_a_better_CUDA_pknotsRG-for-RNA_pseudoknot_free_energy_calculation.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_gi_pknots.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2015/gi_2015_slides/langdon/langdon_2015_gi_pknots_slides.pdf
 
 - key: "Landsborough:2015:gi"
   title: "Removing the Kitchen Sink from Software"
@@ -5292,6 +5416,8 @@
   doi: https://doi.org/10.1145/2739482.2768424
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/removing_the_kitchen_sink_from_software.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/landsborough
 
 - key: "Schulte:2015:gi"
   title: "Repairing COTS Router Firmware without Access to Source Code or Test Suites: A Case Study in Evolutionary Software Repair"
@@ -5319,6 +5445,8 @@
   doi: https://doi.org/10.1145/2739482.2768426
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/rethinking_gi.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/white/rethinking_gi.pdf
 
 - key: "Cody-Kenny:2015:gi"
   title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
@@ -5335,6 +5463,8 @@
     - https://github.com/codykenb/locoGP/
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2015/locoGP_improving_performance_by_genetic_programming_java_source_code.pdf
+  slides:
+    - http://gpbib.cs.ucl.ac.uk/gi2015/gi_2015_slides/cody-kenny/locoGP-publication-slides.pdf
 
 - key: "langdon:2015:hbgpa"
   title: "Genetically Improved Software"
@@ -5381,6 +5511,8 @@
     - testing
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/m.harman/icst15.pdf
+  slides:
+    - http://icst2015.ist.tu-graz.ac.at/icst2015_harman_s.pdf
 
 - key: "Langdon:2013:ieeeTEC"
   title: "Optimising Existing Software with Genetic Programming"
@@ -5487,6 +5619,8 @@
     - SBSE
   urls:
     - http://hdl.handle.net/10203/224142
+  slides:
+    - http://ssbse.info/2015/wp-content/uploads/Slides_Amortised_Optimisation_of_Non-Functional_Property_in_Production_Environment.pdf
 
 - key: "Marginean:2015:SSBSE"
   title: "Automated Transplantation of Call Graph and Layout Features into Kate"
@@ -5519,6 +5653,8 @@
     - GISMO
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_SSBSE.pdf
+  slides:
+    - http://ssbse.info/2015/wp-content/uploads/Slides_Genetic_Improvement_of_Software_for_Multiple_Objectives.pdf
 
 - key: "jia:2015:gsgp"
   title: "Grow and Serve: Growing Django Citation Services Using SBSE"
@@ -5649,11 +5785,14 @@
   type: TechReport
   urls:
     - http://www.cs.stir.ac.uk/~kjt/techreps/previous.html
-    - http://crest.cs.ucl.ac.uk/cow/28/videos/COW28_Woodward_240.mp4
-    - http://crest.cs.ucl.ac.uk/cow/28/videos/COW28_Woodward_360.mp4
   pdfs:
     - http://www.cs.stir.ac.uk/~kjt/techreps/pdf/TR195.pdf
     - http://www.epitropakis.co.uk/sites/default/files/pubs/genofix-TR.pdf
+  video:
+    - http://crest.cs.ucl.ac.uk/cow/28/videos/COW28_Woodward_240.mp4
+    - http://crest.cs.ucl.ac.uk/cow/28/videos/COW28_Woodward_360.mp4
+  slides:
+    - http://crest.cs.ucl.ac.uk/cow/28/slides/COW28_Woodward.pdf
 
 - key: "Langdon_RN1402"
   title: "Genetically Improved CUDA kernels for StereoCamera"
@@ -5815,6 +5954,8 @@
   video:
     - http://youtu.be/oax7CKp-_W4
     - http://youtu.be/6TR04wuWjuM
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/egp2014/langdon_eurogp2014_slides.pdf
 
 - key: "Petke:2014:EuroGP"
   title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
@@ -6816,10 +6957,10 @@
   doi: https://doi.org/10.1109/TEVC.2010.2083669
   tags:
     - SBSE
-  urls:
-    - http://crest.cs.ucl.ac.uk/cow/50/videos/arcuri_cow50_480p.mp4
   pdfs:
     - http://crest.cs.ucl.ac.uk/fileadmin/crest/sebasepaper/WhiteAC.pdf
+  video:
+    - http://crest.cs.ucl.ac.uk/cow/50/videos/arcuri_cow50_480p.mp4
 
 - key: "Orlov:2011:ieeeTEC"
   title: "Flight of the FINCH through the Java Wilderness"
@@ -7132,6 +7273,8 @@
   pdfs:
     - http://www.cs.unm.edu/~tnguyen/papers/genprog.pdf
     - http://www.cs.virginia.edu/~csl9q/docs/legoues-icse2009-genprog-preprint.pdf
+  slides:
+    - http://www.cs.uoregon.edu/events/icse2009/images/postPosters/Automatically%20Finding%20Patches%20Using%20Genetic%20Programming.pdf
 
 - key: "Nguyen:2009:SBST"
   title: "Using Execution Paths to Evolve Software Patches"
@@ -7337,11 +7480,11 @@
   venue: "Proceedings of the 1st International Workshop on Soft Computing Applied to Software Engineering"
   year: 1999
   type: Conference
-  urls:
-    - http://crest.cs.ucl.ac.uk/cow/50/videos/feldt_cow50_480p.mp4
   pdfs:
     - http://drfeldt.googlepages.com/feldt_1999_gp_as_explorative_tool.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/scase_1999/feldt_1999_GPxtxsdp.pdf
+  video:
+    - http://crest.cs.ucl.ac.uk/cow/50/videos/feldt_cow50_480p.mp4
 
 - key: "williams98"
   title: "Evolutionary Algorithms for Automatic Parallelization"
