@@ -116,6 +116,9 @@ out.each do |h|
   when /GECCO.* Workshop on Evolutionary Computation Software Systems/i
     h[:venue] = 'EvoSoft@GECCO'
     h[:type] = 'Workshop'
+  when /Semantic Methods in Genetic Programming/i
+    h[:venue] = 'SMGP'
+    h[:type] = 'Workshop'
   when /workshop on evolutionary computation for the automated design of algorithms/i
     h[:venue] = 'ECADA@GECCO'
     h[:type] = 'Workshop'
