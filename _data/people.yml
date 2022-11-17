@@ -144,7 +144,14 @@
   homepage: https://codykenb.github.io/
 
 - name: Myra B. Cohen
+  show: true
+  aka:
+    - Myra Cohen
+  affil: Iowa State University
   homepage: https://web.cs.iastate.edu/~mcohen/
+  dblp: https://dblp.org/pid/79/5975.html
+  scholar: https://scholar.google.com/citations?user=i_XdxLcAAAAJ
+  img: /profile_images/myra_cohen.jpg
 
 - name: Santanu Dash
   aka:
@@ -160,7 +167,7 @@
 - name: Zhen Yu Ding
   homepage: https://www.linkedin.com/in/zhen-yu-ding
 
-- name:  Jonathan Dorn
+- name: Jonathan Dorn
   homepage: https://dornja.github.io/
   img: /profile_images/jonathan_dorn.jpg
 

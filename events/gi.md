@@ -11,6 +11,11 @@ p {
 
 # GI Events
 
+## 2023
+
+**12th International Workshop on Genetic Improvement (GI@[ICSE 2023](https://conf.researchr.org/home/icse-2023)**
+- [<i class="fa fa-link"></i> Event page]({{"/events/icse2023" | relative_url }})
+
 ## 2022
 
 **11th International Workshop on Genetic Improvement (GI@[GECCO 2022](https://gecco-2022.sigevo.org/))**
