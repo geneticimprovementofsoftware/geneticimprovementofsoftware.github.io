@@ -1,24 +1,3 @@
-- key: "Rainford:2022:TELO"
-  title: "Code and Data Synthesis for Genetic Improvement in Emergent Software Systems"
-  authors:
-    - name: Penny Faulkner Rainford
-    - name: Barry Porter
-  venue: "ACM TELO"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1145/3542823
-
-- key: "callan2022"
-  title: "How Do Android Developers Improve Non-Functional Properties of Software?"
-  authors:
-    - name: James Callan
-    - name: Oliver Krauss
-    - name: Justyna Petke
-    - name: Federica Sarro
-  venue: "ESE"
-  year: 
-  type: Journal
-
 - key: "Kechagia:TSE"
   title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
   authors:
@@ -73,6 +52,16 @@
     - https://ssw.jku.at/Teaching/PhDTheses/Krauss/index.html
   pdfs:
     - https://ssw.jku.at/Teaching/PhDTheses/Krauss/Dissertation%20Krauss.pdf
+
+- key: "Rainford:2022:TELO"
+  title: "Code and Data Synthesis for Genetic Improvement in Emergent Software Systems"
+  authors:
+    - name: Penny Faulkner Rainford
+    - name: Barry Porter
+  venue: "ACM TELO"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.1145/3542823
 
 - key: "Rainford:2022:ALife"
   title: "Lineage Selection in Mixed Populations for Genetic Improvement"
@@ -194,6 +183,23 @@
   pdfs:
     - https://arxiv.org/pdf/2201.13305.pdf
 
+- key: "callan2022"
+  title: "How Do Android Developers Improve Non-Functional Properties of Software?"
+  authors:
+    - name: James Callan
+    - name: Oliver Krauss
+    - name: Justyna Petke
+    - name: Federica Sarro
+  venue: "ESE"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.1007/s10664-022-10137-2
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10145101/
+    - https://rdcu.be/cZPhl
+  pdfs:
+    - https://discovery.ucl.ac.uk/id/eprint/10145101/1/Petke_Callan2022_Article_HowDoAndroidDevelopersImproveN.pdf
+
 - key: "rainford:2022:GECCO"
   title: "Using Phylogenetic Analysis to Enhance Genetic Improvement"
   authors:
@@ -203,6 +209,24 @@
   year: 2022
   type: Conference
   doi: https://doi.org/10.1145/3512290.3528789
+  video:
+    - https://vimeo.com/722562374
+
+- key: "peeler:2022:GECCOcomp"
+  title: "Optimizing LLVM Pass Sequences with Shackleton: A Linear Genetic Programming Framework"
+  authors:
+    - name: Hannah Peeler
+    - name: Shuyue Li
+    - name: Andrew Sloss
+    - name: Kenneth Reid
+    - name: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "GECCO-C"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1145/3520304.3528945
+  urls:
+    - https://github.com/ARM-software/Shackleton-Framework
 
 - key: "Krauss:2022:GI"
   title: "Amaru - A Framework for combining Genetic Improvement with Pattern Mining"
@@ -276,6 +300,18 @@
     - http://geneticimprovementofsoftware.com/learn/survey
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2022/gi2022/papers/Zuo_2022_GI.pdf
+
+- key: "Weimer:2022:GI"
+  title: "From Deep Learning to Human Judgments: Lessons for Genetic Improvement"
+  authors:
+    - name: Westley Weimer
+  venue: "GI@GECCO"
+  year: 2022
+  type: Keynote
+  video:
+    - https://www.youtube.com/watch?v=90z0k3jwhU8&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje
+  slides:
+    - http://geneticimprovementofsoftware.com/slides/gi2022gecco/weimer-keynote-gi-gecco-22.pdf
 
 - key: "Li:2022:GI"
   title: "Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences"
@@ -439,6 +475,21 @@
   video:
     - https://youtu.be/uAU_ySdEvks
 
+- key: "DBLP:conf/ppsn/AhmadCFW22"
+  title: "Digging into Semantics: Where Do Search-Based Software Repair Methods Search?"
+  authors:
+    - name: Hammad Ahmad
+    - name: Padraic Cashin
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "PPSN"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-031-14721-0_1
+  tags:
+    - APR
+    - SBSE
+
 - key: "blot:hal-03595447"
   title: "Using Genetic Improvement to Optimise Optimisation Algorithm Implementations"
   authors:
@@ -458,6 +509,16 @@
   slides:
     - http://www.cs.ucl.ac.uk/staff/a.blot/files/blot_roadef_2022_slides.pdf
 
+- key: "Callan:2022:SSBSE"
+  title: "Multi-objective Genetic Improvement: A Case Study with EvoSuite"
+  authors:
+    - name: James Callan
+    - name: Justyna Petke
+  venue: "SSBSE"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-031-21251-2_8
+
 - key: "Marginean_10137954_thesis_redacted"
   title: "Automated Software Transplantation"
   authors:
@@ -470,6 +531,18 @@
     - SBSE
   pdfs:
     - https://discovery.ucl.ac.uk/id/eprint/10137954/1/Marginean_10137954_thesis_redacted.pdf
+
+- key: "Forrest:2021:GI"
+  title: "Engineering and Evolving Software"
+  authors:
+    - name: Stephanie Forrest
+  venue: ""
+  year: 2021
+  type: Keynote
+  urls:
+    - https://twitter.com/gi2021/status/1399027796597383168
+  video:
+    - https://www.youtube.com/watch?v=iZnKHIZ5qVY&list=PLXTjhGKkSnI-se7uQneCX-pEDiDrQ7TIS&index=13
 
 - key: "Cambronero:thesis"
   title: "Mining Software Artifacts for use in Automated Machine Learning"
@@ -563,12 +636,14 @@
   venue: "ASE"
   year: 2021
   type: Conference
+  doi: https://doi.org/10.1109/ASE51524.2021.9678758
   tags:
     - APR
     - SBSE
     - PyGGI
   urls:
     - https://arxiv.org/abs/2108.12075
+    - https://discovery.ucl.ac.uk/id/eprint/10136860/
   pdfs:
     - https://arxiv.org/pdf/2108.12075.pdf
     - https://faculty.sites.iastate.edu/mcohen/files/inline-files/hyper-gi-2021.pdf
@@ -614,6 +689,23 @@
     - https://arxiv.org/abs/2108.07114
   pdfs:
     - https://arxiv.org/pdf/2108.07114.pdf
+
+- key: "Shelton:2021:CCS"
+  title: "Rosita++: Automatic Higher-Order Leakage Elimination from Cryptographic Code"
+  authors:
+    - name: Madura A. Shelton
+    - name: Lukasz Chmielewski
+    - name: Niels Samwel
+    - name: Markus Wagner
+    - name: Lejla Batina
+    - name: Yuval Yarom
+  venue: "CCS"
+  year: 2021
+  type: Conference
+  doi: https://doi.org/10.1145/3460120.3485380
+  urls:
+    - https://eprint.iacr.org/2021/1181
+    - https://github.com/0xADE1A1DE/Rositaplusplus
 
 - key: "Cook:2021:CACM"
   title: "Behold the Ch!Ld"
@@ -1016,6 +1108,7 @@
   urls:
     - https://bit.ly/Guizzo-ICSE-2021
     - https://conf.researchr.org/details/icse-2021/icse-2021-papers/6/Enhancing-Genetic-Improvement-of-Software-with-Regression-Test-Selection
+    - https://research.facebook.com/publications/enhancing-genetic-improvement-of-software-with-regression-test-selection/
     - https://discovery.ucl.ac.uk/id/eprint/10120263/
   pdfs:
     - https://research.fb.com/wp-content/uploads/2021/04/Enhancing-Genetic-Improvement-of-Software-with-Regression-Test-Selection-.pdf
@@ -1329,7 +1422,7 @@
     - APR
     - SBSE
   urls:
-    - https://github.com/SerVal-DTF/AVATAR
+    - https://github.com/yyxhdy/arja/tree/arja-e
   pdfs:
     - https://yyxhdy.github.io/files/TOSEM2019.pdf
 
@@ -1650,7 +1743,7 @@
   year: 2020
   abstract: "To improve software engineering, software repositories have been mined for code snippets and bug fixes. Typically, this mining takes place at the level of files or commits. To be able to dig deeper and to extract insights at a higher resolution, we hereby present an annotated dataset that contains over 7 million edits of code and text on Stack Overflow. Our preliminary study indicates that these edits might be a treasure trove for mining information about fine-grained patches, e.g., for the optimisation of non-functional properties."
   type: Workshop
-  doi: https://doi.org/10.1145/3377929.3398108
+  doi: https://doi.org/10.5281/zenodo.3754159
   tags:
     - SBSE
   urls:
@@ -1710,6 +1803,7 @@
     - SBSE
   urls:
     - https://arxiv.org/abs/2004.07663
+    - https://github.com/Brittany-Reid/nlp2testablecode
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp119s2-file1.pdf
     - https://arxiv.org/pdf/2004.07663.pdf
@@ -2828,6 +2922,18 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/RN_18_04.pdf
 
+- key: "Monperrus:2018:ACM_CSUR"
+  title: "Automatic Software Repair: A Bibliography"
+  authors:
+    - name: Martin Monperrus
+  venue: "ACM Computing Surveys"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.1145/3105906
+  tags:
+    - APR
+    - survey
+
 - key: "DBLP:journals/corr/abs-1807-00515"
   title: "Automatic Software Repair: a Bibliography"
   authors:
@@ -3175,6 +3281,7 @@
   urls:
     - https://arxiv.org/abs/1802.07608
   pdfs:
+    - https://xiongyingfei.github.io/papers/GI18.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/icse2018/gi2018/papers/Xiong_2018_GI.pdf
     - https://arxiv.org/pdf/1802.07608.pdf
   slides:
@@ -4029,6 +4136,8 @@
   tags:
     - SBSE
     - survey
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/1508228/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_GPEM.pdf
   video:
@@ -6148,6 +6257,17 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/seams14main-id100-p-22852-aede8e5-20619-submitted.pdf
 
+- key: "Kocsis:2014:SMGP"
+  title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
+  authors:
+    - name: Zoltan A. Kocsis
+    - name: Jerry Swan
+  venue: "SMGP"
+  year: 2014
+  type: Workshop
+  pdfs:
+    - http://www.cs.put.poznan.pl/kkrawiec/smgp2014/uploads/Site/Kocsis.pdf
+
 - key: "Karasek:2014:SPIN"
   title: "Java evolutionary framework based on genetic programming"
   authors:
@@ -6232,17 +6352,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2014_synasc_abstract.pdf
-
-- key: "Kocsis:2014:SMGP"
-  title: "Asymptotic Genetic Improvement Programming via Type Functors and Catamorphisms"
-  authors:
-    - name: Zoltan A. Kocsis
-    - name: Jerry Swan
-  venue: "Semantic Methods in Genetic Programming"
-  year: 2014
-  type: Conference
-  pdfs:
-    - http://www.cs.put.poznan.pl/kkrawiec/smgp2014/uploads/Site/Kocsis.pdf
 
 - key: "LeGoues:thesis"
   title: "Automatic Program Repair Using Genetic Programming"
@@ -6903,6 +7012,8 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11.pdf
     - http://www.cs.virginia.edu/~weimer/p/sitthiamorn_siga11_supp.pdf
+  video:
+    - http://web.eecs.umich.edu/~weimerw/p/sitthiamorn_siga11.mov
 
 - key: "Ackling:2011:GECCO"
   title: "Evolving patches for software repair"
@@ -7242,6 +7353,20 @@
   pdfs:
     - http://www.cs.virginia.edu/~weimer/p/weimer-gecco2009.pdf
 
+- key: "DBLP:conf/gecco/Risco-MartinAGH09"
+  title: "Optimization of dynamic memory managers for embedded systems using grammatical evolution"
+  authors:
+    - name: Jose L. Risco-Martin
+    - name: David Atienza
+    - name: Ruben Gonzalo
+    - name: J. Ignacio Hidalgo
+  venue: "GECCO"
+  year: 2009
+  type: Conference
+  doi: https://doi.org/10.1145/1569901.1570116
+  tags:
+    - SBSE
+
 - key: "1570271"
   title: "Improving SMT performance: an application of genetic algorithms to configure resizable caches"
   authors:
@@ -7386,7 +7511,7 @@
     - name: Julio Cesar Hernandez-Castro
     - name: Arturo Ribagorda
     - name: Pedro Isasi
-  venue: "Parallel Problem Solving from Nature - PPSN IX"
+  venue: "PPSN"
   year: 2006
   type: Conference
   doi: https://doi.org/10.1007/11844297_83
