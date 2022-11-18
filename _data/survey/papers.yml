@@ -78,6 +78,24 @@
     - https://direct.mit.edu/isal/proceedings/isal/34/16/112318
     - http://www.projectdana.com/research/alife2022rainford
 
+- key: "Harman:2022:APR"
+  title: "Scaling Genetic Improvement and Automated Program Repair"
+  authors:
+    - name: Mark Harman
+  venue: "APR@ICSE"
+  year: 2022
+  type: Workshop
+  doi: https://doi.org/10.1145/3524459.3527353
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://research.facebook.com/publications/scaling-genetic-improvement-and-automated-program-repair/
+  pdfs:
+    - https://research.facebook.com/file/987372605236188/Scaling-Genetic-Improvement-and-Automated-Program-Repair.pdf
+  video:
+    - https://youtu.be/uAU_ySdEvks
+
 - key: "poliansky:2022:AS"
   title: "From Requirements to Source Code: Evolution of Behavioral Programs"
   authors:
@@ -221,7 +239,7 @@
     - name: Kenneth Reid
     - name: Yuan Yuan
     - name: Wolfgang Banzhaf
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2022
   type: Conference
   doi: https://doi.org/10.1145/3520304.3528945
@@ -456,24 +474,6 @@
     - https://www.youtube.com/watch?v=xpKcZRsRgrQ&list=PLI8fiFpB7BoIHgl5CsdtjfWvHlE5N6pje&index=5
   slides:
     - http://geneticimprovementofsoftware.com/slides/gi2022gecco/anderson-towards-evolutionary-based-autonomy-gi-gecco-22.pdf
-
-- key: "Harman:2022:APR"
-  title: "Scaling Genetic Improvement and Automated Program Repair"
-  authors:
-    - name: Mark Harman
-  venue: "International Workshop on Automated Program Repair (APR'22)"
-  year: 2022
-  type: Conference
-  doi: https://doi.org/10.1145/3524459.3527353
-  tags:
-    - APR
-    - SBSE
-  urls:
-    - https://research.facebook.com/publications/scaling-genetic-improvement-and-automated-program-repair/
-  pdfs:
-    - https://research.facebook.com/file/987372605236188/Scaling-Genetic-Improvement-and-Automated-Program-Repair.pdf
-  video:
-    - https://youtu.be/uAU_ySdEvks
 
 - key: "DBLP:conf/ppsn/AhmadCFW22"
   title: "Digging into Semantics: Where Do Search-Based Software Repair Methods Search?"
@@ -798,7 +798,7 @@
   authors:
     - name: William B. Langdon
     - name: Oliver Krauss
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2021
   type: Conference
   doi: https://doi.org://doi:10.5281/zenodo.3755346
@@ -819,7 +819,7 @@
     - name: Michela Lorandi
     - name: Leonardo Lucio Custode
     - name: Giovanni Iacca
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3462716
@@ -834,7 +834,7 @@
     - name: John R. Woodward
     - name: Markus Wagner
     - name: Bradley Alexander
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3461416
@@ -848,7 +848,7 @@
     - name: Gunel Jahangirova
     - name: Mauro Pezze
     - name: Paolo Tonella
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3462722
@@ -1680,7 +1680,7 @@
     - name: Emily Winter
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389912
@@ -1694,7 +1694,7 @@
     - name: Xiaodong Wang
     - name: Stephanie Forrest
     - name: Carole-Jean Wu
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3398139
@@ -1708,7 +1708,7 @@
       aka: Saemundur O. Haraldsson
     - name: John R. Woodward
     - name: Markus Wagner
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389885
@@ -1718,7 +1718,7 @@
   authors:
     - name: Una-May O'Reilly
     - name: Erik Hemberg
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389882
@@ -1729,7 +1729,7 @@
     - name: Daniel R. Tauritz
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389855
@@ -2003,6 +2003,19 @@
   type: Journal
   doi: https://doi.org/10.1007/s11424-020-8275-0
 
+- key: "DBLP:conf/vstte/BosamiyaGLPH20"
+  title: "Verified Transformations and Hoare Logic: Beautiful Proofs for Ugly Assembly Language"
+  authors:
+    - name: Jay Bosamiya
+    - name: Sydney Gibson
+    - name: Yao Li
+    - name: Bryan Parno
+    - name: Chris Hawblitzel
+  venue: "NSV"
+  year: 2020
+  type: Workshop
+  doi: https://doi.org/10.1007/978-3-030-63618-0_7
+
 - key: "Langdon:2020:SEN"
   title: "Genetic Improvement @ ICSE 2020"
   authors:
@@ -2066,19 +2079,6 @@
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Lim_2020_SSBSE_RENE.pdf
   video:
     - https://www.youtube.com/watch?v=018oszfebqg
-
-- key: "DBLP:conf/vstte/BosamiyaGLPH20"
-  title: "Verified Transformations and Hoare Logic: Beautiful Proofs for Ugly Assembly Language"
-  authors:
-    - name: Jay Bosamiya
-    - name: Sydney Gibson
-    - name: Yao Li
-    - name: Bryan Parno
-    - name: Chris Hawblitzel
-  venue: "Software Verification - 12th International Conference, VSTTE 2020, and 13th International Workshop, NSV 2020"
-  year: 2020
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-030-63618-0_7
 
 - key: "Dong:2020:Symmetry"
   title: "Automated Program-Semantic Defect Repair and False-Positive Elimination without Side Effects"
@@ -2292,7 +2292,7 @@
     - name: W. B. Langdon
       aka: William B. Langdon
     - name: Justyna Petke
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3319619.3321954
@@ -4440,54 +4440,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1604.pdf
 
-- key: "Highnam:2016:DSN-W"
-  title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
-  authors:
-    - name: Kate Highnam
-    - name: Kevin Angstadt
-    - name: Kevin Leach
-    - name: Westley Weimer
-    - name: Aaron Paulos
-    - name: Patrick Hurley
-  venue: "2016 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshop (DSN-W)"
-  year: 2016
-  type: Conference
-  doi: https://doi.org/10.1109/DSN-W.2016.63
-  tags:
-    - APR
-  pdfs:
-    - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
-  slides:
-    - https://web.eecs.umich.edu/~weimerw/p/DSN16-Industrial%20Attack%20and%20Arch.pdf
-
-- key: "Kou:2016:IWESEP"
-  title: "A Capable Crossover Technique on Automatic Program Repair"
-  authors:
-    - name: Ryotaro Kou
-    - name: Yoshiki Higo
-    - name: Shinji Kusumoto
-  venue: "2016 7th International Workshop on Empirical Software Engineering in Practice (IWESEP)"
-  year: 2016
-  type: Conference
-  doi: https://doi.org/10.1109/IWESEP.2016.15
-  tags:
-    - APR
-
-- key: "Elver:2016:ieeeHPCA"
-  title: "McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation"
-  authors:
-    - name: Marco Elver
-    - name: Vijay Nagarajan
-  venue: "22nd IEEE Symposium on High Performance Computer Architecture, HPCA 2016"
-  year: 2016
-  type: Conference
-  doi: https://doi.org/10.1109/HPCA.2016.7446099
-  tags:
-    - SBSE
-    - testing
-  urls:
-    - http://hpca22.site.ac.upc.edu/index.php/program/conference-program/
-
 - key: "Peled:2016:ISoLA"
   title: "Automatic Synthesis of Code Using Genetic Programming"
   authors:
@@ -4541,6 +4493,26 @@
   tags:
     - APR
 
+- key: "Highnam:2016:DSN-W"
+  title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
+  authors:
+    - name: Kate Highnam
+    - name: Kevin Angstadt
+    - name: Kevin Leach
+    - name: Westley Weimer
+    - name: Aaron Paulos
+    - name: Patrick Hurley
+  venue: "DSN-W"
+  year: 2016
+  type: Workshop
+  doi: https://doi.org/10.1109/DSN-W.2016.63
+  tags:
+    - APR
+  pdfs:
+    - https://web.eecs.umich.edu/~angstadt/papers/dsn16-industrial.pdf
+  slides:
+    - https://web.eecs.umich.edu/~weimerw/p/DSN16-Industrial%20Attack%20and%20Arch.pdf
+
 - key: "DBLP:conf/dsn/WeimerFKGH16"
   title: "Trusted Software Repair for System Resiliency"
   authors:
@@ -4549,7 +4521,7 @@
     - name: Miryung Kim
     - name: Claire Le Goues
     - name: Patrick Hurley
-  venue: "DSN Workshops"
+  venue: "DSN-W"
   year: 2016
   type: Workshop
   doi: https://doi.org/10.1109/DSN-W.2016.64
@@ -4595,7 +4567,7 @@
     - name: John R. Woodward
     - name: Colin G. Johnson
     - name: Alexander E. I. Brownlee
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931728
@@ -4609,7 +4581,7 @@
   authors:
     - name: Lukas Sekanina
     - name: Vlastimil Kapusta
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931740
@@ -4789,6 +4761,21 @@
     - http://cs.adelaide.edu.au/~markus/pub/2016-gecco-gi-verification.pdf
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2016/06/Speeding-up-the-Proof_Strategy_in_Formal_Software_Verification.pdf
 
+- key: "Elver:2016:ieeeHPCA"
+  title: "McVerSi: A Test Generation Framework for Fast Memory Consistency Verification in Simulation"
+  authors:
+    - name: Marco Elver
+    - name: Vijay Nagarajan
+  venue: "HPCA"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/HPCA.2016.7446099
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - http://hpca22.site.ac.upc.edu/index.php/program/conference-program/
+
 - key: "DBLP:conf/icse/MechtaevYR16"
   title: "Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis"
   authors:
@@ -4837,6 +4824,19 @@
     - http://blog.ieeesoftware.org/2016/02/genetic-improvement.html?platform=hootsuite
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_ieeeblog.pdf
+
+- key: "Kou:2016:IWESEP"
+  title: "A Capable Crossover Technique on Automatic Program Repair"
+  authors:
+    - name: Ryotaro Kou
+    - name: Yoshiki Higo
+    - name: Shinji Kusumoto
+  venue: "IWESEP"
+  year: 2016
+  type: Workshop
+  doi: https://doi.org/10.1109/IWESEP.2016.15
+  tags:
+    - APR
 
 - key: "langdon:2016:cec"
   title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
@@ -6487,7 +6487,7 @@
   authors:
     - name: Erik M. Fredericks
     - name: Betty H. C. Cheng
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2480790
@@ -6501,7 +6501,7 @@
     - name: Michael Kommenda
     - name: Stefan Wagner
     - name: Heinz Dobler
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2482713
@@ -7375,7 +7375,7 @@
     - name: Francisco Fernandez
     - name: Oscar Garnica
     - name: Sonia Lopez
-  venue: "GECCO-C"
+  venue: "GECCO-comp"
   year: 2009
   type: Conference
   doi: https://doi.org/10.1145/1570256.1570271

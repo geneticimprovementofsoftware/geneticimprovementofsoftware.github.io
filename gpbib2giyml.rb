@@ -24,7 +24,11 @@ for chunk in data
   when 'InCollection'
     type = 'Collection'
   when 'InProceedings'
-    type = 'Conference'
+    if /^\s*note.*invited keynote/i
+      type = 'Keynote'
+    else
+      type = 'Conference'
+    end
   when 'PhdThesis'
     type = 'PhdThesis'
   when 'Proceedings'
@@ -42,7 +46,7 @@ for chunk in data
     when /^\s*howpublished.*arxiv/i
       type = 'Archive'
       venue = 'ArXiV'
-    when /^\s*note.*keynote/i
+    when /^\s*note.*invited keynote/i
       type = 'Keynote'
       venue = chunk[/^\s*howpublished\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')
     when /^\s*url.*arxiv\.org/i
@@ -101,17 +105,17 @@ out.each do |h|
        'ars technica UK'
     h[:type] = 'Web'
 
-  when /APR@ICSE/, /APR @ ICSE/
+  when /APR@ICSE/, /APR @ ICSE/, /\(APR'22\)/
     h[:venue] = 'APR@ICSE'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop on Binary Analysis Research/i
     h[:venue] = 'BAR'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
-  when /Workshop on Software Development Lifecycle for Mobile/
+  when /Workshop on Software Development Lifecycle for Mobile/i
     h[:venue] = 'DeMobile'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
-  when /Dependable Systems and Networks Workshops/
-    h[:venue] = 'DSN Workshops'
+  when /Dependable Systems and Networks Workshops?/i
+    h[:venue] = 'DSN-W'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Evolutionary Computation in Computational Biology/i
     h[:venue] = 'ECCSB'
@@ -141,11 +145,17 @@ out.each do |h|
        /GI @ ICSE/
     h[:venue] = 'GI@ICSE'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
-  when /Workshop on General Purpose Process(or|ing) Using (Graphics Processing Units|GPU)/
+  when /Workshop on General Purpose Process(or|ing) Using (Graphics Processing Units|GPU)/i
     h[:venue] = 'GPGPU'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop on Intelligent Bug Fixing/i
     h[:venue] = 'IBF'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /International Workshop on Empirical Software Engineering in Practice/i
+    h[:venue] = 'IWESEP'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /International Workshop, NSV 2020/i
+    h[:venue] = 'NSV'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop On Approximate Computing/i
     h[:venue] = 'WAPCO'
@@ -170,6 +180,8 @@ out.each do |h|
   when 'GI @ CEC 2020 Special Session'
     h[:venue] = 'CEC'
     h[:type] = 'Session'
+  when /International Conference on Dependable Systems and Networks/i
+    h[:venue] = 'DSN'
   when /Evaluation and Assessment in Software Engineering/i
     h[:venue] = 'EASE'
   when /EuroGP/, /European Conference on Genetic Programming/i
@@ -190,12 +202,14 @@ out.each do |h|
        /Companion.*Conference on Genetic and Evolutionary Computation/i,
        /Genetic and Evolutionary Computation Conference.*Companion/i,
        /Conference on Genetic and Evolutionary Computation.*Companion/i
-    h[:venue] = 'GECCO-C'
+    h[:venue] = 'GECCO-comp'
   when /Genetic and Evolutionary Computation Conference/i,
        /Conference on Genetic and Evolutionary Computation/i
     h[:venue] = 'GECCO'
   when /Genetic Programming Theory and Practice/i
     h[:venue] = 'GPTP'
+  when /Symposium on High Performance Computer Architecture/i
+    h[:venue] = 'HPCA'
   when /Artificial Intelligence and Soft Computing/i
     h[:venue] = 'ICAISC'
   when /International Conference on Computational and Information Sciences/i
