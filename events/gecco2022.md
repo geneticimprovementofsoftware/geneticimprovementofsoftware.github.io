@@ -80,7 +80,7 @@ Keep up to date with the latest event news via our Twitter: <https://twitter.com
 ## Keynote
 
 <figure class="figure float-right" style="margin: auto 0.5em;">
-  <img class="figure-img rounded img-thumbnail" style="max-width: 200px; max-height: 160px;" src="{{ "/profile_images/westley_weimer.jpg" | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />
+  <img class="figure-img rounded img-thumbnail" style="max-width: 200px; max-height: 160px;" src="{{ "/profile_images/westley_weimer.jpg" | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/blank.jpg" | relative_url }}'" />
   <figcaption class="figure-caption text-right">Westley Weimer</figcaption>
 </figure>
 
@@ -189,7 +189,7 @@ Moreover, their supervisor should send a one-paragraph note of recommendation to
 
 {% for chair in page.chairs %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == chair.name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == chair.name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}
 <figure class="figure float-right" style="margin: auto 0.5em;">
-  <img class="figure-img rounded img-thumbnail" style="max-width: 200px; max-height: 140px" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'">
+  <img class="figure-img rounded img-thumbnail" style="max-width: 200px; max-height: 140px" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/blank.jpg" | relative_url }}'">
   <figcaption class="figure-caption text-right">{{ chair.name }}</figcaption>
 </figure>
 
@@ -205,7 +205,7 @@ Moreover, their supervisor should send a one-paragraph note of recommendation to
 <div class="row justify-content-around">
 {% for name in page.reviewers %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == name %}{% assign match = p %}{% break %}{% else %}{% for aka in p.aka %}{% if aka == name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}{% endif %}{% endfor %}
 <figure class="figure" style="text-align: center; margin: 0.5em 1em; width: 140px;">
-  <img class="figure-img" style="max-width: 140px; max-height: 140px;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />
+  <img class="figure-img" style="max-width: 140px; max-height: 140px;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/blank.jpg" | relative_url }}'" />
   <figcaption class="figure-caption">{% if match.homepage or match.scholar or match.dblp %}<a href="{{ match.homepage | default:  match.scholar | default:  match.dblp }}">{{ match.name }}</a>{% else %}{{ name }}{% endif %}</figcaption>
 </figure>{% endfor %}
 </div>

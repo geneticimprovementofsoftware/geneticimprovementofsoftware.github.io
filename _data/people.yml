@@ -91,12 +91,12 @@
 
 - name: Aymeric Blot
   show: yes
-  affil: UCL, United Kingdom
+  affil: ULCO, France
   homepage: http://www0.cs.ucl.ac.uk/staff/a.blot/
   dblp: https://dblp.uni-trier.de/pers/hd/b/Blot:Aymeric
   scholar: https://scholar.google.fr/citations?user=I8sfMwwAAAAJ
   tags:
-    - PyGGI
+    - PyGGI, Magpie
 
 - name: Mahmoud A. Bokhari
   aka:
@@ -147,7 +147,7 @@
   show: true
   aka:
     - Myra Cohen
-  affil: Iowa State University
+  affil: Iowa State University, USA
   homepage: https://web.cs.iastate.edu/~mcohen/
   dblp: https://dblp.org/pid/79/5975.html
   scholar: https://scholar.google.com/citations?user=i_XdxLcAAAAJ
@@ -188,7 +188,7 @@
   img: /profile_images/stephanie_forrest.jpg
 
 - name: Erik Fredericks
-  homepage: http://efredericks.net/
+  homepage: https://efredericks.github.io/
   img: /profile_images/erik_fredericks.jpg
 
 - name: Unai Garciarena
@@ -269,6 +269,13 @@
 - name: Yusaku Kaneta
   homepage: https://sites.google.com/site/yusakukaneta/
 
+- name: Maria Kechagia
+  affil: University College London, United Kingdom
+  homepage: https://mkechagia.github.io/
+  dblp: https://dblp.org/pid/43/10965.html
+  scholar: https://scholar.google.co.in/citations?user=UH14xAMAAAAJ
+  img: /profile_images/maria_kechagia.jpg
+
 - name: Serkan Kirbas
   homepage: https://uk.linkedin.com/in/serkankirbas
   img: /profile_images/serkan_kirbas.jpg
@@ -277,7 +284,12 @@
   homepage: https://existence.property
 
 - name: Oliver Krauss
-  homepage: https://research.fh-ooe.at/en/staff/25755
+  show: yes
+  affil: University of Applied Sciences Upper Austria, Austria
+  homepage: https://pure.fh-ooe.at/en/persons/oliver-krauss
+  dblp: https://dblp.org/pid/183/9136.html
+  scholar: https://scholar.google.com/citations?user=MoKRFRYAAAAJ
+  img: /profile_images/oliver_krauss.jpg
 
 - name: Jens Krinke
   homepage: http://www0.cs.ucl.ac.uk/staff/j.krinke/
@@ -305,10 +317,13 @@
     - James I. Lathrop
   homepage: http://web.cs.iastate.edu/~jil/
 
-- name: Bach Le
+- name: Xuan-Bach D. Le
+  aka:
+    - Bach Le
+    - Xuan-Bach Le
   show: yes
   affil: University of Melbourne, Australia
-  homepage: https://cis.unimelb.edu.au/people/bach-le
+  homepage: https://xuanbachle.github.io/
   dblp: https://dblp.org/pid/167/6015.html
   scholar: https://scholar.google.com/citations?user=AUJWzE8AAAAJ
   img: /profile_images/bach_le.jpg
@@ -365,7 +380,7 @@
 
 - name: Vesna Nowack
   show: yes
-  affil: Lancaster University, UK
+  affil: Lancaster University, United Kingdom
   homepage: https://www.linkedin.com/in/vesnasmiljkovic/
   dblp: https://dblp.org/pid/223/9468.html
   scholar: https://scholar.google.com/citations?user=KZ66xMoAAAAJ
@@ -392,6 +407,7 @@
 
 - name: Hannah Peeler
   homepage: https://www.linkedin.com/in/hannah-peeler-a4751bb2/
+  img: /profile_images/hannah_peeler.jpg
 
 - name: Justyna Petke
   show: yes
@@ -410,6 +426,13 @@
 
 - name: Barry Porter
   homepage: https://www.lancaster.ac.uk/scc/about-us/people/barry-porter
+
+- name: Penny Rainford
+  aka:
+    - Penn Faulkner Rainford
+    - Penny Faulkner Rainford
+  homepage: https://faulknerrainford.co.uk/
+  img: /profile_images/penny_rainford.jpg
 
 - name: Brittany Reid
   scholar: https://scholar.google.com/citations?user=biWKuMUAAAAJ
@@ -453,10 +476,18 @@
   img: /profile_images/marija_selakovic.jpg
 
 - name: Andrew N. Sloss
+  aka:
+    - Andrew Sloss
+    - Andrew N Sloss
   homepage: https://www.linkedin.com/in/asloss/
+  img: /profile_images/andrew_sloss.jpg
 
 - name: Marta Smigielska
   homepage: https://www.linkedin.com/in/marta-smigielska-959661145/
+
+- name: Dominik Sobania
+  homepage: https://en.wi.bwl.uni-mainz.de/dominik-sobania/
+  img: /profile_images/dominik_sobania.jpg
 
 - name: Manbir Sodhi
   homepage: https://web.uri.edu/engineering/meet/msodhi/
@@ -486,7 +517,7 @@
 
 - name: Leonardo Trujillo
   show: yes
-  affil: Instituto Tecnológico de Tijuana de Mexico/IT de Tijuana
+  affil: Instituto Tecnológico de Tijuana de Mexico/IT de Tijuana, Mexico
   homepage: https://dcitectijuana.mx/
   dblp: https://dblp.uni-trier.de/pid/62/1755.html
   scholar: https://scholar.google.com/citations?user=xXh3xRYAAAAJ
@@ -531,7 +562,7 @@
 
 - name: Emily Winter
   show: yes
-  affil: University of Lancaster, UK
+  affil: University of Lancaster, United Kingdom
   homepage: https://www.lancaster.ac.uk/people-profiles/emily-winter
   dblp: https://dblp.org/pid/227/5399.html
   scholar: https://scholar.google.com/citations?user=G1q_FZcAAAAJ

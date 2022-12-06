@@ -12,7 +12,7 @@ maintainers:
 {% for name in page.maintainers %}{% assign match = nil %}{% for p in site.data.people %}{% if p.name == name %}{% assign match = p %}{% break %}{% endif %}{% endfor %}
 <figure style="text-align: center; margin: 0.5em 0.25em;">
 <picture style="max-width: 140px; max-height: 140px;">
-  {% if match.homepage %}<a href="{{ match.homepage }}" style="max-width: 100%; max-height: inherit;">{% endif %}<img class="rounded img-thumbnail" style="max-width: 100%; max-height: inherit;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/empty.jpg" | relative_url }}'" />{% if match.homepage %}</a>{% endif %}
+  {% if match.homepage %}<a href="{{ match.homepage }}" style="max-width: 100%; max-height: inherit;">{% endif %}<img class="rounded img-thumbnail" style="max-width: 100%; max-height: inherit;" src="{{ match.img | relative_url }}" onerror="this.onerror=null; this.src='{{ "/profile_images/blank.jpg" | relative_url }}'" />{% if match.homepage %}</a>{% endif %}
 </picture>
 <figcaption>{{ match.name }}</figcaption>
 <figcaption style="font-size: 80%;">{% if match.affil %}{{ match.affil }}{% endif %}</figcaption>
