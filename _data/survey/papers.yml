@@ -39,6 +39,19 @@
   urls:
     - http://www.research.lancs.ac.uk/portal/en/publications/-(00152abe-459f-4864-8133-80198ea69fba).html
 
+- key: "langdon:2023:EuroGP"
+  title: "Genetic Improvement of LLVM Intermediate Representation"
+  authors:
+    - name: William B. Langdon
+    - name: Afnan Al-Subaihin
+    - name: Aymeric Blot
+    - name: David Clark
+  venue: "EuroGP"
+  year: 2023
+  type: Conference
+  tags:
+    - SBSE
+
 - key: "Krauss:thesis"
   title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
   authors:
@@ -84,7 +97,7 @@
     - name: Mark Harman
   venue: "APR@ICSE"
   year: 2022
-  type: Workshop
+  type: Keynote
   doi: https://doi.org/10.1145/3524459.3527353
   tags:
     - APR
@@ -129,6 +142,21 @@
     - https://github.com/anonymous183459/LeakReducer/
   pdfs:
     - https://discovery.ucl.ac.uk/id/eprint/10152572/1/main.pdf
+
+- key: "DBLP:conf/asplos/Ahmad0W22"
+  title: "CirFix: automatically repairing defects in hardware design code"
+  authors:
+    - name: Hammad Ahmad
+    - name: Yu Huang
+    - name: Westley Weimer
+  venue: "ASPLOS"
+  year: 2022
+  type: Conference
+  doi: https://doi.org/10.1145/3503222.3507763
+  tags:
+    - APR
+  urls:
+    - https://github.com/hammad-a/verilog_repair
 
 - key: "Lehman:2022:ELM"
   title: "Evolution through Large Models"
@@ -489,6 +517,8 @@
   tags:
     - APR
     - SBSE
+  pdfs:
+    - https://web.eecs.umich.edu/~weimerw/p/weimer-asplos2022.pdf
 
 - key: "blot:hal-03595447"
   title: "Using Genetic Improvement to Optimise Optimisation Algorithm Implementations"
@@ -1950,7 +1980,7 @@
   venue: "GI@ICSE"
   year: 2020
   abstract: "We introduce the Web-Enabled Simulation (WES) research agenda, and describe FACEBOOK WW system. We describe the application of WW to reliability, integrity and privacy at FACEBOOK, where it is used to simulate social media interactions on an infrastructure consisting of hundreds of millions of lines of code. The WES agenda draws on research from many areas of study, including Search Based Software Engineering, Machine Learning, Programming Languages, Multi Agent Systems, Graph Theory, Game AI, and AI Assisted Game Play. We conclude with a set of open problems and research challenges to motivate wider investigation."
-  type: Workshop
+  type: Keynote
   doi: https://doi.org/10.1145/3387940.3392089
   tags:
     - APR
@@ -2482,7 +2512,7 @@
   venue: "GI@ICSE"
   year: 2019
   abstract: "Facebook recently had their first experience with Genetic Improvement (GI) by developing and deploying the automated bug fixing tool SapFix. The experience was successful resulting in landed fixes but also very educational. This paper will briefly outline some of the challenges for GI that were highlighted by this experience as well as a look at future directions in the area of mobile apps."
-  type: Workshop
+  type: Keynote
   doi: https://doi.org/10.1109/GI.2019.00010
   tags:
     - APR
@@ -3035,6 +3065,8 @@
   doi: https://doi.org/10.1007/978-3-319-77553-1_14
   tags:
     - SBSE
+  urls:
+    - https://github.com/ViennaRNA/ViennaRNA/compare/v2.4.4...v2.4.5
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2018_EuroGP.pdf
 
@@ -3243,7 +3275,7 @@
   venue: "GI@ICSE"
   year: 2018
   abstract: "Genetic Improvement describes a class of search-based techniques that automatically improve software along a a variety of quality dimensions. In this talk, I will survey the research advances that have made possible the significant recent progress in this field. I will focus on the ongoing research opportunities that lie in genetic software improvement, with an especial focus on the challenges of confidently reasoning about, measuring, and assuring the quality of automatically and constantly evolving artefacts."
-  type: Workshop
+  type: Keynote
   tags:
     - survey
   pdfs:
@@ -5232,6 +5264,7 @@
   urls:
     - http://cs-dc-15.org/papers/multi-scale-dynamics/evol-comp-methods-2/software-is-not-fragile/
     - http://cs-dc-15.org/
+    - https://hal.archives-ouvertes.fr/hal-01291120/
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2015_csdc.pdf
   slides:
@@ -5756,7 +5789,7 @@
       aka: William B. Langdon
   venue: "SSBSE"
   year: 2015
-  type: Conference
+  type: Keynote
   doi: https://doi.org/10.1007/978-3-319-22183-0_2
   tags:
     - GISMO
@@ -6292,7 +6325,7 @@
     - name: Yuanyuan Zhang
   venue: "SPLC"
   year: 2014
-  type: Conference
+  type: Keynote
   doi: https://doi.org/10.1145/2648511.2648513
   tags:
     - SBSE
@@ -6442,7 +6475,7 @@
       aka: William B. Langdon
   venue: "2nd Chinese Search Based Software Engineering workshop"
   year: 2013
-  type: Conference
+  type: Keynote
   tags:
     - GISMO
     - SBSE
@@ -6644,7 +6677,7 @@
     - name: Westley Weimer
   venue: "SSBSE"
   year: 2013
-  type: Conference
+  type: Keynote
   doi: https://doi.org/10.1007/978-3-642-39742-4_1
   tags:
     - APR
@@ -6707,7 +6740,7 @@
     - name: Westley Weimer
   venue: "WCRE"
   year: 2013
-  type: Conference
+  type: Keynote
   doi: https://doi.org/10.1109/WCRE.2013.6671274
   tags:
     - GISMO
@@ -6962,7 +6995,7 @@
       aka: William B. Langdon
   venue: "MENDEL"
   year: 2012
-  type: Conference
+  type: Keynote
   tags:
     - GISMO
     - SBSE
@@ -7295,6 +7328,9 @@
   venue: "Proceedings of the International Conference on Evolutionary Computation (ICEC 2010)"
   year: 2010
   type: Conference
+  doi: https://doi.org/10.5220/0003113702750280
+  urls:
+    - https://www.scitepress.org/PublishedPapers/2010/31137/
   pdfs:
     - http://www.robinbye.com/files/publications/ICEC_2010.pdf
 
@@ -7550,7 +7586,7 @@
   year: 2002
   type: PhdThesis
   urls:
-    - https://www.uidaho.edu/engr/departments/cs/research/theses
+    - https://alliance-uidaho.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma9971206801851&context=L&vid=01ALLIANCE_UID:UID&lang=en&search_scope=DN_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,Imamura&mode=advanced&pfilter=rtype,exact,dissertations,AND
     - http://search.proquest.com/docview/288080102
 
 - key: "ryan:2000:paragen1"

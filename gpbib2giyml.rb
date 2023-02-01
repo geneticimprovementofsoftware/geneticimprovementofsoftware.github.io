@@ -24,7 +24,7 @@ for chunk in data
   when 'InCollection'
     type = 'Collection'
   when 'InProceedings'
-    if /^\s*note.*invited keynote/i
+    if chunk[/^\s*note.*=.*invited keynote/i]
       type = 'Keynote'
     else
       type = 'Conference'
