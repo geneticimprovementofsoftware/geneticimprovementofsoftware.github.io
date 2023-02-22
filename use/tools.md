@@ -46,15 +46,6 @@ Other open source tools for the genetic improvement of non-functional software p
 - <a href="https://github.com/lioujheyu/gevo">GEVO</a>
 - <a href="https://github.com/oliver-krauss/EuroGP2020-LookupTables">Automatically Evolving Lookup Tables for Function Approximation</a>
 - <a href="https://github.com/michelalorandi/evolution_routing_protocol">Genetic Improvement of Routing Protocols for Delay Tolerant Networks</a>
-<!--- These were also in the lit review but were excluded- see reason
-- DFAHC (github link doesn't work- deprecated?)
-- GISMO (mentioned previously)
-- locoGP (mentioned previously)
-- PyGGI (mentioned previously)
-- Gin (mentioned previously)
-- Evolving sqrt into 1/x via software data maintenance (not really a tool)
-- Genetic Improvement of Data for Maths Functions (not really a tool)
--->
 
 <div class="alert alert-info" role="alert">
   <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expanding it</a>)
