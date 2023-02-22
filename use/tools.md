@@ -34,6 +34,28 @@ Other frameworks and libraries identified at the <a href="https://www.dagstuhl.d
 - <a href="https://github.com/kayquesousa/astor4android">Astor4Android: program repair for Android Apps</a>
 
 
+Other open source tools for the genetic improvement of non-functional software properties (Identified from the <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052">literature review</a> by Zuo et al. at GECCO 2022:
+
+- <a href="https://github.com/fabianishere/shadevolution">Genetic Programming for Shader Simplification</a>
+- <a href="https://github.com/BobbyRBruce/DPT-OpenCV">Deep Parameter Optimisation in OpenCV</a>
+- <a href="https://github.com/FanWuUCL/HOMI">HOMI</a>
+- <a href="http://www0.cs.ucl.ac.uk/staff/ucacbbl/gggp/">GGGP</a>
+- <a href="https://github.com/ffarzat/JavaScriptHeuristicOptmizer">Optimizer</a>
+- Evolving Better Software Parameters: <a href="http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/gi_cbrt.tar.gz"> download code </a>
+- <a href="https://github.com/dornja/powergauge">PowerGAUGE</a>
+- <a href="https://github.com/lioujheyu/gevo">GEVO</a>
+- <a href="https://github.com/oliver-krauss/EuroGP2020-LookupTables">Automatically Evolving Lookup Tables for Function Approximation</a>
+- <a href="https://github.com/michelalorandi/evolution_routing_protocol">Genetic Improvement of Routing Protocols for Delay Tolerant Networks</a>
+<!--- These were also in the lit review but were excluded- see reason
+- DFAHC (github link doesn't work- deprecated?)
+- GISMO (mentioned previously)
+- locoGP (mentioned previously)
+- PyGGI (mentioned previously)
+- Gin (mentioned previously)
+- Evolving sqrt into 1/x via software data maintenance (not really a tool)
+- Genetic Improvement of Data for Maths Functions (not really a tool)
+-->
+
 <div class="alert alert-info" role="alert">
   <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expanding it</a>)
 </div>
