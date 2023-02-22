@@ -24,8 +24,11 @@ Here are a few other examples of existing work:
   - <a href="https://github.com/eschulte/netgear-repair">Netgear Router Repair</a>
 - <a href="https://people.cs.umass.edu/~brun/pubs/pubs/Ke15ase.pdf">SearchRepair</a>
 - <a href="http://sourceforge.net/projects/trpautorepair/">TrpAutoRepair</a> (formerly known as RS Repair)
-- <a href="https://github.com/bloa/magpie">Magpie</a>: Machine Automated General Performance Improvement via Evolution of software (for functional and non-functional properties)
-
+- <a href="https://github.com/bloa/magpie">Magpie: Machine Automated General Performance Improvement via Evolution of software</a> (for functional and non-functional properties)
+- <a href="https://github.com/SpoonLabs/astor">ASTOR: A Program Repair Library for Java
+</a>
+- <a href="https://github.com/squaresLab/genprog4java/">JarFly: Java Repair Framework</a>
+- <a href="https://github.com/prapr/prapr">PraPR: Practical Program Repair via Bytecode Mutation</a>
 
 Other frameworks and libraries identified at the <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052">Dagstuhl Seminar on Genetic Improvement of Software</a> held in January 2018:
 - <a href="http://crest.cs.ucl.ac.uk/autotransplantation/downloads/muScalpel.zip">MuScalpel: automated software transplantation</a>
@@ -48,6 +51,7 @@ Other open source tools for the genetic improvement of non-functional software p
 - <a href="https://github.com/lioujheyu/gevo">GEVO</a>
 - <a href="https://github.com/oliver-krauss/EuroGP2020-LookupTables">Automatically Evolving Lookup Tables for Function Approximation</a>
 - <a href="https://github.com/michelalorandi/evolution_routing_protocol">Genetic Improvement of Routing Protocols for Delay Tolerant Networks</a>
+
 
 <div class="alert alert-info" role="alert">
   <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expanding it</a>)
