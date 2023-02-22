@@ -24,6 +24,8 @@ Here are a few other examples of existing work:
   - <a href="https://github.com/eschulte/netgear-repair">Netgear Router Repair</a>
 - <a href="https://people.cs.umass.edu/~brun/pubs/pubs/Ke15ase.pdf">SearchRepair</a>
 - <a href="http://sourceforge.net/projects/trpautorepair/">TrpAutoRepair</a> (formerly known as RS Repair)
+- <a href="https://github.com/bloa/magpie">Magpie</a>: Machine Automated General Performance Improvement via Evolution of software (for functional and non-functional properties)
+
 
 Other frameworks and libraries identified at the <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052">Dagstuhl Seminar on Genetic Improvement of Software</a> held in January 2018:
 - <a href="http://crest.cs.ucl.ac.uk/autotransplantation/downloads/muScalpel.zip">MuScalpel: automated software transplantation</a>
