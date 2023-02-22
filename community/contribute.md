@@ -48,11 +48,15 @@ You will need to install Jekyll and the `jekyll-seo-tag` gem and clone the repos
 [ruby]: https://www.ruby-lang.org/en/
 [rubygem]: https://rubygems.org/
 
-    gem install jekyll
-    gem install jekyll-seo-tag
-    git clone https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io.git
-    cd geneticimprovementofsoftware
-    jekyll serve
+```bash
+# setup
+gem install jekyll
+gem install jekyll-seo-tag
+git clone https://github.com/geneticimprovementofsoftware/geneticimprovementofsoftware.github.io.git
+# host
+cd geneticimprovementofsoftware
+jekyll serve
+```
 
 Jekyll should tell you which exact address to use, presumably [http://127.0.0.1:4000/]().  
 Note that while hosting any page you are modifying will automatically regenerated.
@@ -67,6 +71,34 @@ However for it to properly work you will also need to: **(on your own fork ONLY)
 We recommend you to put these in a [separate commit](https://github.com/bloa/geneticimprovementofsoftware/commit/5195c1f3852913596cc8c026ecf92e7367dd4266), that you will need to rebase away before any pull request or push upstream.
 Better even, configure GitHub Pages to target a branch different from `master`, and ensure that these two modifications are **NEVER** merged.
 See ["Reordering Commits"](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) knowing that rewriting history, as long as it is done locally, or forcibly _to a branch not meant to be cloned_, is perfectly acceptable and even good practice.
+
+Recommended process:
+
+```bash
+# first go to your GitHub Pages branch
+git checkout serve
+# run jekyll
+jekyll serve
+# modify the website, and check the local version in your browser
+# when you're happy, add the modified files
+git add YOUR_MODIFIED_FILES
+# and commit
+git commit -m "COMMIT_MESSAGE"
+# rebase the aforementioned commit on top of the history (just reorder the lines)
+git rebase -i master
+# check that the order is correct (and note the id of the commit up to which to merge)
+git log --graph --oneline --all
+# you can now force-push the GitHub Pages branch
+git push origin serve --force
+# after waiting for GitHub to update, double-check in your browser
+# go back to the master branch
+git checkout master
+# merge your modifications (BUT NOT THAT ONE COMMIT)
+git merge THE_ID_FROM_BEFORE
+# and push
+git push origin master
+# your fork is now ready for a pull request or an upstream merge
+```
 
 
 #### Useful resources
