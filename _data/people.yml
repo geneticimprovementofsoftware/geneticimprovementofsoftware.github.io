@@ -18,7 +18,7 @@
   aka:
     - Bradley Alexander
   show: yes
-  affil: University of Adelaide, Australia
+  affil: Optimatics
   homepage: https://researchers.adelaide.edu.au/profile/bradley.alexander
   dblp: https://dblp.org/pid/68/2289.html
   scholar: https://scholar.google.com/citations?user=-9PWueoAAAAJ
@@ -61,6 +61,7 @@
   homepage: https://www.strath.ac.uk/staff/andersondamienmr/
 
 - name: Sebastian Baltes
+  img: /profile_images/sebastian_baltes.jpg
   homepage: https://empirical-software.engineering/
 
 - name: Wolfgang Banzhaf
