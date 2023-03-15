@@ -1,5 +1,5 @@
 gpbib = File.read('gp-bibliography.bib')
-data = gpbib.split(/^\s*@/)
+data = gpbib.split(/^\s*@(?=\S+{)/)
 data.reject! {|chunk|  }
 
 out = []
@@ -68,6 +68,7 @@ for chunk in data
   chunk.gsub!("\n\n", "\n")
   chunk.gsub!(/[{}]/, '')
   chunk.gsub!('\\&', '&')
+  # warn("="*80)
   # warn chunk
 
   title = chunk[/^\s*title\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')&.gsub('"', '\\"')
@@ -79,7 +80,7 @@ for chunk in data
   year ||= ''
   abstract = chunk[/^\s*abstract\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')&.gsub('"', '\\"')
   doi = chunk[/^\s*doi\s*=\s*"(.*?)"\s*,\s*$/im, 1]&.gsub(/[\n\s]+/m, ' ')
-  keywords = chunk[/^\s*keywords\s*=\s*"(.*?)"\s*,\s*$/m, 1].gsub(/[\n\s]+/m, ' ')
+  keywords = chunk[/^\s*keywords\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')
   # warn keywords.split(',').sort
   tags = []
   tags << 'AI' if keywords =~ /artificial intelligence/i
@@ -142,6 +143,8 @@ out.each do |h|
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when 'GI-2018, ICSE workshops proceedings',
        'GI-2019, ICSE workshops proceedings',
+       /2021 .* Workshop on Genetic Improvement/,
+       /Genetic Improvement @ICSE/,
        /GI @ ICSE/
     h[:venue] = 'GI@ICSE'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
@@ -210,6 +213,8 @@ out.each do |h|
     h[:venue] = 'GPTP'
   when /Symposium on High Performance Computer Architecture/i
     h[:venue] = 'HPCA'
+  when /Artificial Intelligence and Smart (Systems|Energy)/i # yes really
+    h[:venue] = 'ICAIS'
   when /Artificial Intelligence and Soft Computing/i
     h[:venue] = 'ICAISC'
   when /International Conference on Computational and Information Sciences/i
@@ -223,6 +228,8 @@ out.each do |h|
     h[:venue] = 'ICSM'
   when /(International|IEEE) Conference on Software Testing/i
     h[:venue] = 'ICST'
+  when /International Symposium on Workload Characterization/i
+    h[:venue] = 'IISWC'
   when /International Symposium on System and Software Reliability/i
     h[:venue] = 'ISSSR'
   when /International Symposium on Software Testing and Analysis/i
@@ -241,10 +248,14 @@ out.each do |h|
     h[:venue] = 'NDSS'
   when /Parallel Problem Solving from Nature/i
     h[:venue] = 'PPSN'
+  when /International Conference on Software Quality, Reliability and Security Companion/i
+    h[:venue] = 'QRS-C'
   when /Soci.* Fran.*aise de Recherche Op.*rationnelle et d'Aide .* la D.*cision/
     h[:venue] = 'ROADEF'
   when 'Search-Based Software Testing'
     h[:venue] = 'SBST'
+  when /Conference on Source Code Analysis and Manipulation/i
+    h[:venue] = 'SCAM'
   when /Symposium on Software Engineering for Adaptive and Self-Managing Systems/i
     h[:venue] = 'SEAMS'
   when /International Conference on Signal Processing and Integrated Networks/i

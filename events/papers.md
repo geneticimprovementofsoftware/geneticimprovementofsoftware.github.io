@@ -2,6 +2,10 @@
 active: events
 
 workshops:
+- name: 12th International Workshop
+  venue: GI@ICSE
+  year: 2023
+  anchor: icse2023
 - name: 11th International Workshop
   venue: GI@GECCO
   year: 2022

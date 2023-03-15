@@ -17,6 +17,7 @@
 - name: Brad Alexander
   aka:
     - Bradley Alexander
+    - Bradley J. Alexander
   show: yes
   affil: Optimatics
   homepage: https://researchers.adelaide.edu.au/profile/bradley.alexander
@@ -189,6 +190,8 @@
   img: /profile_images/stephanie_forrest.jpg
 
 - name: Erik Fredericks
+  aka:
+    - Erik M. Fredericks
   homepage: https://efredericks.github.io/
   img: /profile_images/erik_fredericks.jpg
 
@@ -207,6 +210,9 @@
   aka:
     - Michael C. Gerten
   homepage: https://www.linkedin.com/in/michael-gerten-1b7747a5/
+
+- name: David Griffin
+  homepage: https://www.cs.york.ac.uk/people/?group=nsc&username=djg
 
 - name: Tracy Hall
   show: yes
@@ -270,6 +276,9 @@
 - name: Yusaku Kaneta
   homepage: https://sites.google.com/site/yusakukaneta/
   img: /profile_images/yusaku_kaneta.jpg
+
+- name: Sungmin Kang
+  homepage: https://coinse.kaist.ac.kr/members/sungmin.kang/
 
 - name: Maria Kechagia
   affil: University College London, United Kingdom
@@ -365,6 +374,9 @@
 
 - name: Hanspeter Moessenboeck
   homepage: https://ssw.jku.at/General/Staff/HM/
+
+- name: Jared M. Moore
+  scholar: https://scholar.google.com/citations?user=2aAaL2UAAAAJ
 
 - name: Mohsen Mosayebi
   homepage: https://www.linkedin.com/in/mohsen-mosayebi-276485177/
@@ -498,6 +510,9 @@
   homepage: https://wwwfr.uni.lu/snt/people/jeongju_sohn
   img: /profile_images/jeongju_sohn.jpg
 
+- name: Susan Stepney
+  homepage: https://www.cs.york.ac.uk/people/susan
+
 - name: Shin Hwei Tan
   homepage: https://www.shinhwei.com
   img: /profile_images/shin_hwei_tan.jpg
@@ -534,6 +549,9 @@
 
 - name: Nadarajen Veerapen
   scholar: https://scholar.google.co.uk/citations?user=N-1KB5sAAAAJ
+
+- name: Ian Vidamour
+  scholar: https://scholar.google.com/citations?user=s5hSlfAAAAAJ
 
 - name: Markus Wagner
   show: yes
