@@ -1,43 +1,19 @@
-- key: "Kechagia:TSE"
-  title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
+- key: "langdon:2023:cache"
+  title: "GI Software with fewer Data Caches Misses"
   authors:
-    - name: Maria Kechagia
-    - name: Sergey Mechtaev
-    - name: Federica Sarro
-    - name: Mark Harman
-  venue: "IEEE TSE"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TSE.2021.3067156
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: Aymeric Blot
+    - name: David Clark
+  venue: "ArXiV"
+  year: 2023
+  type: Archive
   tags:
-    - APR
     - SBSE
   urls:
-    - https://ieeexplore.ieee.org/document/9381596
-    - https://mkechagia.github.io/
+    - https://arxiv.org/abs/2304.03235
   pdfs:
-    - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
-
-- key: "Winter:TSE"
-  title: "Let's Talk With Developers, Not About Developers: A Review of Automatic Program Repair Research"
-  authors:
-    - name: Emily Rowan Winter
-    - name: Vesna Nowack
-    - name: David Bowes
-    - name: Steve Counsell
-    - name: Tracy Hall
-    - name: Saemundur O Haraldsson
-      aka: Saemundur O. Haraldsson
-    - name: John Woodward
-      aka: John R. Woodward
-  venue: "IEEE TSE"
-  year: 
-  type: Journal
-  doi: https://doi.org/10.1109/TSE.2022.3152089
-  tags:
-    - APR
-  urls:
-    - http://www.research.lancs.ac.uk/portal/en/publications/-(00152abe-459f-4864-8133-80198ea69fba).html
+    - https://arxiv.org/pdf/2304.03235.pdf
 
 - key: "langdon:2023:EuroGP"
   title: "Genetic Improvement of LLVM Intermediate Representation"
@@ -49,10 +25,29 @@
   venue: "EuroGP"
   year: 2023
   type: Conference
+  doi: https://doi.org/10.1007/978-3-031-29573-7_16
+  tags:
+    - SBSE
+  urls:
+    - https://rdcu.be/c8U04
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_EuroGP.pdf
+
+- key: "langdon:2023:GECCO"
+  title: "Genetically Improved Software with fewer Data Caches Misses"
+  authors:
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: Aymeric Blot
+    - name: David Clark
+  venue: "GECCO"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1145/3583133.3590542
   tags:
     - SBSE
   pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_EuroGP.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_GECCO.pdf
 
 - key: "Griffin:2023:GI"
   title: "DebugNS: Novelty Search for Finding Bugs in Simulators"
@@ -99,6 +94,10 @@
   tags:
     - SBSE
     - PyGGI
+  urls:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/olc_h3_icse2023.tar.gz
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_GI.pdf
 
 - key: "Kang:2023:GI"
   title: "Towards Objective-Tailored Genetic Improvement Through Large Language Models"
@@ -154,6 +153,27 @@
     - https://conf.researchr.org/track/icst-2023/icst-2023-keynotes
   pdfs:
     - https://research.facebook.com/file/1235985840680898/Software-Testing-Research-Challenges--An-Industrial-Perspective.pdf
+
+- key: "Winter:TSE"
+  title: "Let's Talk With Developers, Not About Developers: A Review of Automatic Program Repair Research"
+  authors:
+    - name: Emily Rowan Winter
+    - name: Vesna Nowack
+    - name: David Bowes
+    - name: Steve Counsell
+    - name: Tracy Hall
+    - name: Saemundur Haraldsson
+      aka: Saemundur O. Haraldsson
+    - name: John Woodward
+      aka: John R. Woodward
+  venue: "IEEE TSE"
+  year: 2023
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2022.3152089
+  tags:
+    - APR
+  urls:
+    - http://www.research.lancs.ac.uk/portal/en/publications/-(00152abe-459f-4864-8133-80198ea69fba).html
 
 - key: "Krauss:thesis"
   title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
@@ -237,6 +257,7 @@
   venue: "ASE"
   year: 2022
   type: Conference
+  doi: https://doi.org/10.1145/3551349.3556947
   tags:
     - APR
     - SBSE
@@ -302,7 +323,7 @@
   venue: "ArXiV"
   year: 2022
   type: Archive
-  doi: https://doi.org/10.48550/ARXIV.2208.02811
+  doi: https://doi.org/10.48550/arxiv.2208.02811
   tags:
     - SBSE
   urls:
@@ -643,6 +664,26 @@
   tags:
     - APR
 
+- key: "Kechagia:TSE"
+  title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
+  authors:
+    - name: Maria Kechagia
+    - name: Sergey Mechtaev
+    - name: Federica Sarro
+    - name: Mark Harman
+  venue: "IEEE TSE"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2021.3067156
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://ieeexplore.ieee.org/document/9381596
+    - https://mkechagia.github.io/
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/F.Sarro/resource/papers/TSE2021_API_repair.pdf
+
 - key: "Motwani:2022:TSE"
   title: "Quality of Automated Program Repair on Real-World Defects"
   authors:
@@ -674,6 +715,20 @@
     - SBSE
   slides:
     - http://www.iiswc.org/iiswc2022/IISWC2022_46.pdf
+
+- key: "DBLP:journals/itc/CaoHMC22"
+  title: "Automatic Repair of Java Programs Weighted Fusion Similarity via Genetic Programming"
+  authors:
+    - name: Heling Cao
+    - name: Zhenghaohe He
+    - name: Yangxia Meng
+    - name: Yonghe Chu
+  venue: "Information Technology and Control"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.5755/j01.itc.51.4.30515
+  tags:
+    - APR
 
 - key: "DBLP:conf/ppsn/AhmadCFW22"
   title: "Digging into Semantics: Where Do Search-Based Software Repair Methods Search?"
@@ -743,6 +798,19 @@
     - SBSE
   pdfs:
     - https://discovery.ucl.ac.uk/id/eprint/10137954/1/Marginean_10137954_thesis_redacted.pdf
+
+- key: "vanLaar:mastersthesis"
+  title: "Fitness Landscape Analysis applied to functional Genetic Improvement"
+  authors:
+    - name: Daan van Laar
+  venue: ""
+  year: 2021
+  tags:
+    - PyGGI
+  urls:
+    - https://studenttheses.uu.nl/handle/20.500.12932/224
+  pdfs:
+    - https://studenttheses.uu.nl/bitstream/handle/20.500.12932/224/Thesis_vFinal.pdf
 
 - key: "Cambronero:thesis"
   title: "Mining Software Artifacts for use in Automated Machine Learning"
@@ -1561,6 +1629,8 @@
     - https://github.com/se2p/artifact-scam2021
   pdfs:
     - https://arxiv.org/pdf/2108.07114.pdf
+  video:
+    - https://youtu.be/9ndMZvgEOVg
 
 - key: "Brownlee:2021:SEN"
   title: "Genetic Improvement @ ICSE 2021: Personal reflection of a Workshop Participant"
@@ -3039,6 +3109,8 @@
   tags:
     - APR
     - SBSE
+  urls:
+    - https://altinodantas.github.io/sbpr-naturalness/
 
 - key: "Wild:2019:SSBSE"
   title: "General Program Synthesis using Guided Corpus Generation and Automatic Refactoring"
@@ -3310,6 +3382,7 @@
   tags:
     - SBSE
   urls:
+    - https://rdcu.be/c9hWJ
     - https://github.com/ViennaRNA/ViennaRNA/compare/v2.4.4...v2.4.5
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2018_EuroGP.pdf
