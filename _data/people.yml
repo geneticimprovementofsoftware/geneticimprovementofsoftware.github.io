@@ -54,6 +54,7 @@
   homepage: https://coinse.kaist.ac.kr/members/gabin/
   dblp: https://dblp.uni-trier.de/pid/225/3675.html
   scholar: https://scholar.google.fr/citations?user=T-58s1oAAAAJ
+  twitter: https://twitter.com/gabin_an
   img: /profile_images/gabin_an.jpg
   tags:
     - PyGGI
@@ -62,8 +63,13 @@
   homepage: https://www.strath.ac.uk/staff/andersondamienmr/
 
 - name: Sebastian Baltes
-  img: /profile_images/sebastian_baltes.jpg
+  show: true
+  affil: University of Adelaide, Australia
   homepage: https://empirical-software.engineering/
+  dblp: https://dblp.uni-trier.de/pid/145/3950.html
+  scholar: https://scholar.google.de/citations?hl=en&user=xO09KrYAAAAJ
+  twitter: https://twitter.com/s_baltes
+  img: /profile_images/sebastian_baltes.jpg
 
 - name: Wolfgang Banzhaf
   homepage: https://www.cse.msu.edu/~banzhafw/
@@ -74,7 +80,6 @@
 - name: Marcio Barros
   show: yes
   affil: UNIRIO University, Brazil
-  homepage: https://www.uniriotec.br/~marcio.barros/
   dblp: https://dblp.org/pid/36/2479.html
   scholar: http://scholar.google.com/citations?user=GvmSuw8AAAAJ
   img: /profile_images/marcio_barros.jpg
@@ -99,6 +104,7 @@
   scholar: https://scholar.google.fr/citations?user=I8sfMwwAAAAJ
   tags:
     - PyGGI, Magpie
+  img: /profile_images/aymeric_blot.png
 
 - name: Mahmoud A. Bokhari
   aka:
@@ -153,6 +159,7 @@
   homepage: https://web.cs.iastate.edu/~mcohen/
   dblp: https://dblp.org/pid/79/5975.html
   scholar: https://scholar.google.com/citations?user=i_XdxLcAAAAJ
+  twitter: https://twitter.com/myra_cohen
   img: /profile_images/myra_cohen.jpg
 
 - name: Santanu Dash
@@ -193,6 +200,7 @@
   aka:
     - Erik M. Fredericks
   homepage: https://efredericks.github.io/
+  twitter: https://twitter.com/erik_fredericks
   img: /profile_images/erik_fredericks.jpg
 
 - name: Unai Garciarena
@@ -231,6 +239,7 @@
   homepage: http://www.cs.stir.ac.uk/~soh/
   dblp: https://dblp.org/pid/148/1056.html#
   scholar: https://scholar.google.com/citations?user=ZD8qxc0AAAAJ
+  twitter: https://twitter.com/SaemundO
   img: /profile_images/saemundur_haraldsson.jpg
 
 - name: Mark Harman
@@ -248,6 +257,7 @@
   homepage: https://yuhuang-lab.github.io
   dblp: https://dblp.org/pid/39/6301-15.html
   scholar: https://scholar.google.com/citations?user=ngLMhbIAAAAJ
+  twitter: https://twitter.com/yuhuang_yh
   img: /profile_images/yu_huang.jpg
 
 - name: John Jabbo
@@ -268,7 +278,7 @@
     - Colin G. Johnson
   show: yes
   affil: University of Nottingham, United Kingdom
-  homepage: http://www.cs.kent.ac.uk/people/staff/cgj
+  homepage: https://www.nottingham.ac.uk/computerscience/people/colin.johnson
   dblp: https://dblp.org/pid/97/2460.html
   scholar: https://scholar.google.com/citations?user=6W7BtygAAAAJ
   img: /profile_images/colin_johnson.jpg
@@ -433,6 +443,7 @@
   tags:
     - PyGGI
     - Gin
+    - Magpie
 
 - name: Nelishia Pillay
   homepage: https://www.cs.up.ac.za/cs/npillay/Nelishia.htm
@@ -475,7 +486,7 @@
 
 - name: Eric Schulte
   show: yes
-  affil: GrammaTech, USA
+  affil: Google, USA
   homepage: https://eschulte.github.io/
   dblp: https://dblp.uni-trier.de/pid/32/8523.html
   scholar: https://dblp.org/pid/32/8523.html
@@ -484,9 +495,10 @@
 - name: Marija Selakovic
   show: yes
   affil: Huawei Research Center, Germany
-  homepage: http://marija.skyresource.com/
+  homepage: https://marijaselakovic.github.io/
   dblp: https://dblp.uni-trier.de/pid/167/0216.html
   scholar: https://scholar.google.com/citations?user=BAPCssIAAAAJ
+  twitter: https://twitter.com/SelakovicMarija
   img: /profile_images/marija_selakovic.jpg
 
 - name: Andrew N. Sloss
@@ -534,8 +546,8 @@
 
 - name: Leonardo Trujillo
   show: yes
-  affil: Instituto Tecnológico de Tijuana de Mexico/IT de Tijuana, Mexico
-  homepage: https://dcitectijuana.mx/
+  affil: Instituto Tecnológico de Tijuana, Mexico
+  homepage: https://sites.google.com/site/leonardotrujillogp
   dblp: https://dblp.uni-trier.de/pid/62/1755.html
   scholar: https://scholar.google.com/citations?user=xXh3xRYAAAAJ
   img: /profile_images/leonardo_trujillo.jpg
@@ -556,9 +568,10 @@
 - name: Markus Wagner
   show: yes
   affil: University of Adelaide, Australia
-  homepage: https://cs.adelaide.edu.au/users/markus/
+  homepage: http://acrocon.com/~wagner/
   dblp: https://dblp.uni-trier.de/pid/94/7030-7.html
   scholar: https://scholar.google.com/citations?user=9cbh6PoAAAAJ
+  twitter: https://twitter.com/MWagnerRedChair
   img: /profile_images/markus_wagner.jpg
   tags:
     - Gin
@@ -631,6 +644,7 @@
   homepage: https://coinse.kaist.ac.kr/members/shin.yoo/
   dblp: https://dblp.uni-trier.de/pid/06/1626.html
   scholar: https://scholar.google.fr/citations?user=W9ymXf4AAAAJ
+  twitter: https://twitter.com/drsyoo
   img: /profile_images/shin_yoo.jpg
   tags:
     - PyGGI

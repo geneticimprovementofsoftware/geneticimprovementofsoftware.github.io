@@ -197,6 +197,8 @@ out.each do |h|
     h[:venue] = 'EvoAPPS'
   when /International Conference on the Applications of Evolutionary Computation/i
     h[:venue] = 'EvoSET'
+  when /FoSE post conference proceedings/
+    h[:venue] = 'FoSE'
   when /International Symposium on( the)? Foundations of Software Engineering/i
     h[:venue] = 'FSE'
   when /Global Conference on Consumer Electronics/
