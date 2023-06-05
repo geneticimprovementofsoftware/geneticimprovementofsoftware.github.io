@@ -16,6 +16,9 @@ p {
 **12th International Workshop on Genetic Improvement (GI@[ICSE 2023](https://conf.researchr.org/home/icse-2023))**
 - [<i class="fa fa-link"></i> Event page]({{"/events/icse2023" | relative_url }})
 
+**63rd CREST Open Workshop on Genetic Improvement and Software Specialisation**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://www.ucl.ac.uk/crest/events/2023/mar/63rd-crest-open-workshop-genetic-improvement-and-software-specialisation)
+
 ## 2022
 
 **11th International Workshop on Genetic Improvement (GI@[GECCO 2022](https://gecco-2022.sigevo.org/))**
