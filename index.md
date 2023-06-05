@@ -19,8 +19,8 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 {::options parse_block_html="false" /}
 </div>
 <figure class="figure col-12 col-sm-6 col-md-4">
-  <img class="figure-img" src="workshop_photos/gi2022gecco/group_photo.png" style="width: 100%;">
-  <figcaption class="figure-caption text-right">GI@GECCO 2022 (hybrid event)</figcaption>
+  <a href="http://www0.cs.ucl.ac.uk/staff/W.Langdon/icse2023/photos/#close"><img class="figure-img" src="workshop_photos/gi2023icse/composite640.jpg" style="width: 100%;"></a>
+  <figcaption class="figure-caption text-right">GI@ICSE 2023 (hybrid event)</figcaption>
 </figure>
 </div>
 
