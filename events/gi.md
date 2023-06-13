@@ -19,6 +19,9 @@ p {
 **63rd CREST Open Workshop on Genetic Improvement and Software Specialisation**
 - [<i class="fa fa-external-link-alt"></i> Event page](https://www.ucl.ac.uk/crest/events/2023/mar/63rd-crest-open-workshop-genetic-improvement-and-software-specialisation)
 
+**Tutorial on Genetic Improvement ([GECCO 2023](https://gecco-2023.sigevo.org/))**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://gecco-2023.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods)
+
 ## 2022
 
 **11th International Workshop on Genetic Improvement (GI@[GECCO 2022](https://gecco-2022.sigevo.org/))**
