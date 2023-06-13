@@ -26,7 +26,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 
 ## News
-
+* The next tutorial on genetic improvement will be given at [GECCO 2023](https://gecco-2023.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods) by Alexander Brownlee, Saemundur Haraldsson, and John Woodward.
 * The [12th International Workshop on Genetic Improvement](events/icse2023) took place at [ICSE 2023](https://conf.researchr.org/home/icse-2023). Prof. Myra Cohen and Dr. Sebastian Baltes gave keynote talks. Authors of accepted papers are invited to submit an extended version of their papers to [ASE's Special Issue on Genetic Improvement](https://link.springer.com/collections/gabebegheh).
 * [The 63rd CREST Open Workshop on Genetic Improvement and Software Specialisation](https://www.ucl.ac.uk/crest/events/2023/mar/63rd-crest-open-workshop-genetic-improvement-and-software-specialisation) took place at University College London in March 2023.
 * The [11th International Workshop on Genetic Improvement](events/gecco2022) took place at [GECCO 2022](https://gecco-2022.sigevo.org/), together with a [GI tutorial](https://gecco-2022.sigevo.org/Tutorials#id_Genetic%20improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods.).
