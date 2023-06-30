@@ -1,3 +1,43 @@
+- key: "Renzullo:TELO"
+  title: "Evolving Software: Combining Online Learning with Mutation-Based Stochastic Search"
+  authors:
+    - name: Joseph Renzullo
+    - name: Westley Weimer
+    - name: Stephanie Forrest
+  venue: "ACM TELO"
+  year: 
+  type: Journal
+  doi: https://doi.org/10.1145/3597617
+  tags:
+    - APR
+    - SBSE
+
+- key: "Kuepper:2023:PLDI"
+  title: "CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives"
+  authors:
+    - name: Joel Kuepper
+    - name: Andres Erbsen
+    - name: Jason Gross
+    - name: Owen Conoly
+    - name: Chuyue Sun
+    - name: Samuel Tian
+    - name: David Wu
+    - name: Adam Chlipala
+    - name: Chitchanok Chuengsatiansup
+    - name: Daniel Genkin
+    - name: Markus Wagner
+    - name: Yuval Yarom
+  venue: ""
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1145/3591272
+  tags:
+    - SBSE
+  urls:
+    - https://human-competitive.org/sites/default/files/humies_3.txt
+  pdfs:
+    - https://human-competitive.org/sites/default/files/pldi23main-p326-final.pdf
+
 - key: "langdon:2023:cache"
   title: "GI Software with fewer Data Caches Misses"
   authors:
@@ -14,6 +54,10 @@
     - https://arxiv.org/abs/2304.03235
   pdfs:
     - https://arxiv.org/pdf/2304.03235.pdf
+  video:
+    - https://youtu.be/uitJFYFb2P8
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2023/langdon_gecco2023_slides.pdf
 
 - key: "langdon:2023:EuroGP"
   title: "Genetic Improvement of LLVM Intermediate Representation"
@@ -48,6 +92,25 @@
   year: 2023
   type: Conference
 
+- key: "Liventsev:2023:GECCO"
+  title: "Fully Autonomous Programming with Large Language Models"
+  authors:
+    - name: Vadim Liventsev
+    - name: Anastasiia Grishina
+    - name: Aki Harma
+    - name: Leon Moonen
+  venue: "GECCO"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1145/3583131.3590481
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://human-competitive.org/sites/default/files/grishinaentry.txt
+  pdfs:
+    - https://human-competitive.org/sites/default/files/fullyautonomousprogrammingwithlargelanguagemodels.pdf
+
 - key: "langdon:2023:GECCO"
   title: "Genetically Improved Software with fewer Data Caches Misses"
   authors:
@@ -63,6 +126,10 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_GECCO.pdf
+  video:
+    - https://youtu.be/uitJFYFb2P8
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2023/langdon_gecco2023_slides.pdf
 
 - key: "Baltes:2023:GI"
   title: "All about the money: Cost modeling and optimization of cloud applications"
@@ -77,7 +144,9 @@
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2023/keynote_2023_gi.pdf
   video:
+    - http://gpbib.cs.ucl.ac.uk/gi2023/GI_ICSE2023_Keynote_Sebastian_Baltes.mp4
     - http://gpbib.cs.ucl.ac.uk/gi2023/GI_ICSE2023_Keynote_Sebastian_Baltes.mov
+    - https://www.youtube.com/watch?v=M8gH0qPcJHQ&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=5
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Sebastian_Baltes_Keynote_Cloud_Cost.pdf
 
@@ -96,6 +165,7 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/Griffin_2023_GI.pdf
   video:
     - http://gpbib.cs.ucl.ac.uk/gi2023/DebugNS.mp4
+    - https://www.youtube.com/watch?v=NkLaQGA847s&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=4
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/DebugNS.pdf
 
@@ -115,6 +185,7 @@
   video:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Krauss-GI2023.mp4
     - http://gpbib.cs.ucl.ac.uk/gi2023/Krauss-GI2023.mkv
+    - https://www.youtube.com/watch?v=8QZHtAd_n1s&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=7
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Krauss_GI2023.pdf
 
@@ -133,6 +204,7 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/Fredericks_2023_GI.pdf
   video:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Fredericks-GI-2023-out.mp4
+    - https://www.youtube.com/watch?v=LH6i8M55ijs&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=2
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Fredericks-GI2023.pdf
 
@@ -156,6 +228,7 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/langdon_2023_GI.pdf
   video:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Brad_GI2023_MagpieTalk.mp4
+    - https://www.youtube.com/watch?v=RAhJYf3XC7c&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=3
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Brad_GI2023_MagpiePresentation.pdf
 
@@ -169,6 +242,8 @@
   type: Keynote
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2023/keynote_2023_gi.pdf
+  video:
+    - https://www.youtube.com/watch?v=Mo3HiZr4kJQ&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=1
 
 - key: "Kang:2023:GI"
   title: "Towards Objective-Tailored Genetic Improvement Through Large Language Models"
@@ -187,6 +262,7 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/Kang_2023_GI.pdf
   video:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Kang_GI2023.mp4
+    - https://www.youtube.com/watch?v=k3AkQ9liAJc&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=6
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Kang_GI2023.pdf
 
@@ -207,6 +283,7 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/Watkinson_2023_GI.pdf
   video:
     - http://gpbib.cs.ucl.ac.uk/gi2023/upgrading_gin_2023-05-17_10-36-43.mp4
+    - https://www.youtube.com/watch?v=nFBVxAs70wU&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=8
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/upgrading_gin.pdf
 
@@ -2905,6 +2982,7 @@
   doi: https://doi.org/10.1109/GI.2019.00014
   urls:
     - https://dl.acm.org/citation.cfm?id=3339020.3339025
+    - https://github.com/Xtra-Computing/thundersvm
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2019/Liou_2019_GI.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/liou2019genetic.pdf
@@ -5414,6 +5492,8 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_SSBSE.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ssbse2016/ssbse2016_opencv_gi.pdf
 
 - key: "Sohn:2016:SSBSE"
   title: "Amortised Deep Parameter Optimisation of GPGPU Work Group Size for OpenCV"
