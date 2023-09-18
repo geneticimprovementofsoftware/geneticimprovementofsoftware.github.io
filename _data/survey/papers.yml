@@ -12,32 +12,6 @@
     - APR
     - SBSE
 
-- key: "Kuepper:2023:PLDI"
-  title: "CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives"
-  authors:
-    - name: Joel Kuepper
-    - name: Andres Erbsen
-    - name: Jason Gross
-    - name: Owen Conoly
-    - name: Chuyue Sun
-    - name: Samuel Tian
-    - name: David Wu
-    - name: Adam Chlipala
-    - name: Chitchanok Chuengsatiansup
-    - name: Daniel Genkin
-    - name: Markus Wagner
-    - name: Yuval Yarom
-  venue: ""
-  year: 2023
-  type: Conference
-  doi: https://doi.org/10.1145/3591272
-  tags:
-    - SBSE
-  urls:
-    - https://human-competitive.org/sites/default/files/humies_3.txt
-  pdfs:
-    - https://human-competitive.org/sites/default/files/pldi23main-p326-final.pdf
-
 - key: "langdon:2023:cache"
   title: "GI Software with fewer Data Caches Misses"
   authors:
@@ -118,7 +92,7 @@
     - name: Justyna Petke
     - name: Aymeric Blot
     - name: David Clark
-  venue: "GECCO"
+  venue: "GECCO-comp"
   year: 2023
   type: Conference
   doi: https://doi.org/10.1145/3583133.3590542
@@ -339,6 +313,52 @@
     - APR
   urls:
     - http://www.research.lancs.ac.uk/portal/en/publications/-(00152abe-459f-4864-8133-80198ea69fba).html
+
+- key: "Kuepper:2023:PLDI"
+  title: "CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives"
+  authors:
+    - name: Joel Kuepper
+    - name: Andres Erbsen
+    - name: Jason Gross
+    - name: Owen Conoly
+    - name: Chuyue Sun
+    - name: Samuel Tian
+    - name: David Wu
+    - name: Adam Chlipala
+    - name: Chitchanok Chuengsatiansup
+    - name: Daniel Genkin
+    - name: Markus Wagner
+    - name: Yuval Yarom
+  venue: "PLDI"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1145/3591272
+  tags:
+    - SBSE
+  urls:
+    - https://pldi23.sigplan.org/details/pldi-2023-pldi/53/CryptOpt-Verified-Compilation-with-Randomized-Program-Search-for-Cryptographic-Primi
+    - https://arxiv.org/abs/2211.10665
+    - https://human-competitive.org/sites/default/files/humies_3.txt
+  pdfs:
+    - https://arxiv.org/pdf/2211.10665.pdf
+    - https://human-competitive.org/sites/default/files/pldi23main-p326-final.pdf
+
+- key: "langdon:2023:SEN"
+  title: "Genetic Improvement @ ICSE 2023"
+  authors:
+    - name: William B. Langdon
+    - name: Vesna Nowack
+    - name: Justyna Petke
+    - name: Erik M. Fredericks
+    - name: Gabin An
+    - name: Aymeric Blot
+    - name: Markus Wagner
+    - name: Hyeonseok Lee
+  venue: "SEN"
+  year: 2023
+  type: Journal
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2023_sen.pdf
 
 - key: "Krauss:thesis"
   title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
@@ -4714,6 +4734,7 @@
   doi: https://doi.org/10.1007/s10710-016-9275-7
   urls:
     - http://www.fit.vutbr.cz/research/view_pub.php.cs?id=11077
+    - https://rdcu.be/dfOly
 
 - key: "langdon:2017:ieeeblog"
   title: "BarraCUDA in the Cloud"
@@ -6875,6 +6896,7 @@
     - SBSE
   urls:
     - http://www.springer.com/computer/swe/book/978-3-319-09939-2
+    - https://rdcu.be/dlF1X
 
 - key: "langdon:2014:synasc"
   title: "Genetic Improvement of Programs"
@@ -7121,6 +7143,22 @@
   pdfs:
     - https://icsm2013.tue.nl/ICSM2013.pdf
 
+- key: "Ragan-Kelley:2013:PLDI"
+  title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
+  authors:
+    - name: Jonathan Ragan-Kelley
+    - name: Connelly Barnes
+    - name: Andrew Adams
+    - name: Sylvain Paris
+    - name: Fredo Durand
+    - name: Saman Amarasinghe
+  venue: "PLDI"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1145/2491956.2462176
+  pdfs:
+    - http://people.csail.mit.edu/jrk/halide-pldi13.pdf
+
 - key: "conf/sss/ZhuK13"
   title: "Synthesizing Round Based Fault-Tolerant Programs Using Genetic Programming"
   authors:
@@ -7148,22 +7186,6 @@
     - SBSE
   pdfs:
     - http://jiawenhao.com/starchart.pdf
-
-- key: "Ragan-Kelley:2013:PLDI"
-  title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
-  authors:
-    - name: Jonathan Ragan-Kelley
-    - name: Connelly Barnes
-    - name: Andrew Adams
-    - name: Sylvain Paris
-    - name: Fredo Durand
-    - name: Saman Amarasinghe
-  venue: "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation"
-  year: 2013
-  type: Conference
-  doi: https://doi.org/10.1145/2491956.2462176
-  pdfs:
-    - http://people.csail.mit.edu/jrk/halide-pldi13.pdf
 
 - key: "conf/hvc/KatzP13"
   title: "Synthesizing, Correcting and Improving Code, Using Model Checking-Based Genetic Programming"
@@ -7567,6 +7589,8 @@
   tags:
     - APR
     - SBSE
+  urls:
+    - https://hdl.handle.net/2440/70777
 
 - key: "Colmenar:2011:GECCO"
   title: "Multi-objective optimization of dynamic memory managers using grammatical evolution"

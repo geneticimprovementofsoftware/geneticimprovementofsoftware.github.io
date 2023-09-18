@@ -248,6 +248,8 @@ out.each do |h|
     h[:venue] = 'NAECON'
   when /Network and Distributed System Security Symposium/i
     h[:venue] = 'NDSS'
+  when /Conference on Programming Language Design and Implementation/
+    h[:venue] = 'PLDI'
   when /Parallel Problem Solving from Nature/i
     h[:venue] = 'PPSN'
   when /International Conference on Software Quality, Reliability and Security Companion/i
