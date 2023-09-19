@@ -11,7 +11,15 @@ p {
 
 # GI Events
 
+## 2024
+
+**13rd International Workshop on Genetic Improvement (GI@[ICSE 2024](https://conf.researchr.org/home/icse-2024))**
+- [<i class="fa fa-link"></i> Event page]({{"/events/icse2024" | relative_url }})
+
 ## 2023
+
+**65th CREST Open Workshop on Automated Program Repair and Genetic Improvement**
+- [<i class="fa fa-external-link-alt"></i> Event page](https://www.ucl.ac.uk/crest/events/2023/sep/65th-crest-open-workshop-automated-program-repair-and-genetic-improvement)
 
 **12th International Workshop on Genetic Improvement (GI@[ICSE 2023](https://conf.researchr.org/home/icse-2023))**
 - [<i class="fa fa-link"></i> Event page]({{"/events/icse2023" | relative_url }})
