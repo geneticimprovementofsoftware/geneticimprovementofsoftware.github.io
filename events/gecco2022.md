@@ -47,8 +47,8 @@ Navigation: [Keynote](#keynote), [Accepted Papers](#accepted-papers), [Schedule]
 
 The 11th instalment of the GI workshop took place in Boston on 9 July 2022, collocated with the Genetic and Evolutionary Computation Conference, [GECCO 2022](https://gecco-2022.sigevo.org/HomePage).
 
-- **<span style="color:#C9B037"><i class="fas fa-award"></i> best paper award</span>: Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software** &mdash; Shengjie Zuo, Aymeric Blot, and Justyna Petke
-- **<span style="color:#C9B037"><i class="fas fa-award"></i> best presentation award</span>: Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences** &mdash; Shuyue Stella Li, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf
+- **<span style="color:#C9B037"><i class="fa-solid fa-award"></i> best paper award</span>: Evaluation of Genetic Improvement Tools for Improvement of Non-functional Properties of Software** &mdash; Shengjie Zuo, Aymeric Blot, and Justyna Petke
+- **<span style="color:#C9B037"><i class="fa-solid fa-award"></i> best presentation award</span>: Genetic Improvement in the Shackleton Framework for Optimizing LLVM Pass Sequences** &mdash; Shuyue Stella Li, Hannah Peeler, Andrew N. Sloss, Kenneth N. Reid, and Wolfgang Banzhaf
 
 {% comment %}
 <div class="alert alert-primary" role="alert">
@@ -160,7 +160,7 @@ We invite submissions of two paper types:
 - Research papers (eight page limit, *excluding* references)
 - Position papers (two page limit, including references)
 
-The **<i class="fas fa-award"></i> best paper** and **<i class="fas fa-award"></i> best presentation** will be awarded during the workshop.
+The **<i class="fa-solid fa-award"></i> best paper** and **<i class="fa-solid fa-award"></i> best presentation** will be awarded during the workshop.
 
 Detailed formatting instructions for authors are listed [here](https://gecco-2022.sigevo.org/Paper-Submission-Instructions).  
 We encourage authors to submit early and in-progress work.

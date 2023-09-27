@@ -16,7 +16,7 @@ maintainers:
 </picture>
 <figcaption>{{ match.name }}</figcaption>
 <figcaption style="font-size: 80%;">{% if match.affil %}{{ match.affil }}{% endif %}</figcaption>
-<figcaption>{% if match.homepage %}<a href="{{ match.homepage }}"><i class="fas fa-home"></i></a>{% endif %} {% if match.dblp %}<a href="{{ match.dblp }}"><i class="ai ai-dblp"></i></a>{% endif %} {% if match.scholar %}<a href="{{ match.scholar }}"><i class="ai ai-google-scholar"></i></a>{% endif %}</figcaption>
+<figcaption>{% if match.homepage %}<a href="{{ match.homepage }}"><i class="fa-solid fa-home"></i></a>{% endif %} {% if match.dblp %}<a href="{{ match.dblp }}"><i class="ai ai-dblp"></i></a>{% endif %} {% if match.scholar %}<a href="{{ match.scholar }}"><i class="ai ai-google-scholar"></i></a>{% endif %}</figcaption>
 </figure>{% endfor %}
 </div>
 

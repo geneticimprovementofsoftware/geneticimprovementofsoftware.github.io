@@ -14,7 +14,7 @@ To (dis)appear from or update data on this page either [contact us](website) or 
 </picture>
 <figcaption>{{ p.name }}</figcaption>
 <figcaption style="font-size: 80%;">{% if p.affil %}{{ p.affil }}{% endif %}</figcaption>
-<figcaption>{% if p.homepage %}<a href="{{ p.homepage }}"><i class="fas fa-home"></i></a> {% endif %}{% if p.dblp %}<a href="{{ p.dblp }}"><i class="ai ai-dblp"></i></a> {% endif %}{% if p.scholar %}<a href="{{ p.scholar }}"><i class="ai ai-google-scholar"></i></a> {% endif %}{% if p.twitter %}<a href="{{ p.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}</figcaption>
+<figcaption>{% if p.homepage %}<a href="{{ p.homepage }}"><i class="fa-solid fa-home"></i></a> {% endif %}{% if p.dblp %}<a href="{{ p.dblp }}"><i class="ai ai-dblp"></i></a> {% endif %}{% if p.scholar %}<a href="{{ p.scholar }}"><i class="ai ai-google-scholar"></i></a> {% endif %}{% if p.twitter %}<a href="{{ p.twitter }}"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}</figcaption>
 <figcaption style="font-size: 80%;">{% for tag in p.tags %}#{{ tag }} {% endfor %}</figcaption>
 </figure>{% endif %}{% endfor %}
 </div>
