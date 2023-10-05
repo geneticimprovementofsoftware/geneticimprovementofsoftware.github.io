@@ -98,7 +98,7 @@
 
 - name: Aymeric Blot
   show: yes
-  affil: ULCO, France
+  affil: University of Rennes, France
   homepage: http://www0.cs.ucl.ac.uk/staff/a.blot/
   dblp: https://dblp.uni-trier.de/pers/hd/b/Blot:Aymeric
   scholar: https://scholar.google.fr/citations?user=I8sfMwwAAAAJ
@@ -230,6 +230,14 @@
   scholar: https://scholar.google.com/citations?user=TPQhlqgAAAAJ
   img: /profile_images/tracy_hall.jpg
 
+- name: Carol Hanna
+  show: yes
+  affil: UCL, United Kingdom
+  homepage: https://uk.linkedin.com/in/carol-hanna-678484158
+  dblp: https://dblp.org/pid/23/8779.html
+  scholar: https://scholar.google.com/citations?user=FTK3wCkAAAAJ
+  img: /profile_images/carol_hanna.jpg
+
 - name: Saemundur Haraldsson
   aka:
     - Saemundur O. Haraldsson
@@ -249,7 +257,12 @@
   homepage: http://paul-harvey.org/
 
 - name: Max Hort
+  show: yes
+  affil: Simula Research Laboratory, Norway
   homepage: https://maxhort.github.io/
+  dblp: https://dblp.org/pid/269/4771.html
+  scholar: https://scholar.google.com/citations?user=bdC0upIAAAAJ
+  img: /profile_images/max_hort.jpg
 
 - name: Yu Huang
   show: yes
@@ -263,12 +276,25 @@
 - name: John Jabbo
   homepage: https://www.linkedin.com/in/jfjabbo/
 
+- name: Gunel Jahangirova
+  show: yes
+  affil: KCL, United Kingdom
+  homepage: https://sites.google.com/view/guneljahangirova/home
+  dblp: https://dblp.org/pid/183/0177.html
+  scholar: https://scholar.google.com/citations?user=kQkXMS4AAAAJ
+  img: /profile_images/gunel_jahangirova.jpg
+
 - name: Ciera Jaspan
   homepage: https://research.google.com/pubs/CieraJaspan.html
   img: /profile_images/ciera_jaspan.jpg
 
 - name: Yue Jia
+  show: yes
+  affil: Facebook, United Kingdom
   homepage: https://uk.linkedin.com/in/yue-jia-3326b796
+  dblp: https://dblp.org/pid/44/4993-1.html
+  scholar: https://scholar.google.co.uk/citations?user=DG4Q08UAAAAJ
+  img: /profile_images/yue_jia.jpg
 
 - name: Xi Jiang
   homepage: https://www.linkedin.com/in/xijiang2/
@@ -288,7 +314,12 @@
   img: /profile_images/yusaku_kaneta.jpg
 
 - name: Sungmin Kang
+  show: yes
+  affil: KAIST, Korea
   homepage: https://coinse.kaist.ac.kr/members/sungmin.kang/
+  dblp: https://dblp.org/pid/34/3815.html
+  scholar: https://scholar.google.co.kr/citations?user=6J7eBDMAAAAJ
+  img: /profile_images/sungmin_kang.jpg
 
 - name: Maria Kechagia
   affil: University College London, United Kingdom
