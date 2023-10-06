@@ -583,6 +583,14 @@
   scholar: https://scholar.google.com/citations?user=xXh3xRYAAAAJ
   img: /profile_images/leonardo_trujillo.jpg
 
+- name: Michele Tufano
+  show: yes
+  affil: Microsoft, USA
+  homepage: https://tufanomichele.com/
+  dblp: https://dblp.org/pid/166/4957.html
+  img: /profile_images/michele_tufano.jpg
+
+
 - name: Emamurho Ugherughe
   homepage: https://www.linkedin.com/in/emamurho
   img: /profile_images/emamurho_ugherughe.jpg
