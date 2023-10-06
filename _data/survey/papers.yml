@@ -360,6 +360,27 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2023_sen.pdf
 
+- key: "Dakhama:2023:SSBSE"
+  title: "SearchGEM5: Towards Reliable gem5 with Search Based Software Testing and Large Language Models"
+  authors:
+    - name: Aidan Dakhama
+    - name: Karine Even-Mendoza
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Hector Menendez Benito
+    - name: Justyna Petke
+  venue: "SSBSE"
+  year: 2023
+  type: Conference
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - https://github.com/karineek/SearchGEM5/
+    - https://zenodo.org/record/8316685
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Dakhama_2023_SSBSE.pdf
+
 - key: "Krauss:thesis"
   title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
   authors:
@@ -2882,6 +2903,8 @@
   doi: https://doi.org/10.1145/3319619.3326800
   tags:
     - SBSE
+  urls:
+    - https://github.com/wblangdon/gi_invsqrt
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2019_GI7.pdf
   slides:
@@ -4424,6 +4447,7 @@
     - SBSE
     - testing
   urls:
+    - https://github.com/wblangdon/triangle
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/triangle.tar.gz
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2017_EuroGP.pdf
@@ -5466,6 +5490,7 @@
     - testing
   urls:
     - https://discovery.ucl.ac.uk/id/eprint/1500877/
+    - https://github.com/wblangdon/triangle
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1605.pdf
 
