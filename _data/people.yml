@@ -24,8 +24,6 @@
   dblp: https://dblp.org/pid/68/2289.html
   scholar: https://scholar.google.com/citations?user=-9PWueoAAAAJ
   img: /profile_images/brad_alexander.jpg
-  tags:
-    - Gin
 
 - name: Mahfouth Alghamdi
   dblp: https://dblp.org/pid/193/5204.html
@@ -38,7 +36,7 @@
 
 - name: Nadia Alshahwan
   show: yes
-  affil: Facebook London, United Kingdom
+  affil: Facebook London, UK
   homepage: https://www.linkedin.com/in/nadiaalshahwan
   dblp: https://dblp.org/pid/98/6159.html
   scholar: https://scholar.google.com/citations?user=TG8-wssAAAAJ
@@ -56,8 +54,6 @@
   scholar: https://scholar.google.fr/citations?user=T-58s1oAAAAJ
   twitter: https://twitter.com/gabin_an
   img: /profile_images/gabin_an.jpg
-  tags:
-    - PyGGI
 
 - name: Damien Anderson
   homepage: https://www.strath.ac.uk/staff/andersondamienmr/
@@ -102,8 +98,6 @@
   homepage: http://www0.cs.ucl.ac.uk/staff/a.blot/
   dblp: https://dblp.uni-trier.de/pers/hd/b/Blot:Aymeric
   scholar: https://scholar.google.fr/citations?user=I8sfMwwAAAAJ
-  tags:
-    - PyGGI, Magpie
   img: /profile_images/aymeric_blot.png
 
 - name: Mahmoud A. Bokhari
@@ -119,7 +113,7 @@
     - Alexander E. I. Brownlee
     - Alexander (Sandy) Brownlee
   show: yes
-  affil: University of Stirling, United Kingdom
+  affil: University of Stirling, UK
   homepage: http://www.cs.stir.ac.uk/~sbr/
   dblp: https://dblp.uni-trier.de/pid/57/5601.html
   scholar: https://scholar.google.com/citations?user=Yxwz9b0AAAAJ
@@ -199,7 +193,11 @@
 - name: Erik Fredericks
   aka:
     - Erik M. Fredericks
+  show: yes
+  affil: Grand Valley State University, USA
   homepage: https://efredericks.github.io/
+  dblp: https://dblp.org/pid/118/6447.html
+  scholar: https://scholar.google.com/citations?user=wpdiGa0AAAAJ
   twitter: https://twitter.com/erik_fredericks
   img: /profile_images/erik_fredericks.jpg
 
@@ -224,7 +222,7 @@
 
 - name: Tracy Hall
   show: yes
-  affil: Lancaster University, United Kingdom
+  affil: Lancaster University, UK
   homepage: https://www.lancaster.ac.uk/scc/about-us/people/tracy-hall
   dblp: https://dblp.org/pid/69/3214.html
   scholar: https://scholar.google.com/citations?user=TPQhlqgAAAAJ
@@ -232,7 +230,7 @@
 
 - name: Carol Hanna
   show: yes
-  affil: UCL, United Kingdom
+  affil: University College London, UK
   homepage: https://uk.linkedin.com/in/carol-hanna-678484158
   dblp: https://dblp.org/pid/23/8779.html
   scholar: https://scholar.google.com/citations?user=FTK3wCkAAAAJ
@@ -243,7 +241,7 @@
     - Saemundur O. Haraldsson
     - Saemundur Oskar Haraldsson
   show: yes
-  affil: University of Stirling, United Kingdom
+  affil: University of Stirling, UK
   homepage: http://www.cs.stir.ac.uk/~soh/
   dblp: https://dblp.org/pid/148/1056.html#
   scholar: https://scholar.google.com/citations?user=ZD8qxc0AAAAJ
@@ -278,7 +276,7 @@
 
 - name: Gunel Jahangirova
   show: yes
-  affil: KCL, United Kingdom
+  affil: King's College London, UK
   homepage: https://sites.google.com/view/guneljahangirova/home
   dblp: https://dblp.org/pid/183/0177.html
   scholar: https://scholar.google.com/citations?user=kQkXMS4AAAAJ
@@ -290,7 +288,7 @@
 
 - name: Yue Jia
   show: yes
-  affil: Facebook, United Kingdom
+  affil: Facebook, UK
   homepage: https://uk.linkedin.com/in/yue-jia-3326b796
   dblp: https://dblp.org/pid/44/4993-1.html
   scholar: https://scholar.google.co.uk/citations?user=DG4Q08UAAAAJ
@@ -303,14 +301,18 @@
   aka:
     - Colin G. Johnson
   show: yes
-  affil: University of Nottingham, United Kingdom
+  affil: University of Nottingham, UK
   homepage: https://www.nottingham.ac.uk/computerscience/people/colin.johnson
   dblp: https://dblp.org/pid/97/2460.html
   scholar: https://scholar.google.com/citations?user=6W7BtygAAAAJ
   img: /profile_images/colin_johnson.jpg
 
 - name: Yusaku Kaneta
+  show: yes
+  affil: Rakuten Inc, Japan
   homepage: https://sites.google.com/site/yusakukaneta/
+  dblp: https://dblp.org/pid/89/8611.html
+  scholar: https://scholar.google.com/citations?user=Fnm5HCUAAAAJ
   img: /profile_images/yusaku_kaneta.jpg
 
 - name: Sungmin Kang
@@ -322,7 +324,7 @@
   img: /profile_images/sungmin_kang.jpg
 
 - name: Maria Kechagia
-  affil: University College London, United Kingdom
+  affil: University College London, UK
   homepage: https://mkechagia.github.io/
   dblp: https://dblp.org/pid/43/10965.html
   scholar: https://scholar.google.co.in/citations?user=UH14xAMAAAAJ
@@ -352,7 +354,7 @@
     - William Langdon
     - William B. Langdon
   show: yes
-  affil: UCL, United Kingdom
+  affil: University College London, UK
   homepage: http://www0.cs.ucl.ac.uk/staff/W.Langdon/
   dblp: https://dblp.uni-trier.de/pid/l/WilliamBLangdon.html
   scholar: https://scholar.google.fr/citations?user=O5cSyYMAAAAJ
@@ -435,7 +437,7 @@
 
 - name: Vesna Nowack
   show: yes
-  affil: Lancaster University, United Kingdom
+  affil: Lancaster University, UK
   homepage: https://www.linkedin.com/in/vesnasmiljkovic/
   dblp: https://dblp.org/pid/223/9468.html
   scholar: https://scholar.google.com/citations?user=KZ66xMoAAAAJ
@@ -466,15 +468,11 @@
 
 - name: Justyna Petke
   show: yes
-  affil: UCL, United Kingdom
+  affil: University College London, UK
   homepage: http://www0.cs.ucl.ac.uk/staff/J.Petke/
   dblp: https://dblp.uni-trier.de/pid/23/8779.html
   scholar: https://scholar.google.fr/citations?user=a6kdFxIAAAAJ
   img: /profile_images/justyna_petke.jpg
-  tags:
-    - PyGGI
-    - Gin
-    - Magpie
 
 - name: Nelishia Pillay
   homepage: https://www.cs.up.ac.za/cs/npillay/Nelishia.htm
@@ -487,7 +485,10 @@
   aka:
     - Penn Faulkner Rainford
     - Penny Faulkner Rainford
+  affil: University of York, UK
   homepage: https://faulknerrainford.co.uk/
+  dblp: https://dblp.org/pid/207/4803.html
+  scholar: https://scholar.google.co.uk/citations?user=UiicqFwAAAAJ
   img: /profile_images/penny_rainford.jpg
 
 - name: Brittany Reid
@@ -543,14 +544,20 @@
   homepage: https://www.linkedin.com/in/marta-smigielska-959661145/
 
 - name: Dominik Sobania
+  affil: Johannes Gutenberg University Mainz, Germany
   homepage: https://en.wi.bwl.uni-mainz.de/dominik-sobania/
+  dblp: https://dblp.org/pid/222/3766.html
+  scholar: https://scholar.google.com/citations?user=3PvughAAAAAJ
   img: /profile_images/dominik_sobania.jpg
 
 - name: Manbir Sodhi
   homepage: https://web.uri.edu/engineering/meet/msodhi/
 
 - name: Jeongju Sohn
+  affil: University of Luxembourg, Luxembourg
   homepage: https://wwwfr.uni.lu/snt/people/jeongju_sohn
+  dblp: https://dblp.org/pid/186/1067.html
+  scholar: https://scholar.google.co.kr/citations?user=iy6MS74AAAAJ
   img: /profile_images/jeongju_sohn.jpg
 
 - name: Susan Stepney
@@ -612,8 +619,6 @@
   scholar: https://scholar.google.com/citations?user=9cbh6PoAAAAJ
   twitter: https://twitter.com/MWagnerRedChair
   img: /profile_images/markus_wagner.jpg
-  tags:
-    - Gin
 
 - name: Westley Weimer
   show: yes
@@ -634,7 +639,7 @@
 
 - name: Emily Winter
   show: yes
-  affil: University of Lancaster, United Kingdom
+  affil: University of Lancaster, UK
   homepage: https://www.lancaster.ac.uk/people-profiles/emily-winter
   dblp: https://dblp.org/pid/227/5399.html
   scholar: https://scholar.google.com/citations?user=G1q_FZcAAAAJ
@@ -644,7 +649,7 @@
   aka:
     - John R. Woodward
   show: yes
-  affil: QMUL, United Kingdom
+  affil: Queen Mary University of London, UK
   homepage: http://www.eecs.qmul.ac.uk/~jwoodward/
   dblp: https://dblp.uni-trier.de/pid/47/2379.html
   scholar: https://scholar.google.com/citations?user=iZIjJ80AAAAJ
@@ -685,8 +690,6 @@
   scholar: https://scholar.google.fr/citations?user=W9ymXf4AAAAJ
   twitter: https://twitter.com/drsyoo
   img: /profile_images/shin_yoo.jpg
-  tags:
-    - PyGGI
 
 - name: Yuan Yuan
   show: yes
