@@ -19,7 +19,7 @@
     - Bradley Alexander
     - Bradley J. Alexander
   show: yes
-  affil: Optimatics
+  affil: Optimatics, Australia
   homepage: https://researchers.adelaide.edu.au/profile/bradley.alexander
   dblp: https://dblp.org/pid/68/2289.html
   scholar: https://scholar.google.com/citations?user=-9PWueoAAAAJ
@@ -324,6 +324,7 @@
   img: /profile_images/sungmin_kang.jpg
 
 - name: Maria Kechagia
+  show: yes
   affil: University College London, UK
   homepage: https://mkechagia.github.io/
   dblp: https://dblp.org/pid/43/10965.html
