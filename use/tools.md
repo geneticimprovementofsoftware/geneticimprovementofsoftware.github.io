@@ -29,6 +29,8 @@ Here are a few other examples of existing work:
 </a>
 - <a href="https://github.com/squaresLab/genprog4java/">JarFly: Java Repair Framework</a>
 - <a href="https://github.com/prapr/prapr">PraPR: Practical Program Repair via Bytecode Mutation</a>
+- <a href="https://github.com/oliver-krauss/amaru">Amaru - A framework for Genetic Improvement in Graal VM  with support for Mining Patterns from GI Experiments</a>
+
 
 Other frameworks and libraries identified at the <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=18052">Dagstuhl Seminar on Genetic Improvement of Software</a> held in January 2018:
 - <a href="http://crest.cs.ucl.ac.uk/autotransplantation/downloads/muScalpel.zip">MuScalpel: automated software transplantation</a>
