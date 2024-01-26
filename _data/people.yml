@@ -58,6 +58,9 @@
 - name: Damien Anderson
   homepage: https://www.strath.ac.uk/staff/andersondamienmr/
 
+- name: Roberto Baena-Galle
+  homepage: https://www.linkedin.com/in/roberto-baena-galle
+
 - name: Sebastian Baltes
   show: true
   affil: University of Adelaide, Australia
@@ -85,6 +88,9 @@
 
 - name: Michail Basios
   homepage: https://www.linkedin.com/in/michail-basios-90410436/
+
+- name: Hunter Baxter
+  homepage: https://cps-vo.org/node/75832
 
 - name: Alexandre Bergel
   homepage: http://bergel.eu/
@@ -136,8 +142,21 @@
   homepage: https://www.linkedin.com/in/james-callan-a79300135/
   img: /profile_images/james_callan.jpg
 
+- name: Dana I. Casetti-Dinescu
+  aka:
+    - Dana Casetti-Dinescu
+  scholar: https://scholar.google.com/citations?user=tnHGuEEAAAAJ
+
+- name: Alejandro Cervantes Rovira
+  aka:
+    - Alejandro Cervantes
+  scholar: https://scholar.google.com/citations?user=DqZVCY4AAAAJ
+
 - name: Chitchanok Chuengsatiansup
   homepage: https://cs.adelaide.edu.au/~cchuengs/
+
+- name: David Clark
+  homepage: http://www0.cs.ucl.ac.uk/staff/D.Clark/
 
 - name: John Clark
   homepage: https://www.sheffield.ac.uk/dcs/people/academic/john-clark
@@ -156,10 +175,20 @@
   twitter: https://twitter.com/myra_cohen
   img: /profile_images/myra_cohen.jpg
 
+- name: Benjamin Craine
+  aka:
+    - Ben Craine
+  homepage: https://www.research.lancs.ac.uk/portal/en/people/ben-craine(8e49b60a-6365-485a-bfbc-89f0d584f0bb).html
+
 - name: Santanu Dash
   aka:
     - Santanu Kumar Dash
   homepage: https://santanu.uk/
+
+- name: Marina de la Cruz Echeandía
+  aka:
+    - Marina de la Cruz
+  homepage: https://gruposinvestigacion.unir.net/dds/investigador/marina-de-la-cruz-echeandia/
 
 - name: Jean-Marc Delvit
   homepage: https://www.linkedin.com/in/jean-marc-delvit-a8a17a2a/
@@ -216,6 +245,11 @@
   aka:
     - Michael C. Gerten
   homepage: https://www.linkedin.com/in/michael-gerten-1b7747a5/
+
+- name: Terrence M. Girard
+  aka:
+    - Terrence Girard
+  scholar: https://scholar.google.com/citations?user=tkyZR0wAAAAJ
 
 - name: David Griffin
   homepage: https://www.cs.york.ac.uk/people/?group=nsc&username=djg
@@ -428,6 +462,9 @@
 - name: Vojtech Mrazek
   scholar: https://scholar.google.com/citations?user=1arH2UwAAAAJ
 
+- name: Zsolt Nemeth
+  homepage: https://www.linkedin.com/in/zsnemeth
+
 - name: ThanhVu Nguyen
   show: yes
   affil: University of Nebraska-Lincoln, USA
@@ -449,6 +486,11 @@
 
 - name: Michael Orlov
   homepage: https://noexec.org/
+
+- name: Alfonso Ortega de la Puente
+  aka:
+    Alfonso Ortega
+  homepage: https://www.unir.net/profesores/alfonso-ortega-de-la-puente/
 
 - name: David N. Palacio
   aka:
@@ -503,6 +545,11 @@
 
 - name: Philip Rodgers
   homepage: https://www.linkedin.com/in/philip-rodgers-3a7943a7/
+
+- name: Beatriz Rodríguez Sarmiento
+  aka:
+    - Beatriz R. Sarmiento
+  homepage: https://www.unir.net/profesores/beatriz-rodriguez-sarmiento/
 
 - name: Mohammad Roohitavaf
   scholar: https://scholar.google.com/citations?user=o-cCPNMAAAAJ

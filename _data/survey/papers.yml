@@ -1,3 +1,104 @@
+- key: "langdon:2024:EuroGP"
+  title: "Genetic Improvement of Last Level Cache"
+  authors:
+    - name: William B. Langdon
+    - name: David Clark
+  venue: "EuroGP"
+  year: 2024
+  type: Conference
+  tags:
+    - SBSE
+
+- key: "langdon:2024:GI"
+  title: "Deep Mutations have Little Impact"
+  authors:
+    - name: William B. Langdon
+    - name: David Clark
+  venue: "GI@ICSE"
+  year: 2024
+  abstract: "Using the language independent genetic improvement tool MAGPIE (Machine Automated General Performance Improvement via Evolution of software), we measure the impact of GI on a non-deterministic deeply nested PARSEC VIPS parallel computing multi-threaded image processing benchmark written in C. More than 53% of mutants compile and generate identical output. Overall we find approximately 10% Failed Disruption Propagation (FDP). Excluding software detected internal errors and asserts, almost all changes deeper than 30 nested functions which are Executed and Infect data or change control are not Propagated. That is, almost all deep PIE code changes have no external impact. Suggesting (where it relies on testing) automatic software engineering on deeply nested code will be hard."
+  type: Workshop
+  tags:
+    - SBSE
+    - testing
+
+- key: "Nemeth:2024:GI"
+  title: "Ecosystem Curation in Genetic Improvement for Emergent Software Systems"
+  authors:
+    - name: Zsolt Nemeth
+    - name: Penny Faulkner Rainford
+    - name: Barry Porter
+  venue: "GI@ICSE"
+  year: 2024
+  type: Workshop
+
+- key: "Baxter:2024:GI"
+  title: "Genetic Improvement for DNN Security"
+  authors:
+    - name: Hunter Baxter
+    - name: Yu Huang
+    - name: Kevin Leach
+  venue: "GI@ICSE"
+  year: 2024
+  type: Workshop
+
+- key: "Sarmiento:2024:GI"
+  title: "Grammar evolution and symbolic regression for astrometric centering of Hubble Space Telescope images"
+  authors:
+    - name: Beatriz R. Sarmiento
+    - name: Marina de la Cruz
+    - name: Alfonso Ortega
+    - name: Roberto Baena-Galle
+    - name: Terrence Girard
+    - name: Dana Casetti-Dinescu
+    - name: Alejandro Cervantes
+  venue: "GI@ICSE"
+  year: 2024
+  type: Workshop
+
+- key: "Craine:2024:GI"
+  title: "Human Guidance Approaches for the Genetic Improvement of Software"
+  authors:
+    - name: Benjamin Craine
+    - name: Penny Rainford
+    - name: Barry Porter
+  venue: "GI@ICSE"
+  year: 2024
+  type: Workshop
+
+- key: "callan:2024:GI"
+  title: "On Reducing Network Usage with Genetic Improvement"
+  authors:
+    - name: James Callan
+    - name: William B. Langdon
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2024
+  abstract: "Mobile applications can be very network-intensive. Mobile phone users are often on limited data plans, while network infrastructure has limited capacity. There is little work on optimising network usage of mobile applications. The most popular approach has been prefetching and caching assets. However, past work has shown that developers can improve the network usage of Android applications by making changes to Java source code. We built upon this insight and investigated the effectiveness of automated, heuristic application of software patches, a technique known as Genetic Improvement (GI), to improve network usage. Genetic improvement has already shown effective at reducing the execution time and memory usage of Android applications. We thus adapt our existing GIdroid framework with a new mutation operator and develop a new profiler to identify network-intensive methods to target. Unfortunately, our approach is unable to find improvements. We conjecture this is due to the fact source code changes affecting network might be rare in the large patch search space. We thus advocate use of more intelligent search strategies in future work."
+  type: Workshop
+
+- key: "AlNajar:thesis"
+  title: "Estimating Coastal Evolution with Machine Learning"
+  authors:
+    - name: Mahmoud Al Najar
+  venue: ""
+  year: 2023
+  type: PhdThesis
+  tags:
+    - survey
+  urls:
+    - https://zoom.us/my/dennisgwilson
+  pdfs:
+    - https://www.isae-supaero.fr/IMG/pdf/annonce_soutenance_these_m_al_najar.pdf
+
+- key: "callan:thesis"
+  title: "Improving the Non-Functional Properties of Android Applications with Genetic Improvement"
+  authors:
+    - name: James Callan
+  venue: ""
+  year: 2023
+  type: PhdThesis
+
 - key: "Renzullo:TELO"
   title: "Evolving Software: Combining Online Learning with Mutation-Based Stochastic Search"
   authors:
@@ -5,7 +106,7 @@
     - name: Westley Weimer
     - name: Stephanie Forrest
   venue: "ACM TELO"
-  year: 
+  year: 2023
   type: Journal
   doi: https://doi.org/10.1145/3597617
   tags:
@@ -32,6 +133,74 @@
     - https://youtu.be/uitJFYFb2P8
   slides:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2023/langdon_gecco2023_slides.pdf
+
+- key: "callan2023multiobjective"
+  title: "Multi-Objective Improvement of Android Applications"
+  authors:
+    - name: James Callan
+    - name: Justyna Petke
+  venue: "ArXiV"
+  year: 2023
+  type: Archive
+  tags:
+    - SBSE
+  urls:
+    - https://arxiv.org/abs/2308.11387
+  pdfs:
+    - https://arxiv.org/pdf/2308.11387.pdf
+
+- key: "hanna2023reinforcement"
+  title: "Reinforcement Learning for Mutation Operator Selection in Automated Program Repair"
+  authors:
+    - name: Carol Hanna
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "ArXiV"
+  year: 2023
+  type: Archive
+  tags:
+    - APR
+  urls:
+    - https://arxiv.org/abs/2306.05792
+  pdfs:
+    - https://arxiv.org/pdf/2306.05792.pdf
+
+- key: "williams2023usercentric"
+  title: "User-Centric Deployment of Automated Program Repair at Bloomberg"
+  authors:
+    - name: David Williams
+    - name: James Callan
+    - name: Serkan Kirbas
+    - name: Sergey Mechtaev
+    - name: Justyna Petke
+    - name: Thomas Prideaux-Ghee
+    - name: Federica Sarro
+  venue: "ArXiV"
+  year: 2023
+  type: Archive
+  tags:
+    - APR
+  urls:
+    - https://arxiv.org/abs/2311.10516
+  pdfs:
+    - https://arxiv.org/pdf/2311.10516.pdf
+
+- key: "DBLP:journals/ai/YuanB23"
+  title: "Iterative genetic improvement: Scaling stochastic program synthesis"
+  authors:
+    - name: Yuan Yuan
+    - name: Wolfgang Banzhaf
+  venue: "Artificial Intelligence"
+  year: 2023
+  type: Journal
+  doi: https://doi.org/10.1016/J.ARTINT.2023.103962
+  tags:
+    - AI
+  urls:
+    - https://arxiv.org/abs/2202.13040
+  pdfs:
+    - http://www.cs.mun.ca/~banzhaf/papers/IGI_AIJournal_2023.pdf
+    - https://arxiv.org/pdf/2202.13040.pdf
 
 - key: "langdon:2023:EuroGP"
   title: "Genetic Improvement of LLVM Intermediate Representation"
@@ -113,6 +282,7 @@
   year: 2023
   abstract: "Cost is an essential non-functional property of cloud applications and is often a primary reason for companies to move to the cloud. One significant advantage of cloud platforms is the possibility to scale compute, storage, and networking resources up and down based on demand. However, as an application scales, so does the cost. Cost transparency of cloud applications is a common problem, and cloud providers have responded by providing means for detecting cost anomalies. However, detecting anomalies after billing is a workaround rather than a solution addressing the core problem. After introducing central cloud computing concepts and typical pricing approaches in the cloud, this talk outlines our vision of a vendor-agnostic cost model enabling reasoning about cost-optimal infrastructure and platform configurations based on expected workloads. The overall goal is to shift cost transparency left, i.e., to the developers and platform engineers who frequently provision cloud environments using web portals or Infrastructure-as-Code (IaC) files. The talk concludes by summarising the current trend towards Infrastructure-from-Code (IfC), where programming languages and cloud infrastructure descriptions converge into one paradigm, intending to automate infrastructure provisioning as much as possible. This area has huge potential for genetic improvement to optimize the IfC code and the provisioning mechanisms while balancing nonfunctional properties such as performance and cost."
   type: Keynote
+  doi: https://doi.org/10.1109/GI59320.2023.00008
   tags:
     - SBSE
   pdfs:
@@ -123,6 +293,7 @@
     - https://www.youtube.com/watch?v=M8gH0qPcJHQ&list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V&index=5
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Sebastian_Baltes_Keynote_Cloud_Cost.pdf
+    - https://empirical-software.engineering/talks/#2023
 
 - key: "Griffin:2023:GI"
   title: "DebugNS: Novelty Search for Finding Bugs in Simulators"
@@ -174,6 +345,8 @@
   abstract: "Generative art produces artistic output via algorithmic design. Common examples include flow fields, particle motion, and mathematical formula visualization. Typically an art piece is generated with the artist/programmer acting as a domain expert to create the final output. A large amount of effort is often spent manipulating and/or refining parameters or algorithms and observing the resulting changes in produced images. Small changes to parameters of the various techniques can substantially alter the final product. We present GenerativeGI, a proof of concept evolutionary framework for creating generative art based on an input suite of artistic techniques and desired aesthetic preferences for outputs. GenerativeGI encodes artistic techniques in a grammar, thereby enabling multiple techniques to be combined and optimized via a many-objective evolutionary algorithm. Specific combinations of evolutionary objectives can help refine outputs reflecting the aesthetic preferences of the designer. Experimental results indicate that GenerativeGI can successfully produce more visually complex outputs than those found by random search."
   type: Workshop
   doi: https://doi.org/10.1109/GI59320.2023.00010
+  urls:
+    - https://github.com/GI2023-GenerativeGI/GI2023/tree/ASE-GI-Extension
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2023/Fredericks_2023_GI.pdf
   video:
@@ -214,6 +387,7 @@
   year: 2023
   abstract: "Genetic improvement (GI) is a powerful technique to automatically optimise programs, often for nonfunctional properties. As such, we expect to retain the original program semantics, hence GI is guided by both a functional test suite and at least one other objective such as program efficiency, memory usage, energy efficiency, etc. An assumption made is that it is possible to improve a program’s non-functional objective while retaining the program’s correctness, however, this assumption may not hold for all types of non-functional properties. In this talk I show why GI is naturally a multi-objective optimization problem and argue that it may be necessary to relax part of the program correctness to satisfy our non-functional goals. I discuss a few recent examples where we have had to balance functional correctness and non-functional objectives and demonstrate how this may lead to programs that are of higher quality in the end. This raises an important question about when it is possible to completely satisfy multiple (potentially competing) program objectives during GI, and when it is semantically impossible. This leads to the ultimate question of what it means for a program to be correct when using GI."
   type: Keynote
+  doi: https://doi.org/10.1109/GI59320.2023.00008
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2023/keynote_2023_gi.pdf
   video:
@@ -261,6 +435,20 @@
   slides:
     - http://gpbib.cs.ucl.ac.uk/gi2023/upgrading_gin.pdf
 
+- key: "Vanneschi:2023:GPEM"
+  title: "Introduction to the peer commentary special section on ``Jaws 30'' by W. B. Langdon"
+  authors:
+    - name: Leonardo Vanneschi
+    - name: Leonardo Trujillo
+  venue: "GPEM"
+  year: 2023
+  type: Journal
+  doi: https://doi.org/10.1007/s10710-023-09466-y
+  tags:
+    - APR
+  urls:
+    - https://rdcu.be/drY40
+
 - key: "Motwani:2023:ICSE"
   title: "Better Automatic Program Repair by Using Bug Reports and Tests Together"
   authors:
@@ -275,7 +463,7 @@
     - https://people.cs.umass.edu/~brun/pubs/pubs/Motwani23icse.pdf
 
 - key: "Alshahwan:2023:ICST"
-  title: "Software Testing Research Challenges:An Industrial Perspective"
+  title: "Software Testing Research Challenges: An Industrial Perspective"
   authors:
     - name: Nadia Alshahwan
     - name: Mark Harman
@@ -283,6 +471,7 @@
   venue: "ICST"
   year: 2023
   type: Conference
+  doi: https://doi.org/10.1109/ICST57152.2023.00008
   tags:
     - AI
     - APR
@@ -357,8 +546,87 @@
   venue: "SEN"
   year: 2023
   type: Journal
+  doi: https://doi.org/10.1145/3617946.3617956
+  tags:
+    - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2023_sen.pdf
+  video:
+    - https://www.youtube.com/playlist?list=PLI8fiFpB7BoJLh6cUpGBjyeB1hM9DET1V
+
+- key: "Lyu:2023:SSBSE"
+  title: "Developer Views on Software CarbonFootprint and Its Potential for AutomatedReduction"
+  authors:
+    - name: Haozhou Lyu
+    - name: Gregory Gay
+    - name: Maiko Sakamoto
+  venue: "SSBSE"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-031-48796-5_3
+  tags:
+    - survey
+
+- key: "Brownlee:2023:SSBSE"
+  title: "Enhancing Genetic Improvement Mutations Using Large Language Models"
+  authors:
+    - name: Alexander E. I. Brownlee
+    - name: James Callan
+    - name: Karine Even-Mendoza
+    - name: Alina Geiger
+    - name: Carol Hanna
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Dominik Sobania
+  venue: "SSBSE"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.5281/zenodo.8304433
+  tags:
+    - SBSE
+  urls:
+    - https://arxiv.org/abs/2310.19813
+    - https://kclpure.kcl.ac.uk/portal/en/publications/enhancing-genetic-improvement-mutations-using-large-language-mode
+    - http://github.com/gintool/gin
+  pdfs:
+    - https://arxiv.org/pdf/2310.19813.pdf
+
+- key: "Sobania:2023:SSBSE"
+  title: "Evaluating Explanations for Software Patches Generated by Large Language Models"
+  authors:
+    - name: Dominik Sobania
+    - name: Alina Geiger
+    - name: James Callan
+    - name: Alexander Brownlee
+      aka: Alexander E. I. Brownlee
+    - name: Carol Hanna
+    - name: Rebecca Moussa
+    - name: Mar Zamorano Lopez
+    - name: Justyna Petke
+    - name: Federica Sarro
+  venue: "SSBSE"
+  year: 2023
+  type: Conference
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - https://github.com/SOLAR-group/ExplanationsForSoftwarePatches
+
+- key: "Gay:2023:SSBSE"
+  title: "Exploring Genetic Improvement of the Carbon Footprint of Web Pages"
+  authors:
+    - name: Haozhou Lyu
+    - name: Gregory Gay
+    - name: Maiko Sakamoto
+  venue: "SSBSE"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-031-48796-5_5
+  tags:
+    - SBSE
+  pdfs:
+    - https://greg4cr.github.io/pdf/23cfgi.pdf
 
 - key: "Dakhama:2023:SSBSE"
   title: "SearchGEM5: Towards Reliable gem5 with Search Based Software Testing and Large Language Models"
@@ -372,6 +640,7 @@
   venue: "SSBSE"
   year: 2023
   type: Conference
+  doi: https://doi.org/10.1007/978-3-031-48796-5_14
   tags:
     - SBSE
     - testing
@@ -380,6 +649,8 @@
     - https://zenodo.org/record/8316685
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Dakhama_2023_SSBSE.pdf
+  video:
+    - https://youtu.be/D3nO8aMSR-0?si=wEi7mYDPe9MOyB4o
 
 - key: "Krauss:thesis"
   title: "Pattern Mining and Genetic Improvement in Compilers and Interpreters"
@@ -498,6 +769,21 @@
   doi: https://doi.org/10.1007/978-3-030-98015-3_20
   urls:
     - http://link.springer.com/chapter/10.1007/978-3-030-98015-3_20
+
+- key: "blot2022comprehensive"
+  title: "A Comprehensive Survey of Benchmarks for Automated Improvement of Software's Non-Functional Properties"
+  authors:
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "ArXiV"
+  year: 2022
+  type: Archive
+  tags:
+    - survey
+  urls:
+    - https://arxiv.org/abs/2212.08540
+  pdfs:
+    - https://arxiv.org/pdf/2212.08540.pdf
 
 - key: "Lehman:2022:ELM"
   title: "Evolution through Large Models"
@@ -989,6 +1275,8 @@
   venue: ""
   year: 2021
   type: PhdThesis
+  urls:
+    - https://etheses.whiterose.ac.uk/31712/
   pdfs:
     - https://etheses.whiterose.ac.uk/31712/1/GOBRIENFinalSubmissionWHITEROSE.pdf
 
@@ -1042,7 +1330,7 @@
   tags:
     - SBSE
   urls:
-    - https://coinse.kaist.ac.kr/coinse/2021/04/09/Jeongju-Sohn-PhD-defense.html
+    - https://coinse.github.io/coinse/2021/04/09/Jeongju-Sohn-PhD-defense.html
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Sohn_thesis.pdf
 
@@ -2140,6 +2428,8 @@
   year: 2020
   type: Conference
   doi: https://doi.org/10.1007/978-3-030-44094-7_6
+  urls:
+    - https://rdcu.be/dnYUH
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/krauss_2020_EuroGP.pdf
 
@@ -4036,6 +4326,23 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Krauss_2018_ManLang.pdf
 
+- key: "Bokhari:2018:MobiQuitous"
+  title: "In-Vivo and Offline Optimisation of Energy Use in the Presence of Small Energy Signals: A Case Study on a Popular Android Library"
+  authors:
+    - name: Mahmoud A. Bokhari
+    - name: Brad Alexander
+    - name: Markus Wagner
+  venue: "MobiQuitous"
+  year: 2018
+  type: Conference
+  doi: https://doi.org/10.1145/3286978.3287014
+  tags:
+    - SBSE
+  urls:
+    - https://srb.sdl.edu.sa/esploro/outputs/conferenceProceeding/In-vivo-and-offline-optimisation-of-energy/9930446008331
+  pdfs:
+    - https://cs.adelaide.edu.au/~markus/pub/2018mobiquitous-smallEnergySignals.pdf
+
 - key: "Greer:2018:NAECON"
   title: "Guiding Software Evolution with Binary Diversity"
   authors:
@@ -4430,6 +4737,7 @@
     - SBSE
   urls:
     - http://hdl.handle.net/1893/25251
+    - https://rdcu.be/dslLb
   pdfs:
     - https://dspace.stir.ac.uk/bitstream/1893/25251/1/haraldsson.pdf
 
@@ -5554,7 +5862,7 @@
   tags:
     - SBSE
   urls:
-    - https://coinse.kaist.ac.kr/projects/adpoopencv/
+    - https://coinse.github.io/projects/adpoopencv/
 
 - key: "Bruce:2016:SSBSE"
   title: "Deep Parameter Optimisation for Face Detection Using the Viola-Jones Algorithm in OpenCV"
@@ -5583,7 +5891,8 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-47106-8_27
   urls:
-    - http://coinse.kaist.ac.kr/projects/mctsps/
+    - https://coinse.github.io/projects/mctsps/
+    - https://rdcu.be/dqazC
 
 - key: "Wu:2016:SSBSE"
   title: "HOMI: Searching Higher Order Mutants For Software Improvement"
@@ -5684,18 +5993,6 @@
     - http://arxiv.org/pdf/arXiv:1505.07855.pdf
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn-15-03.pdf
 
-- key: "ho-ah-ka-15a"
-  title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
-  authors:
-    - name: Nam Ho
-    - name: Abdullah Fathi Ahmed
-    - name: Paul Kaufmann
-    - name: Marco Platzner
-  venue: "2015 NASA/ESA Conference on Adaptive Hardware and Systems (AHS)"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1109/AHS.2015.7231178
-
 - key: "Kong:2015:ieeeISSRE"
   title: "Experience report: How do techniques, programs, and tests impact automated program repair?"
   authors:
@@ -5752,6 +6049,18 @@
   tags:
     - SBSE
 
+- key: "ho-ah-ka-15a"
+  title: "Microarchitectural Optimization by Means of Reconfigurable and Evolvable Cache Mappings"
+  authors:
+    - name: Nam Ho
+    - name: Abdullah Fathi Ahmed
+    - name: Paul Kaufmann
+    - name: Marco Platzner
+  venue: "AHS"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/AHS.2015.7231178
+
 - key: "Ke:2015:ASE"
   title: "Repairing Programs with Semantic Code Search"
   authors:
@@ -5807,7 +6116,7 @@
   authors:
     - name: William B. Langdon
     - name: Justyna Petke
-  venue: "Complex Systems Digital Campus E-conference, CS-DC'15"
+  venue: "CS-DC"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-45901-1_24
@@ -6821,6 +7130,23 @@
   urls:
     - http://www.sciencedirect.com/science/article/pii/S016412121400017X
 
+- key: "DBLP:conf/IEEEpact/AnselKVRBOA14"
+  title: "OpenTuner: an extensible framework for program autotuning"
+  authors:
+    - name: Jason Ansel
+    - name: Shoaib Kamil
+    - name: Kalyan Veeramachaneni
+    - name: Jonathan Ragan-Kelley
+    - name: Jeffrey Bosboom
+    - name: Una-May O'Reilly
+    - name: Saman P. Amarasinghe
+  venue: "PACT"
+  year: 2014
+  type: Conference
+  doi: https://doi.org/10.1145/2628071.2628092
+  urls:
+    - http://opentuner.org/
+
 - key: "Harman:2014:seams"
   title: "Genetic Improvement for Adaptive Software Engineering"
   authors:
@@ -7168,6 +7494,21 @@
   pdfs:
     - https://icsm2013.tue.nl/ICSM2013.pdf
 
+- key: "DBLP:conf/IEEEpact/JiaSM13"
+  title: "Starchart: Hardware and software optimization using recursive partitioning regression trees"
+  authors:
+    - name: Wenhao Jia
+    - name: Kelly A. Shaw
+    - name: Margaret Martonosi
+  venue: "PACT"
+  year: 2013
+  type: Conference
+  doi: https://doi.org/10.1109/PACT.2013.6618822
+  tags:
+    - SBSE
+  pdfs:
+    - http://jiawenhao.com/starchart.pdf
+
 - key: "Ragan-Kelley:2013:PLDI"
   title: "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines"
   authors:
@@ -7196,21 +7537,6 @@
   tags:
     - APR
     - SBSE
-
-- key: "DBLP:conf/IEEEpact/JiaSM13"
-  title: "Starchart: Hardware and software optimization using recursive partitioning regression trees"
-  authors:
-    - name: Wenhao Jia
-    - name: Kelly A. Shaw
-    - name: Margaret Martonosi
-  venue: "Proceedings of the 22nd International Conference on Parallel Architectures and Compilation Techniques"
-  year: 2013
-  type: Conference
-  doi: https://doi.org/10.1109/PACT.2013.6618822
-  tags:
-    - SBSE
-  pdfs:
-    - http://jiawenhao.com/starchart.pdf
 
 - key: "conf/hvc/KatzP13"
   title: "Synthesizing, Correcting and Improving Code, Using Model Checking-Based Genetic Programming"
@@ -7636,7 +7962,7 @@
   authors:
     - name: Josh L. Wilkerson
     - name: Daniel R. Tauritz
-  venue: "GECCO '11: Proceedings of the 13th annual conference companion on Genetic and evolutionary computation"
+  venue: "GECCO-comp"
   year: 2011
   type: Conference
   doi: https://doi.org/10.1145/2001858.2001995
@@ -7920,7 +8246,7 @@
     - name: Paul Kaufmann
     - name: Christian Plessl
     - name: Marco Platzner
-  venue: "2009 NASA/ESA Conference on Adaptive Hardware and Systems"
+  venue: "AHS"
   year: 2009
   type: Conference
   doi: https://doi.org/10.1109/AHS.2009.26
@@ -8245,7 +8571,7 @@
   authors:
     - name: Paul Walsh
     - name: Conor Ryan
-  venue: "Genetic Programming 1996: Proceedings of the First Annual Conference"
+  venue: "GP"
   year: 1996
   type: Conference
   tags:

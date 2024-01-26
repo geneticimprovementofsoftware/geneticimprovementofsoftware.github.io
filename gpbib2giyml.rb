@@ -168,6 +168,8 @@ out.each do |h|
     h[:venue] = 'ACSOS-C'
   when /Autonomic Computing and Self-Organizing Systems/i
     h[:venue] = 'ACSOS'
+  when /Conference on Adaptive Hardware and Systems/i
+    h[:venue] = 'AHS'
   when /Conference on Artificial Life/i
     h[:venue] = 'ALIFE'
   when /Asia-Pacific Software Engineering Conference/i
@@ -183,6 +185,8 @@ out.each do |h|
   when 'GI @ CEC 2020 Special Session'
     h[:venue] = 'CEC'
     h[:type] = 'Session'
+  when /Complex Systems Digital Campus/i
+    h[:venue] = 'CS-DC'
   when /International Conference on Dependable Systems and Networks/i
     h[:venue] = 'DSN'
   when /Evaluation and Assessment in Software Engineering/i
@@ -206,11 +210,14 @@ out.each do |h|
   when /Companion.*Genetic and Evolutionary Computation Conference/i,
        /Companion.*Conference on Genetic and Evolutionary Computation/i,
        /Genetic and Evolutionary Computation Conference.*Companion/i,
-       /Conference on Genetic and Evolutionary Computation.*Companion/i
+       /Conference on Genetic and Evolutionary Computation.*Companion/i,
+       /GECCO.*companion/
     h[:venue] = 'GECCO-comp'
   when /Genetic and Evolutionary Computation Conference/i,
        /Conference on Genetic and Evolutionary Computation/i
     h[:venue] = 'GECCO'
+  when /Genetic Programming 1996/
+    h[:venue] = 'GP'
   when /Genetic Programming Theory and Practice/i
     h[:venue] = 'GPTP'
   when /Symposium on High Performance Computer Architecture/i
@@ -238,16 +245,22 @@ out.each do |h|
     h[:venue] = 'ISSTA'
   when /International Instrumentation and Measurement Technology Conference/i
     h[:venue] = 'I2MTC'
+  when /Conference on Knowledge Management in Organizations/i
+    h[:venue] = 'KMO'
   when /Korea Software Congress/i
     h[:venue] = 'KSC'
   when /International Conference on Managed Languages and Runtimes/i
     h[:venue] = 'ManLang'
   when /International Conference on Soft Computing/i
     h[:venue] = 'MENDEL'
+  when /Conference on Mobile and Ubiquitous Systems/i
+    h[:venue] = 'MobiQuitous'
   when /National Aerospace and Electronics Conference/i
     h[:venue] = 'NAECON'
   when /Network and Distributed System Security Symposium/i
     h[:venue] = 'NDSS'
+  when /Conference on Parallel Architectures and Compilation/i
+    h[:venue] = 'PACT'
   when /Conference on Programming Language Design and Implementation/
     h[:venue] = 'PLDI'
   when /Parallel Problem Solving from Nature/i
