@@ -8,6 +8,8 @@
   type: Conference
   tags:
     - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_EuroGP.pdf
 
 - key: "langdon:2024:GI"
   title: "Deep Mutations have Little Impact"
@@ -21,6 +23,8 @@
   tags:
     - SBSE
     - testing
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_GI.pdf
 
 - key: "Nemeth:2024:GI"
   title: "Ecosystem Curation in Genetic Improvement for Emergent Software Systems"
@@ -76,6 +80,8 @@
   year: 2024
   abstract: "Mobile applications can be very network-intensive. Mobile phone users are often on limited data plans, while network infrastructure has limited capacity. There is little work on optimising network usage of mobile applications. The most popular approach has been prefetching and caching assets. However, past work has shown that developers can improve the network usage of Android applications by making changes to Java source code. We built upon this insight and investigated the effectiveness of automated, heuristic application of software patches, a technique known as Genetic Improvement (GI), to improve network usage. Genetic improvement has already shown effective at reducing the execution time and memory usage of Android applications. We thus adapt our existing GIdroid framework with a new mutation operator and develop a new profiler to identify network-intensive methods to target. Unfortunately, our approach is unable to find improvements. We conjecture this is due to the fact source code changes affecting network might be rare in the large patch search space. We thus advocate use of more intelligent search strategies in future work."
   type: Workshop
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/callan_2024_GI.pdf
 
 - key: "AlNajar:thesis"
   title: "Estimating Coastal Evolution with Machine Learning"
@@ -6575,7 +6581,7 @@
   authors:
     - name: Saso Karakatic
     - name: Tina Schweighofer
-  venue: "Proceedings of the 10th International Conference on Knowledge Management in Organizations, KMO 2015"
+  venue: "KMO"
   year: 2015
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-21009-4_20
