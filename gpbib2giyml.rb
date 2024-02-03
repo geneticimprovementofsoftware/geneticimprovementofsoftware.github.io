@@ -78,7 +78,7 @@ for chunk in data
   venue ||= ''
   year = chunk[/^\s*year\s*=\s*"(.*?)"\s*,\s*$/, 1]&.gsub(/[\n\s]+/m, ' ')
   year ||= ''
-  abstract = chunk[/^\s*abstract\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')&.gsub('"', '\\"')
+  abstract = chunk[/^\s*abstract\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')&.gsub('"', '\\"')&.gsub(/([^\\])(\\)([^\\])/, '\1\2\2\3')
   doi = chunk[/^\s*doi\s*=\s*"(.*?)"\s*,\s*$/im, 1]&.gsub(/[\n\s]+/m, ' ')
   keywords = chunk[/^\s*keywords\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')
   # warn keywords.split(',').sort
