@@ -57,7 +57,7 @@
     - name: Barry Porter
   venue: "GI@ICSE"
   year: 2024
-  abstract: "Emergent software systems are composed, and continuously recomposed at runtime, from a large pool of small potential building blocks with the aim of responding to changes in the deployment environment [REX]. The approach assumes that each building block has a set of available variations in the selection pool, such that the most appropriate collection of variants can be composed according to the current conditions, with some objective function in mind. Populating such a pool of implementation variation, however, is not a trivial task, and existing work has examined the use of Genetic Improvement (GI) to drive this process rainford:2022:GECCO"
+  abstract: "Emergent software systems are composed, and continuously recomposed at runtime, from a large pool of small potential building blocks with the aim of responding to changes in the deployment environment [REX]. The approach assumes that each building block has a set of available variations in the selection pool, such that the most appropriate collection of variants can be composed according to the current conditions, with some objective function in mind. Populating such a pool of implementation variation, however, is not a trivial task, and existing work has examined the use of Genetic Improvement (GI) to drive this process [rainford:2022:GECCO]"
   type: Workshop
   doi: https://doi.org/10.1145/3643692.3648260
   pdfs:
@@ -113,7 +113,7 @@
     - name: Barry Porter
   venue: "GI@ICSE"
   year: 2024
-  abstract: "Existing research on Genetic Improvement (GI) of source code to improve performance rainford:2022:GECCO has examined the mixed application of code synthesis and traditional GI mutation/crossover to gain higher-performing individuals that are tailored to particular deployment contexts, for examples such as hash tables or scheduling algorithms. While demonstrating successful improvements, this research presents a host of challenges Rainford:2021:GI, from search space size to fitness landscape shape, which raise questions on whether GI alone is able to present a complete solution. In this position paper we propose to augment GI processes with Human Guidance (HG) to offer a co-pilot paradigm which may overcome these challenges."
+  abstract: "Existing research on Genetic Improvement (GI) of source code to improve performance [rainford:2022:GECCO] has examined the mixed application of code synthesis and traditional GI mutation/crossover to gain higher-performing individuals that are tailored to particular deployment contexts, for examples such as hash tables or scheduling algorithms. While demonstrating successful improvements, this research presents a host of challenges [Rainford:2021:GI], from search space size to fitness landscape shape, which raise questions on whether GI alone is able to present a complete solution. In this position paper we propose to augment GI processes with Human Guidance (HG) to offer a co-pilot paradigm which may overcome these challenges."
   type: Workshop
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2024/Craine_2024_GI.pdf
