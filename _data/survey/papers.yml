@@ -1,3 +1,24 @@
+- key: "alshahwan2024assured"
+  title: "Assured LLM-Based Software Engineering"
+  authors:
+    - name: Nadia Alshahwan
+    - name: Mark Harman
+    - name: Inna Harper
+    - name: Alexandru Marginean
+    - name: Shubho Sengupta
+    - name: Eddy Wang
+  venue: "ArXiV"
+  year: 2024
+  type: Archive
+  tags:
+    - APR
+    - SBSE
+    - testing
+  urls:
+    - https://arxiv.org/abs/2402.04380
+  pdfs:
+    - https://arxiv.org/pdf/2402.04380.pdf
+
 - key: "langdon:2024:EuroGP"
   title: "Genetic Improvement of Last Level Cache"
   authors:
@@ -20,6 +41,7 @@
   year: 2024
   abstract: "Using the language independent genetic improvement tool MAGPIE (Machine Automated General Performance Improvement via Evolution of software), we measure the impact of GI on a non-deterministic deeply nested PARSEC VIPS parallel computing multi-threaded image processing benchmark written in C. More than 53% of mutants compile and generate identical output. Overall we find approximately 10% Failed Disruption Propagation (FDP). Excluding software detected internal errors and asserts, almost all changes deeper than 30 nested functions which are Executed and Infect data or change control are not Propagated. That is, almost all deep PIE code changes have no external impact. Suggesting (where it relies on testing) automatic software engineering on deeply nested code will be hard."
   type: Workshop
+  doi: https://doi.org/10.1145/3643692.3648259
   tags:
     - SBSE
     - testing
@@ -31,11 +53,15 @@
   title: "Ecosystem Curation in Genetic Improvement for Emergent Software Systems"
   authors:
     - name: Zsolt Nemeth
-    - name: Penny Faulkner Rainford
+    - name: Penn Faulkner Rainford
     - name: Barry Porter
   venue: "GI@ICSE"
   year: 2024
+  abstract: "Emergent software systems are composed, and continuously recomposed at runtime, from a large pool of small potential building blocks with the aim of responding to changes in the deployment environment [REX]. The approach assumes that each building block has a set of available variations in the selection pool, such that the most appropriate collection of variants can be composed according to the current conditions, with some objective function in mind. Populating such a pool of implementation variation, however, is not a trivial task, and existing work has examined the use of Genetic Improvement (GI) to drive this process rainford:2022:GECCO"
   type: Workshop
+  doi: https://doi.org/10.1145/3643692.3648260
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2024/GI_ICSE2024_Nemeth.pdf
 
 - key: "Yoo:2024:GI"
   title: "Executing One's Way out of the Chinese Room"
@@ -56,8 +82,11 @@
     - name: Kevin Leach
   venue: "GI@ICSE"
   year: 2024
-  abstract: "Genetic improvement (GI) in Deep Neural Networks (DNNs) has traditionally enhanced neural architecture and trained DNN parameters. Recently, GI has supported large language models by optimising DNN operator scheduling on accelerator clusters. However, with the rise of adversarial AI, particularly model extraction attacks, there is an unexplored potential for GI in fortifying Machine Learning as a Service (MLaaS) models. We suggest a novel application of GI, not to improve model performance, but to diversify operator parallelism for the purpose of a moving target defence against model extraction attacks. We discuss an application of GI to create a DNN model defense strategy that uses probabilistic isolation, offering unique benefits not present in current DNN defence systems."
+  abstract: "Genetic improvement (GI) in Deep Neural Networks (DNNs) has traditionally enhanced neural architecture and trained DNN parameters. Recently, GI has supported large language models by optimising DNN operator scheduling on accelerator clusters. However, with the rise of adversarial AI, particularly model extraction attacks, there is an unexplored potential for GI in fortifying Machine Learning as a Service (MLaaS) models. We suggest a novel application of GI, not to improve model performance, but to diversify operator parallelism for the purpose of a moving target defence against model extraction attacks. We discuss an application of GI to create a DNN model defense strategy that uses probabilistic isolation, offering unique benefits not present in current DNN defense systems."
   type: Workshop
+  doi: https://doi.org/10.1145/3643692.3648261
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2024/Genetic_Improvement_for_DNN_Security.pdf
 
 - key: "Sarmiento:2024:GI"
   title: "Grammar evolution and symbolic regression for astrometric centering of Hubble Space Telescope images"
@@ -71,8 +100,10 @@
     - name: Alejandro Cervantes
   venue: "GI@ICSE"
   year: 2024
-  abstract: "Symbolic regression, in general, and genetic models, in particular, are promising approaches to mathematical modelling in astrometry where it is not always clear for the domain experts which is the fittest analytic expression depending on the problem under consideration. Several attempts and increasing research efforts are being made in this direction mainly from the Genetic Programming (GP) viewpoint. Our proposal is, as far as we know, the first one to apply Grammatical Evolution (GE) in this domain. GE (and further GE extensions) aim to outperform GP limitations by incorporating formal languages tools to guarantee the correctness (both syntactic and semantic) of the generated expressions. The current contribution is a first proof to check the viability of GE on astrometric real datasets. Its success on finding adequate parameters for predefined families of functions in star centering (Gaussian and Moffat PSFs) with simple and naive GE experiments supports our hypothesis on taking advantage of the expressive power of GE to tackle astrometry scenarios of interest and hence greatly improve current astronomy software thanks to specific genetic approaches."
+  abstract: "Symbolic regression, in general, and genetic models, in particular, are promising approaches to mathematical modeling in astrometry where it is not always clear which is the fittest analytic expression depending on the problem under consideration. Several attempts and increasing research efforts are being made in this direction mainly from the Genetic Programming (GP) viewpoint. Our proposal is, as far as we know, the first one to apply Grammatical Evolution (GE) in this domain. GE (and further GE extensions) aim to outperform GP limitations by incorporating formal language stools to guarantee the correctness (both syntactic and semantic) of the generated expressions. The current contribution is a first proof to check the viability of GE on astrometric real datasets. Its success in finding adequate parameters for predefined families of functions in star centering (Gaussian and Moffat PSFs) with simple and naive GE experiments supports our hypothesis on taking advantage of the expressive power of GE to tackle astrometry scenarios of interest and hence greatly improve current astrometric software thanks to specific genetic approaches."
   type: Workshop
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2024/ICSE_24_GIGE_astronomy_cr_vldtd.pdf
 
 - key: "Craine:2024:GI"
   title: "Human Guidance Approaches for the Genetic Improvement of Software"
@@ -82,7 +113,7 @@
     - name: Barry Porter
   venue: "GI@ICSE"
   year: 2024
-  abstract: "Existing research on Genetic Improvement (GI) of source code to improve performance \\citerainford:2022:GECCO has examined the mixed application of code synthesis and traditional GI mutation/crossover to gain higher-performing individuals that are tailored to particular deployment contexts, for examples such as hash tables or scheduling algorithms. While demonstrating successful improvements, this research presents a host of challenges \\citeRainford:2021:GI, from search space size to fitness landscape shape, which raise questions on whether GI alone is able to present a complete solution. In this position paper we propose to augment GI processes with Human Guidance (HG) to offer a co-pilot paradigm which may overcome these challenges."
+  abstract: "Existing research on Genetic Improvement (GI) of source code to improve performance rainford:2022:GECCO has examined the mixed application of code synthesis and traditional GI mutation/crossover to gain higher-performing individuals that are tailored to particular deployment contexts, for examples such as hash tables or scheduling algorithms. While demonstrating successful improvements, this research presents a host of challenges Rainford:2021:GI, from search space size to fitness landscape shape, which raise questions on whether GI alone is able to present a complete solution. In this position paper we propose to augment GI processes with Human Guidance (HG) to offer a co-pilot paradigm which may overcome these challenges."
   type: Workshop
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2024/Craine_2024_GI.pdf
@@ -97,8 +128,8 @@
   year: 2024
   abstract: "Mobile applications can be very network-intensive. Mobile phone users are often on limited data plans, while network infrastructure has limited capacity. There is little work on optimising network usage of mobile applications. The most popular approach has been prefetching and caching assets. However, past work has shown that developers can improve the network usage of Android applications by making changes to Java source code. We built upon this insight and investigated the effectiveness of automated, heuristic application of software patches, a technique known as Genetic Improvement (GI), to improve network usage. Genetic improvement has already shown effective at reducing the execution time and memory usage of Android applications. We thus adapt our existing GIdroid framework with a new mutation operator and develop a new profiler to identify network-intensive methods to target. Unfortunately, our approach is unable to find improvements. We conjecture this is due to the fact source code changes affecting network might be rare in the large patch search space. We thus advocate use of more intelligent search strategies in future work."
   type: Workshop
+  doi: https://doi.org/10.1145/3643692.3648262
   pdfs:
-    - http://gpbib.cs.ucl.ac.uk/gi2024/callan_2024_GI.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/callan_2024_GI.pdf
 
 - key: "AlNajar:thesis"

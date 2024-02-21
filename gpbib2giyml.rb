@@ -66,6 +66,7 @@ for chunk in data
   # chunk.gsub!(/^\s*(?:address|pages|month|publisher|publisher_address|size|isbn13)\s*=.*?,\s*$/, '')
   # chunk.gsub!(/^\s*(?:abstract|editor|keywords|notes)\s*=\s*".*?",\s*$/m, '')
   chunk.gsub!("\n\n", "\n")
+  chunk.gsub!(/\\cite\{/, '')
   chunk.gsub!(/[{}]/, '')
   chunk.gsub!('\\&', '&')
   # warn("="*80)
