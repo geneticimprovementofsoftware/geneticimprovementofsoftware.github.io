@@ -4,6 +4,125 @@ active: use
 
 ## What are some examples of GI Frameworks?
 
+Search by tool name.
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Query:</span>
+      </div>
+  <input type="text" id="search" class="form-control" placeholder="..." onkeyup="search()">
+  <div class="input-group-append">
+    <input type="reset" class="btn btn-outline-secondary" onclick="force('')">
+  </div>
+</div>
+
+<div>
+  Showing <span id="counter">{{ site.data.tools.size }}</span> of {{ site.data.tools.size }} entries.
+</div>
+
+<table id="tools" class="table table-responsive tools" style="max-width: 100%">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>{% for entry in site.data.tools %}
+    <tr data-search="key={{ entry.key }}">
+      <td title="{{ entry.key }}">{% if entry.key %}{{ entry.key }}{% if entry.subtitle %} &mdash; <i>{{ entry.subtitle }}</i>{% endif %}{% endif %} </td>
+      <td>{% if entry.link %}<a class="badge badge-primary" target="_blank" href="{{ entry.link }}">URL</a>{% endif %}</td>
+    </tr>{% endfor %}
+  </tbody>
+</table>
+
+
+---
+
+
+<script>
+// https://stackoverflow.com/questions/3160277/jquery-table-sort
+$('th').each(function (col) {
+  $(this).hover(
+    function () {$(this).addClass('focus');},
+    function () {$(this).removeClass('focus');}
+  );
+  $(this).click(function () {
+    if ($(this).is('.asc')) {
+      $(this).removeClass('asc');
+      $(this).addClass('desc selected');
+      sortOrder = -1;
+    } else {
+      $(this).addClass('asc selected');
+      $(this).removeClass('desc');
+      sortOrder = 1;
+    }
+    $(this).siblings().removeClass('asc selected');
+    $(this).siblings().removeClass('desc selected');
+    var arrData = $('table').find('tbody >tr:has(td)').get();
+    $.each(arrData, function (index, row) {
+      $(row).data('sort', $(row).children('td').eq(col).text().toUpperCase());
+    });
+    arrData.sort(function (a, b) {
+      var val1 = $(a).data('sort');
+      var val2 = $(b).data('sort');
+      if ($.isNumeric(val1) && $.isNumeric(val2))
+        return sortOrder == 1 ? val1 - val2 : val2 - val1;
+      else
+        return (val1 < val2) ? -sortOrder : (val1 > val2) ? sortOrder : 0;
+    });
+    $.each(arrData, function (index, row) {
+      $('tbody').append(row);
+    });
+  });
+});
+
+function search() {
+  var chunks = $("input#search").val().toUpperCase().match(/(?:[^\s"]+|"[^"]*")+/g)
+  if (chunks) {
+    chunks = chunks.map(c => c.replace(/\"/g, ""));
+  }
+
+  var counter = 0
+  $("tbody tr").each(function() {
+    var s = $(this).data("search");
+    var show = true;
+    if (chunks) {
+      for (c of chunks) {
+        if (s.toUpperCase().indexOf(c) == -1) {
+          show = false;
+        }
+      }
+      if (show) {
+        $(this).show();
+        counter += 1;
+      } else {
+        $(this).hide();
+      }
+    } else {
+      $(this).show();
+      counter += 1;
+    }
+    $("span#counter").text(counter);
+  });
+}
+
+function force(s) {
+  $("input#search").val(s);
+  search();
+  return false;
+}
+
+var query = (new URLSearchParams(window.location.search)).get("q");
+if (query) {
+  force(query)
+}
+</script>
+
+
+<!-- 
+
+
+--------------------------------------------------
 <a href="https://github.com/gintool/gin">Gin</a>: GI in No Time - a Simple Microframework for Genetic Improvement
 
 "The goal of <a href="https://github.com/gintool/gin">Gin</a> is to stimulate development in GI tooling, and to lower the barrier to experimenting with GI and related ideas such as program fragility.
@@ -57,4 +176,4 @@ Other open source tools for the genetic improvement of non-functional software p
 
 <div class="alert alert-info" role="alert">
   <b>The data on this page is incomplete.</b> (you can help by <a href="{{ "/community/contribute" | relative_url }}">expanding it</a>)
-</div>
+</div> -->
