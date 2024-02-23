@@ -1,0 +1,162 @@
+- key: ACLib
+  link: http://aclib.net/
+
+- key: AMD SDK
+
+- key: Angha
+  link: https://github.com/brenocfg/AnghaBench
+
+- key: benchFFTW
+  link: https://github.com/FFTW/benchfft
+
+- key: blas
+
+- key: cBench
+  link: https://github.com/aorogat/CBench
+
+- key: CHAOS
+
+- key: Chisel
+  link: https://github.com/aspire-project/chisel-bench
+
+- key: Coreutils
+  link: https://github.com/coreutils/coreutils
+
+- key: CUDA SDK
+
+- key: DaCapo
+  link: https://github.com/dacapobench/dacapobench
+
+- key: DENBench
+  link: https://www.eembc.org/denbench/
+
+- key: Dhrystone
+  link: https://github.com/sifive/benchmark-dhrystone
+
+- key: DSPstone
+
+- key: eispack
+
+- key: F-Droid
+
+- key: FDTD
+  link: https://github.com/Sable/fdtd-benchmark
+
+- key: FMM
+
+- key: Fontana
+
+- key: GPGPU-Sim
+  link: https://github.com/gpgpu-sim/ispass2009-benchmarks
+
+- key: Grinder
+
+- key: Habanero-Java
+
+- key: hompack
+  link: https://github.com/jacobwilliams/HOMPACK90
+
+- key: Honeywell
+
+- key: Jade
+
+- key: JavaBenchmarkEmbedded
+
+- key: Java Grande
+  link: https://github.com/sparkoo/Java-Grande-JMH
+
+- key: JetStream
+
+- key: JSTAMP
+
+- key: Livermore Loops
+
+- key: LoneStar
+
+- key: Malardalen
+
+- key: MediaBench
+
+- key: MGMRES
+  link: https://github.com/NORCE-Energy/mgmres
+
+- key: MiBench
+  link: https://github.com/embecosm/mibench
+
+- key: MPEG-1
+
+- key: MySQL
+
+- key: NAS
+
+- key: NERSC
+
+- key: Nginx
+
+- key: Nvidia SDK
+
+- key: nwchem
+
+- key: Octane
+  link: https://github.com/chromium/octane
+
+- key: Olden
+  link: https://github.com/compor/olden
+
+- key: Parboil
+  link: http://impact.crhc.illinois.edu/parboil/parboil.aspx
+
+- key: PARMS
+
+- key: PeleC
+
+- key: Perfect Club
+
+- key: Perl Oasis
+
+- key: PhysicsBench
+
+- key: PolyBench
+  link: https://github.com/MatthiasJReisinger/PolyBenchC-4.2.1
+
+- key: Polyhedron
+
+- key: RAJAPerf
+  link: https://github.com/LLNL/RAJAPerf
+  
+- key: RawBench
+
+- key: RiCeps
+
+- key: Rodinia
+
+- key: Scala DaCapo
+
+- key: SHOC
+  link: https://github.com/vetter/shoc
+
+- key: SIR
+  link: https://github.com/gstonge/SIR-benchmark
+
+- key: SNU-RT
+
+- key: SparseBench
+  link: https://github.com/idharmateja/sparse-bench
+
+- key: SPECjbb
+
+- key: SPECjvm
+  link: https://github.com/connorimes/SPECjvm2008
+
+- key: Spike
+  link: https://github.com/lzrvch/spikebench
+
+- key: SPLASH
+  link: https://github.com/SakalisC/Splash-3
+
+- key: SunSpider
+
+- key: UTDSP
+  link: https://www.eecg.toronto.edu/~corinna/DSP/infrastructure/UTDSP.html
+
+- key: Wetstone
