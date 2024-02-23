@@ -1,0 +1,107 @@
+- key: "Gin"
+  link: "https://github.com/gintool/gin"
+
+- key: "GammaTech:assembly"
+  link: "https://github.com/GrammaTech/sel"
+
+- key: "GammaTech:c"
+  link: "https://github.com/GrammaTech/clang-mutate"
+
+- key: "ECSELR"
+  link: "http://diversify-project.eu/papers/Yeboah15.pdf"
+
+- key: "Gen-O-Fix"
+  link: "https://github.com/JerrySwan/JerrySwan.github.io/blob/master/publications/genofix-TR.pdf"
+
+- key: "GenProg Evolutionary Software Repair"
+  link: "https://squareslab.github.io/genprog-code/"
+
+- key: "locoGP"
+  link: "https://github.com/codykenb/locoGP"
+
+- key: "MicroGP"
+  link: "https://sourceforge.net/p/ugp3/wiki/GeneticImprovement/"
+
+- key: "Software from the GISMOE Project via Bill Langdon"
+  link: "http://www0.cs.ucl.ac.uk/staff/ucacbbl/gismo/"
+
+- key: "Relifix"
+  link: "http://www.shinhwei.com/relifix.pdf"
+
+- key: "Eric Schulte: Genetic Optimization Algorithm (GOA)"
+  link: "https://github.com/eschulte/goa"
+
+- key: "Eric Schulte: Software Evolution Library"
+  link: "http://eschulte.github.io/software-evolution/index.html"
+
+- key: "Eric Schulte: Netgear Router Repair"
+  link: "https://github.com/eschulte/netgear-repair"
+
+- key: "SearchRepair"
+  link: "https://people.cs.umass.edu/~brun/pubs/pubs/Ke15ase.pdf"
+
+- key: "TrpAutoRepair"
+  link: "http://sourceforge.net/projects/trpautorepair/"
+
+- key: "Magpie"
+  link: "https://github.com/bloa/magpie"
+
+- key: "ASTOR"
+  link: "https://github.com/SpoonLabs/astor"
+
+- key: "JaRFly"
+  link: "https://github.com/squaresLab/genprog4java/"
+
+- key: "PraPR"
+  link: "https://github.com/prapr/prapr"
+
+- key: "Amaru"
+  link: "https://github.com/oliver-krauss/amaru"
+
+- key: "MuScalpel"
+  link: "http://crest.cs.ucl.ac.uk/autotransplantation/downloads/muScalpel.zip"
+
+- key: "DSpot"
+  link: "https://github.com/STAMP-project/dspot"
+
+- key: "PyGGI"
+  link: "https://github.com/coinse/pyggi"
+
+- key: "ARJA"
+  link: "https://github.com/yyxhdy/arja"
+
+- key: "Repairnator"
+  link: "https://github.com/eclipse/repairnator/"
+
+- key: "Astor4Android"
+  link: "https://github.com/kayquesousa/astor4android"
+
+- key: "Genetic Programming for Shader Simplification"
+  link: "https://github.com/fabianishere/shadevolution"
+
+- key: "Deep Parameter Optimisation in OpenCV"
+  link: "https://github.com/BobbyRBruce/DPT-OpenCV"
+
+- key: "HOMI"
+  link: "https://github.com/FanWuUCL/HOMI"
+
+- key: "GGGP"
+  link: "http://www0.cs.ucl.ac.uk/staff/ucacbbl/gggp/"
+
+- key: "Optimizer"
+  link: "https://github.com/ffarzat/JavaScriptHeuristicOptmizer"
+
+- key: "Evolving Better Software Parameters"
+  link: "http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/gi_cbrt.tar.gz"
+
+- key: "PowerGAUGE"
+  link: "https://github.com/dornja/powergauge"
+
+- key: "GEVO"
+  link: "https://github.com/lioujheyu/gevo"
+
+- key: "Automatically Evolving Lookup Tables for Function Approximation"
+  link: "https://github.com/oliver-krauss/EuroGP2020-LookupTables"
+
+- key: "Genetic Improvement of Routing Protocols for Delay Tolerant Networks"
+  link: "https://github.com/michelalorandi/evolution_routing_protocol"
