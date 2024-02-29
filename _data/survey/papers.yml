@@ -91,7 +91,7 @@
 - key: "Sarmiento:2024:GI"
   title: "Grammar evolution and symbolic regression for astrometric centering of Hubble Space Telescope images"
   authors:
-    - name: Beatriz R. Sarmiento
+    - name: Ricardo Sarmiento
     - name: Marina de la Cruz
     - name: Alfonso Ortega
     - name: Roberto Baena-Galle
@@ -7528,8 +7528,6 @@
   doi: https://doi.org/10.1109/ICSE.2013.6606623
   tags:
     - SBSE
-  urls:
-    - http://2013.icse-conferences.org/content/semfix-program-repair-semantic-analysis.html
   pdfs:
     - https://www.comp.nus.edu.sg/~abhik/pdf/ICSE13-SEMFIX.pdf
 
