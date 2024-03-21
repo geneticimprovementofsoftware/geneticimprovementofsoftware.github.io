@@ -16,6 +16,9 @@ p {
 **13rd International Workshop on Genetic Improvement (GI@[ICSE 2024](https://conf.researchr.org/home/icse-2024))**
 - [<i class="fa-solid fa-link"></i> Event page]({{"/events/icse2024" | relative_url }})
 
+**Tutorial on Genetic Improvement ([GECCO 2024](https://gecco-2024.sigevo.org/))**
+- [<i class="fa-solid fa-external-link-alt"></i> Event page](https://gecco-2024.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods)
+
 ## 2023
 
 **65th CREST Open Workshop on Automated Program Repair and Genetic Improvement**
