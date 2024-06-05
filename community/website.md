@@ -4,6 +4,7 @@ maintainers:
   - Aymeric Blot
   - Bobby Bruce
   - Justyna Petke
+  - Carol Hanna
 ---
 
 # Who maintains this website?
