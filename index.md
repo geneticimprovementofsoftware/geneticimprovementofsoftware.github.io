@@ -26,6 +26,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 
 ## News
+* We would like to invite researchers to submit to the special issue on Genetic Improvement in the [Automatic Software Engineering Journal](https://link.springer.com/collections/gcefacefbd)
 * The next tutorial on genetic improvement will be given at [GECCO 2024](https://gecco-2024.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods) by Sandy Brownlee, Saemundur Haraldsson, John R. Woodward, and Markus Wagner.
 * The [13th International Workshop on Genetic Improvement](events/icse2024) took place at [ICSE 2024](https://conf.researchr.org/home/icse-2024). Prof. Shin Yoo gave the keynote talk. [Recordings available on Youtube](https://youtube.com/playlist?list=PLI8fiFpB7BoIRqJuY80XwmH-DFT_71y2S). Dr. Aymeric Blot presented the latest version of the Magpie tool, available at [https://github.com/bloa/magpie](https://github.com/bloa/magpie), supporting a variety of algorithms, GI operators, and parameter tuning capabilities.
 
