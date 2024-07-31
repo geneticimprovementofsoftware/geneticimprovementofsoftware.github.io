@@ -26,7 +26,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 
 ## News
-* The [14th International Workshop on Genetic Improvement](events/icse2025) will take place at [ICSE 2025](https://conf.researchr.org/home/icse-2025). The [Call for Papers](events/icse2025#CFP) is now open.
+* The [14th International Workshop on Genetic Improvement](events/icse2025) will take place at [ICSE 2025](https://conf.researchr.org/home/icse-2025). 
 * We would like to invite researchers to submit to the special issue on Genetic Improvement in the [Automatic Software Engineering Journal](https://link.springer.com/collections/gcefacefbd)
 
 
