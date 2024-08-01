@@ -19,13 +19,12 @@ chairs:
   His research focuses on mining patterns in software, as well as data, to improve runtime performance and energy consumption.
   He maintains several open source frameworks, such as <a href='https://amaru.dev'>Amaru</a>)."
 - name: Justyna Petke
-  desc: "%%NAME%% is a Professor of Software Engineering at the Department of Computer Science, University College London. She is a member of the CREST centre and the SOLAR group. Her current research focuses on Genetic Improvement. She also has expertise in Combinatorial Interaction Testing, Constraint Satisfaction and Search-Based Software Engineering. She held an EPSRC Early Career Fellowship on Automated Software Specialisation Using Genetic Improvement (2017-2023)."
-- name: Penn Rainford
-  desc: "%%NAME%% test text description"
-
+  desc: "%%NAME%% is a Professor of Software Engineering at the Department of Computer Science, University College London. She is a member of the CREST centre and the SOLAR group. Her current research focuses on Genetic Improvement. She also has expertise in Combinatorial Interaction Testing, Constraint Satisfaction and Search-Based Software Engineering. She held an EPSRC Early Career Fellowship on Automated Software Specialisation Using Genetic Improvement (2017-2023).
   She serves on the Editorial Board for the Journal of Systems and Software, Empirical Software Engineering, Genetic Programming and Evolvable Machines, Engineering Applications of Artificial Intelligence, and as Deputy Editor-in-Chief for the Automated Software Engineering journal."
 - name: Penn Rainford
-  desc: "%%NAME%% received their PhD in 2019 from the University of York. They work on the interface of Biochemistry and Computing (University of York). Their GI research centres on applications of principles of natural evolution to genetic improvement. Currently focused on phylogenetic analysis for systems designed for real-time evolutionary adaptation (Lancaster University)."
+  desc: "%%NAME%% test text"
+
+  
 
 reviewers:
 - TBD
@@ -43,7 +42,6 @@ reviewers:
   <figcaption class="figure-caption text-right">Ottawa and Gatineau, Canada (Michel Gagnon, CC BY-SA 3.0, via Wikimedia Commons)</figcaption>
 </figure>
 
-Navigation: [Important Dates](#important-dates), [CFP](#CFP)
 
 ## Event
 
@@ -77,8 +75,7 @@ Applications of GI include, but are not limited to, using GI to:
 - Specialise software
 - Generate multiple versions of software
 - Improve low level or binary code
-- Use of Large Language Models with GI
-- Use of AI with GI
+- Use of AI/large language models with GI
 - Repair bugs
 - GI techniques in industrial settings
 
@@ -89,8 +86,7 @@ We invite two types of submissions:
 - Research papers (eight page limit, including references)
 - Position papers (two page limit, including references)
 
-Papers should be submitted electronically (TBA) and must conform to the IEEE conference proceedings template as per the [ICSE submission process](https://conf.researchr.org/track/icse-2025/icse-2025-research-track)
-
+Papers should be submitted electronically and must conform to the IEEE conference proceedings template as per the [ICSE submission process](https://conf.researchr.org/track/icse-2025/icse-2025-research-track) .
 
 Accepted papers must be presented at GI 2025 and will appear in the ICSE workshops volume.
 The official publication date of the workshop proceedings is the date the proceedings are made available by IEEE.
