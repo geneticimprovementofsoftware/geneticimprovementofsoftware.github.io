@@ -13,7 +13,7 @@ p {
 
 ## 2025
 
-**13rd International Workshop on Genetic Improvement (GI@[ICSE 2025](https://conf.researchr.org/home/icse-2025))**
+**14th International Workshop on Genetic Improvement (GI@[ICSE 2025](https://conf.researchr.org/home/icse-2025))**
 - [<i class="fa-solid fa-link"></i> Event page]({{"/events/icse2025" | relative_url }})
 
 ## 2024
