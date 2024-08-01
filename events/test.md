@@ -19,11 +19,12 @@ chairs:
   His research focuses on mining patterns in software, as well as data, to improve runtime performance and energy consumption.
   He maintains several open source frameworks, such as <a href='https://amaru.dev'>Amaru</a>)."
 - name: Justyna Petke
-  desc: "%%NAME%% is a Professor of Software Engineering at the Department of Computer Science, University College London. She is a member of the CREST centre and the SOLAR group. Her current research focuses on Genetic Improvement. She also has expertise in Combinatorial Interaction Testing, Constraint Satisfaction and Search-Based Software Engineering. She held an EPSRC Early Career Fellowship on Automated Software Specialisation Using Genetic Improvement (2017-2023)."
+  desc: "%%NAME%% is a Professor of Software Engineering at the Department of Computer Science, University College London. She is a member of the CREST centre and the SOLAR group. Her current research focuses on Genetic Improvement. She also has expertise in Combinatorial Interaction Testing, Constraint Satisfaction and Search-Based Software Engineering. She held an EPSRC Early Career Fellowship on Automated Software Specialisation Using Genetic Improvement (2017-2023).
+  She serves on the Editorial Board for the Journal of Systems and Software, Empirical Software Engineering, Genetic Programming and Evolvable Machines, Engineering Applications of Artificial Intelligence, and as Deputy Editor-in-Chief for the Automated Software Engineering journal."
 - name: Penn Rainford
   desc: "%%NAME%% test text"
 
-  She serves on the Editorial Board for the Journal of Systems and Software, Empirical Software Engineering, Genetic Programming and Evolvable Machines, Engineering Applications of Artificial Intelligence, and as Deputy Editor-in-Chief for the Automated Software Engineering journal."
+  
 
 reviewers:
 - TBD
