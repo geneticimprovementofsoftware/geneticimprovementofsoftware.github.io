@@ -20,8 +20,11 @@ chairs:
   He maintains several open source frameworks, such as <a href='https://amaru.dev'>Amaru</a>)."
 - name: Justyna Petke
   desc: "%%NAME%% is a Professor of Software Engineering at the Department of Computer Science, University College London. She is a member of the CREST centre and the SOLAR group. Her current research focuses on Genetic Improvement. She also has expertise in Combinatorial Interaction Testing, Constraint Satisfaction and Search-Based Software Engineering. She held an EPSRC Early Career Fellowship on Automated Software Specialisation Using Genetic Improvement (2017-2023).
-
   She serves on the Editorial Board for the Journal of Systems and Software, Empirical Software Engineering, Genetic Programming and Evolvable Machines, Engineering Applications of Artificial Intelligence, and as Deputy Editor-in-Chief for the Automated Software Engineering journal."
+- name: Penn Rainford
+  desc: "%%NAME%% test text"
+
+  
 
 reviewers:
 - TBD
@@ -83,7 +86,7 @@ We invite two types of submissions:
 - Research papers (eight page limit, including references)
 - Position papers (two page limit, including references)
 
-Papers should be submitted electronically and must conform to the IEEE conference proceedings template as per the [https://conf.researchr.org/track/icse-2025/icse-2025-research-track](ICSE submission process).
+Papers should be submitted electronically and must conform to the IEEE conference proceedings template as per the [ICSE submission process](https://conf.researchr.org/track/icse-2025/icse-2025-research-track) .
 
 Accepted papers must be presented at GI 2025 and will appear in the ICSE workshops volume.
 The official publication date of the workshop proceedings is the date the proceedings are made available by IEEE.
