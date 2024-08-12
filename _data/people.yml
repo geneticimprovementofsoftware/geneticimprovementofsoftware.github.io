@@ -48,8 +48,8 @@
 
 - name: Gabin An
   show: yes
-  affil: KAIST, Korea
-  homepage: https://coinse.kaist.ac.kr/members/gabin/
+  affil: Roku, Korea
+  homepage: https://www.weareroku.com/locations/seoul/#gabin
   dblp: https://dblp.uni-trier.de/pid/225/3675.html
   scholar: https://scholar.google.fr/citations?user=T-58s1oAAAAJ
   twitter: https://twitter.com/gabin_an
@@ -62,7 +62,6 @@
   homepage: https://www.linkedin.com/in/roberto-baena-galle
 
 - name: Sebastian Baltes
-  show: true
   affil: University of Adelaide, Australia
   homepage: https://empirical-software.engineering/
   dblp: https://dblp.uni-trier.de/pid/145/3950.html
@@ -78,7 +77,8 @@
 
 - name: Marcio Barros
   show: yes
-  affil: UNIRIO University, Brazil
+  affil: Universidade Federal do Estado do Rio de Janeiro, Brazil
+  homepage: http://www.uniriotec.br/~marcio.barros/
   dblp: https://dblp.org/pid/36/2479.html
   scholar: http://scholar.google.com/citations?user=GvmSuw8AAAAJ
   img: /profile_images/marcio_barros.jpg
@@ -200,6 +200,10 @@
 - name: Zhen Yu Ding
   homepage: https://www.linkedin.com/in/zhen-yu-ding
 
+- name: Zishuo Ding
+  affil: Hong Kong University of Science and Technology
+  homepage: https://ece.uwaterloo.ca/~z8ding/
+
 - name: Jonathan Dorn
   homepage: https://dornja.github.io/
   img: /profile_images/jonathan_dorn.jpg
@@ -212,9 +216,6 @@
 - name: Aniko Ekart
   homepage: https://www2.aston.ac.uk/eas/staff/a-z/dr-aniko-ekart
   img: /profile_images/aniko_ekart.jpg
-
-- name: Penelope Faulkner Rainford
-  homepage: https://faulknerrainford.co.uk/
 
 - name: Stephanie Forrest
   homepage: https://forrest.biodesign.asu.edu/index.html
@@ -233,6 +234,10 @@
 
 - name: Unai Garciarena
   homepage: https://unaigarciarena.github.io/
+
+- name: Alina Geiger
+  affil: Johannes Gutenberg University Mainz, Germany
+  homepage: https://en.wi.bwl.uni-mainz.de/alina-geiger/
 
 - name: Lea Kristin Gerling
   show: yes
@@ -266,7 +271,7 @@
 - name: Carol Hanna
   show: yes
   affil: University College London, UK
-  homepage: https://uk.linkedin.com/in/carol-hanna-678484158
+  homepage: https://solar.cs.ucl.ac.uk/members.html#carol
   dblp: https://dblp.org/pid/23/8779.html
   scholar: https://scholar.google.com/citations?user=FTK3wCkAAAAJ
   img: /profile_images/carol_hanna.jpg
@@ -292,7 +297,7 @@
 - name: Max Hort
   show: yes
   affil: Simula Research Laboratory, Norway
-  homepage: https://maxhort.github.io/
+  homepage: http://www.cs.ucl.ac.uk/staff/M.Hort/
   dblp: https://dblp.org/pid/269/4771.html
   scholar: https://scholar.google.com/citations?user=bdC0upIAAAAJ
   img: /profile_images/max_hort.jpg
@@ -300,7 +305,7 @@
 - name: Yu Huang
   show: yes
   affil: Vanderbilt University, USA
-  homepage: https://yuhuang-lab.github.io
+  homepage: https://engineering.vanderbilt.edu/bio/yu-huang	
   dblp: https://dblp.org/pid/39/6301-15.html
   scholar: https://scholar.google.com/citations?user=ngLMhbIAAAAJ
   twitter: https://twitter.com/yuhuang_yh
@@ -344,7 +349,7 @@
 
 - name: Yusaku Kaneta
   show: yes
-  affil: Rakuten Inc, Japan
+  affil: Rakuten Group Inc, Japan
   homepage: https://sites.google.com/site/yusakukaneta/
   dblp: https://dblp.org/pid/89/8611.html
   scholar: https://scholar.google.com/citations?user=Fnm5HCUAAAAJ
@@ -353,7 +358,7 @@
 - name: Sungmin Kang
   show: yes
   affil: KAIST, Korea
-  homepage: https://coinse.kaist.ac.kr/members/sungmin.kang/
+  homepage: https://smkang96.github.io/
   dblp: https://dblp.org/pid/34/3815.html
   scholar: https://scholar.google.co.kr/citations?user=6J7eBDMAAAAJ
   img: /profile_images/sungmin_kang.jpg
@@ -526,6 +531,7 @@
   homepage: https://www.lancaster.ac.uk/scc/about-us/people/barry-porter
 
 - name: Penn Faulkner Rainford
+  show: yes
   aka:
     - Penny Rainford
     - Penny Faulkner Rainford
@@ -612,6 +618,10 @@
 - name: Shin Hwei Tan
   homepage: https://www.shinhwei.com
   img: /profile_images/shin_hwei_tan.jpg
+
+- name: Sarah Thomson
+  affil: Napier University, UK
+  homepage: http://www.cs.stir.ac.uk/~sto/
 
 - name: Christopher Timperley
   aka:
@@ -713,7 +723,7 @@
 - name: Jifeng Xuan
   show: yes
   affil: Wuhan University, China
-  homepage: http://jifeng-xuan.com/
+  homepage: http://cstar.whu.edu.cn/p/gcs/#jifeng-xuan.com/
   dblp: https://dblp.uni-trier.de/pid/86/4142.html
   scholar: https://scholar.google.com/citations?user=G3xi5UkAAAAJ
   img: /profile_images/jifeng_xuan.jpg
