@@ -20,9 +20,9 @@ Benchmarks identified at the [Dagstuhl Seminar on Genetic Improvement of Softwar
 - Parsec: [http://parsec.cs.princeton.edu/](http://parsec.cs.princeton.edu/)
 - SPEC INT: [https://www.spec.org/benchmarks.html](https://www.spec.org/benchmarks.html)
 
-Additional benchmarks identified from the [survey](https://arxiv.org/abs/2212.08540) by Blot et al. on benchmarks for GI of non-functional properties:
+Additional benchmarks identified from the [survey](https://arxiv.org/abs/2212.08540) by Blot et al. on benchmarks for GI of non-functional properties. A more detailed overview is available at: [benchmarks](https://bloa.github.io/nfunc_survey/).
 
-Search by tool name.
+Search by benchmark name.
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
