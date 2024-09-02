@@ -268,8 +268,10 @@
   homepage: https://www.cs.york.ac.uk/people/?group=nsc&username=djg
 
 - name: Anastasiia Grishina	
+  show: true
   affil: Simula Research Laboratory, Norway (LLM)
   hompepage: https://www.simula.no/people/anastasiia
+  img: /profile_images/anastasiia_grishina.jpg
 
 - name: Tracy Hall
   show: yes
