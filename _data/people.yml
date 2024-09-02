@@ -201,8 +201,10 @@
   homepage: https://www.linkedin.com/in/zhen-yu-ding
 
 - name: Zishuo Ding
+  show: true
   affil: Hong Kong University of Science and Technology
   homepage: https://ece.uwaterloo.ca/~z8ding/
+  img: /profile_images/zishuo_ding.jpg
 
 - name: Jonathan Dorn
   homepage: https://dornja.github.io/
