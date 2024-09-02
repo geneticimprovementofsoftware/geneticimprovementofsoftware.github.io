@@ -633,8 +633,10 @@
   img: /profile_images/shin_hwei_tan.jpg
 
 - name: Sarah Thomson
+  show: yes
   affil: Napier University, UK
   homepage: http://www.cs.stir.ac.uk/~sto/
+  img: /profile_images/sarah_thomson.jpeg
 
 - name: Christopher Timperley
   aka:
