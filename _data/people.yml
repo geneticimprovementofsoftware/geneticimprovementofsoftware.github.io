@@ -619,8 +619,9 @@
   homepage: https://web.uri.edu/engineering/meet/msodhi/
 
 - name: Jeongju Sohn
-  affil: University of Luxembourg, Luxembourg
-  homepage: https://wwwfr.uni.lu/snt/people/jeongju_sohn
+  show: yes
+  affil: Kyungpook National University, Korea
+  homepage: https://conf.researchr.org/profile/icse-2023/jeongjusohn1
   dblp: https://dblp.org/pid/186/1067.html
   scholar: https://scholar.google.co.kr/citations?user=iy6MS74AAAAJ
   img: /profile_images/jeongju_sohn.jpg
