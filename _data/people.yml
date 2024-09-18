@@ -202,8 +202,10 @@
 
 - name: Zishuo Ding
   show: true
-  affil: Hong Kong University of Science and Technology
-  homepage: https://ece.uwaterloo.ca/~z8ding/
+  affil: Hong Kong University of Science and Technology, China
+  homepage: https://personal.hkust-gz.edu.cn/ding/
+  dblp: https://dblp.org/pid/276/3298.html
+  scholar: https://scholar.google.com/citations?user=WVRSfB0AAAAJ
   img: /profile_images/zishuo_ding.jpg
 
 - name: Jonathan Dorn
@@ -224,8 +226,9 @@
   img: /profile_images/stephanie_forrest.jpg
 
 - name: Sophie Fortz
-  affil: King's College London, UK (quantum)
+  affil: King's College London, UK
   homepage: https://sfortz.github.io/
+  img: /profile_images/sophie_fortz.jpg
 
 - name: Erik Fredericks
   aka:
@@ -245,6 +248,8 @@
   show: yes
   affil: Johannes Gutenberg University Mainz, Germany
   homepage: https://en.wi.bwl.uni-mainz.de/alina-geiger/
+  dblp: https://dblp.org/pid/339/8701.html
+  scholar: https://scholar.google.com/citations?user=wdJ-cwIAAAAJ
   img: /profile_images/alina_geiger.jpg
 
 - name: Lea Kristin Gerling
@@ -253,7 +258,7 @@
   homepage: https://sse.uni-hildesheim.de/mitglieder/lea-kristin-gerling/
   dblp: https://dblp.org/pid/169/9528.html
   scholar: https://scholar.google.com/citations?user=Kj6H9-0AAAAJ
-  img: /profile_images/lea_kristin_gerling_.jpg
+  img: /profile_images/lea_kristin_gerling.jpg
 
 - name: Michael Gerten
   aka:
@@ -268,10 +273,12 @@
 - name: David Griffin
   homepage: https://www.cs.york.ac.uk/people/?group=nsc&username=djg
 
-- name: Anastasiia Grishina	
+- name: Anastasiia Grishina
   show: true
-  affil: Simula Research Laboratory, Norway (LLM)
-  hompepage: https://www.simula.no/people/anastasiia
+  affil: Simula Research Laboratory, Norway
+  homepage: https://www.simula.no/people/anastasiia
+  dblp: https://dblp.org/pid/276/7353.html
+  scholar: https://scholar.google.com/citations?user=Tp07aYkAAAAJ
   img: /profile_images/anastasiia_grishina.jpg
 
 - name: Tracy Hall
@@ -555,7 +562,7 @@
   homepage: https://faulknerrainford.co.uk/
   dblp: https://dblp.org/pid/207/4803.html
   scholar: https://scholar.google.co.uk/citations?user=UiicqFwAAAAJ
-  img: /profile_images/penny_rainford.jpg
+  img: /profile_images/penn_rainford.jpg
 
 - name: Brittany Reid
   scholar: https://scholar.google.com/citations?user=biWKuMUAAAAJ
@@ -637,8 +644,11 @@
 - name: Sarah Thomson
   show: yes
   affil: Napier University, UK
-  homepage: http://www.cs.stir.ac.uk/~sto/
-  img: /profile_images/sarah_thomson.jpeg
+  homepage: https://www.napier.ac.uk/people/sarah-l-thomson
+  dblp: https://dblp.org/pid/202/9063.html
+  scholar: https://scholar.google.co.uk/citations?user=Im7kZc4AAAAJ
+  twitter: www.twitter.com/silverhaxt
+  img: /profile_images/sarah_thomson.jpg
 
 - name: Christopher Timperley
   aka:
