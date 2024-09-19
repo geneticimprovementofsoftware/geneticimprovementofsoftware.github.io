@@ -226,6 +226,7 @@
   img: /profile_images/stephanie_forrest.jpg
 
 - name: Sophie Fortz
+  show: yes
   affil: King's College London, UK
   homepage: https://sfortz.github.io/
   img: /profile_images/sophie_fortz.jpg
