@@ -149,6 +149,9 @@ out.each do |h|
        /GI @ ICSE/
     h[:venue] = 'GI@ICSE'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /workshop on Graph-based Genetic Programming/i
+    h[:venue] = 'GGP@GECCO'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop on General Purpose Process(or|ing) Using (Graphics Processing Units|GPU)/i
     h[:venue] = 'GPGPU'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
@@ -160,6 +163,9 @@ out.each do |h|
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /International Workshop, NSV 2020/i
     h[:venue] = 'NSV'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /Large Language Models for and with Evolutionary Computation Workshop/
+    h[:venue] = 'LLMfwEC@GECCO'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop On Approximate Computing/i
     h[:venue] = 'WAPCO'
@@ -298,8 +304,8 @@ out.each do |h|
     h[:venue] = 'ACM TACO'
   when 'ACM Transactions on Evolutionary Learning and Optimization'
     h[:venue] = 'ACM TELO'
-  when 'ACM Transactions on Software Engineering and Methodology'
-    h[:venue] = 'ACM TSEM'
+  when /ACM Transactions on Software Engineering and Methodolog/
+    h[:venue] = 'ACM TOSEM'
   when 'Expert Systems with Applications'
     h[:venue] = 'ESA'
   when 'Empirical Software Engineering'
