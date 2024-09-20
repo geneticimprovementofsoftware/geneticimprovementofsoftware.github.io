@@ -78,7 +78,7 @@
 - name: Marcio Barros
   show: yes
   affil: Universidade Federal do Estado do Rio de Janeiro, Brazil
-  homepage: https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=649541B770524E09B72152CBE8B34670.buscatextual_0
+  homepage: https://ppgi.uniriotec.br/en/ppgi-professors/marcio-barros/
   dblp: https://dblp.org/pid/36/2479.html
   scholar: http://scholar.google.com/citations?user=GvmSuw8AAAAJ
   img: /profile_images/marcio_barros.jpg
@@ -296,7 +296,7 @@
 - name: Carol Hanna
   show: yes
   affil: University College London, UK
-  homepage: https://solar.cs.ucl.ac.uk/members.html#carol
+  homepage: https://uk.linkedin.com/in/carol-hanna-678484158
   dblp: https://dblp.org/pid/23/8779.html
   scholar: https://scholar.google.com/citations?user=FTK3wCkAAAAJ
   img: /profile_images/carol_hanna.jpg
@@ -322,7 +322,7 @@
 - name: Max Hort
   show: yes
   affil: Simula Research Laboratory, Norway
-  homepage: http://www.cs.ucl.ac.uk/staff/M.Hort/
+  homepage: https://maxhort.github.io/
   dblp: https://dblp.org/pid/269/4771.html
   scholar: https://scholar.google.com/citations?user=bdC0upIAAAAJ
   img: /profile_images/max_hort.jpg
@@ -330,7 +330,7 @@
 - name: Yu Huang
   show: yes
   affil: Vanderbilt University, USA
-  homepage: https://engineering.vanderbilt.edu/bio/yu-huang	
+  homepage: https://engineering.vanderbilt.edu/bio/yu-huang
   dblp: https://dblp.org/pid/39/6301-15.html
   scholar: https://scholar.google.com/citations?user=ngLMhbIAAAAJ
   twitter: https://twitter.com/yuhuang_yh
@@ -345,6 +345,7 @@
   homepage: https://sites.google.com/view/guneljahangirova/home
   dblp: https://dblp.org/pid/183/0177.html
   scholar: https://scholar.google.com/citations?user=kQkXMS4AAAAJ
+  twitter: https://x.com/guneli_j
   img: /profile_images/gunel_jahangirova.jpg
 
 - name: Ciera Jaspan
@@ -386,6 +387,7 @@
   homepage: https://smkang96.github.io/
   dblp: https://dblp.org/pid/34/3815.html
   scholar: https://scholar.google.co.kr/citations?user=6J7eBDMAAAAJ
+  twitter: https://x.com/smkang96
   img: /profile_images/sungmin_kang.jpg
 
 - name: Maria Kechagia
@@ -499,7 +501,7 @@
 - name: ThanhVu Nguyen
   show: yes
   affil: University of Nebraska-Lincoln, USA
-  homepage: https://nguyenthanhvuh.github.io/
+  homepage: https://dynaroars.github.io/people/nguyenthanhvuh/
   dblp: https://dblp.org/pid/19/7057.html
   scholar: https://scholar.google.com/citations?user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
@@ -633,7 +635,7 @@
 - name: Jeongju Sohn
   show: yes
   affil: Kyungpook National University, Korea
-  homepage: https://conf.researchr.org/profile/icse-2023/jeongjusohn1
+  homepage: https://coinse.github.io/members/jeongju/
   dblp: https://dblp.org/pid/186/1067.html
   scholar: https://scholar.google.co.kr/citations?user=iy6MS74AAAAJ
   img: /profile_images/jeongju_sohn.jpg
@@ -754,7 +756,7 @@
 - name: Jifeng Xuan
   show: yes
   affil: Wuhan University, China
-  homepage: http://cstar.whu.edu.cn/p/gcs/#jifeng-xuan.com/
+  homepage: http://jifeng-xuan.com/
   dblp: https://dblp.uni-trier.de/pid/86/4142.html
   scholar: https://scholar.google.com/citations?user=G3xi5UkAAAAJ
   img: /profile_images/jifeng_xuan.jpg
