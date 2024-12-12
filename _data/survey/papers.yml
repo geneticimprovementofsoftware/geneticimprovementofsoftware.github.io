@@ -1,18 +1,17 @@
-- key: "Souza:TOSEM"
-  title: "Software Product Line Engineering via Software Transplantation"
+- key: "Liou:TELO"
+  title: "Evolving to find optimizations humans miss: using evolutionary computation to improve GPU code for bioinformatics applications"
   authors:
-    - name: Leandro Oliveira de Souza
-    - name: Eduardo Santana de Almeida
-    - name: Paulo Anselmo da Mota Silveira Neto
-    - name: Earl T. Barr
-    - name: Justyna Petke
-  venue: "ACM TOSEM"
+    - name: Jhe-Yu Liou
+    - name: Muaaz Awan
+    - name: Kirtus Leyba
+    - name: Petr Sulc
+    - name: Steven Hofmeyr
+    - name: Carole-Jean Wu
+    - name: Stephanie Forrest
+  venue: "ACM TELO"
   year: 
   type: Journal
-  urls:
-    - https://autotransplantation-spl.github.io/foundry.github.io/
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Souza_2024_TOSEM.pdf
+  doi: https://doi.org/10.1145/3703920
 
 - key: "Guizzo:2024:TOSEM"
   title: "Speeding up Genetic Improvement via Regression Test Selection"
@@ -27,6 +26,37 @@
   type: Journal
   urls:
     - https://discovery.ucl.ac.uk/id/eprint/10189267
+
+- key: "langdon:2024:ASE"
+  title: "Deep Imperative Mutations have Less Impact"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: David Clark
+  venue: "Automated Software Engineering"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-024-00475-4
+  tags:
+    - SBSE
+    - testing
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_ASE.pdf
+
+- key: "Callan:2025:ASE"
+  title: "Multi-objective improvement of Android applications"
+  authors:
+    - name: James Callan
+    - name: Justyna Petke
+  venue: "Automated Software Engineering"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-024-00472-7
+  tags:
+    - SBSE
+  urls:
+    - https://rdcu.be/d0UCc
+    - https://github.com/SOLAR-group/GIDroid
 
 - key: "callan:thesis"
   title: "Improving the Non-Functional Properties of Android Applications with Genetic Improvement"
@@ -53,6 +83,69 @@
   urls:
     - https://rdcu.be/dDZHh
 
+- key: "Souza:TOSEM"
+  title: "Software Product Line Engineering via Software Transplantation"
+  authors:
+    - name: Leandro Oliveira de Souza
+    - name: Eduardo Santana de Almeida
+    - name: Paulo Anselmo da Mota Silveira Neto
+    - name: Earl T. Barr
+    - name: Justyna Petke
+  venue: "ACM TOSEM"
+  year: 2024
+  type: Journal
+  doi: https://doi.org/10.1145/3695987
+  urls:
+    - https://autotransplantation-spl.github.io/foundry.github.io/
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Souza_2024_TOSEM.pdf
+
+- key: "Nemeth:2024:ALife"
+  title: "Phenotypic Species Definitions for Genetic Improvement of Source Code"
+  authors:
+    - name: Zsolt Nemeth
+    - name: Penn Faulkner Rainford
+    - name: Barry Porter
+  venue: "ALIFE 2024: Proceedings of the 2024 Artificial Life Conference"
+  year: 2024
+  type: Conference
+  doi: https://doi.org/10.5281/zenodo.11477826
+  pdfs:
+    - https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/65/2461073/isal_a_00795.pdf
+
+- key: "Kosorukov:2024:ASENIER"
+  title: "Mining for Mutation Operators for Reduction of Information Flow Control Violations"
+  authors:
+    - name: Ilya Kosorukov
+    - name: Daniel Blackwell
+    - name: David Clark
+    - name: Myra Cohen
+    - name: Justyna Petke
+  venue: "ASE"
+  year: 2024
+  type: Conference
+  doi: https://doi.org/10.1145/3691620.3695308
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10196237/
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Kosorukov_2024_ASENIER.pdf
+
+- key: "bensoussan2024acceleratingquantumeigensolveralgorithms"
+  title: "Accelerating Quantum Eigensolver Algorithms With Machine Learning"
+  authors:
+    - name: Avner Bensoussan
+    - name: Elena Chachkarova
+    - name: Karine Even-Mendoza
+    - name: Sophie Fortz
+    - name: Connor Lenihan
+  venue: "ArXiV"
+  year: 2024
+  type: Archive
+  urls:
+    - https://arxiv.org/abs/2409.13587
+  pdfs:
+    - https://arxiv.org/pdf/2409.13587.pdf
+
 - key: "alshahwan2024assured"
   title: "Assured LLM-Based Software Engineering"
   authors:
@@ -74,6 +167,57 @@
   pdfs:
     - https://arxiv.org/pdf/2402.04380.pdf
 
+- key: "Brownlee:2024:ASE"
+  title: "Large Language Model Based Mutations in Genetic Improvement"
+  authors:
+    - name: Alexander Edward Ian Brownlee
+    - name: James Callan
+    - name: Karine Even-Mendoza
+    - name: Alina Geiger
+    - name: Carol Hanna
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Dominik Sobania
+  venue: "Automated Software Engineering"
+  year: 2024
+  type: Journal
+  doi: https://doi.org/10.21203/rs.3.rs-4437272/v1
+  tags:
+    - SBSE
+
+- key: "Turner:2024:CACM"
+  title: "Neural Architecture Search as Program Transformation Exploration"
+  authors:
+    - name: Jack Turner
+    - name: Elliot J. Crowley
+    - name: Michael F. P. O'Boyle
+  venue: "Communications of the ACM"
+  year: 2024
+  type: Journal
+  doi: https://doi.org/10.1145/3624775
+  tags:
+    - AI
+    - ML
+
+- key: "Alshahwan:2024:FSEcomp"
+  title: "Automated Unit Test Improvement using Large Language Models at Meta"
+  authors:
+    - name: Nadia Alshahwan
+    - name: Jubin Chheda
+    - name: Anastasia Finogenova
+    - name: Beliz Gokkaya
+    - name: Mark Harman
+    - name: Inna Harper
+    - name: Alexandru Marginean
+    - name: Shubho Sengupta
+    - name: Eddy Wang
+  venue: "Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering"
+  year: 2024
+  doi: https://doi.org/10.1145/3663529.3663839
+  tags:
+    - SBSE
+    - testing
+
 - key: "Pinna:2024:EuroGP"
   title: "Enhancing Large Language Models-Based Code Generation by Leveraging Genetic Improvement"
   authors:
@@ -89,6 +233,9 @@
   tags:
     - AI
     - ML
+  urls:
+    - https://arts.units.it/handle/11368/3071899
+    - https://github.com/dravalico/LLMGIpy
 
 - key: "langdon:2024:EuroGP"
   title: "Genetic Improvement of Last Level Cache"
@@ -158,7 +305,7 @@
     - name: Aymeric Blot
   venue: "GI@ICSE"
   year: 2024
-  abstract: "we present Magpie, a powerful tool for both Genetic Improvement researchers and practitioners. Magpie stands at the forefront of software evolution, providing a streamlined approach to model, evolve, and automatically improve software systems. Addressing both functional and non-functional concerns, Magpie offers a user-friendly no-code interface that seamlessly integrates various search processes, as well as enabling easy Python code injection for advanced users to further tailor and specialise the improvement process to meet their specific needs. We will provide a concise overview of Magpie’s internals before exploring diverse real-world scenarios. Aymeric Blot is a Senior Lecturer at the Universite of Rennes, France."
+  abstract: "we present Magpie, a powerful tool for both Genetic Improvement researchers and practitioners. Magpie stands at the forefront of software evolution, providing a streamlined approach to model, evolve, and automatically improve software systems. Addressing both functional and non-functional concerns, Magpie offers a user-friendly no-code interface that seamlessly integrates various search processes, as well as enabling easy Python code injection for advanced users to further tailor and specialise the improvement process to meet their specific needs. We will provide a concise overview of Magpie's internals before exploring diverse real-world scenarios. Aymeric Blot is a Senior Lecturer at the Universite of Rennes, France."
   type: Workshop
   doi: https://doi.org/10.1145/3643692
   urls:
@@ -351,6 +498,18 @@
   type: Workshop
   doi: https://doi.org/10.1145/3638530.3664174
 
+- key: "Langdon:2024:EI"
+  title: "Sustaining Evolution for Shallow Embodied Intelligence"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Daniel Hulme
+  venue: "Proceedings of 2023 International Conference on Embodied Intelligence, EI-2023"
+  year: 2024
+  type: Conference
+  tags:
+    - AI
+
 - key: "langdon:2024:SEN"
   title: "The 13th International Workshop on Genetic Improvement (GI @ ICSE 2024)"
   authors:
@@ -453,6 +612,7 @@
     - SBSE
   urls:
     - https://arxiv.org/abs/2308.11387
+    - https://github.com/SOLAR-group/GIDroid
   pdfs:
     - https://arxiv.org/pdf/2308.11387.pdf
 
@@ -737,12 +897,12 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/Brad_GI2023_MagpiePresentation.pdf
 
 - key: "Cohen:2023:GI"
-  title: "It’s all in the Semantics: When are Genetically Improved Programs Still Correct?"
+  title: "It's all in the Semantics: When are Genetically Improved Programs Still Correct?"
   authors:
     - name: Myra B. Cohen
   venue: "GI@ICSE"
   year: 2023
-  abstract: "Genetic improvement (GI) is a powerful technique to automatically optimise programs, often for nonfunctional properties. As such, we expect to retain the original program semantics, hence GI is guided by both a functional test suite and at least one other objective such as program efficiency, memory usage, energy efficiency, etc. An assumption made is that it is possible to improve a program’s non-functional objective while retaining the program’s correctness, however, this assumption may not hold for all types of non-functional properties. In this talk I show why GI is naturally a multi-objective optimization problem and argue that it may be necessary to relax part of the program correctness to satisfy our non-functional goals. I discuss a few recent examples where we have had to balance functional correctness and non-functional objectives and demonstrate how this may lead to programs that are of higher quality in the end. This raises an important question about when it is possible to completely satisfy multiple (potentially competing) program objectives during GI, and when it is semantically impossible. This leads to the ultimate question of what it means for a program to be correct when using GI."
+  abstract: "Genetic improvement (GI) is a powerful technique to automatically optimise programs, often for nonfunctional properties. As such, we expect to retain the original program semantics, hence GI is guided by both a functional test suite and at least one other objective such as program efficiency, memory usage, energy efficiency, etc. An assumption made is that it is possible to improve a program's non-functional objective while retaining the program's correctness, however, this assumption may not hold for all types of non-functional properties. In this talk I show why GI is naturally a multi-objective optimization problem and argue that it may be necessary to relax part of the program correctness to satisfy our non-functional goals. I discuss a few recent examples where we have had to balance functional correctness and non-functional objectives and demonstrate how this may lead to programs that are of higher quality in the end. This raises an important question about when it is possible to completely satisfy multiple (potentially competing) program objectives during GI, and when it is semantically impossible. This leads to the ultimate question of what it means for a program to be correct when using GI."
   type: Keynote
   doi: https://doi.org/10.1109/GI59320.2023.00008
   pdfs:
@@ -772,14 +932,14 @@
     - http://gpbib.cs.ucl.ac.uk/gi2023/Kang_GI2023.pdf
 
 - key: "Watkinson:2023:GI"
-  title: "Updating Gin’s profiler for current Java"
+  title: "Updating Gin's profiler for current Java"
   authors:
     - name: Myles Watkinson
     - name: Alexander Brownlee
       aka: Alexander E. I. Brownlee
   venue: "GI@ICSE"
   year: 2023
-  abstract: "Genetic improvement is a young and growing field. With much research still to be done, a number of tools to support the research community have emerged, with Gin being one such tool targeted at GI for Java. One core component of Gin is the profiler, which is used to identify hot methods in target applications: methods where the CPU spends most time and so may offer the most fertile sections of code for improvements to run time. Gin’s profiler is HPROF, which was included with JDKs up to version 8. HPROF is no longer supported and so needs replaced if Gin is to support later versions of Java. Furthermore, little investigation has been made within the GI community comparing different profiling approaches. With this paper and its associated accepted pull request, we replace Gin’s CPU profiler with Java Flight Recorder (JFR) to allow Gin to be applied to current Java code, allowing researchers working in GI with more recent JVMs to easily integrate profiling in their pipeline. We also contribute an experimental comparison of the HPROF and JFR profilers for the JVM."
+  abstract: "Genetic improvement is a young and growing field. With much research still to be done, a number of tools to support the research community have emerged, with Gin being one such tool targeted at GI for Java. One core component of Gin is the profiler, which is used to identify hot methods in target applications: methods where the CPU spends most time and so may offer the most fertile sections of code for improvements to run time. Gin's profiler is HPROF, which was included with JDKs up to version 8. HPROF is no longer supported and so needs replaced if Gin is to support later versions of Java. Furthermore, little investigation has been made within the GI community comparing different profiling approaches. With this paper and its associated accepted pull request, we replace Gin's CPU profiler with Java Flight Recorder (JFR) to allow Gin to be applied to current Java code, allowing researchers working in GI with more recent JVMs to easily integrate profiling in their pipeline. We also contribute an experimental comparison of the HPROF and JFR profilers for the JVM."
   type: Workshop
   doi: https://doi.org/10.1109/GI59320.2023.00015
   urls:
@@ -1162,17 +1322,6 @@
   urls:
     - https://github.com/hammad-a/verilog_repair
 
-- key: "thi:2022:AIC"
-  title: "Cartesian Genetic Programming: Some New Detections"
-  authors:
-    - name: Thuong Pham Thi
-  venue: "Advances in Information and Communication"
-  year: 2022
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-030-98015-3_20
-  urls:
-    - http://link.springer.com/chapter/10.1007/978-3-030-98015-3_20
-
 - key: "blot2022comprehensive"
   title: "A Comprehensive Survey of Benchmarks for Automated Improvement of Software's Non-Functional Properties"
   authors:
@@ -1322,6 +1471,8 @@
   year: 2022
   type: Conference
   doi: https://doi.org/10.1145/3512290.3528789
+  pdfs:
+    - https://eprints.lancs.ac.uk/id/eprint/168132/1/main.pdf
   video:
     - https://vimeo.com/722562374
 
@@ -3869,6 +4020,8 @@
   doi: https://doi.org/10.1109/IBF.2019.8665493
   tags:
     - APR
+  urls:
+    - https://github.com/kusumotolab/kGenProg
 
 - key: "Marginean:2019:ICSE"
   title: "SapFix: Automated End-to-End Repair at Scale"
@@ -7280,6 +7433,7 @@
   year: 2014
   type: PhdThesis
   urls:
+    - https://digitalrepository.unm.edu/cs_etds/49/
     - http://hdl.handle.net/1928/25819
     - https://cs.unm.edu/~eschulte/dissertation
   pdfs:
