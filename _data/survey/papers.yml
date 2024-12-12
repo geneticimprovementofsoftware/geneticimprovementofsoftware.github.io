@@ -125,6 +125,8 @@
   year: 2024
   type: Conference
   doi: https://doi.org/10.1145/3691620.3695308
+  tags:
+    - LLM
   urls:
     - https://discovery.ucl.ac.uk/id/eprint/10196237/
   pdfs:
@@ -160,6 +162,7 @@
   type: Archive
   tags:
     - APR
+    - LLM
     - SBSE
     - testing
   urls:
@@ -183,6 +186,7 @@
   type: Journal
   doi: https://doi.org/10.21203/rs.3.rs-4437272/v1
   tags:
+    - LLM
     - SBSE
 
 - key: "Turner:2024:CACM"
@@ -197,6 +201,7 @@
   doi: https://doi.org/10.1145/3624775
   tags:
     - AI
+    - LLM
     - ML
 
 - key: "Alshahwan:2024:FSEcomp"
@@ -215,6 +220,7 @@
   year: 2024
   doi: https://doi.org/10.1145/3663529.3663839
   tags:
+    - LLM
     - SBSE
     - testing
 
@@ -232,6 +238,7 @@
   doi: https://doi.org/10.1007/978-3-031-56957-9_7
   tags:
     - AI
+    - LLM
     - ML
   urls:
     - https://arts.units.it/handle/11368/3071899
@@ -297,6 +304,7 @@
   doi: https://doi.org/10.1145/3638530.3654408
   tags:
     - APR
+    - LLM
     - SBSE
 
 - key: "Blot:2024:GI"
@@ -497,6 +505,8 @@
   year: 2024
   type: Workshop
   doi: https://doi.org/10.1145/3638530.3664174
+  tags:
+    - LLM
 
 - key: "Langdon:2024:EI"
   title: "Sustaining Evolution for Shallow Embodied Intelligence"
@@ -527,6 +537,7 @@
   type: Journal
   doi: https://doi.org/10.1145/3672089.3672102
   tags:
+    - LLM
     - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2024_sen.pdf
@@ -765,6 +776,7 @@
   doi: https://doi.org/10.1145/3583131.3590481
   tags:
     - APR
+    - LLM
     - SBSE
   urls:
     - https://human-competitive.org/sites/default/files/grishinaentry.txt
@@ -920,6 +932,8 @@
   abstract: "While Genetic Improvement (GI) is a useful paradigm to improve functional and nonfunctional aspects of software, existing techniques tended to use the same set of mutation operators for differing objectives, due to the difficulty of writing custom mutation operators. we suggest that Large Language Models (LLMs) can be used to generate objective-tailored mutants, expanding the possibilities of software optimisations that GI can perform. We further argue that LLMs and the GI process can benefit from the strengths of one another, and present a simple example demonstrating that LLMs can both improve the effectiveness of the GI optimization process, while also benefiting from the evaluation steps of GI. As a result, we believe that the combination of LLMs and GI has the capability to significantly aid developers in optimizing their software."
   type: Workshop
   doi: https://doi.org/10.1109/GI59320.2023.00013
+  tags:
+    - LLM
   urls:
     - https://arxiv.org/abs/2304.09386
   pdfs:
@@ -1033,7 +1047,7 @@
     - name: Shariq Iqbal
     - name: Jean-Baptiste Lespiau
     - name: Alex Ahern
-    - name: Thomas K\"oppe
+    - name: Thomas Köppe
     - name: Kevin Millikin
     - name: Stephen Gaffney
     - name: Sophie Elster
@@ -1106,6 +1120,7 @@
   type: Journal
   doi: https://doi.org/10.1145/3617946.3617956
   tags:
+    - LLM
     - testing
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2023_sen.pdf
@@ -1141,6 +1156,7 @@
   type: Conference
   doi: https://doi.org/10.5281/zenodo.8304433
   tags:
+    - LLM
     - SBSE
   urls:
     - https://arxiv.org/abs/2310.19813
@@ -1168,6 +1184,7 @@
   doi: https://doi.org/10.1007/978-3-031-48796-5_12
   tags:
     - APR
+    - LLM
     - SBSE
   urls:
     - https://dspace.stir.ac.uk/handle/1893/35519?mode=full
@@ -1205,6 +1222,7 @@
   type: Conference
   doi: https://doi.org/10.1007/978-3-031-48796-5_14
   tags:
+    - LLM
     - SBSE
     - testing
   urls:
@@ -3719,6 +3737,7 @@
   type: Conference
   doi: https://doi.org/10.1145/3321707.3321738
   tags:
+    - LLM
     - SBSE
 
 - key: "langdon:2019:log2"

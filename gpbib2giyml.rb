@@ -72,6 +72,8 @@ for chunk in data
   # warn("="*80)
   # warn chunk
 
+  chunk.gsub!(/{?\\"{?[aeiouyAEIOUY]}?}?/) {|s| s.scan(/\w/)[0].tr('aeiouyAEIOUY', 'äëïöüÿÄËÏÖÜŸ')}
+
   title = chunk[/^\s*title\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')&.gsub('"', '\\"')
   authors = chunk[/^\s*author\s*=\s*"(.*?)"\s*,\s*$/m, 1].gsub(/[\n\s]+/m, ' ').split(' and ')
   venue ||= chunk[/^\s*booktitle\s*=\s*"(.*?)"\s*,\s*$/m, 1]&.gsub(/[\n\s]+/m, ' ')
@@ -87,6 +89,7 @@ for chunk in data
   tags << 'AI' if keywords =~ /artificial intelligence/i
   tags << 'APR' if keywords =~ /program repair/i or keywords =~ /APR/
   tags << 'GISMO' if keywords =~ /gismo/i
+  tags << 'LLM' if keywords =~ /language model/i or keywords =~ /LLM/
   tags << 'ML' if keywords =~ /machine learning/i
   tags << 'SBSE' if keywords =~ /(search.based software|sbse)/i
   tags << 'testing' if keywords =~ /(testing| test )/i or title =~ /testing/i
