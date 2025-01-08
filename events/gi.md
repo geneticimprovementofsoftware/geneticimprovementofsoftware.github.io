@@ -16,6 +16,9 @@ p {
 **14th International Workshop on Genetic Improvement (GI@[ICSE 2025](https://conf.researchr.org/home/icse-2025))**
 - [<i class="fa-solid fa-link"></i> Event page]({{"/events/icse2025" | relative_url }})
 
+**Tutorial on Genetic Improvement ([GECCO 2025](https://gecco-2025.sigevo.org/).)**
+- [<i class="fa-solid fa-external-link-alt"></i> Event page](https://gecco-2025.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods)
+
 ## 2024
 
 **13rd International Workshop on Genetic Improvement (GI@[ICSE 2024](https://conf.researchr.org/home/icse-2024))**
