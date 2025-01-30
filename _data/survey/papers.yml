@@ -1,3 +1,68 @@
+- key: "Bouras:2025:GI"
+  title: "LLM-Assisted Crossover in Genetic Improvement of Software"
+  authors:
+    - name: Dimitrios Stamatios Bouras 
+    - name: Justyna Petke
+    - name: Sergey Mechtaev
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "This study explores the use of Large Language Models to improve the crossover process in genetic programming. Traditional crossover techniques typically combine parent variants by selecting modifications uniformly or even randomly, without consideration of contextual relevance, often resulting in inefficient searches and suboptimal solutions due to incompatible or redundant modifications. In contrast, our LLM-assisted crossover leverages contextual understanding to select and combine edits from parent solutions that are more likely to work well together, with the goal of producing higher quality variants and accelerating optimization. We implemented this approach within MAGPIE, a unified genetic improvement framework. We evaluated against five traditional crossover methods across seven benchmarks, measuring performance on four key metrics: average ranking, best variant execution time, efficiency in reaching performance milestones, and viable variant count. Results show that LLM-assisted crossover achieved an average ranking of 2.27 (on a scale where 1 is best and 6 is worst), making it the top-performing method across benchmarks based on the quality of the optimal variants produced. The LLM-based approach also improved the fitness (execution time) by an average of 8.5% over the best variant produced by the traditional methods. In terms of efficiency, the LLM-assisted crossover required on average 25.6% fewer variants to reach 25%, 50%, 75%, and 100% of the final performance improvement, compared to the traditional methods. Additionally, the LLM-assisted crossover produced 4.8% more viable variants across scenarios, including both source code modification and parameter tuning cases.These findings suggest that LLMs can significantly enhance genetic programming by guiding the crossover process toward more effective and viable solutions, providing motivation for further research in LLM-assisted evolutionary algorithms."
+  type: Workshop
+ 
+- key: "Wang:2025:GI"
+  title: "Large Language Model based Code Completion is an Effective Genetic Improvement Mutation"
+  authors:
+    - name: Jingyuan Wang
+    - name: Carol Hanna
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "In this work, we introduce a novel large language model (LLM)-based masking mutation operator for Genetic Improvement (GI), which leverages code completion capabilities of large language models to replace masked code segments with contextually relevant modifications. Our approach was tested on five open-source Java projects, where we compared its effective- ness against both traditional GI mutations and an existing LLM- based replacement mutation operator using random sampling and local search algorithms. Results show that the masking mutation operator creates a search space with more compiling and test-passing patches, reducing model response time by up to 60.7% compared to the replacement mutation. Additionally, it outperforms the replacement mutation in achieving the highest runtime improvement on four out of five projects and discovers more runtime-improving patches across all projects. However, combining the masking mutation with traditional GI mutations yielded inconsistent results, suggesting further investigation is needed. This study highlights the promise of LLM-based code completion to boost the efficiency and effectiveness of GI for automated software optimisation."
+  type: Workshop
+
+- key: "Bose:2025:GI"
+  title: "Enhancing Software Runtime with Reinforcement Learning-Driven Mutation Operator Selection in Genetic Improvement"
+  authors:
+    - name: Damien Bose
+    - name: Carol Hanna
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Genetic Improvement employs heuristic search algo- rithms to explore the search space of program variants by mod- ifying code using mutation operators. This research focuses on operators that delete, insert and replace source code statements. Traditionally, in GI, an operator is chosen uniformly at random at each search iteration. This work leverages Reinforcement Learning to intelligently guide the selection of these operators specifically to improve program runtime. We propose to integrate RL into the operator selection pro- cess. Four Multi-Armed bandit RL algorithms (Epsilon Greedy, UCB, Probability Matching, and Policy Gradient) were inte- grated within a GI framework, and their efficacy and efficiency were benchmarked against the traditional GI operator selection approach. These RL-guided operator selection strategies have demonstrated empirical superiority over the traditional GI meth- ods of randomly selecting a search operator, with UCB emerging as the top-performing RL algorithm. On average, the UCB- guided Hill Climbing search algorithm produced variants that compiled and passed all tests 44% of the time, while only 22% of the variants produced by the traditional uniform random selection strategies compiled and passed all tests. Index Terms—Reinforcement learning, genetic improvement."
+  type: Workshop
+
+- key: "Songpetchmongkol:2025:GI"
+  title: "Empirical Comparison of Runtime Improvement Approaches: Genetic Improvement, Parameter Tuning, and Their Combination"
+  authors:
+    - name: Thanatad Songpetchmongkol 
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Software can be optimised in various ways, e.g., by changing the code directly, modifying compiler or software’s paramters. To automate these tasks, algorithm configuration and genetic improvement have been proposed where one modifies parameters and the other source code. Several tools have been introduced to facilitate such changes automatically. However, these tools only work at a single code level, either optimising a parameter or modifying source code. In 2022, Blot and Petke introduced MAGPIE, which is a framework that is capable of simultaneously searching for improvement at different granu- larity levels. From our literature review, we found that the best search strategies in genetic improvement and algorithm configuration, that generalise to both domains, are based on local search and genetic algorithms, respectively. We thus compared the two approaches for runtime improvement of the MiniSAT solver. We also explored the two search strategies on the joint search space of parameter and source code edits. We found that genetic improvement with first improvement local search led to the best results by improving MiniSAT’s runtime by 18.05%."
+  type: Workshop
+
+- key: "Langdon:2025:GI"
+  title: "The gem5 C++ glibc Heap Fitness Landscape"
+  authors:
+    - name: William B. Langdon
+    - name: Bobby R. Bruce
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Using the language independent genetic improvement tool MAGPIE (Machine Automated General Performance Improvement via Evolution of software) and logarithmic sampling, we measure the parameter fitness landscape when optimising the GNU glibc heap management of a million line C++ application, gem5. The malloc_info landscape is far smoother than is commonly assumed and savings of 11 percent with no loss of runtime speed are readily obtained by both Magpie and CMA-ES."
+  type: Workshop
+
+   
+- key: "Chan:2025:GI"
+  title: "A Three-Stage Genetic Algorithm for Compiler Flag and Library Version Selection to Minimize Execution Time"
+  authors:
+    - name: Chi Ho Chan
+    - name: Spyro Nita
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Existing research in compiler autotuning mainly focuses on selecting optimization flags without configurable values. However, the potential of selecting optimization flags with configurable values, alongside using directory and link flags for library version selection to improve performance, remains largely unexplored. We propose a three-stage Genetic Algorithm (GA) that incrementally selects optimization flags without configurable values, then optimization flags with configurable values, and finally library versions, to minimize software execution time. We also discuss the implementation challenges of the proposed algorithm and outline potential future work."
+  type: Workshop
+
 - key: "Liou:TELO"
   title: "Evolving to find optimizations humans miss: using evolutionary computation to improve GPU code for bioinformatics applications"
   authors:
