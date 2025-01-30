@@ -112,6 +112,12 @@
   scholar: https://scholar.google.com/citations?user=1eJ9Ld8AAAAJ
   img: /profile_images/mohamoud_bokari.jpg
 
+- name: Damien Bose
+  homepage: https://www.linkedin.com/in/damien-bose/
+
+- name: Dimitrios Stamatios Bouras
+  homepage: https://www.linkedin.com/in/dimitrios-stamatios-bouras/
+
 - name: Sandy Brownlee
   aka:
     - Alexander Brownlee
@@ -151,6 +157,8 @@
   aka:
     - Alejandro Cervantes
   scholar: https://scholar.google.com/citations?user=DqZVCY4AAAAJ
+
+- name: Chi Ho Chan
 
 - name: Chitchanok Chuengsatiansup
   homepage: https://cs.adelaide.edu.au/~cchuengs/
@@ -480,6 +488,9 @@
 - name: Christopher McGowan
   homepage: https://uk.linkedin.com/in/christopher-mcgowan-2313a1b6
 
+- name: Sergey Mechtaev
+  homepage: https://mechtaev.com/
+
 - name: Ibrahim Mesecan
   homepage: https://sites.google.com/site/imesecan/home
 
@@ -505,6 +516,9 @@
   dblp: https://dblp.org/pid/19/7057.html
   scholar: https://scholar.google.com/citations?user=TLcVQ-MAAAAJ
   img: /profile_images/thanhvu_nguyen.jpg
+
+- name: Spyro Nita
+  homepage: https://www.epcc.ed.ac.uk/about-us/our-team/spyro-nita
 
 - name: Vesna Nowack
   show: yes
@@ -640,6 +654,9 @@
   scholar: https://scholar.google.co.kr/citations?user=iy6MS74AAAAJ
   img: /profile_images/jeongju_sohn.jpg
 
+- name: Thanatad Songpetchmongkol
+  homepage: https://www.linkedin.com/in/thanatad-songpetchmongkol/
+
 - name: Susan Stepney
   homepage: https://www.cs.york.ac.uk/people/susan
 
@@ -708,6 +725,9 @@
   scholar: https://scholar.google.com/citations?user=9cbh6PoAAAAJ
   twitter: https://twitter.com/MWagnerRedChair
   img: /profile_images/markus_wagner.jpg
+
+- name: Jingyuan Wang
+  homepage: https://www.linkedin.com/in/jingyuan-wang-9ba553208/?originalSubdomain=uk
 
 - name: Westley Weimer
   show: yes
