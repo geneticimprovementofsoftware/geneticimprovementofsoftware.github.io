@@ -34,8 +34,8 @@
   year: 2025
   abstract: "Genetic Improvement employs heuristic search algo- rithms to explore the search space of program variants by mod- ifying code using mutation operators. This research focuses on operators that delete, insert and replace source code statements. Traditionally, in GI, an operator is chosen uniformly at random at each search iteration. This work leverages Reinforcement Learning to intelligently guide the selection of these operators specifically to improve program runtime. We propose to integrate RL into the operator selection pro- cess. Four Multi-Armed bandit RL algorithms (Epsilon Greedy, UCB, Probability Matching, and Policy Gradient) were inte- grated within a GI framework, and their efficacy and efficiency were benchmarked against the traditional GI operator selection approach. These RL-guided operator selection strategies have demonstrated empirical superiority over the traditional GI meth- ods of randomly selecting a search operator, with UCB emerging as the top-performing RL algorithm. On average, the UCB- guided Hill Climbing search algorithm produced variants that compiled and passed all tests 44% of the time, while only 22% of the variants produced by the traditional uniform random selection strategies compiled and passed all tests. Index Terms—Reinforcement learning, genetic improvement."
   type: Workshop
-  pdf:
-    -  https://gpbib.cs.ucl.ac.uk/gi2025/bose_2025_GI.pdf
+  pdfs:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/bose_2025_GI.pdf
 
 - key: "Songpetchmongkol:2025:GI"
   title: "Empirical Comparison of Runtime Improvement Approaches: Genetic Improvement, Parameter Tuning, and Their Combination"
@@ -47,7 +47,7 @@
   year: 2025
   abstract: "Software can be optimised in various ways, e.g., by changing the code directly, modifying compiler or software’s paramters. To automate these tasks, algorithm configuration and genetic improvement have been proposed where one modifies parameters and the other source code. Several tools have been introduced to facilitate such changes automatically. However, these tools only work at a single code level, either optimising a parameter or modifying source code. In 2022, Blot and Petke introduced MAGPIE, which is a framework that is capable of simultaneously searching for improvement at different granu- larity levels. From our literature review, we found that the best search strategies in genetic improvement and algorithm configuration, that generalise to both domains, are based on local search and genetic algorithms, respectively. We thus compared the two approaches for runtime improvement of the MiniSAT solver. We also explored the two search strategies on the joint search space of parameter and source code edits. We found that genetic improvement with first improvement local search led to the best results by improving MiniSAT’s runtime by 18.05%."
   type: Workshop
-  pdf:
+  pdfs:
     - https://gpbib.cs.ucl.ac.uk/gi2025/songpetchmongkol_2025_GI.pdf
 
 - key: "Langdon:2025:GI"
@@ -59,7 +59,7 @@
   year: 2025
   abstract: "Using the language independent genetic improvement tool MAGPIE (Machine Automated General Performance Improvement via Evolution of software) and logarithmic sampling, we measure the parameter fitness landscape when optimising the GNU glibc heap management of a million line C++ application, gem5. The malloc_info landscape is far smoother than is commonly assumed and savings of 11 percent with no loss of runtime speed are readily obtained by both Magpie and CMA-ES."
   type: Workshop
-  pdf:
+  pdfs:
     - https://gpbib.cs.ucl.ac.uk/gi2025/langdon_2025_GI.pdf
 
    
@@ -72,7 +72,7 @@
   year: 2025
   abstract: "Existing research in compiler autotuning mainly focuses on selecting optimization flags without configurable values. However, the potential of selecting optimization flags with configurable values, alongside using directory and link flags for library version selection to improve performance, remains largely unexplored. We propose a three-stage Genetic Algorithm (GA) that incrementally selects optimization flags without configurable values, then optimization flags with configurable values, and finally library versions, to minimize software execution time. We also discuss the implementation challenges of the proposed algorithm and outline potential future work."
   type: Workshop
-  pdf:
+  pdfs:
     - https://gpbib.cs.ucl.ac.uk/gi2025/chan_2025_GI.pdf
 
 - key: "Liou:TELO"
