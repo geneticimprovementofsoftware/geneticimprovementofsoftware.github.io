@@ -322,7 +322,11 @@
   img: /profile_images/saemundur_haraldsson.jpg
 
 - name: Mark Harman
+  show: yes
+  affil:  Meta Platforms Inc.
   homepage: https://research.fb.com/people/harman-mark/
+  scholar: https://scholar.google.co.uk/citations?user=IwSN8IgAAAAJ&hl=en
+  img: /profile_images/mark_harmon.png
 
 - name: Paul Harvey
   homepage: http://paul-harvey.org/
