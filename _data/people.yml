@@ -323,8 +323,9 @@
 
 - name: Mark Harman
   show: yes
-  affil:  Meta Platforms Inc.
+  affil: Meta Platforms Inc.
   homepage: https://research.fb.com/people/harman-mark/
+  dblp: https://dblp.org/pid/h/MarkHarman.html
   scholar: https://scholar.google.co.uk/citations?user=IwSN8IgAAAAJ&hl=en
   img: /profile_images/mark_harmon.png
 
