@@ -1,108 +1,17 @@
-- key: "Bouras:2025:GI"
-  title: "LLM-Assisted Crossover in Genetic Improvement of Software"
+- key: "blot:2025:ACMsurveys"
+  title: "A Comprehensive Survey of Benchmarks for Improvement of Software's Non-Functional Properties"
   authors:
-    - name: Dimitrios Stamatios Bouras 
-    - name: Justyna Petke
-    - name: Sergey Mechtaev
-  venue: "GI@ICSE"
-  year: 2025
-  abstract: "This study explores the use of Large Language Models to improve the crossover process in genetic programming. Traditional crossover techniques typically combine parent variants by selecting modifications uniformly or even randomly, without consideration of contextual relevance, often resulting in inefficient searches and suboptimal solutions due to incompatible or redundant modifications. In contrast, our LLM-assisted crossover leverages contextual understanding to select and combine edits from parent solutions that are more likely to work well together, with the goal of producing higher quality variants and accelerating optimization. We implemented this approach within MAGPIE, a unified genetic improvement framework. We evaluated against five traditional crossover methods across seven benchmarks, measuring performance on four key metrics: average ranking, best variant execution time, efficiency in reaching performance milestones, and viable variant count. Results show that LLM-assisted crossover achieved an average ranking of 2.27 (on a scale where 1 is best and 6 is worst), making it the top-performing method across benchmarks based on the quality of the optimal variants produced. The LLM-based approach also improved the fitness (execution time) by an average of 8.5% over the best variant produced by the traditional methods. In terms of efficiency, the LLM-assisted crossover required on average 25.6% fewer variants to reach 25%, 50%, 75%, and 100% of the final performance improvement, compared to the traditional methods. Additionally, the LLM-assisted crossover produced 4.8% more viable variants across scenarios, including both source code modification and parameter tuning cases.These findings suggest that LLMs can significantly enhance genetic programming by guiding the crossover process toward more effective and viable solutions, providing motivation for further research in LLM-assisted evolutionary algorithms."
-  type: Workshop
-  pdfs:
-    - https://gpbib.cs.ucl.ac.uk/gi2025/bouras_2025_GI.pdf
- 
-- key: "Wang:2025:GI"
-  title: "Large Language Model based Code Completion is an Effective Genetic Improvement Mutation"
-  authors:
-    - name: Jingyuan Wang
-    - name: Carol Hanna
-    - name: Justyna Petke
-  venue: "GI@ICSE"
-  year: 2025
-  abstract: "In this work, we introduce a novel large language model (LLM)-based masking mutation operator for Genetic Improvement (GI), which leverages code completion capabilities of large language models to replace masked code segments with contextually relevant modifications. Our approach was tested on five open-source Java projects, where we compared its effective- ness against both traditional GI mutations and an existing LLM- based replacement mutation operator using random sampling and local search algorithms. Results show that the masking mutation operator creates a search space with more compiling and test-passing patches, reducing model response time by up to 60.7% compared to the replacement mutation. Additionally, it outperforms the replacement mutation in achieving the highest runtime improvement on four out of five projects and discovers more runtime-improving patches across all projects. However, combining the masking mutation with traditional GI mutations yielded inconsistent results, suggesting further investigation is needed. This study highlights the promise of LLM-based code completion to boost the efficiency and effectiveness of GI for automated software optimisation."
-  type: Workshop
-  pdfs:
-    - https://gpbib.cs.ucl.ac.uk/gi2025/wang_2025_GI.pdf
-
-- key: "Bose:2025:GI"
-  title: "Enhancing Software Runtime with Reinforcement Learning-Driven Mutation Operator Selection in Genetic Improvement"
-  authors:
-    - name: Damien Bose
-    - name: Carol Hanna
-    - name: Justyna Petke
-  venue: "GI@ICSE"
-  year: 2025
-  abstract: "Genetic Improvement employs heuristic search algo- rithms to explore the search space of program variants by mod- ifying code using mutation operators. This research focuses on operators that delete, insert and replace source code statements. Traditionally, in GI, an operator is chosen uniformly at random at each search iteration. This work leverages Reinforcement Learning to intelligently guide the selection of these operators specifically to improve program runtime. We propose to integrate RL into the operator selection pro- cess. Four Multi-Armed bandit RL algorithms (Epsilon Greedy, UCB, Probability Matching, and Policy Gradient) were inte- grated within a GI framework, and their efficacy and efficiency were benchmarked against the traditional GI operator selection approach. These RL-guided operator selection strategies have demonstrated empirical superiority over the traditional GI meth- ods of randomly selecting a search operator, with UCB emerging as the top-performing RL algorithm. On average, the UCB- guided Hill Climbing search algorithm produced variants that compiled and passed all tests 44% of the time, while only 22% of the variants produced by the traditional uniform random selection strategies compiled and passed all tests. Index Terms—Reinforcement learning, genetic improvement."
-  type: Workshop
-  pdfs:
-    - https://gpbib.cs.ucl.ac.uk/gi2025/bose_2025_GI.pdf
-
-- key: "Songpetchmongkol:2025:GI"
-  title: "Empirical Comparison of Runtime Improvement Approaches: Genetic Improvement, Parameter Tuning, and Their Combination"
-  authors:
-    - name: Thanatad Songpetchmongkol 
     - name: Aymeric Blot
     - name: Justyna Petke
-  venue: "GI@ICSE"
+  venue: "ACM Computing Surveys"
   year: 2025
-  abstract: "Software can be optimised in various ways, e.g., by changing the code directly, modifying compiler or software’s paramters. To automate these tasks, algorithm configuration and genetic improvement have been proposed where one modifies parameters and the other source code. Several tools have been introduced to facilitate such changes automatically. However, these tools only work at a single code level, either optimising a parameter or modifying source code. In 2022, Blot and Petke introduced MAGPIE, which is a framework that is capable of simultaneously searching for improvement at different granu- larity levels. From our literature review, we found that the best search strategies in genetic improvement and algorithm configuration, that generalise to both domains, are based on local search and genetic algorithms, respectively. We thus compared the two approaches for runtime improvement of the MiniSAT solver. We also explored the two search strategies on the joint search space of parameter and source code edits. We found that genetic improvement with first improvement local search led to the best results by improving MiniSAT’s runtime by 18.05%."
-  type: Workshop
-  pdfs:
-    - https://gpbib.cs.ucl.ac.uk/gi2025/songpetchmongkol_2025_GI.pdf
-
-- key: "Langdon:2025:GI"
-  title: "The gem5 C++ glibc Heap Fitness Landscape"
-  authors:
-    - name: William B. Langdon
-    - name: Bobby R. Bruce
-  venue: "GI@ICSE"
-  year: 2025
-  abstract: "Using the language independent genetic improvement tool MAGPIE (Machine Automated General Performance Improvement via Evolution of software) and logarithmic sampling, we measure the parameter fitness landscape when optimising the GNU glibc heap management of a million line C++ application, gem5. The malloc_info landscape is far smoother than is commonly assumed and savings of 11 percent with no loss of runtime speed are readily obtained by both Magpie and CMA-ES."
-  type: Workshop
-  pdfs:
-    - https://gpbib.cs.ucl.ac.uk/gi2025/langdon_2025_GI.pdf
-
-   
-- key: "Chan:2025:GI"
-  title: "A Three-Stage Genetic Algorithm for Compiler Flag and Library Version Selection to Minimize Execution Time"
-  authors:
-    - name: Chi Ho Chan
-    - name: Spyro Nita
-  venue: "GI@ICSE"
-  year: 2025
-  abstract: "Existing research in compiler autotuning mainly focuses on selecting optimization flags without configurable values. However, the potential of selecting optimization flags with configurable values, alongside using directory and link flags for library version selection to improve performance, remains largely unexplored. We propose a three-stage Genetic Algorithm (GA) that incrementally selects optimization flags without configurable values, then optimization flags with configurable values, and finally library versions, to minimize software execution time. We also discuss the implementation challenges of the proposed algorithm and outline potential future work."
-  type: Workshop
-  pdfs:
-    - https://gpbib.cs.ucl.ac.uk/gi2025/chan_2025_GI.pdf
-
-- key: "Liou:TELO"
-  title: "Evolving to find optimizations humans miss: using evolutionary computation to improve GPU code for bioinformatics applications"
-  authors:
-    - name: Jhe-Yu Liou
-    - name: Muaaz Awan
-    - name: Kirtus Leyba
-    - name: Petr Sulc
-    - name: Steven Hofmeyr
-    - name: Carole-Jean Wu
-    - name: Stephanie Forrest
-  venue: "ACM TELO"
-  year: 
   type: Journal
-  doi: https://doi.org/10.1145/3703920
-
-- key: "Guizzo:2024:TOSEM"
-  title: "Speeding up Genetic Improvement via Regression Test Selection"
-  authors:
-    - name: Giovani Guizzo
-    - name: David Williams
-    - name: Mark Harman
-    - name: Justyna Petke
-    - name: Federica Sarro
-  venue: "ACM TOSEM"
-  year: 
-  type: Journal
+  tags:
+    - survey
   urls:
-    - https://discovery.ucl.ac.uk/id/eprint/10189267
+    - https://discovery.ucl.ac.uk/id/eprint/10203326/
+  pdfs:
+    - https://discovery.ucl.ac.uk/id/eprint/10203326/1/main.pdf
 
 - key: "langdon:2024:ASE"
   title: "Deep Imperative Mutations have Less Impact"
@@ -117,8 +26,37 @@
   tags:
     - SBSE
     - testing
+    - Magpie
+  urls:
+    - https://rdcu.be/d4jme
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_ASE.pdf
+  video:
+    - https://youtu.be/zQ_lkIF6wwk
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ei2024/langdon_4-mar-2025.pdf
+
+- key: "Brownlee:2024:ASE"
+  title: "Large Language Model Based Mutations in Genetic Improvement"
+  authors:
+    - name: Alexander Edward Ian Brownlee
+      aka: Alexander E. I. Brownlee
+    - name: James Callan
+    - name: Karine Even-Mendoza
+    - name: Alina Geiger
+    - name: Carol Hanna
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Dominik Sobania
+  venue: "Automated Software Engineering"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.21203/rs.3.rs-4437272/v1
+  tags:
+    - LLM
+    - SBSE
+  urls:
+    - https://rdcu.be/d67YW
 
 - key: "Callan:2025:ASE"
   title: "Multi-objective improvement of Android applications"
@@ -135,6 +73,296 @@
     - https://rdcu.be/d0UCc
     - https://github.com/SOLAR-group/GIDroid
 
+- key: "Hanna:2025:ASEJ"
+  title: "Reinforcement learning for mutation operator selection in automated program repair"
+  authors:
+    - name: Carol Hanna
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "Automated Software Engineering"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-025-00501-z
+  tags:
+    - APR
+    - ML
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10205221/
+    - https://rdcu.be/eeuzB
+    - https://zenodo.org/records/7579947
+
+- key: "porter:2025:CACM"
+  title: "Self-Designing Software"
+  authors:
+    - name: Barry Porter
+    - name: Penn Faulkner Rainford
+    - name: Roberto Rodrigues-Filho
+  venue: "Communications of the ACM"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1145/3678165
+  urls:
+    - https://cacm.acm.org/research/self-designing-software/
+  video:
+    - https://vimeo.com/1040435011
+
+- key: "Langdon:2025:EuroGP"
+  title: "Population Diversity, Information Theory and Genetic Improvement"
+  authors:
+    - name: William B. Langdon
+    - name: David Clark
+  venue: "EuroGP"
+  year: 2025
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-031-89991-1_6
+  tags:
+    - SBSE
+    - testing
+    - Magpie
+  urls:
+    - https://rdcu.be/ejgCX
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2025_EuroGP.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/egp2025/clark_eurogp_2025_slides.pdf
+
+- key: "Langdon:2025:evostarLBA"
+  title: "gem5/Z3/gcc/Clang/Redis glibc Heap Fitness Landscapes"
+  authors:
+    - name: William B. Langdon
+    - name: Justyna Petke
+    - name: David Clark
+  venue: "EvoStar-LBA"
+  year: 2025
+  type: Conference
+  tags:
+    - SBSE
+    - Magpie
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2025_evostarLBA.pdf
+  video:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/egp2025/langdon_evostar2025_lba.mp4
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/egp2025/langdon_evostar2025_lba_slides.pdf
+
+- key: "Harman:2025:FSE"
+  title: "Harden and Catch for Just-in-Time Assured LLM-Based Software Testing: Open Research Challenges"
+  authors:
+    - name: Mark Harman
+    - name: Peter O'Hearn
+    - name: Shubho Sengupta
+  venue: "FSE"
+  year: 2025
+  type: Keynote
+  tags:
+    - LLM
+    - SBSE
+    - testing
+  urls:
+    - https://arxiv.org/abs/2504.16472
+    - https://conf.researchr.org/info/fse-2025/keynotes
+  pdfs:
+    - https://arxiv.org/pdf/2504.16472.pdf
+
+- key: "chan:2025:GI"
+  title: "A Three-Stage Genetic Algorithm for Compiler Flag and Library Version Selection to Minimize Execution Time"
+  authors:
+    - name: Chi Ho Chan
+    - name: Spyro Nita
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Existing research in compiler autotuning mainly focuses on selecting optimization flags without configurable values. However, the potential of selecting optimization flags with configurable values, alongside using directory and link flags for library version selection to improve performance, remains largely unexplored. We propose a three-stage Genetic Algorithm (GA) that incrementally selects optimization flags without configurable values, then optimization flags with configurable values, and finally library versions, to minimize software execution time. We also discuss the implementation challenges of the proposed algorithm and outline potential future work."
+  type: Workshop
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+  pdfs:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/chan_2025_GI.pdf
+  video:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/ChiHoChan_icse2025.mp4
+
+- key: "Blot_magpie:2025:GI"
+  title: "Automated Software Performance Improvement with Magpie"
+  authors:
+    - name: Aymeric Blot
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "In this tutorial, I will present Magpie (https://github.com/bloa/magpie), a powerful tool for both Genetic Improvement researchers and practitioners. Magpie stands at the forefront of software evolution, providing a streamlined approach to model, evolve, and automatically improve software systems. Addressing both functional and non-functional concerns, Magpie offers a user-friendly no-code interface that seamlessly integrates various search processes, as well as enabling easy Python code injection for advanced users to further tailor and specialise the improvement process to meet their specific needs. We will provide a concise overview of Magpie internals before exploring diverse real-world scenarios."
+  type: Workshop
+  tags:
+    - Magpie
+  urls:
+    - https://github.com/bloa/magpie
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2025/blot_2025_GI.pdf
+
+- key: "songpetchmongkol:2025:GI"
+  title: "Empirical Comparison of Runtime Improvement Approaches: Genetic Improvement, Parameter Tuning, and Their Combination"
+  authors:
+    - name: Thanatad Songpetchmongkol
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Software can be optimised in various ways, e.g., by changing the code directly, modifying compiler or software paramters. From our literature review, we found that the best search strategies in genetic improvement and algorithm configuration, that generalise to both domains, are based on local search and genetic algorithms. We thus compared the two approaches for runtime improvement of the MiniSAT solver. We also explored the two search strategies on the joint search space of parameter and source code edits. We found that genetic improvement with first improvement local search led to the best results by improving MiniSAT runtime by 18.05%."
+  type: Workshop
+  tags:
+    - Magpie
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+  pdfs:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/songpetchmongkol_2025_GI.pdf
+    - https://solar.cs.ucl.ac.uk/pdf/songpetchmongkol_2025_GI.pdf
+  video:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/songpetchmongkol_icse2025.mp4
+
+- key: "bose:2025:GI"
+  title: "Enhancing Software Runtime with Reinforcement Learning-Driven Mutation Operator Selection in Genetic Improvement"
+  authors:
+    - name: Damien Bose
+    - name: Carol Hanna
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Genetic Improvement employs heuristic search algorithms to explore the search space of program variants by modifying code using mutation operators. This research focuses on operators that delete, insert and replace source code statements. Traditionally, in GI, an operator is chosen uniformly at random at each search iteration. Reinforcement Learning to intelligently guide the selection of these operators specifically to improve program runtime. We propose to integrate RL into the operator selection process. Four Multi-Armed bandit RL algorithms (Epsilon Greedy, UCB, Probability Matching, and Policy Gradient) were integrated within a GI framework, and their efficacy and efficiency were bench marked against the traditional GI operator selection approach. These RL-guided operator selection strategies have demonstrated empirical superiority over the traditional GI methods of randomly selecting a search operator, with UCB emerging as the top-performing RL algorithm. On average, the UCB-guided Hill Climbing search algorithm produced variants that compiled and passed all tests 44% of the time, while only 22% of the variants produced by the traditional uniform random selection strategies compiled and passed all tests."
+  type: Workshop
+  urls:
+    - https://rps.ucl.ac.uk/viewobject.html?cid=1&id=2360068
+    - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+  pdfs:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/bose_2025_GI.pdf
+  video:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/hanna_icse2025_b.mp4
+
+- key: "bouras:2025:GI"
+  title: "LLM-Assisted Crossover in Genetic Improvement of Software"
+  authors:
+    - name: Dimitrios Stamatios Bouras
+    - name: Justyna Petke
+    - name: Sergey Mechtaev
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "We evaluated against five traditional crossover methods across seven benchmarks, measuring performance on four key metrics: average ranking, best variant execution time, efficiency in reaching performance milestones, and viable variant count. Results show that LLM-assisted crossover achieved an average ranking of 2.27 (on a scale where 1 is best and 6 is worst), making it the top-performing method across benchmarks based on the quality of the optimal variants produced. The LLM-based approach also improved the fitness (execution time) by an average of 8.5% over the best variant produced by the traditional methods. In terms of efficiency, the LLM-assisted crossover required on average 25.6% fewer variants to reach 25%, 50%, 75%, and 100% of the final performance improvement, compared to the traditional methods. Additionally, the LLM-assisted crossover produced 4.8% more viable variants across scenarios, including both source code modification and parameter tuning cases. These findings suggest that LLMs can significantly enhance genetic programming by guiding the crossover process toward more effective and viable solutions, providing motivation for further research in LLM-assisted evolutionary algorithms."
+  type: Workshop
+  tags:
+    - LLM
+    - Magpie
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+  pdfs:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/bouras_2025_GI.pdf
+  video:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/bouras_icse2025.mp4
+
+- key: "wang:2025:GI"
+  title: "Large Language Model based Code Completion is an Effective Genetic Improvement Mutation"
+  authors:
+    - name: Jingyuan Wang
+    - name: Carol Hanna
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "we introduce a novel large language model (LLM)-based masking mutation operator for Genetic Improvement (GI), which leverages code completion capabilities of large language models to replace masked code segments with contextually relevant modifications. Our approach was tested on five open-source Java projects, where we compared its effectiveness against both traditional GI mutations and an existing LLM-based replacement mutation operator using random sampling and local search algorithms. Results show that the masking mutation operator creates a search space with more compiling and test-passing patches, reducing model response time by up to 60.7% compared to the replacement mutation. Additionally, it outperforms the replacement mutation in achieving the highest runtime improvement on four out of five projects and discovers more runtime-improving patches across all projects. However, combining the masking mutation with traditional GI mutations yielded inconsistent results, suggesting further investigation is needed. This study highlights the promise of LLM-based code completion to boost the efficiency and effectiveness of GI for automated software optimisation."
+  type: Workshop
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10204242/
+    - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+  pdfs:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/wang_2025_GI.pdf
+  video:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/hanna_icse2025_a.mp4
+
+- key: "Tan:2025:GI"
+  title: "Put on Your Tester Hat: Improving programs for Automated Program Generation"
+  authors:
+    - name: Shin Hwei Tan
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Given either a specification written in natural language or an input program, automated program generation techniques produce a program according to the given specification or by modifying the input program. Automated program generation is a powerful technique that can be used for finding bugs in software systems that take programs as input or fixing bugs in the input programs. However, most existing techniques focus on automated program generation for automated program repair or program synthesis. This talk introduces a different perspective of automated program generation where we will discuss our latest results on automated program generation for testing static program analyzers by designing different types of program transformations. We will also explore and rethink about the automated program generation problem from the tester perspective. The new perspective could have huge potential for the design of new genetic improvement techniques to improve programs for automated program generation."
+  type: Keynote
+  tags:
+    - APR
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2025/blot_2025_GI.pdf
+
+- key: "langdon:2025:GI"
+  title: "The gem5 C++ glibc Heap Fitness Landscape"
+  authors:
+    - name: William B. Langdon
+    - name: Bobby R. Bruce
+  venue: "GI@ICSE"
+  year: 2025
+  abstract: "Using the language independent genetic improvement tool MAGPIE (Machine Automated General Performance Improvement via Evolution of software) and logarithmic sampling, we measure the parameter fitness landscape when optimising the GNU glibc heap management of a million line C++ application, gem5. The malloc_info landscape is far smoother than is commonly assumed and savings of 11 percent with no loss of runtime speed are readily obtained by both Magpie and CMA-ES."
+  type: Workshop
+  tags:
+    - SBSE
+    - Magpie
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2025_GI.pdf
+  video:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/langdon_icse2025.mp4
+
+- key: "Garg:2025:ICSE"
+  title: "Improving Code Performance Using LLMs in Zero-Shot: RAPGen"
+  authors:
+    - name: Spandan Garg
+    - name: Roshanak Zilouchian Moghaddam
+    - name: Neel Sundaresan
+  venue: "ICSE"
+  year: 2025
+  type: Conference
+  tags:
+    - APR
+  urls:
+    - https://arxiv.org/html/2306.17077v2
+    - https://conf.researchr.org/profile/forge-2025/spandangarg
+    - https://conf.researchr.org/track/icse-2025/icse-2025-research-track?track=ICSE%20Research%20Track%2BICSE%20SE%20In%20Practice%20(SEIP)#program
+
+- key: "csuvik:2025:TSE"
+  title: "GenProgJS: a Baseline System for Test-based Automated Repair of JavaScript Programs"
+  authors:
+    - name: Viktor Csuvik
+    - name: Daniel Horvath
+    - name: Mark Lajko
+    - name: Laszlo Vidacs
+  venue: "IEEE TSE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2024.3497798
+  tags:
+    - APR
+  urls:
+    - https://github.com/GenProgJS
+    - https://genprogjs.github.io/GenProgJS/
+
+- key: "LeGoues:2025:TSE"
+  title: "The Evolution of Automated Software Repair"
+  authors:
+    - name: Claire Le Goues
+    - name: ThanhVu Nguyen
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "IEEE TSE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1109/TSE.2025.3533309
+  tags:
+    - APR
+    - testing
+  urls:
+    - https://doi.ieeecomputersociety.org/10.1109/TSE.2025.3533309
+
+- key: "Kuepper24"
+  title: "Enhancing State-of-the-Art Techniques Generating Low-Level Code for Cryptographic Arithmetic"
+  authors:
+    - name: Joel Kuepper
+  venue: ""
+  year: 2024
+  type: PhdThesis
+  pdfs:
+    - https://yuval.yarom.org/pdfs/Kuepper24.pdf
+
 - key: "callan:thesis"
   title: "Improving the Non-Functional Properties of Android Applications with Genetic Improvement"
   authors:
@@ -147,18 +375,20 @@
   pdfs:
     - https://discovery.ucl.ac.uk/id/eprint/10189386/2/Improving_the_Non_Functional_Properties_of_Android_Applications_with_Genetic_Improvement%20%282%29.pdf
 
-- key: "Biau:2024:evoapplications"
-  title: "Improving Image Filter Efficiency: A Multi-objective Genetic Algorithm Approach to Optimize Computing Efficiency"
+- key: "Liou:TELO"
+  title: "Evolving to find optimizations humans miss: using evolutionary computation to improve GPU code for bioinformatics applications"
   authors:
-    - name: Julien Biau
-    - name: Sylvain Cussat-Blanc
-    - name: Herve Luga
-  venue: "27th International Conference, EvoApplications 2024"
+    - name: Jhe-Yu Liou
+    - name: Muaaz Awan
+    - name: Kirtus Leyba
+    - name: Petr Sulc
+    - name: Steven Hofmeyr
+    - name: Carole-Jean Wu
+    - name: Stephanie Forrest
+  venue: "ACM TELO"
   year: 2024
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-031-56852-7_2
-  urls:
-    - https://rdcu.be/dDZHh
+  type: Journal
+  doi: https://doi.org/10.1145/3703920
 
 - key: "Souza:TOSEM"
   title: "Software Product Line Engineering via Software Transplantation"
@@ -177,18 +407,65 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Souza_2024_TOSEM.pdf
 
+- key: "Guizzo:2024:TOSEM"
+  title: "Speeding up Genetic Improvement via Regression Test Selection"
+  authors:
+    - name: Giovani Guizzo
+    - name: David Williams
+    - name: Mark Harman
+    - name: Justyna Petke
+    - name: Federica Sarro
+  venue: "ACM TOSEM"
+  year: 2024
+  type: Journal
+  doi: https://doi.org/10.1145/3680466
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10189267
+
 - key: "Nemeth:2024:ALife"
   title: "Phenotypic Species Definitions for Genetic Improvement of Source Code"
   authors:
     - name: Zsolt Nemeth
     - name: Penn Faulkner Rainford
     - name: Barry Porter
-  venue: "ALIFE 2024: Proceedings of the 2024 Artificial Life Conference"
+  venue: "ALIFE"
   year: 2024
   type: Conference
   doi: https://doi.org/10.5281/zenodo.11477826
   pdfs:
     - https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/65/2461073/isal_a_00795.pdf
+
+- key: "Yuan:2024:APR"
+  title: "ARJA-e for the First International Competition on Automated Program Repair"
+  authors:
+    - name: Yuan Yuan
+  venue: "APR@ICSE"
+  year: 2024
+  type: Workshop
+  doi: https://doi.org/10.1145/3643788.3648019
+  tags:
+    - AI
+    - APR
+
+- key: "Smytzek:2024:ASE"
+  title: "FixKit: A Program Repair Collection for Python"
+  authors:
+    - name: Marius Smytzek
+    - name: Martin Eberlein
+    - name: Kai Werk
+    - name: Lars Grunske
+    - name: Andreas Zeller
+  venue: "ASE"
+  year: 2024
+  type: Conference
+  tags:
+    - APR
+    - testing
+  urls:
+    - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=10764883
 
 - key: "Kosorukov:2024:ASENIER"
   title: "Mining for Mutation Operators for Reduction of Information Flow Control Violations"
@@ -247,24 +524,18 @@
   pdfs:
     - https://arxiv.org/pdf/2402.04380.pdf
 
-- key: "Brownlee:2024:ASE"
-  title: "Large Language Model Based Mutations in Genetic Improvement"
+- key: "Fredericks:2024:ASE"
+  title: "GenerativeGI: creating generative art with genetic improvement"
   authors:
-    - name: Alexander Edward Ian Brownlee
-    - name: James Callan
-    - name: Karine Even-Mendoza
-    - name: Alina Geiger
-    - name: Carol Hanna
-    - name: Justyna Petke
-    - name: Federica Sarro
-    - name: Dominik Sobania
+    - name: Erik M. Fredericks
+    - name: Jared M. Moore
+    - name: Abigail C. Diller
   venue: "Automated Software Engineering"
   year: 2024
   type: Journal
-  doi: https://doi.org/10.21203/rs.3.rs-4437272/v1
-  tags:
-    - LLM
-    - SBSE
+  doi: https://doi.org/10.1007/s10515-024-00414-3
+  urls:
+    - https://rdcu.be/emspE
 
 - key: "Turner:2024:CACM"
   title: "Neural Architecture Search as Program Transformation Exploration"
@@ -281,25 +552,20 @@
     - LLM
     - ML
 
-- key: "Alshahwan:2024:FSEcomp"
-  title: "Automated Unit Test Improvement using Large Language Models at Meta"
+- key: "Langdon:2024:EI"
+  title: "Sustaining Evolution for Shallow Embodied Intelligence"
   authors:
-    - name: Nadia Alshahwan
-    - name: Jubin Chheda
-    - name: Anastasia Finogenova
-    - name: Beliz Gokkaya
-    - name: Mark Harman
-    - name: Inna Harper
-    - name: Alexandru Marginean
-    - name: Shubho Sengupta
-    - name: Eddy Wang
-  venue: "Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering"
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Daniel Hulme
+  venue: "EI"
   year: 2024
-  doi: https://doi.org/10.1145/3663529.3663839
+  type: Conference
+  doi: https://doi.org/10.1088/1757-899X/1321/1/012007
   tags:
-    - LLM
-    - SBSE
-    - testing
+    - AI
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2024_EI.pdf
 
 - key: "Pinna:2024:EuroGP"
   title: "Enhancing Large Language Models-Based Code Generation by Leveraging Genetic Improvement"
@@ -332,10 +598,45 @@
   doi: https://doi.org/10.1007/978-3-031-56957-9_13
   tags:
     - SBSE
+    - Magpie
   urls:
     - https://rdcu.be/dD81G
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_EuroGP.pdf
+
+- key: "Biau:2024:evoapplications"
+  title: "Improving Image Filter Efficiency: A Multi-objective Genetic Algorithm Approach to Optimize Computing Efficiency"
+  authors:
+    - name: Julien Biau
+    - name: Sylvain Cussat-Blanc
+    - name: Herve Luga
+  venue: "EvoAPPS"
+  year: 2024
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-031-56852-7_2
+  urls:
+    - https://rdcu.be/dDZHh
+
+- key: "Alshahwan:2024:FSEcomp"
+  title: "Automated Unit Test Improvement using Large Language Models at Meta"
+  authors:
+    - name: Nadia Alshahwan
+    - name: Jubin Chheda
+    - name: Anastasia Finogenova
+    - name: Beliz Gokkaya
+    - name: Mark Harman
+    - name: Inna Harper
+    - name: Alexandru Marginean
+    - name: Shubho Sengupta
+    - name: Eddy Wang
+  venue: "FSE"
+  year: 2024
+  type: Conference
+  doi: https://doi.org/10.1145/3663529.3663839
+  tags:
+    - LLM
+    - SBSE
+    - testing
 
 - key: "Petke:2024:FSEIVR"
   title: "The Patch Overfitting Problem in Automated Program Repair: Practical Magnitude and a Baseline for Realistic Benchmarking"
@@ -360,6 +661,7 @@
   title: "Genetic Improvement: Taking real-world source code and improving it using computational search methods"
   authors:
     - name: Alexander Edward Ian Brownlee
+      aka: Alexander E. I. Brownlee
     - name: Saemundur Oskar Haraldsson
       aka: Saemundur O. Haraldsson
     - name: John Robert Woodward
@@ -393,8 +695,11 @@
   abstract: "we present Magpie, a powerful tool for both Genetic Improvement researchers and practitioners. Magpie stands at the forefront of software evolution, providing a streamlined approach to model, evolve, and automatically improve software systems. Addressing both functional and non-functional concerns, Magpie offers a user-friendly no-code interface that seamlessly integrates various search processes, as well as enabling easy Python code injection for advanced users to further tailor and specialise the improvement process to meet their specific needs. We will provide a concise overview of Magpie's internals before exploring diverse real-world scenarios. Aymeric Blot is a Senior Lecturer at the Universite of Rennes, France."
   type: Workshop
   doi: https://doi.org/10.1145/3643692
+  tags:
+    - Magpie
   urls:
     - https://conf.researchr.org/details/icse-2024/gi-2024-papers/8/Automated-Software-Performance-Improvement-with-Magpie
+    - https://github.com/bloa/magpie
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2024/an_2024_GI.pdf
   video:
@@ -416,6 +721,7 @@
   tags:
     - SBSE
     - testing
+    - Magpie
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2024/langdon_2024_GI.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_GI.pdf
@@ -496,6 +802,8 @@
   abstract: "Symbolic regression, in general, and genetic models, in particular, are promising approaches to mathematical modeling in astrometry where it is not always clear which is the fittest analytic expression depending on the problem under consideration. Several attempts and increasing research efforts are being made in this direction mainly from the Genetic Programming (GP) viewpoint. Our proposal is, as far as we know, the first one to apply Grammatical Evolution (GE) in this domain. GE (and further GE extensions) aim to outperform GP limitations by incorporating formal language stools to guarantee the correctness (both syntactic and semantic) of the generated expressions. The current contribution is a first proof to check the viability of GE on astrometric real datasets. Its success in finding adequate parameters for predefined families of functions in star centering (Gaussian and Moffat PSFs) with simple and naive GE experiments supports our hypothesis on taking advantage of the expressive power of GE to tackle astrometry scenarios of interest and hence greatly improve current astrometric software thanks to specific genetic approaches."
   type: Workshop
   doi: https://doi.org/10.1145/3643692.3648264
+  urls:
+    - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=10666374
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2024/ICSE_24_GIGE_astronomy_cr_vldtd.pdf
   video:
@@ -534,7 +842,10 @@
   abstract: "Mobile applications can be very network-intensive. Mobile phone users are often on limited data plans, while network infrastructure has limited capacity. There is little work on optimising network usage of mobile applications. The most popular approach has been prefetching and caching assets. However, past work has shown that developers can improve the network usage of Android applications by making changes to Java source code. We built upon this insight and investigated the effectiveness of automated, heuristic application of software patches, a technique known as Genetic Improvement (GI), to improve network usage. Genetic improvement has already shown effective at reducing the execution time and memory usage of Android applications. We thus adapt our existing GIdroid framework with a new mutation operator and develop a new profiler to identify network-intensive methods to target. Unfortunately, our approach is unable to find improvements. We conjecture this is due to the fact source code changes affecting network might be rare in the large patch search space. We thus advocate use of more intelligent search strategies in future work."
   type: Workshop
   doi: https://doi.org/10.1145/3643692.3648262
+  tags:
+    - SBSE
   urls:
+    - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=10666380
     - https://github.com/SOLAR-group/NetworkGI
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/callan_2024_GI.pdf
@@ -542,12 +853,15 @@
     - http://gpbib.cs.ucl.ac.uk/gi2024/gi_2024_slides/gi2024network.pdf
 
 - key: "Fredericks:2024:GPTP"
-  title: "Crafting generative art through genetic improvement: managing creative outputs in diverse fitness landscape"
+  title: "Crafting Generative Art Through Genetic Improvement: Managing Creative Outputs in Diverse Fitness Landscapes"
   authors:
-    - name: Erik Fredericks
+    - name: Erik M. Fredericks
+    - name: Denton Bobeldyk
+    - name: Jared M. Moore
   venue: "GPTP"
   year: 2024
   type: Conference
+  doi: https://doi.org/10.1007/978-981-96-0077-9_16
 
 - key: "Williams:2024:ICSE"
   title: "User-Centric Deployment of Automated Program Repair at Bloomberg"
@@ -584,18 +898,6 @@
   doi: https://doi.org/10.1145/3638530.3664174
   tags:
     - LLM
-
-- key: "Langdon:2024:EI"
-  title: "Sustaining Evolution for Shallow Embodied Intelligence"
-  authors:
-    - name: W. B. Langdon
-      aka: William B. Langdon
-    - name: Daniel Hulme
-  venue: "Proceedings of 2023 International Conference on Embodied Intelligence, EI-2023"
-  year: 2024
-  type: Conference
-  tags:
-    - AI
 
 - key: "langdon:2024:SEN"
   title: "The 13th International Workshop on Genetic Improvement (GI @ ICSE 2024)"
@@ -679,6 +981,7 @@
   type: Archive
   tags:
     - SBSE
+    - Magpie
   urls:
     - https://arxiv.org/abs/2304.03235
   pdfs:
@@ -791,6 +1094,7 @@
   authors:
     - name: Justyna Petke
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Earl T. Barr
     - name: Alexander E. I. Brownlee
     - name: Markus Wagner
@@ -826,20 +1130,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_EuroGP.pdf
 
-- key: "Fan:2023:FoSE"
-  title: "Large Language Models for Software Engineering"
-  authors:
-    - name: Angela Fan
-    - name: Beliz Gokkaya
-    - name: Mark Harman
-    - name: Mitya Lyubarskiy
-    - name: Shubho Sengupta
-    - name: Shin Yoo
-    - name: Jie M. Zhang
-  venue: "FoSE"
-  year: 2023
-  type: Conference
-
 - key: "Liventsev:2023:GECCO"
   title: "Fully Autonomous Programming with Large Language Models"
   authors:
@@ -873,6 +1163,7 @@
   doi: https://doi.org/10.1145/3583133.3590542
   tags:
     - SBSE
+    - Magpie
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2023_GECCO.pdf
   video:
@@ -974,6 +1265,7 @@
   tags:
     - SBSE
     - PyGGI
+    - Magpie
   urls:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/gp-code/olc_h3_icse2023.tar.gz
   pdfs:
@@ -1069,6 +1361,31 @@
     - APR
   pdfs:
     - https://people.cs.umass.edu/~brun/pubs/pubs/Motwani23icse.pdf
+
+- key: "Fan:2023:FoSE"
+  title: "Large Language Models for Software Engineering: Survey and Open Problems"
+  authors:
+    - name: Angela Fan
+    - name: Beliz Gokkaya
+    - name: Mark Harman
+    - name: Mitya Lyubarskiy
+    - name: Shubho Sengupta
+    - name: Shin Yoo
+    - name: Jie M. Zhang
+  venue: "ICSE"
+  year: 2023
+  type: Conference
+  doi: https://doi.org/10.1109/ICSE-FoSE59343.2023.00008
+  tags:
+    - APR
+    - LLM
+    - SBSE
+    - testing
+    - survey
+  urls:
+    - https://arxiv.org/abs/2310.03533
+  pdfs:
+    - https://arxiv.org/pdf/2310.03533.pdf
 
 - key: "Alshahwan:2023:ICST"
   title: "Software Testing Research Challenges: An Industrial Perspective"
@@ -1328,6 +1645,7 @@
   title: "Code and Data Synthesis for Genetic Improvement in Emergent Software Systems"
   authors:
     - name: Penny Faulkner Rainford
+      aka: Penn Faulkner Rainford
     - name: Barry Porter
   venue: "ACM TELO"
   year: 2022
@@ -1338,6 +1656,7 @@
   title: "Lineage Selection in Mixed Populations for Genetic Improvement"
   authors:
     - name: Penny Faulkner Rainford
+      aka: Penn Faulkner Rainford
     - name: Barry Porter
   venue: "ALIFE"
   year: 2022
@@ -1382,7 +1701,7 @@
     - https://www.mdpi.com/2076-3417/12/3/1587
 
 - key: "Mesecan:2022:ASE"
-  title: "Keeping Secrets: Multi-objective Genetic Improvement forDetecting and Reducing Information Leakage"
+  title: "Keeping Secrets: Multi-objective Genetic Improvement for Detecting and Reducing Information Leakage"
   authors:
     - name: Ibrahim Mesecan
     - name: Daniel Blackwell
@@ -1465,6 +1784,7 @@
   doi: https://doi.org/10.48550/arxiv.2208.02811
   tags:
     - SBSE
+    - Magpie
   urls:
     - https://arxiv.org/abs/2208.02811
     - https://github.com/bloa/magpie
@@ -1561,6 +1881,7 @@
   title: "Using Phylogenetic Analysis to Enhance Genetic Improvement"
   authors:
     - name: Penny Rainford
+      aka: Penn Faulkner Rainford
     - name: Barry Porter
   venue: "GECCO"
   year: 2022
@@ -2057,6 +2378,19 @@
   pdfs:
     - http://www.human-competitive.org/sites/default/files/telo-2020-38.r1_proof_fl.pdf
 
+- key: "kinneer:2021:ACMtAAS"
+  title: "Information Reuse and Stochastic Search: Managing Uncertainty in Self-* Systems"
+  authors:
+    - name: Cody Kinneer
+    - name: David Garlan
+    - name: Claire Le Goues
+  venue: "ACM Transactions on Autonomous and Adaptive Systems"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1145/3440119
+  tags:
+    - SBSE
+
 - key: "bian:2021:apr_icse"
   title: "Refining Fitness Functions for Search-Based Program Repair"
   authors:
@@ -2416,6 +2750,8 @@
   abstract: "Machine learning accounts for considerable global electricity demand and resulting environmental impact, as training a large deep-learning model produces 284000 kgs of the greenhouse gas carbon dioxide. In recent years, search-based approaches have begun to explore improving software to consume less energy. Machine learning is a particularly strong candidate for this because it is possible to trade off functionality (accuracy) against energy consumption, whereas with many programs functionality is simply a pass-or-fail constraint. We use a grid search to explore hyperparameter configurations for a multilayer perceptron on five classification data sets, considering trade-offs of classification accuracy against training or inference energy. On one data set, we show that 77 percent of energy consumption for inference can saved by reducing accuracy from 94.3 percent to 93.2 percent. Energy for training can also be reduced by 30-50 percent with minimal loss of accuracy. We also find that structural parameters like hidden layer size is a major driver of the energy-accuracy trade-off, but there is some evidence that non-structural hyperparameters influence the trade-off too. We also show that a search-based approach has the potential to identify these trade-offs more efficiently than the grid search."
   type: Workshop
   doi: https://doi.org/10.1109/GI52543.2021.00011
+  urls:
+    - http://hdl.handle.net/1893/32312
   pdfs:
     - https://geneticimprovementofsoftware.com/paper_pdfs/gi2021icse/brownlee_gi-icse_2021.pdf
   video:
@@ -3188,6 +3524,7 @@
   authors:
     - name: Mahmoud A. Bokhari
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Markus Wagner
   venue: "GECCO"
   year: 2020
@@ -3307,6 +3644,7 @@
     - name: Mahmoud A. Bokhari
     - name: Markus Wagner
     - name: Brad Alexander
+      aka: Bradley Alexander
   venue: "GI@GECCO"
   year: 2020
   abstract: "Many challenges arise in the application of Genetic Improvement (GI) of Software to improve non-functional requirements of software such as energy use and run-time. These challenges are mainly centred around the complexity of the search space and the estimation of the desired fitness function. For example, such fitness function are expensive, noisy and estimating them is not a straight-forward task. we illustrate some of the challenges incomputing such fitness functions and propose a synergy between in-vivo evaluation and machine learning approaches to overcome such issues."
@@ -3790,6 +4128,7 @@
     - name: Alexander E. I. Brownlee
     - name: Justyna Petke
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Earl T. Barr
     - name: Markus Wagner
     - name: David R. White
@@ -3837,6 +4176,7 @@
   authors:
     - name: Justyna Petke
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Earl T. Barr
     - name: Alexander E. I. Brownlee
     - name: Markus Wagner
@@ -3912,6 +4252,7 @@
     - name: Mahmoud A. Bokhari
     - name: Markus Wagner
     - name: Brad Alexander
+      aka: Bradley Alexander
   venue: "GI@GECCO"
   year: 2019
   abstract: "The optimisation of non-functional properties of software is of growing importance in all scales of modern computing (from embedded systems to data-centres). In mobile computing, smart devices have complex interactions between their hardware and software components. Small changes in the environment can greatly impact the measurements of non-functional properties of software. In-vivo optimisation of applications on a platform can be used to evolve robust new solutions. However, the portability of such solutions performance across different platforms is questionable. In this paper we discuss the issue of optimising the non-functional properties of applications running in the Android ecosystem. We also propose a distributed framework that can mitigate such issues."
@@ -4374,6 +4715,19 @@
     - https://www.amazon.co.uk/Energetics-Computing-Life-Machines/dp/1947864076?asin=1947864076
   pdfs:
     - https://www.cs.cmu.edu/~jlacomis/materials/LacomisAutomaticallyReducing2019.pdf
+
+- key: "DBLP:phd/hal/Ramirez18"
+  title: "A Framework for Autonomous Generation of Strategies in Satisfiability Modulo Theories"
+  authors:
+    - name: Nicolas Galvez Ramirez
+  venue: ""
+  year: 2018
+  type: PhdThesis
+  tags:
+    - SBSE
+  urls:
+    - https://doctorado.inf.utfsm.cl/index.php/mas-noticias/30-sr-nicolas-sebastian-galvez-ramirez-obtiene-su-grado-de-doctor-en-ingenieria-en-informatica
+    - https://tel.archives-ouvertes.fr/tel-02136805
 
 - key: "Hoos:2018:AutoAI"
   title: "Automated Artificial Intelligence (AutoAI)"
@@ -5024,6 +5378,7 @@
   authors:
     - name: Mahmoud A. Bokhari
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Markus Wagner
   venue: "MobiQuitous"
   year: 2018
@@ -5348,6 +5703,7 @@
     - name: Yuanzhong Xia
     - name: Bo Zhou
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Markus Wagner
   venue: "ArXiV"
   year: 2017
@@ -5524,6 +5880,7 @@
     - name: Mahmoud A. Bokhari
     - name: Bobby R. Bruce
     - name: Brad Alexander
+      aka: Bradley Alexander
     - name: Markus Wagner
   venue: "GI@GECCO"
   year: 2017
@@ -5788,6 +6145,7 @@
   title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
   authors:
     - name: Alexander Edward Ian Brownlee
+      aka: Alexander E. I. Brownlee
     - name: Nathan Burles
     - name: Jerry Swan
   venue: "IEEE TETCI"
@@ -7865,6 +8223,7 @@
     - ML
     - SBSE
   pdfs:
+    - http://www.cs.ucl.ac.uk/staff/mharman/seams14.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/seams14main-id100-p-22852-aede8e5-20619-submitted.pdf
 
 - key: "Kocsis:2014:SMGP"
@@ -9176,6 +9535,8 @@
   year: 2000
   type: Conference
   doi: https://doi.org/10.1007/978-3-540-46239-2_26
+  urls:
+    - https://pure.ul.ie/en/publications/paragen-the-first-results
 
 - key: "Hussain:2000:GECCO"
   title: "Evolutionary Techniques Applied to Hashing: An efficient data retrieval method"

@@ -89,12 +89,13 @@ for chunk in data
   tags << 'AI' if keywords =~ /artificial intelligence/i
   tags << 'APR' if keywords =~ /program repair/i or keywords =~ /APR/
   tags << 'GISMO' if keywords =~ /gismo/i
-  tags << 'LLM' if keywords =~ /language model/i or keywords =~ /LLM/
+  tags << 'LLM' if title =~ /language model/i or title =~ /LLM/ or keywords =~ /language model/i or keywords =~ /LLM/
   tags << 'ML' if keywords =~ /machine learning/i
   tags << 'SBSE' if keywords =~ /(search.based software|sbse)/i
   tags << 'testing' if keywords =~ /(testing| test )/i or title =~ /testing/i
   tags << 'survey' if chunk =~ /survey/i
   tags << 'PyGGI' if title =~ /PyGGI/i or abstract =~ /PyGGI/i or keywords =~ /PyGGI/i or chunk =~ /coinse\/pyggi/
+  tags << 'Magpie' if title =~ /magpie/i or abstract =~ /magpie/i or keywords =~ /magpie/i
   urls = chunk.scan(/^\s*(?:|code_)url\s*=\s*"(.*?)"\s*,\s*$/i).map(&:first)
   video_urls = chunk.scan(/^\s*video_url\s*=\s*"(.*?)"\s*,\s*$/i).map(&:first)
   slides_urls = chunk.scan(/^\s*slides_url\s*=\s*"(.*?)"\s*,\s*$/i).map(&:first)
@@ -110,7 +111,7 @@ out.each do |h|
        'ars technica UK'
     h[:type] = 'Web'
 
-  when /APR@ICSE/, /APR @ ICSE/, /\(APR'22\)/
+  when /APR@ICSE/, /APR @ ICSE/, /\(APR'22\)/, /International Workshop on Automated Program Repair/
     h[:venue] = 'APR@ICSE'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop on Binary Analysis Research/i
@@ -180,7 +181,7 @@ out.each do |h|
     h[:venue] = 'ACSOS'
   when /Conference on Adaptive Hardware and Systems/i
     h[:venue] = 'AHS'
-  when /Conference on Artificial Life/i
+  when /Conference on Artificial Life/i, /Artificial Life Conference/i
     h[:venue] = 'ALIFE'
   when /Asia-Pacific Software Engineering Conference/i
     h[:venue] = 'APSEC'
@@ -201,19 +202,23 @@ out.each do |h|
     h[:venue] = 'DSN'
   when /Evaluation and Assessment in Software Engineering/i
     h[:venue] = 'EASE'
+  when /International Conference on Embodied Intelligence/i
+    h[:venue] = 'EI'
   when /EuroGP/, /European Conference on Genetic Programming/i
     h[:venue] = 'EuroGP'
   when /(Joint Meeting|European Software Engineering Conference).* Foundations of Software Engineering/i
     h[:venue] = 'ESEC/FSE'
   when /ESEC\/FSE/
     h[:venue] = 'ESEC/FSE'
-  when /European Conference on the Applications of Evolutionary Computation/i
+  when /European Conference on the Applications of Evolutionary Computation/i, /EvoApplications/
     h[:venue] = 'EvoAPPS'
   when /International Conference on the Applications of Evolutionary Computation/i
     h[:venue] = 'EvoSET'
+  when /Evostar 2025 Late breaking abstracts/i
+    h[:venue] = 'EvoStar-LBA'
   when /FoSE post conference proceedings/
     h[:venue] = 'FoSE'
-  when /International Symposium on( the)? Foundations of Software Engineering/i
+  when /(International Symposium on( the)? )?Foundations of Software Engineering/i
     h[:venue] = 'FSE'
   when /Global Conference on Consumer Electronics/
     h[:venue] = 'GCCE'
@@ -333,7 +338,9 @@ out.each do |h|
 
   h[:authors_aka] = h[:authors].map do |author|
     case author
-    when /Alexander (?:Edward Ian)?Brownlee/
+    when /Brad Alexander/
+      'Bradley Alexander'
+    when /Alexander (?:Edward Ian )?Brownlee/
       'Alexander E. I. Brownlee'
     when 'Bobby Bruce'
       'Bobby R. Bruce'
@@ -342,6 +349,8 @@ out.each do |h|
       'William B. Langdon'
     when /Sae?mundur (?:O.|Oskar)? ?Haraldsson/
       'Saemundur O. Haraldsson'
+    when /Penny? (Faulkner )?Rainford/
+      'Penn Faulkner Rainford'
     when 'Christopher Steven Timperley'
       'Christopher Timperley'
     when 'Kenneth Peter Williams'
