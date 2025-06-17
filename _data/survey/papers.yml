@@ -13,6 +13,44 @@
   pdfs:
     - https://discovery.ucl.ac.uk/id/eprint/10203326/1/main.pdf
 
+- key: "Souza:TOSEM"
+  title: "Software Product Line Engineering via Software Transplantation"
+  authors:
+    - name: Leandro Oliveira de Souza
+    - name: Eduardo Santana de Almeida
+    - name: Paulo Anselmo da Mota Silveira Neto
+    - name: Earl T. Barr
+    - name: Justyna Petke
+  venue: "ACM TOSEM"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1145/3695987
+  urls:
+    - https://www.human-competitive.org/sites/default/files/humie_entry_foundry_0.txt
+    - https://autotransplantation-spl.github.io/foundry.github.io/
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Souza_2024_TOSEM.pdf
+    - https://discovery.ucl.ac.uk/id/eprint/10196236/1/Souza_2024_TOSEM.pdf
+    - https://www.human-competitive.org/sites/default/files/humie_entry_foundry_0.pdf
+
+- key: "silva2025gradientbasedprogramrepairfixing"
+  title: "Gradient-Based Program Repair: Fixing Bugs in Continuous Program Spaces"
+  authors:
+    - name: Andre Silva
+    - name: Gustav Thoren
+    - name: Martin Monperrus
+  venue: "ArXiV"
+  year: 2025
+  type: Archive
+  tags:
+    - APR
+    - SBSE
+    - testing
+  urls:
+    - https://arxiv.org/abs/2505.17703
+  pdfs:
+    - https://arxiv.org/pdf/2505.17703.pdf
+
 - key: "langdon:2024:ASE"
   title: "Deep Imperative Mutations have Less Impact"
   authors:
@@ -194,6 +232,8 @@
     - https://github.com/bloa/magpie
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2025/blot_2025_GI.pdf
+  slides:
+    - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/blot_gi@icse_2025.pdf
 
 - key: "songpetchmongkol:2025:GI"
   title: "Empirical Comparison of Runtime Improvement Approaches: Genetic Improvement, Parameter Tuning, and Their Combination"
@@ -263,9 +303,11 @@
   year: 2025
   abstract: "we introduce a novel large language model (LLM)-based masking mutation operator for Genetic Improvement (GI), which leverages code completion capabilities of large language models to replace masked code segments with contextually relevant modifications. Our approach was tested on five open-source Java projects, where we compared its effectiveness against both traditional GI mutations and an existing LLM-based replacement mutation operator using random sampling and local search algorithms. Results show that the masking mutation operator creates a search space with more compiling and test-passing patches, reducing model response time by up to 60.7% compared to the replacement mutation. Additionally, it outperforms the replacement mutation in achieving the highest runtime improvement on four out of five projects and discovers more runtime-improving patches across all projects. However, combining the masking mutation with traditional GI mutations yielded inconsistent results, suggesting further investigation is needed. This study highlights the promise of LLM-based code completion to boost the efficiency and effectiveness of GI for automated software optimisation."
   type: Workshop
+  tags:
+    - LLM
   urls:
-    - https://discovery.ucl.ac.uk/id/eprint/10204242/
     - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+    - https://discovery.ucl.ac.uk/id/eprint/10204242/
   pdfs:
     - https://gpbib.cs.ucl.ac.uk/gi2025/wang_2025_GI.pdf
   video:
@@ -314,6 +356,7 @@
   type: Conference
   tags:
     - APR
+    - LLM
   urls:
     - https://arxiv.org/html/2306.17077v2
     - https://conf.researchr.org/profile/forge-2025/spandangarg
@@ -353,6 +396,22 @@
   urls:
     - https://doi.ieeecomputersociety.org/10.1109/TSE.2025.3533309
 
+- key: "langdon:2025:SEN"
+  title: "The 14th International Workshop on Genetic Improvement (GI @ ICSE 2025)"
+  authors:
+    - name: William B. Langdon
+    - name: Aymeric Blot
+    - name: Oliver Krauss
+  venue: "SEN"
+  year: 2025
+  type: Journal
+  tags:
+    - LLM
+    - testing
+    - Magpie
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2025_sen.pdf
+
 - key: "Kuepper24"
   title: "Enhancing State-of-the-Art Techniques Generating Low-Level Code for Cryptographic Arithmetic"
   authors:
@@ -389,23 +448,6 @@
   year: 2024
   type: Journal
   doi: https://doi.org/10.1145/3703920
-
-- key: "Souza:TOSEM"
-  title: "Software Product Line Engineering via Software Transplantation"
-  authors:
-    - name: Leandro Oliveira de Souza
-    - name: Eduardo Santana de Almeida
-    - name: Paulo Anselmo da Mota Silveira Neto
-    - name: Earl T. Barr
-    - name: Justyna Petke
-  venue: "ACM TOSEM"
-  year: 2024
-  type: Journal
-  doi: https://doi.org/10.1145/3695987
-  urls:
-    - https://autotransplantation-spl.github.io/foundry.github.io/
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Souza_2024_TOSEM.pdf
 
 - key: "Guizzo:2024:TOSEM"
   title: "Speeding up Genetic Improvement via Regression Test Selection"
@@ -2197,6 +2239,22 @@
   tags:
     - APR
 
+- key: "DBLP:journals/tsusc/AlofiBBH22"
+  title: "Optimizing the Energy Consumption of Blockchain-Based Systems Using Evolutionary Algorithms: A New Problem Formulation"
+  authors:
+    - name: Akram Alofi
+    - name: Mahmoud A. Bokhari
+    - name: Rami Bahsoon
+    - name: Robert J. Hendley
+  venue: "IEEE Transactions on Sustainable Computing"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.1109/TSUSC.2022.3160491
+  tags:
+    - SBSE
+  urls:
+    - https://research.birmingham.ac.uk/en/publications/optimizing-the-energy-consumption-of-blockchain-based-systems-usi
+
 - key: "Liou:2022:IISWC"
   title: "Understanding the Power of Evolutionary Computation for GPU Code Optimization"
   authors:
@@ -2883,6 +2941,8 @@
   doi: https://doi.org/10.1007/978-981-16-8113-4_3
   tags:
     - SBSE
+  urls:
+    - https://github.com/alcides/GeneticEngine
 
 - key: "DBLP:conf/icaisc/VianaCJ21"
   title: "A New Genetic Improvement Operator Based on Frequency Analysis for Genetic Algorithms Applied to Job Shop Scheduling Problem"
@@ -4138,6 +4198,8 @@
   doi: https://doi.org/10.1145/3321707.3321841
   tags:
     - SBSE
+  urls:
+    - https://github.com/gintool/gin
   pdfs:
     - https://cs.adelaide.edu.au/users/markus/pub/2019gecco-gintool.pdf
   slides:
@@ -5964,6 +6026,8 @@
   doi: https://doi.org/10.1145/3067695.3082515
   tags:
     - SBSE
+  urls:
+    - https://github.com/gintool/gin
   pdfs:
     - http://geneticimprovementofsoftware.com/wp-content/uploads/2017/05/white2017_gin.pdf
     - https://github.com/gintool/gin/blob/master/doc/gin.pdf
@@ -7049,35 +7113,6 @@
     - http://arxiv.org/pdf/arXiv:1505.07855.pdf
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn-15-03.pdf
 
-- key: "Kong:2015:ieeeISSRE"
-  title: "Experience report: How do techniques, programs, and tests impact automated program repair?"
-  authors:
-    - name: Xianglong Kong
-    - name: Lingming Zhang
-    - name: W. Eric Wong
-    - name: Bixin Li
-  venue: "26th IEEE International Symposium on Software Reliability Engineering (ISSRE)"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1109/ISSRE.2015.7381813
-  tags:
-    - APR
-    - SBSE
-
-- key: "Le:2015:ieeeISSRE"
-  title: "Should fixing these failures be delegated to automated program repair?"
-  authors:
-    - name: Xuan-Bach D. Le
-    - name: Tien-Duy B. Le
-    - name: David Lo
-  venue: "26th IEEE International Symposium on Software Reliability Engineering (ISSRE)"
-  year: 2015
-  type: Conference
-  doi: https://doi.org/10.1109/ISSRE.2015.7381836
-  tags:
-    - APR
-    - SBSE
-
 - key: "Mullapudi:2015:ASPLOS"
   title: "PolyMage: Automatic Optimization for Image Processing Pipelines"
   authors:
@@ -7592,6 +7627,35 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/bowtie2_supplementary.pdf
   video:
     - http://youtu.be/Ut0qERy9yZQ
+
+- key: "Kong:2015:ieeeISSRE"
+  title: "Experience report: How do techniques, programs, and tests impact automated program repair?"
+  authors:
+    - name: Xianglong Kong
+    - name: Lingming Zhang
+    - name: W. Eric Wong
+    - name: Bixin Li
+  venue: "ISSSRE"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ISSRE.2015.7381813
+  tags:
+    - APR
+    - SBSE
+
+- key: "Le:2015:ieeeISSRE"
+  title: "Should fixing these failures be delegated to automated program repair?"
+  authors:
+    - name: Xuan-Bach D. Le
+    - name: Tien-Duy B. Le
+    - name: David Lo
+  venue: "ISSSRE"
+  year: 2015
+  type: Conference
+  doi: https://doi.org/10.1109/ISSRE.2015.7381836
+  tags:
+    - APR
+    - SBSE
 
 - key: "Qi:2015:APP:2771783.2771791"
   title: "An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems"

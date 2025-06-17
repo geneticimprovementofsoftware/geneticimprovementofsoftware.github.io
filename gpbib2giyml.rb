@@ -256,6 +256,8 @@ out.each do |h|
     h[:venue] = 'IISWC'
   when /International Symposium on System and Software Reliability/i
     h[:venue] = 'ISSSR'
+  when /International Symposium on Software Reliability Engineering/i
+    h[:venue] = 'ISSRE'
   when /International Symposium on Software Testing and Analysis/i
     h[:venue] = 'ISSTA'
   when /International Instrumentation and Measurement Technology Conference/i

@@ -2,6 +2,10 @@
 active: events
 
 workshops:
+- name: 14th International Workshop
+  venue: GI@ICSE
+  year: 2025
+  anchor: icse2025
 - name: 13th International Workshop
   venue: GI@ICSE
   year: 2024
