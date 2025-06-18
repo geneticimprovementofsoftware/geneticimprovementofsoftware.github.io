@@ -26,14 +26,13 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 
 ## News
-* The [14th International Workshop on Genetic Improvement](events/icse2025) will take place at [ICSE 2025](https://conf.researchr.org/home/icse-2025). 
+* The [14th International Workshop on Genetic Improvement](events/icse2025) took place at [ICSE 2025](https://conf.researchr.org/home/icse-2025). 
 * We would like to invite researchers to submit to the special issue on Genetic Improvement in the [Automated Software Engineering Journal](https://link.springer.com/collections/fihghiidjg)
 
 
 ## Older News
 * A tutorial on genetic improvement was given at [GECCO 2024](https://gecco-2024.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods) by Sandy Brownlee, Saemundur Haraldsson, John R. Woodward, and Markus Wagner.
-* The [13th International Workshop on Genetic Improvement](events/icse2024) took place at [ICSE 2024](https://conf.researchr.org/home/icse-2024). Prof. Shin Yoo gave the keynote talk. [Recordings available on Youtube](https://youtube.com/playlist?list=PLI8fiFpB7BoIRqJuY80XwmH-DFT_71y2S). Dr. Aymeric Blot presented the latest version of the Magpie tool, available at [https://github.com/bloa/magpie]  
-  (https://github.com/bloa/magpie), supporting a variety of algorithms, GI operators, and parameter tuning capabilities.
+* The [13th International Workshop on Genetic Improvement](events/icse2024) took place at [ICSE 2024](https://conf.researchr.org/home/icse-2024). Prof. Shin Yoo gave the keynote talk. [Recordings available on Youtube](https://youtube.com/playlist?list=PLI8fiFpB7BoIRqJuY80XwmH-DFT_71y2S). Dr. Aymeric Blot presented the latest version of the Magpie tool, available at [https://github.com/bloa/magpie](https://github.com/bloa/magpie), supporting a variety of algorithms, GI operators, and parameter tuning capabilities.
 * The CREST Centre at UCL is inviting attendees for 2 GI-related workshops, on Aug 3rd-4th and Sep 18th-19th. Please register for [COW64 and COW65](https://www.ucl.ac.uk/crest/crest-open-workshops).
 * A tutorial on genetic improvement was given at [GECCO 2023](https://gecco-2023.sigevo.org/Tutorials#id_Genetic%20Improvement:%20Taking%20real-world%20source%20code%20and%20improving%20it%20using%20computational%20search%20methods) by Alexander Brownlee, Saemundur Haraldsson, and John Woodward.
 * The [12th International Workshop on Genetic Improvement](events/icse2023) took place at [ICSE 2023](https://conf.researchr.org/home/icse-2023). Prof. Myra Cohen and Dr. Sebastian Baltes gave keynote talks.
