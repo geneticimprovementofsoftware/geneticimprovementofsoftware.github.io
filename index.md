@@ -26,7 +26,7 @@ We as a community run a workshop and frequent [events]({{ "/events/gi" | relativ
 
 
 ## News
-* The [15th International Workshop on Genetic Improvement](events/icse2026) took place at [ICSE 2026](https://conf.researchr.org/home/icse-2026). 
+* The [15th International Workshop on Genetic Improvement](events/icse2026) will take place at [ICSE 2026](https://conf.researchr.org/home/icse-2026) on April 12 2026 (Sun).
 * We would like to invite researchers to submit to the special issue on Genetic Improvement in the [Automated Software Engineering Journal](https://link.springer.com/collections/fihghiidjg)
 
 
