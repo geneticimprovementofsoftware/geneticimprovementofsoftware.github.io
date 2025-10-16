@@ -58,6 +58,18 @@
 - name: Damien Anderson
   homepage: https://www.strath.ac.uk/staff/andersondamienmr/
 
+- name: Wesley K. G. Assunção
+  aka:
+    - Wesley Assunção
+    - Wesley Klewerton Guez Assunção
+  show: yes
+  affil: North Carolina State University, USA
+  homepage: https://wesleyklewerton.github.io/
+  dblp: https://dblp.org/pid/90/9459.html
+  scholar: https://scholar.google.com/citations?user=PBndQZcAAAAJ
+  twitter: https://twitter.com/wesleyklewerton
+  img: /profile_images/wesley_assuncao.jpg
+
 - name: Roberto Baena-Galle
   homepage: https://www.linkedin.com/in/roberto-baena-galle
 
