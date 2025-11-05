@@ -339,7 +339,7 @@
   homepage: https://research.fb.com/people/harman-mark/
   dblp: https://dblp.org/pid/h/MarkHarman.html
   scholar: https://scholar.google.co.uk/citations?user=IwSN8IgAAAAJ&hl=en
-  img: /profile_images/mark_harmon.jpg
+  img: /profile_images/mark_harman.jpg
 
 - name: Paul Harvey
   homepage: http://paul-harvey.org/
@@ -672,8 +672,13 @@
   scholar: https://scholar.google.co.kr/citations?user=iy6MS74AAAAJ
   img: /profile_images/jeongju_sohn.jpg
 
-- name: Thanatad Songpetchmongkol
+- name: Dif Songpetchmongkol
+  aka:
+    - Thanatad Songpetchmongkol
+  show: yes
+  affil: University College London, UK
   homepage: https://www.linkedin.com/in/thanatad-songpetchmongkol/
+  img: /profile_images/thanatad_songpetchmongkol.jpg
 
 - name: Susan Stepney
   homepage: https://www.cs.york.ac.uk/people/susan
