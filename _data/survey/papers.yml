@@ -439,6 +439,70 @@
     - https://www.youtube.com/watch?v=Bi-zMtpSVzI&list=PLI8fiFpB7BoL5jUkvndWvSEywsu8dMdIo&index=5
     - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/langdon_icse2025.mp4
 
+- key: "lee:2026:GI"
+  title: "GI-Agent Search-Based LLM Agent for Code Optimization with Genetic Improvement"
+  authors:
+    - name: Donghyun Lee
+    - name: William B. Langdon
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "GI-Agent integrates Large Language Models (LLMs) into Genetic Improvement (GI) to autonomously optimise computer program source code.  GI-Agent uses an LLM to allow multi-generational evolutionary learning.  Guided by a memory of past actions, known in AI as reflections, it exploits them to give insight and rationale behind software edits, giving better context-aware, less stochastic, mutations and crossovers.  Reflections enable GI-Agent to reason about both earlier compile time and runtime successes and failures, and so refine its strategy over time.  Integrated into the Magpie GI framework and evaluated on the SAT4J (Java) and MiniSAT (C++) benchmarks, GI-Agent consistently generates more viable and better variants.  By combining few-shot prompting with structured search, GI-Agent demonstrates how LLMs can enhance automated program optimisation."
+  type: Workshop
+  tags:
+    - LLM
+    - Magpie
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
+
+- key: "langdon:2026:GI"
+  title: "Improving a Parallel C++ Intel SSE SIMD Linear Genetic Programming Interpreter"
+  authors:
+    - name: William B. Langdon
+    - name: Carol Hanna
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "We use evolution to speedup the new Single Instruction Multiple Data (SIMD) parallel interpreter for Peter Nordin's linear genetic programming GPengine.  MAGPIE (Machine Automated General Performance Improvement via Evolution of software) is provided with existing hand optimised code, its revision history and the Intel 256 bit SSE documentation as XML.  Linux mprotect sandboxes whilst performance is given by perf instruction count.  In a matter of hours local search automatically sped up 128 lines of manually written parallel C++ SIMD code for the Intel Advanced Vector Extensions (AVX) by 2 %."
+  type: Workshop
+  tags:
+    - SBSE
+    - Magpie
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
+
+- key: "jadhwani:2026:GI"
+  title: "Applying Genetic Improvement Techniques for Automated Program Repair of Transpiled Code"
+  authors:
+    - name: Prasham Jadhwani
+    - name: Carol Hanna
+    - name: William B. Langdon
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "We use Genetic Improvement (GI)-based Automated Program Repair (APR) techniques for syntax correction on transpiled code produced by both large language models (LLMs) and rule-based translators.  LLM-assisted Type Change Operator and Boolean Value Change Operator were added to Magpie, which reduced transpilation bugs from Python to Java by 33% (LLM) and by 18% on rule-based translations."
+  type: Workshop
+  tags:
+    - APR
+    - LLM
+    - Magpie
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
+
+- key: "fredericks:2026:GI"
+  title: "Databending as a Target for Genetic Improvement"
+  authors:
+    - name: Erik Fredericks
+    - name: Byron DeVries
+    - name: Reihaneh Hariri
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "Genetic improvement (GI) is typically used as an approach for optimizing source code for a particular task, where examples include minimizing runtime, improving energy efficiency, and reducing memory footprint.  As with any evolutionary algorithm, GI will optimize for a desired fitness objective and can be coerced into objectives that are not strictly for the improvement of software.  This paper presents in-progress work towards using GI as a method for generating glitch art, or artwork that is created by intentionally corrupting files (i.e., databending) to provide an aesthetic or emotional experience.  We use the PYGGI framework to explore how code patches can impact an existing glitch art framework, with the goal being to find new and interesting outputs that are different from what can be found with random search."
+  type: Workshop
+  tags:
+    - PYGGI
+  urls:
+    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
+
 - key: "Garg:2025:ICSE"
   title: "Improving Code Performance Using LLMs in Zero-Shot: RAPGen"
   authors:
