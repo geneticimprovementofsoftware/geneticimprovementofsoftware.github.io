@@ -333,6 +333,12 @@
   twitter: https://twitter.com/SaemundO
   img: /profile_images/saemundur_haraldsson.jpg
 
+- name: Reihaneh Hariri
+  aka:
+    - Reihaneh H. Hariri
+  homepage: https://www.linkedin.com/in/reihanehhariri/
+  scholar: https://scholar.google.com/citations?user=5J3HF8wAAAAJ
+
 - name: Mark Harman
   show: yes
   affil: Meta Platforms Inc.
@@ -363,6 +369,9 @@
 
 - name: John Jabbo
   homepage: https://www.linkedin.com/in/jfjabbo/
+
+- name: Prasham Jadhwani
+  homepage: https://www.linkedin.com/in/prashamj/
 
 - name: Gunel Jahangirova
   show: yes
@@ -479,6 +488,9 @@
   aka:
     - Kevin Leach
   homepage: https://kjl.name/
+
+- name: Donghyun Lee
+  scholar: https://scholar.google.com/citations?user=JVsCSUoAAAAJ
 
 - name: Claire Le Goues
   homepage: https://clairelegoues.com/
