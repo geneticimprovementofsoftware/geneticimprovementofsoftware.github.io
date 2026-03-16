@@ -101,7 +101,7 @@ for chunk in data
   slides_urls = chunk.scan(/^\s*slides_url\s*=\s*"(.*?)"\s*,\s*$/i).map(&:first)
   slides_urls += chunk.scan(/slides:?\s*(http\S*?\.pdf)/i)
 
-  out << {key: key, title: title, authors: authors, venue: venue, type: type, year: year, abstract: abstract, doi: doi, tags: tags.uniq, urls: urls, pdfs: [], video: video_urls, slides: slides_urls}
+  out << {key: key, title: title, authors: authors, venue: venue, type: type, year: year, abstract: abstract, doi: doi, tags: tags.uniq, urls: urls.uniq, pdfs: [], video: video_urls.uniq, slides: slides_urls.uniq}
 end
 
 out.each do |h|
@@ -165,14 +165,32 @@ out.each do |h|
   when /International Workshop on Empirical Software Engineering in Practice/i
     h[:venue] = 'IWESEP'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
-  when /International Workshop, NSV 2020/i
-    h[:venue] = 'NSV'
+  when /International Workshop on Multicore Software Engineering/
+    h[:venue] = 'IWMSE'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when 'PPSN-2016 Workshop on Landscape-Aware Heuristic Search'
+    h[:venue] = 'LAHS@PPSN'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Large Language Models for and with Evolutionary Computation Workshop/
     h[:venue] = 'LLMfwEC@GECCO'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /International Workshop, NSV 2020/i
+    h[:venue] = 'NSV'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /Workshop on Programming Languages and Operating Systems/
+    h[:venue] = 'PLOS'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /Workshop on Soft Computing Applied to Software Engineering/
+    h[:venue] = 'SCASE'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /UK Workshop on Computational Intelligence/
+    h[:venue] = 'UKCI'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /Workshop On Approximate Computing/i
     h[:venue] = 'WAPCO'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /Workshop and Summer School on Evolutionary Computing/i
+    h[:venue] = 'WSSEC'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
 
   when /Autonomic Computing and Self-Organizing Systems Compagnion/i
@@ -187,11 +205,12 @@ out.each do |h|
     h[:venue] = 'APSEC'
   when /Architectural Support for Programming Languages and Operating Systems/i
     h[:venue] = 'ASPLOS'
-  when /International Conference on Automated Software Engineering/i
+  when /International Conference on Automated Software Engineering/i, 'ASE 2025'
     h[:venue] = 'ASE'
   when /Conference on Computer and Communications Security/i
     h[:venue] = 'CCS'
-  when /Congress on Evolutionary Computation/i
+  when /Congress on Evolutionary Computation/i,
+       'Key Challenges and Future Directions of Evolutionary Computation'
     h[:venue] = 'CEC'
   when 'GI @ CEC 2020 Special Session'
     h[:venue] = 'CEC'
@@ -210,6 +229,8 @@ out.each do |h|
     h[:venue] = 'ESEC/FSE'
   when /ESEC\/FSE/
     h[:venue] = 'ESEC/FSE'
+  when 'European School of Parallel Programming Environments'
+    h[:venue] = 'ESPPE'
   when /European Conference on the Applications of Evolutionary Computation/i, /EvoApplications/
     h[:venue] = 'EvoAPPS'
   when /International Conference on the Applications of Evolutionary Computation/i
@@ -220,6 +241,8 @@ out.each do |h|
     h[:venue] = 'FoSE'
   when /(International Symposium on( the)? )?Foundations of Software Engineering/i
     h[:venue] = 'FSE'
+  when 'FSE, Ideas, Visions and Reflections'
+    h[:venue] = 'FSE-IVR'
   when /Global Conference on Consumer Electronics/
     h[:venue] = 'GCCE'
   when /Companion.*Genetic and Evolutionary Computation Conference/i,
@@ -227,7 +250,7 @@ out.each do |h|
        /Genetic and Evolutionary Computation Conference.*Companion/i,
        /Conference on Genetic and Evolutionary Computation.*Companion/i,
        /GECCO.*companion/
-    h[:venue] = 'GECCO-comp'
+    h[:venue] = 'GECCO-Comp'
   when /Genetic and Evolutionary Computation Conference/i,
        /Conference on Genetic and Evolutionary Computation/i
     h[:venue] = 'GECCO'
@@ -241,8 +264,14 @@ out.each do |h|
     h[:venue] = 'ICAIS'
   when /Artificial Intelligence and Soft Computing/i
     h[:venue] = 'ICAISC'
+  when /International Conference on Cognitive Informatics/
+    h[:venue] = 'ICCI'
   when /International Conference on Computational and Information Sciences/i
     h[:venue] = 'ICCIS'
+  when /International Conference on Evolutionary Computation/
+    h[:venue] = 'ICEC'
+  when /International Conference on Program Comprehension/
+    h[:venue] = 'ICPC'
   when /Companion.*International Conference on Software Engineering/i,
        /International Conference on Software Engineering.*Companion/i
     h[:venue] = 'ICSE-comp'
@@ -254,6 +283,8 @@ out.each do |h|
     h[:venue] = 'ICST'
   when /International Symposium on Workload Characterization/i
     h[:venue] = 'IISWC'
+  when /International Symposium on Leveraging Applications of Formal Methods, Verification and Validation/
+    h[:venue] = 'ISoLA'
   when /International Symposium on System and Software Reliability/i
     h[:venue] = 'ISSSR'
   when /International Symposium on Software Reliability Engineering/i
@@ -286,6 +317,8 @@ out.each do |h|
     h[:venue] = 'QRS-C'
   when /Soci.* Fran.*aise de Recherche Op.*rationnelle et d'Aide .* la D.*cision/
     h[:venue] = 'ROADEF'
+  when /Reach Emerging Architectures in Computing Horizons/
+    h[:venue] = 'REACH'
   when 'Search-Based Software Testing'
     h[:venue] = 'SBST'
   when /Conference on Source Code Analysis and Manipulation/i
@@ -301,6 +334,7 @@ out.each do |h|
   when /International Conference on Software Analysis, Evolution,? and Reengineering/i
     h[:venue] = 'SANER'
   when /Symposium.* on Search[- ]Based Software Engineering/i,
+       /Search-Based Software Engineering 2025/,
        /SSBSE/
     h[:venue] = 'SSBSE'
   when /International Symposium on Symbolic and Numeric Algorithms for Scientific Computing/i
@@ -310,18 +344,32 @@ out.each do |h|
 
   when 'Applied Sciences'
     h[:venue] = 'AS'
+  when 'Automated Software Engineering'
+    h[:venue] = 'ASE'
+  when 'ACM Computing Surveys'
+    h[:venue] = 'ACM CSUR'
+  when 'ACM Transactions on Autonomous and Adaptive Systems'
+    h[:venue] = 'ACM TAAS'
   when 'ACM Transactions on Architecture and Code Optimization'
     h[:venue] = 'ACM TACO'
   when 'ACM Transactions on Evolutionary Learning and Optimization'
     h[:venue] = 'ACM TELO'
+  when /ACM Transactions on Graphics/
+    h[:venue] = 'ACM TOG'
   when /ACM Transactions on Software Engineering and Methodolog/
     h[:venue] = 'ACM TOSEM'
+  when /Communications of the ACM/
+    h[:venue] = 'CACM'
+  when 'Computer Science Journal of Moldova'
+    h[:venue] = 'CSJM'
   when 'Expert Systems with Applications'
     h[:venue] = 'ESA'
   when 'Empirical Software Engineering'
     h[:venue] = 'ESE'
   when 'Genetic Programming and Evolvable Machines'
     h[:venue] = 'GPEM'
+  when 'IEEE Transactions on Sustainable Computing'
+    h[:venue] = 'IEEE T-SUSC'
   when 'IEEE Transactions on Emerging Topics in Computational Intelligence'
     h[:venue] = 'IEEE TETCI'
   when 'IEEE Transactions on Evolutionary Computation'
@@ -330,12 +378,22 @@ out.each do |h|
     h[:venue] = 'IEEE TSE'
   when /International Journal of Recent Trends in Engineering/
     h[:venue] = 'IJRTE'
+  when 'Information Technology and Control'
+    h[:venue] = 'ITC'
+  when 'Journal of Automated Reasoning'
+    h[:venue] = 'JAR'
   when 'Journal of Software Engineering Research and Development'
     h[:venue] = 'JSERD'
+  when 'Journal of Systems and Software'
+    h[:venue] = 'JSS'
+  when 'Journal of Systems Science and Complexity'
+    h[:venue] = 'JSSC'
   when /SIGEVOlution/
     h[:venue] = 'SIGEVOlution'
   when 'SIGSOFT Software Engineering Notes'
-    h[:venue] = 'SEN'
+    h[:venue] = 'SIGSOFT SEN'
+  when 'Software Quality Journal'
+    h[:venue] = 'SQJ'
   end
 
   h[:authors_aka] = h[:authors].map do |author|
@@ -405,7 +463,7 @@ out.each do |h|
   case h[:doi]
   when /^http:(.*)/
     h[:doi] = 'https:%s'%$1
-  when /^doi:(.*)/
+  when /^doi:(.*)/, /^(10\..*)/
     h[:doi] = 'https://doi.org/%s'%$1
   end
 

@@ -1,24 +1,104 @@
-- key: "Langdon:2025:UKCI"
-  title: "A Genetic Improvement Parameter Benchmark: rand\_malloc.c"
+- key: "Nemeth:2026:TELO"
+  title: "Revisiting the Fitness Landscape of Genetic Improvement for Source Code: A Phenotypic Speciation Approach"
   authors:
+    - name: Zsolt Nemeth
+    - name: Penn Faulkner Rainford
+    - name: Barry Porter
+  venue: "ACM TELO"
+  year: 2026
+  type: Journal
+  doi: https://doi.org/10.1145/3748518
+  tags:
+    - SBSE
+
+- key: "jadhwani:2026:GI"
+  title: "Applying Genetic Improvement Techniques for Automated Program Repair of Transpiled Code"
+  authors:
+    - name: Prasham Jadhwani
+    - name: Carol Hanna
     - name: William B. Langdon
-  venue: "24th UK Workshop on Computational Intelligence (UKCI 2025)"
-  year: 2025
-  type: Conference
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "We use Genetic Improvement (GI)-based Automated Program Repair (APR) techniques for syntax correction on transpiled code produced by both large language models (LLMs) and rule-based translators. A three-stage pipeline was developed, combining rule-based test generation, an optional LLM-driven preprocessing stage for syntax correction, and GI-based repair strategies. LLM-assisted Type Change Operator and Boolean Value Change Operator were added to the MAGPIE GI framework, which reduced transpilation bugs from Python to Java by 33 percent (LLM) and by 18 percent on rule-based translations. A comprehensive taxonomy of common transpilation bugs was developed, mapping faults to mutation operators, alongside an evaluation of the effectiveness of secondary LLM interventions."
+  type: Workshop
   tags:
     - SBSE
     - Magpie
-  urls:
-    - https://github.com/wblangdon/rand_malloc
   pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2025_UKCI.pdf
+    - http://gpbib.cs.ucl.ac.uk/gi2026/jadhwani_2026_GI.pdf
+
+- key: "Fredericks:2026:GI"
+  title: "Databending as a Target for Genetic Improvement"
+  authors:
+    - name: Erik Fredericks
+    - name: Byron DeVries
+    - name: Reihaneh Hariri
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "Genetic improvement (GI) is typically used as an approach for optimizing source code for a particular task, where examples include minimizing runtime, improving energy efficiency, and reducing memory footprint. As with any evolutionary algorithm, GI will optimize for a desired fitness objective and can be coerced into objectives that are not strictly for the improvement of software. This paper presents in-progress work towards using GI as a method for generating glitch art, or artwork that is created by intentionally corrupting files (i.e., databending) to provide an aesthetic or emotional experience. We use the PYGGI framework to explore how code patches can impact an existing glitch art framework, with the goal being to find new and interesting outputs that are different from what can be found with random search."
+  type: Workshop
+  tags:
+    - PyGGI
+  urls:
+    - https://github.com/efredericks/pyggi/tree/gi2026
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2026/Fredericks_2026_GI.pdf
+
+- key: "lee:2026:GI"
+  title: "GI-Agent Search-Based LLM Agent for Code Optimization with Genetic Improvement"
+  authors:
+    - name: Donghyun Lee
+    - name: William B. Langdon
+    - name: Justyna Petke
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "GI-Agent integrates Large Language Models (LLMs) into Genetic Improvement (GI) to autonomously optimise computer program source code. GI-Agent uses an LLM to allow multi-generational evolutionary learning. Guided by a memory of past actions, known in AI as reflections, it exploits them to give insight and rationale behind software edits, giving better context-aware, less stochastic, mutations and crossovers. Reflections enable GI-Agent to reason about both earlier compile time and runtime successes and failures, and so refine its strategy over time. Integrated into the Magpie GI framework and evaluated on the SAT4J (Java) and MiniSAT (C++) benchmarks, GI-Agent consistently generates more viable and better variants. By combining few-shot prompting with structured search, GI-Agent demonstrates how LLMs can enhance automated program optimisation."
+  type: Workshop
+  tags:
+    - AI
+    - LLM
+    - SBSE
+    - Magpie
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2026/lee_2026_GI.pdf
+
+- key: "langdon:2026:GI"
+  title: "Improving a Parallel C++ Intel SSE SIMD Linear Genetic Programming Interpreter"
+  authors:
+    - name: William B. Langdon
+    - name: Carol Hanna
+  venue: "GI@ICSE"
+  year: 2026
+  abstract: "We use evolution to speedup the Single Instruction Multiple Data (SIMD) parallel interpreter for Peter Nordin's linear genetic programming GPengine. MAGPIE (Machine Automated General Performance Improvement via Evolution of software) is provided with existing hand-optimised source code, its revision history and the Intel 256 bit SSE intrinsics documentation as XML. Fitness is measured via perf's hardware instruction count, while validity and safety are enforced through systematic test cases and memory sandbox protection via Linux mprotect. In a matter of hours local search discovered small, non-obvious program modifications that improve the performance of 128 lines of SIMD C++ code by 2 percent, without sacrificing correctness. We see genetic improvement can effectively exploit Intel Advanced Vector Extensions (AVX) parallelism, automatically refining complex code that is difficult for human developers to optimise reliably."
+  type: Workshop
+  tags:
+    - SBSE
+    - testing
+    - Magpie
+  pdfs:
+    - http://gpbib.cs.ucl.ac.uk/gi2026/langdon_2026_GI.pdf
+
+- key: "Mar___Thesis"
+  title: "Automated Software Transplantation for Procedural Content Generation"
+  authors:
+    - name: Maria del Mar Zamorano Lopez
+  venue: ""
+  year: 2025
+  type: PhdThesis
+  tags:
+    - SBSE
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10215160
+  pdfs:
+    - https://discovery.ucl.ac.uk/id/eprint/10215160/1/Mar___Thesis.pdf
 
 - key: "blot:2025:ACMsurveys"
   title: "A Comprehensive Survey of Benchmarks for Improvement of Software's Non-Functional Properties"
   authors:
     - name: Aymeric Blot
     - name: Justyna Petke
-  venue: "ACM Computing Surveys"
+  venue: "ACM CSUR"
   year: 2025
   type: Journal
   doi: https://doi.org/10.1145/3711119
@@ -56,6 +136,130 @@
   video:
     - https://mediaspace.msu.edu/media/Petke+Video/1_95d3tabw
 
+- key: "langdon:2024:ASE"
+  title: "Deep Imperative Mutations have Less Impact"
+  authors:
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: David Clark
+  venue: "ASE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-024-00475-4
+  tags:
+    - SBSE
+    - testing
+    - Magpie
+  urls:
+    - https://rdcu.be/d4jme
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_ASE.pdf
+  video:
+    - https://youtu.be/zQ_lkIF6wwk
+    - http://crest.cs.ucl.ac.uk/W.Langdon/langdon_4-mar-2025.mp4
+  slides:
+    - http://crest.cs.ucl.ac.uk/W.Langdon/langdon_4-mar-2025.pdf
+
+- key: "Dakhama:2025:ASE"
+  title: "Enhancing Search-Based Testing with LLMs for Finding Bugs in System Simulators"
+  authors:
+    - name: Aidan Dakhama
+    - name: Karine Even-Mendoza
+    - name: W. B Langdon
+    - name: Hector D. Menendez
+    - name: Justyna Petke
+  venue: "ASE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.21203/rs.3.rs-5004178/v1
+  tags:
+    - LLM
+    - SBSE
+    - testing
+  urls:
+    - https://rdcu.be/evABt
+    - https://kclpure.kcl.ac.uk/portal/en/datasets/artifact-of-enhancing-search-based-testing-with-llms-for-finding-
+  pdfs:
+    - https://solar.cs.ucl.ac.uk/pdf/ASE_J_Gem5_11-apr-2025.pdf
+
+- key: "Even-Mendoza:2025:ASE_NIER"
+  title: "LLM-Guided Genetic Improvement: Envisioning Semantic Aware Automated Software Evolution"
+  authors:
+    - name: Karine Even-Mendoza
+    - name: Alexander E. I. Brownlee
+    - name: Alina Geiger
+    - name: Carol Hanna
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Dominik Sobania
+  venue: "ASE"
+  year: 2025
+  type: Conference
+  doi: https://doi.org/10.1109/ASE63991.2025.00339
+  tags:
+    - LLM
+  urls:
+    - https://kclpure.kcl.ac.uk/portal/en/publications/llm-guided-genetic-improvement-envisioning-semantic-aware-automat/
+    - https://arxiv.org/abs/2508.18089
+    - https://ieeexplore.ieee.org/document/11334562
+  pdfs:
+    - https://arxiv.org/pdf/2508.18089.pdf
+
+- key: "Brownlee:2024:ASE"
+  title: "Large Language Model Based Mutations in Genetic Improvement"
+  authors:
+    - name: Alexander Edward Ian Brownlee
+      aka: Alexander E. I. Brownlee
+    - name: James Callan
+    - name: Karine Even-Mendoza
+    - name: Alina Geiger
+    - name: Carol Hanna
+    - name: Justyna Petke
+    - name: Federica Sarro
+    - name: Dominik Sobania
+  venue: "ASE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.21203/rs.3.rs-4437272/v1
+  tags:
+    - LLM
+    - SBSE
+  urls:
+    - https://rdcu.be/d67YW
+
+- key: "Callan:2025:ASE"
+  title: "Multi-objective improvement of Android applications"
+  authors:
+    - name: James Callan
+    - name: Justyna Petke
+  venue: "ASE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-024-00472-7
+  tags:
+    - SBSE
+  urls:
+    - https://rdcu.be/d0UCc
+    - https://github.com/SOLAR-group/GIDroid
+
+- key: "Hanna:2025:ASEJ"
+  title: "Reinforcement learning for mutation operator selection in automated program repair"
+  authors:
+    - name: Carol Hanna
+    - name: Aymeric Blot
+    - name: Justyna Petke
+  venue: "ASE"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-025-00501-z
+  tags:
+    - APR
+    - ML
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/10205221/
+    - https://rdcu.be/eeuzB
+    - https://zenodo.org/records/7579947
+
 - key: "silva2025gradientbasedprogramrepairfixing"
   title: "Gradient-Based Program Repair: Fixing Bugs in Continuous Program Spaces"
   authors:
@@ -73,6 +277,22 @@
     - https://arxiv.org/abs/2505.17703
   pdfs:
     - https://arxiv.org/pdf/2505.17703.pdf
+
+- key: "langdon:2025:eval_avx512"
+  title: "Improving a Parallel C++ Intel AVX-512 SIMD Linear Genetic Programming Interpreter"
+  authors:
+    - name: William B. Langdon
+  venue: "ArXiV"
+  year: 2025
+  type: Archive
+  tags:
+    - SBSE
+    - testing
+    - Magpie
+  urls:
+    - https://arxiv.org/abs/2512.09157
+  pdfs:
+    - https://arxiv.org/pdf/2512.09157.pdf
 
 - key: "even2025llm"
   title: "LLM-Guided Genetic Improvement: Envisioning Semantic Aware Automated Software Evolution"
@@ -97,91 +317,13 @@
   pdfs:
     - https://arxiv.org/pdf/2508.18089.pdf
 
-- key: "langdon:2024:ASE"
-  title: "Deep Imperative Mutations have Less Impact"
-  authors:
-    - name: W. B. Langdon
-      aka: William B. Langdon
-    - name: David Clark
-  venue: "Automated Software Engineering"
-  year: 2025
-  type: Journal
-  doi: https://doi.org/10.1007/s10515-024-00475-4
-  tags:
-    - SBSE
-    - testing
-    - Magpie
-  urls:
-    - https://rdcu.be/d4jme
-  pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2024_ASE.pdf
-  video:
-    - https://youtu.be/zQ_lkIF6wwk
-  slides:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ei2024/langdon_4-mar-2025.pdf
-
-- key: "Brownlee:2024:ASE"
-  title: "Large Language Model Based Mutations in Genetic Improvement"
-  authors:
-    - name: Alexander Edward Ian Brownlee
-      aka: Alexander E. I. Brownlee
-    - name: James Callan
-    - name: Karine Even-Mendoza
-    - name: Alina Geiger
-    - name: Carol Hanna
-    - name: Justyna Petke
-    - name: Federica Sarro
-    - name: Dominik Sobania
-  venue: "Automated Software Engineering"
-  year: 2025
-  type: Journal
-  doi: https://doi.org/10.21203/rs.3.rs-4437272/v1
-  tags:
-    - LLM
-    - SBSE
-  urls:
-    - https://rdcu.be/d67YW
-
-- key: "Callan:2025:ASE"
-  title: "Multi-objective improvement of Android applications"
-  authors:
-    - name: James Callan
-    - name: Justyna Petke
-  venue: "Automated Software Engineering"
-  year: 2025
-  type: Journal
-  doi: https://doi.org/10.1007/s10515-024-00472-7
-  tags:
-    - SBSE
-  urls:
-    - https://rdcu.be/d0UCc
-    - https://github.com/SOLAR-group/GIDroid
-
-- key: "Hanna:2025:ASEJ"
-  title: "Reinforcement learning for mutation operator selection in automated program repair"
-  authors:
-    - name: Carol Hanna
-    - name: Aymeric Blot
-    - name: Justyna Petke
-  venue: "Automated Software Engineering"
-  year: 2025
-  type: Journal
-  doi: https://doi.org/10.1007/s10515-025-00501-z
-  tags:
-    - APR
-    - ML
-  urls:
-    - https://discovery.ucl.ac.uk/id/eprint/10205221/
-    - https://rdcu.be/eeuzB
-    - https://zenodo.org/records/7579947
-
 - key: "porter:2025:CACM"
   title: "Self-Designing Software"
   authors:
     - name: Barry Porter
     - name: Penn Faulkner Rainford
     - name: Roberto Rodrigues-Filho
-  venue: "Communications of the ACM"
+  venue: "CACM"
   year: 2025
   type: Journal
   doi: https://doi.org/10.1145/3678165
@@ -234,8 +376,11 @@
   tags:
     - SBSE
     - Magpie
+  urls:
+    - https://arxiv.org/abs/2511.17543
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2025_evostarLBA.pdf
+    - https://arxiv.org/pdf/2511.17543.pdf
   video:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/egp2025/langdon_evostar2025_lba.mp4
   slides:
@@ -335,6 +480,7 @@
     - Magpie
   urls:
     - https://geneticimprovementofsoftware.com/events/icse2025#accepted-papers
+    - https://github.com/SOLAR-group/empirical-comparison-of-runtime-improvement-approaches
   pdfs:
     - https://gpbib.cs.ucl.ac.uk/gi2025/songpetchmongkol_2025_GI.pdf
     - https://solar.cs.ucl.ac.uk/pdf/songpetchmongkol_2025_GI.pdf
@@ -363,8 +509,8 @@
   title: "LLM-Assisted Crossover in Genetic Improvement of Software"
   authors:
     - name: Dimitrios Stamatios Bouras
-    - name: Justyna Petke
     - name: Sergey Mechtaev
+    - name: Justyna Petke
   venue: "GI@ICSE"
   year: 2025
   abstract: "We evaluated against five traditional crossover methods across seven benchmarks, measuring performance on four key metrics: average ranking, best variant execution time, efficiency in reaching performance milestones, and viable variant count. Results show that LLM-assisted crossover achieved an average ranking of 2.27 (on a scale where 1 is best and 6 is worst), making it the top-performing method across benchmarks based on the quality of the optimal variants produced. The LLM-based approach also improved the fitness (execution time) by an average of 8.5 percent over the best variant produced by the traditional methods. In terms of efficiency, the LLM-assisted crossover required on average 25.6 percent fewer variants to reach 25 percent, 50 percent, 75 percent, and 100 percent of the final performance improvement, compared to the traditional methods. Additionally, the LLM-assisted crossover produced 4.8 percent more viable variants across scenarios, including both source code modification and parameter tuning cases. These findings suggest that LLMs can significantly enhance genetic programming by guiding the crossover process toward more effective and viable solutions, providing motivation for further research in LLM-assisted evolutionary algorithms."
@@ -439,70 +585,6 @@
     - https://www.youtube.com/watch?v=Bi-zMtpSVzI&list=PLI8fiFpB7BoL5jUkvndWvSEywsu8dMdIo&index=5
     - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/langdon_icse2025.mp4
 
-- key: "lee:2026:GI"
-  title: "GI-Agent Search-Based LLM Agent for Code Optimization with Genetic Improvement"
-  authors:
-    - name: Donghyun Lee
-    - name: William B. Langdon
-    - name: Justyna Petke
-  venue: "GI@ICSE"
-  year: 2026
-  abstract: "GI-Agent integrates Large Language Models (LLMs) into Genetic Improvement (GI) to autonomously optimise computer program source code.  GI-Agent uses an LLM to allow multi-generational evolutionary learning.  Guided by a memory of past actions, known in AI as reflections, it exploits them to give insight and rationale behind software edits, giving better context-aware, less stochastic, mutations and crossovers.  Reflections enable GI-Agent to reason about both earlier compile time and runtime successes and failures, and so refine its strategy over time.  Integrated into the Magpie GI framework and evaluated on the SAT4J (Java) and MiniSAT (C++) benchmarks, GI-Agent consistently generates more viable and better variants.  By combining few-shot prompting with structured search, GI-Agent demonstrates how LLMs can enhance automated program optimisation."
-  type: Workshop
-  tags:
-    - LLM
-    - Magpie
-  urls:
-    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
-
-- key: "langdon:2026:GI"
-  title: "Improving a Parallel C++ Intel SSE SIMD Linear Genetic Programming Interpreter"
-  authors:
-    - name: William B. Langdon
-    - name: Carol Hanna
-  venue: "GI@ICSE"
-  year: 2026
-  abstract: "We use evolution to speedup the new Single Instruction Multiple Data (SIMD) parallel interpreter for Peter Nordin's linear genetic programming GPengine.  MAGPIE (Machine Automated General Performance Improvement via Evolution of software) is provided with existing hand optimised code, its revision history and the Intel 256 bit SSE documentation as XML.  Linux mprotect sandboxes whilst performance is given by perf instruction count.  In a matter of hours local search automatically sped up 128 lines of manually written parallel C++ SIMD code for the Intel Advanced Vector Extensions (AVX) by 2 %."
-  type: Workshop
-  tags:
-    - SBSE
-    - Magpie
-  urls:
-    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
-
-- key: "jadhwani:2026:GI"
-  title: "Applying Genetic Improvement Techniques for Automated Program Repair of Transpiled Code"
-  authors:
-    - name: Prasham Jadhwani
-    - name: Carol Hanna
-    - name: William B. Langdon
-    - name: Justyna Petke
-  venue: "GI@ICSE"
-  year: 2026
-  abstract: "We use Genetic Improvement (GI)-based Automated Program Repair (APR) techniques for syntax correction on transpiled code produced by both large language models (LLMs) and rule-based translators.  LLM-assisted Type Change Operator and Boolean Value Change Operator were added to Magpie, which reduced transpilation bugs from Python to Java by 33% (LLM) and by 18% on rule-based translations."
-  type: Workshop
-  tags:
-    - APR
-    - LLM
-    - Magpie
-  urls:
-    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
-
-- key: "fredericks:2026:GI"
-  title: "Databending as a Target for Genetic Improvement"
-  authors:
-    - name: Erik Fredericks
-    - name: Byron DeVries
-    - name: Reihaneh Hariri
-  venue: "GI@ICSE"
-  year: 2026
-  abstract: "Genetic improvement (GI) is typically used as an approach for optimizing source code for a particular task, where examples include minimizing runtime, improving energy efficiency, and reducing memory footprint.  As with any evolutionary algorithm, GI will optimize for a desired fitness objective and can be coerced into objectives that are not strictly for the improvement of software.  This paper presents in-progress work towards using GI as a method for generating glitch art, or artwork that is created by intentionally corrupting files (i.e., databending) to provide an aesthetic or emotional experience.  We use the PYGGI framework to explore how code patches can impact an existing glitch art framework, with the goal being to find new and interesting outputs that are different from what can be found with random search."
-  type: Workshop
-  tags:
-    - PYGGI
-  urls:
-    - https://geneticimprovementofsoftware.com/events/icse2026#accepted-papers
-
 - key: "Garg:2025:ICSE"
   title: "Improving Code Performance Using LLMs in Zero-Shot: RAPGen"
   authors:
@@ -554,13 +636,28 @@
   urls:
     - https://doi.ieeecomputersociety.org/10.1109/TSE.2025.3533309
 
+- key: "Dakhama:2025:REACH"
+  title: "GreenMalloc: Allocator Optimisation for Industrial Workloads"
+  authors:
+    - name: Aidan Dakhama
+    - name: William B. Langdon
+    - name: Hector Menendez
+    - name: Karine Even-Mendoza
+  venue: "Reach Emerging Architectures in Computing Horizons conference"
+  year: 2025
+  type: Conference
+  tags:
+    - SBSE
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Dakhama_2025_REACH.pdf
+
 - key: "langdon:2025:SEN"
   title: "The 14th International Workshop on Genetic Improvement (GI @ ICSE 2025)"
   authors:
     - name: William B. Langdon
     - name: Aymeric Blot
     - name: Oliver Krauss
-  venue: "SEN"
+  venue: "SIGSOFT SEN"
   year: 2025
   type: Journal
   doi: https://doi.org/10.1145/3743095.3743105
@@ -572,6 +669,60 @@
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/gi2025_sen.pdf
   video:
     - https://www.youtube.com/playlist?list=PLI8fiFpB7BoL5jUkvndWvSEywsu8dMdIo
+
+- key: "Dakhama:2025:SSBSE"
+  title: "GreenMalloc: Allocator Optimisation for Industrial Workloads"
+  authors:
+    - name: Aidan Dakhama
+    - name: W. B. Langdon
+      aka: William B. Langdon
+    - name: Hector D. Menendez
+    - name: Karine Even-Mendoza
+  venue: "SSBSE"
+  year: 2025
+  type: Conference
+  tags:
+    - SBSE
+  urls:
+    - https://conf.researchr.org/track/ssbse-2025/ssbse-2025-papers
+    - https://arxiv.org/abs/2510.21405
+    - https://zenodo.org/records/17182847
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Dakhama_2025_SSBSE.pdf
+    - https://arxiv.org/pdf/2510.21405.pdf
+
+- key: "bouras:2025:ssbse"
+  title: "Optimised Fitness Functions for Automated Improvement of Software's Execution Time"
+  authors:
+    - name: Dimitrios Stamatios Bouras
+    - name: Carol Hanna
+    - name: Justyna Petke
+  venue: "SSBSE"
+  year: 2025
+  type: Conference
+  tags:
+    - SBSE
+    - Magpie
+  urls:
+    - https://conf.researchr.org/track/ssbse-2025/ssbse-2025-papers
+  pdfs:
+    - https://solar.cs.ucl.ac.uk/pdf/bouras_2025_ssbse.pdf
+
+- key: "Langdon:2025:UKCI"
+  title: "A Genetic Improvement Parameter Benchmark: rand\_malloc.c"
+  authors:
+    - name: William B. Langdon
+  venue: "UKCI"
+  year: 2025
+  type: Workshop
+  doi: https://doi.org/10.1007/978-3-032-07938-1_11
+  tags:
+    - SBSE
+    - Magpie
+  urls:
+    - https://github.com/wblangdon/rand_malloc
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2025_UKCI.pdf
 
 - key: "bosamiya-thesis"
   title: "A Principled Approach Towards Unapologetic Security"
@@ -696,6 +847,19 @@
   urls:
     - http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=10764883
 
+- key: "Fredericks:2024:ASE"
+  title: "GenerativeGI: creating generative art with genetic improvement"
+  authors:
+    - name: Erik M. Fredericks
+    - name: Jared M. Moore
+    - name: Abigail C. Diller
+  venue: "ASE"
+  year: 2024
+  type: Journal
+  doi: https://doi.org/10.1007/s10515-024-00414-3
+  urls:
+    - https://rdcu.be/emspE
+
 - key: "Kosorukov:2024:ASENIER"
   title: "Mining for Mutation Operators for Reduction of Information Flow Control Violations"
   authors:
@@ -753,26 +917,13 @@
   pdfs:
     - https://arxiv.org/pdf/2402.04380.pdf
 
-- key: "Fredericks:2024:ASE"
-  title: "GenerativeGI: creating generative art with genetic improvement"
-  authors:
-    - name: Erik M. Fredericks
-    - name: Jared M. Moore
-    - name: Abigail C. Diller
-  venue: "Automated Software Engineering"
-  year: 2024
-  type: Journal
-  doi: https://doi.org/10.1007/s10515-024-00414-3
-  urls:
-    - https://rdcu.be/emspE
-
 - key: "Turner:2024:CACM"
   title: "Neural Architecture Search as Program Transformation Exploration"
   authors:
     - name: Jack Turner
     - name: Elliot J. Crowley
     - name: Michael F. P. O'Boyle
-  venue: "Communications of the ACM"
+  venue: "CACM"
   year: 2024
   type: Journal
   doi: https://doi.org/10.1145/3624775
@@ -1142,7 +1293,7 @@
     - name: Oliver Krauss
     - name: Erik M. Fredericks
     - name: Daniel Blackwell
-  venue: "SEN"
+  venue: "SIGSOFT SEN"
   year: 2024
   type: Journal
   doi: https://doi.org/10.1145/3672089.3672102
@@ -1167,7 +1318,6 @@
     - https://doctorat.univ-toulouse.fr/as/ed/detailResp.pl?resp=31559
     - https://theses.fr/2023ESAE0060
   pdfs:
-    - https://www.isae-supaero.fr/IMG/pdf/annonce_soutenance_these_m_al_najar.pdf
     - https://depozit.isae.fr/theses/2023/2023_Al_Najar_Mahmoud.pdf
 
 - key: "Renzullo:TELO"
@@ -1313,7 +1463,7 @@
   title: "Correcting Instruction Expression Logic Errors with GenExp: A Genetic Programming Solution"
   authors:
     - name: Mohammed Bekkouche
-  venue: "Computer Science Journal of Moldova"
+  venue: "CSJM"
   year: 2023
   type: Journal
   doi: https://doi.org/10.56415/csjm.v31.12
@@ -1742,7 +1892,7 @@
     - name: Aymeric Blot
     - name: Markus Wagner
     - name: Hyeonseok Lee
-  venue: "SEN"
+  venue: "SIGSOFT SEN"
   year: 2023
   type: Journal
   doi: https://doi.org/10.1145/3617946.3617956
@@ -2395,6 +2545,22 @@
   tags:
     - APR
 
+- key: "DBLP:journals/tsusc/AlofiBBH22"
+  title: "Optimizing the Energy Consumption of Blockchain-Based Systems Using Evolutionary Algorithms: A New Problem Formulation"
+  authors:
+    - name: Akram Alofi
+    - name: Mahmoud A. Bokhari
+    - name: Rami Bahsoon
+    - name: Robert J. Hendley
+  venue: "IEEE T-SUSC"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.1109/TSUSC.2022.3160491
+  tags:
+    - SBSE
+  urls:
+    - https://research.birmingham.ac.uk/en/publications/optimizing-the-energy-consumption-of-blockchain-based-systems-usi
+
 - key: "Kechagia:TSE"
   title: "Evaluating Automatic Program Repair Capabilities to Repair API Misuses"
   authors:
@@ -2430,22 +2596,6 @@
   tags:
     - APR
 
-- key: "DBLP:journals/tsusc/AlofiBBH22"
-  title: "Optimizing the Energy Consumption of Blockchain-Based Systems Using Evolutionary Algorithms: A New Problem Formulation"
-  authors:
-    - name: Akram Alofi
-    - name: Mahmoud A. Bokhari
-    - name: Rami Bahsoon
-    - name: Robert J. Hendley
-  venue: "IEEE Transactions on Sustainable Computing"
-  year: 2022
-  type: Journal
-  doi: https://doi.org/10.1109/TSUSC.2022.3160491
-  tags:
-    - SBSE
-  urls:
-    - https://research.birmingham.ac.uk/en/publications/optimizing-the-energy-consumption-of-blockchain-based-systems-usi
-
 - key: "Liou:2022:IISWC"
   title: "Understanding the Power of Evolutionary Computation for GPU Code Optimization"
   authors:
@@ -2470,12 +2620,32 @@
     - name: Zhenghaohe He
     - name: Yangxia Meng
     - name: Yonghe Chu
-  venue: "Information Technology and Control"
+  venue: "ITC"
   year: 2022
   type: Journal
   doi: https://doi.org/10.5755/j01.itc.51.4.30515
   tags:
     - APR
+
+- key: "2007.06986"
+  title: "Estimating the potential of program repair search spaces with commit analysis"
+  authors:
+    - name: Khashayar Etemadi
+    - name: Niloofar Tarighat
+    - name: Siddharth Yadav
+    - name: Matias Martinez
+    - name: Martin Monperrus
+  venue: "JSS"
+  year: 2022
+  type: Journal
+  doi: https://doi.org/10.1016/j.jss.2022.111263
+  tags:
+    - APR
+  urls:
+    - http://arxiv.org/abs/2007.06986
+    - https://www.sciencedirect.com/science/article/pii/S0164121222000309
+  pdfs:
+    - http://arxiv.org/pdf/2007.06986.pdf
 
 - key: "DBLP:conf/ppsn/AhmadCFW22"
   title: "Digging into Semantics: Where Do Search-Based Software Repair Methods Search?"
@@ -2594,6 +2764,19 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Sohn_thesis.pdf
 
+- key: "kinneer:2021:ACMtAAS"
+  title: "Information Reuse and Stochastic Search: Managing Uncertainty in Self-* Systems"
+  authors:
+    - name: Cody Kinneer
+    - name: David Garlan
+    - name: Claire Le Goues
+  venue: "ACM TAAS"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1145/3440119
+  tags:
+    - SBSE
+
 - key: "Langdon:TELO"
   title: "Genetic Improvement of Data for Maths Functions"
   authors:
@@ -2626,19 +2809,6 @@
     - http://www.human-competitive.org/sites/default/files/humies-entry-iacca_0.txt
   pdfs:
     - http://www.human-competitive.org/sites/default/files/telo-2020-38.r1_proof_fl.pdf
-
-- key: "kinneer:2021:ACMtAAS"
-  title: "Information Reuse and Stochastic Search: Managing Uncertainty in Self-* Systems"
-  authors:
-    - name: Cody Kinneer
-    - name: David Garlan
-    - name: Claire Le Goues
-  venue: "ACM Transactions on Autonomous and Adaptive Systems"
-  year: 2021
-  type: Journal
-  doi: https://doi.org/10.1145/3440119
-  tags:
-    - SBSE
 
 - key: "bian:2021:apr_icse"
   title: "Refining Fitness Functions for Search-Based Program Repair"
@@ -2725,6 +2895,15 @@
   pdfs:
     - https://arxiv.org/pdf/2108.07114.pdf
 
+- key: "Cook:2021:CACM"
+  title: "Behold the Ch!Ld"
+  authors:
+    - name: Perry R. Cook
+  venue: "CACM"
+  year: 2021
+  type: Journal
+  doi: https://doi.org/10.1145/3453712
+
 - key: "Shelton:2021:CCS"
   title: "Rosita++: Automatic Higher-Order Leakage Elimination from Cryptographic Code"
   authors:
@@ -2741,15 +2920,6 @@
   urls:
     - https://eprint.iacr.org/2021/1181
     - https://github.com/0xADE1A1DE/Rositaplusplus
-
-- key: "Cook:2021:CACM"
-  title: "Behold the Ch!Ld"
-  authors:
-    - name: Perry R. Cook
-  venue: "Communications of the ACM"
-  year: 2021
-  type: Journal
-  doi: https://doi.org/10.1145/3453712
 
 - key: "DBLP:conf/ease/AhlgrenBDDGGHLL21"
   title: "Facebook's Cyber-Cyber and Cyber-Physical Digital Twins"
@@ -3407,7 +3577,7 @@
   title: "Genetic Improvement @ ICSE 2021: Personal reflection of a Workshop Participant"
   authors:
     - name: Alexander E. I. Brownlee
-  venue: "SEN"
+  venue: "SIGSOFT SEN"
   year: 2021
   type: Journal
   doi: https://doi.org/10.1145/3485952.3485960
@@ -3472,6 +3642,7 @@
   type: TechReport
   urls:
     - https://arxiv.org/abs/2001.04505
+    - https://github.com/wblangdon/test_expr
   pdfs:
     - https://arxiv.org/pdf/2001.04505.pdf
   video:
@@ -3582,6 +3753,19 @@
   urls:
     - https://www.mdpi.com/2076-3417/10/23/8747
 
+- key: "Rinard:2020:ACM"
+  title: "Adding More Color to Patch Picture"
+  authors:
+    - name: Martin Rinard
+  venue: "CACM"
+  year: 2020
+  type: Journal
+  doi: https://doi.org/10.1145/3383390
+  tags:
+    - APR
+  urls:
+    - https://cacm.acm.org/magazines/2020/4/243626-adding-more-color-to-patch-picture/fulltext
+
 - key: "Dziurzanski:2020:CEC"
   title: "Empirical Analysis of 1-edit Degree Patches in Syntax-Based Automatic Program Repair"
   authors:
@@ -3639,19 +3823,6 @@
   pdfs:
     - http://geneticimprovementofsoftware.com/paper_pdfs/E-24667.pdf
     - https://dspace.stir.ac.uk/bitstream/1893/30963/1/InjectingShortcutsCEC2020.pdf
-
-- key: "Rinard:2020:ACM"
-  title: "Adding More Color to Patch Picture"
-  authors:
-    - name: Martin Rinard
-  venue: "Communications of the ACM"
-  year: 2020
-  type: Journal
-  doi: https://doi.org/10.1145/3383390
-  tags:
-    - APR
-  urls:
-    - https://cacm.acm.org/magazines/2020/4/243626-adding-more-color-to-patch-picture/fulltext
 
 - key: "bias_code_review_FSE20"
   title: "Biases and Differences in Code Review using Medical Imaging and Eye-Tracking: Genders, Humans, and Machines"
@@ -4118,7 +4289,7 @@
   authors:
     - name: Pierre Parrend
     - name: Pierre Collet
-  venue: "Journal of Systems Science and Complexity"
+  venue: "JSSC"
   year: 2020
   type: Journal
   doi: https://doi.org/10.1007/s11424-020-8275-0
@@ -4155,7 +4326,7 @@
     - name: Oliver Krauss
     - name: Yu Huang
     - name: Michael Gerten
-  venue: "SEN"
+  venue: "SIGSOFT SEN"
   year: 2020
   type: Journal
   doi: https://doi.org/10.1145/3417564.3417575
@@ -4279,7 +4450,7 @@
     - name: Claire Le Goues
     - name: Michael Pradel
     - name: Abhik Roychoudhury
-  venue: "Communications of the ACM"
+  venue: "CACM"
   year: 2019
   type: Journal
   doi: https://doi.org/10.1145/3318162
@@ -4565,6 +4736,7 @@
   year: 2019
   abstract: "Research in genetic improvement (GI) conventionally focuses on the improvement of software, including the automated repair of bugs and vulnerabilities as well as the refinement of software to increase performance. Eliminating or reducing vulnerabilities using GI has improved the security of benign software, but the growing volume and complexity of malicious software necessitates better analysis techniques that may benefit from a GI-based approach. Rather than focus on the use of GI to improve individual software artefacts, we believe GI can be applied to the tools used to analyse malicious code for its behaviour. First, malware analysis is critical to understanding the damage caused by an attacker, which GI-based bug repair does not currently address. Second, modern malware samples leverage complex vectors for infection that cannot currently be addressed by GI. In this paper, we discuss an application of genetic improvement to the realm of automated malware analysis through the use of variable-strength covering arrays."
   type: Workshop
+  doi: https://doi.org/10.1109/GI.2019.00013
   pdfs:
     - http://dijkstra.eecs.umich.edu/kleach/malware-gi-19.pdf
     - http://geneticimprovementofsoftware.com/paper_pdfs/leach2019evolutionary.pdf
@@ -4826,26 +4998,6 @@
   pdfs:
     - https://arxiv.org/pdf/1812.07270.pdf
 
-- key: "Langdon:2019:SEN"
-  title: "The State and Future of Genetic Improvement"
-  authors:
-    - name: William B. Langdon
-    - name: Westley Weimer
-    - name: Christopher Timperley
-    - name: Oliver Krauss
-    - name: Zhen Yu Ding
-    - name: Yiwei Lyu
-    - name: Nicolas Chausseau
-    - name: Eric Schulte
-    - name: Shin Hwei Tan
-    - name: Kevin Leach
-    - name: Yu Huang
-    - name: Gabin An
-  venue: "SEN"
-  year: 2019
-  type: Journal
-  doi: https://doi.org/10.1145/3356773.3356801
-
 - key: "langdon:2019:bddGI4mlss"
   title: "Big Data Driven Genetic Improvement for Maintenance of Legacy Software Systems"
   authors:
@@ -4885,6 +5037,26 @@
     - SBSE
   pdfs:
     - https://evolution.sigevo.org/issues/SIGEVOlution1204.pdf
+
+- key: "Langdon:2019:SEN"
+  title: "The State and Future of Genetic Improvement"
+  authors:
+    - name: William B. Langdon
+    - name: Westley Weimer
+    - name: Christopher Timperley
+    - name: Oliver Krauss
+    - name: Zhen Yu Ding
+    - name: Yiwei Lyu
+    - name: Nicolas Chausseau
+    - name: Eric Schulte
+    - name: Shin Hwei Tan
+    - name: Kevin Leach
+    - name: Yu Huang
+    - name: Gabin An
+  venue: "SIGSOFT SEN"
+  year: 2019
+  type: Journal
+  doi: https://doi.org/10.1145/3356773.3356801
 
 - key: "Dantas:2019:SSBSE"
   title: "Code naturalness to assist search space exploration in Search-based Program Repair methods"
@@ -5077,7 +5249,7 @@
   title: "Automatic Software Repair: A Bibliography"
   authors:
     - name: Martin Monperrus
-  venue: "ACM Computing Surveys"
+  venue: "ACM CSUR"
   year: 2018
   type: Journal
   doi: https://doi.org/10.1145/3105906
@@ -5586,6 +5758,23 @@
     - http://www.cs.ucl.ac.uk/staff/J.Petke/papers/Petke_2017_TSE.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Petke_2017_ieeeTSE.pdf
 
+- key: "PolyfinicJAR"
+  title: "Genetic Programming + Proof Search = Automatic Improvement"
+  authors:
+    - name: Zoltan A. Kocsis
+    - name: Jerry Swan
+  venue: "JAR"
+  year: 2018
+  type: Journal
+  doi: https://doi.org/10.1007/s10817-017-9409-5
+  tags:
+    - SBSE
+  urls:
+    - http://eprints.whiterose.ac.uk/117917/
+    - https://pubmed.ncbi.nlm.nih.gov/30069068/
+  pdfs:
+    - http://eprints.whiterose.ac.uk/117917/1/art_10.1007_s10817_017_9409_5.pdf
+
 - key: "deAlmeidaFarzat:2018:JSERD"
   title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
   authors:
@@ -5598,23 +5787,6 @@
   doi: https://doi.org/10.1186/s40411-018-0056-2
   tags:
     - SBSE
-
-- key: "PolyfinicJAR"
-  title: "Genetic Programming + Proof Search = Automatic Improvement"
-  authors:
-    - name: Zoltan A. Kocsis
-    - name: Jerry Swan
-  venue: "Journal of Automated Reasoning"
-  year: 2018
-  type: Journal
-  doi: https://doi.org/10.1007/s10817-017-9409-5
-  tags:
-    - SBSE
-  urls:
-    - http://eprints.whiterose.ac.uk/117917/
-    - https://pubmed.ncbi.nlm.nih.gov/30069068/
-  pdfs:
-    - http://eprints.whiterose.ac.uk/117917/1/art_10.1007_s10817_017_9409_5.pdf
 
 - key: "Krauss:2018:ManLang"
   title: "Towards a Framework for Stochastic Performance Optimizations in Compilers and Interpreters - An Architecture Overview"
@@ -6443,6 +6615,7 @@
     - http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07322214&language=en_EN#
     - https://github.com/coinse/pyggi
   pdfs:
+    - https://coinse.github.io/publications/pdfs/An2017aa.pdf
     - https://coinse.kaist.ac.kr/publications/pdfs/An2017aa.pdf
 
 - key: "Langdon:2017:SBST"
@@ -6512,6 +6685,20 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/SPLASH_SRC_Krauss_Oliver.pdf
 
+- key: "Mansoor:2017:SQJ"
+  title: "Multi-objective code-smells detection using good and bad design examples"
+  authors:
+    - name: Usman Mansoor
+    - name: Marouane Kessentini
+    - name: Bruce R. Maxim
+    - name: Kalyanmoy Deb
+  venue: "SQJ"
+  year: 2017
+  type: Journal
+  doi: https://doi.org/10.1007/s11219-016-9309-7
+  tags:
+    - SBSE
+
 - key: "Timperley:2017:SSBSE"
   title: "An Investigation into the Use of Mutation Analysis for Automated Program Repair"
   authors:
@@ -6554,20 +6741,6 @@
   year: 2017
   type: Conference
   doi: https://doi.org/10.1007/978-3-319-66299-2_14
-  tags:
-    - SBSE
-
-- key: "Mansoor:2017:SQJ"
-  title: "Multi-objective code-smells detection using good and bad design examples"
-  authors:
-    - name: Usman Mansoor
-    - name: Marouane Kessentini
-    - name: Bruce R. Maxim
-    - name: Kalyanmoy Deb
-  venue: "Software Quality Journal"
-  year: 2017
-  type: Journal
-  doi: https://doi.org/10.1007/s11219-016-9309-7
   tags:
     - SBSE
 
@@ -7905,9 +8078,9 @@
     - name: David Williams-King
     - name: Junfeng Yang
     - name: Simha Sethumadhavan
-  venue: "Proceedings of the 8th Workshop on Programming Languages and Operating Systems, PLOS 2015"
+  venue: "PLOS"
   year: 2015
-  type: Conference
+  type: Workshop
   doi: https://doi.org/10.1145/2818302.2818309
 
 - key: "Coker:SEAMS:2015"
@@ -7938,7 +8111,7 @@
   urls:
     - http://hdl.handle.net/10203/224142
   slides:
-    - http://ssbse.info/2015/wp-content/uploads/Slides_Amortised_Optimisation_of_Non-Functional_Property_in_Production_Environment.pdf
+    - https://ssbse.com/2015/wp-content/uploads/Slides_Amortised_Optimisation_of_Non-Functional_Property_in_Production_Environment.pdf
 
 - key: "Marginean:2015:SSBSE"
   title: "Automated Transplantation of Call Graph and Layout Features into Kate"
@@ -7972,7 +8145,7 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2015_SSBSE.pdf
   slides:
-    - http://ssbse.info/2015/wp-content/uploads/Slides_Genetic_Improvement_of_Software_for_Multiple_Objectives.pdf
+    - https://ssbse.com/2015/wp-content/uploads/Slides_Genetic_Improvement_of_Software_for_Multiple_Objectives.pdf
 
 - key: "jia:2015:gsgp"
   title: "Grow and Serve: Growing Django Citation Services Using SBSE"
@@ -8439,7 +8612,7 @@
     - name: J. Ignacio Hidalgo
     - name: Juan Lanchares
     - name: Josefa Diaz
-  venue: "Journal of Systems and Software"
+  venue: "JSS"
   year: 2014
   type: Journal
   doi: https://doi.org/10.1016/j.jss.2013.12.044
@@ -8867,6 +9040,24 @@
   tags:
     - SBSE
 
+- key: "legouesWFSQJO2013"
+  title: "Current challenges in automatic software repair"
+  authors:
+    - name: Claire Le Goues
+    - name: Stephanie Forrest
+    - name: Westley Weimer
+  venue: "SQJ"
+  year: 2013
+  type: Journal
+  doi: https://doi.org/10.1007/s11219-013-9208-0
+  tags:
+    - APR
+    - SBSE
+  urls:
+    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.368.1034
+  pdfs:
+    - http://www.cs.cmu.edu/~clegoues/docs/legoues-sqjo13.pdf
+
 - key: "Weimer:2013:SSBSE"
   title: "Advances in Automated Program Repair and a Call to Arms"
   authors:
@@ -8910,24 +9101,6 @@
   tags:
     - SBSE
 
-- key: "legouesWFSQJO2013"
-  title: "Current challenges in automatic software repair"
-  authors:
-    - name: Claire Le Goues
-    - name: Stephanie Forrest
-    - name: Westley Weimer
-  venue: "Software Quality Journal"
-  year: 2013
-  type: Journal
-  doi: https://doi.org/10.1007/s11219-013-9208-0
-  tags:
-    - APR
-    - SBSE
-  urls:
-    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.368.1034
-  pdfs:
-    - http://www.cs.cmu.edu/~clegoues/docs/legoues-sqjo13.pdf
-
 - key: "Harman:2013:WCRE"
   title: "Genetic Programming for Reverse Engineering"
   authors:
@@ -8941,6 +9114,8 @@
   tags:
     - GISMO
     - SBSE
+  urls:
+    - http://wcre.wikidot.com/2013:keynotes
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gismo/Harman_2013_WCRE.pdf
   video:
@@ -9198,22 +9373,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2012_mendel.pdf
 
-- key: "Kessentini:2011:ICPC"
-  title: "Design Defects Detection and Correction by Example"
-  authors:
-    - name: Marouane Kessentini
-    - name: Wael Kessentini
-    - name: Houari Sahraoui
-    - name: Mounir Boukadoum
-    - name: Ali Ouni
-  venue: "19th IEEE International Conference on Program Comprehension (ICPC 2011)"
-  year: 2011
-  type: Conference
-  doi: https://doi.org/10.1109/ICPC.2011.22
-  tags:
-    - APR
-    - SBSE
-
 - key: "Karasek:2011:TSP"
   title: "Towards an automatic design of non-cryptographic hash function"
   authors:
@@ -9287,6 +9446,22 @@
     - APR
     - SBSE
 
+- key: "Kessentini:2011:ICPC"
+  title: "Design Defects Detection and Correction by Example"
+  authors:
+    - name: Marouane Kessentini
+    - name: Wael Kessentini
+    - name: Houari Sahraoui
+    - name: Mounir Boukadoum
+    - name: Ali Ouni
+  venue: "ICPC"
+  year: 2011
+  type: Conference
+  doi: https://doi.org/10.1109/ICPC.2011.22
+  tags:
+    - APR
+    - SBSE
+
 - key: "White:2011:ieeeTEC"
   title: "Evolutionary Improvement of Programs"
   authors:
@@ -9322,9 +9497,9 @@
     - name: Usman Dastgeer
     - name: Johan Enmyren
     - name: Christoph W. Kessler
-  venue: "Proceedings of the 4th International Workshop on Multicore Software Engineering, IWMSE-2011"
+  venue: "IWMSE"
   year: 2011
-  type: Conference
+  type: Workshop
   doi: https://doi.org/10.1145/1984693.1984697
 
 - key: "Howard:2011:ICHIT"
@@ -9360,7 +9535,7 @@
   title: "Automated Patching Techniques: The Fix Is In"
   authors:
     - name: Mark Harman
-  venue: "Communications of the ACM"
+  venue: "CACM"
   year: 2010
   type: Journal
   doi: https://doi.org/10.1145/1735223.1735248
@@ -9375,7 +9550,7 @@
     - name: Stephanie Forrest
     - name: Claire Le Goues
     - name: ThanhVu Nguyen
-  venue: "Communications of the ACM"
+  venue: "CACM"
   year: 2010
   type: Journal
   doi: https://doi.org/10.1145/1735223.1735249
@@ -9486,6 +9661,22 @@
   pdfs:
     - http://www.cs.bgu.ac.il/~orlovm/papers/gptp.pdf
 
+- key: "Diaz:2010:ICEC"
+  title: "Parisian Approach Reducing Computational Effort to Improve SMT Performance by setting Resizable Caches"
+  authors:
+    - name: Josefa Diaz
+    - name: Francisco Fernandez de Vega
+    - name: J. Ignacio Hidalgo
+    - name: Oscar Garnica
+  venue: "ICEC"
+  year: 2010
+  type: Conference
+  doi: https://doi.org/10.5220/0003113702750280
+  urls:
+    - https://www.scitepress.org/PublishedPapers/2010/31137/
+  pdfs:
+    - http://www.robinbye.com/files/publications/ICEC_2010.pdf
+
 - key: "Debroy:2010:ICST"
   title: "Using Mutation to Automatically Suggest Fixes for Faulty Programs"
   authors:
@@ -9515,22 +9706,6 @@
     - SBSE
   urls:
     - http://www.sciencedirect.com/science/article/B6V12-50J9GPR-1/2/e049c72f4c9e284bd1c2bdbf7c09f3aa
-
-- key: "Diaz:2010:ICEC"
-  title: "Parisian Approach Reducing Computational Effort to Improve SMT Performance by setting Resizable Caches"
-  authors:
-    - name: Josefa Diaz
-    - name: Francisco Fernandez de Vega
-    - name: J. Ignacio Hidalgo
-    - name: Oscar Garnica
-  venue: "Proceedings of the International Conference on Evolutionary Computation (ICEC 2010)"
-  year: 2010
-  type: Conference
-  doi: https://doi.org/10.5220/0003113702750280
-  urls:
-    - https://www.scitepress.org/PublishedPapers/2010/31137/
-  pdfs:
-    - http://www.robinbye.com/files/publications/ICEC_2010.pdf
 
 - key: "Forrest:2010:SPLASH"
   title: "The Case for Evolvable Software"
@@ -9634,6 +9809,7 @@
     - http://www.cs.virginia.edu/~csl9q/docs/legoues-icse2009-genprog-preprint.pdf
   slides:
     - http://www.cs.uoregon.edu/events/icse2009/images/postPosters/Automatically%20Finding%20Patches%20Using%20Genetic%20Programming.pdf
+    - http://www.cs.uoregon.edu/events/icse2009/images/postPosters/Automatically%20Finding%20Patches%20Using%20Genetic%20Programming.pdf
 
 - key: "Nguyen:2009:SBST"
   title: "Using Execution Paths to Evolve Software Patches"
@@ -9685,16 +9861,6 @@
   pdfs:
     - http://scholarsmine.mst.edu/thesis/pdf/Wilkerson_09007dcc80642bb4.pdf
 
-- key: "Mahajan:2008:ieeeICCI"
-  title: "Superblock scheduling using genetic programming for embedded systems"
-  authors:
-    - name: Anjali Mahajan
-    - name: M S Ali
-  venue: "7th IEEE International Conference on Cognitive Informatics, ICCI 2008"
-  year: 2008
-  type: Conference
-  doi: https://doi.org/10.1109/COGINF.2008.4639177
-
 - key: "White2:2008:gecco"
   title: "Searching for resource-efficient programs: low-power pseudorandom number generators"
   authors:
@@ -9712,14 +9878,24 @@
     - http://gpbib.cs.ucl.ac.uk/gecco2008/docs/p1775.pdf
     - http://www.cs.york.ac.uk/~drw/rnggecco.pdf
 
+- key: "Mahajan:2008:ieeeICCI"
+  title: "Superblock scheduling using genetic programming for embedded systems"
+  authors:
+    - name: Anjali Mahajan
+    - name: M S Ali
+  venue: "ICCI"
+  year: 2008
+  type: Conference
+  doi: https://doi.org/10.1109/COGINF.2008.4639177
+
 - key: "Orlov08:evolutionary"
   title: "Evolutionary Software Improvement for Instruction Set Meta-evolution"
   authors:
     - name: Michael Orlov
     - name: Moshe Sipper
-  venue: "WSSEC 2008 Workshop and Summer School on Evolutionary Computing"
+  venue: "WSSEC"
   year: 2008
-  type: Conference
+  type: Workshop
   pdfs:
     - https://noexec.org/public/papers/wssec.pdf
     - https://www.cs.bgu.ac.il/~orlovm/papers/wssec.pdf
@@ -9838,9 +10014,9 @@
   title: "Genetic Programming as an Explorative Tool in Early Software Development Phases"
   authors:
     - name: Robert Feldt
-  venue: "Proceedings of the 1st International Workshop on Soft Computing Applied to Software Engineering"
+  venue: "SCASE"
   year: 1999
-  type: Conference
+  type: Workshop
   pdfs:
     - http://drfeldt.googlepages.com/feldt_1999_gp_as_explorative_tool.pdf
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/scase_1999/feldt_1999_GPxtxsdp.pdf
@@ -9908,11 +10084,8 @@
   venue: "Proceedings of ParCo'95"
   year: 1995
   type: Conference
-  urls:
-    - http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.26.1301
-    - https://core.ac.uk/display/22182162
   pdfs:
-    - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.1301.pdf
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/ryan_1995_paragen.pdf
 
 - key: "rich:overview"
   title: "The Programmer's Apprentice"
