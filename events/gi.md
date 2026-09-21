@@ -19,6 +19,9 @@ p {
 **Tutorial on Genetic Improvement ([GECCO 2026](https://gecco-2026.sigevo.org/))**
 - [<i class="fa-solid fa-external-link-alt"></i> Event page](https://gecco-2026.sigevo.org/Tutorial?itemId=8220)
 
+**Tutorial on Genetic Improvement ([PPSN 2026](https://ppsn2026.disi.unitn.it/))**
+- [<i class="fa-solid fa-external-link-alt"></i> Event page](https://ppsn2026.disi.unitn.it/#tutorials)
+
 ## 2025
 
 **14th International Workshop on Genetic Improvement (GI@[ICSE 2025](https://conf.researchr.org/home/icse-2025))**
