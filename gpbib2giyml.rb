@@ -162,6 +162,9 @@ out.each do |h|
   when /Workshop on Intelligent Bug Fixing/i
     h[:venue] = 'IBF'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
+  when /(Ital-IA|National Conference on Artificial Intelligence).*Generative AI/i
+    h[:venue] = 'GenAI@Ital-IA'
+    h[:type] = 'Workshop' if h[:type] != 'Keynote'
   when /International Workshop on Empirical Software Engineering in Practice/i
     h[:venue] = 'IWESEP'
     h[:type] = 'Workshop' if h[:type] != 'Keynote'
@@ -270,6 +273,8 @@ out.each do |h|
     h[:venue] = 'ICCIS'
   when /International Conference on Evolutionary Computation/
     h[:venue] = 'ICEC'
+  when /International Conference on Learning Representations/
+    h[:venue] = 'ICLR'
   when /International Conference on Program Comprehension/
     h[:venue] = 'ICPC'
   when /Companion.*International Conference on Software Engineering/i,

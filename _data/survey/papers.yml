@@ -22,11 +22,14 @@
   year: 2026
   abstract: "We use Genetic Improvement (GI)-based Automated Program Repair (APR) techniques for syntax correction on transpiled code produced by both large language models (LLMs) and rule-based translators. A three-stage pipeline was developed, combining rule-based test generation, an optional LLM-driven preprocessing stage for syntax correction, and GI-based repair strategies. LLM-assisted Type Change Operator and Boolean Value Change Operator were added to the MAGPIE GI framework, which reduced transpilation bugs from Python to Java by 33 percent (LLM) and by 18 percent on rule-based translations. A comprehensive taxonomy of common transpilation bugs was developed, mapping faults to mutation operators, alongside an evaluation of the effectiveness of secondary LLM interventions."
   type: Workshop
+  doi: https://doi.org/10.1145/3786162.3793234
   tags:
     - SBSE
     - Magpie
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2026/jadhwani_2026_GI.pdf
+  video:
+    - http://gpbib.cs.ucl.ac.uk/gi2026/gi_2026_slides/GI_Transpilation_Repair_Presentation.mp4
 
 - key: "Fredericks:2026:GI"
   title: "Databending as a Target for Genetic Improvement"
@@ -36,14 +39,18 @@
     - name: Reihaneh Hariri
   venue: "GI@ICSE"
   year: 2026
-  abstract: "Genetic improvement (GI) is typically used as an approach for optimizing source code for a particular task, where examples include minimizing runtime, improving energy efficiency, and reducing memory footprint. As with any evolutionary algorithm, GI will optimize for a desired fitness objective and can be coerced into objectives that are not strictly for the improvement of software. This paper presents in-progress work towards using GI as a method for generating glitch art, or artwork that is created by intentionally corrupting files (i.e., databending) to provide an aesthetic or emotional experience. We use the PYGGI framework to explore how code patches can impact an existing glitch art framework, with the goal being to find new and interesting outputs that are different from what can be found with random search."
+  abstract: "Genetic improvement (GI) is typically used as an approach for optimizing source code for a particular task, where examples include minimizing runtime, improving energy efficiency, and reducing memory footprint. As with any evolutionary algorithm, GI will optimize for a desired fitness objective and can be coerced into objectives that are not strictly for the improvement of software. This paper presents in-progress work towards using GI as a method for generating glitch art, or artwork that is created by intentionally corrupting files (i.e., databending) to provide an aesthetic or emotional experience. We use the PYGGI framework to explore how code patches can impact an existing glitch art framework, with the goal being to find new and interesting outputs that are different from what can be found with random search. Our proof of concept did not find a significant different between randomly-generated and PYGGI-generated images, and as such we present future avenues of research to improve results."
   type: Workshop
+  doi: https://doi.org/10.1145/3786162.3793235
   tags:
     - PyGGI
   urls:
     - https://github.com/efredericks/pyggi/tree/gi2026
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2026/Fredericks_2026_GI.pdf
+  video:
+    - https://youtu.be/Yf83ymFplCA?si=-RjweAv32fDls1O2
+    - http://gpbib.cs.ucl.ac.uk/gi2026/gi_2026_slides/DtabendingForGI_Hariri.mp4
 
 - key: "lee:2026:GI"
   title: "GI-Agent Search-Based LLM Agent for Code Optimization with Genetic Improvement"
@@ -55,6 +62,7 @@
   year: 2026
   abstract: "GI-Agent integrates Large Language Models (LLMs) into Genetic Improvement (GI) to autonomously optimise computer program source code. GI-Agent uses an LLM to allow multi-generational evolutionary learning. Guided by a memory of past actions, known in AI as reflections, it exploits them to give insight and rationale behind software edits, giving better context-aware, less stochastic, mutations and crossovers. Reflections enable GI-Agent to reason about both earlier compile time and runtime successes and failures, and so refine its strategy over time. Integrated into the Magpie GI framework and evaluated on the SAT4J (Java) and MiniSAT (C++) benchmarks, GI-Agent consistently generates more viable and better variants. By combining few-shot prompting with structured search, GI-Agent demonstrates how LLMs can enhance automated program optimisation."
   type: Workshop
+  doi: https://doi.org/10.1145/3786162.3793232
   tags:
     - AI
     - LLM
@@ -62,6 +70,8 @@
     - Magpie
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2026/lee_2026_GI.pdf
+  video:
+    - http://gpbib.cs.ucl.ac.uk/gi2026/gi_2026_slides/GI_Agent_Final_HD1080p.mov
 
 - key: "langdon:2026:GI"
   title: "Improving a Parallel C++ Intel SSE SIMD Linear Genetic Programming Interpreter"
@@ -72,12 +82,61 @@
   year: 2026
   abstract: "We use evolution to speedup the Single Instruction Multiple Data (SIMD) parallel interpreter for Peter Nordin's linear genetic programming GPengine. MAGPIE (Machine Automated General Performance Improvement via Evolution of software) is provided with existing hand-optimised source code, its revision history and the Intel 256 bit SSE intrinsics documentation as XML. Fitness is measured via perf's hardware instruction count, while validity and safety are enforced through systematic test cases and memory sandbox protection via Linux mprotect. In a matter of hours local search discovered small, non-obvious program modifications that improve the performance of 128 lines of SIMD C++ code by 2 percent, without sacrificing correctness. We see genetic improvement can effectively exploit Intel Advanced Vector Extensions (AVX) parallelism, automatically refining complex code that is difficult for human developers to optimise reliably."
   type: Workshop
+  doi: https://doi.org/10.1145/3786162.3793233
   tags:
     - SBSE
     - testing
     - Magpie
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gi2026/langdon_2026_GI.pdf
+  video:
+    - http://gpbib.cs.ucl.ac.uk/gi2026/gi_2026_slides/langdon_2026_GI_slides.mp4
+    - https://youtu.be/cnO0gABryz0
+
+- key: "lange2026shinkaevolve"
+  title: "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution"
+  authors:
+    - name: Robert Tjarko Lange
+    - name: Yuki Imajuku
+    - name: Edoardo Cetin
+  venue: "ICLR"
+  year: 2026
+  type: Conference
+  tags:
+    - LLM
+  urls:
+    - https://openreview.net/forum?id=lKEdGCoDNC
+    - https://openreview.net/pdf?id=lKEdGCoDNC
+  pdfs:
+    - https://www.egr.msu.edu/~goodman/HumiesEntries2026/Lange/Paper1.pdf
+  video:
+    - https://mediaspace.msu.edu/media/Lange_video-2026/1_kc1c191z
+
+- key: "Nemeth:2026:UKCI"
+  title: "PCA Landscape Projections for Meta-Analysis of Genetic Improvement for Source Code"
+  authors:
+    - name: Zsolt Nemeth
+    - name: Penn Faulkner Rainford
+    - name: Barry Porter
+  venue: "UKCI"
+  year: 2026
+  type: Workshop
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Nemeth_2026_UKCI.pdf
+
+- key: "Langdon:2026:UKCI"
+  title: "Parallel Program Analysis for Linear Genetic Programming"
+  authors:
+    - name: William B. Langdon
+  venue: "UKCI"
+  year: 2026
+  type: Workshop
+  tags:
+    - SBSE
+  urls:
+    - https://github.com/wblangdon/GPengine
+  pdfs:
+    - https://solar.cs.ucl.ac.uk/pdf/Langdon_2026_UKCI.pdf
 
 - key: "Mar___Thesis"
   title: "Automated Software Transplantation for Procedural Content Generation"
@@ -92,6 +151,18 @@
     - https://discovery.ucl.ac.uk/id/eprint/10215160
   pdfs:
     - https://discovery.ucl.ac.uk/id/eprint/10215160/1/Mar___Thesis.pdf
+
+- key: "Renzullo:thesis"
+  title: "Biological Properties of Software Insights for Measuring and Manipulating Programs"
+  authors:
+    - name: Joseph Renzullo
+  venue: ""
+  year: 2025
+  type: PhdThesis
+  tags:
+    - APR
+  urls:
+    - https://www.proquest.com/dissertations-theses/biological-properties-software-insights-measuring/docview/3279178908/se-2
 
 - key: "blot:2025:ACMsurveys"
   title: "A Comprehensive Survey of Benchmarks for Improvement of Software's Non-Functional Properties"
@@ -585,6 +656,22 @@
     - https://www.youtube.com/watch?v=Bi-zMtpSVzI&list=PLI8fiFpB7BoL5jUkvndWvSEywsu8dMdIo&index=5
     - https://gpbib.cs.ucl.ac.uk/gi2025/gi_2025_slides/langdon_icse2025.mp4
 
+- key: "Pinna:2025:Ital-IA-TW"
+  title: "Improving LLM-Generated Code via Genetic Improvement: A Summary of Recent Advances"
+  authors:
+    - name: Giovanni Pinna
+    - name: Damiano Ravalico
+    - name: Luigi Rovito
+    - name: Luca Manzoni
+    - name: Andrea De Lorenzo
+  venue: "GenAI@Ital-IA"
+  year: 2025
+  type: Workshop
+  tags:
+    - LLM
+  pdfs:
+    - https://ceur-ws.org/Vol-4121/Ital-IA_2025_paper_111.pdf
+
 - key: "Garg:2025:ICSE"
   title: "Improving Code Performance Using LLMs in Zero-Shot: RAPGen"
   authors:
@@ -643,7 +730,7 @@
     - name: William B. Langdon
     - name: Hector Menendez
     - name: Karine Even-Mendoza
-  venue: "Reach Emerging Architectures in Computing Horizons conference"
+  venue: "REACH"
   year: 2025
   type: Conference
   tags:
@@ -670,6 +757,25 @@
   video:
     - https://www.youtube.com/playlist?list=PLI8fiFpB7BoL5jUkvndWvSEywsu8dMdIo
 
+- key: "DBLP:journals/sncs/PinnaRRML25"
+  title: "Exploring the Effect of Genetic Improvement for Large Language Models-Generated Code"
+  authors:
+    - name: Giovanni Pinna
+    - name: Damiano Ravalico
+    - name: Luigi Rovito
+    - name: Luca Manzoni
+    - name: Andrea De Lorenzo
+  venue: "SN Computer Science"
+  year: 2025
+  type: Journal
+  doi: https://doi.org/10.1007/S42979-025-04281-X
+  tags:
+    - LLM
+  urls:
+    - https://ricerca.unityfvg.it/entities/publication/12729e95-6106-45d1-8458-bde910685434/details
+  pdfs:
+    - https://arts.units.it/bitstream/11368/3115302/1/s42979-025-04281-x.pdf
+
 - key: "Dakhama:2025:SSBSE"
   title: "GreenMalloc: Allocator Optimisation for Industrial Workloads"
   authors:
@@ -681,11 +787,13 @@
   venue: "SSBSE"
   year: 2025
   type: Conference
+  doi: https://doi.org/10.1007/978-3-032-24839-8_11
   tags:
     - SBSE
   urls:
     - https://conf.researchr.org/track/ssbse-2025/ssbse-2025-papers
     - https://arxiv.org/abs/2510.21405
+    - https://rdcu.be/fgX7o
     - https://zenodo.org/records/17182847
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Dakhama_2025_SSBSE.pdf
@@ -700,10 +808,12 @@
   venue: "SSBSE"
   year: 2025
   type: Conference
+  doi: https://doi.org/10.1007/978-3-032-24839-8_4
   tags:
     - SBSE
     - Magpie
   urls:
+    - https://rdcu.be/fgX5u
     - https://conf.researchr.org/track/ssbse-2025/ssbse-2025-papers
   pdfs:
     - https://solar.cs.ucl.ac.uk/pdf/bouras_2025_ssbse.pdf
@@ -723,6 +833,18 @@
     - https://github.com/wblangdon/rand_malloc
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2025_UKCI.pdf
+
+- key: "Akiba:2025:ICFP"
+  title: "ShinkaEvolve in Action: How a Human-AI Partnership Conquered a Coding Challenge"
+  authors:
+    - name: Takuya Akiba
+  venue: "sakana.ai Blog"
+  year: 2025
+  type: Web
+  urls:
+    - https://sakana.ai/icfp-2025/
+  pdfs:
+    - https://www.egr.msu.edu/~goodman/HumiesEntries2026/Lange/Paper2.pdf
 
 - key: "bosamiya-thesis"
   title: "A Principled Approach Towards Unapologetic Security"
@@ -1028,7 +1150,7 @@
     - name: Maria Kechagia
     - name: Aldeida Aleti
     - name: Federica Sarro
-  venue: "FSE, Ideas, Visions and Reflections"
+  venue: "FSE-IVR"
   year: 2024
   type: Conference
   tags:
@@ -1048,7 +1170,7 @@
       aka: Saemundur O. Haraldsson
     - name: John Robert Woodward
     - name: Markus Wagner
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2024
   type: Conference
   doi: https://doi.org/10.1145/3638530.3648418
@@ -1059,7 +1181,7 @@
     - name: Gudny Birna Saemundsdottir
     - name: Saemundur Oskar Haraldsson
       aka: Saemundur O. Haraldsson
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2024
   type: Conference
   doi: https://doi.org/10.1145/3638530.3654408
@@ -1305,6 +1427,18 @@
   video:
     - https://www.youtube.com/watch?v=hFbopnZoMR8&list=PLI8fiFpB7BoIRqJuY80XwmH-DFT_71y2S&index=8
 
+- key: "Liou:thesis"
+  title: "Automatic Program Optimization by Semantic Relaxation for Parallel Processing Accelerators"
+  authors:
+    - name: Jhe-Yu Liou
+  venue: ""
+  year: 2023
+  type: PhdThesis
+  urls:
+    - https://www.proquest.com/openview/3d3600d8ed0e1614c646341d1a436082/1
+  pdfs:
+    - https://graduation.asu.edu/sites/g/files/litvpz3431/files/2024-12/ASU_FALL2023_FinalWEB_Book2_12.5.24.pdf
+
 - key: "AlNajar:thesis"
   title: "Estimating Coastal Evolution with Machine Learning"
   authors:
@@ -1540,7 +1674,7 @@
     - name: Justyna Petke
     - name: Aymeric Blot
     - name: David Clark
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2023
   type: Conference
   doi: https://doi.org/10.1145/3583133.3590542
@@ -2284,7 +2418,7 @@
     - name: Kenneth Reid
     - name: Yuan Yuan
     - name: Wolfgang Banzhaf
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2022
   type: Conference
   doi: https://doi.org/10.1145/3520304.3528945
@@ -3003,7 +3137,7 @@
   authors:
     - name: William B. Langdon
     - name: Oliver Krauss
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2021
   type: Conference
   doi: https://doi.org://doi:10.5281/zenodo.3755346
@@ -3024,7 +3158,7 @@
     - name: Michela Lorandi
     - name: Leonardo Lucio Custode
     - name: Giovanni Iacca
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3462716
@@ -3039,7 +3173,7 @@
     - name: John R. Woodward
     - name: Markus Wagner
     - name: Bradley Alexander
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3461416
@@ -3053,7 +3187,7 @@
     - name: Gunel Jahangirova
     - name: Mauro Pezze
     - name: Paolo Tonella
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2021
   type: Conference
   doi: https://doi.org/10.1145/3449726.3462722
@@ -3695,6 +3829,8 @@
   doi: https://doi.org/10.1145/3418055
   urls:
     - https://github.com/lioujheyu/cuda_evolve
+  pdfs:
+    - https://profsforrest.github.io/homepage/data/publications/TACO-GEVO-2020.pdf
 
 - key: "Yuan:2020:TBE"
   title: "Toward Better Evolutionary Program Repair: an Integrated Approach"
@@ -3970,7 +4106,7 @@
     - name: Emily Winter
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389912
@@ -3984,7 +4120,7 @@
     - name: Xiaodong Wang
     - name: Stephanie Forrest
     - name: Carole-Jean Wu
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3398139
@@ -3998,7 +4134,7 @@
       aka: Saemundur O. Haraldsson
     - name: John R. Woodward
     - name: Markus Wagner
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389885
@@ -4008,7 +4144,7 @@
   authors:
     - name: Una-May O'Reilly
     - name: Erik Hemberg
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389882
@@ -4019,7 +4155,7 @@
     - name: Daniel R. Tauritz
     - name: John Woodward
       aka: John R. Woodward
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2020
   type: Conference
   doi: https://doi.org/10.1145/3377929.3389855
@@ -4078,6 +4214,8 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/gecco2020/companion_files/wksp145s2-file1.pdf
+  slides:
+    - https://www.acrocon.com/~wagner/pub/2020gecco-giCurseOfFitnessEstimation.pdf
 
 - key: "Reid:2020:GI9"
   title: "Optimising the Fit of Stack Overflow Code Snippets into Existing Code"
@@ -4416,6 +4554,7 @@
     - APR
   urls:
     - http://hdl.handle.net/10993/41348
+    - https://www.uni.lu/snt-fr/events/phd-defense-deep-pattern-mining-for-program-repair/
   pdfs:
     - https://orbilu.uni.lu/bitstream/10993/41348/1/thesis.pdf
 
@@ -4587,7 +4726,7 @@
     - name: W. B. Langdon
       aka: William B. Langdon
     - name: Justyna Petke
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2019
   type: Conference
   doi: https://doi.org/10.1145/3319619.3321954
@@ -6816,15 +6955,6 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1604.pdf
 
-- key: "Peled:2016:ISoLA"
-  title: "Automatic Synthesis of Code Using Genetic Programming"
-  authors:
-    - name: Doron Peled
-  venue: "7th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation, ISoLA 2016"
-  year: 2016
-  type: Conference
-  doi: https://doi.org/10.1007/978-3-319-47166-2_12
-
 - key: "Mullapudi:2016:acmTG"
   title: "Automatically scheduling halide image processing pipelines"
   authors:
@@ -6833,7 +6963,7 @@
     - name: Dillon Sharlet
     - name: Jonathan Ragan-Kelley
     - name: Kayvon Fatahalian
-  venue: "ACM Transactions on Graphics"
+  venue: "ACM TOG"
   year: 2016
   type: Journal
   doi: https://doi.org/10.1145/2897824.2925952
@@ -6868,6 +6998,20 @@
   doi: https://doi.org/10.1007/s10489-016-0804-0
   tags:
     - APR
+
+- key: "langdon:2016:cec"
+  title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
+  authors:
+    - name: William B. Langdon
+    - name: Gabriela Ochoa
+  venue: "CEC"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1109/CEC.2016.7744177
+  pdfs:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_cec.pdf
+  slides:
+    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gggp/langdon_key_cec-2016_clean.pdf
 
 - key: "Highnam:2016:DSN-W"
   title: "An Uncrewed Aerial Vehicle Attack Scenario and Trustworthy Repair Architecture"
@@ -6943,7 +7087,7 @@
     - name: John R. Woodward
     - name: Colin G. Johnson
     - name: Alexander E. I. Brownlee
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931728
@@ -6957,7 +7101,7 @@
   authors:
     - name: Lukas Sekanina
     - name: Vlastimil Kapusta
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2016
   type: Conference
   doi: https://doi.org/10.1145/2908961.2931740
@@ -7201,6 +7345,15 @@
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_ieeeblog.pdf
 
+- key: "Peled:2016:ISoLA"
+  title: "Automatic Synthesis of Code Using Genetic Programming"
+  authors:
+    - name: Doron Peled
+  venue: "ISoLA"
+  year: 2016
+  type: Conference
+  doi: https://doi.org/10.1007/978-3-319-47166-2_12
+
 - key: "Kou:2016:IWESEP"
   title: "A Capable Crossover Technique on Automatic Program Repair"
   authors:
@@ -7214,19 +7367,22 @@
   tags:
     - APR
 
-- key: "langdon:2016:cec"
-  title: "Genetic Improvement: A Key Challenge for Evolutionary Computation"
+- key: "langdon:2016:PPSNlandscape"
+  title: "Fitness Landscape of the Triangle Program"
   authors:
     - name: William B. Langdon
-    - name: Gabriela Ochoa
-  venue: "Key Challenges and Future Directions of Evolutionary Computation"
+    - name: Mark Harman
+  venue: "LAHS@PPSN"
   year: 2016
-  type: Conference
-  doi: https://doi.org/10.1109/CEC.2016.7744177
+  type: Workshop
+  tags:
+    - SBSE
+    - testing
+  urls:
+    - https://discovery.ucl.ac.uk/id/eprint/1500877/
+    - https://github.com/wblangdon/triangle
   pdfs:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/langdon_2016_cec.pdf
-  slides:
-    - http://www.cs.ucl.ac.uk/staff/W.Langdon/gggp/langdon_key_cec-2016_clean.pdf
+    - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1605.pdf
 
 - key: "Xu:2016:NDSS"
   title: "Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers"
@@ -7272,23 +7428,6 @@
     - SBSE
   pdfs:
     - http://www.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/Langdon_2016_PPSN.pdf
-
-- key: "langdon:2016:PPSNlandscape"
-  title: "Fitness Landscape of the Triangle Program"
-  authors:
-    - name: William B. Langdon
-    - name: Mark Harman
-  venue: "PPSN-2016 Workshop on Landscape-Aware Heuristic Search"
-  year: 2016
-  type: Conference
-  tags:
-    - SBSE
-    - testing
-  urls:
-    - https://discovery.ucl.ac.uk/id/eprint/1500877/
-    - https://github.com/wblangdon/triangle
-  pdfs:
-    - http://www.cs.ucl.ac.uk/fileadmin/UCL-CS/research/Research_Notes/rn1605.pdf
 
 - key: "DBLP:conf/wcre/LimaSLCMF16"
   title: "Haskell in Green Land: Analyzing the Energy Behavior of a Purely Functional Language"
@@ -7973,8 +8112,6 @@
     - testing
   pdfs:
     - http://www0.cs.ucl.ac.uk/staff/m.harman/icst15.pdf
-  slides:
-    - http://icst2015.ist.tu-graz.ac.at/icst2015_harman_s.pdf
 
 - key: "Langdon:2013:ieeeTEC"
   title: "Optimising Existing Software with Genetic Programming"
@@ -8891,7 +9028,7 @@
   authors:
     - name: Erik M. Fredericks
     - name: Betty H. C. Cheng
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2480790
@@ -8905,7 +9042,7 @@
     - name: Michael Kommenda
     - name: Stefan Wagner
     - name: Heinz Dobler
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2013
   type: Conference
   doi: https://doi.org/10.1145/2464576.2482713
@@ -9391,7 +9528,7 @@
     - name: Nicholas Modly
     - name: Westley Weimer
     - name: Jason Lawrence
-  venue: "ACM Transactions on Graphics"
+  venue: "ACM TOG"
   year: 2011
   type: Journal
   doi: https://doi.org/10.1145/2070781.2024186
@@ -9438,7 +9575,7 @@
   authors:
     - name: Josh L. Wilkerson
     - name: Daniel R. Tauritz
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2011
   type: Conference
   doi: https://doi.org/10.1145/2001858.2001995
@@ -9784,7 +9921,7 @@
     - name: Francisco Fernandez
     - name: Oscar Garnica
     - name: Sonia Lopez
-  venue: "GECCO-comp"
+  venue: "GECCO-Comp"
   year: 2009
   type: Conference
   doi: https://doi.org/10.1145/1570256.1570271
@@ -9936,6 +10073,8 @@
   venue: "GECCO 2004 Workshop Proceedings"
   year: 2004
   type: Conference
+  urls:
+    - https://www.cs.york.ac.uk/rts/docs/GECCO_2004/Workshop%20proceedings/gecco04/prof101.html
   pdfs:
     - http://gpbib.cs.ucl.ac.uk/gecco2004/WUGW001.pdf
 
@@ -10069,10 +10208,9 @@
   venue: "GP"
   year: 1996
   type: Conference
+  doi: https://doi.org/10.7551/mitpress/3242.001.0001
   tags:
     - SBSE
-  urls:
-    - http://cognet.mit.edu/library/books/view?isbn=0262611279
   pdfs:
     - http://cognet.mit.edu/sites/default/files/books/9780262315876/pdfs/9780262315876_chap56.pdf
 
