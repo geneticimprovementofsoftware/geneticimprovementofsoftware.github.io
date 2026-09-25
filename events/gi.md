@@ -78,7 +78,7 @@ p {
 **Tutorial on Genetic Improvement ([PPSN 2020](https://ppsn2020.liacs.leidenuniv.nl))**
 - [<i class="fa-solid fa-file-pdf"></i> Slides]({{"/slides/PPSN2020_GItutorial.pdf" | relative_url }})
 
-**Special session on Genetic Improvement ([WCCI 2020](https://wcci2020.org/))**
+**Special session on Genetic Improvement ([WCCI 2020](https://web.archive.org/web/20210801212432/https://wcci2020.org/))**
 - [<i class="fa-solid fa-link"></i> Event page]({{"/events/wcci2020" | relative_url }})
 
 **9th International Workshop on Genetic Improvement (GI@[GECCO 2020](https://gecco-2020.sigevo.org/))**
